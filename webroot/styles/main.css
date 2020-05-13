@@ -1,0 +1,182 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	--text-color: black;
+	--link-color: #08c;
+	--link-color-hover: #005580;
+	--tip-color: grey;
+
+	color: var(--taxt-color);
+	font-family: sans-serif;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+	transition: color .2s;
+}
+
+a:hover {
+	color: var(--link-color-hover);
+	text-decoration: none;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+	outline: 0;
+}
+
+.tip {
+	color: var(--tip-color);
+	font-size: 0.96em;
+}
+
+.default,
+#navbar {
+	padding: 12px;
+}
+
+#navbar>.title {
+	display: inline-block;
+	font-size: 1.12em;
+	margin-right: 20px;
+}
+
+#navbar>a {
+	margin: 0 6px;
+}
+
+#navbar>a.actived {
+	font-weight: bold;
+}
+
+#navbar,
+#app {
+	width: 940px;
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+/* stylesheet for index.html */
+
+
+
+/* stylesheet for list.html */
+
+.items {
+	padding: 12px;
+}
+
+.items>.item {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+
+	border-bottom: 1px solid grey;
+	padding: 12px 0;
+}
+
+.items .thumbnail {
+	width: 230px;
+	min-width: 230px;
+	max-width: 230px;
+	max-height: 230px;
+
+	margin-right: 12px;
+}
+
+.items .name {
+	font-size: 1.12em;
+}
+
+.items .description {
+	color: grey;
+	font-size: 0.94em;
+}
+
+/* stylesheet for games/*.html */
+
+.game {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 12px;
+}
+
+.game>.leftbox {
+	display: inline-block;
+	flex-shrink: 1;
+	flex-grow: 1;
+}
+
+.game .name {
+	font-size: 1.24em;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+.game .description {
+	font-size: 0.96em;
+	margin-bottom: 12px;
+}
+
+.game .tags {
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+}
+
+.game .taggroup {
+	text-align: right;
+	padding-top: 3px;
+}
+
+.game .tag {
+	display: inline-block;
+	padding: 2px 6px;
+	margin: 2px;
+	border: 1px solid #989898;
+}
+
+.game .screenshots>* {
+	width: 100%;
+}
+
+.game>.rightbox {
+	display: inline-block;
+	width: 300px;
+	max-width: 300px;
+	padding: 8px;
+	margin-left: 12px;
+}
+
+.game .thumbnail {
+	width: 280px;
+	min-width: 280px;
+	max-width: 280px;
+	max-height: 280px;
+
+	margin-bottom: 18px;
+}
+
+.game .links {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+}
+
+.game .links>a {
+	font-size: 1.02em;
+	padding: 4px 1px;
+}

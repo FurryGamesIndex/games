@@ -1,0 +1,34 @@
+<div class="game">
+	<div class="leftbox">
+		<div class="name">{{ get(game, lang, 'name') }}</div>
+		<div class="description">{{ get(game, lang, 'description').replace("\n", "<br>") }}</div>
+		<div class="tags"><table><tbody>
+		{% for group in game.tags %}
+			<tr>
+				<td class="taggroup">{{ group }}: </td>
+				<td>
+				{% for tag in game.tags[group] %}
+				<div class="tag"><a href="">{{ tag }}</a></div>
+				{% endfor %}
+				</td>
+			</tr>
+		{% endfor %}
+		</tbody></table></div>
+		<div class="screenshots">
+		{% for i in game.screenshots %}
+			<img src="{{ image_uri(i, name) }}">
+		{% endfor %}
+		</div>
+	</div>
+	<div class="rightbox">
+		<img class="thumbnail" src="{{ image_uri(game.thumbnail, name) }}" >
+		<div class="links">
+		{% for i in game.links %}
+			{% set li = link_info(i, game.tr, ui, lang) %}
+			<a href="{{ li.href }}" target="_blank">{{ li.content }}</a>
+		{% endfor %}
+		</div>
+		{% include 'copying.html' %}
+	</div>
+</div>
+

@@ -1,0 +1,14 @@
+<div class="items">
+{% for name, game in games.items() %}
+	<div class="item">
+		<img class="thumbnail" src="{{ image_uri(game.thumbnail, name) }}" >
+		<div class="content">
+		<div class="name"><a href="games/{{ name }}.html">{{ get(game, lang, 'name') }}</a></div>
+		<div class="description">{{ get(game, lang, 'description') }}</div>
+		</div>
+	</div>
+{% endfor %}
+	<div style="height: 20px;"></div>
+{% include 'copying.html' %}
+</div>
+

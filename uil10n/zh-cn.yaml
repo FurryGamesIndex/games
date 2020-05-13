@@ -1,0 +1,16 @@
+page_title: 兽人控游戏索引 (Beta)
+
+nav_index: 主页
+nav_list: 所有游戏
+nav_search: 搜索
+nav_faq: 常见问题
+nav_contributors: 贡献者
+nav_languages: 语言
+
+copying_area_tip: 发现缺少了东西或错误？或者希望向本列表添加游戏？立即<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md">参与贡献</a>！
+copying_area_copyright: 版权所有 The FurryGamesIndex project，本站点的数据按照 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">创作共用署名-非商业性使用-相同方式共享(CC-BY-NC-SA) 4.0</a> 许可。部分数据（如游戏截图）版权归原始权利人所有。我们仅在<a href="https://en.wikipedia.org/wiki/Fair_use">合理使用</a>的前提下发布它们。
+
+stock-link-website: <i class="fas fa-home"></i> 官方网站
+stock-link-steam: <i class="fab fa-steam-symbol"></i> 在 Steam 上获取
+stock-link-itch.io: <i class="fab fa-itch-io"></i> 在 itch.io 上获取
+stock-link-twitter: <i class="fab fa-twitter"></i> 官方 Twitter
