@@ -10,7 +10,10 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 dir = "games"
-output = "/tmp/tmp/output"
+if len(argv) < 2:
+    output = "output"
+else:
+    output = argv[1]
 
 renderer_files = [os.path.splitext(f)[0] \
         for f in os.listdir("renderers") \
