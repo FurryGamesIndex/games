@@ -36,7 +36,7 @@ jobs:
         git config --global user.name "deploy-bot"
         cd output
         git init
-        git remote add master git@github.com:FurryGamesIndex/FurryGamesIndex.github.io
+        git remote add origin git@github.com:FurryGamesIndex/FurryGamesIndex.github.io
         git add .
         git commit -m 'deploy website'
         git push -f origin master
