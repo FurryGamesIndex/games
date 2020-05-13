@@ -7,6 +7,7 @@ body {
 	--link-color: #08c;
 	--link-color-hover: #005580;
 	--tip-color: grey;
+	--border-color: grey;
 
 	color: var(--taxt-color);
 	font-family: sans-serif;
@@ -63,7 +64,9 @@ a:focus {
 
 /* stylesheet for index.html */
 
-
+#contact {
+	padding-left: 12px;
+}
 
 /* stylesheet for list.html */
 
@@ -77,7 +80,7 @@ a:focus {
 	justify-content: flex-start;
 	align-items: center;
 
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid var(--border-color);
 	padding: 12px 0;
 }
 
@@ -95,7 +98,7 @@ a:focus {
 }
 
 .items .description {
-	color: grey;
+	color: var(--tip-color);
 	font-size: 0.94em;
 }
 
@@ -129,7 +132,7 @@ a:focus {
 .game .tags {
 	margin-bottom: 12px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid var(--border-color);
 }
 
 .game .taggroup {
@@ -173,7 +176,7 @@ a:focus {
 
 	margin-bottom: 20px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid grey;
+	border-bottom: 1px solid var(--border-color);
 }
 
 .game .links>a {
