@@ -1,6 +1,6 @@
 # 标准化标签
 
-目前标准化的标签不足，环境贡献新的标签！
+目前标准化的标签不足，欢迎贡献新的标签！
 
 ## type 命名空间
 
@@ -11,14 +11,26 @@
 
 ## male 命名空间/ female 命名空间
 
+> 在 male 命名空间表示兽人/人类生理性别是男性，在 female 命名空间表示兽人/人类生理性别是女性
+
 - `canine` 主要角色包括犬科兽人
 - `felidae` 主要角色包括猫科兽人
 - `dragon` 主要角色包括龙兽人
+- `dog` 主要角色包括犬兽人
 - `wolf` 主要角色包括狼兽人
 - `cat` 主要角色包括猫兽人
 - `leopard` 主要角色包括豹兽人
+- `panther` 主要角色包括黑豹兽人
+- `snow-leopard` 主要角色包括雪豹兽人
 - `tiger` 主要角色包括虎兽人
+- `bear` 主要角色包括熊兽人
+- `shark` 主要角色包括鲨鱼兽人
+- `bird` 主要角色包括鸟兽人
+- `mixed` 主要角色包括混合兽人（如虎鲨）
 - `humankind` 主要角色包括人类或智人
+- `futanari` 主要角色包括扶她（通常放置于 female 命名空间）
+- `males-only` 主要角色只有男性（只出现于 male 命名空间）
+- `females-only` 主要角色只有女性（只出现于 female 命名空间）
 - `muscle` 主要角色中包括肌肉丰满的角色
 - `anal` 主要角色之间包括肛交性行为
 - `blowjob` 主要角色之间包括口交性行为
@@ -31,6 +43,7 @@
 - `uncensored` 游戏立绘、CG、模型等中没有经过审查工序（无码）
 - `engine-renpy` 游戏使用了 RenPy 引擎
 - `multiple-endings` 游戏有多种结局
+- `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo）
 
 ## lang 命名空间
 
