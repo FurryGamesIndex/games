@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Furry Games Index</title>
+	<meta name="description" content="A project to index furry & kemono games.">
+</head>
+<body>
+	<script src="scripts/base.js"></script>
+	<script>
+		try {
+			const lmap = {
+				'en': 'en',
+				'en-US': 'en',
+				'zh-CN': 'zh-cn',
+				'zh-TW': 'zh-tw',
+				'zh-HK': 'zh-tw',
+				'zh-SG': 'zh-cn',
+				'zh': 'zh-cn'
+			};
+			const matched = navigator.languages.some(i => {
+				if (lmap.hasOwnProperty(i)) {
+					window.location.replace('/' + lmap[i] + '/');
+					return true;
+				}
+				return false;
+			});
+			if (!matched)
+				window.location.replace('/en/');
+		} catch (e) {
+			window.location.replace('/en/');
+		}
+	</script>
+</body>
+</html>
