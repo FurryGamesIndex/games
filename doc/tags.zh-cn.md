@@ -10,11 +10,13 @@
 
 - `visual-novel` 视觉小说，AVG/ADV 游戏
 - `strategy` 策略游戏
+- `adventure` 冒险游戏
 - `board` 棋牌游戏
 - `action` 动作游戏
 - `fighting` 格斗游戏
 - `music` 音乐游戏
 - `shooter` 射击游戏
+- `puzzle` 解谜/益智游戏
 - `bara` 包含较多男同性恋向作品
 - `yuri` 包含较多女同性恋向作品
 - `yiff` 包含成人（R-18）限制级内容的作品
@@ -50,6 +52,8 @@
 - `fox` 主要角色包括狐属兽人
 
 - `mixed` 主要角色包括混合兽人（如虎鲨）
+
+- `transfur` 主要角色中可能出现兽化
 
 - `humankind` 主要角色包括人类或智人
 
@@ -102,3 +106,6 @@
 - `ios` 游戏官方支持 Apple iOS
 - `nds` 游戏官方支持 Nintendo DS
 
+## sys 命名空间
+
+- `staging` 这篇游戏说明尚未完成
