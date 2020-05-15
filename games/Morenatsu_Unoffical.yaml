@@ -4,8 +4,6 @@ description: |
   This unofficial version was made by adding the Torahiko route scenario and some new graphics (that unrelated person made) to official “Morenatsu ver.3.5''
 
 tags:
-  sys:
-    - staging
   type:
     - visual-novel
     - bara
@@ -26,7 +24,6 @@ tags:
   misc:
     - freeware
     - multiple-endings
-    - die
   lang:
     - ja
     - zh-unoffical
