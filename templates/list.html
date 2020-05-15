@@ -1,10 +1,11 @@
 <div class="items">
 {% for name, game in games.items() %}
+{% set desc = get(game, lang, 'description') %}
 	<div class="item">
 		<img class="thumbnail" src="{{ image_uri(game.thumbnail, name) }}" >
 		<div class="content">
 		<div class="name"><a href="games/{{ name }}.html">{{ get(game, lang, 'name') }}</a></div>
-		<div class="description">{{ get(game, lang, 'description') }}</div>
+		<div class="description">{{ desc[:480] + (desc[480:] and '...') }}</div>
 		</div>
 	</div>
 {% endfor %}
