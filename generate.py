@@ -21,7 +21,7 @@ renderer_files = [os.path.splitext(f)[0] \
 languages = [f for f in os.listdir(os.path.join(dir, "l10n"))]
 games = {}
 
-for f in os.listdir(dir):
+for f in sorted(os.listdir(dir)):
     file = os.path.join(dir, f)
     game_id = os.path.splitext(f)[0]
 

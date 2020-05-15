@@ -19,6 +19,7 @@ jobs:
 
     - name: gen
       run: |
+        python3 --version
         ./generate.py
 
     - name: ssh-key
