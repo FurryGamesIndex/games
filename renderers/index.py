@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+from datetime import datetime
 from markdown2 import Markdown
 
 context = {
@@ -10,6 +11,7 @@ context = {
 def render(games, env, language, language_ui, output):
     context["lang"] = language
     context["ui"] = language_ui
+    context["datetime"] = datetime
 
     markdowner = Markdown()
     with open("README." + language + ".md") as f:
