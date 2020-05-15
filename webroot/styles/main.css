@@ -8,6 +8,8 @@ body {
 	--link-color-hover: #005580;
 	--tip-color: grey;
 	--border-color: grey;
+	--box-warn-border-color: #fc3;
+	--box-warn-color: #fff3ca;
 
 	color: var(--taxt-color);
 	font-family: sans-serif;
@@ -109,6 +111,13 @@ a:focus {
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	align-items: flex-start;
+	padding: 12px;
+}
+
+.topbox .warning {
+	border: 1px solid var(--box-warn-border-color);
+	background-color: var(--box-warn-color);
+
 	padding: 12px;
 }
 
