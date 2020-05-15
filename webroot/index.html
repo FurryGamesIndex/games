@@ -7,19 +7,25 @@
 	<meta name="description" content="A project to index furry & kemono games.">
 </head>
 <body>
+	<noscript>
+		If you have disabled JavaScript, please click <a href="/en/">this link</a> to enter this site.<br>
+		如果你禁用了 JavaScript，请点击<a href="/zh-cn/">此链接</a>进入本站。<br>
+		如果你禁用了 JavaScript，請點選<a href="/zh-tw/">此連結</a>進入本站。<br>
+	</noscript>
 	<script src="scripts/base.js"></script>
 	<script>
 		try {
 			const lmap = {
 				'en': 'en',
-				'en-US': 'en',
-				'zh-CN': 'zh-cn',
-				'zh-TW': 'zh-tw',
-				'zh-HK': 'zh-tw',
-				'zh-SG': 'zh-cn',
+				'en-us': 'en',
+				'zh-cn': 'zh-cn',
+				'zh-tw': 'zh-tw',
+				'zh-hk': 'zh-tw',
+				'zh-sg': 'zh-cn',
 				'zh': 'zh-cn'
 			};
 			const matched = navigator.languages.some(i => {
+				i = i.toLowerCase();
 				if (lmap.hasOwnProperty(i)) {
 					window.location.replace('/' + lmap[i] + '/');
 					return true;
@@ -31,6 +37,8 @@
 		} catch (e) {
 			window.location.replace('/en/');
 		}
+
+
 	</script>
 </body>
 </html>
