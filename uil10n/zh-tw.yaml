@@ -13,7 +13,10 @@ copying_area_copyright: 版權所有 The FurryGamesIndex project，本站點的�
 index_link_github: Github 倉庫
 index_link_tg: Telegram 頻道
 
-stock-link-website: <i class="fas fa-home"></i> 官方網站
-stock-link-steam: <i class="fab fa-steam-symbol"></i> 在 Steam 上獲取
-stock-link-itch.io: <i class="fab fa-itch-io"></i> 在 itch.io 上獲取
-stock-link-twitter: <i class="fab fa-twitter"></i> 官方 Twitter
+warnbox_staging: 這是一個施工中的頁面，其內容可能在將來發生破壞性改變。
+
+stock-link-website: 官方網站
+stock-link-steam: 在 Steam 上獲取
+stock-link-itch.io: 在 itch.io 上獲取
+stock-link-twitter: 官方 Twitter
+stock-link-weibo: 微博

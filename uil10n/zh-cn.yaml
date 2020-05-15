@@ -13,7 +13,10 @@ copying_area_copyright: 版权所有 The FurryGamesIndex project，本站点的�
 index_link_github: Github 仓库
 index_link_tg: Telegram 频道
 
-stock-link-website: <i class="fas fa-home"></i> 官方网站
-stock-link-steam: <i class="fab fa-steam-symbol"></i> 在 Steam 上获取
-stock-link-itch.io: <i class="fab fa-itch-io"></i> 在 itch.io 上获取
-stock-link-twitter: <i class="fab fa-twitter"></i> 官方 Twitter
+warnbox_staging: 这是一个施工中的页面，其内容可能在将来发生破坏性改变。
+
+stock-link-website: 官方网站
+stock-link-steam: 在 Steam 上获取
+stock-link-itch.io: 在 itch.io 上获取
+stock-link-twitter: 官方 Twitter
+stock-link-weibo: 微博

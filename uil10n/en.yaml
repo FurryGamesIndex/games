@@ -13,8 +13,11 @@ copying_area_copyright: Copyright The FurryGamesIndex project, The data on this 
 index_link_github: Github Repository
 index_link_tg: Telegram Channel
 
-stock-link-website: <i class="fas fa-home"></i> Offical Website
-stock-link-steam: <i class="fab fa-steam-symbol"></i> Get on Steam
-stock-link-itch.io: <i class="fab fa-itch-io"></i> Get on itch.io
-stock-link-twitter: <i class="fab fa-twitter"></i> Offical Twitter
-stock-link-patreon: <i class="fab fa-patreon"></i> Patreon
+warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
+
+stock-link-website: Offical Website
+stock-link-steam: Get on Steam
+stock-link-itch.io: Get on itch.io
+stock-link-twitter: Offical Twitter
+stock-link-patreon: Patreon
+stock-link-weibo: Weibo
