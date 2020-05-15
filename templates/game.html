@@ -27,7 +27,7 @@
 	</div>
 	<div class="rightbox">
 		<img class="thumbnail" src="{{ image_uri(game.thumbnail, name) }}" >
-		<div class="links">
+		<div class="links links-group">
 		{% for i in game.links %}
 			{% set li = link_info(i, game.tr, ui, lang) %}
 			<a href="{{ li.href }}" target="_blank">{{ li.content }}</a>

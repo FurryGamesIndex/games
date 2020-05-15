@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 }
 
 html {
@@ -47,6 +47,12 @@ a:focus {
 .tip {
 	color: var(--tip-color);
 	font-size: 0.96em;
+}
+
+.links-group a {
+	font-size: 1.02em;
+	padding: 4px 1px;
+	line-height: 1.46em;
 }
 
 .default,
@@ -199,10 +205,4 @@ a:focus {
 	margin-bottom: 20px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid var(--border-color);
-}
-
-.game .links>a {
-	font-size: 1.02em;
-	line-height: 1.42em;
-	padding: 4px 1px;
 }

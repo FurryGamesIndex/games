@@ -50,6 +50,11 @@ shutil.copytree("assets", os.path.join(output, "assets"))
 languages.append('en')
 with open(os.path.join("uil10n", "en.yaml")) as stream:
     base_l10n = yaml.safe_load(stream)
+
+print("Rendering misc single pages")
+renderer = importlib.import_module("utils.singles-misc-renderer")
+renderer.render(games, env, "c", base_l10n, output)
+
 for language in languages:
     with open(os.path.join("uil10n", language + ".yaml")) as stream:
         ui = base_l10n.copy()
