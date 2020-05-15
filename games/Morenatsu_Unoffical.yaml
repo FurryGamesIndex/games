@@ -1,0 +1,45 @@
+name:  Morenatsu (Unoffical ver) / 漏れなつ。（非公式版）
+
+description: |
+  This unofficial version was made by adding the Torahiko route scenario and some new graphics (that unrelated person made) to official “Morenatsu ver.3.5''
+
+tags:
+  sys:
+    - staging
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - canine
+    - felidae
+    - ursidae
+    - wolf
+    - cat
+    - fox
+    - dog
+    - dragon
+    - lion
+    - humankind
+    - muscle
+    - human-on-furry
+  misc:
+    - freeware
+    - multiple-endings
+    - die
+  lang:
+    - ja
+    - zh-unoffical
+  platform:
+    - windows
+
+links:
+  - name: Unoffical chinese version (expired)
+    uri: https://forum.doge.im/d/5
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/ibsFl03.png
+  - https://i.imgur.com/ytwT3Ml.png
+  - https://i.imgur.com/sqKu2tL.jpg

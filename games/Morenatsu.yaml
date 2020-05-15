@@ -1,0 +1,45 @@
+name: Morenatsu / 漏れなつ。
+
+description: |
+  FIXME: English version is required
+  在高考前的最后一个暑假，在城市的主角收到小时候住的村子（水乡村）里朋友来信。因为祖父母还住在那里，主角就决定回老家探望。
+  主角搭公车回到水乡村，遇见在巴士站等待他的虎彦，稍晚参加朋友们为他举办的欢迎会，介绍九个主要角色之后进入分歧点，在此选择故事进行的八条路线（其中一条路线包含两位主要角色）。
+
+tags:
+  sys:
+    - staging
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - canine
+    - felidae
+    - ursidae
+    - wolf
+    - cat
+    - fox
+    - dog
+    - dragon
+    - lion
+    - humankind
+    - muscle
+    - human-on-furry
+  misc:
+    - freeware
+    - multiple-endings
+    - die
+  lang:
+    - ja
+    - zh-unoffical
+  platform:
+    - windows
+
+links:
+  - name: Unoffical chinese version
+    uri: https://tieba.baidu.com/p/3452271872
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.loli.net/2020/01/03/r3UYmXD6dqxPaT8.jpg
