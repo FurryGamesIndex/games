@@ -1,0 +1,47 @@
+name: GrandNestling
+
+description: |
+  《GrandNestling》 is an detective Gal game, whose game object is to use limited clues to investigate and uncover crimes, as well as to help the main character Lanye to free himself from the shadow of a car incident and to find his life goal. Currently the game only supports simplified Chinese and traditional Chinese. English would be available in future.
+  The main characters are all presented in Furry appearances and the game involves plots about Furry Boy‘s Love.
+  All illustrations, scenes and plots in 《GrandNestling》 provide players with such a sense of reality that they could almost feel like the main character Lanye himself! With a creative multi-line narrative system, players can experience even more hidden plots through the eyes of another 7 main characters. Also, the game brings to the player 20 more characters with delicate illustrations and dialogues, just to create a realistic life experience of Lanye and build immersive social interactions with others.
+
+tags:
+  author:
+    - HinaKageDogs
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - canine
+    - felidae
+    - wolf
+    - dog
+    - cat
+    - tiger
+    - white-tiger
+    - muscle
+    - anal
+  misc:
+    - unpublished
+    - multiple-endings
+  lang:
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+  
+links:
+  - name: .steam
+    uri: steam:1250670
+  - name: .weibo
+    uri: https://weibo.com/u/3868792778
+  - name: Old demo release (expired)
+    uri: https://weibo.com/ttarticle/p/show?id=2309404303102474900712
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/1250670/ss_75eef248428f6d4fa5c6f0f7f3b0153aa8891f70.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1250670/ss_9b01aa548510faef36f44e5a4a016435f9d56826.1920x1080.jpg
