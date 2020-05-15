@@ -1,3 +1,8 @@
+<div class="default topbox">
+{% if checktag(game, "sys", "staging") %}
+	<div class="box warning">{{ ui.warnbox_staging }}</div>
+{% endif %}
+</div>
 <div class="game">
 	<div class="leftbox">
 		<div class="name">{{ get(game, lang, 'name') }}</div>
