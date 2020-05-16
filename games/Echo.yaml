@@ -1,0 +1,61 @@
+name: Echo
+
+description: |
+  Echo is a horror visual novel about a small, isolated, desert town located somewhere in the Southwest.
+  During spring break, Chase, a young otter who grew up in Echo, is back for a school project aimed at documenting an event in the 1870's that may have lead to the town's current state. He's joined by five friends, who grew up with him in Echo, taking the chance to have a little reunion. Unfortunately, Chase begins to realize that their memories of Echo may have been a bit rose-tinted. Being back in the town digs up old and painful memories; secrets that lead to rifts in the group that have been boiling under the surface for years. On top of that, Chase begins to realize that Echo itself may have its own secrets. Odd and unexplained memories that he always blamed on an overactive childhood imagination may not have been imagined at all.
+  Finally, an event is triggered that turns these fears into something much more tangible and dangerous. Chase is now forced into a situation in which he must help his friends either face, or escape their demons. Either way, Echo is not keen on letting them go...
+
+tags:
+  author:
+    - 'The Echo Project'
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - canine
+    - felidae
+    - wolf
+    - lizard
+    - Otter
+    - goat
+    - fox
+    - lynx
+    - muscle
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - zh-unoffical
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://echoproject.itch.io/echo
+  - name: .patreon
+    uri: patreon:EchoGame
+  - name: .twitter
+    uri: twitter:EchoTheVN 
+  - name: .unoffical-patch-zh-cn
+    uri: https://m.weibo.cn/detail/4494852081375308
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzMwMjcyNjAucG5n/original/do8b07.png
+  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzIxNjgyNTMucG5n/original/o%2FnTj9.png
+  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzMwMjcyNTEucG5n/original/4dU6Tc.png
+  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzMwMjcyNzEucG5n/original/tN253o.png
+  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzIxNjgyNTQucG5n/original/frrpiX.png
+
