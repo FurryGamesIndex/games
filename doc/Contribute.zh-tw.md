@@ -121,6 +121,10 @@ description: |
 
 描述部分的格式如上。第一行是固定不變的 `description: |`，換行開始編寫描述，描述的每一行都要以兩個空格開頭。
 
+此處應寫英文描述。我們會在後面介紹國際化機制，在哪裡輸入其他語言。
+
+> 但是，一個例外是，如果是該條目編輯的早期，允許暫時使用其他語言，但是必須標記 `sys:staging` 標籤。
+
 ### 標籤
 
 ```
@@ -217,11 +221,16 @@ links:
 
 FGI 支援的庫存連結包括以下幾個
 
-- `.website`: 作者的官方網站
+- `.website`: 官方網站
 - `.itch.io`: 在 itch.io 平臺上獲取
 - `.steam`: 在 Steam 平臺上獲取
-- `.patreon`: 在 Patreon 平臺上贊助作者
-- `.twitter`: 作者的 Twitter
+- `.patreon`: Patreon (在 Patreon 平臺上贊助作者)
+- `.twitter`: 官方 Twitter
+- `.weibo`: 官方微博
+- `.unoffical-patch-zh-cn`: 非官方簡體中文補丁
+- `.unoffical-ver-zh-cn`: 非官方簡體中文版本
+- `.unoffical-patch-zh-tw`: 非官方繁體中文補丁
+- `.unoffical-ver-zh-tw`: 非官方繁體中文版本
 
 當你使用庫存連結時，你就無需寫這麼一段長字，而且無需為每種語言寫一份，因為庫存連結是固定的，每種語言都可以自動處理。
 

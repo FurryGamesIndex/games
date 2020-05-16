@@ -121,6 +121,10 @@ description: |
 
 描述部分的格式如上。第一行是固定不变的 `description: |`，换行开始编写描述，描述的每一行都要以两个空格开头。
 
+此处应写英文描述。我们会在后面介绍国际化机制，在哪里输入其他语言。
+
+> 但是，一个例外是，如果是该条目编辑的早期，允许暂时使用其他语言，但是必须标记 `sys:staging` 标签。
+
 ### 标签
 
 ```
@@ -217,11 +221,16 @@ links:
 
 FGI 支持的库存链接包括以下几个
 
-- `.website`: 作者的官方网站
+- `.website`: 官方网站
 - `.itch.io`: 在 itch.io 平台上获取
 - `.steam`: 在 Steam 平台上获取
-- `.patreon`: 在 Patreon 平台上赞助作者
-- `.twitter`: 作者的 Twitter
+- `.patreon`: Patreon (在 Patreon 平台上赞助作者)
+- `.twitter`: 官方 Twitter
+- `.weibo`: 官方微博
+- `.unoffical-patch-zh-cn`: 非官方简体中文补丁
+- `.unoffical-ver-zh-cn`: 非官方简体中文版本
+- `.unoffical-patch-zh-tw`: 非官方繁体中文补丁
+- `.unoffical-ver-zh-tw`: 非官方繁体中文版本
 
 当你使用库存链接时，你就无需写这么一段长字，而且无需为每种语言写一份，因为库存链接是固定的，每种语言都可以自动处理。
 

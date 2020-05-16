@@ -25,8 +25,12 @@ def link_info(link, l10n_data, ui_l10n_data, language):
     a = {}
     a["href"] = uri_to_src(link["uri"])
 
+    icon = '<i class="fas fa-external-link-alt"></i>'
+
     if name[0] == '.':
-        a["content"] = icons[name[1:]] + "&nbsp;" + ui_l10n_data["stock-link-" + name[1:]]
+        if name[1:] in icons:
+            icon = icons[name[1:]]
+        a["content"] = icon + "&nbsp;" + ui_l10n_data["stock-link-" + name[1:]]
     else:
         l10n_name = l10n_data.get(language, {}).get("links-tr", {}).get(name)
         if l10n_name is not None:
@@ -34,7 +38,6 @@ def link_info(link, l10n_data, ui_l10n_data, language):
         else:
             a["content"] = name
 
-        icon = '<i class="fas fa-external-link-alt"></i>'
         if "icon" in link:
             icon = icons[link["icon"]]
         a["content"] = icon + "&nbsp;" + a["content"]

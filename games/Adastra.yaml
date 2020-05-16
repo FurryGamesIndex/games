@@ -46,7 +46,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: Unoffical chinese mod
+  - name: .unoffical-patch-zh-cn
     uri: https://weibo.com/7429628292/J16RMawmi
 
 thumbnail: thumbnail.jpg
