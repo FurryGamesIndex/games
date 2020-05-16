@@ -21,6 +21,8 @@ body {
 	--border-color: grey;
 	--box-warn-border-color: #fc3;
 	--box-warn-color: #fff3ca;
+	--box-notice-border-color: #6cf;
+	--box-notice-color: #f0faff;
 
 	color: var(--taxt-color);
 	font-family: sans-serif;
@@ -53,6 +55,20 @@ a:focus {
 	font-size: 1.02em;
 	padding: 4px 1px;
 	line-height: 1.46em;
+}
+
+.box {
+	padding: 10px;
+}
+
+.box.warning {
+	border: 1px solid var(--box-warn-border-color);
+	background-color: var(--box-warn-color);
+}
+
+.box.notice {
+	border: 1px solid var(--box-notice-border-color);
+	background-color: var(--box-notice-color);
 }
 
 .default,
@@ -131,11 +147,8 @@ a:focus {
 	padding: 12px;
 }
 
-.topbox .warning {
-	border: 1px solid var(--box-warn-border-color);
-	background-color: var(--box-warn-color);
-
-	padding: 12px;
+.topbox .box:not(:last-child) {
+	margin-bottom: 8px;
 }
 
 .game>.leftbox {
