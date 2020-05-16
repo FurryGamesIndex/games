@@ -1,0 +1,23 @@
+name: Armello
+
+description: |
+  Armello is a grand swashbuckling adventure that combines three styles of play; The deep tactics of card games with the rich strategy of table top board games, combined with a character role-playing system.
+  As a hero from one of the clans of Armello, you'll quest, scheme, hire agents, explore, vanquish monsters, cast spells and face off against other players, with one ultimate end goal in mind — storming the palace and becoming King or Queen of Armello. The Kingdom of Armello is as dangerous as it is beautiful, perils, banes and bandits hide around every corner and a spreading corruption known as the rot is leaving no creature untouched.
+  Armello is League of Geeks’ attempt to revolutionise digital board and card games, whilst providing players a rich world within which they can craft their own stories of epic adventure. The aim was to create a rich game full of backstabbing, close shaves, shattered alliances, ruses and empty promises - a perfect game to play online with your friends.
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:290340
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/290340/extras/steamstorebanner.png
+  - https://steamcdn-a.akamaihd.net/steam/apps/290340/ss_90d7cf6d5413ed61b6ffca4659086282b42c3fa1.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/290340/ss_aa5d6a4d236aee51fa0a93e8c605dba49f3e7c22.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/290340/ss_f3ea836c8f0e6c461df53731c6f504c913a52e51.1920x1080.jpg
