@@ -1,0 +1,27 @@
+name: Unlucky Seven
+
+description: |
+  About This Game
+  GameplayThe game is played only using the keyboard. You don't need a mouse - you can throw it away!
+  In Unlucky Seven you'll have the ability to control different characters to complete the game. The game is played from a side view (observer) and has many interactive elements or items that are necessary to complete the mission.
+  The key elements during the game are numerous dialogues and answers that the player chooses. Remember to choose wisely!
+  Elen's friends always remember to celebrate special occasions. Instead of attending Alcoholics Anonymous meeting, they go to a birthday party in a luxury motel. Unfortunately, the owner just ate a delicious human liver sausage. And the appetite comes with eating. The party of their life becomes a party of their death.
+  Experience the thrill of adventure through the beautiful pixel-realistic world, where you are who you eat, and your choices decide the fate of your friends. Meet the hidden goals and desires of each character and jeer as their plans are ruined.
+  Unlucky Seven will take you on a spacewalk and tell you a story about love, hate, and craving for human flesh.
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:579120
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/579120/ss_3b9a9743cb60f21c707c59dd72a84609ada9a802.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/579120/ss_f7edf313c8d5508ffbd2c64ac372c82d93b1ff88.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/579120/ss_15a47ee2e1c6d83edf62c5c6da7a342c40f9a717.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/579120/ss_9713ba742f8ef68f0aa833d9ee8113e9958ee1fe.1920x1080.jpg

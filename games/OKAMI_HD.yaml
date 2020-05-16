@@ -1,0 +1,21 @@
+name: OKAMI HD / 大神 絶景版
+
+description: |
+  Experience the critically acclaimed masterpiece with its renowned Sumi-e ink art style in breathtaking high resolution. Take on the role of Amaterasu, the Japanese sun goddess who inhabits the form of a legendary white wolf, on a quest to defeat Orochi, an eight-headed demon and tyrannical monster responsible for turning the world of Nippon into a ruined wasteland.
+  Players will be able to choose between modern widescreen format or the original release’s 4:3 ratio. Interactive loading game screens from the original game are also included.
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:587620
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/587620/ss_21797469f5b8a59e5013944931b111b39af37401.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/587620/ss_71f6af1f989df2aa6bc4e07a9ae407609c264b2e.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/587620/ss_cd53a4f4e19997789b43d4ffbfae495a338da93e.1920x1080.jpg
