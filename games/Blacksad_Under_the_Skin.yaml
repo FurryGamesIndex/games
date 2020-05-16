@@ -1,0 +1,32 @@
+name: "Blacksad: Under the Skin"
+
+description: |
+  About This Game
+  A dark corruption scandal in the heart of the New York City's underworld for charismatic detective John Blacksad!
+  The 50s, New York City: Joe Dunn, owner of a boxing club, is found dead.
+  Meanwhile, rising star Bobby Yale, due to take to the ring for the most important fight of his career, has mysteriously disappeared. 
+  Sonia Dunn, Joe’s daughter, takes over the gym and must deal with its financial woes. She hires private detective John Blacksad to investigate Yale’s disappearance. This sinister case will take our investigator to the darkest, most dismal depths of New York.
+  With its anthropomorphic characters and its incredible 1950s feel, BLACKSAD: Under the Skin promises all the eerily dark adventure of a detective novel, just like the eponymous comic book series.
+  Conduct the investigation in your own way. Make use of your feline senses as you hunt for new clues. Make decisions on behalf of Blacksad and influence the outcome of the case.Features:An official and all-new story for BLACKSAD, set in the comic book series’ unique world, perfectly recreated for gamers.
+  An investigative narrative game with gameplay combining investigations, puzzles, quick time events (QTE) and multiple-choice dialog.
+  Choices that directly influence the development of the character and the story's ending.
+  More than 30 characters, including new faces and old favorites, each with their own story.
+  An immersive world with a jazz soundtrack to rival the very best of Hollywood’s film noir.
+  Fans of adventure games will love its gameplay and narration while fans of the comic book series will be thrilled to rediscover the characters and graphic style of this unique world.
+  A dark world of anthropomorphic animals
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:1003890
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/1003890/ss_ca35f0bfc105f2061295ec6f62047ede8b7a7800.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1003890/ss_8552045075d19ccab59ef28d22aa3eb483ef87e1.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1003890/ss_0c8887086b78ce457eeac24e8d068db14b1797ef.1920x1080.jpg
