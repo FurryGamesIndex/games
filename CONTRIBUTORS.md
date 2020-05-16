@@ -23,6 +23,7 @@ HuaJi2333DaDa
 	Github: @HuaJi2333DaDa
 	
 	No contribution :-P
+	Chinese text is basically machine translation :-P
 
 
 	
