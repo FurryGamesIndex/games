@@ -22,8 +22,6 @@ description: |
   * Approximately six hours of playable length (if possible).
 
 tags:
-  sys:
-    - staging
   author:
     - 'DragonSnow'
     - '噬子有一层糯米外皮'
@@ -35,7 +33,10 @@ tags:
   male:
     - canine
     - felidae
+    - shark
     - wolf
+    - fox
+    - snow-leopard
     - transfur
     - humankind
     - anal
