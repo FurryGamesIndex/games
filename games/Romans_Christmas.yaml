@@ -1,0 +1,40 @@
+name: Roman's Christmas / 罗曼圣诞探案集
+
+description: |
+  About This Game
+  This is a detective game with classic gameplay and brand new stories, while all the characters are fuzzy animals!
+  If you encountered lags in game, please close your anti-virus software, click the "语言" in the title menu and change your Display mode.
+  You play as Roman, a detective who wishes to have a decent vacation at a small tavern in the suburbs. 13 travellers gathered here because of the heavy storm, and mysterious cases happened one after another...... In order not to spoil the hard-earned vacation, you must solve the cases and bring harmony back to the tavern.
+  There's 5 original cases in the game, and they are connected to each other. 
+  There is nothing new under the sun. However Apollion is quite a brave new world compared to the human world. Talk to the travelers to find out more about this country where all kinds of anthropomorphic animals live together. You can even enjoy throwing darts and guessing cards in the tavern.
+  Your fate is affected when making choices, so better make them good. BTW if you happen to have the power to rewind time, please use it wisely. 
+  We also have various methods to help you resolve the cases.
+  All detectives heavily depend on evidence. Please thoroughly go through each room of the tavern, inquire everyone for information.
+  As a wolf detective, Roman has his special perk — sniffing. Since we couldn’t afford making devices that can let you smell the scent of crime scene, we strongly suggest you to purchase a piece of meat and sniff it when it comes to the sniffing part — just kidding. We designed a way to visualize scents, so that you can solve cases with your nose.
+  Tarots point out the suspicious parts of evidences, so that you can make the best choice among them.
+  The roulette is made of 4 elements of a case — Motive, Technique, Weapon and Suspect. Complete the 4 quests and reach the truth!
+  Arrange the jetton in time order will help you have a clearer sight.
+  Find the contradictory and slap the correct evidence into the liar’s face! (Not recommended in real life)
+  The climax of chapter! Completely find out the truth of murder by completing the comic.
+  This game may contain scenes with blood.
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:926340
+  - name: .weibo
+    uri: https://www.weibo.com/ROMANSCHRISTMAS
+  - name: .twitter
+    uri: twitter:romanchristmas
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/926340/ss_6b56248c726c93d64a2e3af51e72ae0801bdb55b.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/926340/ss_fc8f91854037a78b50aea3cd1f30f4a12d83f75d.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/926340/ss_cca0dd13fb7a7c5e76cdd7954967ac26efbfbe90.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/926340/ss_7fa913c31b89e5c9c6b879dd885ec2ec16f31b95.1920x1080.jpg
