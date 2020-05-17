@@ -1,5 +1,12 @@
-* text eol=lf
+* text=auto
 
 *.png binary
 *.jpg binary
 *.webp binary
+
+*.ttf binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+
+webroot/webfonts/* binary
