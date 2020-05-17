@@ -44,6 +44,8 @@ tags:
     - zh
   publish:
     - itchio
+  platform:
+    - windows
 
 links:
   - name: .itch.io
