@@ -44,11 +44,11 @@ links:
     uri: https://shirokoi.itch.io/repeat-visual-novel
   - name: .patreon
     nri: patreon:shirokoi
-  - name: twitter
+  - name: .twitter
     uri: twitter:shirokoi
   - name: .unoffical-ver-zh-cn
     uri: https://simone-parker.itch.io/repeatzh
-  - name: Chinese group Twitter
+  - name: Chinese group's twitter
     uri: https://twitter.com/Crazy_Simone_
 
 thumbnail: thumbnail.jpg
