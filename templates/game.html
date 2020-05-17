@@ -1,14 +1,14 @@
 <div class="default topbox">
 {% if checktag(game, "sys", "staging") %}
-	<div class="box warning">{{ ui.warnbox_staging }}</div>
+	<div class="box warning">{{ ui.warnbox_staging|e }}</div>
 {% endif %}
 {% if checktag(game, "sys", "tagme") %}
-	<div class="box notice">{{ ui.noticebox_tagme }}</div>
+	<div class="box notice">{{ ui.noticebox_tagme|e }}</div>
 {% endif %}
 </div>
 <div class="game">
 	<div class="leftbox">
-		<div class="name">{{ get(game, lang, 'name') }}</div>
+		<div class="name">{{ get(game, lang, 'name')|e }}</div>
 		<div class="description">{{ get_desc(game, lang) }}</div>
 		<div class="tags"><table><tbody>
 		{% for group in game.tags %}
@@ -33,7 +33,7 @@
 		<div class="links links-group">
 		{% for i in game.links %}
 			{% set li = link_info(i, game.tr, ui, lang) %}
-			<a href="{{ li.href }}" target="_blank">{{ li.content }}</a>
+			<a href="{{ li.href }}" target="_blank">{{ li.content|e }}</a>
 		{% endfor %}
 		</div>
 		{% include 'copying.html' %}

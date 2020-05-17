@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from html import escape
 from markdown2 import Markdown
 
 def get(game, language, key):
@@ -12,7 +13,7 @@ def get(game, language, key):
 def get_desc(game, language):
     desc = get(game, language, "description")
     if "description-format" not in game:
-        return desc.replace("\n", "<br>")
+        return escape(desc).replace("\n", "<br>")
     elif game["description-format"] == "markdown":
         markdowner = Markdown(extras=["strike"])
         return markdowner.convert(desc)
