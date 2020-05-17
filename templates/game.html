@@ -1,9 +1,9 @@
 <div class="default topbox">
 {% if checktag(game, "sys", "staging") %}
-	<div class="box warning">{{ ui.warnbox_staging|e }}</div>
+	<div class="box warning">{{ ui.warnbox_staging }}</div>
 {% endif %}
 {% if checktag(game, "sys", "tagme") %}
-	<div class="box notice">{{ ui.noticebox_tagme|e }}</div>
+	<div class="box notice">{{ ui.noticebox_tagme }}</div>
 {% endif %}
 </div>
 <div class="game">
