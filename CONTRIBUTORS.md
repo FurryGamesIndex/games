@@ -23,5 +23,3 @@ HuaJi2333DaDa
 	Github: @HuaJi2333DaDa
 	
 	Games submitter
-
-	
