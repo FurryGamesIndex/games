@@ -22,8 +22,6 @@ HuaJi2333DaDa
 	Twitter: https://twitter.com/HuaJi2333dada
 	Github: @HuaJi2333DaDa
 	
-	No contribution :-P
-	Chinese text is basically machine translation :-P
-
+	Games submitter
 
 	
