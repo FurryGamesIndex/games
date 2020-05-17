@@ -43,7 +43,7 @@ links:
   - name: .itch.io
     uri: https://shirokoi.itch.io/repeat-visual-novel
   - name: .patreon
-    nri: patreon:shirokoi
+    uri: patreon:shirokoi
   - name: .twitter
     uri: twitter:shirokoi
   - name: .unoffical-ver-zh-cn
