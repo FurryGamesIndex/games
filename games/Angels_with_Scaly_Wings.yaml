@@ -1,0 +1,34 @@
+name: Angels with Scaly Wings
+
+description: |
+  Angels with Scaly Wings is a unique visual novel set in a world populated by dragons.
+  After the discovery of a mysterious portal, you are selected as one of the few humans to travel to the world of dragons. While you serve as an ambassador, you learn more about this strangely familiar place, and discover that your human colleague knows more than he’s letting on…
+  It will be up to you and the friends you make to uncover the conspiracy that threatens the newly discovered world - and in the process, you may even find love.
+  Epic storyline
+  With a script of over 175.000 words, our mindbending story will lead you through a number of dramatic twists and turns.
+  Hang out with the locals
+  Meet with a variety of dragons on 5 main and 5 secondary character routes. Listen to their stories and learn about their hopes, dreams and problems.
+  The choice is yours
+  Make deep, impactful decisions that can affect the game world permanently and lead you to more than 13 different endings.
+  A town full of secrets
+  Investigate a number of mysteries during free time sections. Manage your time wisely and be careful who you meet with, as each encounter may bring forth unintended consequences.
+  Unlockable gallery
+  Find exclusive images of the main cast.
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:571880
+  - name: .unoffical-patch-zh-cn
+    uri: https://steamcommunity.com/sharedfiles/filedetails/?id=1631230813
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/571880/ss_efa69afb9c1f6dbaf2e748738a3758deeb058595.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/571880/ss_f552f9624ac4800bc361648d2f4b9be75d0f3530.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/571880/ss_83832a3da49e26973a8cc0ffd658287905bd4bc3.1920x1080.jpg
