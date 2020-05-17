@@ -15,3 +15,13 @@ Utopic Panther
 	Current maintainer of the project.
 	Chinese Documents.
 	Games submitter.
+
+HuaJi2333DaDa
+
+	Telegram: @HuaJi2333dada
+	Twitter: https://twitter.com/HuaJi2333dada
+	Github: @HuaJi2333DaDa
+	
+	Games submitter
+
+	
