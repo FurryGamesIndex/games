@@ -33,7 +33,7 @@
 		<div class="links links-group">
 		{% for i in game.links %}
 			{% set li = link_info(i, game.tr, ui, lang) %}
-			<a href="{{ li.href }}" target="_blank">{{ li.content|e }}</a>
+			<a href="{{ li.href }}" target="_blank">{{ li.content }}</a>
 		{% endfor %}
 		</div>
 		{% include 'copying.html' %}
