@@ -9,7 +9,7 @@
 <div class="game">
 	<div class="leftbox">
 		<div class="name">{{ get(game, lang, 'name') }}</div>
-		<div class="description">{{ get(game, lang, 'description').replace("\n", "<br>") }}</div>
+		<div class="description">{{ get_desc(game, lang) }}</div>
 		<div class="tags"><table><tbody>
 		{% for group in game.tags %}
 			<tr>

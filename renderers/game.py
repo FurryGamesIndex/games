@@ -3,6 +3,7 @@
 import os
 from utils.image_uri import image_uri
 from utils.i18n import get
+from utils.i18n import get_desc
 from utils.link import link_info
 
 def checktag(game, namespace, value):
@@ -11,8 +12,9 @@ def checktag(game, namespace, value):
 context = {
     "image_uri": image_uri,
     "get": get,
+    "get_desc": get_desc,
     "link_info": link_info,
-    "checktag": checktag
+    "checktag": checktag,
 }
 
 def render(games, env, language, language_ui, output):
