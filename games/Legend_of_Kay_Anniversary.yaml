@@ -1,0 +1,26 @@
+name: Legend of Kay Anniversary
+
+description: |
+  10 years after its initial release, Legend of Kay - Anniversary is a thoroughly remastered version of the original game: high-resolution textures; new, more detailed character models; modern rendering techniques and crystal-clear surround sound give this great classic a new shine.
+  Full of fond allusions to old martial arts films and pop culture quotes, Legend of Kay - Anniversary is both an incredibly funny game and a challenging action-adventure for young and old alike.
+  Key Features:25 different levels with over 15 enemy types and epic boss battles.
+  3 different primary weapons (sword/hammer/claws) with distinct combat styles.
+  Various mini-games such as wild boar racing, dragon flying and wolf riding.
+  Online rankings: compare your score with your friends’ and compete against the best in the world.
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:313810
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/313810/ss_bef045ad8f206a6aa14c2ee62e75d2a45886a892.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/313810/ss_fbcd6838f8b4a40066f432672b42d430c4b737d4.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/313810/ss_92cb0a61036fb0c5bc2df1f00517bfde318e278c.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/313810/ss_edb983b437f0ff817d58585dedae8a791f474f81.1920x1080.jpg
