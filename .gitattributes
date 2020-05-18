@@ -1,4 +1,8 @@
-* text=auto
+* text=auto eol=lf
+
+*.yaml text
+*.yml text
+*.md text
 
 *.png binary
 *.jpg binary
