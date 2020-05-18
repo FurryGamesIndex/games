@@ -1,0 +1,37 @@
+name: Oschemo Island Secrets / オスケモアイランドの秘密
+
+description: |
+  現代の桃源郷とも言われているオスケモアイランドに来た主人公が、オスケモといちゃいちゃするビジュアルノベルゲームとなっております。
+  小説『オスケモアイランドの秘密』( https://www.pixiv.net/novel/show.php?id=8736738 )の後日談となりますが、簡単なおさらいのためのシナリオが含まれているので読んでいなくても遊んでいただけるかと思います。
+  下記のたくさんの人にご助力いただいて、やっと完成できました。
+  楽しんでもらえると嬉しいです。
+
+  『キャラクターデザイン』
+  ガドーナ=クリーノ:まなびこさん
+  仁鰐 交牙:ちささん
+  青領巾 鮫冷:クロマさん
+  ベルンヴァト=アンドレ:せいけーさん
+  魚利 虎落:のこさん
+  白頭箔 白尾:蠧魚さん
+
+  『ロゴ』
+  森谷さん
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: Buy on dlsite
+    uri: https://www.dlsite.com/bl/work/=/product_id/RJ210651.html
+  - name: Author's twitter (とりあえず)
+    icon: twitter
+    uri: twitter:toriaezu13
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/7BjxhcV.jpg
+  - https://i.imgur.com/pCaf4qG.jpg
+  - https://i.imgur.com/57JqiHr.jpg
