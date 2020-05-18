@@ -235,7 +235,9 @@ FGI 支持的库存链接包括以下几个
 - `.steam`: 在 Steam 平台上获取
 - `.patreon`: Patreon (在 Patreon 平台上赞助作者)
 - `.twitter`: 官方 Twitter
+- `.furaffinity`: 官方 FurAffinity
 - `.weibo`: 官方微博
+- `.tumblr`: 官方 Tumblr
 - `.unoffical-patch-zh-cn`: 非官方简体中文补丁
 - `.unoffical-ver-zh-cn`: 非官方简体中文版本
 - `.unoffical-patch-zh-tw`: 非官方繁体中文补丁
@@ -263,7 +265,7 @@ URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上
     uri: https://weibo.com/u/2594829495
 ```
 
-使用一个可选选项 `icon` 属性可以为非库存链接设置图标，目前支持的图标有 `website`, `steam`, `itch.io`, `twitter`, `patreon`, `weibo`
+使用一个可选选项 `icon` 属性可以为非库存链接设置图标，目前支持的图标有 `website`, `steam`, `itch.io`, `twitter`, `furaffinity`, `patreon`, `weibo`, `tumblr`
 
 ### 缩略图
 

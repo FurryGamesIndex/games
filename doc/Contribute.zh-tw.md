@@ -235,7 +235,9 @@ FGI 支援的庫存連結包括以下幾個
 - `.steam`: 在 Steam 平臺上獲取
 - `.patreon`: Patreon (在 Patreon 平臺上贊助作者)
 - `.twitter`: 官方 Twitter
+- `.furaffinity`: 官方 FurAffinity
 - `.weibo`: 官方微博
+- `.tumblr`: 官方 Tumblr
 - `.unoffical-patch-zh-cn`: 非官方簡體中文補丁
 - `.unoffical-ver-zh-cn`: 非官方簡體中文版本
 - `.unoffical-patch-zh-tw`: 非官方繁體中文補丁
@@ -263,7 +265,7 @@ URI 部分可能是一個網址或 URL，比如上面的“在 itch.io 平臺上
     uri: https://weibo.com/u/2594829495
 ```
 
-使用一個可選選項 `icon` 屬性可以為非庫存連結設定圖示，目前支援的圖示有 `website`, `steam`, `itch.io`, `twitter`, `patreon`, `weibo`
+使用一個可選選項 `icon` 屬性可以為非庫存連結設定圖示，目前支援的圖示有 `website`, `steam`, `itch.io`, `twitter`, `furaffinity`, `patreon`, `weibo`, `tumblr`
 
 ### 縮圖
 
