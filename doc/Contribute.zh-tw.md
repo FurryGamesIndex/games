@@ -125,6 +125,15 @@ description: |
 
 > 但是，一個例外是，如果是該條目編輯的早期，允許暫時使用其他語言，但是必須標記 `sys:staging` 標籤。
 
+
+> 使用 `description-format` 可以使用特殊格式的富文字描述，目前支援 `markdown`。但修改字型大小的功能可能不適用。
+> 
+> ```
+> description-format: markdown
+> ```
+> 
+> 注意：即使使用其他格式，仍然需要使描述的每一行以兩個空格開頭。
+
 ### 標籤
 
 ```
@@ -234,7 +243,7 @@ FGI 支援的庫存連結包括以下幾個
 
 當你使用庫存連結時，你就無需寫這麼一段長字，而且無需為每種語言寫一份，因為庫存連結是固定的，每種語言都可以自動處理。
 
-如果確實需要非庫存連結，則名稱部分直接寫就可以了，注意這裡我們要使用英文（然後可能還需要再在它處寫其他語言的名稱）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese mod</code>，是建立一個指向非官方中文補丁的連結。
+如果確實需要非庫存連結，則名稱部分直接寫就可以了，注意這裡我們要使用英文（然後可能還需要再在它處寫其他語言的名稱）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code>，是建立一個指向非官方中文補丁的連結。（現在 Adastra 已經使用 `.unoffical-patch-zh-cn` 庫存連結代替此自定義連結，但本文件仍然使用舊的自定義連結以幫助你理解以及說明自定義連結的翻譯方法）
 
 URI 部分可能是一個網址或 URL，比如上面的“在 itch.io 平臺上獲取”連結上，我們應該跳轉開啟該遊戲的 itch.io 網頁，因此我們填寫 `https://echoproject.itch.io/adastra`
 
@@ -243,6 +252,18 @@ URI 部分可能是一個網址或 URL，比如上面的“在 itch.io 平臺上
 - Steam 平臺: `steam:ID` 比如 `steam:570840`，相當於 `https://store.steampowered.com/app/570840`
 - Twitter: `twitter:推主` 比如 `twitter:EchoTheVN`，相當於 `https://twitter.com/EchoTheVN/`
 - Patreon: `patreon:使用者名稱` 比如 `patreon:EchoGame`，相當於 `https://www.patreon.com/EchoGame`
+
+圖示
+
+庫存連結會自動獲得一個相關的“圖示”，比如 `.steam` 連結前將會有一個 steam 的機械 logo。但是，所有的非庫存連結都預設是一種圖示，如果因美觀等原因確實需要在自定義連結上使用非預設圖示，例如在 Changed 中
+
+```
+  - name: Author's weibo (DragonSnow)
+    icon: weibo
+    uri: https://weibo.com/u/2594829495
+```
+
+使用一個可選選項 `icon` 屬性可以為非庫存連結設定圖示，目前支援的圖示有 `website`, `steam`, `itch.io`, `twitter`, `patreon`, `weibo`
 
 ### 縮圖
 
@@ -279,14 +300,14 @@ description: |
   在這種充滿背叛和陰謀的氛圍下，您開始懷疑綁架您的外星人是否是您最信任的人。
 
 links-tr:
-  "Unoffical chinese mod": "非官方中文補丁"
+  "Unoffical chinese patch": "非官方中文補丁"
 ```
 
 其中，名字（name）和描述（description）和第 4 步中的格式一樣，只是你應該將其翻譯為相應語言。值得一提的是，如果遊戲沒有該語言的官方名字翻譯，你應該使用這種格式 `民間翻譯 / 官方原名`
 
 > 如果民間翻譯有多種，則推薦儘可能將常用名都寫上，如 `漏夏 / 洩漏的夏天 / 咱的夏天 / 漏れなつ。`，但不要在中文翻譯中寫非主要語言（這裡是日語）的翻譯，如 `Morenatsu`
 
-links-tr 部分是比較有趣的部分，還記得第 4 步中的“庫存連結”嗎，我們這裡，要將**非**庫存連結翻譯成本地語言。格式為第一行固定 `links-tr:`，隨後每一行的格式是 <code>&nbsp;&nbsp;"第 4 步中建立的名字": "翻譯"</code>。庫存按鈕無需翻譯(我們正是這樣利用庫存按鈕避免重複的翻譯工作)。
+links-tr 部分是比較有趣的部分，還記得第 4 步中的“庫存連結”嗎，我們這裡，要將**非**庫存連結翻譯成本地語言。格式為第一行固定 `links-tr:`，隨後每一行的格式是 <code>&nbsp;&nbsp;"第 4 步中建立的名字": "翻譯"</code>。庫存連結無需翻譯(我們正是這樣利用庫存連結避免重複的翻譯工作)。
 
 ## 第六步：將你編輯的遊戲描述檔案和資原始檔傳送給我們
 
@@ -294,7 +315,7 @@ links-tr 部分是比較有趣的部分，還記得第 4 步中的“庫存連�
 
 如果你要傳送 Pull Request，你應該這樣組織檔案：
 
-首先將本倉庫 fork 到你的賬戶下。你需要建立/修改這幾個檔案
+首先將本倉庫 fork 到你的賬戶下。（推薦你建立一個分支再修改）。你需要建立/修改這幾個檔案
 
 - `games/遊戲ID.yaml` - 你在第 4 步中編輯的遊戲描述檔案
 - `games/l10n/${language}/遊戲ID.yaml` - 你在第 5 步中編輯的翻譯檔案。對應放到相應語言的子目錄中，如中文 `games/l10n/zh-tw/遊戲ID.yaml`
@@ -303,3 +324,5 @@ links-tr 部分是比較有趣的部分，還記得第 4 步中的“庫存連�
 **註明你的身份（推薦，但如果你想保密，可以不寫）：編輯根目錄下的 `CONTRIBUTORS.md` 的檔案，把你的大名、貢獻和聯絡方式寫到檔案中！你的貢獻不應該被遺忘！**（如果你透過 Telegram 傳送，不要傳這個檔案，直接將你的個人資訊傳送給我即可）
 
 簽入你的修改，然後向 FGI 傳送 Pull Request 吧！
+
+> 傳送 Pull Request 合併後，如果希望再次貢獻，建議刪除 fork 後的倉庫重新 fork；本地倉庫建議 `git pull`。然後再建立分支並修改。

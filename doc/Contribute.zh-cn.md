@@ -125,6 +125,15 @@ description: |
 
 > 但是，一个例外是，如果是该条目编辑的早期，允许暂时使用其他语言，但是必须标记 `sys:staging` 标签。
 
+
+> 使用 `description-format` 可以使用特殊格式的富文本描述，目前支持 `markdown`。但修改字体大小的功能可能不适用。
+> 
+> ```
+> description-format: markdown
+> ```
+> 
+> 注意：即使使用其他格式，仍然需要使描述的每一行以两个空格开头。
+
 ### 标签
 
 ```
@@ -234,7 +243,7 @@ FGI 支持的库存链接包括以下几个
 
 当你使用库存链接时，你就无需写这么一段长字，而且无需为每种语言写一份，因为库存链接是固定的，每种语言都可以自动处理。
 
-如果确实需要非库存链接，则名称部分直接写就可以了，注意这里我们要使用英文（然后可能还需要再在它处写其他语言的名称）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese mod</code>，是创建一个指向非官方中文补丁的链接。
+如果确实需要非库存链接，则名称部分直接写就可以了，注意这里我们要使用英文（然后可能还需要再在它处写其他语言的名称）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code>，是创建一个指向非官方中文补丁的链接。（现在 Adastra 已经使用 `.unoffical-patch-zh-cn` 库存链接代替此自定义链接，但本文档仍然使用旧的自定义链接以帮助你理解以及说明自定义链接的翻译方法）
 
 URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上获取”链接上，我们应该跳转打开该游戏的 itch.io 网页，因此我们填写 `https://echoproject.itch.io/adastra`
 
@@ -243,6 +252,18 @@ URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上
 - Steam 平台: `steam:ID` 比如 `steam:570840`，相当于 `https://store.steampowered.com/app/570840`
 - Twitter: `twitter:推主` 比如 `twitter:EchoTheVN`，相当于 `https://twitter.com/EchoTheVN/`
 - Patreon: `patreon:用户名` 比如 `patreon:EchoGame`，相当于 `https://www.patreon.com/EchoGame`
+
+图标
+
+库存链接会自动获得一个相关的“图标”，比如 `.steam` 链接前将会有一个 steam 的机械 logo。但是，所有的非库存链接都默认是一种图标，如果因美观等原因确实需要在自定义链接上使用非默认图标，例如在 Changed 中
+
+```
+  - name: Author's weibo (DragonSnow)
+    icon: weibo
+    uri: https://weibo.com/u/2594829495
+```
+
+使用一个可选选项 `icon` 属性可以为非库存链接设置图标，目前支持的图标有 `website`, `steam`, `itch.io`, `twitter`, `patreon`, `weibo`
 
 ### 缩略图
 
@@ -279,14 +300,14 @@ description: |
   在这种充满背叛和阴谋的氛围下，您开始怀疑绑架您的外星人是否是您最信任的人。
 
 links-tr:
-  "Unoffical chinese mod": "非官方中文补丁"
+  "Unoffical chinese patch": "非官方中文补丁"
 ```
 
 其中，名字（name）和描述（description）和第 4 步中的格式一样，只是你应该将其翻译为相应语言。值得一提的是，如果游戏没有该语言的官方名字翻译，你应该使用这种格式 `民间翻译 / 官方原名`
 
 > 如果民间翻译有多种，则推荐尽可能将常用名都写上，如 `漏夏 / 泄漏的夏天 / 咱的夏天 / 漏れなつ。`，但不要在中文翻译中写非主要语言（这里是日语）的翻译，如 `Morenatsu`
 
-links-tr 部分是比较有趣的部分，还记得第 4 步中的“库存链接”吗，我们这里，要将**非**库存链接翻译成本地语言。格式为第一行固定 `links-tr:`，随后每一行的格式是 <code>&nbsp;&nbsp;"第 4 步中创建的名字": "翻译"</code>。库存按钮无需翻译(我们正是这样利用库存按钮避免重复的翻译工作)。
+links-tr 部分是比较有趣的部分，还记得第 4 步中的“库存链接”吗，我们这里，要将**非**库存链接翻译成本地语言。格式为第一行固定 `links-tr:`，随后每一行的格式是 <code>&nbsp;&nbsp;"第 4 步中创建的名字": "翻译"</code>。库存链接无需翻译(我们正是这样利用库存链接避免重复的翻译工作)。
 
 ## 第六步：将你编辑的游戏描述文件和资源文件发送给我们
 
@@ -294,7 +315,7 @@ links-tr 部分是比较有趣的部分，还记得第 4 步中的“库存链�
 
 如果你要发送 Pull Request，你应该这样组织文件：
 
-首先将本仓库 fork 到你的账户下。你需要创建/修改这几个文件
+首先将本仓库 fork 到你的账户下。（推荐你创建一个分支再修改）。你需要创建/修改这几个文件
 
 - `games/游戏ID.yaml` - 你在第 4 步中编辑的游戏描述文件
 - `games/l10n/${language}/游戏ID.yaml` - 你在第 5 步中编辑的翻译文件。对应放到相应语言的子目录中，如中文 `games/l10n/zh-cn/游戏ID.yaml`
@@ -303,3 +324,5 @@ links-tr 部分是比较有趣的部分，还记得第 4 步中的“库存链�
 **注明你的身份（推荐，但如果你想保密，可以不写）：编辑根目录下的 `CONTRIBUTORS.md` 的文件，把你的大名、贡献和联系方式写到文件中！你的贡献不应该被遗忘！**（如果你通过 Telegram 发送，不要传这个文件，直接将你的个人信息发送给我即可）
 
 签入你的修改，然后向 FGI 发送 Pull Request 吧！
+
+> 发送 Pull Request 合并后，如果希望再次贡献，建议删除 fork 后的仓库重新 fork；本地仓库建议 `git pull`。然后再创建分支并修改。
