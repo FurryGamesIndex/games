@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 
 icons = {
-    'website': '<i class="fas fa-home"></i>',
-    'steam': '<i class="fab fa-steam-symbol"></i>',
-    'itch.io': '<i class="fab fa-itch-io"></i>',
-    'twitter': '<i class="fab fa-twitter"></i>',
-    'patreon': '<i class="fab fa-patreon"></i>',
-    'weibo': '<i class="fab fa-weibo"></i>',
+    'website': '<i class="fas fa-home fa-fw"></i>',
+    'steam': '<i class="fab fa-steam-symbol fa-fw"></i>',
+    'itch.io': '<i class="fab fa-itch-io fa-fw"></i>',
+    'twitter': '<i class="fab fa-twitter fa-fw"></i>',
+    'patreon': '<i class="fab fa-patreon fa-fw"></i>',
+    'weibo': '<i class="fab fa-weibo fa-fw"></i>',
 }
 
 def uri_to_src(uri):
