@@ -55,5 +55,5 @@ jobs:
     - name: Comment PR
       uses: thollander/actions-comment-pull-request@master
       with:
-        message: Hi, your changes will be displayed at https://furrygamesindex.github.io/_CI_LIVE_BUILD/${{ ID }}/
+        message: Hi, your changes will be displayed at https://furrygamesindex.github.io/_CI_LIVE_BUILD/${{ env.ID }}/
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
