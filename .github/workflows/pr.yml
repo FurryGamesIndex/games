@@ -22,41 +22,8 @@ jobs:
         sudo apt -y update
         sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip
         pip3 install markdown2
-        echo ok
-
-    - name: ssh-key
-      uses: shimataro/ssh-key-action@v2
-      with:
-         key: ${{ secrets.GITHUB_TOKEN }}
-         name: id_rsa
-         known_hosts: " "
-
-    - name: pull
-      run: |
-        mv .git _git
-        git clone "${REPO}" output
 
     - name: gen
       run: |
         python3 --version
         ./generate.py "output/${ID}/"
-
-    - name: deploy
-      run: |
-        echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
-        git config --global user.email "noreply@example.com"
-        git config --global user.name "deploy-bot"
-        cd output
-        git add "$ID"
-        git commit -m 'deploy website'
-        git push -f origin master
-
-    - name: Comment PR
-      uses: thollander/actions-comment-pull-request@master
-      with:
-        message: |
-          Hi, thanks for your contribution.
-          You will be able to see your changes in automatic build: https://furrygamesindex.github.io/_CI_LIVE_BUILD/${{ env.ID }}/
-          嗨，谢谢您的贡献。
-          你很快就能从自动构建中看到你的修改：https://furrygamesindex.github.io/_CI_LIVE_BUILD/${{ env.ID }}/
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
