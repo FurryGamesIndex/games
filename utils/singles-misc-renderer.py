@@ -5,6 +5,7 @@ import os
 from utils.i18n import get
 
 context = {
+    "rr": ".",
     "lang": "en",
     "active_languages": "actived",
     "get": get

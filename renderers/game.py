@@ -10,6 +10,7 @@ def checktag(game, namespace, value):
     return value in game["tags"].get(namespace, {})
 
 context = {
+    "rr": "../..",
     "image_uri": image_uri,
     "get": get,
     "get_desc": get_desc,

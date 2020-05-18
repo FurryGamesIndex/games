@@ -27,15 +27,15 @@
 			const matched = navigator.languages.some(i => {
 				i = i.toLowerCase();
 				if (lmap.hasOwnProperty(i)) {
-					window.location.replace('/' + lmap[i] + '/');
+					window.location.replace(lmap[i] + '/');
 					return true;
 				}
 				return false;
 			});
 			if (!matched)
-				window.location.replace('/en/');
+				window.location.replace('en/');
 		} catch (e) {
-			window.location.replace('/en/');
+			window.location.replace('en/');
 		}
 	</script>
 </body>

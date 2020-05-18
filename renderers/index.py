@@ -5,6 +5,7 @@ from datetime import datetime
 from markdown2 import Markdown
 
 context = {
+    "rr": "..",
     "active_index": "actived"
 }
 

@@ -5,6 +5,7 @@ from utils.image_uri import image_uri
 from utils.i18n import get
 
 context = {
+    "rr": "..",
     "active_list": "actived",
     "image_uri": image_uri,
     "get": get

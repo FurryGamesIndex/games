@@ -24,12 +24,12 @@
 		</tbody></table></div>
 		<div class="screenshots">
 		{% for i in game.screenshots %}
-			<img src="{{ image_uri(i, name) }}">
+			<img src="{{ image_uri(rr, i, name) }}">
 		{% endfor %}
 		</div>
 	</div>
 	<div class="rightbox">
-		<img class="thumbnail" src="{{ image_uri(game.thumbnail, name) }}" >
+		<img class="thumbnail" src="{{ image_uri(rr, game.thumbnail, name) }}" >
 		<div class="links links-group">
 		{% for i in game.links %}
 			{% set li = link_info(i, game.tr, ui, lang) %}

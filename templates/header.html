@@ -5,18 +5,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>{{ ui.page_title }}</title>
 	<meta name="description" content="A project to index furry & kemono games.">
-	<link rel="stylesheet" href="/styles/main.css?v=1">
-	<link rel="stylesheet" href="/styles/fa.all.min.css">
+	<link rel="stylesheet" href="{{ rr }}/styles/main.css?v=1">
+	<link rel="stylesheet" href="{{ rr }}/styles/fa.all.min.css">
 </head>
 <body>
 	<div id="navbar">
 		<div class="title">{{ ui.page_title }}</div>
-		<a href="/{{ lang }}/index.html" class="{{ active_index }}"><i class="fas fa-home"></i> {{ ui.nav_index }}</a>
-		<a href="/{{ lang }}/list.html" class="{{ active_list }}"><i class="fas fa-list-ul"></i> {{ ui.nav_list }}</a>
-		<a href="/{{ lang }}/search.html" class="{{ active_search }}"><i class="fas fa-search"></i> {{ ui.nav_search }}</a>
-		<a href="/{{ lang }}/faq.html" class="{{ active_faq }}"><i class="far fa-question-circle"></i> {{ ui.nav_faq }}</a>
+		<a href="{{ rr }}/{{ lang }}/index.html" class="{{ active_index }}"><i class="fas fa-home"></i> {{ ui.nav_index }}</a>
+		<a href="{{ rr }}/{{ lang }}/list.html" class="{{ active_list }}"><i class="fas fa-list-ul"></i> {{ ui.nav_list }}</a>
+		<a href="{{ rr }}/{{ lang }}/search.html" class="{{ active_search }}"><i class="fas fa-search"></i> {{ ui.nav_search }}</a>
+		<a href="{{ rr }}/{{ lang }}/faq.html" class="{{ active_faq }}"><i class="far fa-question-circle"></i> {{ ui.nav_faq }}</a>
 		<a href="https://github.com/FurryGamesIndex/games/blob/master/CONTRIBUTORS.md"><i class="fas fa-paw"></i> {{ ui.nav_contributors }}</a>
-		<a href="/languages.html" class="{{ active_languages }}"><i class="fas fa-globe-americas"></i> {{ ui.nav_languages }}</a>
+		<a href="{{ rr }}/languages.html" class="{{ active_languages }}"><i class="fas fa-globe-americas"></i> {{ ui.nav_languages }}</a>
 	</div>
 	<div id="app">
 
