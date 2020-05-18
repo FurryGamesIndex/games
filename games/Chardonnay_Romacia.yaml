@@ -1,0 +1,29 @@
+name: Chardonnay Romacia / シャルドネロマンシア
+
+description: |
+  An adult furry adventure game "Chardonnay Romacia"(Trial version).
+  You may change the language settings by accessing the Config menu at any time.
+  Languages Available: Japanese, English, and Chinese (Traditional).
+
+  ・This game is intended for adults. Do not play it if you are under the age of 18.
+  ・This game was developed for Windows 10 64 bits. It may not work correctly in other OS.
+  ・This game is still under development. All content is subject to change without notice.
+
+  We hope that you enjoy the first chapter of Chardonnay Romancia.
+  Feel free to discuss the contents of this trial version online. We are eager to listen to any feedback or comments you may have.
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: Download demo from booth
+    uri: https://cottonmochi.booth.pm/items/1815414
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/yUHwKEc.jpg
+  - https://i.imgur.com/2ZJhivO.jpg
+  - https://i.imgur.com/OU52SsE.jpg
