@@ -46,9 +46,7 @@ jobs:
         git config --global user.email "noreply@example.com"
         git config --global user.name "deploy-bot"
         cd output
-        git init
-        git remote add origin "$REPO"
-        git add .
+        git add "$ID"
         git commit -m 'deploy website'
         git push -f origin master
 
