@@ -1,0 +1,62 @@
+version: 1.0.{build}
+branches:
+  only:
+  - master
+image: Ubuntu
+environment:
+  SSH_RSA:
+    secure: 3RP/wZwjfGwIn9ugpXSsxfgpOGDmwPyfuyrH2n06vw8/BWc6alOSkee2+9qRTd1ZoSjCpw+Di4pa10jWO6XanIAK9Z+Sq73Bvr98foqsd+j3aNR8xH1DVxIpyKwlhzPf4r6RFM50HwPp36pxRvJqw1YTMnIZ8x8/VODtu/tZ2vgL5/dEf7puhKXbTdycbUBXME/MtYNxT8/CmTcPuqwkfXfHNKLmD1snoCOCLUKIIDiJNo2w7trC+IlQyP+J7uLUnUU6+D+M0GN79/etfY5yjtHDhMQUWN5Xvgc2OxOCwijSBO5RpJEK7mYaVRmzmaP5mXlY/eoDKM6O+C/Dm3i/dn3GHsZh1FcJCRJUZpzAOYKWtt7wRTZsLWs2z0d50IcgzZSRqIIsVMlzP04k2IgFr5GUG3N0/NgWHbys0JiMbLBMXqWJsfs89DZ63zCwi4Xu/BuHzE8NCAiJFLyn7/BU+Y+g/YgMmuxi36bSr1RAEre8UseBg5t3RdI2w1N/TPgPntAZpuFjR58KKFOTay+52NgT4gjCj5Voyl06SVkNrI9hmmQH1filjEkUNSzNQKrWcP5aj7NPBOK6hhTxGgN0xHl5WFE5ZUZYXV/J0ZK6ptxMENd8KEbd5Hg0alBu8U6jWLoYacn9662LJlHSpEiAnqcB1L9KcbQJILaHSrTfo7pRnipzUHJJn0OcJMw+4+1bY+vyn7tUHA7+yL7eRk1gIBDygvjyfvzoVHuO/ls1TJd+5sdzYJuyo4pkzQ8imbm0Z+kEynoJ4FLw9Uwi/8vAY1cNxln3nkLBh6la+MuWdkXV5zahf8e4Rzjyh1RNgowsg2IsV6KbBWNJ7ybDYFT1oPMFJFpFOyALLNJgTebhaCe0hRhbVjAb390PrIrY3T8VlhzgotT5NHviHP7SY6Iwj0r+gZFpTqsClyltNhXnoCkPl45pDAcT/kQDqMZgZ8o7WOwuA0ahiIhXda7eTtk0qYJGLYu0sEl1qFM21y3im9sI5FWC7ew7v4lUdtJ/WWyam8xMBEYW/hgfMsZCJiHUhmzA65J7cArIKUs+7ah5THx5XDkuP2mcMPcnCdWwCWhRhQ61Hlbyf81pzIvwmfAAeiEpzeHeLc6ebhDHGlj6EzaIozBt+6jgBteGvxqTh7UWntlu8e31xklM9wREkyUcm+OoWrshhoXMe07n7Z/J4zwVpeLjEWefcpUiWmYYDLZsDmO0hpqEJzGFupP9p9RkrKtAHpeRBSIzG9pPxKGxkWIUepZNYvzxr7XtcxzA4VbbaUfyWpFJaDYUib5YhBUmCoolho5NsKwhFXnB8Lx9mEaAvAenbe22ed4Ukj16Ki9ezmP7z00gRtwskpwfbE7D0lvJ+VkJFEf91yKNRwwiMTSl+nV7BqY2YQxSl6PUqRt6JuI+d3Tv+jiYNPL6Q5UQ5xhrmNkpxC4FB2h7VjoHlCV/8ZxeV3Vu2uyUZjmvh2FAual8+k8ZgR4pLCaMO5IdO8fOGtId/m2UXVk0y98gOqSJagRf5NmiK9wEIA0OacfE0L0oPKqhBXezq9Kuq7ol70pwbp/UJ/Po/ske3Ks++nkQBM2lSpS4j9jKk1QfqOHAM9lMvUEBmGcbAvGwSdCjP110wb6HFWlkz2q21AZ/5Uw73ne+JC3GOWBXjCNadgpp1PieNYFe5uGBka42VTSr6fOgPrCfh6l+SODwvcpxyrkEf677t96hCHm2sBzcI/ohiLt79GITZkdTYoj9wg+PXLsNFwz2+AavyKPVzn6ps8KX1I5R3gxvMSs4rGiMh/1CrpdQEjhnKb0HUCZIbn++5JiO4/+vo0qskrt+OTtNNdGOcYtcVffMuWTvBq5vKzqJSI3VC0MIueqKqtLZc5uIK3RQBLALgjemoNr1OueqDSrEXPtjmSaNaGCPIr19zB9bcL2lfMWqircBIb0X2gpJXNxxOR/fa0ZUKMTU8XCB7jg1YCi/spDDLjFY78Nb3rdHQqOfnUWhiBwEMuEJcL0gxpunvfvjzZn2mJD6u0BO5o7FGYOrIGSpE+EByh2ioxlPfT6W+QPBR37RB5Qp3MplEY4nd9MIS3szGOLGmnVTdzhSd5TQKs9ZK/cMNwy7WAEOUJEF4qNHPFcyp9fUv4juzqThZe4jxGXgZa8eXqKdOMIJaZhaa5afdr3CjmiIi/uk6MFdtK3j8cbpF9FWhR6TiXINWWviUvxCkMU397WOnfoE63Y44F2Whwr8xy1p8TK3fLrayj6QRIHXjknz6FzuZt49UuFYboHC7lF+vJse1Wsxe0pgnjPtE2EYdcVVQ6/09G5kdP4p43myLmoYnMxvxZTuoJj62UAbspNDWMUlWsWKRKnxyiuxqRHOGTzFH0r8sb7WyCi/F9/S2V54QniL7oXJqrN66r9bWintaQD/TkxP2n7U3FSD6KV8c2KIWXjkXIxZIpveOfoS2fnG7hoWNF/sWGWLcAprg/lGQ2MKL9+phqT+XKR8E3p/V1uovX5mmPBuS+393jygPVA3iFENZNo9XUqFRifeK+z4ZRvxc31abQzbxr9e67/RIS8d3YMI79sjslIQE2ItyREFh4o5r+JB0KQ43i6j17enT5u/Kyldn1zoQtTFFC6R+UmrWOsJCQJYduBIV6K/d9xw0f/ToAR7Y97zMlCv62cgl1AALRA4vKIgXie9ee95XULBgkCRuaElkjH164he5QUguGl8J3HrCo2a0MAHqb+elpA2oo9GTy9u3fbJuVgTM8ZUNtm4if5SooeuYVhzsQ0pkv3mQfepzEfAddf+pvENu0lGWOgn7QxvmrGqaSTjkIkmdAw6koYkQW5uhUOp6uvDfD4FDgy+Y4EWFO2wyOCzf9lZgyCbGN3954CnUWv2pvSjPD5K4GW1RaA6qydwDHLKVeY+KFQ0X+kUP0B8OCcej0Dnymxa5e/4FW7tlbEGsYhkjN/BEXFl6i4K35R7g26w3ge56qcP37F86uVc/LrrQFz2v7ezRkyZibfdLtbXc8TJfh+nRr3xep7E3fvHzQM1BIXKALlQR3Lb4/uyBdcgyhOodYKs3OndJxnbDwbj4l9d4MGhze3XxMlY4k2FOZTxxo+6NmO/zoyTz2hyWBZnFbbLtQJG5Ta/JpNDhYf8rWAkdfrPyDAwnGkGPW+U5X2V7t4+SGsPX1jZ0NvCgNaz6xlbyFRvg8LIyh2qlWeG5r2wA9itUbF3U0X6WuVDAkVl1B0X90rC7wmLdVPFs4mBskp25xB1LmQ3kBfvwB+pCsmYz+rLfOuiI6v1+MwF373f9MRt5KiYAx6es445/V3Ui9rk33wsWsu47Nz6oqG7SUjZgS74yVIaYYH8Blj5pXC7JPXlt5wOSCPjw8m7hbLHmsUsmC1DRvRkplI6zomRdxVHQpJ3BXJV1Txhtaa8RL25uHxE6ApsXfItAeQ8pIFUMD2EGY7A0RWoAnemF0hgOHDcwo/8No9fXsLxZgoHZZRXlNLA6X63JhgaEpeToHDPLn55pkinGu4xW3ndoI1mcKoi5vcatqjaW+l2m9M6nfePF4xsLbwWm+3W1+lMuGlKjG7ydchX9HibWO84evF8yowK+X9N6Nrxt0e/xkZEcFlbMtqHczJXyz/w9t91UD50H0EBlXnFhkZobb6Jz73tum12AvpFm7dJJXKNCPSRtboEIsbmuTP7RrjnwsqmrXk9/xwgxiPE9Ivzkm50sJtKUBlNoO6M+JZNbajUilKycYVHCltl/tE+P0vczGdPseVrwAXPu6SYhOKp1d7fYCZP/BzT21e017Afa6O0+fO3vZ6kutYIQFl2aizqNF1PigVTuXetDL3H0jlIjHRYhKn3AcwwUxswsu667ZJ0icBMrkOiGGRYrVcLyaZn2GDpn1JVCoQnqhCGYI/AY5i7i5wUQGR+InHbPhBd4fgIbErxcS3Ff8bb2KYsqvoVDvoPjEN4JoNXA6EOiOjyPCv4AMfAmEdlUm1UNXl6bVGAdEgU/v0DTiUozAMObbP2/4xuqMiU1livgjCYQUz1E2jrCeSpNemWMhmVXFB2B+Wi/ylbWVU2AyuPnRux96ZPBeYusATBWEuFV6iXRbhzo+o32R+z9VR5v/4PiLIEJEw7gp5pDfL77q6rYrNglg8lTXRSpilmB4xnfaiA0laisHcEapsK3x0b9wu3UvAobOoqoY1fBADrpSxAW2VktaOcsvbun8zjCPqmkqdHtq/UwxzGK8C9+rxItKG2FBry9qHTj8BosezYsQBXYNhqSF+lnIdgpvSp+/cWxZzeEMuSq0f5QfbVGSF3BwJocAZEsmB+3nToiISXf2auQetVhFOHMXusQRnA0X3peek=
+build_script:
+- sh: >-
+    echo HI
+    REPO="git@github.com:FurryGamesIndex/_CI_LIVE_BUILD"
+
+
+    echo "$SSH_RSA" > ~/.ssh/id_rsa
+
+    echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+
+
+    git clone "$REPO" output
+
+
+    a="$APPVEYOR_PULL_REQUEST_HEAD_REPO_NAME"
+
+    b="$APPVEYOR_PULL_REQUEST_HEAD_REPO_BRANCH"
+
+
+    c="${a}/${b}"
+
+
+    [ -z "$c" ] && exit 0
+
+
+    sudo apt -y update
+
+    sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip
+
+
+    pip3 install markdown2
+
+
+    python3 --version
+
+    ./generate.py "output/$c"
+
+
+    mv .git _git
+
+
+    git config --global user.email "noreply@example.com"
+
+    git config --global user.name "deploy-bot-appveyor"
+
+    cd output
+
+    git add "$c"
+
+    git commit -m 'deploy website (CI LIVE BUILD)'
+
+
+    git push -f origin master
+
