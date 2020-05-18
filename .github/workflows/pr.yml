@@ -1,0 +1,59 @@
+name: deploy-pr-live
+
+on:
+  pull_request:
+    branches: [ master ]
+
+env:
+  REPO: git@github.com:FurryGamesIndex/_CI_LIVE_BUILD
+  ID: ${{ github.event.pull_request.head.label }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+
+    - name: install-dep
+      run: |
+        sudo apt -y update
+        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip
+        pip3 install markdown2
+
+    - name: pull
+      run: |
+        mv .git _git
+        git clone "${REPO}" output
+
+    - name: gen
+      run: |
+        python3 --version
+        ./generate.py "output/${ID}/"
+
+    - name: ssh-key
+      uses: shimataro/ssh-key-action@v2
+      with:
+         key: ${{ secrets.SSH_PRIVATE_KEY_RSA }}
+         name: id_rsa
+         known_hosts: ${{ secrets.KNOWN_HOSTS }}
+
+    - name: deploy
+      run: |
+        echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        git config --global user.email "noreply@example.com"
+        git config --global user.name "deploy-bot"
+        cd output
+        git init
+        git remote add origin "$REPO"
+        git add .
+        git commit -m 'deploy website'
+        git push -f origin master
+
+    - name: Comment PR
+      uses: thollander/actions-comment-pull-request@master
+      with:
+        message: Hi, your changes will be displayed at https://furrygamesindex.github.io/_CI_LIVE_BUILD/${{ ID }}/
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
