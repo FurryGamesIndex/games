@@ -13,6 +13,9 @@ description: |
   Feel free to discuss the contents of this trial version online. We are eager to listen to any feedback or comments you may have.
 
 tags:
+  sys:
+    - staging
+    - tagme
   author:
     - Cotton
   type:
@@ -35,9 +38,6 @@ tags:
     - zh
   plateform:
     - windows
-  sys:
-    - staging
-    - tagme
 
 links:
   - name: Download demo from booth
