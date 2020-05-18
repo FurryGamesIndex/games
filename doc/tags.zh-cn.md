@@ -83,8 +83,32 @@
 - `muscle` 主要角色中包括肌肉丰满的角色
 - `anal` 主要角色之间包括肛交性行为
 - `blowjob` 主要角色之间包括口交性行为
+- `frottage` 主要角色之间包括阴茎摩擦行为
+- `cockslapping` 主要角色之间包括用阴茎打人 (通常是脸)
 - `human-on-furry` 主要角色中，人类与兽人发生了性关系
 - `animal-on-furry` 主要角色中，动物和兽人发生了性关系
+
+## malex 命名空间/ femalex 命名空间
+
+用于说明游戏中出现的特殊内容
+
+> 在 malex 命名空间表示兽人/人类生理性别是男性，在 femalex 命名空间表示兽人/人类生理性别是女性
+
+- `mind-break` 主要角色中出现了洗脑或被洗脑
+- `mind-control` 主要角色之间出现了精神控制行为
+- `parasite` 主要角色中出现了寄生或被寄生
+- `drugs` 主要角色之间使用鼓动滥交或快感的药物
+- `corruption` 主要角色中用魔法或其他超自然力量强硬地腐化某人的头脑，抢夺他们的纯洁
+- `body-swap` 主要角色之间出现了灵魂互换
+- `time-stop` 主要角色之间出现了时间停止行为
+- `guro` 主要角色中出现了肢解行为
+- `body-modification` 主要角色中出现了以人工方式替换身体的某些部位
+- `conjoined` 主要角色中有两个或更多的头分享同一个身体的角色
+- `muscle-growth` 主要角色中出现了肌肉产生或变大
+- `inflation` 主要角色中出现了腹部向外膨胀得像个气球
+- `absorption` 主要角色中出现了吸收某人或某物
+- `petrification` 主要角色中成为雕像/岩石般的形象
+- `stomach-deformation` 主要角色中出现了固体从腹内向外推压，并出现一个可见突起
 
 ## misc 命名空间
 
@@ -129,9 +153,10 @@
 - `windows` 游戏官方支持 Microsoft Windows
 - `macos` 游戏官方支持 Apple macOS
 - `linux` 游戏官方支持 GNU/Linux
-- `android` 游戏官方支持 Android 
+- `android` 游戏官方支持 Android
 - `ios` 游戏官方支持 Apple iOS
 - `nds` 游戏官方支持 Nintendo DS
+- `psv` 游戏官方支持 Sony PlayStation Vita
 
 ## sys 命名空间
 
