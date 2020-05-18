@@ -5,8 +5,10 @@ icons = {
     'steam': '<i class="fab fa-steam-symbol fa-fw"></i>',
     'itch.io': '<i class="fab fa-itch-io fa-fw"></i>',
     'twitter': '<i class="fab fa-twitter fa-fw"></i>',
+    'furaffinity': '<i class="fas fa-paw fa-fw"></i>',
     'patreon': '<i class="fab fa-patreon fa-fw"></i>',
     'weibo': '<i class="fab fa-weibo fa-fw"></i>',
+    'tumblr': '<i class="fab fa-tumblr fa-fw"></i>'
 }
 
 def uri_to_src(uri):
@@ -15,8 +17,12 @@ def uri_to_src(uri):
         return "https://store.steampowered.com/app/%s" % res[1]
     elif (res[0] == 'twitter'):
         return "https://twitter.com/%s/" % res[1]
+    elif (res[0] == 'furaffinity'):
+        return "https://www.furaffinity.net/user/%s/" % res[1]
     elif (res[0] == 'patreon'):
         return "https://www.patreon.com/%s" % res[1]
+    elif (res[0] == 'tumblr'):
+        return "https://%s.tumblr.com/" % res[1]
     else:
         return uri
 
