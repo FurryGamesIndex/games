@@ -27,7 +27,6 @@ description: |
 tags:
   sys:
     - staging
-    - tagme
   author:
     - 'C.I.L. café'
   type:
