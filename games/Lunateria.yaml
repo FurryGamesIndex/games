@@ -37,13 +37,13 @@ tags:
     - macos
 
 links:
-  - name: .unoffical-ver-zh-cn
-    icon: itch.io
-    uri: https://lupei.itch.io/lunateria-chs
   - name: .patreon
     uri: patreon:lunateria
   - name: .twitter
     uri: twitter:naruevernett
+  - name: .unoffical-ver-zh-cn
+    icon: itch.io
+    uri: https://lupei.itch.io/lunateria-chs
 
 thumbnail: thumbnail.jpg
 
