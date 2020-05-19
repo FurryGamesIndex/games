@@ -8,11 +8,32 @@ description: |
   バカ騒ぎして皆を楽しませる事を目的とした部活で日々を過ごし、主人公は何を思うのか――。
 
 tags:
-  author:
-    - KENN
   sys:
     - staging
-    - tagme
+  author:
+    - KENN
+  type:
+    - visual-novel
+  male:
+    - canine
+    - felidae
+    - dog
+    - lion
+    - tiger
+    - wolf
+    - humankind
+    - anal
+    - blowjob
+    - human-on-furry
+  misc:
+    - multiple-endings
+  lang:
+    - ja
+    - zh-unoffical
+  publish:
+    - booth
+  platform:
+    - windows
 
 links:
   - name: .booth

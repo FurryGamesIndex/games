@@ -25,6 +25,7 @@ tags:
     - canine
     - leporidae
     - felidae
+    - primates
     - fox
     - dog
     - tiger
@@ -35,7 +36,9 @@ tags:
     - en
     - ja
     - zh
-  plateform:
+  publish:
+    - booth
+  platform:
     - windows
 
 links:

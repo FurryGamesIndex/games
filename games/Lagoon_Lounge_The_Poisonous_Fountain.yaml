@@ -12,8 +12,6 @@ description: |
   
 
 tags:
-  sys:
-    - staging
   author:
     - KAIJU-09
   type:
@@ -26,13 +24,16 @@ tags:
     - dog
     - tiger
     - cat
+    - muscle
+    - anal
+    - blowjob
   lang:
     - en
     - ja
     - zh
   publish:
     - steam
-  plateform:
+  platform:
     - windows
 
 links:
