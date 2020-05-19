@@ -31,7 +31,7 @@ def link_info(link, l10n_data, ui_l10n_data, language):
     a = {}
     a["href"] = uri_to_src(link["uri"])
 
-    icon = '<i class="fas fa-external-link-alt"></i>'
+    icon = '<i class="fas fa-external-link-alt fa-fw"></i>'
 
     if name[0] == '.':
         if name[1:] in icons:
