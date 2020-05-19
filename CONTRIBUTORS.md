@@ -23,3 +23,7 @@ HuaJi2333DaDa
 	Github: @HuaJi2333DaDa
 	
 	Games submitter
+
+* For new contributors, please add your name and contacts before this line.
+
+* Anonymous have contributed a lot, but they (temporarily) do not want to appear on this list. This project respects their wishes. At the same time, if they wish to enter the list, the list is ready for them!
