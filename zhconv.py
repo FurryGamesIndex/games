@@ -38,3 +38,4 @@ conv(os.path.join(uil10n_dir, origin + ".yaml"), os.path.join(uil10n_dir, to + "
 conv(os.path.join(root_dir, "README.%s.md" % origin), os.path.join(root_dir, "README.%s.md" % to), True)
 conv(os.path.join(doc_dir, "Contribute.%s.md" % origin), os.path.join(doc_dir, "Contribute.%s.md" % to), True)
 conv(os.path.join(doc_dir, "tags.%s.md" % origin), os.path.join(doc_dir, "tags.%s.md" % to), True)
+conv(os.path.join(doc_dir, "faq.%s.md" % origin), os.path.join(doc_dir, "faq.%s.md" % to), True)
