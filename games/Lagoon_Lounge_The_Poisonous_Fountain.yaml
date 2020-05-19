@@ -12,8 +12,6 @@ description: |
   
 
 tags:
-  sys:
-    - staging
   author:
     - KAIJU-09
   type:
