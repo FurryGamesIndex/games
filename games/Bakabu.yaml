@@ -10,9 +10,28 @@ description: |
 tags:
   author:
     - KENN
+  type:
+    - visual-novel
+  male:
+    - canine
+    - felidae
+    - dog
+    - lion
+    - tiger
+    - wolf
+    - humankind
+    - human-on-furry
+  misc:
+    - multiple-endings
+  lang:
+    - ja
+    - zh-unoffical
+  publish:
+    - booth
+  platform:
+    - windows
   sys:
     - staging
-    - tagme
 
 links:
   - name: .booth
