@@ -15,11 +15,34 @@ description: |
 tags:
   sys:
     - staging
-    - tagme
+  author:
+    - Cotton
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - canine
+    - leporidae
+    - felidae
+    - fox
+    - dog
+    - tiger
+    - muscle
+  misc:
+    - work-in-process
+  lang:
+    - en
+    - ja
+    - zh
+  plateform:
+    - windows
 
 links:
   - name: Download demo from booth
     uri: https://cottonmochi.booth.pm/items/1815414
+  - name: .twitter
+    uri: twitter:Cotton_nottoC
 
 thumbnail: thumbnail.jpg
 

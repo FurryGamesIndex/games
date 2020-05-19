@@ -1,15 +1,39 @@
 name: 'Lagoon Lounge : The Poisonous Fountain'
 
 description: |
-  StoryThe protagonist is a furry who quit his job after a decline in his health due to overwork. Because of his exhaustion, his old friend takes him in at a seaside village to recover.
+  Story
+  The protagonist is a furry who quit his job after a decline in his health due to overwork. Because of his exhaustion, his old friend takes him in at a seaside village to recover.
   Lately, there have been loud rumblings accompanied by mysterious earthquakes in the village. This phenomenon has been named "The Giant of Harusu". In this village being flooded with curious tourists, the main character will work as a waiter at a restaurant alongside his friends.
-  The main character also receives a warning from one of his friends soon after moving in. "Don't go anywhere near the fountain in the village's plaza." He will soon come find out what kind of threat it poses.Game ContentsThis visual novel has furry characters and homosexual content. This game's system emphasizes convenience and replayability, so you can chose any episode from a list after reading and easily make different choices.LanguagesThis game supports multiple languages. With the press of a key, you can switch languages anytime during gameplay. This is a great tool for learning a new language!				
+  The main character also receives a warning from one of his friends soon after moving in. "Don't go anywhere near the fountain in the village's plaza." He will soon come find out what kind of threat it poses.
+  Game Contents
+  This visual novel has furry characters and homosexual content. This game's system emphasizes convenience and replayability, so you can chose any episode from a list after reading and easily make different choices.
+  Languages
+  This game supports multiple languages. With the press of a key, you can switch languages anytime during gameplay. This is a great tool for learning a new language!				
   
 
 tags:
   sys:
     - staging
-    - tagme
+  author:
+    - KAIJU-09
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - canine
+    - felidae
+    - dog
+    - tiger
+    - cat
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+  plateform:
+    - windows
 
 links:
   - name: .steam

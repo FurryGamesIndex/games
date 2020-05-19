@@ -1,9 +1,10 @@
 name: Morenatsu / 漏れなつ。
 
 description: |
-  FIXME: English version is required
-  在高考前的最后一个暑假，在城市的主角收到小时候住的村子（水乡村）里朋友来信。因为祖父母还住在那里，主角就决定回老家探望。
-  主角搭公车回到水乡村，遇见在巴士站等待他的虎彦，稍晚参加朋友们为他举办的欢迎会，介绍九个主要角色之后进入分歧点，在此选择故事进行的八条路线（其中一条路线包含两位主要角色）。
+  The game takes place during summer vacation in Japan.
+  The protagonist-player, a human, gets a letter from a friend in the village where he spent his childhood, Minasato village (Minasato-mura). He moved away to the city five years ago. His grandparents currently live there, so he decides to return there for the summer.
+  At the bus stop in the village, he sees Torahiko, who was one of his childhood friends. Torahiko tells him that later there will be a welcome-back party for him at a restaurant. There the player is greeted by all his childhood friends. Then he must choose who he will sit with.
+  The player has one month to gain the affection of one of nine main characters. If the player makes the correct decisions, he and one of the characters will make love and establish a romantic relationship.
 
 tags:
   sys:
@@ -16,6 +17,7 @@ tags:
     - canine
     - felidae
     - ursidae
+    - tiger
     - wolf
     - cat
     - fox
@@ -28,7 +30,7 @@ tags:
   misc:
     - freeware
     - multiple-endings
-    - die
+    - died
   lang:
     - ja
     - zh-unoffical
