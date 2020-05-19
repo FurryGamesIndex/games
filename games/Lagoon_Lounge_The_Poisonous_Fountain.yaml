@@ -32,7 +32,7 @@ tags:
     - zh
   publish:
     - steam
-  plateform:
+  platform:
     - windows
 
 links:
