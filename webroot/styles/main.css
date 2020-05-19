@@ -168,6 +168,10 @@ a:focus {
 	margin-bottom: 12px;
 }
 
+.game .description * {
+	font-size: 0.96em !important;
+}
+
 .game .tags {
 	margin-bottom: 12px;
 	padding-bottom: 10px;
