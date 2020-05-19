@@ -28,10 +28,31 @@ tags:
   sys:
     - staging
     - tagme
+  author:
+    - 'C.I.L. café'
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - canine
+    - felidae
+    - dog
+    - tiger
+  misc:
+    - multiple-endings
+    - multiple-series
+  lang:
+    - ja
+    - zh-unoffical
+  publish:
+    - booth
+  platform:
+    - Windows
 
 links:
   - name: .booth
-    uri: https://booth.pm/ja/items/526423
+    uri: https://booth.pm/ja/items/1575759
   - name: .twitter
     uri: twitter:orekemo
   - name: Unoffical chinese patch (expired)
