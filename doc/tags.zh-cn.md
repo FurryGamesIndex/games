@@ -42,6 +42,7 @@
 - `lung` 主要角色包括东方龙兽人
 - `reptilia` 主要角色包含爬行纲兽人
 - `mustelidae` 主要角色包含鼬科兽人
+- `primates` 主要角色包含灵长目兽人（不含智人）
 
 - `cat` 主要角色包括猫兽人
 - `tiger` 主要角色包括虎兽人
@@ -56,6 +57,7 @@
 - `dog` 主要角色包括犬兽人
 - `wolf` 主要角色包括狼种兽人
 - `fox` 主要角色包括狐属兽人
+- `raccoon-dog` 主要角色包括貉属兽人
 
 - `otter` 主要角色包括水獭兽人
 - `meles` 主要角色包括獾属兽人
@@ -124,11 +126,11 @@
 - `died` 游戏尚未完成时被作者宣布放弃（此标签存在时，请销毁 misc:work-in-process 标签）
 - `unoffical` 游戏可能是玩家进行同人创作，如“漏夏（非公式版）”（不要和 misc:mods 混淆）
 - `mods` 这不是一个完整的游戏，而是游戏的 mods
-- `unpublished` 游戏没有发布，通常是曾经发布过 Demo 版本，但是作者删除并宣布将在未来发布正式版本；或者有信誉的作者宣布即将发布的游戏。
+- `unpublished` 游戏没有发布，通常是曾经发布过 Demo 版本，但是作者删除并宣布将在未来发布正式版本；或者有信誉的作者宣布即将发布的游戏
 
 ## lang 命名空间
 
-用于说明游戏的语言。（使用 ISO 639-1 Alpha-2 code 标准语言代码）
+用于说明游戏的语言（使用 ISO 639-1 Alpha-2 code 标准语言代码）
 
 - `en` 游戏有官方英语版本
 - `en-unoffical` 游戏有非官方英语版本
@@ -144,6 +146,8 @@
 - `steam` 游戏在 Steam 上有发布
 - `itchio` 游戏在 itch.io 上有发布
 - `patreon` 游戏在 Patreon 上有发布
+- `booth` 游戏在 BOOTH 上有发布
+- `digiket` 游戏在 DiGiket 上有发布
 - `website` 游戏在其网站上有发布
 
 ## platform 命名空间
