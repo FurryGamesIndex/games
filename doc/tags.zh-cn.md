@@ -66,6 +66,10 @@
 - `martes` 主要角色包括貂属兽人
 
 - `lizard` 主要角色包括蜥蜴兽人
+- `crocodilia` 主要角色包括鳄鱼兽人
+- `serpentes` 主要角色包括蛇兽人
+- `testudines` 主要角色包括龟（龟鳖目）兽人
+
 
 - `argali` 主要角色包括盘羊兽人
 - `goat` 主要角色包括山羊兽人
