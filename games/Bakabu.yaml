@@ -15,7 +15,7 @@ tags:
     - tagme
 
 links:
-  - name: Buy from booth
+  - name: .booth
     uri: https://booth.pm/ja/items/526423
   - name: .twitter
     uri: twitter:kenn_fudo

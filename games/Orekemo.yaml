@@ -1,0 +1,44 @@
+name: 俺の獣を見てみるか？ ～しかとその目に刻むッス！～
+
+description: |
+  急成長中のSNS『おんらいん』。
+  幅広いコンテンツを取り扱うそのSNSで、主人公：犬飼 春（イヌカイハジメ）はとあるコミュニティを管理しています。
+  三連休を目の前にしたある日、どこか見覚えのあるIDから、突然のメッセージが……！
+  メッセージの送り主、和虎を「たった三日間で！？」攻略できるのか！
+
+  詳細は以下のリンクからどうぞ！
+  ■公式Twitter： https://twitter.com/orekemo
+  ■サークル公式HP： http://www.cilcafe.com/
+
+  ■キャラクター紹介ムービー： https://www.youtube.com/watch?v=LBa3P4r5j0U
+  ■トレーラームービー： https://www.youtube.com/watch?v=jZfL6EULQiU
+
+  ゲームの詳細
+  選択肢によって、エンディングが変わるマルチエンドです。
+  日頃の選択の「積み重ね」が、相手の好感度に影響していきます。
+  好感度が大きく変化するとキャラクターアイコンの表情が変化します。行き詰ってしまったら、最初から初めてアイコンの表情を参考にコマメにセーブして進めてみましょう。
+
+  スタッフ
+  制作： C.I.L. cafe
+  シナリオ： 氷之白。
+  デザイン・イラスト： kovie
+  音楽: サークル まずらぼ[muzzle-lab] 様
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .booth
+    uri: https://booth.pm/ja/items/526423
+  - name: .twitter
+    uri: twitter:orekemo
+  - name: Unoffical chinese patch (expired)
+    uri:  https://forum.doge.im/d/6
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/E3opCvA.jpg
+  - https://i.imgur.com/15GHwSv.jpg
