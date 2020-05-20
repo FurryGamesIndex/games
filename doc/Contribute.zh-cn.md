@@ -238,6 +238,7 @@ FGI 支持的库存链接包括以下几个
 - `.furaffinity`: 官方 FurAffinity
 - `.weibo`: 官方微博
 - `.tumblr`: 官方 Tumblr
+- `.discord`: 官方 Discord
 - `.unoffical-patch-zh-cn`: 非官方简体中文补丁
 - `.unoffical-ver-zh-cn`: 非官方简体中文版本
 - `.unoffical-patch-zh-tw`: 非官方繁体中文补丁
