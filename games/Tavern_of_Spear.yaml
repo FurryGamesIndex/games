@@ -78,14 +78,16 @@ link:
     uri: patreon:CaroZalt
   - name: .twitter
     uri: twitter:Tavern_of_Spear
+  - name: Buy on Hiccears
+    uri: https://www.hiccears.com/artist-profile.php?apid=46597
   - name: .discord
-    uri: https://t.co/GlUBnuiGYS
+    uri: https://discord.com/invite/WFm49ap
   - name: .furaffinity
     uri: https://www.furaffinity.net/user/fd-caro/
-  - name: Code/Art's Twitter
+  - name: Coder/Artist's Twitter
     icon: twitter
     uri: twitter:Caro_Zalt
-  - name: Script's Twitter
+  - name: Screenwriter's Twitter
     icon: twitter
     uri: twitter:bokedaidu
 
