@@ -36,7 +36,7 @@ def link_info(link, l10n_data, ui_l10n_data, language):
     if name[0] == '.':
         if name[1:] in icons:
             icon = icons[name[1:]]
-        a["content"] = icon + "&nbsp;" + ui_l10n_data["stock-link-" + name[1:]]
+        a["content"] = ui_l10n_data["stock-link-" + name[1:]]
     else:
         l10n_name = l10n_data.get(language, {}).get("links-tr", {}).get(name)
         if l10n_name is not None:
@@ -44,8 +44,8 @@ def link_info(link, l10n_data, ui_l10n_data, language):
         else:
             a["content"] = name
 
-        if "icon" in link:
-            icon = icons[link["icon"]]
-        a["content"] = icon + "&nbsp;" + a["content"]
+    if "icon" in link:
+        icon = icons[link["icon"]]
+    a["content"] = icon + "&nbsp;" + a["content"]
 
     return a
