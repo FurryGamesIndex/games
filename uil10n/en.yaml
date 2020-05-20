@@ -13,6 +13,12 @@ copying_area_copyright: Copyright The FurryGamesIndex project, The data on this 
 index_link_github: Github Repository
 index_link_tg: Telegram Channel
 
+search_info_template: Showing search results for {0} "{1}"
+search_not_found: No items found
+search_load_db_error: Error occured
+search_form_mode_tag: By tag
+search_form_do: Search
+
 warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
 noticebox_tagme: This page is known to be missing important tags. Please help to add tags. <br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribution guide</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md">Label list and explanation</a>
 

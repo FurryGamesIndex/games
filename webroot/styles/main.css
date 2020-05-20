@@ -46,6 +46,10 @@ a:focus {
 	outline: 0;
 }
 
+.hide {
+	display: none !important;
+}
+
 .tip {
 	color: var(--tip-color);
 	font-size: 0.96em;

@@ -1,0 +1,75 @@
+<div id="search_box" class="default">
+	<select id="search_mode">
+		<option value="tag?">{{ ui.search_form_mode_tag }}</option>
+	</select>
+	<input id="search_value" />
+	<button id="search_do">{{ ui.search_form_do }}</button>
+</div>
+<div id="search_info" class="default">
+
+</div>
+<div class="items">
+	<div class="item hide">
+		<img class="thumbnail" src="data:," >
+		<div class="content">
+			<div class="name"><a href="#" class="name_a"></a></div>
+			<div class="description"></div>
+		</div>
+	</div>
+	<div style="height: 20px;"></div>
+</div>
+<script src="{{ rr }}/scripts/base.js"></script>
+<script>
+const query = window.location.search;
+let mode = "none", value = null;
+
+let onload = async () => {
+	if (query.startsWith("?tag?")) {
+		mode = "tag";
+		value = query.substr(5);
+	}
+
+	try {
+		const searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json")).json();
+		const glist = await (await fetch("{{ rr }}/{{ lang }}/gamelist.json")).json();
+		const rtag = searchdb.rtag
+
+		switch (mode) {
+		case "tag":
+			if (rtag.hasOwnProperty(value)) {
+				const res = searchdb.rtag[value];
+				console.log(res);
+
+				const template = $('.item');
+				const items = $('.items');
+
+				res.forEach(i => {
+					const item = template.cloneNode(true);
+					item.classList.remove("hide");
+					item.querySelector(".thumbnail").src = glist[i].thumbnail;
+					const link = item.querySelector(".name_a");
+					link.textContent = glist[i].name;
+					link.href = "games/" + i + ".html";
+					item.querySelector(".description").textContent = glist[i].description;
+					items.appendChild(item);
+				});
+
+				$('#search_info').textContent = '{{ ui.search_info_template }}'.format(mode, value);
+			} else {
+				$('.items').textContent = "{{ ui.search_not_found }}";
+			}
+			break;
+		default:
+			break;
+		}
+	} catch (e) {
+		alert("{{ ui.search_load_db_error }}");
+	}
+}
+
+$('#search_do').addEventListener('click', e => {
+	window.location.href = "search.html?" + $('#search_mode').value + $('#search_value').value
+});
+
+onload();
+</script>

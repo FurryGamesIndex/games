@@ -13,6 +13,12 @@ copying_area_copyright: 版權所有 The FurryGamesIndex project，本站點的�
 index_link_github: Github 倉庫
 index_link_tg: Telegram 頻道
 
+search_info_template: 顯示搜尋 {0} "{1}" 的結果
+search_not_found: 沒有找到專案
+search_load_db_error: 發生錯誤
+search_form_mode_tag: 基於標籤
+search_form_do: 搜尋
+
 warnbox_staging: 這是一個施工中的頁面，其內容可能在將來發生破壞性改變。
 noticebox_tagme: 這個頁面已知缺少重要標籤。請幫忙新增標籤。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-tw.md">貢獻指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-tw.md">標籤列表和解釋</a>
 

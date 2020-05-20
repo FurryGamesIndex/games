@@ -4,8 +4,8 @@
 	<div class="item">
 		<img class="thumbnail" src="{{ image_uri(rr, game.thumbnail, name) }}" >
 		<div class="content">
-		<div class="name"><a href="games/{{ name }}.html">{{ get(game, lang, 'name') }}</a></div>
-		<div class="description">{{ desc[:480] + (desc[480:] and '...') }}</div>
+		<div class="name"><a href="games/{{ name }}.html">{{ get(game, lang, 'name')|e }}</a></div>
+		<div class="description">{{ (desc[:480] + (desc[480:] and '...'))|e }}</div>
 		</div>
 	</div>
 {% endfor %}

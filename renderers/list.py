@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import json
 from utils.image_uri import image_uri
 from utils.i18n import get
 
@@ -19,3 +20,12 @@ def render(games, env, language, language_ui, output):
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("list.html").render(context))
         f.write(env.get_template("footer.html").render(context))
+
+    glist = {}
+    for id, data in games.items():
+        glist[id] = {}
+        glist[id]["name"] = get(data, language, "name")
+        glist[id]["description"] = get(data, language, "description")
+        glist[id]["thumbnail"] = image_uri("..", data["thumbnail"], id)
+    with open(os.path.join(output, "gamelist.json"), "w") as f:
+        f.write(json.dumps(glist))

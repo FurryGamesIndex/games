@@ -6,8 +6,11 @@ import os
 import shutil
 import importlib
 from sys import argv
+import json
 from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
+
+from utils.search import searchdb
 
 dir = "games"
 if len(argv) < 2:
@@ -21,6 +24,8 @@ renderer_files = [os.path.splitext(f)[0] \
 languages = [f for f in os.listdir(os.path.join(dir, "l10n"))]
 games = {}
 
+sdb = searchdb()
+
 for f in sorted(os.listdir(dir)):
     file = os.path.join(dir, f)
     game_id = os.path.splitext(f)[0]
@@ -31,6 +36,7 @@ for f in sorted(os.listdir(dir)):
     print("Loading %s" % file)
     with open(file) as stream:
         games[game_id] = yaml.safe_load(stream)
+        games[game_id]["id"] = game_id
         games[game_id]["tr"] = {}
 
     for language in languages:
@@ -40,12 +46,17 @@ for f in sorted(os.listdir(dir)):
             with open(l10n_file) as stream:
                 games[game_id]["tr"][language] = yaml.safe_load(stream)
 
+    sdb.update(games[game_id])
+
 env = Environment(loader = FileSystemLoader("templates"))
 
 if os.path.exists(output):
     shutil.rmtree(output)
 shutil.copytree("webroot", output)
 shutil.copytree("assets", os.path.join(output, "assets"))
+
+with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
+    f.write(json.dumps(sdb.db))
 
 languages.append('en')
 with open(os.path.join("uil10n", "en.yaml")) as stream:

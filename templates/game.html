@@ -16,7 +16,7 @@
 				<td class="taggroup">{{ group }}: </td>
 				<td>
 				{% for tag in game.tags[group] %}
-				<div class="tag"><a href="">{{ tag }}</a></div>
+				<div class="tag"><a href="../search.html?tag?{{ group }}:{{ tag }}">{{ tag }}</a></div>
 				{% endfor %}
 				</td>
 			</tr>
