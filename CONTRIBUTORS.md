@@ -29,7 +29,7 @@ xiaoxiaohaoa
 	Telegram: @xiaoxiaohaoa
 	Github: @xiaoxiaohaoa
 	
-	Mascot
+	Games submitter
 
 * For new contributors, please add your name and contacts before this line.
 
