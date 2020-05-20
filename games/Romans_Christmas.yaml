@@ -18,9 +18,37 @@ description: |
   This game may contain scenes with blood.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Studio SelfCropping'
+  type:
+    - puzzle
+    - visual-novel
+  male:
+    - canine
+    - felidae
+    - bovidae
+    - leporidae
+    - hyaenidae
+    - wolf
+    - dragon
+    - lynx
+    - bharal
+    - shark
+    - muscle
+  female:
+    - felidae
+    - cat
+    - tiger
+  misc:
+    - multiple-endings
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
 
 links:
   - name: .steam
