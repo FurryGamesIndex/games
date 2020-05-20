@@ -26,7 +26,7 @@ let mode = "none", value = null;
 let onload = async () => {
 	if (query.startsWith("?tag?")) {
 		mode = "tag";
-		value = query.substr(5);
+		value = decodeURIComponent(query.substr(5));
 	}
 
 	try {
