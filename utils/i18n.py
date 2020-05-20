@@ -15,7 +15,7 @@ def get_desc(game, language):
     if "description-format" not in game:
         return escape(desc).replace("\n", "<br>")
     elif game["description-format"] == "markdown":
-        markdowner = Markdown(extras=["strike"])
+        markdowner = Markdown(extras=["strike", "target-blank-links"])
         return markdowner.convert(desc)
     else:
         raise ValueError("description format invaild")
