@@ -6,8 +6,8 @@ description: |
   This package contains all twelve episodes of season 1, which takes place between Willy Bear Beach 1 & Willy Bear Beach 2. It also contains image packs for every episode, except for the pilot.
 
   - Created & Illustrated by Artdecade
-   - Written by Gerrark & Artdecade
-   - Coding by Super Deluxe Joe & Artdecade
+  - Written by Gerrark & Artdecade
+  - Coding by Super Deluxe Joe & Artdecade
 
 description-format: markdown
 
@@ -50,7 +50,7 @@ links:
   - name: .patreon
     uri: patreon:WillyBearBeach
   - name: .website
-    uri: https://http://www.artdecademonthly.com/
+    uri: https://www.artdecademonthly.com/
   - name: .twitter
     uri: twitter:artdecade_draws
 
