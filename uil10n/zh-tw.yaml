@@ -19,6 +19,8 @@ search_load_db_error: 發生錯誤
 search_form_mode_tag: 基於標籤
 search_form_do: 搜尋
 
+game_contact_us: 透過以下方式聯絡“獸人控遊戲索引”專案
+
 warnbox_staging: 這是一個施工中的頁面，其內容可能在將來發生破壞性改變。
 noticebox_tagme: 這個頁面已知缺少重要標籤。請幫忙新增標籤。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-tw.md">貢獻指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-tw.md">標籤列表和解釋</a>
 
@@ -30,6 +32,7 @@ stock-link-twitter: 官方 Twitter
 stock-link-furaffinity: 官方 FurAffinity
 stock-link-weibo: 官方微博
 stock-link-tumblr: 官方 Tumblr
+stock-link-discord: 官方 Discord
 stock-link-unoffical-patch-zh-cn: 非官方簡體中文補丁
 stock-link-unoffical-ver-zh-cn: 非官方簡體中文版本
 stock-link-unoffical-patch-zh-tw: 非官方繁體中文補丁

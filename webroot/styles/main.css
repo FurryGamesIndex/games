@@ -227,3 +227,7 @@ a:focus {
 	padding-bottom: 10px;
 	border-bottom: 1px solid var(--border-color);
 }
+
+.game .contact_us {
+	margin-top: 10px;
+}

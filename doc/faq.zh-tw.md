@@ -6,9 +6,17 @@
 
 	歡迎[參與 FGI 貢獻](https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-tw.md)
 
-- 為什麼“搜尋”頁面是 404
+- “搜尋”功能似乎有問題
 
-	很抱歉，目前搜尋功能尚未實施。我們打算在將來實施它，現在還有更加緊迫的事情需要完成。
+	只有最基本的搜尋標籤功能，而且一次只能搜尋一個標籤，且必須使用標籤的全名，如 `male:wolf`, `type:visual-novel` 等。
+
+	目標是可以做到同時搜尋多個標籤，並且可以排除多個標籤。比如“搜尋主要角色中包括犬科獸人並且型別是視覺小說，但作者不包含有“Studio Klondike” 的遊戲”
+
+	值得一題的是，現在點選遊戲頁面中的標籤，也可以快速進入搜尋頁面。
+
+	這是搜尋 The Echo Project 所有遊戲的搜尋地址：https://furrygamesindex.github.io/zh-tw/search.html?tag?author:The%20Echo%20Project
+
+	目前很多遊戲都缺失標籤，所以搜尋一些正常標籤時可能不能顯示它們。這些缺失標籤的遊戲可以透過搜尋 sys:tagme 列出，這可能有助於幫助希望貢獻標籤的朋友更容易找到要貢獻標籤的遊戲：https://furrygamesindex.github.io/zh-tw/search.html?tag?sys:tagme
 
 ### 有關貢獻的相關問題
 
