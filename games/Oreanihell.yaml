@@ -46,9 +46,9 @@ tags:
 
 links:
   - name: .website
-    url: http://tokoharu-ward.seesaa.net/
+    uri: http://tokoharu-ward.seesaa.net/
   - name: .twitter
-    url: twitter:rodori_dori
+    uri: twitter:rodori_dori
 
 thumbnail: thumbnail.png
 
