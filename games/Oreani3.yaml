@@ -1,0 +1,26 @@
+name: Ore_no_Animism Resurrection ～ The Marching On Fire / おれのアニミズム～黄泉還り篇～ The Marching On Fire
+
+description: |
+  ここは神様と悪魔の住む不思議な世界。
+
+  天界の気候を保つ秘宝「原初の火」が何者かに盗まれた！寒さに震える天界を救うため、いつもの神様二柱は犯人を追って、凍て付く化外の地「冥界」へと乗り込むのだった。
+
+  立ちはだかる邪神たちを心の火で焼き払う、 東方ライクなエモーショナル縦STGです。
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .website
+    uri: http://tokoharu-ward.seesaa.net
+  - name: .twitter
+    uri: twitter:rodori_dori
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://i.imgur.com/k2Rs2M6.png
+  - https://i.imgur.com/t3NMVST.png
+  - https://i.imgur.com/jMpvUNQ.png
