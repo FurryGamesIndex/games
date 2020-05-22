@@ -24,9 +24,6 @@ _metazoa: &metazoa
   snake: [ 'reptilia' ]
   turtle: [ 'reptilia' ]
 
-  cattle: [ 'bovidae' ]
-  bull: [ 'bovidae', 'cattle' ]
-  cow: [ 'bovidae', 'cattle' ]
   buffalo: [ 'bovidae' ]
   argali: [ 'bovidae' ]
   goat: [ 'bovidae' ]
@@ -35,5 +32,7 @@ _metazoa: &metazoa
 
 male:
   <<: *metazoa
+  bull: [ 'bovidae' ]
 female:
   <<: *metazoa
+  cow: [ 'bovidae' ]
