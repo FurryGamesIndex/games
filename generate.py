@@ -11,6 +11,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 from utils.search import searchdb
+from utils import tagmgr
 
 dir = "games"
 if len(argv) < 2:
@@ -23,6 +24,9 @@ renderer_files = [os.path.splitext(f)[0] \
         if os.path.isfile(os.path.join("renderers", f)) and f[0] != '.']
 languages = [f for f in os.listdir(os.path.join(dir, "l10n"))]
 games = {}
+
+with open("tag-dependencies.yaml") as f:
+    tagmgr.loaddep(yaml.safe_load(f))
 
 sdb = searchdb()
 
@@ -46,6 +50,7 @@ for f in sorted(os.listdir(dir)):
             with open(l10n_file) as stream:
                 games[game_id]["tr"][language] = yaml.safe_load(stream)
 
+    tagmgr.patch(games[game_id])
     sdb.update(games[game_id])
 
 env = Environment(loader = FileSystemLoader("templates"))
