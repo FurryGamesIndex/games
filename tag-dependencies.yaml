@@ -20,11 +20,14 @@ _metazoa: &metazoa
   marten: [ 'mustelidae' ]
 
   lizard: [ 'reptilia' ]
-  crocodilia: [ 'reptilia' ]
+  crocodile: [ 'reptilia' ]
   snake: [ 'reptilia' ]
   turtle: [ 'reptilia' ]
 
-  bovini: [ 'bovidae' ]
+  cattle: [ 'bovidae' ]
+  bull: [ 'bovidae', 'cattle' ]
+  cow: [ 'bovidae', 'cattle' ]
+  buffalo: [ 'bovidae' ]
   argali: [ 'bovidae' ]
   goat: [ 'bovidae' ]
   sheep: [ 'bovidae' ]
