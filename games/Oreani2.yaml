@@ -1,0 +1,29 @@
+name: Ore_no_Animism in Paradiso / おれのアニミズム～天国篇～
+
+description: |
+  This is a mysterious world where Gods and the devils live.
+
+  One day a lot of bills and coins came down from the sky.
+  The money with a strong magical power, two Gods and two devils thought it was an abnormal situation.
+  They go to the Heaven to resolve the situation.
+
+  This is Touhou-like Economy Vertical STG sweeping all things with a large amount of financial resources.
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .website
+    uri: http://tokoharu-ward.seesaa.net
+  - name: .twitter
+    uri: twitter:rodori_dori
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/9rQVhzm.png
+  - https://i.imgur.com/RyelbwJ.png
+  - https://i.imgur.com/pk8pE6w.png
+  - https://i.imgur.com/Zj3yS5J.png
