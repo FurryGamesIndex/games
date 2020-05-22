@@ -29,6 +29,8 @@
 
 > 在 male 名稱空間表示獸人/人類生理性別是男性，在 female 名稱空間表示獸人/人類生理性別是女性
 
+### 物種標籤
+
 > 以下是自動標籤，它們在你搜索遊戲時和其他標籤沒有區別。但如果你是遊戲編輯者、貢獻者，你不必為遊戲手動新增自動標籤，因為它們將在必要時自動被新增（如您新增 `male:cat` 標籤，該遊戲將自動繼承 `male:felidae` 標籤）
 > 
 > - `felidae` 主要角色包括貓科獸人
@@ -81,23 +83,26 @@
 爬行綱
 
 - `lizard` 主要角色包括蜥蜴獸人
-- `crocodilia` 主要角色包括鱷魚目獸人
+- `crocodile` 主要角色包括鱷魚目獸人
 - `snake` 主要角色包括蛇獸人
 - `turtle` 主要角色包括龜（龜鱉目）獸人
 
 牛科
 
-- `bovini` 主要角色包括牛獸人
+- `bull` 主要角色包括牛獸人（只出現於 male 名稱空間）
+- `cow` 主要角色包括牛獸人（只出現於 female 名稱空間）
+- `buffalo` 主要角色包括水牛獸人
 - `argali` 主要角色包括盤羊獸人
 - `goat` 主要角色包括山羊獸人
 - `sheep` 主要角色包括綿羊獸人
 - `bharal` 主要角色包括岩羊獸人
 
+特殊
+
 - `mixed` 主要角色包括混合獸人（如虎鯊）
-
-- `transfur` 主要角色中可能出現獸化
-
 - `humankind` 主要角色包括人類或智人
+
+### 非物種標籤
 
 - `futanari` 主要角色包括扶她（通常放置於 female 名稱空間）
 - `males-only` 主要角色只有男性（只出現於 male 名稱空間）
@@ -106,6 +111,7 @@
 - `loli` 主要角色包括未成年女性（只出現於 female 名稱空間）
 
 - `muscle` 主要角色中包括肌肉豐滿的角色
+- `transfur` 主要角色中可能出現獸化現象
 - `anal` 主要角色之間包括肛交性行為
 - `brain-fuck` 主要角色之間包括涉及大腦的性行為
 - `blowjob` 主要角色之間包括口交性行為
@@ -142,10 +148,12 @@
 
 用於說明遊戲相關的雜項資訊
 
+- `3d` 遊戲主要以 3D 形式呈現
 - `freeware` 遊戲是免費的或有一個不小的部分是免費的（Demo 版本不計算在內）
 - `multiplayer` 遊戲是多人遊戲或包括多人模式
 - `uncensored` 遊戲立繪、CG、模型等中沒有經過審查工序（無碼）
 - `engine-renpy` 遊戲使用了 RenPy 引擎
+- `engine-unity` 遊戲使用了 Unity 引擎
 - `multiple-endings` 遊戲有多種結局
 - `work-in-process` 遊戲尚未完結（但有先行預覽版本或 Demo）
 - `multiple-series` 遊戲包含多個世界觀、劇情有聯絡的系列/版本（提示：如果世界觀具有其特殊性且相近，即使劇情無聯絡，則仍然認為是同一系列（類似於數碼寶貝1, 3）；如果世界觀是一種常見的、樸實的、一般的世界，如“現代日本”，“中世紀歐洲”，則只有當劇情有聯絡時，才認為是同一系列。這個標籤在使用上有時可能會傾向主觀而非客觀，如果有更多問題，請開啟 issue 討論）
@@ -183,6 +191,7 @@
 
 用於說明遊戲支援的作業系統和平臺
 
+- `web` 遊戲官方支援 Web 平臺（HTML/JS/Canvas/WebGL/...）
 - `windows` 遊戲官方支援 Microsoft Windows
 - `macos` 遊戲官方支援 Apple macOS
 - `linux` 遊戲官方支援 GNU/Linux
@@ -190,6 +199,7 @@
 - `ios` 遊戲官方支援 Apple iOS
 - `nds` 遊戲官方支援 Nintendo DS
 - `psv` 遊戲官方支援 Sony PlayStation Vita
+- `playstation` 遊戲官方支援 Sony PlayStation
 
 ## sys 名稱空間
 

@@ -148,10 +148,12 @@
 
 用于说明游戏相关的杂项信息
 
+- `3d` 游戏主要以 3D 形式呈现
 - `freeware` 游戏是免费的或有一个不小的部分是免费的（Demo 版本不计算在内）
 - `multiplayer` 游戏是多人游戏或包括多人模式
 - `uncensored` 游戏立绘、CG、模型等中没有经过审查工序（无码）
 - `engine-renpy` 游戏使用了 RenPy 引擎
+- `engine-unity` 游戏使用了 Unity 引擎
 - `multiple-endings` 游戏有多种结局
 - `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo）
 - `multiple-series` 游戏包含多个世界观、剧情有联系的系列/版本（提示：如果世界观具有其特殊性且相近，即使剧情无联系，则仍然认为是同一系列（类似于数码宝贝1, 3）；如果世界观是一种常见的、朴实的、一般的世界，如“现代日本”，“中世纪欧洲”，则只有当剧情有联系时，才认为是同一系列。这个标签在使用上有时可能会倾向主观而非客观，如果有更多问题，请打开 issue 讨论）
@@ -189,6 +191,7 @@
 
 用于说明游戏支持的操作系统和平台
 
+- `web` 游戏官方支持 Web 平台（HTML/JS/Canvas/WebGL/...）
 - `windows` 游戏官方支持 Microsoft Windows
 - `macos` 游戏官方支持 Apple macOS
 - `linux` 游戏官方支持 GNU/Linux
@@ -196,6 +199,7 @@
 - `ios` 游戏官方支持 Apple iOS
 - `nds` 游戏官方支持 Nintendo DS
 - `psv` 游戏官方支持 Sony PlayStation Vita
+- `playstation` 游戏官方支持 Sony PlayStation
 
 ## sys 命名空间
 
