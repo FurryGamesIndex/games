@@ -9,7 +9,9 @@ icons = {
     'patreon': '<i class="fab fa-patreon fa-fw"></i>',
     'weibo': '<i class="fab fa-weibo fa-fw"></i>',
     'tumblr': '<i class="fab fa-tumblr fa-fw"></i>',
-    'discord': '<i class="fab fa-discord fa-fw"></i>'
+    'discord': '<i class="fab fa-discord fa-fw"></i>',
+    'play-store': '<i class="fab fa-google-play fa-fw"></i>',
+    'apple-app-store': '<i class="fab fa-app-store fa-fw"></i>'
 }
 
 def uri_to_src(uri):
