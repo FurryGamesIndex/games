@@ -30,11 +30,6 @@ _metazoa: &metazoa
   sheep: [ 'bovidae' ]
   bharal: [ 'bovidae' ]
 
-test:
-  a: [ 'b', 'c']
-  c: [ 'd' ]
-  d: [ 'b' ]
-
 male:
   <<: *metazoa
 female:

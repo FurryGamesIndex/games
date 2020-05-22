@@ -20,18 +20,14 @@ tags:
   type:
     - shooter
   male:
-    - canine
-    - felidae
     - suidae
     - dragon
     - lung
-    - reptilia
     - hyaenidae
     - lion
     - dog
     - lizard
   female:
-    - felidae
     - lion
   misc:
     - freeware

@@ -24,9 +24,7 @@ tags:
     - puzzle
     - visual-novel
   male:
-    - canine
-    - felidae
-    - bovidae
+    - bovini
     - leporidae
     - hyaenidae
     - wolf
@@ -36,7 +34,6 @@ tags:
     - shark
     - muscle
   female:
-    - felidae
     - cat
     - tiger
   misc:
