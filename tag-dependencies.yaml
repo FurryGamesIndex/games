@@ -1,0 +1,41 @@
+_metazoa: &metazoa
+  cat: [ 'felidae' ]
+  tiger: [ 'felidae' ]
+  white-tiger: [ 'felidae', 'tiger' ]
+  lion: [ 'felidae' ]
+  leopard: [ 'felidae' ]
+  snow-leopard: [ 'felidae' ]
+  black-panther: [ 'felidae', 'leopard' ]
+  cheetah: [ 'felidae' ]
+  lynx: [ 'felidae' ]
+
+  dog: [ 'canine' ]
+  wolf: [ 'canine' ]
+  fox: [ 'canine' ]
+  raccoon-dog: [ 'canine' ]
+
+  otter: [ 'mustelidae' ]
+  badger: [ 'mustelidae' ]
+  weasel: [ 'mustelidae' ]
+  marten: [ 'mustelidae' ]
+
+  lizard: [ 'reptilia' ]
+  crocodilia: [ 'reptilia' ]
+  snake: [ 'reptilia' ]
+  turtle: [ 'reptilia' ]
+
+  bovini: [ 'bovidae' ]
+  argali: [ 'bovidae' ]
+  goat: [ 'bovidae' ]
+  sheep: [ 'bovidae' ]
+  bharal: [ 'bovidae' ]
+
+test:
+  a: [ 'b', 'c']
+  c: [ 'd' ]
+  d: [ 'b' ]
+
+male:
+  <<: *metazoa
+female:
+  <<: *metazoa
