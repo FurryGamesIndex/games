@@ -1,0 +1,38 @@
+name: Shinobi Spirits S Legend of Heroes / 忍スピリッツS 真田獣勇士伝
+
+description: |
+  The flames of war run rampant.
+  Ieyasu Tokugawa has been made general of the Edo Shoganate. However, General Yukimura Sanada and
+  his Beast Brigade head the resistance against Ieyasu!
+  But then one day, Saizo Kirigakure returns from a mission to find Yukimura and the entire Beast Brigade
+  missing...
+  Shinobi Spirits S: Legend of Heroes is a ninja action game.
+  You are surrounded, under siege from all directions by the Tokugawa ninjas!
+  Use your arsenal of ninja skills to defeat your foes. Create combos of attacks, and utilize ninja skills such as
+  Smoke Bomb and Nose Dive!
+  Follow our heroes' captivating story, and clear the missions in each stage.
+  Collect scrolls to aquire new ninja skills! There is so much more than just clearing stages!
+  Enhance your ninja skills using the Skill Tree.
+  Upgrade skills to cultivate your unique ninja fighting style.
+  Don't forget to check out the Leader's Room.
+  There you can chat with our brave heroes, and discover content not included in the main story.
+  There are three levels of difficulty available.
+  From those who aren't familiar with action games, to seasoned veterans of the genre,
+  there is something for everybody!
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:1110220
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/1110220/ss_7cab7a5f38447d5f18ee4547ac927df84baa75e5.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1110220/ss_3e2f51e8077aba3006d52fbd0be77d36b05c1f89.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1110220/ss_282765980a9bf2f0cd07cbdcc40f7ab2c5a31613.1920x1080.jpg
+
