@@ -30,6 +30,11 @@ _metazoa: &metazoa
   sheep: [ 'bovidae' ]
   bharal: [ 'bovidae' ]
 
+  hamster: [ 'muroidea' ]
+  gerbil: [ 'muroidea' ]
+  rat: [ 'muroidea' ]
+  mice: [ 'muroidea' ]
+
 male:
   <<: *metazoa
   bull: [ 'bovidae' ]
