@@ -39,3 +39,8 @@ def render(games, env, language, language_ui, output):
         f.write(env.get_template("faq.html").render(context))
         f.write(env.get_template("footer.html").render(context))
     del context["active_faq"]
+
+    with open(os.path.join(output, "sensitive.html"), "w") as f:
+        f.write(env.get_template("header.html").render(context))
+        f.write(env.get_template("sensitive.html").render(context))
+        f.write(env.get_template("footer.html").render(context))

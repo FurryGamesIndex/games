@@ -1,6 +1,6 @@
 try {
 window.$ = (selector => document.querySelector(selector));
-window.$$ = (id => document.getElementById(id));
+window.$$ = (selector => document.querySelectorAll(selector));
 String.prototype.format = function() {
 	return this.replace(/{(\d+)}/g, (match, number) => {
 		return typeof arguments[number] != 'undefined' ? arguments[number] : match;

@@ -2,13 +2,13 @@
 
 import os
 import json
-from utils.image_uri import image_uri
+from utils import image
 from utils.i18n import get
 
 context = {
     "rr": "..",
     "active_list": "actived",
-    "image_uri": image_uri,
+    "image_uri": image.uri,
     "get": get
 }
 
@@ -28,6 +28,6 @@ def render(games, env, language, language_ui, output):
         glist[id] = {}
         glist[id]["name"] = get(data, language, "name")
         glist[id]["description"] = desc
-        glist[id]["thumbnail"] = image_uri("..", data["thumbnail"], id)
+        glist[id]["thumbnail"] = image.uri("..", data["thumbnail"], id)
     with open(os.path.join(output, "gamelist.json"), "w") as f:
         f.write(json.dumps(glist))

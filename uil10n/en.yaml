@@ -20,6 +20,13 @@ search_form_mode_tag: By tag
 search_form_do: Search
 
 game_contact_us: Contant FurryGamesIndex project by
+game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>
+
+sensitive_page_tip: |
+  This will enable the display of sensitive content on all FGI pages.<br>
+  You must reach the adult standard under local laws before you can open the above options.<br>
+  You must use a modern browser and enable JavaScript.<br>
+  After modifying this setting, you need to refresh the page to take effect.
 
 warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
 noticebox_tagme: This page is known to be missing important tags. Please help to add tags. <br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribution guide</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md">Label list and explanation</a>

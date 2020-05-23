@@ -62,6 +62,8 @@ tags:
   sys:
     - staging
     - tagme
+  misc:
+    - 3d
 
 links:
   - name: .website
@@ -73,7 +75,17 @@ links:
 
 thumbnail: thumbnail.jpg
 
+sensitive_media: true
+
 screenshots:
   - https://i.imgur.com/qm5bcXL.jpg
   - https://i.imgur.com/HNxrH7u.jpg
   - https://i.imgur.com/IdKPA5W.jpg
+  - sensitive: true
+    uri: https://images2.imgbox.com/55/b0/nweOeKev_o.jpg
+  - sensitive: true
+    uri: https://images2.imgbox.com/b8/39/pyHagTIF_o.jpg
+  - sensitive: true
+    uri: https://images2.imgbox.com/8e/0f/mB0wEWi8_o.jpg
+  - sensitive: true
+    uri: https://images2.imgbox.com/80/89/Rhcx7tbr_o.jpg

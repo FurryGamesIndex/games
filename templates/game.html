@@ -23,13 +23,18 @@
 		{% endfor %}
 		</tbody></table></div>
 		<div class="screenshots">
+		{% if "sensitive_media" in game %}
+			<div class="warning box" id="sensitive_media_warn">
+				{{ ui.game_sensitive_warning % (rr, lang) }}
+			</div>
+		{% endif %}
 		{% for i in game.screenshots %}
-			<img src="{{ image_uri(rr, i, name) }}">
+		{{ image.dom(rr, i, name) }}
 		{% endfor %}
 		</div>
 	</div>
 	<div class="rightbox">
-		<img class="thumbnail" src="{{ image_uri(rr, game.thumbnail, name) }}" >
+		<img class="thumbnail" src="{{ image.uri(rr, game.thumbnail, name) }}" >
 		<div class="links links-group">
 		{% for i in game.links %}
 			{% set li = link_info(i, game.tr, ui, lang) %}
@@ -44,4 +49,13 @@
 		</div>
 	</div>
 </div>
-
+<script src="{{ rr }}/scripts/base.js"></script>
+<script>
+if (localStorage.getItem("show_sensitive") == "true") {
+	$$(".sensitive_img").forEach(i => {
+		i.src = i.dataset.realsrc;
+		i.classList.remove("hide")
+	});
+	$("#sensitive_media_warn").classList.add("hide");
+}
+</script>

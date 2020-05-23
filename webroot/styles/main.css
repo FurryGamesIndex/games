@@ -200,6 +200,10 @@ a:focus {
 	width: 100%;
 }
 
+#sensitive_media_warn {
+	margin-bottom: 12px;
+}
+
 .game>.rightbox {
 	display: inline-block;
 	width: 300px;

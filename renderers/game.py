@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from utils.image_uri import image_uri
+from utils import image
 from utils.i18n import get
 from utils.i18n import get_desc
 from utils.link import link_info
@@ -11,7 +11,7 @@ def checktag(game, namespace, value):
 
 context = {
     "rr": "../..",
-    "image_uri": image_uri,
+    "image": image,
     "get": get,
     "get_desc": get_desc,
     "link_info": link_info,
