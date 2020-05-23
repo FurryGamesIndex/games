@@ -16,8 +16,6 @@ def render(games, env, language, language_ui, output):
     markdowner = Markdown()
     with open("README." + language + ".md") as f:
         context["index_content"] = markdowner.convert(f.read())
-    with open("doc/faq." + language + ".md") as f:
-        context["faq_content"] = markdowner.convert(f.read())
 
     context["active_search"] = "actived"
     with open(os.path.join(output, "search.html"), "w") as f:
@@ -33,12 +31,15 @@ def render(games, env, language, language_ui, output):
         f.write(env.get_template("footer.html").render(context))
     del context["active_index"]
 
+    with open("doc/faq." + language + ".md") as f:
+        context["content"] = markdowner.convert(f.read())
     context["active_faq"] = "actived"
     with open(os.path.join(output, "faq.html"), "w") as f:
         f.write(env.get_template("header.html").render(context))
-        f.write(env.get_template("faq.html").render(context))
+        f.write(env.get_template("simple_md.html").render(context))
         f.write(env.get_template("footer.html").render(context))
     del context["active_faq"]
+    del context["content"]
 
     with open(os.path.join(output, "sensitive.html"), "w") as f:
         f.write(env.get_template("header.html").render(context))
