@@ -1,0 +1,59 @@
+name: Wonder Parade / 不可思议乐队
+
+description: |
+  On a faraway fantastic planet, there are some cute and kind animals live off with joy from the music they play.
+  Come and join their cheerful marching band and search for more friends!
+
+  FEATURES
+
+  -One-time payment, no more in app purchase. Continued free updates with more features coming soon.
+  -Hand made characters and animations.
+  -Innovative playing style, easy to understand, adjusted for mobile devices.
+  -Original made cheerful soundtracks.
+  -Character and song unlock system.
+  -Basic, Advance, Expert difficulties.
+
+tags:
+  sys:
+    - tagme
+  author:
+    - studioQuare
+    - 'Nanjing AQUATRAX'
+  type:
+    - music
+  lang:
+    - en
+    - ja
+    - zh
+  misc:
+    - work-in-process
+    - geographical
+    - online
+    - centralized
+  publish:
+    - google-play
+    - apple-appstore
+  platform:
+    - android
+    - ios
+
+links:
+  - name: Get on Taptap
+    uri: https://www.taptap.com/app/60500
+  - name: .play-store
+    uri: https://play.google.com/store/apps/details?id=com.dawinstone.b2be
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/bad-2-bad-extinction/id1462739005
+  - name: .twitter
+    uri: twitter:studioQuare
+  - name: .weibo
+    uri: https://weibo.com/wonderparade
+  - name: Steam (Not released)
+    icon: steam
+    uri: steam:1138980
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/K1O5CdX.jpg
+  - https://i.imgur.com/LpeRIa0.jpg
