@@ -288,6 +288,29 @@ screenshots:
   - https://i.imgur.com/syIeL3g.png
 ```
 
+敏感內容截圖
+
+如果遊戲截圖要新增帶有敏感內容（R-18，NSFW，Yiff）的截圖，首先請設定`sensitive_media: true`，並在敏感的截圖項上使用以下格式
+
+```
+  - sensitive: true
+    uri: <地址>
+```
+
+最終效果如下
+
+```
+sensitive_media: true
+
+screenshots:
+  - https://i.imgur.com/...
+  - https://i.imgur.com/...
+  - sensitive: true
+    uri: https://images2.imgbox.com/b8/39/pyHagTIF_o.jpg
+```
+
+> 很多圖床（如 imgur）不允許上傳敏感內容，請勿使用這些圖床託管敏感內容圖片。
+
 ## 第五步：翻譯關鍵資訊
 
 現在我們有了描述遊戲資訊的檔案，我們已經離成功不遠了！接下來（一個可選的步驟）我們需要為非英文使用者準備翻譯檔案。如果你的母語不是英語，推薦為自己的母語提供一份翻譯檔案，假如你的母語是中文，你可以再準備一份 `遊戲ID.yaml` 檔案（和上一步中的檔案同名），你可以把它放到 `l10n/zh-tw/` 目錄下。
