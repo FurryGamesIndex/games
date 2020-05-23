@@ -19,6 +19,7 @@
 - `music` 音樂遊戲
 - `shooter` 射擊遊戲
 - `puzzle` 解謎/益智遊戲
+- `role-playing` 角色扮演遊戲
 - `bara` 包含較多男同性戀向內容的作品
 - `yuri` 包含較多女同性戀向內容的作品
 - `yiff` 包含成人（R-18）限制級內容的作品
@@ -186,6 +187,8 @@
 - `booth` 遊戲在 BOOTH 上有釋出
 - `digiket` 遊戲在 DiGiket 上有釋出
 - `website` 遊戲在其網站上有釋出
+- `google-play` 遊戲在 Google Play 商店上有釋出
+- `apple-appstore` 遊戲在 Apple appstore 上有釋出
 
 ## platform 名稱空間
 
