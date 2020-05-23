@@ -22,7 +22,11 @@ links:
 
 thumbnail: thumbnail.jpg
 
+sensitive_media: true
+
 screenshots:
   - https://img.digiket.net/cg/68/ITM0068095_s1.jpg
-  - https://img.digiket.net/cg/68/ITM0068095_s2.jpg
-  - https://img.digiket.net/cg/68/ITM0068095_s3.jpg
+  - sensitive: true
+    uri: https://img.digiket.net/cg/68/ITM0068095_s2.jpg
+  - sensitive: true
+    uri: https://img.digiket.net/cg/68/ITM0068095_s3.jpg
