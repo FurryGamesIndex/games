@@ -1,0 +1,29 @@
+name: Lagoon Lounge 3 ~ Irori no Lagoon / 囲炉裏のラグーン
+
+description: |
+  This is the full English translation "Final" of the LAGOON LOUNGE series.
+
+  Go to the hot spring, celebrate Christmas.
+
+  Multi-endings (Ending will change by your choices during the game)
+  Bonus function to change clothes
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: Get on DiGiket
+    uri: http://www.digiket.com/work/show/_data/ID=ITM0092877/
+  - name: Get official English version on DLsite
+    uri: https://www.dlsite.com/ecchi-eng/work/=/product_id/RE176284.html
+  - name: .twitter
+    uri: twitter:oodaru
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.digiket.net/cg/92/ITM0092877_s1.jpg
+  - https://img.digiket.net/cg/92/ITM0092877_s2.jpg
+  - https://img.digiket.net/cg/92/ITM0092877_s3.jpg
