@@ -11,10 +11,10 @@ Utopic Panther
 	Telegram: @UtopicPanther
 	Github: @UtopicPanther
 
-	Designed and developed the FGI softwares.
-	Current maintainer of the project.
-	Chinese Documents.
-	Games submitter.
+	Designed and developed the FGI softwares
+	Current maintainer of the project
+	Games submitter and editor
+	Chinese Documents
 
 HuaJi2333DaDa
 
@@ -22,14 +22,16 @@ HuaJi2333DaDa
 	Twitter: https://twitter.com/HuaJi2333dada
 	Github: @HuaJi2333DaDa
 	
-	Games submitter
+	Games submitter and editor
+	Chinese Documents
 
 xiaoxiaohaoa
 
 	Telegram: @xiaoxiaohaoa
 	Github: @xiaoxiaohaoa
 	
-	Games submitter
+	Games submitter and editor
+	Chinese Documents
 
 * For new contributors, please add your name and contacts before this line.
 
