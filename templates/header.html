@@ -3,7 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+{% if meta is defined %}
+	<title>{{ meta.title }} - {{ ui.page_title }}</title>
+	<meta property="og:title" content="{{ meta.title }} - {{ ui.page_title }}"/>
+	<meta property="og:description" content="{{ meta.description }}"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:image" content="{{ meta.image }}"/>
+{% else %}
 	<title>{{ ui.page_title }}</title>
+{% endif %}
 	<meta name="description" content="A project to index furry & kemono games.">
 	<link rel="stylesheet" href="{{ rr }}/styles/main.css?v=1">
 	<link rel="stylesheet" href="{{ rr }}/styles/fa.all.min.css">
