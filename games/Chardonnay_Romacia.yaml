@@ -13,8 +13,6 @@ description: |
   Feel free to discuss the contents of this trial version online. We are eager to listen to any feedback or comments you may have.
 
 tags:
-  sys:
-    - staging
   author:
     - Cotton
   type:
@@ -29,6 +27,7 @@ tags:
     - muscle
   misc:
     - work-in-process
+    - engine-unity
   lang:
     - en
     - ja
