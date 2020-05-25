@@ -22,7 +22,7 @@
 
 ## 版權資訊
 
-所有遊戲資料和文件按照 [創作共用署名-非商業性使用-相同方式共享(CC-BY-NC-SA) 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 許可。參見專案根目錄的 LICENSE.CC-BY-NC-SA4 檔案。
+所有遊戲資料和文件按照 [創作共用署名-非商業性使用-相同方式共享(CC BY-NC-SA) 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 許可。參見專案根目錄的 LICENSE.CC-BY-NC-SA4 檔案。
 
 部分資料（如遊戲截圖）版權歸原始權利人所有。我們僅在[合理使用](https://en.wikipedia.org/wiki/Fair_use)的前提下發布它們。
 

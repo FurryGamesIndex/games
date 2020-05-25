@@ -22,7 +22,7 @@
 
 ## 版权信息
 
-所有游戏数据和文档按照 [创作共用署名-非商业性使用-相同方式共享(CC-BY-NC-SA) 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。参见项目根目录的 LICENSE.CC-BY-NC-SA4 文件。
+所有游戏数据和文档按照 [创作共用署名-非商业性使用-相同方式共享(CC BY-NC-SA) 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。参见项目根目录的 LICENSE.CC-BY-NC-SA4 文件。
 
 部分数据（如游戏截图）版权归原始权利人所有。我们仅在[合理使用](https://en.wikipedia.org/wiki/Fair_use)的前提下发布它们。
 
