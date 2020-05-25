@@ -1,0 +1,52 @@
+name: Blackgate
+
+description: |
+  Blackgate is a mature visual novel of a mostly M/M nature. While there will be a limited number of scenes of a M/F nature, the game is intended to be mostly M/M. The game also contains elements of horror, violence, and some gore (separate from the sexual scenes). Prepare to hate everyone, and everything.
+
+  Who works on the game and where can I find them?
+  - [Darkgem](https://twitter.com/darkgemrawr) – Major Scene Artist
+  - [Lil' Shark](https://twitter.com/ATinyLilShark) - Merchandise Artist
+  - Sean - [AnthroAquatic](https://twitter.com/anthroaquatic)/[Goal Publications](https://twitter.com/goalpublication) – Editor/Merchandise Seller
+  - [Bane](https://twitter.com/mytruebane) – Writer/Music Producer/Owner
+  - Mr. E, who makes the current sprites and background art, wishes to remain anonymous.
+
+description-format: markdown
+
+tags:
+  sys:
+    - tagme
+  author:
+    - Bane
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - cat
+    - dog
+    - suidae
+    - wolf
+    - bull
+    - equidae
+  lang:
+    - en
+  publish:
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .patreon
+    uri: patreon:blackgategame
+  - name: .twitter
+    uri: twitter:blackgate_vn
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/WxXQBcq.jpg
+  - https://i.imgur.com/LFTplpa.jpg
+  - https://i.imgur.com/vCWF4lj.jpg
+
