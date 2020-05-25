@@ -7,9 +7,29 @@ description: |
   the hit 2012 furry digital novel by KAIJYU.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - KAIJU-09
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male: 
+    - dog
+    - tiger
+    - cat
+    - lion
+    - muscle
+    - anal
+    - blowjob
+  misc:
+    - multiple-series
+  lang:
+    - en
+    - ja
+  publish:
+    - digiket
+  platform:
+    - windows
 
 links:
   - name: .website

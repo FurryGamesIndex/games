@@ -6,9 +6,32 @@ description: |
   Please enjoy this carefree digital novel with minimal branching paths.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - KAIJU-09
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male: 
+    - dog
+    - tiger
+    - cat
+    - shota
+    - muscle
+    - anal
+    - blowjob
+  female:
+    - cat
+  misc:
+    - multiple-series
+  lang:
+    - en
+    - ja
+    - zh-unoffical
+  publish:
+    - digiket
+  platform:
+    - windows
 
 links:
   - name: .website

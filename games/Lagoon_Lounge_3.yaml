@@ -9,9 +9,31 @@ description: |
   Bonus function to change clothes
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - KAIJU-09
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male: 
+    - dog
+    - tiger
+    - cat
+    - lion
+    - shota
+    - muscle
+    - anal
+    - blowjob
+  misc:
+    - multiple-series
+    - multiple-endings
+  lang:
+    - en
+    - ja
+  publish:
+    - digiket
+  platform:
+    - windows
 
 links:
   - name: Get on DiGiket
