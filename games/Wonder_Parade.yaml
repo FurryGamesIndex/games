@@ -41,9 +41,9 @@ links:
   - name: Get on Taptap
     uri: https://www.taptap.com/app/60500
   - name: .play-store
-    uri: https://play.google.com/store/apps/details?id=com.dawinstone.b2be
+    uri: https://play.google.com/store/apps/details?id=com.studioQuare.WP
   - name: .apple-appstore
-    uri: https://apps.apple.com/us/app/bad-2-bad-extinction/id1462739005
+    uri: https://apps.apple.com/us/app/wonder-parade/id1272469707
   - name: .twitter
     uri: twitter:studioQuare
   - name: .weibo
