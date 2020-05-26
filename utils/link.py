@@ -26,6 +26,8 @@ def uri_to_src(uri):
         return "https://www.patreon.com/%s" % res[1]
     elif (res[0] == 'tumblr'):
         return "https://%s.tumblr.com/" % res[1]
+    elif (res[0] == 'pixiv'):
+        return "https://www.pixiv.net/users/%s" % res[1]
     else:
         return uri
 

@@ -1,0 +1,47 @@
+name: Tohboe Bookmark! Another Bookmark / とおぼえブックマーク！ Another Bookmark
+
+description: |
+  FIXME: English description is required!
+
+  基于《远吠书签》原作的世界线有所交集。世界观构成、全新的人物、和原创的故事！
+
+  “我曾以为时光的流淌悄无声息。然而那个暑假的些许误解，完全改变了这一切。在那充满矛盾与复杂情感的内心深处……如果曾经的时光可以停留，我想我会一直赖着不走。”
+  人生很漫长，青春却短暂；这次，我把这个故事讲完。
+
+  注：《远吠书签》原作的漫画作者已支持。
+
+tags:
+  author:
+    - Paul.D.Uchiha
+  type:
+    - visual-novel
+    - bara
+  male:
+    - wolf
+    - dog
+    - cat
+    - tiger
+    - lion
+  misc:
+    - multiple-endings
+  lang:
+    - zh
+  platform:
+    - windows
+    - android
+
+links:
+  - name: Publish page
+    uri: https://tieba.baidu.com/p/3345903293
+  - name: .weibo
+    uri: https://weibo.com/xingmahaov
+  - name: .pixiv
+    uri: pixiv:3321465
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/UyosHDR.jpg
+  - https://i.imgur.com/e1m3RHP.jpg
+  - https://i.imgur.com/H3IBdXZ.jpg
+  - https://i.imgur.com/o79Zb5D.jpg
