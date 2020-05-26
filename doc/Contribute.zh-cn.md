@@ -288,7 +288,9 @@ screenshots:
   - https://i.imgur.com/syIeL3g.png
 ```
 
-敏感内容截图
+嵌入特殊的截图
+
+- 敏感内容截图
 
 	如果游戏截图要添加带有敏感内容（R-18，NSFW，Yiff）的截图，首先请设置`sensitive_media: true`，并在敏感的截图项上使用以下格式
 
@@ -313,7 +315,7 @@ screenshots:
 
 在游戏截图部分，可以插入游戏相关的其他媒体，如 Youtube 视频和 HTML 视频嵌入元素
 
-嵌入 Youtube 视频`
+- 嵌入 Youtube 视频
 
 	```
 	  - type: youtube
@@ -322,7 +324,7 @@ screenshots:
 
 	ID 为视频 ID，可以从视频链接中获得：`https://www.youtube.com/watch?v=<ID>` 或 `https://youtu.be/<ID>`
 
-嵌入 HTML 视频嵌入元素
+- 嵌入 HTML 视频嵌入元素
 
 	HTML 视频嵌入元素可以提供多种类型以兼顾兼容性和性能
 
@@ -330,9 +332,9 @@ screenshots:
 	  - type: video
 	    src:
 	      - uri: https://example.com/1.webm
-		mime: video/webm
+	        mime: video/webm
 	      - uri: https://example.com/1.mp4
-		mime: video/mp4
+	        mime: video/mp4
 	```
 
 ## 第五步：翻译关键信息
