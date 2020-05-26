@@ -12,13 +12,15 @@ description: |
   *注：《远吠书签》原作的漫画作者已支持。
 
 tags:
-  sys:
-    - tageme
   author:
     - Paul.D.Uchiha
   type:
     - visual-novel
     - bara
+  male:
+    - dog
+  female:
+    - cat
   misc:
     - freeware
   lang:
