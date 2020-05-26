@@ -1,0 +1,53 @@
+name: Animal Crossing: New Horizons
+
+description: |
+  Escape to Your Personal Island Paradise
+
+  Escape to a deserted island and create your own paradise as you explore, create, and customize in the Animal Crossing: New Horizons game. Your island getaway has a wealth of natural resources that can be used to craft everything from tools to creature comforts. You can hunt down insects at the crack of dawn, decorate your paradise throughout the day, or enjoy sunset on the beach while fishing in the ocean. The time of day and season match real life, so each day on your island is a chance to check in and find new surprises all year round.
+
+  Show off your island utopia to family and friends—or pack your bags and visit theirs. Whether playing online or with others beside you, island living is even better when you can share it. Even without hopping on a flight, you’ll meet a cast of charming animal residents bursting with personality. Friendly faces like Tom Nook and Isabelle will lend their services and happily help you grow your budding community. Escape to your island getaway—however, whenever, and wherever you want.
+
+  • Build your community from scratch on a deserted island brimming with possibility
+  • Create your personal getaway and customize your character, home, decorations, and even the landscape itself
+  • Collect materials to construct everything from furniture to tools! Then, use what you create to give your island a personal touch
+  • Watch as the time of day and seasons match real life—even your hemisphere! Each day holds potential for surprises and discoveries
+  • Get to know the island residents, garden, fish, decorate, hunt for fossils, and more!
+  • Show off your paradise – play on the same system with a total of 4 people, or play together online or over local wireless for fun with up to 8 players
+
+tags:
+  author:
+    - Nintendo
+  type:
+    - casual
+    - simulation
+  misc:
+    - 3d
+    - multiplayer
+    - uncensored
+    - multiple-series
+    - outside-furry-fandom
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - e-shop
+  platform:
+    - nintendo-switch
+  sys:
+    - tagme
+
+links:
+  - name: .twitter
+    uri: twitter:doubutsuno_mori
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/animal-crossing-new-horizons-switch/
+  - name: .website
+    uri: https://www.animal-crossing.com/new-horizons/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://www.animal-crossing.com/new-horizons/assets/img/home/explore-photo-3.jpg
+  - https://www.animal-crossing.com/new-horizons/assets/img/home/create-image-1.png
+  - https://www.animal-crossing.com/new-horizons/assets/img/home/share-image-1.png
