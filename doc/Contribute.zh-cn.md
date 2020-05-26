@@ -290,26 +290,50 @@ screenshots:
 
 敏感内容截图
 
-如果游戏截图要添加带有敏感内容（R-18，NSFW，Yiff）的截图，首先请设置`sensitive_media: true`，并在敏感的截图项上使用以下格式
+	如果游戏截图要添加带有敏感内容（R-18，NSFW，Yiff）的截图，首先请设置`sensitive_media: true`，并在敏感的截图项上使用以下格式
 
-```
-  - sensitive: true
-    uri: <地址>
-```
+	```
+	  - sensitive: true
+	    uri: <地址>
+	```
 
-最终效果如下
+	最终效果如下
 
-```
-sensitive_media: true
+	```
+	sensitive_media: true
 
-screenshots:
-  - https://i.imgur.com/...
-  - https://i.imgur.com/...
-  - sensitive: true
-    uri: https://images2.imgbox.com/b8/39/pyHagTIF_o.jpg
-```
+	screenshots:
+	  - https://i.imgur.com/...
+	  - https://i.imgur.com/...
+	  - sensitive: true
+	    uri: https://images2.imgbox.com/b8/39/pyHagTIF_o.jpg
+	```
 
-> 很多图床（如 imgur）不允许上传敏感内容，请勿使用这些图床托管敏感内容图片。
+	> 很多图床（如 imgur）不允许上传敏感内容，请勿使用这些图床托管敏感内容图片。
+
+在游戏截图部分，可以插入游戏相关的其他媒体，如 Youtube 视频和 HTML 视频嵌入元素
+
+嵌入 Youtube 视频`
+
+	```
+	  - type: youtube
+	    uri: youtube:<ID>
+	```
+
+	ID 为视频 ID，可以从视频链接中获得：`https://www.youtube.com/watch?v=<ID>` 或 `https://youtu.be/<ID>`
+
+嵌入 HTML 视频嵌入元素
+
+	HTML 视频嵌入元素可以提供多种类型以兼顾兼容性和性能
+
+	```
+	  - type: video
+	    src:
+	      - uri: https://example.com/1.webm
+		mime: video/webm
+	      - uri: https://example.com/1.mp4
+		mime: video/mp4
+	```
 
 ## 第五步：翻译关键信息
 
