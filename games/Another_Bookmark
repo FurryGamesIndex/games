@@ -1,0 +1,46 @@
+name: Another Bookmark / とおぼえブックマーク！
+
+description: |
+  基于《远吠书签》原作的世界线有所交集。
+  世界观构成、全新的人物、和原创的故事！
+  这次是完整修正版~因为某些底层改变恕无法提供补丁升级。
+  “我曾以为时光的流淌悄无声息。
+  然而那个暑假的些许误解，完全改变了这一切。
+  在那充满矛盾与复杂情感的内心深处......
+  如果曾经的时光可以停留，我想我会一直赖着不走。”
+  人生很漫长，青春却短暂；这次，我把这个故事讲完。
+  *注：《远吠书签》原作的漫画作者已支持。
+
+tags:
+  sys:
+    - tageme
+  author:
+    - Paul.D.Uchiha
+  type:
+    - visual-novel
+    - bara
+  misc:
+    - freeware
+  lang:
+    - zh
+  publish:
+    - website
+  platform:
+    - windows
+    - android
+
+links:
+  - name: Get on Baidu Tieba
+    uri: https://tieba.baidu.com/p/3345903293?traceid=
+  - name: .twitter
+    uri: twitter:xingmahaov
+  - name: .weibo
+    uri: https://www.weibo.com/xingmahaov
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https:http://imgsrc.baidu.com/forum/cp%3Dtieba%2C10%2C621%3Bap%3D%D4%B6%B7%CD%CA%E9%C7%A9%B0%C9%2C90%2C629/sign=c1e5ef6cc55c10383033c686db74f172/96c5870f4bfbfbed83d1d9097bf0f736aec31fa2.jpg
+  - http://imgsrc.baidu.com/forum/cp%3Dtieba%2C10%2C621%3Bap%3D%D4%B6%B7%CD%CA%E9%C7%A9%B0%C9%2C90%2C629/sign=1c9f1c1a1338534398828f65fa76d21f/686568fbfbedab642afaa2b6f436afc378311ea2.jpg
+  - http://imgsrc.baidu.com/forum/cp%3Dtieba%2C10%2C621%3Bap%3D%D4%B6%B7%CD%CA%E9%C7%A9%B0%C9%2C90%2C629/sign=ece9ca7e5043fbf2d161ae67d91ba8e1/8791d8edab64034f52452d70acc379310b551da2.jpg
+  - http://imgsrc.baidu.com/forum/cp%3Dtieba%2C10%2C621%3Bap%3D%D4%B6%B7%CD%CA%E9%C7%A9%B0%C9%2C90%2C629/sign=d64768579013b07ea9f0584c65b2f342/cf255bf0f736afc35484d013b019ebc4b64512a2.jpg
