@@ -19,10 +19,10 @@ tags:
   male:
     - wolf
     - dog
+  femail:
     - cat
-    - tiger
-    - lion
   misc:
+    - freeware
     - multiple-endings
   lang:
     - zh
@@ -33,6 +33,8 @@ tags:
 links:
   - name: Publish page
     uri: https://tieba.baidu.com/p/3345903293
+  - name: .twitter
+    uri: twitter:xingmahaov
   - name: .weibo
     uri: https://weibo.com/xingmahaov
   - name: .pixiv
