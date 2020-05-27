@@ -33,7 +33,7 @@ tags:
     - work-in-process
   lang:
     - en
-    - zh-unoffical
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -50,7 +50,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: .unoffical-patch-zh-cn
+  - name: .unofficial-patch-zh-cn
     uri: https://weibo.com/7429628292/IDpa7oH33
 
 thumbnail: thumbnail.jpg

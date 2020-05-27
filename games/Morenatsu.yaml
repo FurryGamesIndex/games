@@ -32,12 +32,12 @@ tags:
     - died
   lang:
     - ja
-    - zh-unoffical
+    - zh-unofficial
   platform:
     - windows
 
 links:
-  - name: .unoffical-ver-zh-cn
+  - name: .unofficial-ver-zh-cn
     uri: https://tieba.baidu.com/p/3452271872
 
 thumbnail: thumbnail.jpg

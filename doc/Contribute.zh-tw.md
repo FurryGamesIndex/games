@@ -72,7 +72,7 @@ tags:
     - work-in-process
   lang:
     - en
-    - zh-unoffical
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -161,7 +161,7 @@ tags:
     - work-in-process
   lang:
     - en
-    - zh-unoffical
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -239,14 +239,14 @@ FGI 支援的庫存連結包括以下幾個
 - `.weibo`: 官方微博
 - `.tumblr`: 官方 Tumblr
 - `.discord`: 官方 Discord
-- `.unoffical-patch-zh-cn`: 非官方簡體中文補丁
-- `.unoffical-ver-zh-cn`: 非官方簡體中文版本
-- `.unoffical-patch-zh-tw`: 非官方繁體中文補丁
-- `.unoffical-ver-zh-tw`: 非官方繁體中文版本
+- `.unofficial-patch-zh-cn`: 非官方簡體中文補丁
+- `.unofficial-ver-zh-cn`: 非官方簡體中文版本
+- `.unofficial-patch-zh-tw`: 非官方繁體中文補丁
+- `.unofficial-ver-zh-tw`: 非官方繁體中文版本
 
 當你使用庫存連結時，你就無需寫這麼一段長字，而且無需為每種語言寫一份，因為庫存連結是固定的，每種語言都可以自動處理。
 
-如果確實需要非庫存連結，則名稱部分直接寫就可以了，注意這裡我們要使用英文（然後可能還需要再在它處寫其他語言的名稱）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code>，是建立一個指向非官方中文補丁的連結。（現在 Adastra 已經使用 `.unoffical-patch-zh-cn` 庫存連結代替此自定義連結，但本文件仍然使用舊的自定義連結以幫助你理解以及說明自定義連結的翻譯方法）
+如果確實需要非庫存連結，則名稱部分直接寫就可以了，注意這裡我們要使用英文（然後可能還需要再在它處寫其他語言的名稱）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code>，是建立一個指向非官方中文補丁的連結。（現在 Adastra 已經使用 `.unofficial-patch-zh-cn` 庫存連結代替此自定義連結，但本文件仍然使用舊的自定義連結以幫助你理解以及說明自定義連結的翻譯方法）
 
 URI 部分可能是一個網址或 URL，比如上面的“在 itch.io 平臺上獲取”連結上，我們應該跳轉開啟該遊戲的 itch.io 網頁，因此我們填寫 `https://echoproject.itch.io/adastra`
 

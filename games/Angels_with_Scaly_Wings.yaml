@@ -23,7 +23,7 @@ tags:
 links:
   - name: .steam
     uri: steam:571880
-  - name: .unoffical-patch-zh-cn
+  - name: .unofficial-patch-zh-cn
     uri: https://steamcommunity.com/sharedfiles/filedetails/?id=1631230813
 
 thumbnail: thumbnail.jpg

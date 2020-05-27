@@ -72,7 +72,7 @@ tags:
     - work-in-process
   lang:
     - en
-    - zh-unoffical
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -233,11 +233,11 @@ FGI 支持的库存链接包括以下几个
 - `.website`: 官方网站
 - `.itch.io`: 在 itch.io 平台上获取
 - `.steam`: 在 Steam 平台上获取
-- `google-play` 在 Google Play 平台上获取
-- `apple-appstore` 在 Apple appstore 平台上获取
-- `e-shop` 在 Nintendo E-Shop 平台上获取
-- `gog` 在 gog.com 平台上获取
-- `microsoft-store` 在 ‎Microsoft Store 平台上获取
+- `.google-play` 在 Google Play 平台上获取
+- `.apple-appstore` 在 Apple appstore 平台上获取
+- `.e-shop` 在 Nintendo E-Shop 平台上获取
+- `.gog` 在 gog.com 平台上获取
+- `.microsoft-store` 在 ‎Microsoft Store 平台上获取
 - `.patreon`: Patreon (在 Patreon 平台上赞助作者)
 - `.twitter`: 官方 Twitter
 - `.furaffinity`: 官方 FurAffinity
@@ -251,7 +251,7 @@ FGI 支持的库存链接包括以下几个
 
 当你使用库存链接时，你就无需写这么一段长字，而且无需为每种语言写一份，因为库存链接是固定的，每种语言都可以自动处理。
 
-如果确实需要非库存链接，则名称部分直接写就可以了，注意这里我们要使用英文（然后可能还需要再在它处写其他语言的名称）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code>，是创建一个指向非官方中文补丁的链接。（现在 Adastra 已经使用 `.unoffical-patch-zh-cn` 库存链接代替此自定义链接，但本文档仍然使用旧的自定义链接以帮助你理解以及说明自定义链接的翻译方法）
+如果确实需要非库存链接，则名称部分直接写就可以了，注意这里我们要使用英文（然后可能还需要再在它处写其他语言的名称）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code>，是创建一个指向非官方中文补丁的链接。（现在 Adastra 已经使用 `.unofficial-patch-zh-cn` 库存链接代替此自定义链接，但本文档仍然使用旧的自定义链接以帮助你理解以及说明自定义链接的翻译方法）
 
 URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上获取”链接上，我们应该跳转打开该游戏的 itch.io 网页，因此我们填写 `https://echoproject.itch.io/adastra`
 

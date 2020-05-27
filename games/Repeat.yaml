@@ -27,7 +27,7 @@ tags:
       - work-in-process
   lang:
       - en
-      - zh-unoffical
+      - zh-unofficial
   publish:
       - itchio
       - patreon
@@ -44,7 +44,7 @@ links:
     uri: patreon:shirokoi
   - name: .twitter
     uri: twitter:shirokoi
-  - name: .unoffical-ver-zh-cn
+  - name: .unofficial-ver-zh-cn
     uri: https://simone-parker.itch.io/repeatzh
   - name: Chinese group's twitter
     uri: https://twitter.com/Crazy_Simone_

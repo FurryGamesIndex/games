@@ -27,7 +27,7 @@ tags:
     - work-in-process
   lang:
     - en
-    - zh-unoffical
+    - zh-unofficial
   publish:
     - patreon
   platform:
@@ -39,7 +39,7 @@ links:
     uri: patreon:lunateria
   - name: .twitter
     uri: twitter:naruevernett
-  - name: .unoffical-ver-zh-cn
+  - name: .unofficial-ver-zh-cn
     icon: itch.io
     uri: https://lupei.itch.io/lunateria-chs
 
