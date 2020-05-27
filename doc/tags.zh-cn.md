@@ -226,11 +226,11 @@
 用于说明游戏的语言（使用 ISO 639-1 Alpha-2 code 标准语言代码）
 
 - `en` 游戏有官方英语版本
-- `en-unoffical` 游戏有非官方英语版本
+- `en-unofficial` 游戏有非官方英语版本
 - `ja` 游戏有官方日语版本
-- `ja-unoffical` 游戏有非官方日语版本
+- `ja-unofficial` 游戏有非官方日语版本
 - `zh` 游戏有官方中文版本
-- `zh-unoffical` 游戏有非官方中文版本
+- `zh-unofficial` 游戏有非官方中文版本
 
 ## publish 命名空间
 
@@ -245,6 +245,8 @@
 - `google-play` 游戏在 Google Play 商店上有发布
 - `apple-appstore` 游戏在 Apple appstore 上有发布
 - `e-shop` 游戏在 Nintendo E-Shop 上有发布
+- `gog` 游戏在 gog.com 商店上有发布
+- ‎`microsoft-store` 游戏在‎ Microsoft Store 商店上有发布
 
 ## platform 命名空间
 
