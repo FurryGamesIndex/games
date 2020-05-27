@@ -12,6 +12,8 @@
 
 - `visual-novel` 视觉小说，AVG/ADV 游戏
 - `strategy` 策略游戏
+- `casual` 休闲游戏
+- `business-sim` 模拟经营游戏
 - `adventure` 冒险游戏
 - `board` 棋牌游戏
 - `action` 动作游戏
@@ -40,7 +42,10 @@
 > - `bovidae` 主要角色包括牛科兽人
 > - `mustelidae` 主要角色包括鼬科兽人
 > - `reptilia` 主要角色包括爬行纲兽人
-> - `muroidea` 主要角色包括鼠（鼠总科）兽人
+> - `rodentia` 主要角色包括啮齿目兽人
+> - `pilosa` 主要角色包括披毛目兽人
+> - `primates` 主要角色包括灵长目兽人
+> - `aves` 主要角色包括鸟纲兽人
 
 杂类
 
@@ -53,7 +58,18 @@
 - `ursidae` 主要角色包括熊科兽人
 - `suidae` 主要角色包括猪科兽人
 - `shark` 主要角色包括鲨鱼（鲨总目）兽人
-- `aves` 主要角色包括鸟纲兽人
+- `batrachia` 主要角色包括蛙（蛙总目）兽人
+- `octopus` 主要角色包括章鱼兽人
+- `deer` 主要角色包括鹿兽人
+- `kangaroo` 主要角色包括袋鼠兽人
+- `elephant` 主要角色包括象兽人
+- `rhinoceros` 主要角色包括犀牛兽人
+- `koala` 主要角色包括树袋熊兽人
+- `hippo` 主要角色包括河马兽人
+- `skunk` 主要角色包括臭鼬兽人
+- `hedgehog` 主要角色包括刺猬兽人
+- `camel` 主要角色包括骆驼兽人
+- `beaver` 主要角色包括河狸兽人
 - `dragon` 主要角色包括龙兽人（仅西方龙）
 - `lung` 主要角色包括东方龙兽人
 
@@ -100,12 +116,33 @@
 - `sheep` 主要角色包括绵羊兽人
 - `bharal` 主要角色包括岩羊兽人
 
-鼠科
+啮齿目
 
 - `hamster` 主要角色包括仓鼠兽人
 - `gerbil` 主要角色包括沙鼠兽人
 - `rat` 主要角色包括大鼠兽人
 - `mice` 主要角色包括小鼠兽人
+- `squirrel` 主要角色包括松鼠兽人
+
+披毛目
+
+- `anteater` 主要角色包括食蚁兽兽人
+- `sloth` 主要角色包括树懒兽人
+
+灵长目
+
+- `orangutan` 主要角色包括猩猩兽人
+- `monkey` 主要角色包括猴子兽人
+
+鸟纲
+
+- `chicken` 主要角色包括鸡兽人
+- `hawk` 主要角色包括鹰兽人
+- `owl` 主要角色包括猫头鹰兽人
+- `duck` 主要角色包括鸭兽人
+- `ostrich` 主要角色包括鸵鸟兽人
+- `penguin` 主要角色包括企鹅兽人
+- `dodo` 主要角色包括渡渡鸟兽人
 
 特殊
 
@@ -177,6 +214,7 @@
 - `unoffical` 游戏可能是玩家进行同人创作，如“漏夏（非公式版）”（不要和 misc:mods 混淆）
 - `mods` 这不是一个完整的游戏，而是游戏的 mods
 - `unpublished` 游戏没有发布，通常是曾经发布过 Demo 版本，但是作者删除并宣布将在未来发布正式版本；或者有信誉的作者宣布即将发布的游戏
+- `outside-furry-fandom` 表示该游戏是诞生在兽同好圈外的作品
 
 - `geographical` 游戏发行商在不同地域实施差异过大的服务
 
@@ -206,6 +244,7 @@
 - `website` 游戏在其网站上有发布
 - `google-play` 游戏在 Google Play 商店上有发布
 - `apple-appstore` 游戏在 Apple appstore 上有发布
+- `e-shop` 游戏在 Nintendo E-Shop 上有发布
 
 ## platform 命名空间
 
@@ -219,7 +258,12 @@
 - `ios` 游戏官方支持 Apple iOS
 - `nds` 游戏官方支持 Nintendo DS
 - `psv` 游戏官方支持 Sony PlayStation Vita
+- `psp` 游戏官方支持 Sony PlayStation Portable
 - `playstation` 游戏官方支持 Sony PlayStation
+- `nintendo-switch` 游戏官方支持 Nintendo Switch
+- `2ds` 游戏官方支持 Nintendo 2DS
+- `3ds` 游戏官方支持 Nintendo 3DS
+- `xbox` 游戏官方支持 Microsoft Xbox
 
 ## sys 命名空间
 
