@@ -245,6 +245,8 @@
 - `google-play` 遊戲在 Google Play 商店上有釋出
 - `apple-appstore` 遊戲在 Apple appstore 上有釋出
 - `e-shop` 遊戲在 Nintendo E-Shop 上有釋出
+- `gog` 遊戲在 gog.com 商店上有釋出
+- ‎`microsoft-store` 遊戲在‎ Microsoft Store 商店上有釋出
 
 ## platform 名稱空間
 

@@ -89,7 +89,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: Unoffical chinese mod
+  - name: Unofficial chinese mod
     uri: https://weibo.com/7429628292/J16RMawmi
 
 thumbnail: thumbnail.jpg
@@ -209,7 +209,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: Unoffical chinese mod
+  - name: Unofficial chinese mod
     uri: https://weibo.com/7429628292/J16RMawmi
 ```
 
@@ -233,6 +233,11 @@ FGI 支援的庫存連結包括以下幾個
 - `.website`: 官方網站
 - `.itch.io`: 在 itch.io 平臺上獲取
 - `.steam`: 在 Steam 平臺上獲取
+- `.google-play` 在 Google Play 平臺上獲取
+- `.apple-appstore` 在 Apple appstore 平臺上獲取
+- `.e-shop` 在 Nintendo E-Shop 平臺上獲取
+- `.gog` 在 gog.com 平臺上獲取
+- `.microsoft-store` 在 ‎Microsoft Store 平臺上獲取
 - `.patreon`: Patreon (在 Patreon 平臺上贊助作者)
 - `.twitter`: 官方 Twitter
 - `.furaffinity`: 官方 FurAffinity
