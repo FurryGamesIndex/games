@@ -1,4 +1,4 @@
-name: Animal Crossing: New Horizons
+name: 'Animal Crossing:New Horizons'
 
 description: |
   Escape to Your Personal Island Paradise
@@ -19,7 +19,7 @@ tags:
     - Nintendo
   type:
     - casual
-    - simulation
+    - business-sim
   misc:
     - 3d
     - multiplayer

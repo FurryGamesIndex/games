@@ -13,7 +13,7 @@
 - `visual-novel` 视觉小说，AVG/ADV 游戏
 - `strategy` 策略游戏
 - `casual` 休闲游戏
-- `simulation` 模拟经营游戏
+- `business-sim` 模拟经营游戏
 - `adventure` 冒险游戏
 - `board` 棋牌游戏
 - `action` 动作游戏
