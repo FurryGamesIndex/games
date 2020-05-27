@@ -89,7 +89,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: Unoffical chinese mod
+  - name: Unofficial chinese mod
     uri: https://weibo.com/7429628292/J16RMawmi
 
 thumbnail: thumbnail.jpg
@@ -161,7 +161,7 @@ tags:
     - work-in-process
   lang:
     - en
-    - zh-unoffical
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -209,7 +209,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: Unoffical chinese mod
+  - name: Unofficial chinese mod
     uri: https://weibo.com/7429628292/J16RMawmi
 ```
 
@@ -233,16 +233,21 @@ FGI 支持的库存链接包括以下几个
 - `.website`: 官方网站
 - `.itch.io`: 在 itch.io 平台上获取
 - `.steam`: 在 Steam 平台上获取
+- `google-play` 在 Google Play 平台上获取
+- `apple-appstore` 在 Apple appstore 平台上获取
+- `e-shop` 在 Nintendo E-Shop 平台上获取
+- `gog` 在 gog.com 平台上获取
+- `microsoft-store` 在 ‎Microsoft Store 平台上获取
 - `.patreon`: Patreon (在 Patreon 平台上赞助作者)
 - `.twitter`: 官方 Twitter
 - `.furaffinity`: 官方 FurAffinity
 - `.weibo`: 官方微博
 - `.tumblr`: 官方 Tumblr
 - `.discord`: 官方 Discord
-- `.unoffical-patch-zh-cn`: 非官方简体中文补丁
-- `.unoffical-ver-zh-cn`: 非官方简体中文版本
-- `.unoffical-patch-zh-tw`: 非官方繁体中文补丁
-- `.unoffical-ver-zh-tw`: 非官方繁体中文版本
+- `.unofficial-patch-zh-cn`: 非官方简体中文补丁
+- `.unofficial-ver-zh-cn`: 非官方简体中文版本
+- `.unofficial-patch-zh-tw`: 非官方繁体中文补丁
+- `.unofficial-ver-zh-tw`: 非官方繁体中文版本
 
 当你使用库存链接时，你就无需写这么一段长字，而且无需为每种语言写一份，因为库存链接是固定的，每种语言都可以自动处理。
 
