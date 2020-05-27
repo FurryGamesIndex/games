@@ -260,6 +260,8 @@ URI 部分可能是一個網址或 URL，比如上面的“在 itch.io 平臺上
 - Steam 平臺: `steam:ID` 比如 `steam:570840`，相當於 `https://store.steampowered.com/app/570840`
 - Twitter: `twitter:推主` 比如 `twitter:EchoTheVN`，相當於 `https://twitter.com/EchoTheVN/`
 - Patreon: `patreon:使用者名稱` 比如 `patreon:EchoGame`，相當於 `https://www.patreon.com/EchoGame`
+- Tumblr: `tumblr:使用者名稱` 比如 `tumblr:xxx`，相當於 `https://xxx.tumblr.com/`
+- pixiv: `pixiv:使用者ID` 比如 `pixiv:123456`，相當於 `https://www.pixiv.net/users/123456`
 
 圖示
 
@@ -271,7 +273,7 @@ URI 部分可能是一個網址或 URL，比如上面的“在 itch.io 平臺上
     uri: https://weibo.com/u/2594829495
 ```
 
-使用一個可選選項 `icon` 屬性可以為非庫存連結設定圖示，目前支援的圖示有 `website`, `steam`, `itch.io`, `twitter`, `furaffinity`, `patreon`, `weibo`, `tumblr`
+使用一個可選選項 `icon` 屬性可以為非庫存連結設定圖示，目前支援的圖示有 `website`, `steam`, `itch.io`, `twitter`, `furaffinity`, `patreon`, `weibo`, `tumblr`, `discord`, `play-store`, `apple-appstore`, `microsoft-store`
 
 ### 縮圖
 

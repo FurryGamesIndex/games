@@ -260,6 +260,8 @@ URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上
 - Steam 平台: `steam:ID` 比如 `steam:570840`，相当于 `https://store.steampowered.com/app/570840`
 - Twitter: `twitter:推主` 比如 `twitter:EchoTheVN`，相当于 `https://twitter.com/EchoTheVN/`
 - Patreon: `patreon:用户名` 比如 `patreon:EchoGame`，相当于 `https://www.patreon.com/EchoGame`
+- Tumblr: `tumblr:用户名` 比如 `tumblr:xxx`，相当于 `https://xxx.tumblr.com/`
+- pixiv: `pixiv:用户ID` 比如 `pixiv:123456`，相当于 `https://www.pixiv.net/users/123456`
 
 图标
 
@@ -271,7 +273,7 @@ URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上
     uri: https://weibo.com/u/2594829495
 ```
 
-使用一个可选选项 `icon` 属性可以为非库存链接设置图标，目前支持的图标有 `website`, `steam`, `itch.io`, `twitter`, `furaffinity`, `patreon`, `weibo`, `tumblr`
+使用一个可选选项 `icon` 属性可以为非库存链接设置图标，目前支持的图标有 `website`, `steam`, `itch.io`, `twitter`, `furaffinity`, `patreon`, `weibo`, `tumblr`, `discord`, `play-store`, `apple-appstore`, `microsoft-store`
 
 ### 缩略图
 
