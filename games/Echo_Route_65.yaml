@@ -1,0 +1,33 @@
+name: 'Echo: Route 65'
+
+description: |
+  The story of the Echo: Route 65 visual novel is centered on the protagonist, Chase, a teenager in the rural southwest whose parents just found out he was gay in a less-than-dignified way. After getting off the bus from school, he flees facing his new reality as an outed individual and goes a nighttime adventure along a stretch of road called Route 65.
+
+tags:
+  author:
+    - 'The Echo Project'
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  sys:
+    - staging
+    - tagme
+  misc:
+    - freeware
+    - mulitple-series
+
+links:
+  - name: .itch.io
+    uri: https://echoproject.itch.io/echo-route-65
+  - name: .patreon
+    uri: patreon:EchoGame
+  - name: .twitter
+    uri: twitter:EchoTheVN 
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNDMzMTk2LzIxOTk3ODgucG5n/original/2qFmjX.png
+  - https://img.itch.zone/aW1hZ2UvNDMzMTk2LzIxOTk3ODkuanBn/original/uPgrVp.jpg
+  - https://img.itch.zone/aW1hZ2UvNDMzMTk2LzIxOTk3OTAucG5n/original/vzAg7j.png

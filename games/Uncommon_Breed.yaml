@@ -1,0 +1,75 @@
+name: Uncommon Breed (A Furry RPG / Dating sim)
+
+description: |
+  Warning this game contain: Fantasy Violence , Sexual Content
+  
+  # Copied from my Patreon 
+  Hey guys, I’m FoxBytez. I’m really into software development and sharing my, sometimes outlandish, ideas through the games I create. The dream is to forge a game studio capable of helping others follow their own aspirations. Whether it be art, animating, modeling, coding, story writing&hellip; there’s so much that goes into building games and I’d love to create a home for those passionate about their craft.
+
+  But that’s end game. The short term goal is being able to work on Uncommon Breed and similar games full time.
+  
+  # Current Project
+  At the moment, I’m working on the RPG / Visual Novel, Uncommon Breed. In this game, your relationships affect both story and combat! Recently, I’ve been lucky enough to pick up a couple of well equipped mercenaries:
+
+  [Esonver](https://twitter.com/Esonver): The Great Wolf Lobster Artist
+
+  [TΔIKAH](https://twitter.com/Taikah_): The Brilliant Tiger Graphics Designer
+
+  These two talented individuals have have helped me bring a new level of quality to the game and your support helps me pay for their art/services.
+
+  At the moment, I update the game at least once a month. If I’m ever able to work on it full time, you can expect 2+ updates a month.
+  
+  # More than a visual novel
+  One of my core motivations for making Uncommon Breed was to learn the ins and outs of Unity (a Game Development Engine) with the intent of making more interactive/complex games in the future. This is why Uncommon Breed has and will continue to evolve as I take what I learn and apply it to the game. Examples of this are:
+  
+  # The PUB
+  A segmented dating world in which you can travel between multiple rooms and have brief conversations with the main characters. These conversations affect their affection towards you, the story, and the combat.
+  
+  # Combat world
+  RPG style, turn based combat system with your relationships affecting combat. Did you say the right things to Grizz, the burly bear tank? His defense capabilities increased! What about Reinhard, the X Bounty Hunter? His shots are gonna start hitting really hard! 
+  
+  # Questing System
+  In the works! Quests will mainly come from the PUB.
+  
+  # The story
+  Get plopped into the shoes of a developing hero character and bring together a band of outlaws to save your home. Strengthen your personal relationships and find that strength translates into your battles together. Get to know and romance them but be wary of leaving the strength of your other teammates behind!
+  
+  My Patreon page is set up with the Charge Up Front (CUF) model.
+
+  This means New patrons will be charged when they first sign up.
+
+  If you pledge late in the month, say the 28th, you’ll be charged on the day you sign up and the beginning of the next payment cycle (the 1st of every month). This makes it best to pledge at the beginning of the month to avoid being charged back to back.
+
+  This is patreons way of helping alleviate content theft and helps your exclusive rewards remain exclusive!
+
+  Current patrons are unaffected.
+  
+  [Patron download link](https://uncommonbreedvn.itch.io/uncommon-breed/patreon-access)
+
+description-format: markdown
+
+tags:
+  sys:
+    - staging
+    - tagme
+  type:
+    - role-playing
+    - dating-sim
+
+links:
+  - name: .itch.io
+    uri: https://uncommonbreedvn.itch.io/uncommon-breed
+  - name: .patreon
+    uri: patreon:UncommonBreedVn
+  - name: .twitter
+    uri: twitter:UncommonBreedVN
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjE5NzMzLzE0ODI3MTkucG5n/original/ixj2CZ.png
+  - https://img.itch.zone/aW1hZ2UvMjE5NzMzLzE0ODI3MzEucG5n/original/JxRCKD.png
+  - https://img.itch.zone/aW1hZ2UvMjE5NzMzLzE0ODI3MzMucG5n/original/u5jUmS.png
+  - https://img.itch.zone/aW1hZ2UvMjE5NzMzLzE0ODI3NDEucG5n/original/ULTXSG.png
+  - https://img.itch.zone/aW1hZ2UvMjE5NzMzLzE0ODI3NDMucG5n/original/psONO9.png
+  - https://img.itch.zone/aW1hZ2UvMjE5NzMzLzE0ODI3NDQucG5n/original/faM%2FzT.png
