@@ -1,4 +1,4 @@
-name: deploy-pr-live
+name: pr-build-check
 
 on:
   pull_request:
