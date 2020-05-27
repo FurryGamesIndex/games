@@ -30,10 +30,25 @@ _metazoa: &metazoa
   sheep: [ 'bovidae' ]
   bharal: [ 'bovidae' ]
 
-  hamster: [ 'muroidea' ]
-  gerbil: [ 'muroidea' ]
-  rat: [ 'muroidea' ]
-  mice: [ 'muroidea' ]
+  hamster: [ 'rodentia' ]
+  gerbil: [ 'rodentia' ]
+  rat: [ 'rodentia' ]
+  mice: [ 'rodentia' ]
+  squirrel: [ 'rodentia' ]
+
+  anteater: [ 'pilosa' ]
+  sloth: [ 'pilosa' ]
+
+  orangutan: [ 'primates' ]
+  monkey: [ 'primates' ]
+
+  chicken: [ 'aves' ]
+  hawk: [ 'aves' ]
+  owl: [ 'aves' ]
+  duck: [ 'aves' ]
+  ostrich: [ 'aves' ]
+  penguin: [ 'aves' ]
+  dodo: [ 'aves' ]
 
 male:
   <<: *metazoa
