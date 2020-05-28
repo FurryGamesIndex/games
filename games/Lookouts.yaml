@@ -1,0 +1,44 @@
+name: Lookouts
+
+description: |
+  Two lookouts meet in a desert, far from the sight of their gangs. What will become of this fateful meeting?
+
+  A short and sweet visual novel about two gay trans masc cowboys finding solace and comfort with each other while on a stakeout. Made for the Gay Western Jam hosted by Robert Yang.(Post jam update to come!)
+
+  Controls: Click or press spacebar to progress/show dialogue.
+
+  Art and designs: [@Coldoggo](https://twitter.com/Coldoggo)
+
+  Code and writing: [@ParanoidHawk](https://twitter.com/ParanoidHawk)
+
+  Music: [Kevin MacLeod](https://incompetech.com/wordpress/)
+
+tags:
+  sys:
+    - staging
+    - tagme
+  type:
+    - visual-novel
+    - bara
+  misc:
+    - engine-unity
+  platform:
+    - windows
+    - web
+
+links:
+  - name: .itch.io
+    uri: https://paranoidhawk.itch.io/lookouts
+  - name: Coder's Twitter
+    icon: twitter
+    uri: twitter:ParanoidHawk
+  - name: Artist's Twitter
+    icon: twitter
+    uri: twitter:Coldoggo
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzI3NzAwNzkucG5n/original/9QiqnD.png
+  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzI3NzAwODAucG5n/original/7%2BSIqG.png
+  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzI3NzAwODEucG5n/original/qbvTVp.png
