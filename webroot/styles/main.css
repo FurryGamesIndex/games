@@ -217,8 +217,20 @@ a:focus {
 	min-width: 280px;
 	max-width: 280px;
 	max-height: 280px;
+}
 
-	margin-bottom: 18px;
+.game .platforms {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: flex-end;
+
+	margin: 10px 0;
+	color: var(--tip-color);
+}
+
+.game .platforms>* {
+	margin-left: 2px;
 }
 
 .game .links {

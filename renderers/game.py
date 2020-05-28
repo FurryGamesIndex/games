@@ -10,6 +10,19 @@ from utils.link import link_info
 def checktag(game, namespace, value):
     return value in game["tags"].get(namespace, {})
 
+platform_icons = {
+    "web": '<i title="Web" class="fab fa-safari fa-fw"></i>',
+    "windows": '<i title="Microsoft Windows" class="fab fa-windows fa-fw"></i>',
+    "macos": '<i title="Apple macOS" class="fab fa-apple fa-fw"></i>',
+    "linux": '<i title="GNU/Linux" class="fab fa-linux fa-fw"></i>',
+    "android": '<i title="Android" class="fab fa-android fa-fw"></i>',
+    "ios": '<i title="Apple iOS" class="fab fa-app-store-ios fa-fw"></i>',
+    "playstation": '<i title="Playstation" class="fab fa-playstation fa-fw"></i>',
+    "psv": '<i title="psv" class="fab fa-playstation fa-fw"></i>',
+    "psp": '<i title="psp" class="fab fa-playstation fa-fw"></i>',
+    "xbox": '<i title="xbox" class="fab fa-xbox fa-fw"></i>',
+}
+
 context = {
     "rr": "../..",
     "image": image,
@@ -17,6 +30,7 @@ context = {
     "get_desc": get_desc,
     "link_info": link_info,
     "checktag": checktag,
+    "platform_icons": platform_icons
 }
 
 def render(games, env, language, language_ui, output):

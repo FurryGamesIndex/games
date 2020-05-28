@@ -35,6 +35,15 @@
 	</div>
 	<div class="rightbox">
 		<img class="thumbnail" src="{{ image.uri(rr, game.thumbnail, name) }}" >
+		{% if "platform" in game.tags %}
+		<div class="platforms">
+		{% for i in game.tags.platform %}
+		{% if i in platform_icons %}
+			{{ platform_icons[i] }}
+		{% endif %}
+		{% endfor %}
+		</div>
+		{% endif %}
 		<div class="links links-group">
 		{% for i in game.links %}
 			{% set li = link_info(i, game.tr, ui, lang) %}
