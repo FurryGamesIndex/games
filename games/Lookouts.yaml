@@ -13,6 +13,8 @@ description: |
 
   Music: [Kevin MacLeod](https://incompetech.com/wordpress/)
 
+description-format: markdown
+
 tags:
   sys:
     - staging
