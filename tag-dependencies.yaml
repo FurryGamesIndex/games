@@ -15,12 +15,10 @@ _metazoa: &metazoa
   otter: [ 'mustelidae' ]
   badger: [ 'mustelidae' ]
   weasel: [ 'mustelidae' ]
-  marten: [ 'mustelidae' ]
 
   lizard: [ 'reptilia' ]
   crocodile: [ 'reptilia' ]
   snake: [ 'reptilia' ]
-  turtle: [ 'reptilia' ]
 
 male:
   <<: *metazoa
