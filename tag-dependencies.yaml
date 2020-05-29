@@ -30,12 +30,6 @@ _metazoa: &metazoa
   sheep: [ 'bovidae' ]
   bharal: [ 'bovidae' ]
 
-  hamster: [ 'rodentia' ]
-  gerbil: [ 'rodentia' ]
-  rat: [ 'rodentia' ]
-  mice: [ 'rodentia' ]
-  squirrel: [ 'rodentia' ]
-
   anteater: [ 'pilosa' ]
   sloth: [ 'pilosa' ]
 
