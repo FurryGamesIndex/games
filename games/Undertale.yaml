@@ -61,6 +61,8 @@ tags:
     - gog
   platform:
     - windows
+    - macos
+    - linux
     - nintendo-switch
     - playstation
     - psv
