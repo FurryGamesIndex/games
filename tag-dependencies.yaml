@@ -22,15 +22,6 @@ _metazoa: &metazoa
   snake: [ 'reptilia' ]
   turtle: [ 'reptilia' ]
 
-  buffalo: [ 'bovidae' ]
-  argali: [ 'bovidae' ]
-  goat: [ 'bovidae' ]
-  sheep: [ 'bovidae' ]
-  bharal: [ 'bovidae' ]
-
-  anteater: [ 'pilosa' ]
-  sloth: [ 'pilosa' ]
-
   orangutan: [ 'primates' ]
   monkey: [ 'primates' ]
 
@@ -44,7 +35,5 @@ _metazoa: &metazoa
 
 male:
   <<: *metazoa
-  bull: [ 'bovidae' ]
 female:
   <<: *metazoa
-  cow: [ 'bovidae' ]

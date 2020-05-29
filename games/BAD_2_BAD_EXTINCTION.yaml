@@ -45,15 +45,15 @@ tags:
     - role-playing
   male:
     - aves
-    - ursidae
+    - bear
     - wolf
     - fox
     - dog
     - tiger
-    - equidae
-    - leporidae
+    - horse
+    - rabbit
     - crocodile
-    - suidae
+    - pig
     - bull
   misc:
     - freeware
