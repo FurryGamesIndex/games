@@ -78,11 +78,9 @@
 
 - `cat` 主要角色包括猫兽人
 - `tiger` 主要角色包括虎兽人
-- `white-tiger` 主要角色包括白虎兽人
 - `lion` 主要角色包括狮兽人
 - `leopard` 主要角色包括豹兽人
 - `snow-leopard` 主要角色包括雪豹兽人
-- `black-panther` 主要角色包括黑豹兽人
 - `cheetah` 主要角色包括猎豹兽人
 - `lynx` 主要角色包括猞猁兽人
 

@@ -1,11 +1,9 @@
 _metazoa: &metazoa
   cat: [ 'felidae' ]
   tiger: [ 'felidae' ]
-  white-tiger: [ 'felidae', 'tiger' ]
   lion: [ 'felidae' ]
   leopard: [ 'felidae' ]
   snow-leopard: [ 'felidae' ]
-  black-panther: [ 'felidae', 'leopard' ]
   cheetah: [ 'felidae' ]
   lynx: [ 'felidae' ]
 
