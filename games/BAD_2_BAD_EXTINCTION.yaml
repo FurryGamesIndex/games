@@ -44,16 +44,16 @@ tags:
   type:
     - role-playing
   male:
-    - aves
-    - ursidae
+    - bird
+    - bear
     - wolf
     - fox
     - dog
     - tiger
-    - equidae
-    - leporidae
+    - horse
+    - rabbit
     - crocodile
-    - suidae
+    - pig
     - bull
   misc:
     - freeware
