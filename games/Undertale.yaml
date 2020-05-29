@@ -1,0 +1,96 @@
+name: Undertale
+
+description: |
+  Welcome to UNDERTALE. In this RPG, you control a human who falls underground into the world of monsters. Now you must find your way out... or stay trapped forever.
+
+  (Healthy Dog's Warning: Game contains imagery that may be harmful to players with photosensitive epilepsy or similar condition.)
+
+  Features:
+   •  Killing is unnecessary: negotiate out of danger using the unique battle system.
+   •  Time your attacks for extra damage, then dodge enemy attacks in a style reminiscent of top-down shooters.
+   •  Original art and soundtrack brimming with personality.   
+   •  Soulful, character-rich story with an emphasis on humor.
+   •  Created mostly by one person.
+   •  Become friends with all of the bosses!
+   •  At least 5 dogs.
+   •  You can date a skeleton.
+   •  Hmmm... now there are 6 dogs...?
+   •  Maybe you won't want to date the skeleton.
+   •  I thought I found a 7th dog, but it was actually just the 3rd dog.
+   •  If you play this game, can you count the dogs for me...? I'm not good at it.
+
+tags:
+  sys:
+    - tagme
+  author:
+    - 'Toby Fox'
+    - 'Temmie Chang'
+    - 'Tim'
+  type:
+    - role-playing
+    - adventure
+    - puzzle
+    - shooter
+  male:
+    - dog
+    - goat
+    - turtle
+    - deer
+    - humankind
+    - hippo
+    - muscle
+  female:
+    - dog
+    - cat
+    - goat
+    - rabbit
+  misc:
+    - uncensored
+    - multiple-series
+    - multiple-endings
+    - outside-furry-fandom
+  lang:
+    - en
+    - jp
+    - zh-unofficial
+  publish:
+    - steam
+    - playstation
+    - microsoft-store
+    - e-shop
+    - gog
+  platform:
+    - windows
+    - nintendo-switch
+    - playstation
+    - psv
+
+links:
+  - name: .steam
+    uri: steam:391540
+  - name: .gog.com
+    uri: https://www.gog.com/game/undertale
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/undertale/9n046hwgq4j2
+  - name: PlayStation
+    uri: https://www.playstation.com/en-us/games/undertale-ps4
+  - name: .nintendo-switch-e-shop
+    uri: https://www.nintendo.com/games/detail/undertale-switch
+  - name: .website
+    uri: https://undertale.com
+  - name: .twitter
+    uri: twitter:undertale
+  - name: .tumblr
+    uri: tumblr:undertale
+  - name: .unofficial-patch-zh-cn
+    uri: https://tieba.baidu.com/p/6177661670
+    
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_b9018c41cea2bdfb150609bedfca99b16a5af02a.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_b9ec4c53a8ed37f764649c970757c0a1f4948ec1.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_edab41f7c9fa287b0d90ebfa3b9219fec6e1b3ed.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_a11393d4b437ca75c10521f6baf53fbba9006f0f.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_85d6f0db4b5d6207534120c4b51e37dfd2f8dd83.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_9025a366676c26046b1d08e94ab1a73406aa11db.1920x1080.jpg
