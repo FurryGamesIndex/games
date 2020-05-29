@@ -27,6 +27,10 @@ tags:
     - windows
     - android
 
+links:
+  - name: Get on Digiket
+    uri: https://www.digiket.com/work/show/_data/ID=ITM0082832/
+
 thumbnail: thumbnail.jpg
 
 sensitive_media: true
