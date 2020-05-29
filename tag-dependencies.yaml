@@ -22,9 +22,6 @@ _metazoa: &metazoa
   snake: [ 'reptilia' ]
   turtle: [ 'reptilia' ]
 
-  orangutan: [ 'primates' ]
-  monkey: [ 'primates' ]
-
   chicken: [ 'aves' ]
   hawk: [ 'aves' ]
   owl: [ 'aves' ]
