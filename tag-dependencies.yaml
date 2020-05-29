@@ -22,14 +22,6 @@ _metazoa: &metazoa
   snake: [ 'reptilia' ]
   turtle: [ 'reptilia' ]
 
-  chicken: [ 'aves' ]
-  hawk: [ 'aves' ]
-  owl: [ 'aves' ]
-  duck: [ 'aves' ]
-  ostrich: [ 'aves' ]
-  penguin: [ 'aves' ]
-  dodo: [ 'aves' ]
-
 male:
   <<: *metazoa
 female:
