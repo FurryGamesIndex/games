@@ -20,10 +20,10 @@ def _media_youtube(rr, image, game_name):
     return '<iframe width="100%%" height="342" src="https://www.youtube.com/embed/%s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' % image["uri"].split(":")[1]
 
 def _media_video(rr, image, game_name):
-    str = '<video controls width="100%%"'
+    elm = '<video controls width="100%">'
     for i in image["src"]:
-        src += '<source src="%s" type="%s"' % (i["uri"], i["mime"])
-    return src + "</video>"
+        elm += '<source src="%s" type="%s">' % (i["uri"], i["mime"])
+    return elm + "</video>"
 
 def dom(rr, image, game_name):
     mode = _media_image
@@ -36,6 +36,6 @@ def dom(rr, image, game_name):
         if image["type"] == "youtube":
             mode = _media_youtube
         if image["type"] == "video":
-            mode = _media_youtube
+            mode = _media_video
 
     return mode(rr, image_meta, game_name)

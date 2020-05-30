@@ -1,0 +1,35 @@
+name: "Wonder Boy: The Dragon's Trap"
+
+description: |
+  Once upon a time in Monster Land...
+  Boasting beautiful, hand-drawn animations and a re-orchestrated soundtrack, the cult classic returns with a unique blend of exploration, action, and adventure!
+
+  Are you brave enough to survive?
+  Cursed into a half-human, half-lizard monstrosity by the Meka-Dragon, you are in search for a cure! The only way you can return to human form is to find the Salamander Cross, a magical item with the power to remove curses...
+
+  Explore the land's deepest secrets...
+  With each dragon slain, the curse intensifies, transforming you into different animals! Explore large, interconnected locations populated with grumpy monsters and exotic dragons!
+
+  Retro or modern graphics? How about both?
+  Play as the game’s classic character, Hu-Man, or as his brand-new, long-awaited co-star Hu-Girl. You can also inhabit Lizard-Man, Mouse-Man, Piranha-Man, Lion-Man, and Hawk-Man, and use their unique abilities to uncover the land’s deepest secrets.
+
+  Enjoy 3 difficulty levels catering to players of all types, and switch from modern graphics and sound to 8-bit graphics/audio at any time - even during gameplay!
+
+tags:
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:543260
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - uri: https://steamcdn-a.akamaihd.net/steam/apps/256685538/movie480.webm
+        mime: video/webm
+  - https://steamcdn-a.akamaihd.net/steam/apps/543260/ss_063dabb1849ea31351ebdfc8ce82e25cea758918.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/543260/ss_6402e7925bb1c8625e28be1a45f6b26dc65b77f8.1920x1080.jpg
