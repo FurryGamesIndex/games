@@ -10,10 +10,10 @@
 
 用于说明游戏的类型
 
-- `visual-novel` 视觉小说，AVG/ADV 游戏
+- `visual-novel` 视觉小说
 - `strategy` 策略游戏
 - `casual` 休闲游戏
-- `business-sim` 模拟经营游戏
+- `business-sim` 经营模拟游戏
 - `adventure` 冒险游戏
 - `board` 棋牌游戏
 - `action` 动作游戏
@@ -192,7 +192,7 @@
 - `apple-appstore` 游戏在 Apple appstore 上有发布
 - `e-shop` 游戏在 Nintendo E-Shop 上有发布
 - `gog` 游戏在 gog.com 商店上有发布
-- ‎`microsoft-store` 游戏在‎ Microsoft Store 商店上有发布
+- `microsoft-store` 游戏在 Microsoft Store 商店上有发布
 
 ## platform 命名空间
 
