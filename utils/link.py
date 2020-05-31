@@ -12,7 +12,8 @@ icons = {
     'discord': '<i class="fab fa-discord fa-fw"></i>',
     'play-store': '<i class="fab fa-google-play fa-fw"></i>',
     'apple-appstore': '<i class="fab fa-app-store fa-fw"></i>',
-    'microsoft-store': '<i class="fab fa-microsoft fa-fw"></i>'
+    'microsoft-store': '<i class="fab fa-microsoft fa-fw"></i>',
+    'playstation': '<i class="fab fa-playstation fa-fw"></i>'
 }
 
 def uri_to_src(uri):

@@ -94,6 +94,7 @@
 
 - `mixed` 主要角色包括混合兽人（如虎鲨）
 - `humankind` 主要角色包括人类或智人
+- `non-anthro` 主要角色包括非人形 furry（纯兽）（动物形态，但通常具有高级智慧）
 
 ### 非物种标签
 
@@ -208,6 +209,9 @@
 - `psv` 游戏官方支持 Sony PlayStation Vita
 - `psp` 游戏官方支持 Sony PlayStation Portable
 - `playstation` 游戏官方支持 Sony PlayStation
+- `playstation2` 游戏官方支持 Sony PlayStation 2
+- `playstation3` 游戏官方支持 Sony PlayStation 3
+- `playstation4` 游戏官方支持 Sony PlayStation 4
 - `nintendo-switch` 游戏官方支持 Nintendo Switch
 - `2ds` 游戏官方支持 Nintendo 2DS
 - `3ds` 游戏官方支持 Nintendo 3DS

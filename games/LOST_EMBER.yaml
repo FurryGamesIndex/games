@@ -1,0 +1,29 @@
+name: LOST EMBER
+
+description: |
+  A breathtakingly beautiful world holds the secrets of its past for you and your companion to uncover in this 5-hour journey.
+  Experience the contrasting stories of the fall of mankind and the lush life in a world reclaimed by nature with a wolf as your main character and a determined companion at your side. 
+  Explore the land, sea, and air, as you possess any creature you come across to experience life from a whole new perspective. Fly through gargantuan canyon valleys as a parrot! Tumble through the grass as a wombat! Swim through shimmering lakes as a fish! Your journey will take you from densely wooded jungles, to lush rainforest canopies, to barren desert plains and archaic temples. 
+  Ultimately, you'll discover a tale of loyalty, despair, and betrayal, as echoes of the lost Yanrana culture come to life in a lush wilderness devoid of man.
+
+tags:
+  sys:
+    - staging
+    - tagme
+  male:
+    - non-anthro
+
+links:
+  - name: .steam
+    uri: steam:563840
+  - name: .gog.com
+    uri: https://www.gog.com/game/lost_ember
+  - name: Playstation
+    icon: playstation
+    uri: https://www.playstation.com/en-us/games/lost-ember-ps4/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/563840/ss_bba90ccfd34f9cc6a41caeaabfefe5a84bca74ae.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/563840/ss_eaca391e90d37f481715e41f7399e549208ec713.1920x1080.jpg
