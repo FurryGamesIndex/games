@@ -1,0 +1,39 @@
+name: Monster Boy and the Cursed Kingdom
+
+description: |
+  A legendary series returns with a grand new adventure!
+  Enjoy a colorful action-adventure game made alongside Ryuichi Nishizawa, creator of the original Wonder Boy in Monster World series.
+  Monster Boy and the Cursed Kingdom borrows the best from the classic series to deliver a fresh, modern adventure with fun gameplay, memorable music and gorgeous hand drawn animations.
+  Can Jin save Monster World Kingdom? Help our young hero defeat challenging enemies, discover hidden locations, upgrade powerful equipment, and more! You'll also unlock special forms with unique skills used to open new paths where mighty bosses and secret treasures await.
+  Feature Overview:
+  Six awesome forms with unique combat and platforming abilities to make your adventure exciting from start to finish.
+  Unlock new paths and secrets with special equipment: look for magic weapons and items that gradually open up the world.
+  Over 15 hours of epic adventure: explore the new Monster World in a vast interconnected environment.
+  Hand Drawn animations: characters and enemies come to life with detailed animations and fun facial expressions.
+  Soundtrack from iconic Japanese composers: Yuzo Koshiro, Motoi Sakuraba, Michiru Yamane, Keiki Kobayashi and Takeshi Yanagawa.
+
+tags:
+  sys:
+    - staging
+    - tagme
+  platform:
+    - windows
+    - nintendo-switch
+    - playstation4
+
+links:
+  - name: .steam
+    uri: steam:449610
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/monster-boy-and-the-cursed-kingdom-switch/
+  - name: Playstation
+    icon: playstation
+    uri: https://store.playstation.com/en-us/product/UP0760-CUSA05011_00-MONSTERBOYATCK00
+    
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/449610/ss_2b5a95246a81d2dbe7b5d8828b8debb1f454c18c.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/449610/ss_9a5750a32ff2fa6df63cf801955816dc0ff19439.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/449610/ss_fbd502b9108e26040f88c012fd2474d93a07bd54.1920x1080.jpg
