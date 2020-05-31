@@ -4,6 +4,7 @@ import os
 import json
 from utils import image
 from utils.i18n import get
+from utils.sitemap import openw_with_sm
 
 context = {
     "rr": "..",
@@ -16,7 +17,7 @@ def render(games, env, language, language_ui, output):
     context["lang"] = language
     context["ui"] = language_ui
     context["games"] = games
-    with open(os.path.join(output, "list.html"), "w") as f:
+    with openw_with_sm(output, os.path.join(language, "list.html"), priority="0.6") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("list.html").render(context))
         f.write(env.get_template("footer.html").render(context))

@@ -12,6 +12,7 @@ from jinja2 import Environment, FileSystemLoader
 
 from utils.search import searchdb
 from utils import tagmgr
+from utils import sitemap
 
 dir = "games"
 if len(argv) < 2:
@@ -76,10 +77,12 @@ for language in languages:
         ui = base_l10n.copy()
         ui.update(yaml.safe_load(stream))
     
-    output_dir = os.path.join(output, language)
+    Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
 
     for f in renderer_files:
         print("Rendering %s %s" % (language, f))
-        Path(os.path.join(output_dir, "games")).mkdir(parents=True, exist_ok=True)
         renderer = importlib.import_module("renderers." + f)
-        renderer.render(games, env, language, ui, output_dir)
+        renderer.render(games, env, language, ui, output)
+
+with open(os.path.join(output, "sitemap.xml"), "w") as f:
+    f.write(sitemap.getsm())

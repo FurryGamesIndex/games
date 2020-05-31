@@ -6,6 +6,7 @@ from utils import image
 from utils.i18n import get
 from utils.i18n import get_desc
 from utils.link import link_info
+from utils.sitemap import openw_with_sm
 
 def checktag(game, namespace, value):
     return value in game["tags"].get(namespace, {})
@@ -49,7 +50,8 @@ def render(games, env, language, language_ui, output):
         meta["description"] = re.sub(r'<[^<]*>', '', desc)
         meta["image"] = image.uri(context["rr"], game["thumbnail"], name)
 
-        with open(os.path.join(output, "games", name + ".html"), "w") as f:
+        with openw_with_sm(output, os.path.join(language, "games", name + ".html"),
+                priority="0.7", lastmod_file=os.path.join("games", name + ".yaml")) as f:
             f.write(env.get_template("header.html").render(context))
             f.write(env.get_template("game.html").render(context))
             f.write(env.get_template("footer.html").render(context))
