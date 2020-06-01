@@ -10,6 +10,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
 
     - name: install-dep
       run: |
@@ -19,7 +21,7 @@ jobs:
 
     - name: fix-mtime
       run: |
-        git ls-files -z | xargs -0 -I{} git log -1 --date='format:%Y%m%d%H%M.%S' --format="touch -t %ad \"{}\"" "{}" | bash
+        ./scripts/fix-mtime.sh
 
     - name: gen
       run: |
