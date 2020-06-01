@@ -30,5 +30,5 @@ def render(games, env, language, language_ui, output):
         glist[id]["name"] = get(data, language, "name")
         glist[id]["description"] = desc
         glist[id]["thumbnail"] = image.uri("..", data["thumbnail"], id)
-    with open(os.path.join(output, "gamelist.json"), "w") as f:
+    with open(os.path.join(output, language, "gamelist.json"), "w") as f:
         f.write(json.dumps(glist))
