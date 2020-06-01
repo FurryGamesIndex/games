@@ -10,10 +10,10 @@
 
 用於說明遊戲的型別
 
-- `visual-novel` 視覺小說，AVG/ADV 遊戲
+- `visual-novel` 視覺小說
 - `strategy` 策略遊戲
 - `casual` 休閒遊戲
-- `business-sim` 模擬經營遊戲
+- `business-sim` 經營模擬遊戲
 - `adventure` 冒險遊戲
 - `board` 棋牌遊戲
 - `action` 動作遊戲
@@ -94,6 +94,7 @@
 
 - `mixed` 主要角色包括混合獸人（如虎鯊）
 - `humankind` 主要角色包括人類或智人
+- `non-anthro` 主要角色包括非人形 furry（純獸）（動物形態，但通常具有高階智慧）
 
 ### 非物種標籤
 
@@ -167,6 +168,8 @@
 - `online` 遊戲包括線上功能，如線上付費購買點數、線上排名系統等。
 - `centralized` 遊戲的主要功能依賴一個集中的伺服器且伺服器無法由玩家自行搭建，這意味著如果遊戲運營商宣佈關服，則遊戲很可能無法再遊玩。（並非指捆綁 steam 或 itch.io 那樣的正版驗證系統）
 
+- `homophobia` 遊戲包含同性戀恐懼內容/情節
+
 ## lang 名稱空間
 
 用於說明遊戲的語言（使用 ISO 639-1 Alpha-2 code 標準語言程式碼）
@@ -192,7 +195,7 @@
 - `apple-appstore` 遊戲在 Apple appstore 上有釋出
 - `e-shop` 遊戲在 Nintendo E-Shop 上有釋出
 - `gog` 遊戲在 gog.com 商店上有釋出
-- ‎`microsoft-store` 遊戲在‎ Microsoft Store 商店上有釋出
+- `microsoft-store` 遊戲在 Microsoft Store 商店上有釋出
 
 ## platform 名稱空間
 
@@ -208,6 +211,9 @@
 - `psv` 遊戲官方支援 Sony PlayStation Vita
 - `psp` 遊戲官方支援 Sony PlayStation Portable
 - `playstation` 遊戲官方支援 Sony PlayStation
+- `playstation2` 遊戲官方支援 Sony PlayStation 2
+- `playstation3` 遊戲官方支援 Sony PlayStation 3
+- `playstation4` 遊戲官方支援 Sony PlayStation 4
 - `nintendo-switch` 遊戲官方支援 Nintendo Switch
 - `2ds` 遊戲官方支援 Nintendo 2DS
 - `3ds` 遊戲官方支援 Nintendo 3DS

@@ -1,0 +1,69 @@
+name: The Hayseed Knight
+
+description: |
+  The story of the great Knight of the Upperfield! The bravest! The most handsome! The&hellip; yeah no.
+  
+  The Hayseed Knight is a plot driven fantasy comedy visual novel created by a single person (yo!) that follows the adventures of Ader, the one eyed deer, while he desperately tries to stay on track to fulfill his dream: becoming a knight!
+  
+  But he's a peasant... and pretty damn poor at that! That's not going to stop him, is it?
+  ...WELL, it kinda is. Dreams aren't edible after all.
+  
+  On a meta sense, the player is The Narrator, a character hellbent on finding out what truly happened to Ader and his friends, who are little more than legendary characters at this point.
+  
+  - Fully and lovingly voice acted!
+  - Gorgeous, animated sprites!
+  - Meet adorable, unique characters!
+  - A detailed encyclopedia for people who love worldbuilding!
+  - Completely safe for work. Yes really. PG 13. Please, stop asking. Please.
+  - COMPLETELY FREE. Like the wind.
+  
+  This is still very much in development, so anything is subject to change in future versions! If you want to help me develop this game, there's a [patreon](https://www.patreon.com/thehayseedknight) and any contribution is really appreciated!
+  
+  Keep up with development on [twitter](https://twitter.com/sandramjdev)!
+  
+  -Streams and Let's Plays are really appreciated! I'd love to watch yours and share it!
+  -Please, do not redistribute.
+
+  Content Warnings: fantasy racism, fantasy homophobia, sexual abuse threat
+
+  Current Known Issues:
+
+  - Save files NOT compatible with 1.4! (damn you encyclopaedia)
+  - The encyclopaedia is STILL sorta ugly, but its functionality has been vastly improved since 1.4! At the cost of the save file compatibility as mentioned above.
+  - The CG gallery has somehow turned even buggier and I don't even know how. Use at your own risk???
+  - Audio levels may be a bit off occasionally.
+  - No battle system yet. I THINK IT'S FUNNIER LIKE THIS AT THIS POINT, RIGHT? R-RIGHT?
+
+description-format: markdown
+
+tags:
+  sys:
+    - staging
+    - tagme
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - homophobia
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .itch.io
+    uri: https://sandramj.itch.io/the-hayseed-knight
+  - name: .patreon
+    uri: patreon:sandramjdev
+  - name: .twitter
+    uri: twitter:sandramjdev
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTcyMTU3LzE2Nzc3NjIuanBn/original/WhdA%2Fs.jpg
+  - https://img.itch.zone/aW1hZ2UvMTcyMTU3LzE2Nzc4MTMuZ2lm/original/U13yI2.gif
+  - https://img.itch.zone/aW1hZ2UvMTcyMTU3LzE2Nzc3NjUuanBn/original/1WX%2F%2Bl.jpg
+  - https://img.itch.zone/aW1hZ2UvMTcyMTU3LzI1NjgxOTcuZ2lm/original/GiF1Kf.gif
+  - https://img.itch.zone/aW1hZ2UvMTcyMTU3LzI1NjgyMjkuZ2lm/original/I7k1Ru.gif
+  - https://img.itch.zone/aW1hZ2UvMTcyMTU3LzE2Nzc4NjAuanBn/original/bP1Plk.jpg
