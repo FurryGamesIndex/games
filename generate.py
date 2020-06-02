@@ -14,11 +14,19 @@ from utils.search import searchdb
 from utils import tagmgr
 from utils import sitemap
 
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--extra-ui', type=str, help='Set extra ui yaml filename')
+parser.add_argument('--no-sitemap', default=False, action='store_true', help='Do not generate sitemap')
+parser.add_argument('--no-searchdb', default=False, action='store_true', help='Do not generate searchdb')
+parser.add_argument('output', type=str, help='Output path')
+
+args = parser.parse_args()
+
 dir = "games"
-if len(argv) < 2:
-    output = "output"
-else:
-    output = argv[1]
+output = args.output
+sitemap.ignore = args.no_sitemap
 
 renderer_files = [os.path.splitext(f)[0] \
         for f in os.listdir("renderers") \
@@ -29,7 +37,7 @@ games = {}
 with open("tag-dependencies.yaml") as f:
     tagmgr.loaddep(yaml.safe_load(f))
 
-sdb = searchdb()
+sdb = searchdb(stub = args.no_searchdb)
 
 for f in sorted(os.listdir(dir)):
     file = os.path.join(dir, f)
@@ -61,8 +69,9 @@ if os.path.exists(output):
 shutil.copytree("webroot", output)
 shutil.copytree("assets", os.path.join(output, "assets"))
 
-with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
-    f.write(json.dumps(sdb.db))
+if not args.no_searchdb:
+    with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
+        f.write(json.dumps(sdb.db))
 
 languages.append('en')
 with open(os.path.join("uil10n", "en.yaml")) as stream:
@@ -84,5 +93,4 @@ for language in languages:
         renderer = importlib.import_module("renderers." + f)
         renderer.render(games, env, language, ui, output)
 
-with open(os.path.join(output, "sitemap.xml"), "w") as f:
-    f.write(sitemap.getsm())
+sitemap.write_to_file(os.path.join(output, "sitemap.xml"))
