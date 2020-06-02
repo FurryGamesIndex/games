@@ -1,0 +1,36 @@
+name: ホロケウカムイといっしょ
+
+description: |
+  この身を従えたからには、英雄となってもらうぞ！　サモナーよ！
+  まずはいっしょに体を鍛えるところからだ！
+
+  LGBT向けゲームアプリブランド『Lifewonders』が贈る、
+  『東京放課後サモナーズ』スピンオフアプリ！
+  ホロケウカムイといっしょに体を鍛えて、あなたも英雄になろう！
+
+tags:
+  sys:
+    - tagme
+  author:
+    - Lifewonders
+  lang:
+    - ja
+  publish:
+    - google-play
+    - apple-appstore
+  platform:
+    - android
+    - ios
+    
+links:
+  - name: .play-store
+    uri: https://play.google.com/store/apps/details?id=jp.co.lifewonders.whispered
+  - name: .apple-appstore
+    uri: https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%82%B1%E3%82%A6%E3%82%AB%E3%83%A0%E3%82%A4%E3%81%A8%E3%81%84%E3%81%A3%E3%81%97%E3%82%87/id1456225085
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/NefiM28.png
+  - https://i.imgur.com/qJ11afB.png
+  - https://i.imgur.com/nS1tUtW.png
