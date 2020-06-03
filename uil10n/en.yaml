@@ -10,6 +10,7 @@ nav_languages: Languages
 copying_area_tip: Found something missing or wrong? Or want to add a game to this list? <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribute now</a>!
 copying_area_copyright: Copyright The FurryGamesIndex project, The data on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>. The copyright of some data (such as game screenshots) belongs to the original owner. We only release them under the premise of <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>.
 copying_privacy_policy: Privacy Policy
+copying_oss: Powered by Open-source softwares
 
 index_link_github: Github Repository
 index_link_tg: Telegram Channel

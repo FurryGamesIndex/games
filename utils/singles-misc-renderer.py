@@ -5,6 +5,8 @@ import os
 from utils.i18n import get
 from markdown2 import Markdown
 
+from utils.sitemap import openw_with_sm
+
 context = {
     "rr": ".",
     "lang": "en",
@@ -25,6 +27,14 @@ def render(games, env, language, language_ui, output):
         context["content"] = markdowner.convert(f.read())
 
     with open(os.path.join(output, "privacy-policy.html"), "w") as f:
+        f.write(env.get_template("header.html").render(context))
+        f.write(env.get_template("simple_md.html").render(context))
+        f.write(env.get_template("footer.html").render(context))
+
+    with open("doc/credits.md") as f:
+        context["content"] = markdowner.convert(f.read())
+
+    with openw_with_sm(output, "credits.html") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("simple_md.html").render(context))
         f.write(env.get_template("footer.html").render(context))
