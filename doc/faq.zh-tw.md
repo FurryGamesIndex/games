@@ -14,9 +14,9 @@
 
 	值得一題的是，現在點選遊戲頁面中的標籤，也可以快速進入搜尋頁面。
 
-	這是搜尋 The Echo Project 所有遊戲的搜尋地址：https://furrygamesindex.github.io/zh-tw/search.html?tag?author:The%20Echo%20Project
+	舉個例子，這是搜尋 The Echo Project 所有遊戲的搜尋地址：https://furrygamesindex.github.io/zh-tw/search.html?tag?author:The%20Echo%20Project
 
-	目前很多遊戲都缺失標籤，所以搜尋一些正常標籤時可能不能顯示它們。這些缺失標籤的遊戲可以透過搜尋 sys:tagme 列出，這可能有助於幫助希望貢獻標籤的朋友更容易找到要貢獻標籤的遊戲：https://furrygamesindex.github.io/zh-tw/search.html?tag?sys:tagme
+	目前很多遊戲都缺失標籤，所以搜尋一些正常標籤時可能不能顯示它們。這些缺失標籤的遊戲可以透過搜尋 `sys:tagme` 列出，這可能有助於幫助希望貢獻標籤的朋友更容易找到要貢獻標籤的遊戲：https://furrygamesindex.github.io/zh-tw/search.html?tag?sys:tagme
 
 ### 有關貢獻的相關問題
 

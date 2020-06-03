@@ -14,9 +14,9 @@
 
 	值得一题的是，现在点击游戏页面中的标签，也可以快速进入搜索页面。
 
-	这是搜索 The Echo Project 所有游戏的搜索地址：https://furrygamesindex.github.io/zh-cn/search.html?tag?author:The%20Echo%20Project
+	举个例子，这是搜索 The Echo Project 所有游戏的搜索地址：https://furrygamesindex.github.io/zh-cn/search.html?tag?author:The%20Echo%20Project
 
-	目前很多游戏都缺失标签，所以搜索一些正常标签时可能不能显示它们。这些缺失标签的游戏可以通过搜索 sys:tagme 列出，这可能有助于帮助希望贡献标签的朋友更容易找到要贡献标签的游戏：https://furrygamesindex.github.io/zh-cn/search.html?tag?sys:tagme
+	目前很多游戏都缺失标签，所以搜索一些正常标签时可能不能显示它们。这些缺失标签的游戏可以通过搜索 `sys:tagme` 列出，这可能有助于帮助希望贡献标签的朋友更容易找到要贡献标签的游戏：https://furrygamesindex.github.io/zh-cn/search.html?tag?sys:tagme
 
 ### 有关贡献的相关问题
 
