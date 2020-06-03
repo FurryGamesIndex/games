@@ -1,0 +1,48 @@
+name: The Flower Collectors
+
+description: |
+  A detective mystery set in the political powder-keg of Barcelona in 1977. You play Jorge, a retired policeman who uses a wheelchair, struggling with a difficult past. Alone on your balcony, you watch the world pass by through binoculars.
+  
+  The mystery
+  One stormy night, you witness a murder. Determined to uncover the truth, you form an unlikely alliance with young ambitious journalist Melinda and start your investigation. 
+  Together, you’ll solve a complex mystery by unravelling the secrets of unsuspecting neighbours.
+  Inspired by classic crime noir films and games like Campo Santo's Firewatch, The Flower Collectors is a detective story with a whole lot of heart.
+
+  Features
+  Solve a captivating murder mystery with an unusual storyline
+  Meet a host of colourful anthropomorphic characters in a lush, atmospheric world
+  Investigate using your binoculars, camera and transmitter to uncover neighborhood secrets from your balcony
+  Create a crime chronology to figure out whodunnit
+  Interrogate priests, beggars, club singers and nosy old ladies alike
+  Dive into the unique setting of post-Franco Barcelona in the 70ies
+  Emphasizes characters, world building and narrative over skill challenges
+
+tags:
+  sys:
+    - staging
+    - tagme
+  type:
+    - adventure
+    - puzzle
+  misc:
+    - 3d
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1034750
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://steamcdn-a.akamaihd.net/steam/apps/256780628/movie480_vp9.webm
+  - https://steamcdn-a.akamaihd.net/steam/apps/1034750/ss_029ad4b316eb42c30504853a9534ca613bb67b99.1920x1080.jpg?t=1589277325
+  - https://steamcdn-a.akamaihd.net/steam/apps/1034750/ss_6d7d4620f9019571051eaa79473638bad05d0b4a.1920x1080.jpg?t=1589277325
