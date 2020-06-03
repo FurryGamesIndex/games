@@ -1,10 +1,5 @@
 ## FAQ
 
-TODO
-
-**sorry, please see chinese version currently**
-**English version is coming soon**
-
 ### General FAQs about FGI
 
 - I found problem in pages or link failure
