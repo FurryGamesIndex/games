@@ -1,0 +1,46 @@
+name: Tennis Ace
+
+description: |
+  Tennis Ace is a visual novel following in the more traditional Japanese VN mold, with a lengthier prologue, a higher focus on characterization and anime-esque art.
+
+  In the game, you follow the life of an 18-year old boy who aspire to become a professional tennis player at the end of his senior year in high school.
+
+  The game has three dateable characters, all of them being part of the protagonist's inner circle of friends.
+
+  Updates will be posted here 14 days after they have been posted on Patreon, with updates coming out monthly.
+
+  If you like the art in my project, consider checking out my artist's DeviantArt [here](http://nyaruh.deviantart.com/)!
+
+  And if you'd like to support me on Patreon, you can find my project's page right [here](http://www.patreon.com/tennisace)!
+
+  If you would like to contact me to ask me a question or anything like that, send me an email at [tennisacevn@outlook.com](mailto:tennisacevn@outlook.com) and I'll get back to you as soon as I can. And if you have an error or typo to report, click [here](https://docs.google.com/document/d/1Sd6XDq9YXE8UpIaqBmP0Z8JRfjiCApPcN65KmMbFJHo/edit#heading=h.416oelyijx2y) to contribute to the typo log!
+
+tags:
+  sys:
+    - staging
+    - tagme
+  type:
+    - visual-novel
+    - dating-sim
+    - bara
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://wotbasket.itch.io/tennis-ace
+  - name: .patreon
+    uri: patreon:tennisace
+  - name: .twitter
+    uri: BaskyCase
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjIwMjIzLzI2ODMxMDEucG5n/original/2JMuaJ.png
+  - https://img.itch.zone/aW1hZ2UvMjIwMjIzLzI2ODMwOTYucG5n/original/sVsn6o.png
+  - https://img.itch.zone/aW1hZ2UvMjIwMjIzLzI2ODMxMDAucG5n/original/aysWq2.png
+  - https://img.itch.zone/aW1hZ2UvMjIwMjIzLzI2ODMwOTkucG5n/original/N6JeBa.png
