@@ -13,7 +13,7 @@ BASE_REF="${BASE_REF}~1"
 
 games=$(git diff --name-only --diff-filter=A "${BASE_REF}" "${END_REF}" | grep '^games/' | sed 's|games/\([^.]*\).yaml|<a href="furrygamesindex.github.io/zh-cn/games/\1.html">\1</a>|g')
 if [ -n "$games" ]; then
-	curl "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" --data-urlencode "chat_id=${TELEGRAM_TO}" --data-urlencode "disable_web_page_preview=true" --data-urlencode "parse_mode=html" --data-urlencode "text=[Github] 已添加游戏：${nl}${games}${nl}${nl}>i>需要等待 1 分钟或更长的时间后才能访问</i>" > /dev/null
+	curl "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" --data-urlencode "chat_id=${TELEGRAM_TO}" --data-urlencode "disable_web_page_preview=true" --data-urlencode "parse_mode=html" --data-urlencode "text=[Github] 已添加游戏：${nl}${games}${nl}${nl}需要等待 1 分钟或更长的时间后才能访问"
 else
 	echo "No games added"
 fi
