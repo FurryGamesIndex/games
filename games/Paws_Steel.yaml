@@ -1,0 +1,44 @@
+name: Paws & Steel
+
+description: |
+  You wake up one day to find  yourself in an unknown world, surrounded by strange creatures known as "Beastmens."
+
+  Haunted by your past, you try to live life as best you can in the new world but trouble seems to follow you wherever you go.
+
+  As the player, you will guide the protagonist through a series of events. 
+  Will you be able to find your way home again?
+
+  Paws & Steel is a visual novel.
+  It is a story which consist of 45,000+ words, with several endings and multiple routes to choose as you guide the protagonist through the unknown world. The story also contains  three special images and one special ending to be unlocked. 
+  
+  (18+) Please note, this story contains explicit scenes and is for adult only!
+
+tags:
+  sys:
+    - staging
+    - tagme
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  misc:
+    - engin-renpy
+    - multiple-endings
+  publish:
+    - itch.io
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .itch.io
+    uri: https://bara-diction.itch.io/paws-steel
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNDIzNDAvMTgyNDQwLmpwZw==/original/rOD9RU.jpg
+  - https://img.itch.zone/aW1hZ2UvNDIzNDAvMTgyNDQxLmpwZw==/original/jpbX2w.jpg
+  - https://img.itch.zone/aW1hZ2UvNDIzNDAvMTgyNDQzLmpwZw==/original/EkoKWk.jpg
+  - https://img.itch.zone/aW1hZ2UvNDIzNDAvMTgyNDQyLmpwZw==/original/YumwE2.jpg
