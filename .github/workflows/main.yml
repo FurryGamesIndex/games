@@ -15,11 +15,8 @@ jobs:
 
     - name: tg-notify
       env:
-       BASE_REF: ${{ github.before }}
-       SHA: ${{ github.sha }}
        TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
- 
       run: |
         ./scripts/newgame-tg.sh
 
