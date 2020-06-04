@@ -1,0 +1,78 @@
+name: I.D.E.K.A Halloween Special
+
+description: |
+  # 2015 Edition
+
+  This is a short visual novel collaboration between myself and [CursedMarked](https://www.patreon.com/cursedmarked?ty=c) based around the characters in our comic, I.D.E.K.A..  Join the group in a small Halloween Special we created as things go crazy in their potion shop.  It was Patron only, but it's been long enough now to where we feel like we can release it for everyone!
+  
+  If you'd like to see more about these characters and more visual novel work, considering becoming Patrons or follow us on our other sites!  Or, if you have questions about it, feel free to contact me!
+  
+  Word count - 8300 / Playing Time - 10-15 minutes
+
+  WARNING - This does contain mature content! And a huge thanks to all of our current Patrons for supporting us!  We'd not be able to do this stuff without all of your support, so thanks so much.  And thank you to everyone who supports us however they can!
+  
+  We are offering this as free, but you can pay as much (or little!) as you want for it. Any tips are greatly appreciated!
+
+  # 2016 Edition
+
+  We're following along with Fumdux and Kirin as they are heading off to gather a plant for a potion in production for a client, but along the way, they are driven into an old castle they have never seen before.  Unable to return from the way they came, they have to find a way out!
+
+  We've added some new things since the Patron-only release in October 2016.  The dialogue has been tweaked in places to make certain puzzles easier to figure out, we have added an achievement page in the gallery, an extra image was added for those that do get them all in the Special gallery, and there is now an option that lets you clear all gallery and achievement unlocks for anyone who wants a fresh start (it is suggested to do this if you have the original version)!
+  
+  You can always try out the free demo for it, if you'd like to get a taste of the game before you buy it!
+
+  Word count - 20,000 / Playing Time - Varies due to puzzles
+  
+  WARNING - This does contain mature content! 18+ Only
+  And a huge thanks to all of our Patrons for supporting us! We'd not be able to do this stuff without all of your support, so thanks so much. And thank you to everyone who supports us however they can!
+
+  # Authors and team
+  
+  DyneWulf - [Patreon](https://www.patreon.com/dk999?ty=h), [Twitter](https://twitter.com/dark_king999), [FurAffinity](http://www.furaffinity.net/user/dynewulf/), [Website](http://dynewulf.weebly.com/)
+  CursedMarked - [Patreon](https://www.patreon.com/cursedmarked?ty=c), [Twitter](https://twitter.com/CursedMarked), [FurAffinity](http://www.furaffinity.net/user/cursedmarked)
+  
+  Writer and Programmer - DyneWulf
+  Art - CursedMarked
+  Music - Ashwaffles and CursedMarked
+  Testers - [Massimo](https://twitter.com/MassimoDragon), [Ashwaffles](https://twitter.com/Ashwaffles), [Wolfstar](http://www.furaffinity.net/user/drcbllz), [Fumdux](https://twitter.com/Fumdux)
+
+description-format: markdown
+
+tags:
+  sys:
+    - staging
+    - tagme
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  misc:
+    - multiple-series
+    - engine-renpy
+  publish:
+    - itch.io
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: itch.io (2015 Edition)
+    icon: itch.io
+    uri: https://dynewulf.itch.io/ideka-halloween-special
+  - name: itch.io (2016 Edition)
+    icon: itch.io
+    uri: https://dynewulf.itch.io/ideka-halloween-special
+  - name: .twitter
+    uri: twitter:dynewulf
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjEzNTgvMjc2OTc5LnBuZw==/original/3HrqFF.png
+  - https://img.itch.zone/aW1hZ2UvNjEzNTgvMjc2OTQ0LnBuZw==/original/9td4Dl.png
+  - https://img.itch.zone/aW1hZ2UvNjEzNTgvMjc2OTQzLnBuZw==/original/YgV5rn.png
+  - https://img.itch.zone/aW1hZ2UvODc4ODIvNjIyNDM0LnBuZw==/original/Hte2SL.png
+  - https://img.itch.zone/aW1hZ2UvODc4ODIvNjU4MDc4LnBuZw==/original/ME8gop.png
+  - https://img.itch.zone/aW1hZ2UvODc4ODIvNjU4MDc3LnBuZw==/original/t1tnHW.png
+
