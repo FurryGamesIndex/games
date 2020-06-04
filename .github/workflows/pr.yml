@@ -11,13 +11,8 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - name: tg notify
-      if: github.event.action == 'opened'
-      run: |
-        a="${{ github.event.pull_request.user.login }} 创建了一个 PR。[查看](${{ github.event.pull_request.url }})"
-        curl "https://api.telegram.org/bot${{ secrets.TELEGRAM_TOKEN }}/sendMessage" --data-urlencode "chat_id=${{ secrets.TELEGRAM_TO }}" --data-urlencode "parse_mode=markdown" --data-urlencode "text=${a}" > /dev/null || true
-        
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
