@@ -15,7 +15,7 @@ jobs:
 
     - name: tg-notify
       env:
-       BASE_REF: ${{ github.base_ref}}
+       BASE_REF: ${{ github.base_ref }}
        SHA: ${{ github.sha }}
        TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
