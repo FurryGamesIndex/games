@@ -8,7 +8,7 @@ END_REF=$(jq --raw-output .commits[-1].id "$GITHUB_EVENT_PATH")
 echo "BASE_REF: $BASE_REF"
 echo "END_REF: $END_REF"
 
-[ "$BASE_REF" = "$END_REF" ] && BASE_REF="${SHA}~1"
+[ "$BASE_REF" = "$END_REF" ] && BASE_REF="${END_REF}~1"
 
 games=$(git diff --name-only --diff-filter=A "${BASE_REF}" "${END_REF}" | grep '^games/' | sed 's|games/\([^.]*\).yaml|<a href="furrygamesindex.github.io/zh-cn/games/\1.html">\1</a>|g')
 if [ -n "$games" ]; then
