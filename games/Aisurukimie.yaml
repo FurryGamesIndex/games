@@ -26,6 +26,9 @@ tags:
   male:
     - tiger
     - bear
+  lang:
+    - ja
+    - zh-unofficial
   misc:
     - freeware
   platform:
@@ -39,6 +42,9 @@ links:
 
 thumbnail: thumbnail.jpg
 
+sensitive_media: true
+
 screenshots:
   - https://images2.imgbox.com/2e/cc/3AWJCjHk_o.png
-  - https://images2.imgbox.com/a6/4a/KQMHn7EH_o.png
+  - sensitive: true
+    uri: https://images2.imgbox.com/a6/4a/KQMHn7EH_o.png
