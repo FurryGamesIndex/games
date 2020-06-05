@@ -1,0 +1,44 @@
+name: 愛する君へ
+
+description: |
+  「あいするきみへ」
+
+  こんにちわ、KENNです。
+  はちと一緒にフリーライトノベルゲーム（R-18)作っちゃいました！！
+
+  本当は４月１日にリリースしよう！って話になってましたが
+  遅れに遅れて今日になってしまいました。
+  フリーなので是非やってみてください！！
+  ちなみに、pixivでの先行配信になります。
+  ２０日後の６月１日あたりには先行配信は終了し
+  今後サイトに無料配布していく予定です。
+
+  感想お待ちしてマース。
+
+tags:
+  sys:
+    - tagme
+    - staging
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - tiger
+    - bear
+  misc:
+    - freeware
+  platform:
+    - windows
+
+links:
+  - name: Publish page
+    uri: https://www.pixiv.net/artworks/43445593
+  - name: .unofficial-ver-zh-cn
+    uri: https://tieba.baidu.com/p/4807261773
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://images2.imgbox.com/2e/cc/3AWJCjHk_o.png
+  - https://images2.imgbox.com/a6/4a/KQMHn7EH_o.png
