@@ -1,0 +1,60 @@
+name: 魔王と呼ばれた子
+
+description:
+  子供の頃
+  まどろみの中で母が読んでくれたお話は
+  いつも正義の味方が活躍していた
+
+  平和な田舎町、シェリムで生まれ育った少年、ロキ
+  最近、よく夢を見る
+  村が焼け落ち、母が見た事のない化け物に襲われる夢
+  その夢はやがて現実のものとなり
+  化け物の群れは村を襲った
+  母と村の危機に
+  ロキの想いと呼応するかの様に現れた
+  黒き剣
+  それは、歪な運命の始まりだった
+  これは、僕が運命に抗う物語だ
+
+  HTN制作、ケモノRPGゲーム
+  魔王と呼ばれた子です。
+
+  プレイ想定時間は10～15時間程度前後。
+  動作推奨環境につきましてはRPGツクール公式サイトにてご確認ください。
+
+  感想、不具合報告などは公式ホームページからお問い合わせください。
+  https://reona5112.wixsite.com/mysite
+
+tags:
+  sys:
+    - tagme
+  type:
+    - role-playing
+  male:
+    - dragon
+    - lion
+    - wolf
+    - bear
+  female:
+    - cat
+    - lion
+  misc:
+    - multiple-endings
+  publish:
+    - booth
+  platform:
+    - windows
+
+links:
+  - name: Get on booth
+    uri: https://booth.pm/ja/items/1139088
+  - name: website
+    uri: https://reona5112.wixsite.com/mysite
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/rOG9gVe.png
+  - https://i.imgur.com/yjV8QVT.png
+  - https://i.imgur.com/yXkP0xb.png
+  - https://i.imgur.com/UFcicfF.png
