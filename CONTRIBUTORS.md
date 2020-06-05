@@ -38,4 +38,4 @@
 
 ## Additional infomation
 
-Anonymous have contributed a lot, but they (temporarily) do not want to appear on this list. This project respects their wishes. At the same time, if they wish to enter the list, the list is ready for them!
+Anonymous have contributed a lot, but they (temporarily) do not want to appear on this list. This project respects their requirements. At the same time, if they want to enter the list, the list is ready for them!
