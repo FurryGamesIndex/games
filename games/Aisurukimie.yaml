@@ -16,9 +16,8 @@ description: |
   感想お待ちしてマース。
 
 tags:
-  sys:
-    - tagme
-    - staging
+  author:
+    - KENN
   type:
     - visual-novel
     - bara
@@ -26,6 +25,10 @@ tags:
   male:
     - tiger
     - bear
+    - males-only
+    - muscle
+    - anal
+    - handjob
   lang:
     - ja
     - zh-unofficial
@@ -37,6 +40,8 @@ tags:
 links:
   - name: Publish page
     uri: https://www.pixiv.net/artworks/43445593
+  - name: .twitter
+    uri: twitter:kenn_fudo
   - name: .unofficial-ver-zh-cn
     uri: https://tieba.baidu.com/p/4807261773
 
