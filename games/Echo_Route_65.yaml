@@ -10,12 +10,22 @@ tags:
     - visual-novel
     - bara
     - yiff
-  sys:
-    - staging
-    - tagme
+  male:
+    - bull
+    - otter
+  male:
+    - fox
   misc:
     - freeware
     - mulitple-series
+    - engine-renpy
+  publish:
+    - itch.io
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
 
 links:
   - name: .itch.io
