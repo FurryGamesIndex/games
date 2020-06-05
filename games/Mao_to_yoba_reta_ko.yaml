@@ -1,6 +1,6 @@
 name: 魔王と呼ばれた子
 
-description:
+description: |
   子供の頃
   まどろみの中で母が読んでくれたお話は
   いつも正義の味方が活躍していた
@@ -48,7 +48,7 @@ tags:
 links:
   - name: Get on booth
     uri: https://booth.pm/ja/items/1139088
-  - name: website
+  - name: .website
     uri: https://reona5112.wixsite.com/mysite
 
 thumbnail: thumbnail.jpg
