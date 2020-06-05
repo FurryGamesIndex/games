@@ -1,4 +1,6 @@
-LuckyDoge
+## Direct contributors
+
+**LuckyDoge**
 
 	Weibo (微博): https://weibo.com/projectdoge
 	Twitter: https://twitter.com/GamerLuckyDoge
@@ -6,7 +8,7 @@ LuckyDoge
 	Shared a list of large number of games at the beginning of the project, so
 	making it possible for this project to quickly grow up into a practical list.
 
-Utopic Panther
+**Utopic Panther**
 
 	Telegram: @UtopicPanther
 	Github: @UtopicPanther
@@ -16,7 +18,7 @@ Utopic Panther
 	Games submitter and editor
 	Chinese Documents
 
-HuaJi2333DaDa
+**HuaJi2333DaDa**
 
 	Telegram: @HuaJi2333dada
 	Twitter: https://twitter.com/HuaJi2333dada
@@ -25,7 +27,7 @@ HuaJi2333DaDa
 	Games submitter and editor
 	Chinese Documents
 
-xiaoxiaohaoa
+**xiaoxiaohaoa**
 
 	Telegram: @xiaoxiaohaoa
 	Github: @xiaoxiaohaoa
@@ -35,4 +37,10 @@ xiaoxiaohaoa
 
 * For new contributors, please add your name and contacts before this line.
 
-* Anonymous have contributed a lot, but they (temporarily) do not want to appear on this list. This project respects their wishes. At the same time, if they wish to enter the list, the list is ready for them!
+## Game referrers
+
+- **rockytherookie** - [Furaffinity](https://www.furaffinity.net/user/rockytherookie/), [Twitter](https://twitter.com/rockytherookie), [Pixiv](https://www.pixiv.net/users/17292937) - Introduced us to a variety of games
+
+## Additional infomation
+
+Anonymous have contributed a lot, but they (temporarily) do not want to appear on this list. This project respects their wishes. At the same time, if they wish to enter the list, the list is ready for them!
