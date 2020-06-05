@@ -1,4 +1,5 @@
-<div class="default links-group">
+<div class="default tip" id="lang_tip"></div>
+<div id="langs" class="default links-group">
 	<a style="display: block;" href="{{ rr }}/en/"><i class="fas fa-globe-americas"></i> English</a>
 	<a style="display: block;" href="{{ rr }}/zh-cn/"><i class="fas fa-globe-americas"></i> 简体中文（Simplified Chinese）</a>
 	<a style="display: block;" href="{{ rr }}/zh-tw/"><i class="fas fa-globe-americas"></i> 繁體中文（Traditional Chinese）</a>
@@ -6,3 +7,21 @@
 <div class="default">
 {% include 'copying.html' %}
 </div>
+<script src="{{ rr }}/scripts/base.js"></script>
+<script>
+const regexp = new RegExp(window.location.host + "/[a-z\\-]*/($|games/|list|index|search|faq).*");
+const match = document.referrer.match(regexp)
+
+if (match.length >= 1) {
+	let path = match[0].substring(match[0].indexOf('/') + 1);
+	path = path.substring(path.indexOf('/') + 1);
+	console.log(path);
+
+	$$('#langs a').forEach(a => {
+		a.href = a.href + path;
+	});
+
+	$('#lang_tip').textContent = "Note: you will be redirected to <Language>/" + path;
+}
+
+</script>
