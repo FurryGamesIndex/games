@@ -218,6 +218,7 @@
 - `2ds` 游戏官方支持 Nintendo 2DS
 - `3ds` 游戏官方支持 Nintendo 3DS
 - `xbox` 游戏官方支持 Microsoft Xbox
+- `xbox-one` 游戏官方支持 Microsoft Xbox One
 
 ## sys 命名空间
 

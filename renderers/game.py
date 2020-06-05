@@ -24,7 +24,8 @@ platform_icons = {
     "playstation4": '<i title="Playstation 4" class="fab fa-playstation fa-fw"></i>',
     "psv": '<i title="psv" class="fab fa-playstation fa-fw"></i>',
     "psp": '<i title="psp" class="fab fa-playstation fa-fw"></i>',
-    "xbox": '<i title="xbox" class="fab fa-xbox fa-fw"></i>',
+    "xbox": '<i title="Xbox" class="fab fa-xbox fa-fw"></i>',
+    "xbox-one": '<i title="Xbox One" class="fab fa-xbox fa-fw"></i>',
 }
 
 context = {
