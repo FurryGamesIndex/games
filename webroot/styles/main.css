@@ -187,6 +187,15 @@ a:focus {
 		max-width: 100%;
 		margin: 12px 0;
 	}
+
+
+	.items .description {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+	}
 }
 
 /* stylesheet for games/*.html */
