@@ -88,7 +88,6 @@ a:focus {
 #navlinks {
 	display: inline-flex;
 	flex-flow: row nowrap;
-	align-items: flex-start;
 	justify-content: flex-end;
 	align-items: center;
 }
@@ -114,7 +113,7 @@ a:focus {
 	margin: 0 auto;
 }
 
-@media screen and (max-device-width: 940px){
+@media screen and (max-width: 940px){
 	/* fix for mobile safari */
 	body {
 		-webkit-text-size-adjust: 100%;
@@ -178,7 +177,7 @@ a:focus {
 	font-size: 0.94em;
 }
 
-@media screen and (max-device-width: 940px){
+@media screen and (max-width: 940px){
 	.items>.item {
 		flex-flow: column nowrap;
 		align-items: flex-start;
