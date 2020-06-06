@@ -6,13 +6,6 @@ html {
 	font-size: 16px;
 }
 
-@media screen and (max-device-width: 940px){
-	/* fix for mobile safari */
-	body {
-		-webkit-text-size-adjust: 100%;
-	}
-}
-
 body {
 	--text-color: black;
 	--link-color: #08c;
@@ -80,18 +73,37 @@ a:focus {
 	padding: 12px;
 }
 
+#navbar {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
 #navbar>.title {
 	display: inline-block;
 	font-size: 1.12em;
 	margin-right: 20px;
+	flex: 1 0 auto;
 }
 
-#navbar>a {
+#navlinks {
+	display: inline-flex;
+	flex-flow: row nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#navlinks>a {
 	margin: 0 6px;
+	flex: 0 0 auto;
 }
 
-#navbar>a.actived {
+#navlinks>a.actived {
 	font-weight: bold;
+}
+
+#navlinks>a>span {
+	line-height: 1em;
+	margin-left: 4px;
 }
 
 #navbar,
@@ -101,13 +113,43 @@ a:focus {
 	margin: 0 auto;
 }
 
+.contact_us {
+	margin-top: 10px;
+	line-height: 1.4em;
+}
+
+@media screen and (max-width: 940px){
+	/* fix for mobile safari */
+	body {
+		-webkit-text-size-adjust: 100%;
+	}
+
+	#navbar,
+	#app {
+		width: 100%;
+	}
+
+	#navbar {
+		flex-flow: column wrap;
+		align-items: stretch;
+	}
+
+	#navbar>.title {
+		margin: 0 0 12px;
+	}
+
+	#navlinks>a:not(.actived)>span {
+		display: none;
+	}
+}
+
 /* stylesheet for index.html */
 
 #contact {
 	padding-left: 12px;
 }
 
-/* stylesheet for list.html */
+/* stylesheet for list.html and search.html */
 
 .items {
 	padding: 12px;
@@ -125,7 +167,6 @@ a:focus {
 
 .items .thumbnail {
 	width: 230px;
-	min-width: 230px;
 	max-width: 230px;
 	max-height: 230px;
 
@@ -139,6 +180,26 @@ a:focus {
 .items .description {
 	color: var(--tip-color);
 	font-size: 0.94em;
+}
+
+@media screen and (max-width: 940px){
+	.items>.item {
+		flex-flow: column nowrap;
+		align-items: flex-start;
+	}
+
+	.items .thumbnail {
+		max-width: 100%;
+		margin: 12px 0;
+	}
+
+	.items .description {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-line-clamp: 5;
+		-webkit-box-orient: vertical;
+	}
 }
 
 /* stylesheet for games/*.html */
@@ -159,6 +220,10 @@ a:focus {
 	display: inline-block;
 	flex-shrink: 1;
 	flex-grow: 1;
+}
+
+.game>.leftbox .onmobile {
+	display: none;
 }
 
 .game .name {
@@ -244,6 +309,32 @@ a:focus {
 	border-bottom: 1px solid var(--border-color);
 }
 
-.game .contact_us {
-	margin-top: 10px;
+
+@media screen and (max-width: 940px) {
+	.game {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+
+	.game>.leftbox .onmobile {
+		display: block;
+	}
+
+	.game>.leftbox .game_logo {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+
+	.game .screenshots {
+		padding-bottom: 12px;
+		margin-bottom: 12px;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.game>.rightbox {
+		display: none;
+	}
 }

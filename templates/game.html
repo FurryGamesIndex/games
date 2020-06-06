@@ -9,7 +9,9 @@
 <div class="game">
 	<div class="leftbox">
 		<div class="name">{{ get(game, lang, 'name')|e }}</div>
+		<div class="onmobile">{% include 'game_logo.html' %}</div>
 		<div class="description">{{ get_desc(game, lang) }}</div>
+		<div class="onmobile">{% include 'game_links.html' %}</div>
 		<div class="tags"><table><tbody>
 		{% for group in game.tags %}
 			<tr>
@@ -32,28 +34,12 @@
 		{{ image.dom(rr, i, name) }}
 		{% endfor %}
 		</div>
+		<div class="onmobile">{% include 'copying.html' %}</div>
 	</div>
 	<div class="rightbox">
-		<img class="thumbnail" src="{{ image.uri(rr, game.thumbnail, name) }}" >
-		<div class="platforms">
-		{% if "platform" in game.tags %}{% for i in game.tags.platform %}
-		{% if i in platform_icons %}
-			{{ platform_icons[i] }}
-		{% endif %}
-		{% endfor %}{% endif %}
-		</div>
-		<div class="links links-group">
-		{% for i in game.links %}
-			{% set li = link_info(i, game.tr, ui, lang) %}
-			<a href="{{ li.href }}" target="_blank">{{ li.content }}</a>
-		{% endfor %}
-		</div>
+		{% include 'game_logo.html' %}
+		{% include 'game_links.html' %}
 		{% include 'copying.html' %}
-		<div class="contact_us tip">
-			{{ ui.game_contact_us }}<br>
-			<a href="https://github.com/FurryGamesIndex/games"><i class="fab fa-github fa-fw"></i> {{ ui.index_link_github }}</a><br>
-			<a href="https://t.me/FurryGamesIndex"><i class="fab fa-telegram-plane fa-fw"></i> {{ ui.index_link_tg }}</a>
-		</div>
 	</div>
 </div>
 <script src="{{ rr }}/scripts/base.js"></script>

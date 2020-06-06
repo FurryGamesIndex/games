@@ -2,6 +2,7 @@
 <html lang="{{ lang }}">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 {% if meta is defined %}
 	<title>{{ meta.title }} - {{ ui.page_title }}</title>
@@ -19,12 +20,14 @@
 <body>
 	<div id="navbar">
 		<div class="title">{{ ui.page_title }}</div>
-		<a href="{{ rr }}/{{ lang }}/index.html" class="{{ active_index }}"><i class="fas fa-home fa-fw"></i> {{ ui.nav_index }}</a>
-		<a href="{{ rr }}/{{ lang }}/list.html" class="{{ active_list }}"><i class="fas fa-list-ul fa-fw"></i> {{ ui.nav_list }}</a>
-		<a href="{{ rr }}/{{ lang }}/search.html" class="{{ active_search }}"><i class="fas fa-search fa-fw"></i> {{ ui.nav_search }}</a>
-		<a href="{{ rr }}/{{ lang }}/faq.html" class="{{ active_faq }}"><i class="far fa-question-circle fa-fw"></i> {{ ui.nav_faq }}</a>
-		<a href="https://github.com/FurryGamesIndex/games/blob/master/CONTRIBUTORS.md"><i class="fas fa-paw fa-fw"></i> {{ ui.nav_contributors }}</a>
-		<a href="{{ rr }}/languages.html" class="{{ active_languages }}"><i class="fas fa-globe-americas fa-fw"></i> {{ ui.nav_languages }}</a>
+		<div id="navlinks">
+		<a href="{{ rr }}/{{ lang }}/index.html" class="{{ active_index }}"><i class="fas fa-home fa-fw"></i><span>{{ ui.nav_index }}</span></a>
+		<a href="{{ rr }}/{{ lang }}/list.html" class="{{ active_list }}"><i class="fas fa-list-ul fa-fw"></i><span>{{ ui.nav_list }}</span></a>
+		<a href="{{ rr }}/{{ lang }}/search.html" class="{{ active_search }}"><i class="fas fa-search fa-fw"></i><span>{{ ui.nav_search }}</span></a>
+		<a href="{{ rr }}/{{ lang }}/faq.html" class="{{ active_faq }}"><i class="far fa-question-circle fa-fw"></i><span>{{ ui.nav_faq }}</span></a>
+		<a href="https://github.com/FurryGamesIndex/games/blob/master/CONTRIBUTORS.md"><i class="fas fa-paw fa-fw"></i><span>{{ ui.nav_contributors }}</span></a>
+		<a href="{{ rr }}/languages.html" class="{{ active_languages }}"><i class="fas fa-globe-americas fa-fw"></i><span>{{ ui.nav_languages }}</span></a>
+		</div>
 	</div>
 	<div id="app">
 
