@@ -113,6 +113,11 @@ a:focus {
 	margin: 0 auto;
 }
 
+.contact_us {
+	margin-top: 10px;
+	line-height: 1.4em;
+}
+
 @media screen and (max-width: 940px){
 	/* fix for mobile safari */
 	body {
@@ -188,7 +193,6 @@ a:focus {
 		margin: 12px 0;
 	}
 
-
 	.items .description {
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -216,6 +220,10 @@ a:focus {
 	display: inline-block;
 	flex-shrink: 1;
 	flex-grow: 1;
+}
+
+.game>.leftbox .onmobile {
+	display: none;
 }
 
 .game .name {
@@ -301,6 +309,32 @@ a:focus {
 	border-bottom: 1px solid var(--border-color);
 }
 
-.game .contact_us {
-	margin-top: 10px;
+
+@media screen and (max-width: 940px) {
+	.game {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+
+	.game>.leftbox .onmobile {
+		display: block;
+	}
+
+	.game>.leftbox .game_logo {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+	}
+
+	.game .screenshots {
+		padding-bottom: 12px;
+		margin-bottom: 12px;
+		border-bottom: 1px solid var(--border-color);
+	}
+
+	.game>.rightbox {
+		display: none;
+	}
 }
