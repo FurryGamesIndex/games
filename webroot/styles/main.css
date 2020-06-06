@@ -112,7 +112,7 @@ a:focus {
 	padding-left: 12px;
 }
 
-/* stylesheet for list.html */
+/* stylesheet for list.html and search.html */
 
 .items {
 	padding: 12px;
@@ -130,7 +130,6 @@ a:focus {
 
 .items .thumbnail {
 	width: 230px;
-	min-width: 230px;
 	max-width: 230px;
 	max-height: 230px;
 
@@ -144,6 +143,18 @@ a:focus {
 .items .description {
 	color: var(--tip-color);
 	font-size: 0.94em;
+}
+
+@media screen and (max-device-width: 940px){
+	.items>.item {
+		flex-flow: column nowrap;
+		align-items: flex-start;
+	}
+
+	.items .thumbnail {
+		max-width: 100%;
+		margin: 12px 0;
+	}
 }
 
 /* stylesheet for games/*.html */
