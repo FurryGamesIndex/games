@@ -73,18 +73,38 @@ a:focus {
 	padding: 12px;
 }
 
+#navbar {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
 #navbar>.title {
 	display: inline-block;
 	font-size: 1.12em;
 	margin-right: 20px;
+	flex: 1 0 auto;
 }
 
-#navbar>a {
+#navlinks {
+	display: inline-flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#navlinks>a {
 	margin: 0 6px;
+	flex: 0 0 auto;
 }
 
-#navbar>a.actived {
+#navlinks>a.actived {
 	font-weight: bold;
+}
+
+#navlinks>a>span {
+	line-height: 1em;
+	margin-left: 4px;
 }
 
 #navbar,
@@ -103,6 +123,19 @@ a:focus {
 	#navbar,
 	#app {
 		width: 100%;
+	}
+
+	#navbar {
+		flex-flow: column wrap;
+		align-items: stretch;
+	}
+
+	#navbar>.title {
+		margin: 0 0 12px;
+	}
+
+	#navlinks>a:not(.actived)>span {
+		display: none;
 	}
 }
 
