@@ -16,6 +16,8 @@ description: |
   Privacy Policy: https://hyperbeard.com/privacy/
 
 tags:
+  sys:
+    - tagme
   author:
     - hyperbeard
   male:
