@@ -16,6 +16,7 @@ body {
 	--box-warn-color: #fff3ca;
 	--box-notice-border-color: #6cf;
 	--box-notice-color: #f0faff;
+	--infobar-color: #f3f3f3;
 
 	color: var(--taxt-color);
 	font-family: sans-serif;
@@ -68,6 +69,12 @@ a:focus {
 .box.notice {
 	border: 1px solid var(--box-notice-border-color);
 	background-color: var(--box-notice-color);
+}
+
+#infobar {
+	background-color: var(--infobar-color);
+	text-align: center;
+	padding: 12px;
 }
 
 .default,
