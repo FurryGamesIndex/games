@@ -1,12 +1,27 @@
 # -*- coding: utf-8 -*-
 
 import re
+import os
+import hashlib
+from utils.webutils import dl
+from __main__ import args
 
 regexp = re.compile("^[a-zA-Z0-9\-]+:/{0,2}[^/]+")
 
 def uri(rr, image, game_name):
     if (regexp.match(image)):
-            return image
+        if args.download_external_images:
+            uri = image
+            sum = hashlib.sha1(image.encode("utf-8")).hexdigest();
+            image = "assets/" + game_name + "/" + sum + os.path.splitext(uri)[1]
+
+            if not os.path.isfile(os.path.join(args.output, image)):
+                print("downloading %s %s" % (sum, uri))
+                dl(uri, os.path.join(args.output, image))
+
+            image = rr + "/" + image
+
+        return image
     else:
         return rr + "/assets/" + game_name + "/" + image
 

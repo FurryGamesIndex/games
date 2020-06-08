@@ -12,7 +12,7 @@
 const regexp = new RegExp(window.location.host + "/[a-z\\-]*/($|games/|list|index|search|faq).*");
 const match = document.referrer.match(regexp)
 
-if (match.length >= 1) {
+if (match !== null && match.length >= 1) {
 	let path = match[0].substring(match[0].indexOf('/') + 1);
 	path = path.substring(path.indexOf('/') + 1);
 	console.log(path);
@@ -22,6 +22,10 @@ if (match.length >= 1) {
 	});
 
 	$('#lang_tip').textContent = "Note: you will be redirected to <Language>/" + path;
+} else if (window.location.host === "") {
+	$$('#langs a').forEach(a => {
+		a.href = a.href + "index.html";
+	});
 }
 
 </script>

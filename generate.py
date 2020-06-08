@@ -8,6 +8,7 @@ import importlib
 from sys import argv
 import json
 from pathlib import Path
+from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
 from utils.search import searchdb
@@ -20,6 +21,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--extra-ui', type=str, help='Set extra ui yaml filename')
 parser.add_argument('--no-sitemap', default=False, action='store_true', help='Do not generate sitemap')
 parser.add_argument('--no-searchdb', default=False, action='store_true', help='Do not generate searchdb')
+parser.add_argument('--no-purge-prev-builds', default=False, action='store_true', help='Do not generate searchdb')
+parser.add_argument('--download-external-images', default=False, action='store_true', help='Download external images to output dir')
 parser.add_argument('output', type=str, help='Output path')
 
 args = parser.parse_args()
@@ -64,10 +67,12 @@ for f in sorted(os.listdir(dir)):
 
 env = Environment(loader = FileSystemLoader("templates"))
 
-if os.path.exists(output):
+if os.path.exists(output) and not args.no_purge_prev_builds:
     shutil.rmtree(output)
-shutil.copytree("webroot", output)
-shutil.copytree("assets", os.path.join(output, "assets"))
+#shutil.copytree("webroot", output)
+#shutil.copytree("assets", os.path.join(output, "assets"))
+dir_util.copy_tree("webroot", output)
+dir_util.copy_tree("assets", os.path.join(output, "assets"))
 
 if not args.no_searchdb:
     with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
