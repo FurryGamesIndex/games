@@ -3,6 +3,8 @@ name: build-nightly-snapshot
 on:
   schedule:
     - cron: "45 13 * * *"
+  watch:
+    types: [started]
 
 jobs:
   build:
@@ -14,19 +16,20 @@ jobs:
     - name: install-dep
       run: |
         sudo apt -y update
-        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip
-        pip3 install markdown2
+        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip zip
+        pip3 install markdown2 OpenCC
 
     - name: gen
       run: |
         python3 --version
-        ./scripts/build-offline-version.sh
+        ./scripts/build-offline-version.sh FGI-nightly
+        zip -r output.zip FGI-nightly
 
     - name: upload-release
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: output
-        asset_name: fgi-nightly
-        tag: _gh_assert
+        file: output.zip
+        asset_name: FGI-nightly.zip
+        tag: _gh_assets
         overwrite: true
