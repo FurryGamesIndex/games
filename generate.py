@@ -76,6 +76,9 @@ if not args.no_searchdb:
 languages.append('en')
 with open(os.path.join("uil10n", "en.yaml")) as stream:
     base_l10n = yaml.safe_load(stream)
+if args.extra_ui is not None:
+    with open(os.path.join(args.extra_ui, "en.yaml")) as stream:
+        base_l10n.update(yaml.safe_load(stream))
 
 print("Rendering misc single pages")
 renderer = importlib.import_module("utils.singles-misc-renderer")
@@ -85,6 +88,11 @@ for language in languages:
     with open(os.path.join("uil10n", language + ".yaml")) as stream:
         ui = base_l10n.copy()
         ui.update(yaml.safe_load(stream))
+    if args.extra_ui is not None:
+        euifn = os.path.join(args.extra_ui, language + ".yaml") 
+        if os.path.isfile(euifn):
+            with open(euifn) as stream:
+                ui.update(yaml.safe_load(stream))
     
     Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
 

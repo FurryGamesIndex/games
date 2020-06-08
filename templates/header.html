@@ -18,6 +18,9 @@
 	<link rel="stylesheet" href="{{ rr }}/styles/fa.all.min.css">
 </head>
 <body>
+{% if "infobar" in ui %}
+	<div id="infobar">{{ ui.infobar }}</div>
+{% endif %}
 	<div id="navbar">
 		<div class="title">{{ ui.page_title }}</div>
 		<div id="navlinks">
