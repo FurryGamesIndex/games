@@ -1,0 +1,29 @@
+name: '兽祭~吸血鬼之夜'
+
+description: |
+  正篇《吸血鬼之夜》本来和往常一样的普普通通的周末，苍岚正在为了生活费被初寒花光而苦恼，突然二人被电视节目里提到的“悬赏吸血鬼的照片”的广告所吸引，于是乎，为了解决贫困潦倒的生活状况，二人决定出门寻找好友一起踏上“寻找”吸血鬼的冒险（？）
+
+tags:
+  sys:
+    - tagme
+  type:
+    - role-playing
+  misc:
+    - freeware
+  lang:
+    - zh
+  platform:
+    - windows
+
+links:
+  - name: Publish page
+    uri: https://tieba.baidu.com/p/5548778877
+  - name: .weibo
+    uri: https://weibo.com/u/6357108215
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/Em504Rs.png
+  - https://i.imgur.com/iDKvoZK.png
+  - https://i.imgur.com/ijxRE9R.png
