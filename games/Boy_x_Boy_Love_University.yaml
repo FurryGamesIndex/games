@@ -26,12 +26,16 @@ description: |
   - Facebook [https://facebook.com/bxbloveproject](https://facebook.com/bxbloveproject)
   - Twitter [https://twitter.com/bxbloveproject](https://twitter.com/bxbloveproject)
 
+description-format: markdown
+
 tags:
   sys:
     - staging
     - tagme
   type:
     - visual-novel
+  misc:
+    - work-in-process
   publish:
     - itch.io
     - patreon
@@ -41,10 +45,12 @@ tags:
     - linux
 
 links:
-  - name: .itch.io
-    uri: https://nnaosuke-team.itch.io/bxbloveproject
   - name: .patreon
     uri: patreon:bxbloveproject
+  - name: Get on Gamejolt
+    uri: https://gamejolt.com/games/bxbloveproject/213636
+  - name: .itch.io
+    uri: https://nnaosuke-team.itch.io/bxbloveproject
   - name: .twitter
     uri: twitter:bxbloveproject
 
@@ -52,9 +58,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvMTI3MzMxLzkzNjI3NS5qcGc=/original/mG4rv1.jpg
-  - https://img.itch.zone/aW1hZ2UvMTI3MzMxLzYxNzI0Ny5wbmc=/original/YvYc19.png
   - https://img.itch.zone/aW1hZ2UvMTI3MzMxLzYxNzI0OS5wbmc=/original/AK8Hms.png
-  - https://img.itch.zone/aW1hZ2UvMTI3MzMxLzYxNzI1Mi5wbmc=/original/2cRY7F.png
   - https://img.itch.zone/aW1hZ2UvMTI3MzMxLzkzNjI3Ni5wbmc=/original/Rbkcdw.png
   - https://img.itch.zone/aW1hZ2UvMTI3MzMxLzkzNjI3Ny5wbmc=/original/iBOfSv.png
   - https://img.itch.zone/aW1hZ2UvMTI3MzMxLzkzNjI3OC5wbmc=/original/7CVhtS.png
