@@ -2,7 +2,7 @@ name: build-nightly-snapshot
 
 on:
   schedule:
-    - cron: "45 13 * * *"
+    - cron: "0 7 * * *"
   watch:
     types: [started]
 
@@ -16,8 +16,14 @@ jobs:
     - name: install-dep
       run: |
         sudo apt -y update
-        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip zip
+        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip zip unzip
         pip3 install markdown2 OpenCC
+
+    - name: download
+      run: |
+        wget https://github.com/FurryGamesIndex/games/releases/download/_gh_assets/FGI-nightly.zip -O prev.zip || true
+        unzip prev.zip || true
+        [ -d FGI-nightl ] || echo "warning: getting prev build failed"
 
     - name: gen
       run: |
