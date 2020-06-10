@@ -263,7 +263,7 @@ At the same time, some links can be abbreviated to the URI form we defined, reco
 - Patreon: `patreon:user name` such as `patreon:EchoGame`, which is equivalent to `https://www.patreon.com/EchoGame`
 - Tumblr: `tumblr:user name` such as `tumblr:xxx`, which is equivalent to `https://xxx.tumblr.com/`
 - pixiv: `pixiv:user ID` such as `pixiv:123456`, equivalent to `https://www.pixiv.net/users/123456`
-- Furaffinity: `furaffinity:user name`, equivalent to ``https://www.furaffinity.net/user/<username>/`
+- Furaffinity: `furaffinity:user name`, equivalent to `https://www.furaffinity.net/user/<username>/`
 
 icon
 

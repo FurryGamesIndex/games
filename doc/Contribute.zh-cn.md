@@ -262,7 +262,7 @@ URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上
 - Patreon: `patreon:用户名` 比如 `patreon:EchoGame`，相当于 `https://www.patreon.com/EchoGame`
 - Tumblr: `tumblr:用户名` 比如 `tumblr:xxx`，相当于 `https://xxx.tumblr.com/`
 - pixiv: `pixiv:用户ID` 比如 `pixiv:123456`，相当于 `https://www.pixiv.net/users/123456`
-- Furaffinity: `furaffinity:用户名`, 相当于 ``https://www.furaffinity.net/user/用户名/`
+- Furaffinity: `furaffinity:用户名`, 相当于 `https://www.furaffinity.net/user/用户名/`
 
 图标
 
