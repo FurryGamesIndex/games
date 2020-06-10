@@ -89,7 +89,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: Unofficial chinese mod
+  - name: Unofficial chinese patch
     uri: https://weibo.com/7429628292/J16RMawmi
 
 thumbnail: thumbnail.jpg
@@ -145,8 +145,6 @@ tags:
     - bara
     - yiff
   male:
-    - canine
-    - felidae
     - wolf
     - cat
     - humankind
@@ -172,7 +170,9 @@ tags:
     - android
 ```
 
-標籤是描述遊戲的特性。在 FGI 中，標籤由“名稱空間”和“值”組成。並且必須使用標準化的標籤。如 `type:visual-novel` 中，名稱空間是冒號前面的 `type`，後面的是值 `visual-novel`。這個標籤表示該遊戲的「型別」是「視覺小說」。同樣 `male:canine` 表示該遊戲存在主要「男性」角色是「犬科獸人」，`misc:work-in-process` 表示該遊戲「未完成」，正在開發中（但釋出了先行體驗/Demo版本），`platform:android` 表示該遊戲可以在「Android」「平臺」上執行。有關目前所有標準標籤，見 [標籤](tags.zh-tw.md)。
+標籤是描述遊戲的特性。在 FGI 中，標籤由“名稱空間”和“值”組成。並且必須使用標準化的標籤。如 `type:visual-novel` 中，名稱空間是冒號前面的 `type`，後面的是值 `visual-novel`。這個標籤表示該遊戲的「型別」是「視覺小說」。同樣 `male:wolf` 表示該遊戲存在主要「男性」角色是「狼獸人」，`misc:work-in-process` 表示該遊戲「未完成」，正在開發中（但釋出了先行體驗/Demo版本），`platform:android` 表示該遊戲可以在「Android」「平臺」上執行。有關目前所有標準標籤，見 [標籤](tags.zh-tw.md)。
+
+> 最終呈現在頁面上的標籤列表可能會進一步增加，因為 FGI 使用一種叫“標籤依賴”的機制新增自動標籤。如“狼”存在時系統將新增“犬科”
 
 標籤不帶空格，除了一個例外，就是 `author` 名稱空間下的標籤。`author` 名稱空間指示作品的作者（開發者、發行者等）。如果包含空格，需要使用單引號`'`包裹起來。
 
@@ -209,7 +209,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: Unofficial chinese mod
+  - name: Unofficial chinese patch
     uri: https://weibo.com/7429628292/J16RMawmi
 ```
 
@@ -262,6 +262,7 @@ URI 部分可能是一個網址或 URL，比如上面的“在 itch.io 平臺上
 - Patreon: `patreon:使用者名稱` 比如 `patreon:EchoGame`，相當於 `https://www.patreon.com/EchoGame`
 - Tumblr: `tumblr:使用者名稱` 比如 `tumblr:xxx`，相當於 `https://xxx.tumblr.com/`
 - pixiv: `pixiv:使用者ID` 比如 `pixiv:123456`，相當於 `https://www.pixiv.net/users/123456`
+- Furaffinity: `furaffinity:使用者名稱`, 相當於 ``https://www.furaffinity.net/user/使用者名稱/`
 
 圖示
 
@@ -384,4 +385,4 @@ links-tr 部分是比較有趣的部分，還記得第 4 步中的“庫存連�
 
 簽入你的修改，然後向 FGI 傳送 Pull Request 吧！
 
-> 傳送 Pull Request 合併後，如果希望再次貢獻，建議刪除 fork 後的倉庫重新 fork；本地倉庫建議 `git pull`。然後再建立分支並修改。
+> 傳送 Pull Request 合併後，如果希望再次貢獻，建議刪除 fork 後的倉庫重新 fork；本地倉庫建議 `git pull`。然後再建立分支並修改（或使用[此方法](https://github.com/FurryGamesIndex/games/wiki/%E8%B4%A1%E7%8C%AE%E8%80%85%E7%9A%84%E5%A4%87%E5%BF%98%E5%BD%95%EF%BC%9A%E4%BD%BF%E7%94%A8-Git-%E8%B4%A1%E7%8C%AE%E7%9A%84%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)）。

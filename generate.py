@@ -18,7 +18,7 @@ from utils import sitemap
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--extra-ui', type=str, help='Set extra ui yaml filename')
+parser.add_argument('--extra-ui', type=str, help='Set extra ui profile path')
 parser.add_argument('--no-sitemap', default=False, action='store_true', help='Do not generate sitemap')
 parser.add_argument('--no-searchdb', default=False, action='store_true', help='Do not generate searchdb')
 parser.add_argument('--no-purge-prev-builds', default=False, action='store_true', help='Do not generate searchdb')
