@@ -23,7 +23,7 @@ jobs:
       run: |
         wget https://github.com/FurryGamesIndex/games/releases/download/_gh_assets/FGI-nightly.zip -O prev.zip || true
         unzip prev.zip || true
-        [ -d FGI-nightl ] || echo "warning: getting prev build failed"
+        [ -d FGI-nightly ] || echo "warning: getting prev build failed"
 
     - name: gen
       run: |
