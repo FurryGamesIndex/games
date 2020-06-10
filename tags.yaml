@@ -1,0 +1,477 @@
+'@namespace("author", %s)':
+  content:
+    - en: ''
+      zh: '指示作者的全名，首选作者的官方英文名称。'
+
+###################################################
+###################################################
+
+'@namespace("type", %s)':
+  content:
+    - en: ''
+      zh: '用于说明游戏的类型'
+
+visual-novel:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '视觉小说'
+
+strategy:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '策略游戏'
+
+casual:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '休闲游戏'
+
+business-sim:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '经营模拟游戏'
+
+adventure:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '冒险游戏'
+
+board:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '棋牌游戏'
+
+action:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '动作游戏'
+
+fighting:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '格斗游戏'
+
+music:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '音乐游戏'
+
+shooter:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '射击游戏'
+
+puzzle:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '解谜/益智游戏'
+
+role-playing:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '角色扮演游戏'
+
+dating-sim:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '恋爱模拟游戏'
+
+bara:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '包含较多男同性恋向内容的作品'
+
+yuri:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '包含较多女同性恋向内容的作品'
+
+yiff:
+  namespaces: [ type ]
+  explanation:
+    en: ''
+    zh: '包含成人（R-18）限制级内容的作品'
+
+###################################################
+###################################################
+
+'@namespace("male/female", %s)':
+  content:
+    - en: ''
+      zh: '用于说明游戏中兽人和人类的类型和特点（除非特殊说明，在 male 命名空间表示兽人/人类生理性别是男性，在 female 命名空间表示兽人/人类生理性别是女性）'
+
+###################################################
+
+'@class(%s)':
+  title:
+    en: ''
+    zh: '自动标签'
+  content:
+    - en: ''
+      zh: <
+        以下是自动标签，它们在你搜索游戏时和其他标签没有区别。
+        但如果你是游戏编辑者、贡献者，你不必为游戏手动添加自动标签，
+        因为它们将在必要时自动被添加
+        （如您添加 `male:cat` 标签，该游戏将自动继承 `male:felidae` 标签）
+
+felidae:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括猫科兽人'
+
+canine:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括犬科兽人'
+
+mustelidae:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括鼬科兽人'
+
+reptilia:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括爬行纲兽人'
+
+###################################################
+
+'@class(%s)':
+  title:
+    en: ''
+    zh: '物种：杂类'
+
+dragon:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括龙兽人（仅西方龙）'
+
+lung:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括东方龙兽人'
+
+mouse:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括鼠兽人'
+
+monkey:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括猴子兽人'
+
+sheep:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括羊兽人'
+
+horse:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括马兽人'
+
+rabbit:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括兔兽人'
+
+bear:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括熊兽人'
+
+pig:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括猪兽人'
+
+hyena:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括鬣狗兽人'
+
+raccoon:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括浣熊兽人'
+
+shark:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括鲨鱼兽人'
+
+deer:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括鹿兽人'
+
+bird:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括鸟兽人'
+
+###################################################
+
+'@class(%s)':
+  title:
+    en: ''
+    zh: '物种：猫科'
+
+cat:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括猫兽人'
+
+tiger:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括虎兽人'
+
+lion:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括狮兽人'
+
+leopard:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括豹兽人'
+
+snow-leopard:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括雪豹兽人'
+
+cheetah:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括猎豹兽人'
+
+lynx:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括猞猁兽人'
+
+###################################################
+
+'@class(%s)':
+  title:
+    en: ''
+    zh: '物种：犬科'
+
+dog:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括犬兽人'
+
+wolf:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括狼兽人'
+
+fox:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括狐兽人'
+
+raccoon-dog:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括貉兽人'
+
+###################################################
+
+'@class(%s)':
+  title:
+    en: ''
+    zh: '物种：鼬科'
+
+otter:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括水獭兽人'
+
+badger:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括獾兽人'
+
+weasel:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括鼬兽人'
+
+###################################################
+
+'@class(%s)':
+  title:
+    en: ''
+    zh: '物种：爬行纲'
+
+lizard:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括蜥蜴兽人'
+
+crocodile:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括鳄鱼兽人'
+
+snake:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括蛇兽人'
+
+###################################################
+
+'@class(%s)':
+  title:
+    en: ''
+    zh: '物种：特殊'
+
+mixed:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括混合兽人（如虎鲨）'
+
+humankind:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括人类或智人'
+
+non-anthro:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色包括非人形 furry（纯兽）（动物形态，但通常具有高级智慧）'
+
+###################################################
+
+'@class(%s)':
+  title:
+    en: ''
+    zh: '非物种'
+
+muscle:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色中包括肌肉丰满的角色'
+
+transfur:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色中可能出现兽化现象'
+
+anal:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色之间包括肛交性行为'
+
+blowjob:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色之间包括口交性行为'
+
+frottage:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色之间包括阴茎摩擦行为'
+
+cockslapping:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色之间包括用阴茎打人'
+
+masturbation:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现手淫行为'
+
+handjob:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色之间出现手淫另一角色的阴茎'
+
+rimming:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色之间出现用舌头在另一角色的肛门边缘上的性行为'
+
+human-on-furry:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色中，人类与兽人发生了性关系'
+
+animal-on-furry:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh: '主要角色中，动物和兽人发生了性关系'
+
+###################################################
+###################################################
+
