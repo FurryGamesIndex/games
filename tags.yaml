@@ -1,4 +1,5 @@
-'@namespace("author", %s)':
+'@namespace':
+  name: 'author'
   content:
     - en: ''
       zh: '指示作者的全名，首选作者的官方英文名称。'
@@ -6,7 +7,8 @@
 ###################################################
 ###################################################
 
-'@namespace("type", %s)':
+'@namespace':
+  name: 'type'
   content:
     - en: ''
       zh: '用于说明游戏的类型'
@@ -110,14 +112,17 @@ yiff:
 ###################################################
 ###################################################
 
-'@namespace("male/female", %s)':
+'@namespace':
+  name: 'male/female'
   content:
     - en: ''
-      zh: '用于说明游戏中兽人和人类的类型和特点（除非特殊说明，在 male 命名空间表示兽人/人类生理性别是男性，在 female 命名空间表示兽人/人类生理性别是女性）'
+      zh: '用于说明游戏中兽人和人类的类型和特点'
+    - en: ''
+      zh: '除非特殊说明，在 male 命名空间表示兽人/人类生理性别是男性，在 female 命名空间表示兽人/人类生理性别是女性'
 
 ###################################################
 
-'@class(%s)':
+'@class':
   title:
     en: ''
     zh: '自动标签'
@@ -155,7 +160,7 @@ reptilia:
 
 ###################################################
 
-'@class(%s)':
+'@class':
   title:
     en: ''
     zh: '物种：杂类'
@@ -246,7 +251,7 @@ bird:
 
 ###################################################
 
-'@class(%s)':
+'@class':
   title:
     en: ''
     zh: '物种：猫科'
@@ -295,7 +300,7 @@ lynx:
 
 ###################################################
 
-'@class(%s)':
+'@class':
   title:
     en: ''
     zh: '物种：犬科'
@@ -326,7 +331,7 @@ raccoon-dog:
 
 ###################################################
 
-'@class(%s)':
+'@class':
   title:
     en: ''
     zh: '物种：鼬科'
@@ -351,7 +356,7 @@ weasel:
 
 ###################################################
 
-'@class(%s)':
+'@class':
   title:
     en: ''
     zh: '物种：爬行纲'
@@ -376,7 +381,7 @@ snake:
 
 ###################################################
 
-'@class(%s)':
+'@class':
   title:
     en: ''
     zh: '物种：特殊'
@@ -401,7 +406,7 @@ non-anthro:
 
 ###################################################
 
-'@class(%s)':
+'@class':
   title:
     en: ''
     zh: '非物种'
@@ -474,4 +479,506 @@ animal-on-furry:
 
 ###################################################
 ###################################################
+
+'@namespace':
+  name: 'malex/femalex'
+  content:
+    - en: ''
+      zh: '用于说明游戏中出现的特殊内容。'
+    - en: ''
+      zh: '除非特殊说明，在 malex 命名空间表示兽人/人类生理性别是男性，在 femalex 命名空间表示兽人/人类生理性别是女性'
+
+exhibitionism:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色出现了在有可能被其他人看见的地方（如户外）进行自愿裸体或性行为。'
+
+mind-break:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了洗脑或被洗脑'
+
+ntr:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色之间出现了戴绿帽'
+
+mind-control:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色之间出现了精神控制行为'
+
+parasite:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了寄生或被寄生'
+
+drugs:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色之间使用鼓动滥交或快感的药物'
+
+corruption:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中用魔法或其他超自然力量强硬地腐化某人的头脑，抢夺他们的纯洁'
+
+body-swap:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色之间出现了灵魂互换'
+
+time-stop:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色之间出现了时间停止行为'
+
+guro:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了肢解行为'
+
+tentacles:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了被触手侵犯'
+
+body-modification:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了以人工方式替换身体的某些部位'
+
+conjoined:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中有两个或更多的头分享同一个身体的角色'
+
+muscle-growth:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了肌肉产生或变大'
+
+inflation:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了腹部向外膨胀得像个气球'
+
+absorption:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了吸收某人或某物'
+
+petrification:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中成为雕像/岩石般的形象'
+
+stomach-deformation:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色中出现了固体从腹内向外推压，并出现一个可见突起'
+
+brain-fuck:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: ''
+    zh: '主要角色之间包括涉及大脑的性行为'
+
+###################################################
+###################################################
+
+'@namespace':
+  name: 'misc'
+  content:
+    - en: ''
+      zh: '用于说明游戏相关的杂项信息'
+
+3d:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏主要以 3D 形式呈现'
+
+freeware:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏是免费的或有一个不小的部分是免费的（Demo 版本不计算在内）'
+
+multiplayer:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏是多人游戏或包括多人模式'
+
+uncensored:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏立绘、CG、模型等中没有经过审查工序（无码）'
+
+engine-renpy:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏使用了 RenPy 引擎'
+
+engine-unity:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏使用了 Unity 引擎'
+
+multiple-endings:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏有多种结局'
+
+work-in-process:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏尚未完结（但有先行预览版本或 Demo）'
+
+multiple-series:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏包含多个世界观、剧情有联系的系列/版本（提示：如果世界观具有其特殊性且相近，即使剧情无联系，则仍然认为是同一系列（类似于数码宝贝1, 3）；如果世界观是一种常见的、朴实的、一般的世界，如“现代日本”，“中世纪欧洲”，则只有当剧情有联系时，才认为是同一系列。这个标签在使用上有时可能会倾向主观而非客观，如果有更多问题，请打开 issue 讨论）'
+
+died:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏尚未完成时被作者宣布放弃（此标签存在时，请销毁 misc:work-in-process 标签）'
+
+unofficial:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏可能是玩家进行同人创作，如“漏夏（非公式版）”（不要和 misc:mods 混淆）'
+
+mods:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '这不是一个完整的游戏，而是游戏的 mods'
+
+unpublished:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏没有发布，通常是曾经发布过 Demo 版本，但是作者删除并宣布将在未来发布正式版本；或者有信誉的作者宣布即将发布的游戏'
+
+outside-furry-fandom:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '表示该游戏是诞生在兽同好圈外的作品'
+
+geographical:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏发行商在不同地域实施差异过大的服务'
+
+online:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏包括在线功能，如在线付费购买点数、在线排名系统等。'
+
+centralized:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏的主要功能依赖一个集中的服务器且服务器无法由玩家自行搭建，这意味着如果游戏运营商宣布关服，则游戏很可能无法再游玩。（并非指捆绑 steam 或 itch.io 那样的正版验证系统）'
+
+homophobia:
+  namespaces: [ misc ]
+  explanation:
+    en: ''
+    zh: '游戏包含同性恋恐惧内容/情节'
+
+
+###################################################
+###################################################
+
+'@namespace':
+  name: 'lang'
+  content:
+    - en: ''
+      zh: '用于说明游戏的语言（使用 ISO 639-1 Alpha-2 code 标准语言代码）'
+
+en:
+  namespaces: [ lang ]
+  explanation:
+    en: ''
+    zh: '游戏有官方英语版本'
+
+en-unofficial:
+  namespaces: [ lang ]
+  explanation:
+    en: ''
+    zh: '游戏有非官方英语版本'
+
+ja:
+  namespaces: [ lang ]
+  explanation:
+    en: ''
+    zh: '游戏有官方日语版本'
+
+ja-unofficial:
+  namespaces: [ lang ]
+  explanation:
+    en: ''
+    zh: '游戏有非官方日语版本'
+
+zh:
+  namespaces: [ lang ]
+  explanation:
+    en: ''
+    zh: '游戏有官方中文版本'
+
+zh-unofficial:
+  namespaces: [ lang ]
+  explanation:
+    en: ''
+    zh: '游戏有非官方中文版本'
+
+
+###################################################
+###################################################
+
+'@namespace':
+  name: 'publish'
+  content:
+    - en: ''
+      zh: '用于说明游戏发布在哪里'
+
+steam:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 Steam 上有发布'
+
+itchio:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 itch.io 上有发布'
+
+patreon:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 Patreon 上有发布'
+
+booth:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 BOOTH 上有发布'
+
+digiket:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 DiGiket 上有发布'
+
+website:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在其网站上有发布'
+
+google-play:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 Google Play 商店上有发布'
+
+apple-appstore:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 Apple appstore 上有发布'
+
+e-shop:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 Nintendo E-Shop 上有发布'
+
+gog:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 gog.com 商店上有发布'
+
+microsoft-store:
+  namespaces: [ publish ]
+  explanation:
+    en: ''
+    zh: '游戏在 Microsoft Store 商店上有发布'
+
+
+###################################################
+###################################################
+
+'@namespace':
+  name: 'platform'
+  content:
+    - en: ''
+      zh: '用于说明游戏支持的操作系统和平台'
+
+web:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Web 平台（HTML/JS/Canvas/WebGL/...）'
+
+windows:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Microsoft Windows'
+
+macos:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Apple macOS'
+
+linux:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 GNU/Linux'
+
+android:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Android'
+
+ios:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Apple iOS'
+
+nds:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Nintendo DS'
+
+psv:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Sony PlayStation Vita'
+
+psp:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Sony PlayStation Portable'
+
+playstation:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Sony PlayStation'
+
+playstation2:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Sony PlayStation 2'
+
+playstation3:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Sony PlayStation 3'
+
+playstation4:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Sony PlayStation 4'
+
+nintendo-switch:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Nintendo Switch'
+
+2ds:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Nintendo 2DS'
+
+3ds:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Nintendo 3DS'
+
+xbox:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Microsoft Xbox'
+
+xbox-one:
+  namespaces: [ platform ]
+  explanation:
+    en: ''
+    zh: '游戏官方支持 Microsoft Xbox One'
+
+
+###################################################
+###################################################
+
+'@namespace':
+  name: 'sys'
+  content:
+    - en: ''
+      zh: '用于提示该游戏与 FGI 基础设施之间的关系'
+
+staging:
+  namespaces: [ sys ]
+  explanation:
+    en: ''
+    zh: '这篇游戏条目尚未完成（这个标签将在最终页面上方添加“施工中”警告提示条）'
+
+tagme:
+  namespaces: [ sys ]
+  explanation:
+    en: ''
+    zh: '请求为该游戏条目添加更多标签（无 `sys:tagme` 时，如果发现标签缺失，也务必贡献！这个标签将在最终页面上方添加“请求标签”提示条）'
+
 
