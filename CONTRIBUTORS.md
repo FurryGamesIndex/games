@@ -32,6 +32,10 @@
 
 * For new contributors, please add your name and contacts before this line.
 
+**BlueJett**
+
+	Games submitter and editor
+
 ## Game referrers
 
 - **rockytherookie** - [Furaffinity](https://www.furaffinity.net/user/rockytherookie/), [Twitter](https://twitter.com/rockytherookie), [Pixiv](https://www.pixiv.net/users/17292937) - Introduced us to a variety of games
