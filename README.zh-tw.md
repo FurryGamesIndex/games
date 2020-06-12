@@ -16,6 +16,8 @@
 
 幫助「查詢和修復 Bug」、「最佳化程式碼的結構和效能」、「實現激動獸心的新功能」，可見下文的 TODO 列表。
 
+[構建指南](https://github.com/FurryGamesIndex/games/blob/master/BUILD.md)
+
 ### Web 設計師
 
 幫助「改善樣式、互動和使用者體驗」等。

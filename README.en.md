@@ -16,6 +16,8 @@ Help "add games" to the list, "maintain existing games" (such as replacing broke
 
 Help "Find and fix bugs", "Optimize code structure and performance", "Realize exciting new features", see the TODO list below.
 
+[Build guide](https://github.com/FurryGamesIndex/games/blob/master/BUILD.md)
+
 ### Web designer
 
 Help "improve style, interaction and user experience", etc.

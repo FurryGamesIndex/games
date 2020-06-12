@@ -16,6 +16,8 @@
 
 帮助「查找和修复 Bug」、「优化代码的结构和性能」、「实现激动兽心的新功能」，可见下文的 TODO 列表。
 
+[构建指南](https://github.com/FurryGamesIndex/games/blob/master/BUILD.md)
+
 ### Web 设计师
 
 帮助「改善样式、交互和用户体验」等。
