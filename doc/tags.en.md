@@ -96,8 +96,8 @@ The following are automatic tags, they are no different from other tags when you
 ### Biological species: Special
 
 - `mixed` Main characters include mixed furries (tiger-shark, lion-dog and many more)
-- `humankind` Main characters include humankind furries
-- `non-anthro` Main characters include non furries
+- `humankind` Main characters include humankind creatures
+- `non-anthro` Main characters include non-anthro furries
 
 ### Non species
 

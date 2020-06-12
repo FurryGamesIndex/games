@@ -411,13 +411,13 @@ mixed:
 humankind:
   namespaces: [ male, female ]
   explanation:
-    en: 'Main characters include humankind furries'
+    en: 'Main characters include humankind creatures'
     zh-cn: '主要角色包括人类或智人'
 
 non-anthro:
   namespaces: [ male, female ]
   explanation:
-    en: 'Main characters include non furries'
+    en: 'Main characters include non-anthro furries'
     zh-cn: '主要角色包括非人形 furry（纯兽）（动物形态，但通常具有高级智慧）'
 
 ###################################################
