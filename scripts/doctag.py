@@ -9,10 +9,12 @@ lang = argv[1]
 
 uilang = {
     'en': {
-        'namespace': '## Namespace %s'
+        'namespace': '## Namespace %s',
+        'tip': 'If you want to add new tags, welcome to create issues for discussion.'
     },
     'zh-cn': {
-        'namespace': '## %s 命名空间'
+        'namespace': '## %s 命名空间',
+        'tip': '如果你认为应该增加新的标签，欢迎创建 issues 讨论。'
     }
 }
 
@@ -45,6 +47,9 @@ doctag_funcs = {
     '@class': doctag_class
 }
 
+print("# Tags")
+print()
+print(uilang[lang]["tip"])
 for key in tags:
     if key[0] == "@":
         func = key.split(':')[0]
