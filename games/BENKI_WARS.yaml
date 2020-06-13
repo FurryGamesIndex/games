@@ -1,0 +1,34 @@
+name: 便機戦争
+
+description: |
+  ──君も便機に座ってみないか。
+
+  本作は未知の物質『ＵＮＫＯ』を巡る戦いを描いた
+  超ダイナミックアクションシューティングノベルゲームです。
+  ゲームパートでは便機によるハイテンポな戦いを繰り広げ、
+  ノベルパートでは屈強な獣人たちと共に軍隊での生活を体験します。
+  ＥＲＰ（エロポイント）ゲージを上げてレベルアップすれば
+  エッチな展開に事を運ぶことができるようになります。
+
+tags:
+  sys:
+    - staging
+    - tagme
+  lang:
+    - ja
+  platform:
+    - windows
+
+links:
+  - name: Digiket (Digital ver)
+    uri: https://www.digiket.com/work/show/_data/ID=ITM0170977/
+  - name: Alice-books (Physical ver)
+    uri: https://alice-books.com/item/show/3288-9
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/FjhJO90.png
+  - https://i.imgur.com/Ay7gKtF.png
+  - https://i.imgur.com/ljSUmiY.png
+  - https://i.imgur.com/j9DkR5i.png

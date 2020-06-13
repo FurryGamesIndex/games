@@ -1,0 +1,34 @@
+name: The Butterfly Dream
+
+description: |
+  <The Butterfly Dream> is a anthro featuring visual novel which is targeted to gay furries. (Developing with Renpy)
+
+  You accepted a request to change your soul with other beastmen in different dimention. You are having a short trip going to the other world where beastmen live with becoming beastman. You can go through different routes for each beastmen: a total of three of them. The route you play is determined by favorability system, influenced by your choices through the game.
+
+  You could get extra CG (including NSFW) for each route if you get a good relationship with that route's beastman.
+
+  We expect the playtime of this complete game will be 6 hours. Also, this is a remake of the original novel that was serialized in Korea's furry fandom by the story writer. So we are confident to make this game completely.
+
+  For English Users:
+  English translation: Sorry for the poor English in game. There were lack of time since our team is all constructed with university students. (And also lack of English influent member, hm... I guess I should post a job opening in Korea fandom.)
+  Also, we already have a complete script for the old prototype version of this game, so we guarantee that we could complete this game.
+
+tags:
+  sys:
+    - tagme
+  lang:
+    - en
+  platform:
+    - windows
+    - macos
+    - android
+
+links:
+  - name: .patreon
+    uri: https://www.patreon.com/dorurung
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/Zs54gWO.png
+  - https://i.imgur.com/QDGjczn.png
