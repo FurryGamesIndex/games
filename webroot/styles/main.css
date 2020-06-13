@@ -4,6 +4,12 @@
 
 html {
 	font-size: 16px;
+	line-height: 1.32;
+}
+
+html[lang=zh-cn],
+html[lang=zh-tw] {
+	line-height: 1.42;
 }
 
 body {
