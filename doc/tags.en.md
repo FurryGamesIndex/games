@@ -101,6 +101,11 @@ The following are automatic tags, they are no different from other tags when you
 
 ### Non species
 
+- `futanari` Main characters include futanari (usually set into namespace female)
+- `males-only` Main characters are all males (only in namespace male)
+- `females-only` Main characters are all females (only in namespace female)
+- `shota` Main characters include childlike males (only in namespace male)
+- `loli` Main characters include childlike females (only in namespace female)
 - `muscle` Main characters include muscle characters
 - `transfur` Main characters may transfur
 - `anal` Main characters may do a anal sex

@@ -427,6 +427,36 @@ non-anthro:
     en: 'Non species'
     zh-cn: '非物种'
 
+futanari:
+  namespaces: [ female ]
+  explanation:
+    en: 'Main characters include futanari (usually set into namespace female)'
+    zh-cn: '主要角色包括扶她（通常放置于 female 命名空间）'
+
+males-only:
+  namespaces: [ male ]
+  explanation:
+    en: 'Main characters are all males (only in namespace male)'
+    zh: '主要角色只有男性（只出现于 male 命名空间）'
+
+females-only:
+  namespaces: [ female ]
+  explanation:
+    en: 'Main characters are all females (only in namespace female)'
+    zh-cn: '主要角色只有女性（只出现于 female 命名空间）'
+
+shota:
+  namespaces: [ male ]
+  explanation:
+    en: 'Main characters include childlike males (only in namespace male)'
+    zh-cn: '主要角色包括像孩子一样的男性（只出现于 male 命名空间）'
+
+loli:
+  namespaces: [ female ]
+  explanation:
+    en: 'Main characters include childlike females (only in namespace female)'
+    zh-cn: '主要角色包括像孩子一样的女性（只出现于 female 命名空间）'
+
 muscle:
   namespaces: [ male, female ]
   explanation:

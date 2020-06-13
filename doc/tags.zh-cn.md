@@ -101,6 +101,11 @@
 
 ### 非物种
 
+- `futanari` 主要角色包括扶她（通常放置于 female 命名空间）
+- `males-only` Main characters are all males (only in namespace male)
+- `females-only` 主要角色只有女性（只出现于 female 命名空间）
+- `shota` 主要角色包括像孩子一样的男性（只出现于 male 命名空间）
+- `loli` 主要角色包括像孩子一样的女性（只出现于 female 命名空间）
 - `muscle` 主要角色中包括肌肉丰满的角色
 - `transfur` 主要角色中可能出现兽化现象
 - `anal` 主要角色之间包括肛交性行为

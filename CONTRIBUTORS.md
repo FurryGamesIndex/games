@@ -30,11 +30,11 @@
 	Games submitter and editor
 	Chinese Documents
 
-* For new contributors, please add your name and contacts before this line.
-
 **BlueJett**
 
 	Games submitter and editor
+
+* For new contributors, please add your name and contacts before this line.
 
 ## Game referrers
 
