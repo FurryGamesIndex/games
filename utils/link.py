@@ -53,6 +53,6 @@ def link_info(link, l10n_data, ui_l10n_data, language):
 
     if "icon" in link:
         icon = icons[link["icon"]]
-    a["content"] = icon + "&nbsp;" + a["content"]
+    a["content"] = icon + "<span>" + a["content"] + "</span>"
 
     return a
