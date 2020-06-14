@@ -44,6 +44,12 @@ def render(games, env, language, language_ui, output):
     meta = {}
     context["meta"] = meta
 
+    lang_without_region = language
+    if '-' in lang_without_region:
+        lang_without_region = lang_without_region.split('-')[0]
+
+    context["lang_without_region"] = lang_without_region
+
     for name, game in games.items():
         context["game"] = game
         context["name"] = name

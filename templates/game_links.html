@@ -1,3 +1,12 @@
+<div class="gamewarn tip">
+{% if "lang" in game.tags %}
+{% if lang_without_region + "-unofficial" in game.tags.lang %}
+<div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_lang_unofficial }}</span></div>
+{% elif lang_without_region not in game.tags.lang %}
+<div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_nolang }}</span></div>
+{% endif %}
+{% endif %}
+</div>
 <div class="links links-group">
 {% for i in game.links %}
 	{% set li = link_info(i, game.tr, ui, lang) %}

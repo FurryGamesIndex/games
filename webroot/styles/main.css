@@ -77,6 +77,21 @@ a:focus {
 	background-color: var(--box-notice-color);
 }
 
+.iconline {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+
+.iconline>i {
+	flex: 0 0 auto;
+}
+
+.iconline>span {
+	flex: 0 1 auto;
+	margin-left: 6px;
+}
+
 #infobar {
 	background-color: var(--infobar-color);
 	text-align: center;
@@ -311,6 +326,10 @@ a:focus {
 
 .game .platforms>* {
 	margin-left: 2px;
+}
+
+.game .gamewarn>* {
+	margin: 8px 2px;
 }
 
 .game .links {

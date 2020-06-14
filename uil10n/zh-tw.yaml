@@ -21,6 +21,9 @@ search_load_db_error: 發生錯誤
 search_form_mode_tag: 基於標籤
 search_form_do: 搜尋
 
+gamewarn_nolang: 該遊戲可能不包含中文語言的本地化
+gamewarn_lang_unofficial: 中文語言本地化是由非官方提供的
+
 game_contact_us: 透過以下方式聯絡“獸人控遊戲索引”專案
 game_sensitive_warning: 當前頁面可能包含敏感媒體，它們已被隱藏。 <a href="%s/%s/sensitive.html">管理敏感內容設定</a>
 
