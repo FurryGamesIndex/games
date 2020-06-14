@@ -23,6 +23,9 @@ search_form_do: 搜索
 
 gamewarn_nolang: 该游戏可能不包含中文语言的本地化
 gamewarn_lang_unofficial: 中文语言本地化是由非官方提供的
+gamewarn_ongoing: 该游戏仍在开发过程中
+gamewarn_unpublished: 该游戏尚未发布
+gamewarn_died: 该游戏未完成并可能已停止开发
 
 game_contact_us: 通过以下方式联系“兽人控游戏索引”项目
 game_sensitive_warning: 当前页面可能包含敏感媒体，它们已被隐藏。 <a href="%s/%s/sensitive.html">管理敏感内容设置</a>

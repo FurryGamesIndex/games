@@ -23,6 +23,9 @@ search_form_do: Search
 
 gamewarn_nolang: This game may not contain localized language English
 gamewarn_lang_unofficial: Localized language English is supported by unofficial source
+gamewarn_ongoing: This game is an ongoing project
+gamewarn_unpublished: This game is NOT published
+gamewarn_died: This game dies before completion
 
 game_contact_us: Contant FurryGamesIndex project by
 game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>

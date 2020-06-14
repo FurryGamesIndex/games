@@ -6,6 +6,18 @@
 <div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_nolang }}</span></div>
 {% endif %}
 {% endif %}
+
+{% if "misc" in game.tags %}
+{% if "work-in-process" in game.tags.misc %}
+<div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_ongoing }}</span></div>
+{% endif %}
+{% if "unpublished" in game.tags.misc %}
+<div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_unpublished }}</span></div>
+{% endif %}
+{% if "died" in game.tags.misc %}
+<div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_died }}</span></div>
+{% endif %}
+{% endif %}
 </div>
 <div class="links links-group">
 {% for i in game.links %}
