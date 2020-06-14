@@ -23,9 +23,39 @@ description: |
   This game has seen many years of spare-time development, and all of it wouldn't have been possible without the support of our loyal Patrons. A free release on Steam is our way of thanking them and making sure the game will always remain available for everyone to enjoy.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  type:
+    - dating-sim
+    - yiff
+    - bara
+    - yuri
+  male:
+    - mixed
+    - fox
+    - lion
+    - dog
+    - cat
+    - wolf
+    - horse
+    - dragon
+    - lizard
+    - bird
+    - humankind
+  female:
+    - sheep
+    - ribbit
+    - futanari
+  misc:
+    - freeware
+    - multiple-endings
+  lang:
+    - en
+  publish:
+    - itch.io
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
 
 links:
   - name: .steam
