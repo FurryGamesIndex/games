@@ -2,23 +2,48 @@ name: Angels with Scaly Wings
 
 description: |
   Angels with Scaly Wings is a unique visual novel set in a world populated by dragons.
+
   After the discovery of a mysterious portal, you are selected as one of the few humans to travel to the world of dragons. While you serve as an ambassador, you learn more about this strangely familiar place, and discover that your human colleague knows more than he’s letting on…
+
   It will be up to you and the friends you make to uncover the conspiracy that threatens the newly discovered world - and in the process, you may even find love.
+
   Epic storyline
   With a script of over 175.000 words, our mindbending story will lead you through a number of dramatic twists and turns.
+
   Hang out with the locals
   Meet with a variety of dragons on 5 main and 5 secondary character routes. Listen to their stories and learn about their hopes, dreams and problems.
+
   The choice is yours
   Make deep, impactful decisions that can affect the game world permanently and lead you to more than 13 different endings.
+
   A town full of secrets
   Investigate a number of mysteries during free time sections. Manage your time wisely and be careful who you meet with, as each encounter may bring forth unintended consequences.
+
   Unlockable gallery
   Find exclusive images of the main cast.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Radical Phi'
+  type:
+    - visual-novel
+    - dating-sim
+    - bara
+  male:
+    - dragon
+    - non-anthro
+    - humankind
+  female:
+    - dragon
+    - non-anthro
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
 
 links:
   - name: .steam
