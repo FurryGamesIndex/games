@@ -193,14 +193,16 @@ a:focus {
 
 	border-bottom: 1px solid var(--border-color);
 	padding: 12px 0;
+	min-height: 174px;
 }
 
 .items .thumbnail {
 	width: 230px;
 	max-width: 230px;
-	max-height: 230px;
 	margin-right: 12px;
 	flex: 0 0 auto;
+	max-height: 150px;
+	object-fit: contain;
 }
 
 .items .name {
