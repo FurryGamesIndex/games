@@ -18,6 +18,14 @@
 
 	Many games currently lack tags, so they may not be displayed when searching for some normal tags searching. These games with missing tags can be listed by searching `sys:tagme`, which may help to help friends who want to contribute tags find the games to contribute more easily: https://furrygamesindex.github.io/zh-cn/search. html?tag?sys:tagme
 
+- Is there a downloadable offline version
+
+	Yes, we provide offline version for furries who want to save this list locally.
+
+	The external images will included in offline version.
+
+	Build script is releasing offline version everyday, you can go to [here](https://github.com/FurryGamesIndex/games/releases/tag/_gh_assets) to download one.
+
 ### Questions about contributions
 
 - Can I choose to contribute anonymously

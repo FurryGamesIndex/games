@@ -18,6 +18,14 @@
 
 	目前很多游戏都缺失标签，所以搜索一些正常标签时可能不能显示它们。这些缺失标签的游戏可以通过搜索 `sys:tagme` 列出，这可能有助于帮助希望贡献标签的朋友更容易找到要贡献标签的游戏：https://furrygamesindex.github.io/zh-cn/search.html?tag?sys:tagme
 
+- 是否提供离线版本
+
+	是的，对于希望保存此列表的人来说，我们提供离线版本
+
+	离线版本会附带所有引用的外部图片资源，可以在这些图片地址被封锁的地区使用
+
+	构建脚本每天都会自动构建一份离线版本，可以前往[此处](https://github.com/FurryGamesIndex/games/releases/tag/_gh_assets)下载
+
 ### 有关贡献的相关问题
 
 - 我能选择匿名贡献吗
