@@ -11,10 +11,6 @@ from pathlib import Path
 from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
-from utils.search import searchdb
-from utils import tagmgr
-from utils import sitemap
-
 import argparse
 
 parser = argparse.ArgumentParser()
@@ -26,6 +22,11 @@ parser.add_argument('--download-external-images', default=False, action='store_t
 parser.add_argument('output', type=str, help='Output path')
 
 args = parser.parse_args()
+
+from utils.search import searchdb
+from utils import tagmgr
+from utils import sitemap
+
 
 dir = "games"
 output = args.output

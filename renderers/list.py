@@ -24,7 +24,7 @@ def render(games, env, language, language_ui, output):
         f.write(env.get_template("list.html").render(context))
         f.write(env.get_template("footer.html").render(context))
 
-    if not args.no_searchdb:
+    '''if not args.no_searchdb:
         glist = {}
         for id, data in games.items():
             desc = get(data, language, "description")
@@ -34,4 +34,4 @@ def render(games, env, language, language_ui, output):
             glist[id]["description"] = desc
             glist[id]["thumbnail"] = image.uri("..", data["thumbnail"], id)
         with open(os.path.join(output, language, "gamelist.json"), "w") as f:
-            f.write(json.dumps(glist))
+            f.write(json.dumps(glist))'''
