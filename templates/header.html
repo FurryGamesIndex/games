@@ -14,6 +14,9 @@
 	<title>{{ ui.page_title }}</title>
 {% endif %}
 	<meta name="description" content="A project to index furry & kemono games.">
+{% if noindex is defined %}
+	<meta name="robots" content="noindex">
+{% endif %}
 	<link rel="stylesheet" href="{{ rr }}/styles/main.css?v=5">
 	<link rel="stylesheet" href="{{ rr }}/styles/fa.all.min.css">
 </head>

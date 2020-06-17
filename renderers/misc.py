@@ -19,11 +19,13 @@ def render(games, env, language, language_ui, output):
         context["index_content"] = markdowner.convert(f.read())
 
     context["active_search"] = "actived"
+    context["noindex"] = True
     with open(os.path.join(output, language, "search.html"), "w") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("search.html").render(context))
         f.write(env.get_template("footer.html").render(context))
     del context["active_search"]
+    del context["noindex"]
 
     context["active_index"] = "actived"
     with openw_with_sm(output, os.path.join(language, "index.html"), priority="0.5",
