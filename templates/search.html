@@ -1,6 +1,8 @@
 <div id="search_box" class="default">
 	<select id="search_mode">
-		<option value="tag?">{{ ui.search_form_mode_tag }}</option>
+		<option value="title">{{ ui.search_form_mode_title }}</option>
+		<option value="tindes">{{ ui.search_form_mode_tindes }}</option>
+		<option value="tag">{{ ui.search_form_mode_tag }}</option>
 	</select>
 	<input id="search_value" />
 	<button id="search_do">{{ ui.search_form_do }}</button>
@@ -23,14 +25,40 @@
 </div>
 <script src="{{ rr }}/scripts/base.js"></script>
 <script>
-const query = window.location.search;
-let mode = "none", value = null;
+const items = $('.items');
+const template = $('.item');
+
+const query = window.location.search.substring(1);
+const mode = query.substring(0, query.indexOf('?'));
+let value = decodeURIComponent(query.substring(query.indexOf('?') + 1));
+
+let getL10n = (game, property) => {
+	return (game.tr.hasOwnProperty("{{ lang }}") &&
+		game.tr["{{ lang }}"].hasOwnProperty(property)) ?
+		game.tr["{{ lang }}"][property] : game[property];
+}
+
+let add = (id, game) => {
+	const item = template.cloneNode(true);
+	item.classList.remove("hide");
+
+	item.querySelector(".thumbnail").src = game.thumbnail;
+
+	const link = item.querySelector(".name_a");
+	link.textContent = getL10n(game, "name");
+	link.href = "games/" + id + ".html";
+
+	let desc = getL10n(game, "description");
+	if (desc.length > 480)
+		desc = desc.substr(0, 480) + "...";
+	item.querySelector(".description").textContent = desc;
+
+	items.appendChild(item);
+}
 
 let onload = async () => {
-	if (query.startsWith("?tag?")) {
-		mode = "tag";
-		value = decodeURIComponent(query.substr(5));
-	}
+	$('#search_mode').value = mode;
+	$('#search_value').value = value;
 
 	try {
 		const searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json")).json();
@@ -41,23 +69,7 @@ let onload = async () => {
 		case "tag":
 			if (rtag.hasOwnProperty(value)) {
 				const res = searchdb.rtag[value];
-				console.log(res);
-
-				const template = $('.item');
-				const items = $('.items');
-
-				res.forEach(i => {
-					const item = template.cloneNode(true);
-					item.classList.remove("hide");
-					item.querySelector(".thumbnail").src = glist[i].thumbnail;
-					const link = item.querySelector(".name_a");
-					link.textContent = glist[i].name;
-					link.href = "games/" + i + ".html";
-					item.querySelector(".description").textContent = glist[i].description;
-					items.appendChild(item);
-				});
-
-				$('#search_info').textContent = '{{ ui.search_info_template }}'.format(mode, value);
+				res.forEach(i => add(i, searchdb.data[i]));
 			} else {
 				$('.items').textContent = "{{ ui.search_not_found }}";
 			}
@@ -71,7 +83,7 @@ let onload = async () => {
 }
 
 $('#search_do').addEventListener('click', e => {
-	window.location.href = "search.html?" + $('#search_mode').value + $('#search_value').value
+	window.location.href = "search.html?" + $('#search_mode').value + "?" + $('#search_value').value
 });
 
 onload();
