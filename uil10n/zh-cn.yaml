@@ -15,10 +15,13 @@ copying_oss: 由开源软件提供动力
 index_link_github: Github 仓库
 index_link_tg: Telegram 频道
 
-search_info_template: 显示搜索 {0} "{1}" 的结果
+search_searching: 正在搜索...
 search_not_found: 没有找到项目
 search_load_db_error: 发生错误
-search_form_mode_tag: 基于标签
+search_form_mode_title: 搜索标题
+search_form_mode_tindes: 搜索标题和描述
+search_form_mode_tag: 搜索标签
+
 search_form_do: 搜索
 
 gamewarn_nolang: 该游戏可能不包含中文语言的本地化

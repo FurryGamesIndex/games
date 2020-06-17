@@ -15,10 +15,13 @@ copying_oss: 由開源軟體提供動力
 index_link_github: Github 倉庫
 index_link_tg: Telegram 頻道
 
-search_info_template: 顯示搜尋 {0} "{1}" 的結果
+search_searching: 正在搜尋...
 search_not_found: 沒有找到專案
 search_load_db_error: 發生錯誤
-search_form_mode_tag: 基於標籤
+search_form_mode_title: 搜尋標題
+search_form_mode_tindes: 搜尋標題和描述
+search_form_mode_tag: 搜尋標籤
+
 search_form_do: 搜尋
 
 gamewarn_nolang: 該遊戲可能不包含中文語言的本地化

@@ -15,10 +15,12 @@ copying_oss: Powered by Open-source softwares
 index_link_github: Github Repository
 index_link_tg: Telegram Channel
 
-search_info_template: Showing search results for {0} "{1}"
+search_searching: Shearching...
 search_not_found: No items found
 search_load_db_error: Error occured
-search_form_mode_tag: By tag
+search_form_mode_title: Search titles
+search_form_mode_tindes: Search titles and descriptions
+search_form_mode_tag: Search tags
 search_form_do: Search
 
 gamewarn_nolang: This game may not contain localized language English
