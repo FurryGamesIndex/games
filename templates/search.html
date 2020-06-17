@@ -61,23 +61,25 @@ let onload = async () => {
 	$('#search_value').value = value;
 
 	try {
+		$("#search_info").textContent = "{{ ui.search_searching }}";
+
 		const searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json")).json();
-		const glist = await (await fetch("{{ rr }}/{{ lang }}/gamelist.json")).json();
-		const rtag = searchdb.rtag
 
 		switch (mode) {
 		case "tag":
-			if (rtag.hasOwnProperty(value)) {
+			if (searchdb.rtag.hasOwnProperty(value)) {
 				const res = searchdb.rtag[value];
 				res.forEach(i => add(i, searchdb.data[i]));
 			} else {
-				$('.items').textContent = "{{ ui.search_not_found }}";
+				items.textContent = "{{ ui.search_not_found }}";
 			}
 			break;
 		default:
 			break;
 		}
+		$("#search_info").textContent = "";
 	} catch (e) {
+		$("#search_info").textContent = "Sorry, an error occured.\n" + e;
 		alert("{{ ui.search_load_db_error }}");
 	}
 }
