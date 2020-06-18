@@ -1,0 +1,48 @@
+name: Ato
+
+description: |
+  Ato is an Atmospheric, Metroidvania, Sword Dueling Game set in the Era of Feudal Japan. It tells a visually driven story about a father who has given up his past ways in order to live a life of peace with his wife and child. However this peace is soon disturbed as his child is taken from him...
+  
+  In Ato, every combat encounter is an intense duel to the death. Perform risky parry maneuvers, bounce off of your opponent, evade their attacks and unlock new abilities to further expand your arsenal of options against your adversaries. Every combat encounter has its own personality and fighting style. Challenge, observe and overcome each opponent you face as you strive to retrieve your child back from the clan you once served.
+  
+  Explore colorful and atmospheric environments. Obtain new abilities to solve environmental puzzles. Uncover the mystery of this world and experience a story that is told without a single word.
+  • Combat Encounters that are dynamic and personal - Every fight is a unique and fair challenge with it's own character and personality.
+  • A world with a beautiful atmosphere - Be transported to a place that is both tranquil and mysterious.
+  • Visually driven story - Bypass the language barrier by using little to no words as possible.
+  • Explore - find new abilities and upgrades and grow stronger to overcome greater opposition.
+  • Emotive and varied hand crafted pixel art animation work.
+  • Eastern themed instrumental music - Ranging from tranquil flutes to the heart pounding intensity of taiko drums.
+  
+  • Difficulty options:
+  -Assist - for casual playthroughs 
+  -Accessible - Mid-range skill with slight challenge
+  -Experienced - For veteran players who familiar with difficult games.
+  
+  Explore, experience and overcome the world of Ato.
+
+tags:
+  sys:
+    - staging
+    - tagme
+  type:
+    - action
+    - advanture
+  male:
+    - cat
+  misc:
+    - work-in-process
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1096180
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/1096180/ss_20311783cb1aa96dbd1b5c90e15a00d60a292e27.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1096180/ss_810037a3c4897247592a51dac6a0c990a1e0c88d.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1096180/ss_1400c6398f5f601dc1a220dd19662b4a5ec29adf.1920x1080.jpg
