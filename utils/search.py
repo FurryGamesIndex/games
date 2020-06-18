@@ -20,8 +20,17 @@ class searchdb:
                     self.db["rtag"][tag] = []
                 self.db["rtag"][tag].append(game["id"])
 
-        self.db["data"][game["id"]] = {}
-        self.db["data"][game["id"]]["name"] = game["name"]
-        self.db["data"][game["id"]]["description"] = game["description"]
-        self.db["data"][game["id"]]["thumbnail"] = image.uri("..", game["thumbnail"], game["id"])
-        self.db["data"][game["id"]]["tr"] = game["tr"]
+        data = {}
+        data["tr"] = {}
+        data["name"] = game["name"]
+        data["description"] = game["description"]
+        data["thumbnail"] = image.uri("..", game["thumbnail"], game["id"])
+
+        for lang in game["tr"]:
+            data["tr"][lang] = {}
+            if "name" in game["tr"][lang]:
+                data["tr"][lang]["name"] = game["tr"][lang]["name"]
+            if "description" in game["tr"][lang]:
+                data["tr"][lang]["description"] = game["tr"][lang]["description"]
+
+        self.db["data"][game["id"]] = data
