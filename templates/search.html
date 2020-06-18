@@ -74,6 +74,45 @@ let onload = async () => {
 				items.textContent = "{{ ui.search_not_found }}";
 			}
 			break;
+		case "title":
+		case "tindes":
+			value = value.toLowerCase();
+			let num = 0;
+			for (const [id, game] of Object.entries(searchdb.data)) {
+				console.log(id);
+				if (game.name.toLowerCase().indexOf(value) >= 0) {
+					num++;
+					add(id, game);
+					continue;
+				}
+
+				if (mode === "tindes" && game.description.toLowerCase().indexOf(value) >= 0) {
+					num++;
+					add(id, game);
+					continue;
+				}
+
+				for (const [lang, l10n] of Object.entries(game.tr)) {
+					console.log(lang);
+					if (l10n.hasOwnProperty('name') && l10n.name.toLowerCase().indexOf(value) >= 0) {
+						num++;
+						add(id, game);
+						break;
+					}
+
+					if (mode === "tindes" &&
+						l10n.hasOwnProperty("description") &&
+						l10n.description.toLowerCase().indexOf(value) >= 0) {
+						num++;
+						add(id, game);
+						break;
+					}
+				}
+			}
+
+			if (num === 0)
+				items.textContent = "{{ ui.search_not_found }}";
+			break;
 		default:
 			break;
 		}
