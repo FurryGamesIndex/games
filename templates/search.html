@@ -1,5 +1,5 @@
 <div id="search_box" class="default">
-	<select id="search_mode">
+	<select id="search_mode" >
 		<option value="title">{{ ui.search_form_mode_title }}</option>
 		<option value="tindes">{{ ui.search_form_mode_tindes }}</option>
 		<option value="tag">{{ ui.search_form_mode_tag }}</option>
@@ -58,10 +58,13 @@ let add = (id, game) => {
 
 let onload = async () => {
 	$('#search_mode').value = mode;
+	if ($('#search_mode').selectedIndex < 0)
+		$('#search_mode').selectedIndex = 0;
 	$('#search_value').value = value;
 
 	try {
-		$("#search_info").textContent = "{{ ui.search_searching }}";
+		if (mode !== "")
+			$("#search_info").textContent = "{{ ui.search_searching }}";
 
 		const searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json")).json();
 
@@ -123,8 +126,17 @@ let onload = async () => {
 	}
 }
 
-$('#search_do').addEventListener('click', e => {
+let do_search = () => {
 	window.location.href = "search.html?" + $('#search_mode').value + "?" + $('#search_value').value
+}
+
+$('#search_do').addEventListener('click', e => {
+	do_search();
+});
+
+$('#search_value').addEventListener('keyup', e => {
+	if (e.keyCode == 13)
+		do_search();
 });
 
 onload();
