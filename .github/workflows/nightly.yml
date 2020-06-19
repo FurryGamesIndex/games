@@ -3,6 +3,9 @@ name: build-nightly-snapshot
 on:
   schedule:
     - cron: "0 7 * * *"
+  push:
+    paths:
+      - '.github/workflows/nightly.yaml'
 
 jobs:
   build:
