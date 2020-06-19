@@ -6,16 +6,33 @@ description: |
   Currently being developed at patreon.com/kalchivo
 
 tags:
+  author:
+    - kalchivo
   type:
     - visual-novel
     - bara
     - yiff
+  male:
+    - dog
+    - bull
+    - tiger
+    - lion
+    - lung
+    - humankind
+    - human-on-furry
+    - anal
+    - masturbation
+  misc:
+    - uncensored
+    - multiple-endings
+  lang:
+    - en
+  publish:
+    - itch.io
+    - patreon
   platform:
     - windows
     - macos
-  sys:
-    - staging
-    - tagme
 
 links:
   - name: .itch.io
