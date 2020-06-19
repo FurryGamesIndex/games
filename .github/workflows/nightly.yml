@@ -5,7 +5,7 @@ on:
     - cron: "0 7 * * *"
   push:
     paths:
-      - '.github/workflows/nightly.yaml'
+      - '.github/workflows/nightly.yml'
 
 env:
   USELESS_VAR: 0
