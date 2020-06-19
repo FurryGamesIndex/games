@@ -24,6 +24,9 @@
 {% include 'copying.html' %}
 </div>
 <script src="{{ rr }}/scripts/base.js"></script>
+{% if "search_extra_scripts" in ui %}
+	{{ ui.search_extra_scripts }}
+{% endif %}
 <script>
 const items = $('.items');
 const template = $('.item');
@@ -66,7 +69,12 @@ let onload = async () => {
 		if (mode !== "")
 			$("#search_info").textContent = "{{ ui.search_searching }}";
 
-		const searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json")).json();
+		let searchdb;
+		if (typeof(_searchdb) === 'undefined') {
+			searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json")).json();
+		} else {
+			searchdb = _searchdb;
+		}
 
 		switch (mode) {
 		case "tag":

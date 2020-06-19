@@ -19,6 +19,8 @@ dt=$(date -R)
 cat > extraui/en.yaml <<EOF
 infobar: >
   <i class="fas fa-exclamation-circle"></i> This is a snapshot offline built for FurryGamesIndex (Build datetime: ${dt}). The upstream online version may already have a lot of improvements. <a href="https://furrygamesindex.github.io/">Click here to switch to the online version</a>
+search_extra_scripts: >
+  <script src="../scripts/searchdb_offline.js"></script>
 EOF
 cat > extraui/zh-cn.yaml <<EOF
 infobar: >
@@ -27,3 +29,7 @@ EOF
 
 ./zhconv.py --no-builtin extraui/zh-cn.yaml:extraui/zh-tw.yaml
 ./generate.py --no-sitemap --no-purge-prev-builds --download-external-images --extra-ui extraui "$OUTPUT_DIR"
+
+echo -n "var _searchdb=JSON.parse(atob('" > "${OUTPUT_DIR}/scripts/searchdb_offline.js"
+cat "${OUTPUT_DIR}/scripts/searchdb.json" | python3 -m base64 | tr -d "\n" >> "${OUTPUT_DIR}/scripts/searchdb_offline.js"
+echo -n "'))" >> "${OUTPUT_DIR}/scripts/searchdb_offline.js"
