@@ -2,16 +2,23 @@ name: Anubis And The Buried Bone
 
 description: |
   Explore an egyptian themed authentic retro action-adventure platformer.
+
   Powerful souls have escaped Anubis's clutches, so he has to hunt them down, enhancing his abilities along the way by discovering numerous items and unlocking secrets. In the style of classic 8-bit action-adventure games, Anubis and the Buried Bone offers an open world that you decide how to conquer. Be wary, though, because Anubis's difficulty is as authentic as its graphics! Scour the world for its secrets and gain the advantage over your enemies, enhancing Anubis's abilities with dozens of unique treasures.
+
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - harmarist
   type:
     - adventure 
     - action
+  male:
+    - wolf
+    - fox
   misc:
     - freeware
+    - work-in-process
+  lang:
+    - en
   platform:
     - windows
     - macos
