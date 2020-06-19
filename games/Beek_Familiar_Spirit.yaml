@@ -1,0 +1,55 @@
+name: Beek - Familiar Spirit
+
+description: |
+  A call for help within a mysterious messaging app. Someone lost and wondering through a forest in a faraway place. And their destiny in your hands.
+
+  Beek: How I Became a Familiar Spirit and Everything After That is a text-based narrative experience from the creators of Nekojishi. Featuring dozens of branching paths, multiple endings, and CG's to unlock!
+
+  Help Beek seek a way home, and face the darkness of this world with strength and courage.
+
+  Note:
+  - This game is free, however CG's are unlocked with a one-time purchase.
+
+tags:
+  author:
+    - 'Studio Klondike'
+  type:
+    - bara
+  male:
+    - wolf
+    - bear
+    - ribbit
+    - humankind
+    - muscle
+  misc:
+    - engine-unity
+    - multiple-endings
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - itchio
+    - google-play
+    - apple-appstore
+  platform:
+    - windows
+    - macos
+    - android
+    - ios
+
+links:
+  - name: .play-store
+    uri: https://play.google.com/store/apps/details?id=com.orangejuicedogshanghai.beek
+  - name: .apple-appstore
+    uri: https://apps.apple.com/app/id1477804219
+  - name: .itch.io
+    uri: https://studioklondike.itch.io/beek
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/KdMhLUV.png
+  - https://i.imgur.com/GR7Kz6O.png
+  - https://i.imgur.com/ll1TXDw.png
+
