@@ -40,6 +40,6 @@
 
 - **rockytherookie** - [Furaffinity](https://www.furaffinity.net/user/rockytherookie/), [Twitter](https://twitter.com/rockytherookie), [Pixiv](https://www.pixiv.net/users/17292937) - Introduced us to a variety of games
 
-## Additional infomation
+## Additional information
 
 Anonymous have contributed a lot, but they (temporarily) do not want to appear on this list. This project respects their requirements. At the same time, if they want to enter the list, the list is ready for them!
