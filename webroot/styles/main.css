@@ -179,6 +179,52 @@ a:focus {
 	padding-left: 12px;
 }
 
+.index>.main {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.index h1 {
+	font-size: 1.24em;
+}
+
+.index .col-1 {
+	flex: 1 1 auto;
+}
+
+.index .col-2 {
+	flex: 0 0 auto;
+	margin: 40px 20px;
+}
+
+.index .col-2>a {
+	font-size: 1.4em;
+	margin-top: 10px;
+}
+.index .col-2>.tip {
+	font-size: 1em;
+	margin-left: 38px;
+}
+
+@media screen and (max-width: 940px) {
+	.index>.main {
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		align-items: stretch;
+	}
+
+	.index .col-2 {
+		margin: 20px 0;
+	}
+}
+
 /* stylesheet for list.html and search.html */
 
 .items {

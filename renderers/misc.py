@@ -15,8 +15,6 @@ def render(games, env, language, language_ui, output):
     context["datetime"] = datetime
 
     markdowner = Markdown()
-    with open("README." + language + ".md") as f:
-        context["index_content"] = markdowner.convert(f.read())
 
     context["active_search"] = "actived"
     context["noindex"] = True
@@ -28,8 +26,7 @@ def render(games, env, language, language_ui, output):
     del context["noindex"]
 
     context["active_index"] = "actived"
-    with openw_with_sm(output, os.path.join(language, "index.html"), priority="0.5",
-            lastmod_file="README." + language + ".md") as f:
+    with openw_with_sm(output, os.path.join(language, "index.html"), priority="0.6") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("index.html").render(context))
         f.write(env.get_template("footer.html").render(context))
@@ -38,7 +35,7 @@ def render(games, env, language, language_ui, output):
     with open("doc/faq." + language + ".md") as f:
         context["content"] = markdowner.convert(f.read())
     context["active_faq"] = "actived"
-    with openw_with_sm(output, os.path.join(language, "faq.html"), priority="0.5",
+    with openw_with_sm(output, os.path.join(language, "faq.html"), priority="0.4",
             lastmod_file="doc/faq." + language + ".md") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("simple_md.html").render(context))
@@ -46,7 +43,7 @@ def render(games, env, language, language_ui, output):
     del context["active_faq"]
     del context["content"]
 
-    with openw_with_sm(output, os.path.join(language, "sensitive.html"), priority="0.3",
+    with openw_with_sm(output, os.path.join(language, "sensitive.html"), priority="0.2",
             lastmod_file="templates/sensitive.html") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("sensitive.html").render(context))
