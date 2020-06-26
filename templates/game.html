@@ -31,7 +31,7 @@
 			</div>
 		{% endif %}
 		{% for i in game.screenshots %}
-		{{ image.dom(rr, i, name) }}
+		{{ image.dom(rr, i, name, name = get(game, lang, 'name')) }}
 		{% endfor %}
 		</div>
 		<div class="onmobile">{% include 'copying.html' %}</div>
