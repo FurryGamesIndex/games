@@ -149,6 +149,7 @@
 用於說明遊戲相關的雜項資訊
 
 - `3d` 遊戲主要以 3D 形式呈現
+- `pixel-art` 遊戲主要以 Pixel Art 風格呈現
 - `freeware` 遊戲是免費的或有一個不小的部分是免費的（Demo 版本不計算在內）
 - `multiplayer` 遊戲是多人遊戲或包括多人模式
 - `uncensored` 遊戲立繪、CG、模型等中沒有經過審查工序（無碼）（僅在 type:yiff 存在時考慮此標籤）
@@ -205,15 +206,15 @@
 - `android` 遊戲官方支援 Android
 - `ios` 遊戲官方支援 Apple iOS
 - `nds` 遊戲官方支援 Nintendo DS
+- `2ds` 遊戲官方支援 Nintendo 2DS
+- `3ds` 遊戲官方支援 Nintendo 3DS
+- `nintendo-switch` 遊戲官方支援 Nintendo Switch
 - `psv` 遊戲官方支援 Sony PlayStation Vita
 - `psp` 遊戲官方支援 Sony PlayStation Portable
 - `playstation` 遊戲官方支援 Sony PlayStation
 - `playstation2` 遊戲官方支援 Sony PlayStation 2
 - `playstation3` 遊戲官方支援 Sony PlayStation 3
 - `playstation4` 遊戲官方支援 Sony PlayStation 4
-- `nintendo-switch` 遊戲官方支援 Nintendo Switch
-- `2ds` 遊戲官方支援 Nintendo 2DS
-- `3ds` 遊戲官方支援 Nintendo 3DS
 - `xbox` 遊戲官方支援 Microsoft Xbox
 - `xbox-one` 遊戲官方支援 Microsoft Xbox One
 

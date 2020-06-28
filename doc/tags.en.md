@@ -149,6 +149,7 @@ Unless otherwise specified, the malex namespace indicates the furry/human physio
 Used to describe miscellaneous information related to the game
 
 - `3d` The game is mainly presented in 3D
+- `pixel-art` The game is mainly presented in pixel-art
 - `freeware` The game is free or a big part is free (Demo version is not included)
 - `multiplayer` The game is multiplayer or includes multiplayer mode
 - `uncensored` Images, CGs, models, etc. have not censored (Consider this tag only when type:yiff exists)
@@ -205,15 +206,15 @@ The operating systems and platforms offical supported by the game
 - `android` Android
 - `ios` Apple iOS
 - `nds` Nintendo DS
+- `2ds` Nintendo 2DS
+- `3ds` Nintendo 3DS
+- `nintendo-switch` Nintendo Switch
 - `psv` Sony PlayStation Vita
 - `psp` Sony PlayStation Portable
 - `playstation` Sony PlayStation
 - `playstation2` Sony PlayStation 2
 - `playstation3` Sony PlayStation 3
 - `playstation4` Sony PlayStation 4
-- `nintendo-switch` Nintendo Switch
-- `2ds` Nintendo 2DS
-- `3ds` Nintendo 3DS
 - `xbox` Microsoft Xbox
 - `xbox-one` Microsoft Xbox One
 
