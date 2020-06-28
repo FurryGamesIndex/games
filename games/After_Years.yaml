@@ -62,8 +62,6 @@ tags:
     - macos
     - linux
     - android
-  sys:
-    - staging
 
 links:
   - name: .itch.io
