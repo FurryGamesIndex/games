@@ -19,6 +19,8 @@ tags:
   sys:
     - staging
     - tagme
+  misc:
+    - pixel-art
 
 links:
   - name: .steam

@@ -663,6 +663,12 @@ brain-fuck:
     en: 'The game is mainly presented in 3D'
     zh-cn: '游戏主要以 3D 形式呈现'
 
+pixel-art:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game is mainly presented in pixel-art'
+    zh-cn: '游戏主要以 Pixel Art 风格呈现'
+
 freeware:
   namespaces: [ misc ]
   explanation:
@@ -939,6 +945,24 @@ nds:
     en: 'Nintendo DS'
     zh-cn: '游戏官方支持 Nintendo DS'
 
+2ds:
+  namespaces: [ platform ]
+  explanation:
+    en: 'Nintendo 2DS'
+    zh-cn: '游戏官方支持 Nintendo 2DS'
+
+3ds:
+  namespaces: [ platform ]
+  explanation:
+    en: 'Nintendo 3DS'
+    zh-cn: '游戏官方支持 Nintendo 3DS'
+
+nintendo-switch:
+  namespaces: [ platform ]
+  explanation:
+    en: 'Nintendo Switch'
+    zh-cn: '游戏官方支持 Nintendo Switch'
+
 psv:
   namespaces: [ platform ]
   explanation:
@@ -974,24 +998,6 @@ playstation4:
   explanation:
     en: 'Sony PlayStation 4'
     zh-cn: '游戏官方支持 Sony PlayStation 4'
-
-nintendo-switch:
-  namespaces: [ platform ]
-  explanation:
-    en: 'Nintendo Switch'
-    zh-cn: '游戏官方支持 Nintendo Switch'
-
-2ds:
-  namespaces: [ platform ]
-  explanation:
-    en: 'Nintendo 2DS'
-    zh-cn: '游戏官方支持 Nintendo 2DS'
-
-3ds:
-  namespaces: [ platform ]
-  explanation:
-    en: 'Nintendo 3DS'
-    zh-cn: '游戏官方支持 Nintendo 3DS'
 
 xbox:
   namespaces: [ platform ]
