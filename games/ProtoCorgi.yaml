@@ -1,0 +1,51 @@
+name: ProtoCorgi
+
+description: |
+  Retro style pixel art, horizontal shoot 'em up, arcade gameplay and the cutest little cyber hero you will ever meet.
+  
+  Play as Bullet, a C³ class (Cute Cyber Corgi) cybernetic dog in his quest for saving his owner, a brilliant scientist kidnaped by a strange alien race that wants to rule the galaxy.
+  Fly through time and space searching for your master. Defeat strange and exotic alien creatures, power up your gear to wreak havoc along your way and eat all the space fruit you can to get the highest score! (yes, space fruit, the best way to score points in the known universe!) .The dangers of space will not stop you in this action-packed, beautifully pixelated game. Will you be able to save your owner in time?
+  Sometimes, our fate is just a few barks away.
+
+  With tight controls, smooth gameplay and exciting mechanics, ProtoCorgi aims to converge the best of the classics and the newest of the  shoot 'em up genre into one solid piece.
+  Dodge, shoot and bark in this cute action shoot 'em up.
+  Highlights and Features:
+  Fully animated beautiful pixel art. 
+  Tight controls and solid gameplay. 
+  Five stages planned for development, each with own unique bosses and themes.
+  Available for PC at launch, consoles later. 
+  More surprises.
+
+tags:
+  sys:
+    - staging
+    - tagme
+  male:
+    - non-anthro
+  misc:
+    - pixel-art
+    - work-in-process
+  lang:
+    - en
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .steam
+    uri: steam:1039280
+  - name: .itch.io
+    uri: https://kemonogames.itch.io/protocorgi-demo
+  - name: .website
+    uri: https://www.kemonogames.com/
+  - name: .twitter
+    uri: twitter:KemonoGames
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjc5MTE3LzEzNzQ5OTguanBn/original/CgPa1Z.jpg
+  - https://img.itch.zone/aW1hZ2UvMjc5MTE3LzEzNzQ5OTcuanBn/original/YChDNE.jpg
+  - https://img.itch.zone/aW1hZ2UvMjc5MTE3LzEzNzQ5OTUuanBn/original/6bjpmd.jpg
+  - https://img.itch.zone/aW1hZ2UvMjc5MTE3LzEzNzQ5OTYuanBn/original/sRBdMK.jpg
