@@ -1,0 +1,53 @@
+name: DragonBlast
+
+description: |
+  What is DragonBlast?
+  DragonBlast is an unfinished doujin fighting game for the PC that is designed to be simple, with great rewards for hard reads.
+  Counterhits steal the opponent's meter as well as life, and are accompanied by very visible effects and slowdown whenever they occur. Matches are often very quick, and damage overall is high.
+  The standard battle mode is a 2v2 tag battle, where if one character gets KO'd, you lose the match.
+
+  Playing Online
+  The game has a full "endless mode" style lobby system like SF4, but only for 4 people.
+  You can also use the IP_Connect option to host and connect to a room.
+  The default port it uses for hosting is 7500.
+
+  (From: http://www.sf4remix.com/dragonblast/index.php)
+
+tags:
+  type:
+    - fighting
+  male:
+    - dragon
+    - wolf
+    - shark
+    - dog
+    - bird
+    - tiger
+    - bull
+    - mixed
+    - humankind
+    - muscle
+  female:
+    - humankind
+  misc:
+    - 3d
+    - died
+  lang:
+    - en
+    - ja
+  platform:
+    - windows
+
+links:
+  - name: Unoffical archive/wiki
+    uri: http://www.sf4remix.com/dragonblast/index.php
+  - name: website (expired)
+    uri: http://www.urakata.org/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/eYfIFi2.png
+  - https://i.imgur.com/gnh7GqS.png
+  - https://i.imgur.com/FVUSnl5.png
+
