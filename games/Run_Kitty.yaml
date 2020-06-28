@@ -40,7 +40,7 @@ links:
   - name: .itch.io
     uri: https://strongandfurry.itch.io/kitty
   - name: .patreon
-    uri: patreon.com:strongandfurry
+    uri: patreon:strongandfurry
   - name: .play-store
     uri: https://play.google.com/store/apps/details?id=com.strongandfurry.kitty.trial
   - name: .twitter
