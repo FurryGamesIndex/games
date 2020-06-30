@@ -16,6 +16,7 @@ tags:
     - tagme
   lang:
     - ja
+    - zh-unofficial
   platform:
     - windows
 
@@ -24,6 +25,10 @@ links:
     uri: https://www.digiket.com/work/show/_data/ID=ITM0170977/
   - name: Alice-books (Physical ver)
     uri: https://alice-books.com/item/show/3288-9
+  - name: Unofficial chinese version for Demo
+    uri: https://srk.im/thread-6-1-1.html
+  - name: .unofficial-patch-zh-cn
+    uri: https://srk.im/thread-7-1-1.html
 
 thumbnail: thumbnail.jpg
 
