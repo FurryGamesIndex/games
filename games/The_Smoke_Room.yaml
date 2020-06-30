@@ -51,10 +51,12 @@ links:
   - name: .twitter
     uri: twitter:EchoTheVN 
   - name: .unofficial-patch-zh-cn
-    uri: https://twitter.com/ABLocalization/status/1268764341496680448
-  - name: .unofficial-patch-zh-cn
-    uri: https://weibo.com/7429628292/J56sm4Cx7
+    uri: https://weibo.com/7429628292/J8W2I68kM
 
+disabled-links:
+  # This is old version. But no new version published to twitter. (new version now is published to weibo currently)
+  - name: .unofficial-patch-zh-cn
+    uri: https://twitter.com/ABLocalization/status/1268764341496680448
 
 thumbnail: thumbnail.jpg
 
