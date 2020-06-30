@@ -699,6 +699,12 @@ engine-unity:
     en: 'The game is developed using Unity engine'
     zh-cn: '游戏使用了 Unity 引擎'
 
+engine-rpg-maker:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game is developed using RPG Maker engine'
+    zh-cn: '游戏使用了 RPG Maker 引擎'
+
 multiple-endings:
   namespaces: [ misc ]
   explanation:
