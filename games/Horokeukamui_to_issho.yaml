@@ -9,10 +9,15 @@ description: |
   ホロケウカムイといっしょに体を鍛えて、あなたも英雄になろう！
 
 tags:
-  sys:
-    - tagme
   author:
     - Lifewonders
+  type:
+    - casual
+  male:
+    - wolf
+  misc:
+    - 3d
+    - freeware
   lang:
     - ja
   publish:
