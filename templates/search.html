@@ -2,7 +2,8 @@
 	<select id="search_mode" >
 		<option value="title">{{ ui.search_form_mode_title }}</option>
 		<option value="tindes">{{ ui.search_form_mode_tindes }}</option>
-		<option value="tag">{{ ui.search_form_mode_tag }}</option>
+		<option value="tagx">{{ ui.search_form_mode_tag }}</option>
+		<option style="display: none;" value="tag">STAG (LEGACY)</option>
 	</select>
 	<input id="search_value" />
 	<button id="search_do">{{ ui.search_form_do }}</button>
@@ -24,6 +25,7 @@
 {% include 'copying.html' %}
 </div>
 <script src="{{ rr }}/scripts/base.js"></script>
+<script src="{{ rr }}/scripts/searchexpr.js"></script>
 {% if "search_extra_scripts" in ui %}
 	{{ ui.search_extra_scripts }}
 {% endif %}
@@ -85,6 +87,12 @@ let onload = async () => {
 				items.textContent = "{{ ui.search_not_found }}";
 			}
 			break;
+		case "tagx":
+			searchexpr(value, (tag => {
+				console.log("find: " + tag);
+				return searchdb.rtag[tag] || [];
+			})).forEach(i => add(i, searchdb.data[i]));
+			break;
 		case "title":
 		case "tindes":
 			value = value.toLowerCase();
@@ -130,6 +138,7 @@ let onload = async () => {
 		$("#search_info").textContent = "";
 	} catch (e) {
 		$("#search_info").textContent = "Sorry, an error occured.\n" + e;
+		console.error(e);
 		alert("{{ ui.search_load_db_error }}");
 	}
 }
