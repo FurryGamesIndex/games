@@ -1,4 +1,4 @@
-name: 愛する君へ
+name: To My Loved One / 愛する君へ
 
 description: |
   「あいするきみへ」
@@ -31,6 +31,7 @@ tags:
     - handjob
   lang:
     - ja
+    - en
     - zh-unofficial
   misc:
     - freeware
@@ -40,6 +41,8 @@ tags:
 links:
   - name: Publish page
     uri: https://www.pixiv.net/artworks/43445593
+  - name: Official English version
+    uri: https://twitter.com/hachi_forebodin/status/1180761505165266945
   - name: .twitter
     uri: twitter:kenn_fudo
   - name: .unofficial-ver-zh-cn
