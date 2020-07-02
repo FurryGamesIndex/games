@@ -36,4 +36,4 @@ The code for this project is licensed under version 3 or later of the GNU Genera
 - [x] Automatically generate traditional Chinese version
 - [ ] Simplified Chinese and Traditional Chinese contribution seamless conversion
 - [ ] Title/description search and mulitple tags search (Impl more powerful search function)
-- [ ] English translation of documents (WIP)
+- [x] English translation of documents (The current document is completed, but future document translation may be delayed)
