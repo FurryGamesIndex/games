@@ -19,6 +19,7 @@ index_content: >
   <p>该项目更加注重可维护性，更加鼓励社区参与，为社区参与提供便利的基础设施和提高易用性（如标签及搜索功能（目前尚未完全实施）），未来可能还会做评分和讨论功能。</p>
 
 index_link_games: 显示所有游戏
+search_found_n_item: 共找到 {0} 项
 index_link_search: 通过文字或标签搜索游戏
 index_link_contribute: 参与我们
 index_link_contributors: 贡献者列表

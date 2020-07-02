@@ -48,6 +48,14 @@ a:focus {
 	outline: 0;
 }
 
+code {
+	padding: 4px 8px;
+	margin: 0 2px;
+	font-size: .9em;
+	background-color: rgba(27,31,35,.05);
+	border-radius: 6px;
+}
+
 .hide {
 	display: none !important;
 }
@@ -258,6 +266,25 @@ a:focus {
 .items .description {
 	color: var(--tip-color);
 	font-size: 0.94em;
+}
+
+#search_box #search_mode {
+	min-height: 26px;
+}
+
+#search_box #search_wrap {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#search_box #search_value {
+	line-height: 1.4;
+	min-height: 26px;
+	max-width: 400px;
+	margin: 5px 6px 0 0;
+	flex: 1 0 auto;
 }
 
 @media screen and (max-width: 940px){
