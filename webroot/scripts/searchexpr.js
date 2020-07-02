@@ -59,8 +59,6 @@ const lexer = expr => {
 		let end;
 		const chr = expr.charAt(i);
 
-		console.log(i + " " + chr)
-
 		switch (chr) {
 		case "":
 		case " ":
@@ -77,13 +75,11 @@ const lexer = expr => {
 			break;
 		case '"':
 			end = expr.substring(i + 1).indexOf('"');
+
 			if (end < 0)
 				throw "error while compiling expression: missing terminating '\"' character. at " + i;
-			//if (i + end < i) {
-			//	list.push(new Token(TOKEN_TYPE.STRING, ""))
-			//} else {
-				list.push(new Token(TOKEN_TYPE.STRING, expr.substring(i + 1, i + end + 1)))
-			//}
+
+			list.push(new Token(TOKEN_TYPE.STRING, expr.substring(i + 1, i + end + 1)))
 			i += end + 1;
 			break;
 		default:
@@ -94,16 +90,58 @@ const lexer = expr => {
 	return list;
 }
 
+const intpDoAndOrNot = (s1, s2, state) => {
+	switch (state) {
+	case TOKEN_TYPE.AND:
+		return new Set([...s1].filter(v => s2.has(v)));
+		break;
+	case TOKEN_TYPE.OR:
+		return new Set([...s1, ...s2]);
+		break;
+	case TOKEN_TYPE.NOT:
+		return new Set([...s1].filter(v => !s2.has(v)));
+		break;
+	}
+	return new Set();
+}
+
+const interpreter = (tokens, pos, callback) => {
+	let s = new Set();
+	let state = TOKEN_TYPE.OR;
+	let temp;
+
+	while (pos < tokens.length) {
+		switch (tokens[pos].type) {
+		case TOKEN_TYPE.LEFT_BRACKETS:
+			const retv = interpreter(tokens, pos + 1, callback);
+			s = intpDoAndOrNot(s, retv[1], state);
+			pos = retv[0]
+			break;
+		case TOKEN_TYPE.RIGHT_BRACKETS:
+			return [pos, s];
+			break;
+		case TOKEN_TYPE.STRING:
+			temp = new Set(callback(tokens[pos].value));
+			s = intpDoAndOrNot(s, temp, state);
+			break;
+		case TOKEN_TYPE.AND:
+		case TOKEN_TYPE.OR:
+		case TOKEN_TYPE.NOT:
+			state = tokens[pos].type;
+			break;
+		}
+		pos++;
+	}
+	return [pos, s];
+}
+
 const searchexpr = (expr, callback) => {
 	const tokens = lexer(expr);
 	console.log("searchexpr: debug: lexing done.");
 	console.log(tokens);
 
-
+	return interpreter(tokens, 0, callback)[1];
 }
 
 window.searchexpr = searchexpr;
 })();
-
-expr = 'y:abcd and x:efg or (fui:a and "a:sys no" not "") and (("ccc") or (axd and amd))';
-searchexpr(expr, null)
