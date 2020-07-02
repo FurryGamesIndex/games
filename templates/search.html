@@ -2,10 +2,13 @@
 	<select id="search_mode" >
 		<option value="title">{{ ui.search_form_mode_title }}</option>
 		<option value="tindes">{{ ui.search_form_mode_tindes }}</option>
-		<option value="tag">{{ ui.search_form_mode_tag }}</option>
+		<option value="tagx">{{ ui.search_form_mode_tag }}</option>
+		<option style="display: none;" value="tag">STAG (LEGACY)</option>
 	</select>
-	<input id="search_value" />
-	<button id="search_do">{{ ui.search_form_do }}</button>
+	<div id="search_wrap">
+		<input id="search_value" />
+		<button id="search_do">{{ ui.search_form_do }}</button>
+	</div>
 </div>
 <div id="search_info" class="default">
 
@@ -24,6 +27,7 @@
 {% include 'copying.html' %}
 </div>
 <script src="{{ rr }}/scripts/base.js"></script>
+<script src="{{ rr }}/scripts/searchexpr.js"></script>
 {% if "search_extra_scripts" in ui %}
 	{{ ui.search_extra_scripts }}
 {% endif %}
@@ -76,6 +80,8 @@ let onload = async () => {
 			searchdb = _searchdb;
 		}
 
+		let num = 0;
+
 		switch (mode) {
 		case "tag":
 			if (searchdb.rtag.hasOwnProperty(value)) {
@@ -85,10 +91,20 @@ let onload = async () => {
 				items.textContent = "{{ ui.search_not_found }}";
 			}
 			break;
+		case "tagx":
+			searchexpr(value, (tag => {
+				console.log("find: " + tag);
+				return searchdb.rtag[tag] || [];
+			})).forEach(i => {
+				num++;
+				add(i, searchdb.data[i])
+			});
+
+			$("#search_info").textContent = "{{ ui.search_found_n_item }}".format(num);
+			break;
 		case "title":
 		case "tindes":
 			value = value.toLowerCase();
-			let num = 0;
 			for (const [id, game] of Object.entries(searchdb.data)) {
 				console.log(id);
 				if (game.name.toLowerCase().indexOf(value) >= 0) {
@@ -121,15 +137,14 @@ let onload = async () => {
 				}
 			}
 
-			if (num === 0)
-				items.textContent = "{{ ui.search_not_found }}";
+			$("#search_info").textContent = "{{ ui.search_found_n_item }}".format(num);
 			break;
 		default:
 			break;
 		}
-		$("#search_info").textContent = "";
 	} catch (e) {
 		$("#search_info").textContent = "Sorry, an error occured.\n" + e;
+		console.error(e);
 		alert("{{ ui.search_load_db_error }}");
 	}
 }

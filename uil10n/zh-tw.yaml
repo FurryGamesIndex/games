@@ -19,6 +19,7 @@ index_content: >
   <p>該專案更加註重可維護性，更加鼓勵社群參與，為社群參與提供便利的基礎設施和提高易用性（如標籤及搜尋功能（目前尚未完全實施）），未來可能還會做評分和討論功能。</p>
 
 index_link_games: 顯示所有遊戲
+search_found_n_item: 共找到 {0} 項
 index_link_search: 透過文字或標籤搜尋遊戲
 index_link_contribute: 參與我們
 index_link_contributors: 貢獻者列表
