@@ -1,0 +1,50 @@
+name: Neglected
+
+description: |
+  《Neglected》is the first furry puzzle game created by Hundred Dream of Animals studio, you're going to play as a lovely boy called Grace. Parr and Tya, two furries you encount by chance, will help you cop with crisis and get out of danger step by step.
+  When human and furry meet together, who knows what wonderful and funny things will happen?
+  In your adventure, you will face various machine-operated scenes,dangerous traps and dim corridors. In thousands of complex and chaotic scenes, hopes and opportunities are waiting.
+  
+  what is this game?
+  Neglected is a puzzle game, the decryption part is very simple and easy ( At least the production team hopes so ).
+  
+  What is the content?
+  Mainly decryption and including some chasing plots. When decrypting, please observe the secret places carefully and use your brain. But when you get to play the chasing part,  well……good luck~
+  
+  Is there anything else?
+  This game also includes some memes and wonderful "Easter eggs".
+  Some clues in the game must be kept in mind, I'm sure you'll need these clues as the plot develops.
+
+tags:
+  sys:
+    - tagme
+  author:
+    - 'Beast of Dreams'
+  type:
+    - role-playing
+    - puzzle
+  male:
+    - humankind
+  misc:
+    - pixel-art
+    - freeware
+  lang:
+    - ja
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1300360
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/1300360/ss_699e37b239357d5c68f965797eddb49ab1f1d4aa.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1300360/ss_da2f532deaf348bf7fadfa3dbea6dbcc74c2ff1b.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1300360/ss_d07aef51ac5c89b7c5e295df93af156e094d95a3.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1300360/ss_737e2126d83302bc96d95baacc327ea5e77d9e0b.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1300360/ss_54d820306c09c857ffffc470621ee49f3749cacd.1920x1080.jpg
