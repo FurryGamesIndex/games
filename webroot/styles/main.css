@@ -277,6 +277,7 @@ code {
 	flex-flow: row nowrap;
 	justify-content: flex-start;
 	align-items: center;
+	margin-bottom: 8px;
 }
 
 #search_box #search_value {

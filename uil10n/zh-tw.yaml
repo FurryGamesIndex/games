@@ -32,6 +32,7 @@ search_load_db_error: 發生錯誤
 search_form_mode_title: 搜尋標題
 search_form_mode_tindes: 搜尋標題和描述
 search_form_mode_tag: 搜尋標籤
+search_help_link: 使用搜索功能的說明
 
 search_form_do: 搜尋
 

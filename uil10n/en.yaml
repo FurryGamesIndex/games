@@ -33,6 +33,7 @@ search_form_mode_title: Search titles
 search_form_mode_tindes: Search titles and descriptions
 search_form_mode_tag: Search tags
 search_form_do: Search
+search_help_link: Instructions for using the searching
 
 gamewarn_nolang: This game may not contain localized language English
 gamewarn_lang_unofficial: Localized language English is supported by unofficial source
