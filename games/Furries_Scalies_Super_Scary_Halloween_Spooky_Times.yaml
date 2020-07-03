@@ -12,13 +12,11 @@ description: |
   The Bail Project works to help stop the mass incarceration of those in need. The South Poverty Law Center uses litigation, education, and other forms of advocacy to fight bigotry and intolerance across the nation.
 
 tags:
-  sys:
-    - staging
-    - tagme
   author:
     - 'Stegalosaurus Game Development'
   type:
     - business-sim
+    - dating-sim
     - yiff
   male:
     - dragon
@@ -33,6 +31,7 @@ tags:
     - steam
   platform:
     - windows
+    - linux
 
 links:
   - name: .steam
