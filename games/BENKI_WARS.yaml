@@ -11,20 +11,39 @@ description: |
   エッチな展開に事を運ぶことができるようになります。
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Untendo
+  type:
+    - shooter
+  male:
+    - tiger
+    - bear
+    - dog
+    - lion
+  misc:
+    - engine-rpg-maker
   lang:
     - ja
     - zh-unofficial
+  publish:
+    - digiket
   platform:
     - windows
+    - macos
 
 links:
   - name: Digiket (Digital ver)
     uri: https://www.digiket.com/work/show/_data/ID=ITM0170977/
+  - name: Digiket (Digital ver) (macOS)
+    uri: https://www.digiket.com/work/show/_data/ID=ITM0174447/
   - name: Alice-books (Physical ver)
     uri: https://alice-books.com/item/show/3288-9
+  - name: Get Demo on booth
+    uri: https://booth.pm/ja/items/828340
+  - name: .website
+    uri: https://www.untendo.com/
+  - name: .twitter
+    uri: twitter:kajimaru_0507
   - name: Unofficial chinese version for Demo
     uri: https://srk.im/thread-6-1-1.html
   - name: .unofficial-patch-zh-cn

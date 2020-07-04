@@ -21,16 +21,19 @@ description: |
   Explore, experience and overcome the world of Ato.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Tiny Warrior Games'
   type:
     - action
     - advanture
   male:
     - cat
   misc:
-    - work-in-process
+    - pixel-art
+  lang:
+    - en
+    - ja
+    - zh
   publish:
     - steam
   platform:
