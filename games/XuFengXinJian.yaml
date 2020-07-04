@@ -24,17 +24,30 @@ description: |
   背景处理：@Vegas_Yang
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 煦风社
+  male:
+    - dog
+    - wolf
+    - lion
+    - tiger
+    - bull
+    - cat
+    - males-only
+  misc:
+    - freeware
+    - work-in-process
   lang:
     - zh
+  publish:
+    - website
   platform:
     - windows
+    - android
 
 links:
-  - name: Publish page
-    uri: https://www.weibo.com/5857154820/Ip5zq1cJb
+  - name: .website
+    uri: https://www.xufengxinjian.com/
   - name: .weibo
     uri: https://weibo.com/u/5857154820
 
