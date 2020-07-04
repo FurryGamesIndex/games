@@ -46,7 +46,7 @@ tags:
   publish:
     - booth
   platform:
-    - Windows
+    - windows
 
 links:
   - name: .booth

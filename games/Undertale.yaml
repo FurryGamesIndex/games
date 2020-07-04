@@ -33,16 +33,14 @@ tags:
     - shooter
   male:
     - dog
-    - goat
-    - turtle
+    - sheep
     - deer
     - humankind
-    - hippo
     - muscle
   female:
     - dog
     - cat
-    - goat
+    - sheep
     - rabbit
   misc:
     - pixel-art
@@ -52,11 +50,10 @@ tags:
     - outside-furry-fandom
   lang:
     - en
-    - jp
+    - ja
     - zh-unofficial
   publish:
     - steam
-    - playstation
     - microsoft-store
     - e-shop
     - gog

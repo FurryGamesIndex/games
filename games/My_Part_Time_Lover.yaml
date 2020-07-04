@@ -15,8 +15,8 @@ tags:
   sys:
     - staging
     - tagme
-  typs:
-    - dating-emu
+  type:
+    - dating-sim
     - role-playing
   misc:
     - multiple-endings

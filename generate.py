@@ -57,6 +57,8 @@ games = {}
 
 with open("tag-dependencies.yaml") as f:
     tagmgr.loaddep(yaml.safe_load(f))
+with open("tags.yaml") as f:
+    tagmgr.load(yaml.safe_load(f))
 
 sdb = searchdb(stub = args.no_searchdb)
 
@@ -80,7 +82,7 @@ for f in sorted(os.listdir(dir)):
             with open(l10n_file) as stream:
                 games[game_id]["tr"][language] = yaml.safe_load(stream)
 
-    tagmgr.patch(games[game_id])
+    tagmgr.check_and_patch(games[game_id])
     sdb.update(games[game_id])
 
 env = Environment(loader = FileSystemLoader("templates"))
