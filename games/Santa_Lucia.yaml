@@ -53,18 +53,20 @@ description: |
   
   ## Stormsinger Studios
   
-  stormsingerstudios@gmail.com
+  - [stormsingerstudios@gmail.com](mailto:stormsingerstudios@gmail.com)
   - [https://stormsingerstudios.itch.io/](https://stormsingerstudios.itch.io/)
   - [https://www.furaffinity.net/user/dzahndragon/](https://www.furaffinity.net/user/dzahndragon/)
   - [https://twitter.com/stormsingerdev](https://twitter.com/stormsingerdev)
   
-  DzahnDragon
+  ## DzahnDragon
+
   - [https://twitter.com/ZanderWolfie](https://twitter.com/ZanderWolfie)
   - [https://www.furaffinity.net/user/zanderwolfie/](https://www.furaffinity.net/user/zanderwolfie/)
   - [https://www.twitch.tv/dzahndragon](https://www.twitch.tv/dzahndragon)
   - [https://www.youtube.com/channel/UCHwk40OW_bVzPqP6GBTU1qQ](https://www.youtube.com/channel/UCHwk40OW_bVzPqP6GBTU1qQ)
   
-  Devilizer
+  ## Devilizer
+ 
   - [https://twitter.com/DevilizerNine](https://twitter.com/DevilizerNine)
   - [https://www.furaffinity.net/user/devilizer/](https://www.furaffinity.net/user/devilizer/)
   
@@ -115,6 +117,8 @@ links:
     uri: https://stormsingerstudios.itch.io/santa-lucia
   - name: .patreon
     uri: patreon:stormsingerstudios
+  - name: .twitter
+    uri: twitter:stormsingerdev
 
 thumbnail: thumbnail.jpg
 
