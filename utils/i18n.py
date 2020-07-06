@@ -20,6 +20,8 @@
 from html import escape
 from markdown2 import Markdown
 
+from utils import image
+
 def get(game, language, key):
     l10n_value = game["tr"].get(language, {}).get(key)
     if l10n_value is not None:
@@ -27,12 +29,13 @@ def get(game, language, key):
     else:
         return game[key]
 
-def get_desc(game, language):
+def get_desc(rr, game, language):
     desc = get(game, language, "description")
     if "description-format" not in game:
         return escape(desc).replace("\n", "<br>")
     elif game["description-format"] == "markdown":
-        markdowner = Markdown(extras=["strike", "target-blank-links"])
+        markdowner = Markdown(extras=["strike", "target-blank-links"],
+                inline_image_uri_filter = lambda uri: image.uri(rr, uri, game["id"]))
         return markdowner.convert(desc)
     else:
         raise ValueError("description format invaild")

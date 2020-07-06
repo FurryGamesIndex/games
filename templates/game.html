@@ -10,7 +10,7 @@
 	<div class="leftbox">
 		<h1>{{ get(game, lang, 'name')|e }}</h1>
 		<div class="onmobile">{% include 'game_logo.html' %}</div>
-		<div class="description">{{ get_desc(game, lang) }}</div>
+		<div class="description">{{ get_desc(rr, game, lang) }}</div>
 		<div class="onmobile">{% include 'game_links.html' %}</div>
 		<div class="tags"><table><tbody>
 		{% for group in game.tags %}

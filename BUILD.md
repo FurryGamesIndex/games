@@ -11,10 +11,16 @@ You need Python 3.7 or later. (If you are using CPython, 3.6 is also acceptable)
 ## Install dependencies
 
 ```
-pip3 install --user pyyaml markdown2 jinja2 requests
+pip3 install --user pyyaml jinja2 requests
 ```
 
-For Chinese Converting, you need (Seems not working on Windows due to encoding problem)
+Currently, a patched python-markdown2 (added [image filter supporting](https://github.com/FurryGamesIndex/python-markdown2/commit/51cab36062baa4a46a7a414c7c95bcbd161a1049)) is required to build FGI website.
+
+```
+pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2
+```
+
+(Optional) For Chinese Converting, you need (Seems not working on Windows due to encoding problem)
 
 ```
 pip3 install --user OpenCC
@@ -60,3 +66,6 @@ TODO
 
 TODO
 
+### Download external images
+
+TODO

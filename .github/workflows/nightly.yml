@@ -21,7 +21,8 @@ jobs:
       run: |
         sudo apt -y update || true
         sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip zip unzip
-        pip3 install markdown2 OpenCC
+        pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2
+        pip3 install OpenCC
 
     - name: download
       run: |
@@ -32,6 +33,7 @@ jobs:
     - name: gen
       run: |
         python3 --version
+        python3 -m markdown2 --patch-info
         ./scripts/build-offline-version.sh FGI-nightly
         zip -r output.zip FGI-nightly
 

@@ -38,6 +38,12 @@ Without these Free & Open-source softwares, the birth of FurryGamesIndex project
 
 ## python-markdown2
 
+We use a patched/modified python-markdown2 with our out-of-tree patches
+
+Patched fork: [https://github.com/FurryGamesIndex/python-markdown2](https://github.com/FurryGamesIndex/python-markdown2)
+
+### Original
+
 [MIT License](https://github.com/trentm/python-markdown2/blob/master/LICENSE.txt)
 
 [https://github.com/trentm/python-markdown2](https://github.com/trentm/python-markdown2)
