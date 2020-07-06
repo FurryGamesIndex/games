@@ -343,6 +343,11 @@ code {
 	margin-bottom: 12px;
 }
 
+.game .description img {
+	max-width: 100%;
+	padding: 16px 32px;
+}
+
 .game .description * {
 	font-size: 0.96em !important;
 }
