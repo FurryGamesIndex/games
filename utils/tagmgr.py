@@ -50,6 +50,9 @@ def load(data):
             tags.add(ns + ":" + k)
 
 def check_and_patch(game):
+    if "lang" not in game["tags"]:
+        print("[warning] missing lang namespace for game '%s'" % game["id"])
+
     for ns, v in game["tags"].items():
         if ns != "author":
             for i in v:

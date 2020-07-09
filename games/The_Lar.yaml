@@ -18,6 +18,9 @@ tags:
     - tagme
   misc:
     - pixel-art
+  lang:
+    - en
+    - zh
 
 links:
   - name: .steam
