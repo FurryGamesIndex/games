@@ -11,16 +11,40 @@ description: |
   Award-winning musical score by Hyperduck Soundworks
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Humble Hearts LLC'
+    - 'Xbox Game Studios'
+    - 'Limited Run Games'
+  type:
+    - action
+    - role-playing
+  male:
+    - mixed
   lang:
     - en
     - zh-unofficial
+  publish:
+    - steam
+    - gog
+    - e-shop
+  platform:
+    - windows
+    - macos
+    - linux
+    - ios
+    - playstation4
+    - nintendo-switch
+    - xbox-360
 
 links:
   - name: .steam
     uri: steam:236090
+  - name: .gog.com
+    uri: https://www.gog.com/game/dust_an_elysian_tail
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/dust-an-elysian-tail/id1020962158
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/dust-an-elysian-tail-switch/
   - name: .unofficial-patch-zh-tw
     uri: https://www.codebay.in/2016/06/dustaet-cht-mod.html
 

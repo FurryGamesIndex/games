@@ -1017,6 +1017,12 @@ xbox-one:
     en: 'Microsoft Xbox One'
     zh-cn: '游戏官方支持 Microsoft Xbox One'
 
+xbox-360:
+  namespaces: [ platform ]
+  explanation:
+    en: 'Microsoft Xbox 360'
+    zh-cn: '游戏官方支持 Microsoft Xbox 360'
+
 
 ###################################################
 ###################################################
