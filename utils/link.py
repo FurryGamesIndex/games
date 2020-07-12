@@ -47,6 +47,8 @@ def uri_to_src(uri):
         return "https://%s.tumblr.com/" % res[1]
     elif (res[0] == 'pixiv'):
         return "https://www.pixiv.net/users/%s" % res[1]
+    elif (res[0] == 'google-play-store'):
+        return "https://play.google.com/store/apps/details?id=%s" % res[1]
     else:
         return uri
 
