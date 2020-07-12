@@ -14,8 +14,6 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - tagme
   author:
     - Bane
   type:
@@ -27,8 +25,22 @@ tags:
     - dog
     - pig
     - wolf
+    - hyena
+    - dragon
     - bull
     - horse
+    - mixed
+    - humankind
+    - anal
+    - blowjob
+    - handjob
+    - masturbation
+    - human-on-furry
+  misc:
+    - freeware
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
   lang:
     - en
   publish:
