@@ -1,7 +1,9 @@
 name: 'Dust: An Elysian Tail'
 
 description: |
-  Immerse yourself in a gorgeous hand-painted world on a search for your true identity. As the mysterious warrior, Dust, your action-packed journey will take you from peaceful glades to snowy mountaintops and beyond. At your disposal is the mythical Blade of Ahrah, capable of turning its wielder into an unstoppable force of nature, and the blade's diminutive guardian, Fidget. Battle dozens of enemies at once with an easy-to-learn, difficult-to-master combat system, take on a variety of quests from friendly villagers, discover ancient secrets and powerful upgrades hidden throughout the massive, open world, and uncover the story of an ancient civilization on the brink of extinction as you fight to uncover your own past.Key Features
+  Immerse yourself in a gorgeous hand-painted world on a search for your true identity. As the mysterious warrior, Dust, your action-packed journey will take you from peaceful glades to snowy mountaintops and beyond. At your disposal is the mythical Blade of Ahrah, capable of turning its wielder into an unstoppable force of nature, and the blade's diminutive guardian, Fidget. Battle dozens of enemies at once with an easy-to-learn, difficult-to-master combat system, take on a variety of quests from friendly villagers, discover ancient secrets and powerful upgrades hidden throughout the massive, open world, and uncover the story of an ancient civilization on the brink of extinction as you fight to uncover your own past.
+
+  Key Features
   A traditionally-animated action-adventure tale, now in gorgeous 1080p
   An expansive world filled with unique characters, quests, and secrets
   Action-packed nonlinear platforming rewards exploration and experimentation
@@ -22,6 +24,7 @@ tags:
     - mixed
   lang:
     - en
+    - ja
     - zh-unofficial
   publish:
     - steam
