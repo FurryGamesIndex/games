@@ -2,10 +2,14 @@ name: Armello
 
 description: |
   Armello is a grand swashbuckling adventure that combines three styles of play; The deep tactics of card games with the rich strategy of table top board games, combined with a character role-playing system.
+
   As a hero from one of the clans of Armello, you'll quest, scheme, hire agents, explore, vanquish monsters, cast spells and face off against other players, with one ultimate end goal in mind — storming the palace and becoming King or Queen of Armello. The Kingdom of Armello is as dangerous as it is beautiful, perils, banes and bandits hide around every corner and a spreading corruption known as the rot is leaving no creature untouched.
+
   Armello is League of Geeks’ attempt to revolutionise digital board and card games, whilst providing players a rich world within which they can craft their own stories of epic adventure. The aim was to create a rich game full of backstabbing, close shaves, shattered alliances, ruses and empty promises - a perfect game to play online with your friends.
 
 tags:
+  author:
+    - 'League of Geeks'
   type:
     - strategy
     - board
@@ -27,15 +31,37 @@ tags:
     - zh
   publish:
     - steam
+    - google-play
+    - apple-appstore
+    - e-shop
+    - microsoft-store
   platform:
     - windows
     - macos
     - linux
-
+    - android
+    - ios
+    - playstation4
+    - nintendo-switch
+    - xbox-one
 
 links:
   - name: .steam
     uri: steam:290340
+  - name: .play-store
+    uri: google-play-store:com.leagueofgeeks.armello
+  - name: .apple-appstore
+    uri: https://apps.apple.com/au/app/armello/id1154749673
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/armello-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP1120-CUSA03300_00-00ARMELLOONESCEA
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/armello/bt990qwd1dlf
+  - name: .website
+    uri: https://armello.com/
+  - name: .twitter
+    uri: twitter:ArmelloGame
 
 thumbnail: thumbnail.jpg
 
