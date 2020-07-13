@@ -5,6 +5,9 @@
 {% if checktag(game, "sys", "tagme") %}
 	<div class="box notice">{{ ui.noticebox_tagme }}</div>
 {% endif %}
+{% if 'expunge' in game %}
+	<div class="box warning">{{ ui.warnbox_expunge }}</div>
+{% endif %}
 </div>
 <div class="game">
 	<div class="leftbox">

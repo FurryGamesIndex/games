@@ -72,13 +72,26 @@ def render(games, env, language, language_ui, output):
         context["name"] = name
         print("  => %s" % name)
 
+        if 'expunge' in game:
+            context["noindex"] = True
+
         meta["title"] = get(game, language, 'name')
         desc = get(game, language, 'description')[:200].replace('\n', '') + "..."
         meta["description"] = re.sub(r'<[^<]*>', '', desc)
         meta["image"] = image.uri(context["rr"], game["thumbnail"], name)
 
-        with openw_with_sm(output, os.path.join(language, "games", name + ".html"),
-                priority="0.7", lastmod_file=os.path.join("games", name + ".yaml")) as f:
-            f.write(env.get_template("header.html").render(context))
-            f.write(env.get_template("game.html").render(context))
-            f.write(env.get_template("footer.html").render(context))
+        # TODO: Refactor this code
+        if 'expunge' in game:
+            with open(os.path.join(output, language, "games", name + ".html"), "w") as f:
+                f.write(env.get_template("header.html").render(context))
+                f.write(env.get_template("game.html").render(context))
+                f.write(env.get_template("footer.html").render(context))
+        else:
+            with openw_with_sm(output, os.path.join(language, "games", name + ".html"),
+                    priority="0.7", lastmod_file=os.path.join("games", name + ".yaml")) as f:
+                f.write(env.get_template("header.html").render(context))
+                f.write(env.get_template("game.html").render(context))
+                f.write(env.get_template("footer.html").render(context))
+
+        if "noindex" in context:
+            del context["noindex"]

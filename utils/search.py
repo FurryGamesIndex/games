@@ -30,6 +30,9 @@ class searchdb:
         if self.stub:
             return
 
+        if 'expunge' in game:
+            return
+
         for ns, tags in game["tags"].items():
             for v in tags:
                 tag = ns + ":" + v

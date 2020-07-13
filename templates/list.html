@@ -1,5 +1,5 @@
 <div class="items">
-{% for name, game in games.items() %}
+{% for name, game in games.items() %}{% if 'expunge' not in game %}
 {% set desc = get(game, lang, 'description') %}
 	<div class="item">
 		<img class="thumbnail" alt="{{ get(game, lang, 'name')|e }}" src="{{ image_uri(rr, game.thumbnail, name) }}" >
@@ -8,7 +8,7 @@
 		<div class="description">{{ (desc[:480] + (desc[480:] and '...'))|e }}</div>
 		</div>
 	</div>
-{% endfor %}
+{% endif %}{% endfor %}
 	<div style="height: 20px;"></div>
 {% include 'copying.html' %}
 </div>

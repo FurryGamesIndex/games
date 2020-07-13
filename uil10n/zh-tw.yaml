@@ -44,6 +44,7 @@ gamewarn_died: 該遊戲未完成並可能已停止開發
 
 game_contact_us: 透過以下方式聯絡“獸人控遊戲索引”專案
 game_sensitive_warning: 當前頁面可能包含敏感媒體，它們已被隱藏。 <a href="%s/%s/sensitive.html">管理敏感內容設定</a>
+warnbox_expunge: 此頁面已從列表頁面和搜尋結果中移除
 
 sensitive_page_tip: |
   這將在所有 FGI 頁面上啟用顯示敏感內容。<br>

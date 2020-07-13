@@ -52,6 +52,7 @@ sensitive_page_tip: |
 
 warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
 noticebox_tagme: This page is known to be missing important tags. Please help to add tags. <br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribution guide</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md">Tags list and explanation</a>
+warnbox_expunge: This page is expunged from list and search.
 
 stock-link-website: Official Website
 stock-link-steam: Get on Steam
