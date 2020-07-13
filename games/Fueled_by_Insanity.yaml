@@ -10,9 +10,6 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
   author:
     - Xarishro
   type:
