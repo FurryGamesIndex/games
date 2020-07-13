@@ -753,6 +753,12 @@ outside-furry-fandom:
     en: 'Indicate that the game is a work born outside the furry fandom'
     zh-cn: '表示该游戏是诞生在兽同好圈外的作品'
 
+not-only-furry-topic:
+  namespaces: [ misc ]
+  explanation:
+    en: 'Indicate that topic of the game is not (or not noly) a furry things. This tag should not be added when the furries occupy the majority of the main characters; if the furries are only a small part of the main characters (such as a multi-racial world where the furries are only one of them), when the topic of the game have emphasized that furries race is in a special status, such as the grudges of the furries race and other races (such as humankinds), do not add this tag and if there is no special emphasis on the speciality of the furries race (that is, the race can be replaced by The other), you should add this tag. Not to be confused with misc:outside-furry-fandom.'
+    zh-cn: '表示该游戏并非（或并非仅）以兽人为中心主题。当兽人占据了主要角色中的绝大多数时，不应添加此标签；若兽人只是主要角色的一小部分（如一个多种种族的世界，兽人只是其中之一时），当游戏的主题中强调了兽人种族具有特殊地位时，比如兽人种族和其他种族（如人类）的恩怨瓜葛，则不要添加这个标签，如果没有特别强调“兽人”种族的特殊性（即该种族在游戏中可以被替换为另一种），则应添加此标签。不要与 misc:outside-furry-fandom 混淆。'
+
 geographical:
   namespaces: [ misc ]
   explanation:
