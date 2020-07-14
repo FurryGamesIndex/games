@@ -19,18 +19,26 @@ description: |
   A thrilling adventure with engaging RPG elements, clever puzzles and pixel perfect platforming.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Bonus Level Entertainment'
+    - 'Independent Arts Software GmbH'
+    - 'EuroVideo Medien'
   type:
     - action
     - adventure
   male:
     - fox
+  misc:
+    - pixel-art
+  lang:
+    - en
   publish:
     - steam
+    - e-shop
   platform:
     - windows
+    - macos
+    - linux
     - playstation4
     - nintendo-switch
     - xbox-one
@@ -40,8 +48,7 @@ links:
     uri: steam:603400
   - name: .website
     uri: https://foxnforests.com/
-  - name: Playstation
-    icon: playstation
+  - name: .playstation-store
     uri: https://store.playstation.com/en-us/product/UP0842-CUSA12192_00-BLEIASFNFEUROEA0
   - name: .nintendo-e-shop
     uri: https://www.nintendo.com/games/detail/fox-n-forests-switch/
