@@ -18,8 +18,7 @@ links:
     uri: steam:563840
   - name: .gog.com
     uri: https://www.gog.com/game/lost_ember
-  - name: Playstation
-    icon: playstation
+  - name: .playstation-store
     uri: https://www.playstation.com/en-us/games/lost-ember-ps4/
 
 thumbnail: thumbnail.jpg

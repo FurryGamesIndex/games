@@ -26,8 +26,7 @@ links:
     uri: steam:449610
   - name: .nintendo-e-shop
     uri: https://www.nintendo.com/games/detail/monster-boy-and-the-cursed-kingdom-switch/
-  - name: Playstation
-    icon: playstation
+  - name: .playstation-store
     uri: https://store.playstation.com/en-us/product/UP0760-CUSA05011_00-MONSTERBOYATCK00
     
 

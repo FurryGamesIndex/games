@@ -70,13 +70,12 @@ links:
     uri: steam:391540
   - name: .gog.com
     uri: https://www.gog.com/game/undertale
-  - name: .microsoft-store
-    uri: https://www.microsoft.com/en-us/p/undertale/9n046hwgq4j2
-  - name: PlayStation
-    icon: playstation
+  - name: .playstation-store
     uri: https://www.playstation.com/en-us/games/undertale-ps4
   - name: .nintendo-e-shop
     uri: https://www.nintendo.com/games/detail/undertale-switch
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/undertale/9n046hwgq4j2
   - name: .website
     uri: https://undertale.com
   - name: .twitter
