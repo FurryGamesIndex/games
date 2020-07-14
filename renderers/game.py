@@ -43,6 +43,7 @@ platform_icons = {
     "psp": '<i title="psp" class="fab fa-playstation fa-fw"></i>',
     "xbox": '<i title="Xbox" class="fab fa-xbox fa-fw"></i>',
     "xbox-one": '<i title="Xbox One" class="fab fa-xbox fa-fw"></i>',
+    "xbox-360": '<i title="Xbox 360" class="fab fa-xbox fa-fw"></i>',
 }
 
 context = {
