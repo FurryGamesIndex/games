@@ -23,17 +23,34 @@ description: |
   
   It is still a work in progress.
 
+description-format: markdown
+
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - DyneWulf
   type:
     - visual-novel
     - bara
     - yiff
+  male:
+    - dog
+    - bull
+    - lion
+    - bear
+    - tiger
+    - mixed
+    - wolf
+    - humankind
+  female:
+    - cat
   misc:
     - work-in-process
     - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
   platform:
     - windows
     - macos
@@ -46,6 +63,10 @@ links:
     uri: patreon:dk999
   - name: .twitter
     uri: twitter:dynewulf
+  - name: .furaffinity
+    uri: https://www.furaffinity.net/user/dynewulf/
+  - name: .website
+    uri: https://www.wolfbiteinteractive.com/
 
 thumbnail: thumbnail.jpg
 

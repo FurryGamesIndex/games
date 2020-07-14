@@ -39,16 +39,25 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - DyneWulf
   type:
     - visual-novel
     - bara
     - yiff
+  male:
+    - wolf
+    - bull
+  malex:
+    - tentacles
+  female:
+    - humankind
   misc:
+    - freeware
     - multiple-series
     - engine-renpy
+  lang:
+    - en
   publish:
     - itchio
   platform:
@@ -64,7 +73,11 @@ links:
     icon: itch.io
     uri: https://dynewulf.itch.io/ideka-halloween-special
   - name: .twitter
-    uri: twitter:dynewulf
+    uri: twitter:dynewul
+  - name: .furaffinity
+    uri: https://www.furaffinity.net/user/dynewulf/
+  - name: .website
+    uri: https://www.wolfbiteinteractive.com/
 
 thumbnail: thumbnail.jpg
 
