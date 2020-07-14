@@ -19,13 +19,39 @@ description: |
   and find the right timing to smash your opponent!
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Digital Crafter'
+  type:
+    - fighting
+    - casual
+  male:
+    - dog
+    - shark
+    - fox
+    - cat
+    - bird
+  misc:
+    - 3d
+    - multiplayer
+    - online
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+    - e-shop
+  platform:
+    - windows
+    - nintendo-switch
 
 links:
   - name: .steam
     uri: steam:1160330
+  - name: .nintendo-e-shop
+    uri: https://ec.nintendo.com/JP/ja/titles/70010000030521
+  - name: .twitter
+    uri: twitter:FightofAnimals
 
 thumbnail: thumbnail.jpg
 
