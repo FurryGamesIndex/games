@@ -27,13 +27,26 @@ description: |
   Over 100 unique illustrations.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Halftone Studios'
   type:
     - visual-novel
     - dating-sim
     - bara
+    - yiff
+  male:
+    - dragon
+    - dog
+    - fox
+    - wolf
+    - sheep
+    - rimjob
+  female:
+    - dog
+    - bird
+  misc:
+    - uncensored
+    - multiple-series
   lang:
     - en
   publish:
@@ -55,6 +68,8 @@ links:
     uri: steam:1127070
   - name: .twitter
     uri: twitter:FamiliarTravels
+  - name: .website
+    uri: http://halftonestudios.net/
 
 thumbnail: thumbnail.jpg
 
