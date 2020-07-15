@@ -30,9 +30,8 @@ description: |
   Live this adventure with an surrounding and inspiring OST with ambiental and atmosferics sound effects that reveal an environment full of life.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'BoomFire Games'
   type:
     - action
     - adventure
@@ -42,12 +41,24 @@ tags:
     - en
   publish:
     - steam
+    - e-shop
+    - microsoft-store
   platform:
     - windows
+    - playstation4
+    - psv
+    - nintendo-switch
+    - xbox-one
 
 links:
   - name: .steam
     uri: steam:881750
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/furwind-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP3252-CUSA15137_00-0000000000000001
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/furwind/9nw1r7h0ljs8
 
 thumbnail: thumbnail.jpg
 
