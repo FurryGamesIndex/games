@@ -49,7 +49,7 @@ def load(data):
         for ns in v["namespaces"]:
             tags.add(ns + ":" + k)
 
-needed_ns = ["author", "lang", "platform"]
+needed_ns = ["type", "author", "lang", "platform"]
 
 def check_and_patch(game):
     for i in needed_ns:
