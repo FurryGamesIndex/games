@@ -5,8 +5,6 @@ description: |
   Solatorobo: Red the Hunter is an action role-playing game taking place in the Shepherd Republic, a nation high in the skies consisting of numerous floating islands. As Red, the player utilizes his personalized robot to pick up heavy items and enemies, catch and throw back projectiles, glide through the skies, and even fish for monsters. Gorgeous visuals and an amazing soundtrack bring the aerial world to life as players complete the more than 70 quests to gain the resources needed to upgrade and prepare their robot for the epic struggle to save the world from the evil about to be unleashed upon the land.
 
 tags:
-  sys:
-    - tagme
   author:
     - CyberConnect2
     - 'Bandai Namco Entertainment Inc.'
@@ -18,6 +16,10 @@ tags:
     - cat
     - fox
     - wolf
+    - lynx
+    - tiger
+  female:
+    - cat
   lang:
     - en
     - ja
