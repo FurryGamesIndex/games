@@ -18,14 +18,33 @@ description: |
   Expired website: http://hazukashii.ru/
 
 tags:
-  sys:
-    - tagme
+  author:
+    - 'HAZUKASHII TEAM'
   type:
     - visual-novel
     - bara
     - yiff
+  male:
+    - cat
+    - wolf
+    - hyena
+    - tiger
+    - dog
+    - mouse
+    - deer
+    - anal
+    - handjob
+    - frottage
+  female:
+    - cat
+  misc:
+    - freeware
+    - engine-renpy
+    - died
   lang:
     - en
+  publish:
+    - website
   platform:
     - windows
     - macos
