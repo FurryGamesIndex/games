@@ -95,6 +95,11 @@ let onload = async () => {
 		case "tagx":
 			searchexpr(value, (tag => {
 				console.log("find: " + tag);
+				switch (tag) {
+				case '$all':
+					return Object.keys(searchdb.data);
+					break;
+				}
 				return searchdb.rtag[tag] || [];
 			})).forEach(i => {
 				num++;
