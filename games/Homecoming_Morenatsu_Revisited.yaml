@@ -71,9 +71,36 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - bear
+    - tiger
+    - wolf
+    - cat
+    - fox
+    - dog
+    - dragon
+    - lion
+    - raccoon-dog
+    - humankind
+    - muscle
+    - anal
+    - handjob
+    - human-on-furry
+  misc:
+    - freeware
+    - multiple-endings
+    - unofficial
+  lang:
+    - en
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
 
 links:
   - name: .itch.io

@@ -29,13 +29,21 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
   type:
     - visual-novel
+    - bara
+    - yiff
+  author:
+    - 'NNaosuke Team'
+  male:
+    - wolf
+    - dog
+    - tiger
+    - cat
+    - shark
   misc:
-    - work-in-process
+    - died
+    - engine-renpy
   lang:
     - en
   publish:
