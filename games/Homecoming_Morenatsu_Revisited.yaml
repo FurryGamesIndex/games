@@ -71,6 +71,8 @@ description: |
 description-format: markdown
 
 tags:
+  author:
+    - 'Stormsinger Studios'
   type:
     - visual-novel
     - bara
