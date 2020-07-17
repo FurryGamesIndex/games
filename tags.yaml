@@ -89,7 +89,13 @@ dating-sim:
   namespaces: [ type ]
   explanation:
     en: 'This game is a dating simulator'
-    zh-cn: '恋爱模拟游戏'
+    zh-cn: '约会模拟游戏'
+
+roguelike:
+  namespaces: [ type ]
+  explanation:
+    en: 'This game is a Roguelike game'
+    zh-cn: 'Roguelike 游戏'
 
 bara:
   namespaces: [ type ]

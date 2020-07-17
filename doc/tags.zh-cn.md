@@ -23,7 +23,8 @@
 - `shooter` 射击游戏
 - `puzzle` 解谜/益智游戏
 - `role-playing` 角色扮演游戏
-- `dating-sim` 恋爱模拟游戏
+- `dating-sim` 约会模拟游戏
+- `roguelike` Roguelike 游戏
 - `bara` 包含较多男同性恋向内容的作品
 - `yuri` 包含较多女同性恋向内容的作品
 - `yiff` 包含成人（R-18）限制级内容的作品

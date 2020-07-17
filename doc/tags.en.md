@@ -24,6 +24,7 @@ Used to describe the type of game
 - `puzzle` This game is a puzzle game
 - `role-playing` This game is a RPG
 - `dating-sim` This game is a dating simulator
+- `roguelike` This game is a Roguelike game
 - `bara` Contains a lot of things of gay
 - `yuri` Contains a lot of things of lesbian
 - `yiff` Contains adult (R18) sensitive contents
