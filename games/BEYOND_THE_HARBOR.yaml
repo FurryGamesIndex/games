@@ -10,14 +10,11 @@ description: |
   If you're interested in game updates, feel free to follow me on Twitter at https://twitter.com/Harmoyena (Be warned that my Twitter page may also contain Explicit content.)
 
 tags:
-  sys:
-    - tagme
   author:
     - Harmonious
   type:
     - visual-novel
     - bara
-    - yiff
   male:
     - hyena
     - cat
@@ -30,6 +27,8 @@ tags:
     - work-in-process
   lang:
     - en
+  publish:
+    - itchio
   platform:
     - windows
     - macos

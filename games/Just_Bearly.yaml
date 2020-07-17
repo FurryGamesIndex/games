@@ -2,7 +2,9 @@ name: Just, Bearly
 
 description: |
   A comedic story game played in vignettes, about feeling anxious as a bear in inner city Melbourne, Australia, and trying to connect to people none the less. 
+
   Click, pull, mash, and guide your way through an ever changing mix of dialogue choices, reaction challenges, dexterity tests, rhythm games and God only knows what else as you overthink and under-perform your way through every day life -- Striving towards greatness and being less of an awkward, anxious, crap.
+
   Key features:
   Vignette story telling
   Very realistic simulations of awkward situations
@@ -12,9 +14,23 @@ description: |
   pretty ok original photography
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Daniel J Roberts'
+  type:
+    - casual
+  male:
+    - bear
+    - rabbit
+    - lion
+    - lizard
+  misc:
+    - freeware
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
 
 links:
   - name: .steam
