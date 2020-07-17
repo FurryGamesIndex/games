@@ -156,6 +156,7 @@ Used to describe miscellaneous information related to the game
 - `engine-renpy` The game is developed using RenPy engine
 - `engine-unity` The game is developed using Unity engine
 - `engine-rpg-maker` The game is developed using RPG Maker engine
+- `engine-godot` The game is developed using GoDot engine
 - `multiple-endings` There are multiple different endings in the game
 - `work-in-process` The game is ongoing
 - `multiple-series` The game is included in a series of connected worldviews or plots

@@ -705,6 +705,12 @@ engine-rpg-maker:
     en: 'The game is developed using RPG Maker engine'
     zh-cn: '游戏使用了 RPG Maker 引擎'
 
+engine-godot:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game is developed using GoDot engine'
+    zh-cn: '游戏使用了 GoDot 引擎'
+
 multiple-endings:
   namespaces: [ misc ]
   explanation:
