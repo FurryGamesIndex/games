@@ -50,11 +50,21 @@ description: |
 tags:
   sys:
     - tagme
+  author:
+    - KoI
   type:
     - visual-novel
     - adventure
     - bara
     - yiff
+  male:
+    - wolf
+    - bird
+    - dog
+    - anal
+    - blowjob
+  female:
+    - dog
   misc:
     - multiple-endings
   lang:
