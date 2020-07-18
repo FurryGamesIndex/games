@@ -26,8 +26,12 @@ description: |
   程序、美术：Zoharwolf
 
 tags:
-  sys:
-    - tagme
+  author:
+    - KCN杏仁
+    - Zoharwolf
+    - 薄荷
+    - 水饺猫
+    - 毛绒虎爪
   type:
     - visual-novel
     - bara
@@ -35,9 +39,14 @@ tags:
   male:
     - dog
     - fox
+    - wolf
     - lion
+    - males-only
   misc:
     - freeware
+    - multiple-series
+  lang:
+    - zh
   platform:
     - windows
 
