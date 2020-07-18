@@ -16,14 +16,21 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - paranoidhawk
   type:
     - visual-novel
     - bara
+  male:
+    - bird
+    - wolf
   misc:
+    - freeware
     - engine-unity
+  lang:
+    - en
+  publish:
+    - itchio
   platform:
     - windows
     - web
