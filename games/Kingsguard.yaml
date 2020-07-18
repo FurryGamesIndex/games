@@ -24,13 +24,31 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Hiddenwall
   type:
     - visual-novel
     - bara
     - yiff
+  male:
+    - wolf
+    - mouse
+    - bear
+    - fox
+    - lion
+    - bull
+    - humankind
+    - human-on-furry
+    - masturbation
+    - blowjob
+  misc:
+    - work-in-process
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
   platform:
     - windows
     - macos
