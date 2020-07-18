@@ -2,20 +2,44 @@ name: Legend of Kay Anniversary
 
 description: |
   10 years after its initial release, Legend of Kay - Anniversary is a thoroughly remastered version of the original game: high-resolution textures; new, more detailed character models; modern rendering techniques and crystal-clear surround sound give this great classic a new shine.
+
   Full of fond allusions to old martial arts films and pop culture quotes, Legend of Kay - Anniversary is both an incredibly funny game and a challenging action-adventure for young and old alike.
-  Key Features:25 different levels with over 15 enemy types and epic boss battles.
+
+  Key Features:
+  25 different levels with over 15 enemy types and epic boss battles.
   3 different primary weapons (sword/hammer/claws) with distinct combat styles.
   Various mini-games such as wild boar racing, dragon flying and wolf riding.
   Online rankings: compare your score with your friends’ and compete against the best in the world.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - KAIKO
+    - 'Neon Studios'
+    - 'THQ Nordic'
+  type:
+    - role-playing
+  male:
+    - tiger
+    - rabbit
+    - bear
+  misc:
+    - 3d
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+    - playstation4
+    - wii-u
+    - nintendo-switch
 
 links:
   - name: .steam
     uri: steam:313810
+  - name: .playstation-store
+    uri: https://www.playstation.com/en-us/games/legend-of-kay-anniversary-ps4/
 
 thumbnail: thumbnail.jpg
 
