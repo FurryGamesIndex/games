@@ -2,6 +2,7 @@ name: Lovers of Aether
 
 description: |
   Now is not the time for war. Now is the time for love! The homecoming dance is tonight and you need a date pronto. Spend your school day talking to the students at Aether High. All the original characters from Rivals of Aether are in attendance. It's up to you to decide who you would like to take the the homecoming dance. Get to know each character by talking to them and asking questions. But the school day is not all about lollygagging. You'll have to attend classes, take a pop quiz, give a book presentation and play a game in the computer lab. At the end of the day, will you have a date to the dance?
+
   Less words than War and Peace by Leo Tolstoy! Don't spend the rest of your life reading the words in this game.
   Orcane is a pranskter! Do you like pranks? Then you'll love Orcane.
   Use your mouse and click stuff. Or use a touch screen and poke stuff. Or use your eyes and look at stuff. Or use your wallet and buy Rivals of Aether.
@@ -12,13 +13,45 @@ description: |
   An amazing soundtrack that will remind you of the fighting game with these characters so maybe you'll buy that game for all your friends after playing this game.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Dan Fornace'
+  type:
+    - visual-novel
+  male:
+    - lion
+    - hyena
+    - wolf
+    - cat
+    - bird
+    - lizard
+    - sheep
+    - bear
+    - snake
+    - rabbit
+  misc:
+    - freeware
+    - multiple-series
+  lang:
+    - en
+  publish:
+    - steam
+    - google-play
+    - apple-appstore
+  platform:
+    - windows
+    - macos
+    - android
+    - ios
 
 links:
   - name: .steam
     uri: steam:1043180
+  - name: .play-store
+    uri: google-play-store:com.danfornace.loversofaether
+  - name: .apple-appstore
+    uri: https://apps.apple.com/ie/app/lovers-of-aether/id1459737243
+  - name: .website
+    uri: https://rivalsofaether.com/
 
 thumbnail: thumbnail.jpg
 

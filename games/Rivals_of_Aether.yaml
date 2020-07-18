@@ -1,60 +1,141 @@
 name: Rivals of Aether
 
 description: |
-  Overview
+  ## Overview
   RIVALS OF AETHER is an indie fighting game set in a world where warring civilizations summon the power of Fire, Water, Air, and Earth. Choose a Rival to bring into the battlefield and manipulate the powers of the classical elements and animal movement. Praised for its competitive gameplay and intensive training tools, Rivals of Aether is the perfect entry to the Platform Fighter genre.
   
-  Game Features
+  ## Game Features
   Choose VERSUS MODE  to duke it out in competitive 1v1 or 2v2 fights, or jump into a free-for-all.
+
   Play STORY MODE  to learn the backstory behind each rival and begin to uncover the hidden mysteries of Aether.
+
   Dive into ABYSS MODE  to see how many waves of shadowy fighters you can defeat and reach the leaderboards alone or with a friend. Customize your Abyss Mode builds and challenge your friends in ABYSS VERSUS .
+
   Take your skills online in ONLINE VERSUS ! Play against your friends or test your skills in RANKED MODE  to climb the leaderboard.
+
   Study TUTORIAL MODE  to hone your skills from beginner to advanced lessons. Or boot up PRACTICE MODE  to get your hands on all the frame data and hitbox visualizations.
   
-  Rivals
+  ## Rivals
+
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/383980/extras/zetter-charbox.png)
+
   Zetterburn, a son of the ruling family of the Firelands, is an experienced and hardened warrior. In battle, Zetterburn uses no weapons except for his razor-sharp claws and ability to control flame.
+
   BURN DAMAGE - Zetterburn's special attacks can set opponents on fire, causing them additional damage over time.
+
   WILD FIRE - Zetterburn's Down Special places flames on the stage. These flames stay for a period of time, burning any opponents who come in contact with them.
+
   FIRE AMP - When an opponent is burning, Zetterburn's Strong Attacks can absorb the flames and launch the burned enemy twice as far, making for an effective killing blow.
+
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/383980/extras/orcane-charbox.png)
+
   Orcane is a playful trickster, notorious for escaping even the most precarious of situations. He can transform into water and confuse enemies with a spray of bubbles.
+
   PUDDLE TELEPORTATION - Orcane creates a puddle with his Neutral Special or Down Special. He can then teleport to his puddle using his Up Special as a powerful vertical blow or an effective recovery when launched off the stage.
+
   BUBBLE EVAPORATION - Orcane can turn his puddle into a pillar of bubbles with his Down Special to trap enemies above the puddle.
+
   WATER AMP - When standing on top of his puddle, Orcane can consume the water underneath him to perform powerful Strong Attacks with far greater range and knockback.
+
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/383980/extras/wrastor-charbox.png)
+
   The youngest trainee in the history of the Air Academy, Wrastor has never lived by anyone's rules but his own. Currently an Aerial Ace for the Air Armada, Wrastor is wrecking havoc among the Armada's enemies and generals alike.
+
   WINGED FLIGHT - Wrastor can jump 4 times, making him incredible at controlling the air and recovering from the toughest falls even when things look grim.
+
   WIND CURRENT - Wrastor can create a Wind Current with his Forward Special, allowing him to move faster within it and chase his targets more effectively.
+
   AERIAL ACE - Wrastor performs his charged Strong Attacks in the air instead of on the ground, a first for this genre.
+
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/383980/extras/kragg-charbox.png)
+
   Kragg is a defender of the colossal Aetherian Forest. Deliberate and loyal, he is one of the infamous Wall Runners who patrol the Rock Wall. Unlike other Wall Runners, Kragg has the legendary ability to control the earth with his will.
+
   ROCK HURL - Kragg can pull a rock out of the ground and hurl it at opponents. After it leaves his hands, the rock becomes a solid piece of stage that either Kragg or other players can break.
+
   DEFENSE BALL - Kragg can curl into a ball and roll toward enemies. Although he can be damaged while in ball form, he cannot be knocked away.
+
   EARTH PILLAR - Kragg can summon a pillar of earth to his feet regardless of where he is. If Kragg is about to fall to his death, this move can quickly turn his situation around.
+
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/383980/extras/fors-charbox.png)
+
   Forsburn is the disgraced, eldest son of the Firelands' ruling family. After being condemned by the Fire Council and his own brother, Forsburn found refuge in a group of outsiders who had rejected the flame and mastered the way of smoke.
+
   SMOKE SCREEN - Forsburn can use his Neutral Special to obscure the battlefield allowing Forsburn to remain hidden inside a cloud of smoke.
+
   DECOY - Through his Forward Special, Forsburn can create a smoke facsimile of himself that can attack opponents. The illusory Forsburn breaks into smoke after being hit by a single attack.
+
   CONSUME/COMBUST - By using his Down Special, Forsburn can consume his smoke clouds back into his body. After consuming three clouds, Forsburn is charged up and can use Down Special again to combust: knocking opponents away at high speed.
+
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/383980/extras/maypul-charbox.png)
+
   Maypul is the self-appointed Guardian of the Aetherian Forest. She commands fearful respect throughout the forest for her unhesitating vigilantism. She uses her agility to trap any unknown intruders before they even realize she is there.
+
   WATCHER'S MARK - Maypul can use her Seeds or her Watcher's Dash to mark opponents, making them susceptible to her following attacks.
+
   WRAPPED UP - After marking her targets, Maypul can use her Strong Attacks or her trusty Plant to wrap marked opponents in place allowing her to follow up with another attack.
+
   SLING SHOT - Maypul can use her vines to sling toward marked opponents, allowing her to elude attacks and quickly close distances.
+  
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/383980/extras/absa-charbox.png)
+
   Absa is a famed engineer and martialist of the Elders of the Air Alliance. Despite the laws of the Elders, Absa secretly developed storm techniques in the caves of the Archai mountains.
+
   CLOUD CONTROL - Absa can place a cloud using her Neutral or Forward Special. This cloud hangs in the air until Absa bursts it by tapping her Neutral Special and knocking enemies away.
+
   THUNDER BOLT - Absa can charge her Neutral Special to create a powerful lightning blast that connects her to her cloud. All opponents caught between the two will be knocked away at high speeds.
+
   CONDENSED STORM - Absa focuses the power of a lightning bolt to the tip of her hoof. If she can line up one of her aerial kicks perfectly, she unleashes great power.
+
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/383980/extras/etalus-charbox.png)
+
   Etalus is a legendary warrior in his native land. He is one of the last surviving members of the Harbor Guard and uses the power of ice to augment his massive strength.
+
   HOME ICE ADVANTAGE: Etalus can use his Forward Special or Forward Tilt to freeze the ground beneath him in order to slide across on the icy surface.
+
   ARMORED UP: When standing on ice, Etalus can use his Neutral Special to absorb the ice and create ice armor around his body.
+
   AVALANCHE: Etalus can use his Down Special to shatter all nearby ice, instantly freezing any enemies who are standing on it.
 
+description-format: markdown
+
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Dan Fornace'
+  type:
+    - fighting
+  male:
+    - lion
+    - hyena
+    - wolf
+    - cat
+    - bird
+    - lizard
+    - sheep
+    - bear
+    - snake
+    - rabbit
+    - non-anthro
   misc:
     - pixel-art
+    - multiplayer
+  lang:
+    - en
+    - ja
+  publish:
+    - steam
+  platform:
+    - windows
+    - nintendo-switch
+    - xbox-one
 
 links:
   - name: .steam
     uri: steam:383980
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/store/p/rivals-of-aether/bwsq6832lwnl
+  - name: .website
+    uri: https://rivalsofaether.com/
 
 thumbnail: thumbnail.jpg
 

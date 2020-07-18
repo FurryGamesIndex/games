@@ -6,7 +6,9 @@ description: |
   A Political Battle On The Verge Of Revolution
   A Mysterious String Of Murders, Claiming Family and Friends
   At The Heart of It All -- Is You
+
   A wave of murder and suicide has been hitting the country, all under circumstances more than mysterious. You play as one of the "Lucky Two", winners of a contest who have the honor of touring with an international pop idol. But as you arrive in Tokyo for the launch of this world tour, events quickly escalate. You have no choice but to delve deeper into dangerous territory -- all in the name of uncovering the truth of these enigmatic deaths. A truth that involves the dissonant connection to another world; and the inhabitants within who seek salvation. You are The Savior -- and it is your job to deliver a brighter future to this world.
+
   Features:
   Length Of Several Novels 
   30 Characters to Interact With
@@ -20,13 +22,45 @@ description: |
   Steam Link and Steam Overlay Support
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Klace
+    - 'Tall Tail Studios'
+  type:
+    - visual-novel
+  male:
+    - dog
+    - wolf
+    - fox
+    - hyena
+    - dragon
+    - mouse
+    - bird
+    - cat
+    - leopard
+    - tiger
+    - raccoon
+    - horse
+    - rabbit
+    - bear
+  female:
+    - dog
+    - fox
+  lang:
+    - en
+  publish:
+    - steam
+    - google-play
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
 
 links:
   - name: .steam
     uri: steam:475490
+  - name: .play-store
+    uri: google-play-store:klace.majorminor.androidmv
 
 thumbnail: thumbnail.jpg
 
