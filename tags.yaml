@@ -981,6 +981,12 @@ nds:
     en: 'Nintendo 3DS'
     zh-cn: '游戏官方支持 Nintendo 3DS'
 
+wii-u:
+  namespaces: [ platform ]
+  explanation:
+    en: 'Wii U'
+    zh-cn: '游戏官方支持 Wii U'
+
 nintendo-switch:
   namespaces: [ platform ]
   explanation:
