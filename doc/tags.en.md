@@ -116,6 +116,7 @@ The following are automatic tags, they are no different from other tags when you
 - `masturbation` Self-pleasuring.
 - `handjob` Main characters may masturbate another participant
 - `rimjob` Main characters may orally stimulating anuses
+- `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` Sexual activity between a humankind creature and a furry
 - `animal-on-furry` Sexual activity between a animal/non-anthro and a furry
 
@@ -212,6 +213,7 @@ The operating systems and platforms offical supported by the game
 - `nds` Nintendo DS
 - `2ds` Nintendo 2DS
 - `3ds` Nintendo 3DS
+- `wii-u` Wii U
 - `nintendo-switch` Nintendo Switch
 - `psv` Sony PlayStation Vita
 - `psp` Sony PlayStation Portable

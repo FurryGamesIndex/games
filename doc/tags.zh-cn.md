@@ -116,6 +116,7 @@
 - `masturbation` 主要角色中出现手淫行为
 - `handjob` 主要角色之间出现手淫另一角色的阴茎
 - `rimjob` 主要角色之间出现用舌头在另一角色的肛门边缘上的性行为
+- `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` 主要角色中，人类与兽人发生了性关系
 - `animal-on-furry` 主要角色中，动物或纯兽（非人形 furry）和兽人发生了性关系
 
@@ -212,6 +213,7 @@
 - `nds` 游戏官方支持 Nintendo DS
 - `2ds` 游戏官方支持 Nintendo 2DS
 - `3ds` 游戏官方支持 Nintendo 3DS
+- `wii-u` 游戏官方支持 Wii U
 - `nintendo-switch` 游戏官方支持 Nintendo Switch
 - `psv` 游戏官方支持 Sony PlayStation Vita
 - `psp` 游戏官方支持 Sony PlayStation Portable
