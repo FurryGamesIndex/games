@@ -25,13 +25,41 @@ description: |
   Fight using fluid, stylish combat that combines swordplay, magical abilities and time-manipulation.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Spearhead Games'
+  type:
+    - role-playing
+    - action
+    - adventure
+  male:
+    - bird
+    - bear
+    - wolf
+  female:
+    - lynx
+    - mouse
+    - humankind
+  misc:
+    - 3d
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+    - e-shop
+  platform:
+    - windows
+    - nintendo-switch
+    - playstation4
+    - xbox-one
 
 links:
   - name: .steam
     uri: steam:455820
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/omensight-definitive-edition-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP0632-CUSA10769_00-OMENSIGHTTHEGAME
 
 thumbnail: thumbnail.jpg
 

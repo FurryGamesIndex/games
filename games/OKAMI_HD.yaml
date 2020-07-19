@@ -2,16 +2,48 @@ name: OKAMI HD / 大神 絶景版
 
 description: |
   Experience the critically acclaimed masterpiece with its renowned Sumi-e ink art style in breathtaking high resolution. Take on the role of Amaterasu, the Japanese sun goddess who inhabits the form of a legendary white wolf, on a quest to defeat Orochi, an eight-headed demon and tyrannical monster responsible for turning the world of Nippon into a ruined wasteland.
+
   Players will be able to choose between modern widescreen format or the original release’s 4:3 ratio. Interactive loading game screens from the original game are also included.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - CAPCOM
+  type:
+    - role-playing
+    - adventure
+  male:
+    - dog
+    - lung
+    - humankind
+    - non-anthro
+  female:
+    - humankind
+  misc:
+    - centralized
+  lang:
+    - en
+    - ja
+  publish:
+    - steam
+    - e-shop
+  platform:
+    - windows
+    - nintendo-switch
+    - playstation3
+    - playstation4
+    - xbox-one
 
 links:
   - name: .steam
     uri: steam:587620
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/okami-hd-switch/
+  - name: .playstation-store
+    uri: https://www.playstation.com/en-us/games/okami-hd-ps4/
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/store/p/okami-hd/c0w6p6n2q4qf
+  - name: .website
+    uri: http://www.okami-game.com/characters.php
 
 thumbnail: thumbnail.jpg
 

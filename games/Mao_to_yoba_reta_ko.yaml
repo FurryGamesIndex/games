@@ -26,8 +26,8 @@ description: |
   https://reona5112.wixsite.com/mysite
 
 tags:
-  sys:
-    - tagme
+  author:
+    - HTN
   type:
     - role-playing
   male:
@@ -37,9 +37,14 @@ tags:
     - bear
   female:
     - cat
+    - wolf
+    - dog
     - lion
   misc:
     - multiple-endings
+    - engine-rpg-maker
+  lang:
+    - ja
   publish:
     - booth
   platform:
