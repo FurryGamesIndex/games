@@ -16,13 +16,40 @@ description: |
   - 8 ability cards that bring excitement to battles, introducing strategy and unpredictability.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Taco Truck Games'
+  type:
+    - board
+    - casual
+  male:
+    - cat
+  misc:
+    - online
+    - multiplayer
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+    - google-play
+    - apple-appstore
+  platform:
+    - windows
+    - android
+    - ios
 
 links:
   - name: .steam
     uri: steam:762110
+  - name: .play-store
+    uri: google-play-store:com.TacoTruckGames.MeowWars
+  - name: .apple-appstore
+    uri: https://itunes.apple.com/us/app/meow-wars/id1353622193
+  - name: .twitter
+    uri: twitter:TacoTruckGames
+  - name: .website
+    uri: http://www.meowwars.com/
 
 thumbnail: thumbnail.jpg
 

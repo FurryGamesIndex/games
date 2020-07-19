@@ -2,9 +2,13 @@ name: Monster Boy and the Cursed Kingdom
 
 description: |
   A legendary series returns with a grand new adventure!
+
   Enjoy a colorful action-adventure game made alongside Ryuichi Nishizawa, creator of the original Wonder Boy in Monster World series.
+
   Monster Boy and the Cursed Kingdom borrows the best from the classic series to deliver a fresh, modern adventure with fun gameplay, memorable music and gorgeous hand drawn animations.
+
   Can Jin save Monster World Kingdom? Help our young hero defeat challenging enemies, discover hidden locations, upgrade powerful equipment, and more! You'll also unlock special forms with unique skills used to open new paths where mighty bosses and secret treasures await.
+
   Feature Overview:
   Six awesome forms with unique combat and platforming abilities to make your adventure exciting from start to finish.
   Unlock new paths and secrets with special equipment: look for magic weapons and items that gradually open up the world.
@@ -13,13 +17,30 @@ description: |
   Soundtrack from iconic Japanese composers: Yuzo Koshiro, Motoi Sakuraba, Michiru Yamane, Keiki Kobayashi and Takeshi Yanagawa.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Game Atelier'
+    - 'FDG Entertainment'
+  type:
+    - action
+    - adventure
+  male:
+    - dragon
+    - pig
+    - lion
+    - snake
+    - humankind
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+    - e-shop
   platform:
     - windows
     - nintendo-switch
     - playstation4
+    - xbox-one
 
 links:
   - name: .steam
@@ -28,6 +49,10 @@ links:
     uri: https://www.nintendo.com/games/detail/monster-boy-and-the-cursed-kingdom-switch/
   - name: .playstation-store
     uri: https://store.playstation.com/en-us/product/UP0760-CUSA05011_00-MONSTERBOYATCK00
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/monster-boy-and-the-cursed-kingdom/c4pcn1ck76mr
+  - name: .website
+    uri: http://www.monsterboy.com/
     
 
 thumbnail: thumbnail.jpg

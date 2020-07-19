@@ -16,14 +16,13 @@ description: |
   Some clues in the game must be kept in mind, I'm sure you'll need these clues as the plot develops.
 
 tags:
-  sys:
-    - tagme
   author:
     - 'Beast of Dreams'
   type:
     - role-playing
     - puzzle
   male:
+    - wolf
     - humankind
   misc:
     - pixel-art
