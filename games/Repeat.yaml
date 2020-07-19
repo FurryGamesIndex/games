@@ -7,35 +7,40 @@ description: |
 
 tags:
   author:
-      - 'shirokoi'
+    - 'shirokoi'
   type:
-      - visual-novel
-      - bara
-      - yiff
+    - visual-novel
+    - bara
+    - yiff
   male:
-      - rabbit
-      - fox
-      - cat
-      - muscle
-      - anal
-      - blowjob
+    - rabbit
+    - fox
+    - cat
+    - wolf
+    - muscle
+    - anal
+    - blowjob
+    - handjob
+    - masturbation
+  malex:
+    - exhibitionism
   misc:
-      - freeware
-      - uncensored
-      - engine-renpy
-      - multiple-endings
-      - work-in-process
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
   lang:
-      - en
-      - zh-unofficial
+    - en
+    - zh-unofficial
   publish:
-      - itchio
-      - patreon
+    - itchio
+    - patreon
   platform:
-      - windows
-      - macos
-      - linux
-      - android
+    - windows
+    - macos
+    - linux
+    - android
 
 links:
   - name: .itch.io
@@ -46,8 +51,6 @@ links:
     uri: twitter:shirokoi
   - name: .unofficial-ver-zh-cn
     uri: https://simone-parker.itch.io/repeatzh
-  - name: Chinese group's twitter
-    uri: https://twitter.com/Crazy_Simone_
 
 thumbnail: thumbnail.jpg
 
