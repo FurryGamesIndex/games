@@ -31,6 +31,8 @@ description: |
   Rich game story, many branches, your choice, what you have will
   Decide the ending you face in the end, don't be sad, hope it will be stored somewhere
 
+expunge: true
+
 tags:
   author:
     - 'DragonSnow'
