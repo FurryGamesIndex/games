@@ -83,8 +83,6 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - tagme
   author:
     - Hyao
   type:
@@ -94,10 +92,19 @@ tags:
     - yuri
     - yiff
   male:
+    - dragon
+    - bull
+    - mouse
+    - wolf
+    - lizard
+    - humankind
+    - anal
+  female:
     - humankind
   misc:
     - engine-renpy
     - not-only-furry-topic
+    - work-in-process
   lang:
     - en
   publish:
@@ -108,7 +115,6 @@ tags:
     - macos
     - linux
     - android
-
 
 links:
   - name: .itch.io

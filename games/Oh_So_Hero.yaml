@@ -1,4 +1,4 @@
-name: Oh So Hero! Pre Edition
+name: Oh So Hero!
 
 description: |
   Oh So Hero is a 2.5D Lewd Metroidvania PC game in development
@@ -12,17 +12,49 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
   author:
     - 'Full Frontal Frog'
   type:
     - action
+    - adventure
     - bara
     - yiff
+  type:
+    - action
+    - bara
+    - yiff
+  male:
+    - mixed
+    - mouse
+    - dog
+    - shark
+    - bull
+    - felidae
+    - lizard
+    - males-only
+    - group
+    - anal
+    - frottage
+    - footjob
+    - handjob
+    - blowjob
+    - rimjob
+    - masturbation
+  malex:
+    - mind-control
+    - corruption
+  misc:
+    - engine-unity
+    - work-in-process
+  lang:
+    - en
+    - zh
+  publish:
+    - itchio
+    - patreon
   platform:
     - windows
+    - macos
 
 links:
   - name: .itch.io
