@@ -110,12 +110,14 @@ The following are automatic tags, they are no different from other tags when you
 - `muscle` Main characters include muscle characters
 - `transfur` Main characters may transfur
 - `anal` Main characters may do a anal sex
+- `group` More than two main characters may engage in sex simultaneously.
 - `blowjob` Main characters may do a blowjob
 - `frottage` Main characters' penises against one another
 - `cockslapping` Self-pleasuring.
 - `masturbation` Self-pleasuring.
 - `handjob` Main characters may masturbate another participant
 - `rimjob` Main characters may orally stimulating anuses
+- `footjob` Main characters may use feet to sexually stimulate another participant
 - `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` Sexual activity between a humankind creature and a furry
 - `animal-on-furry` Sexual activity between a animal/non-anthro and a furry
@@ -127,7 +129,6 @@ TODO: English descriptions is ongoing
 Unless otherwise specified, the malex namespace indicates the furry/human physiological gender is male, and the femalex namespace indicates the furry/human physiological gender is female
 
 - `exhibitionism` 
-- `mind-break` 
 - `ntr` 
 - `mind-control` 
 - `parasite` 

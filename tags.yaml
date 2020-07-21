@@ -481,6 +481,12 @@ anal:
     en: 'Main characters may do a anal sex'
     zh-cn: '主要角色之间包括肛交性行为'
 
+group:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'More than two main characters may engage in sex simultaneously.'
+    zh-cn: '主要角色之间包括群 P 行为'
+
 blowjob:
   namespaces: [ male, female ]
   explanation:
@@ -517,6 +523,12 @@ rimjob:
     en: 'Main characters may orally stimulating anuses'
     zh-cn: '主要角色之间出现用舌头在另一角色的肛门边缘上的性行为'
 
+footjob:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters may use feet to sexually stimulate another participant'
+    zh-cn: '主要角色之间出现用脚对另一角色进行性刺激'
+
 paizuri:
   namespaces: [ male, female ]
   explanation:
@@ -550,12 +562,6 @@ exhibitionism:
   explanation:
     en: ''
     zh-cn: '主要角色出现了在有可能被其他人看见的地方（如户外）进行自愿裸体或性行为。'
-
-mind-break:
-  namespaces: [ malex, femalex ]
-  explanation:
-    en: ''
-    zh-cn: '主要角色中出现了洗脑或被洗脑'
 
 ntr:
   namespaces: [ malex, femalex ]

@@ -110,12 +110,14 @@
 - `muscle` 主要角色中包括肌肉豐滿的角色
 - `transfur` 主要角色中可能出現獸化現象
 - `anal` 主要角色之間包括肛交性行為
+- `group` 主要角色之間包括群 P 行為
 - `blowjob` 主要角色之間包括口交性行為
 - `frottage` 主要角色之間包括陰莖摩擦行為
 - `cockslapping` 主要角色之間包括用陰莖打人
 - `masturbation` 主要角色中出現手淫行為
 - `handjob` 主要角色之間出現手淫另一角色的陰莖
 - `rimjob` 主要角色之間出現用舌頭在另一角色的肛門邊緣上的性行為
+- `footjob` 主要角色之間出現用腳對另一角色進行性刺激
 - `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` 主要角色中，人類與獸人發生了性關係
 - `animal-on-furry` 主要角色中，動物或純獸（非人形 furry）和獸人發生了性關係
@@ -127,7 +129,6 @@
 除非特殊說明，在 malex 名稱空間表示獸人/人類生理性別是男性，在 femalex 名稱空間表示獸人/人類生理性別是女性
 
 - `exhibitionism` 主要角色出現了在有可能被其他人看見的地方（如戶外）進行自願裸體或性行為。
-- `mind-break` 主要角色中出現了洗腦或被洗腦
 - `ntr` 主要角色之間出現了戴綠帽
 - `mind-control` 主要角色之間出現了精神控制行為
 - `parasite` 主要角色中出現了寄生或被寄生
