@@ -13,10 +13,8 @@ description: |
   It is the touhou-liked vertical STG gods and devils played in the Hell.
 
 tags:
-  sys:
-    - tagme
   author:
-    - rodori
+    - Rodori
   type:
     - shooter
   male:
@@ -29,6 +27,7 @@ tags:
     - lizard
   female:
     - lion
+    - dog
   misc:
     - freeware
     - multiple-series
@@ -42,7 +41,7 @@ tags:
 
 links:
   - name: .website
-    uri: http://tokoharu-ward.seesaa.net/
+    uri: http://tokoharu-ward.seesaa.net/article/450525046.html
   - name: .twitter
     uri: twitter:rodori_dori
 

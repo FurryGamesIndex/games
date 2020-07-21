@@ -10,13 +10,35 @@ description: |
   This is Touhou-like Economy Vertical STG sweeping all things with a large amount of financial resources.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Rodori
+  type:
+    - shooter
+  male:
+    - lung
+    - dragon
+    - shark
+    - dog
+    - hyena
+    - bird
+  female:
+    - lion
+    - dog
+    - mouse
+    - cat
+  misc:
+    - freeware
+    - multiple-series
+  lang:
+    - ja
+  publish:
+    - website
+  platform:
+    - windows
 
 links:
   - name: .website
-    uri: http://tokoharu-ward.seesaa.net
+    uri: http://tokoharu-ward.seesaa.net/article/450525046.html
   - name: .twitter
     uri: twitter:rodori_dori
 

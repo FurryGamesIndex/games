@@ -8,13 +8,36 @@ description: |
   立ちはだかる邪神たちを心の火で焼き払う、 東方ライクなエモーショナル縦STGです。
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Rodori
+  type:
+    - shooter
+  male:
+    - lung
+    - dragon
+    - dog
+    - wolf
+    - tiger
+    - shark
+    - snake
+    - bird
+  female:
+    - mouse
+    - bird
+    - wolf
+  misc:
+    - freeware
+    - multiple-series
+  lang:
+    - ja
+  publish:
+    - website
+  platform:
+    - windows
 
 links:
   - name: .website
-    uri: http://tokoharu-ward.seesaa.net
+    uri: http://tokoharu-ward.seesaa.net/article/450525046.html
   - name: .twitter
     uri: twitter:rodori_dori
 
