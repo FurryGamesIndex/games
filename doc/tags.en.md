@@ -130,10 +130,11 @@ Unless otherwise specified, the malex namespace indicates the furry/human physio
 
 - `exhibitionism` 
 - `ntr` 
+- `mind-break` 
 - `mind-control` 
+- `corruption` 
 - `parasite` 
 - `drugs` 
-- `corruption` 
 - `body-swap` 
 - `time-stop` 
 - `guro` 
