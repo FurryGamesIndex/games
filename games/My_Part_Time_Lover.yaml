@@ -12,14 +12,33 @@ description: |
   FullGuide: https://www.patreon.com/posts/27542597
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Bara-Diction
   type:
     - dating-sim
     - role-playing
+    - bara
+    - yiff
+  male:
+    - wolf
+    - bull
+    - lion
+    - bear
+    - dragon
+    - pig
+    - dog
+    - tiger
+    - cat
+    - humankind
+    - males-only
+    - shota
   misc:
     - multiple-endings
+    - engine-rpg-maker
+  lang:
+    - en
+  publish:
+    - itchio
   platform:
     - windows
 
