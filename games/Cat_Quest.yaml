@@ -13,13 +13,48 @@ description: |
   Experience an enchanting orchestral score inspired by classic RPGs!
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'The Gentlebros'
+    - 'PQube Limited'
+  type:
+    - role-playing
+    - action
+  male:
+    - cat
+    - dragon
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+    - gog
+    - google-play
+    - apple-appstore
+    - e-shop
+  platform:
+    - windows
+    - macos
+    - android
+    - ios
+    - nintendo-switch
+    - playstation4
 
 links:
   - name: .steam
     uri: steam:593280
+  - name: .gog.com
+    uri: https://www.gog.com/game/cat_quest
+  - name: .play-store
+    uri: google-play-store:com.thegentlebros.catquest
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/cat-quest/id1148385289
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/cat-quest-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP4293-CUSA09626_00-0000000000000000
+  - name: .website
+    uri: https://www.thegentlebros.com/catquest/
 
 thumbnail: thumbnail.jpg
 

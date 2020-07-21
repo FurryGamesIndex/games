@@ -16,13 +16,48 @@ description: |
   Go on the ultimutt catventure today!
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'The Gentlebros'
+    - 'PQube Limited'
+  type:
+    - role-playing
+    - action
+  male:
+    - cat
+    - dog
+    - dragon
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+    - gog
+    - google-play
+    - apple-appstore
+    - e-shop
+  platform:
+    - windows
+    - ios
+    - nintendo-switch
+    - playstation4
+    - xbox-one
 
 links:
   - name: .steam
     uri: steam:914710
+  - name: .gog.com
+    uri: https://www.gog.com/game/cat_quest_ii
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/cat-quest-ii/id1368471814
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/cat-quest-ii-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP4293-CUSA16539_00-0000000000000000
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/cat-quest-ii/9pmh7f7gd178?activetab=pivot:overviewtab
+  - name: .website
+    uri: https://www.thegentlebros.com/catquest2/
 
 thumbnail: thumbnail.jpg
 
