@@ -9,9 +9,55 @@ description: |
 
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Kul
+    - Cait
+    - Caro
+    - Mei
+    - Juza
+    - 'Peter·T·W'
+    - Xiongma
+    - Camon
+    - Arkalpha
+    - Nyaosan
+    - Pail
+  type:
+    - visual-novel
+    - role-playing
+    - yiff
+  male:
+    - dog
+    - wolf
+    - dragon
+    - bird
+    - shark
+    - cat
+    - leopard
+    - bear
+    - hyena
+    - lion
+    - tiger
+    - humankind
+    - shota
+    - paizuri
+  female:
+    - dog
+    - wolf
+    - humankind
+    - paizuri
+  misc:
+    - uncensored
+    - work-in-process
+  lang:
+    - en
+    - zh
+  publish:
+    - patreon
+    - website
+  platform:
+    - windows
+    - macos
+    - linux
 
 links:
   - name: .website

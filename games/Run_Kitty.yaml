@@ -16,14 +16,18 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Strong & Furry'
   type:
     - visual-novel
     - bara
+  male:
+    - cat
+    - dog
+    - muscle
   misc:
     - work-in-process
+    - engine-renpy
   lang:
     - en
   publish:

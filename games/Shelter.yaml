@@ -20,15 +20,24 @@ description: |
   Awoo~!
 
 tags:
-  sys:
-    - tagme
+  author:
+    - rausmutt
   type:
     - visual-novel
     - bara
     - yiff
   male:
     - dog
-    - humankind
+    - wolf
+    - muscle
+    - males-only
+    - masturbation
+  misc:
+    - work-in-process
+    - engine-renpy
+    - uncensored
+  lang:
+    - en
   publish:
     - itchio
     - patreon

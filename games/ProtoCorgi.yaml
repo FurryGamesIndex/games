@@ -8,7 +8,7 @@ description: |
   Sometimes, our fate is just a few barks away.
 
   With tight controls, smooth gameplay and exciting mechanics, ProtoCorgi aims to converge the best of the classics and the newest of the  shoot 'em up genre into one solid piece.
-  Dodge, shoot and bark in this cute action shoot 'em up.
+
   Highlights and Features:
   Fully animated beautiful pixel art. 
   Tight controls and solid gameplay. 
@@ -17,16 +17,23 @@ description: |
   More surprises.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Kemono Games'
+    - 'Ravenscourt'
+  type:
+    - shooter
   male:
+    - cat
+    - dog
     - non-anthro
   misc:
     - pixel-art
     - work-in-process
   lang:
     - en
+  publish:
+    - steam
+    - itchio
   platform:
     - windows
     - macos

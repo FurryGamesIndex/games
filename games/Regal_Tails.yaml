@@ -37,12 +37,31 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Nemean Lion Studio'
   type:
     - visual-novel
     - yiff
+  male:
+    - bird
+    - cat
+    - lion
+    - bear
+    - bull
+    - wolf
+  female:
+    - lion
+    - tiger
+    - snow-leopard
+    - wolf
+  misc:
+    - uncensored
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
   platform:
     - windows
     - macos
