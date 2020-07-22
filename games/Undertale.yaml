@@ -20,8 +20,6 @@ description: |
    •  If you play this game, can you count the dogs for me...? I'm not good at it.
 
 tags:
-  sys:
-    - tagme
   author:
     - 'Toby Fox'
     - 'Temmie Chang'
@@ -48,15 +46,16 @@ tags:
     - multiple-series
     - multiple-endings
     - outside-furry-fandom
+    - not-only-furry-topic
   lang:
     - en
     - ja
     - zh-unofficial
   publish:
     - steam
-    - microsoft-store
-    - e-shop
     - gog
+    - e-shop
+    - microsoft-store
   platform:
     - windows
     - macos

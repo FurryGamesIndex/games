@@ -17,16 +17,27 @@ description: |
   Dynewulf's Patreon: https://www.patreon.com/dk999
 
 tags:
-  sys:
-    - tagme
   author:
     - Braford
   type:
     - visual-novel
     - adventure
     - bara
+    - yiff
   male:
     - bull
+    - lion
+    - leopard
+    - bear
+    - mixed
+    - muscle
+    - males-only
+    - masturbation
+  misc:
+    - work-in-process
+    - engine-renpy
+  lang:
+    - en
   publish:
     - patreon
   platform:
