@@ -26,6 +26,9 @@ description: |
 tags:
   author:
     - 煦风社
+  type:
+    - visual-novel
+    - bara
   male:
     - dog
     - wolf

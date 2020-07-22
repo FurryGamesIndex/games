@@ -12,13 +12,29 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Grim-Meow'
   type:
     - visual-novel
     - bara
-    - yiff
+  male:
+    - lung
+    - bear
+    - dog
+    - bird
+    - leopard
+    - bull
+    - lizard
+    - wolf
+    - fox
+    - non-anthro
+  female:
+    - fox
+  misc:
+    - work-in-process
+    - engine-renpy
+  lang:
+    - en
   publish:
     - itchio
     - patreon

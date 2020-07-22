@@ -14,22 +14,23 @@ description: |
   -Basic, Advance, Expert difficulties.
 
 tags:
-  sys:
-    - tagme
   author:
     - studioQuare
     - 'Nanjing AQUATRAX'
   type:
     - music
-  lang:
-    - en
-    - ja
-    - zh
+  male:
+    - bear
+    - dog
   misc:
     - work-in-process
     - geographical
     - online
     - centralized
+  lang:
+    - en
+    - ja
+    - zh
   publish:
     - google-play
     - apple-appstore
