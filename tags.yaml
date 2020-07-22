@@ -671,6 +671,13 @@ brain-fuck:
     en: ''
     zh-cn: '主要角色之间包括涉及大脑的性行为'
 
+vore:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: 'Main characters may swallow or be swallowed whole via the mouth.'
+    zh-cn: '主要角色可能（从嘴）吞入某个角色或被某个角色吞人'
+
+
 ###################################################
 ###################################################
 

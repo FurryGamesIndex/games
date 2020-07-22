@@ -147,6 +147,7 @@ Unless otherwise specified, the malex namespace indicates the furry/human physio
 - `petrification` 
 - `stomach-deformation` 
 - `brain-fuck` 
+- `vore` Main characters may swallow or be swallowed whole via the mouth.
 
 ## Namespace misc
 
