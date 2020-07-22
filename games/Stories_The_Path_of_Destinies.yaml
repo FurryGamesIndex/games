@@ -2,8 +2,13 @@ name: 'Stories: The Path of Destinies'
 
 description: |
   Stories: The Path of Destinies is an action RPG set in a vibrant fairytale universe filled with floating islands, majestic airships, and colorful magic. Reynardo, ex-pirate and unintentional hero, suddenly becomes the last line of the defense against the mad Emperor and his countless ravens. Can he come up with a plan that won’t blow up in his face, for a change?
+
   In Stories, each choice you make takes Reynardo into a unique narrative. From tongue-in-cheek takes on heroic adventures to dark, Lovecraftian scenes, Stories’ repertoire is as diverse as it is action-packed. But Reynardo’s fateful decisions won’t always come easy: Sometimes retrieving a weapon lost at the beginning of time means sacrificing the life of an old friend.  But with so many choices to make, so many potential dire destinies, wouldn't it be great to be able to come back in time, learn from your mistakes and find the one true path?
-  Stories: The Path of Destinies now runs on Unreal Engine 4.18 with enhanced graphics and better performance!KEY FEATURESUnique choice-based narrative in which players explore many different storylines to find the path to victory
+
+  Stories: The Path of Destinies now runs on Unreal Engine 4.18 with enhanced graphics and better performance!
+
+  KEY FEATURES
+  Unique choice-based narrative in which players explore many different storylines to find the path to victory
   Fluid and fast-paced combat blending acrobatic swordplay, grab attacks, special abilities, and more
   Charming hand-drawn illustrations and a colorful storybook aesthetic
   A deep skill tree where players can unlock powerful new abilities such as the Hookshot or even Time Mastery
@@ -11,13 +16,42 @@ description: |
   An original soundtrack that changes dynamically with every choice
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Spearhead Games'
+  type:
+    - role-playing
+    - action
+    - adventure
+  male:
+    - fox
+    - rabbit
+  female:
+    - cat
+  misc:
+    - 3d
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - steam
+    - gog
+    - microsoft-store
+  platform:
+    - windows
+    - playstation4
+    - xbox-one
 
 links:
   - name: .steam
     uri: steam:439190
+  - name: .gog.com
+    uri: https://www.gog.com/game/stories_the_path_of_destinies
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-ca/product/UP0632-CUSA04101_00-STORIESGAME00001
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/stories-the-path-of-destinies/9nnhzx41p7jv
+  - name: .website
+    uri: http://www.storiesthepathofdestinies.com/
   - name: .unofficial-patch-zh-cn
     uri: https://keylol.com/t429856-1-1
 
