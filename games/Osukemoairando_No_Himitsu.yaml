@@ -18,9 +18,27 @@ description: |
   森谷さん
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - とりあえず
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - bull
+    - tiger
+    - shark
+    - lizard
+    - snake
+    - humankind
+    - males-only
+    - anal
+  misc:
+    - multiple-endings
+  lang:
+    - ja
+  platform:
+    - windows
 
 links:
   - name: Buy on dlsite
