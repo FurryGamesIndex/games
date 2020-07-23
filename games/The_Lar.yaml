@@ -13,14 +13,30 @@ description: |
   Thanks for Charem to translation!
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Team Yume'
+  type:
+    - role-playing
+  male:
+    - dog
+    - wolf
+    - snow-leopard
+    - humankind
+    - transfur
+  female:
+    - dog
+    - cat
+    - wolf
   misc:
+    - freeware
     - pixel-art
   lang:
     - en
     - zh
+  publish:
+    - steam
+  platform:
+    - windows
 
 links:
   - name: .steam

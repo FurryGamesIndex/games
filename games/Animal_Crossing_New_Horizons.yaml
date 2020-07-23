@@ -20,6 +20,40 @@ tags:
   type:
     - casual
     - business-sim
+  male:
+    - dog
+    - cat
+    - wolf
+    - bird
+    - pig
+    - horse
+    - deer
+    - lion
+    - mouse
+    - bull
+    - bear
+    - lizard
+    - sheep
+    - rabbit
+    - tiger
+    - monkey
+  female:
+    - dog
+    - cat
+    - wolf
+    - bird
+    - pig
+    - horse
+    - deer
+    - lion
+    - mouse
+    - cow
+    - bear
+    - lizard
+    - sheep
+    - rabbit
+    - tiger
+    - monkey
   misc:
     - 3d
     - multiplayer
@@ -35,8 +69,6 @@ tags:
     - e-shop
   platform:
     - nintendo-switch
-  sys:
-    - tagme
 
 links:
   - name: .twitter
