@@ -13,6 +13,7 @@ Used to describe the type of game
 
 - `visual-novel` This game is a visual novel
 - `strategy` This game is a strategy game
+- `real-time-strategy` This game is a RTS game
 - `casual` This game is a casual game
 - `business-sim` This game is a business simulator
 - `adventure` This game is an adventure game
@@ -173,7 +174,8 @@ Used to describe miscellaneous information related to the game
 - `not-only-furry-topic` Indicate that topic of the game is not (or not noly) a furry things. This tag should not be added when the furries occupy the majority of the main characters; if the furries are only a small part of the main characters (such as a multi-racial world where the furries are only one of them), when the topic of the game have emphasized that furries race is in a special status, such as the grudges of the furries race and other races (such as humankinds), do not add this tag and if there is no special emphasis on the speciality of the furries race (that is, the race can be replaced by The other), you should add this tag. Not to be confused with misc:outside-furry-fandom.
 - `geographical` Game publishers implement overly different services in different regions
 - `online` The game includes online functions, such as paid purchase points, online ranking system, etc.
-- `centralized` The main function of the game depends on a centralized server and the server cannot be deployed by the player. This means that if the game service provider shuts down the server, the game is likely to be no longer playable. (Not meant to bundle genuine verification systems like steam or itch.io)
+- `centralized` The main function of the game depends on a centralized server and the server cannot be deployed by the player. This means that if the game service provider shuts down the server, the game is likely to be no longer playable. (Not meant to bundle DRM systems like steam or itch.io, see misc:drm)
+- `drm` This game has used Digital Rights Management to restrict players. (This tag is designed for the future and is not currently used in FGI.)
 - `homophobia` Game include homophobia contents
 
 ## Namespace lang

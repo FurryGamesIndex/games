@@ -25,6 +25,12 @@ strategy:
     en: 'This game is a strategy game'
     zh-cn: '策略游戏'
 
+real-time-strategy:
+  namespaces: [ type ]
+  explanation:
+    en: 'This game is a RTS game'
+    zh-cn: '即时策略游戏'
+    
 casual:
   namespaces: [ type ]
   explanation:
@@ -810,8 +816,15 @@ online:
 centralized:
   namespaces: [ misc ]
   explanation:
-    en: 'The main function of the game depends on a centralized server and the server cannot be deployed by the player. This means that if the game service provider shuts down the server, the game is likely to be no longer playable. (Not meant to bundle genuine verification systems like steam or itch.io)'
-    zh-cn: '游戏的主要功能依赖一个集中的服务器且服务器无法由玩家自行部署，这意味着如果游戏运营商宣布关服，则游戏很可能无法再游玩。（并非指捆绑 steam 或 itch.io 那样的正版验证系统）'
+    en: 'The main function of the game depends on a centralized server and the server cannot be deployed by the player. This means that if the game service provider shuts down the server, the game is likely to be no longer playable. (Not meant to bundle DRM systems like steam or itch.io, see misc:drm)'
+    zh-cn: '游戏的主要功能依赖一个集中的服务器且服务器无法由玩家自行部署，这意味着如果游戏运营商宣布关服，则游戏很可能无法再游玩。（并非指使用了 steam, itch.io 或其他 DRM，见 misc:drm）'
+
+drm:
+  namespaces: [ misc ]
+  explanation:
+    en: 'This game has used Digital Rights Management to restrict players. (This tag is designed for the future and is not currently used in FGI.)'
+    zh-cn: '这个游戏使用了数字版权管理限制玩家（此标签为将来设计，暂时没有在当前 FGI 中被使用。）'
+
 
 homophobia:
   namespaces: [ misc ]
