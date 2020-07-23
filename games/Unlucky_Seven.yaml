@@ -1,7 +1,6 @@
 name: Unlucky Seven
 
 description: |
-  About This Game
   GameplayThe game is played only using the keyboard. You don't need a mouse - you can throw it away!
   In Unlucky Seven you'll have the ability to control different characters to complete the game. The game is played from a side view (observer) and has many interactive elements or items that are necessary to complete the mission.
   The key elements during the game are numerous dialogues and answers that the player chooses. Remember to choose wisely!
@@ -10,9 +9,32 @@ description: |
   Unlucky Seven will take you on a spacewalk and tell you a story about love, hate, and craving for human flesh.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Puzzling Dream'
+    - 'Ultimate Games S.A.'
+    - 'Art Games Studio S.A.'
+  type:
+    - adventure
+    - role-playing
+  male:
+    - lizard
+    - bird
+    - wolf
+    - mixed
+    - humankind
+  female:
+    - fox
+    - rabbit
+  misc:
+    - pixel-art
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+
 
 links:
   - name: .steam

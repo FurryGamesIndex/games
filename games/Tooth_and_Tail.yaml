@@ -14,13 +14,42 @@ description: |
   With matches lasting from 5-12 minutes, controls designed specifically for the gamepad, and split-screen couch play, Tooth and Tail is a popcorn RTS for veterans and newcomers alike.
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Pocketwatch Games'
+  type:
+    - real-time-strategy
+  male:
+    - mouse
+    - lizard
+    - bird
+    - snake
+    - badger
+    - fox
+    - wolf
+    - pig
+  misc:
+    - multiplayer
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+    - gog
+  platform:
+    - windows
+    - macos
+    - linux
+    - playstation4
 
 links:
   - name: .steam
     uri: steam:286000
+  - name: .gog.com
+    uri: https://www.gog.com/game/tooth_and_tail
+  - name: .playstation-store
+    uri: https://www.playstation.com/en-us/games/tooth-and-tail-ps4/
+  - name: .website
+    uri: http://www.toothandtailgame.com/
 
 thumbnail: thumbnail.jpg
 

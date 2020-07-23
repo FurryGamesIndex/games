@@ -16,15 +16,55 @@ description: |
   Enjoy 3 difficulty levels catering to players of all types, and switch from modern graphics and sound to 8-bit graphics/audio at any time - even during gameplay!
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Lizardcube
+    - Dotemu
+  type:
+    - action
+    - adventure
+  male:
+    - dragon
+    - lion
+    - bird
+    - mouse
+    - humankind
+  female:
+    - humankind
   misc:
     - pixel-art
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+    - gog
+    - google-play
+    - apple-appstore
+    - e-shop
+    - microsoft-store
+  platform:
+    - windows
+    - macos
+    - linux
 
 links:
   - name: .steam
     uri: steam:543260
+  - name: .gog.com
+    uri: https://www.gog.com/game/wonder_boy_the_dragons_trap
+  - name: .play-store
+    uri: google-play-store:com.dotemu.wonderboy.dragonstrap
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/wonder-boy-the-dragons-trap/id1442204561
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/wonder-boy-the-dragons-trap-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-ca/product/UP1482-CUSA07029_00-DOTWBDRAGONSTRAP
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/wonder-boy-the-dragons-trap/bvg6n37lfl8m
+  - name: .website
+    uri: https://www.thedragonstrap.com/
 
 thumbnail: thumbnail.jpg
 

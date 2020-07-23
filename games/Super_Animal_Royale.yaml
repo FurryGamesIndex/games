@@ -14,13 +14,51 @@ description: |
   Join us in Super Animal World to see what we're building with our Early Access community and contribute to the game's development!
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Pixile
+  type:
+    - action
+    - casual
+  male:
+    - fox
+    - bear
+    - cat
+    - tiger
+    - bird
+    - dog
+    - wolf
+    - deer
+    - raccoon
+    - monkey
+    - pig
+    - mouse
+    - sheep
+    - otter
+    - lion
+    - bull
+    - leopard
+    - hyena
+  misc:
+    - freeware
+    - online
+    - centralized
+    - work-in-process
+    - multiplayer
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
 
 links:
   - name: .steam
     uri: steam:843380
+  - name: .website
+    uri: https://animalroyale.com/
 
 thumbnail: thumbnail.jpg
 

@@ -42,9 +42,29 @@ description: |
   Dust: An Elysian Tail
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - 'Tall Tail Studios'
+  type:
+    - visual-novel
+    - adventure
+  male:
+    - wolf
+    - dog
+    - leopard
+    - mouse
+    - bull
+  female:
+    - dog
+  misc:
+    - multiple-endings
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
 
 links:
   - name: .steam
