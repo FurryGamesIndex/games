@@ -14,10 +14,26 @@ description: |
   Also, we already have a complete script for the old prototype version of this game, so we guarantee that we could complete this game.
 
 tags:
-  sys:
-    - tagme
+  author:
+    - dorurung
+  type:
+    - visual-novel
+    - bara
+  male:
+    - dragon
+    - cat
+    - lion
+    - lizard
+    - dog
+    - males-only
+    - muscle
+  misc:
+    - died
+    - engine-renpy
   lang:
     - en
+  publish:
+    - patreon
   platform:
     - windows
     - macos

@@ -18,6 +18,8 @@ description: |
 description-format: markdown
 
 tags:
+  author:
+    - WOTB
   type:
     - visual-novel
     - dating-sim

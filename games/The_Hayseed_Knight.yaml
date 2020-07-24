@@ -37,14 +37,28 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - SandraMJ
   type:
     - visual-novel
+  male:
+    - deer
+    - mixed
+    - bull
+    - humankind
+  female:
+    - cow
+    - rabbit
+    - sheep
   misc:
     - freeware
+    - work-in-process
+    - engine-renpy
     - homophobia
+  lang:
+    - en
+  publish:
+    - itchio
   platform:
     - windows
     - macos
@@ -54,7 +68,7 @@ links:
   - name: .itch.io
     uri: https://sandramj.itch.io/the-hayseed-knight
   - name: .patreon
-    uri: patreon:sandramjdev
+    uri: patreon:thehayseedknight
   - name: .twitter
     uri: twitter:sandramjdev
 
