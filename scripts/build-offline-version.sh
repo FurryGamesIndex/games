@@ -21,15 +21,17 @@ RMRF="rm -rf "
 [ "$(uname -s)" = "Linux" ] && RMRF="$RMRF --preserve-root"
 
 OUTPUT_DIR="${1:-output}"
+CACHE_DIR="${2:-output}"
 echo "Output directory is $OUTPUT_DIR"
+echo "Cache directory is $CACHE_DIR"
 
-if [ -d "$OUTPUT_DIR" ]; then
-	mv "${OUTPUT_DIR}/assets" "/var/tmp/fgi_assets"
-	${RMRF} "${OUTPUT_DIR}"
-	mkdir -p "${OUTPUT_DIR}"
-	mv "/var/tmp/fgi_assets" "${OUTPUT_DIR}/assets"
-	echo "cleaned prev builds dir without assets"
-fi
+#if [ -d "$OUTPUT_DIR" ]; then
+#	mv "${OUTPUT_DIR}/assets" "/var/tmp/fgi_assets"
+#	${RMRF} "${OUTPUT_DIR}"
+#	mkdir -p "${OUTPUT_DIR}"
+#	mv "/var/tmp/fgi_assets" "${OUTPUT_DIR}/assets"
+#	echo "cleaned prev builds dir without assets"
+#fi
 
 mkdir -p extraui
 dt=$(date -R)
@@ -45,7 +47,8 @@ infobar: >
 EOF
 
 ./zhconv.py --no-builtin extraui/zh-cn.yaml:extraui/zh-tw.yaml
-./generate.py --no-sitemap --no-purge-prev-builds --download-external-images --extra-ui extraui "$OUTPUT_DIR"
+#./generate.py --no-sitemap --no-purge-prev-builds --download-external-images --extra-ui extraui "$OUTPUT_DIR"
+./generate.py --no-sitemap --download-external-images --use-external-images-cache "$CACHE_DIR" --extra-ui extraui "$OUTPUT_DIR"
 
 echo -n "var _searchdb=JSON.parse(atob('" > "${OUTPUT_DIR}/scripts/searchdb_offline.js"
 cat "${OUTPUT_DIR}/scripts/searchdb.json" | python3 -m base64 | tr -d "\n" >> "${OUTPUT_DIR}/scripts/searchdb_offline.js"

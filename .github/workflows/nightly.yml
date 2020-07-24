@@ -29,12 +29,13 @@ jobs:
         wget https://github.com/FurryGamesIndex/games/releases/download/_gh_assets/FGI-nightly.zip -O prev.zip || true
         unzip prev.zip || true
         [ -d FGI-nightly ] || echo "warning: getting prev build failed"
+        mv FGI-nightly FGI-nightly-cache || true
 
     - name: gen
       run: |
         python3 --version
         python3 -m markdown2 --patch-info
-        ./scripts/build-offline-version.sh FGI-nightly
+        ./scripts/build-offline-version.sh FGI-nightly FGI-nightly-cache
         zip -r output.zip FGI-nightly
 
     - name: upload-release

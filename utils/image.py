@@ -20,6 +20,7 @@
 import re
 import os
 import hashlib
+from shutil import copyfile
 from html import escape
 from utils.webutils import dl
 from __main__ import args
@@ -34,8 +35,16 @@ def uri(rr, image, gameid):
             image = "assets/" + gameid + "/" + sum + os.path.splitext(uri)[1]
 
             if not os.path.isfile(os.path.join(args.output, image)):
-                print("downloading %s %s" % (sum, uri))
-                dl(uri, os.path.join(args.output, image))
+                if args.use_external_images_cache is not None:
+                    cached_image = os.path.join(args.use_external_images_cache, image)
+                    if os.path.isfile(cached_image):
+                        copyfile(cached_image, os.path.join(args.output, image))
+                    else:
+                        print("cache missing, downloading %s %s" % (sum, uri))
+                        dl(uri, os.path.join(args.output, image))
+                else:
+                    print("downloading %s %s" % (sum, uri))
+                    dl(uri, os.path.join(args.output, image))
 
             image = rr + "/" + image
 
