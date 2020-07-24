@@ -47,6 +47,11 @@ tags:
     - windows
     - macos
     - linux
+    - android
+    - ios
+    - nintendo-switch
+    - playstation4
+    - xbox-one
 
 links:
   - name: .steam
