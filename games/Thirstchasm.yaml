@@ -16,14 +16,32 @@ description: |
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Carpetwurm
   type:
     - adventure
     - role-playing
+    - roguelike
     - bara
     - yiff
+  male:
+    - cat
+    - wolf
+    - bird
+    - non-anthro
+    - anal
+    - rimjob
+    - blowjob
+    - animal-on-furry
+  malex:
+    - tentacles
+  misc:
+    - pixel-art
+    - freeware
+    - uncensored
+    - multiple-series
+  lang:
+    - en
   publish:
     - itchio
   platform:
