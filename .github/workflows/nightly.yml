@@ -8,7 +8,7 @@ on:
       - '.github/workflows/nightly.yml'
 
 env:
-  USELESS_VAR: 0
+  USELESS_VAR: 1
 
 jobs:
   build:

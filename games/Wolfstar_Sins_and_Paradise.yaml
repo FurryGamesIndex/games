@@ -9,9 +9,30 @@ description: |
   Thank you for taking the time to read about and special thanks if you try out my game.  Please consider supporting me either here or on Patreon.  All donations will be used to improving the quality of the project.  Thank you all again!  =3
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - Wolfstar
+  type:
+    - visual-novel
+    - role-playing
+    - bara
+    - yiff
+  male:
+    - mouse
+    - lion
+    - wolf
+    - bull
+    - fox
+    - humankind
+    - non-anthro
+    - muscle
+    - handjob
+    - blowjob
+  female:
+    - lion
+    - humankind
+  misc:
+    - freeware
+    - engine-renpy
   lang:
     - en
   publish:

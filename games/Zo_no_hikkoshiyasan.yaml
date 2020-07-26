@@ -27,11 +27,22 @@ description: |
   https://www.pixiv.net/fanbox/creator/37418
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - nikubo
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - raccoon
+    - dog
+    - males-only
+    - anal
+    - blowjob
   lang:
     - ja
+  publish:
+    - booth
   platform:
     - windows
     - macos
