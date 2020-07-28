@@ -1,23 +1,55 @@
-# 隐私权政策
+# Privacy Polocy
 
-这是规定 FurryGamesIndex 项目（以下简称 FGI）如何收集、处理、使用或披露你的个人数据的法律文件。
+Your privacy is extremely important. We firmly believe that user privacy and data protection are human rights.
 
-## 我们收集哪些个人信息
+## What we collect, store and how we use it
 
-我们目前不收集任何个人信息。因为目前站点是完全静态站点。
+By default, we do NOT collect and store any personal information about you. It is currently a static site. And in the future, you will be able to continue to enjoy services (static site) no less than current without using dynamic functions.
 
-我们不使用 Cookie 或类似技术跟踪你。
+In the future, we may add some enhancements, such as posting comments. When using these enhanced functions, we may collect some necessary information and give you appropriate prompts before using them. The privacy policy will also be updated in the future.
 
-我们不使用 Google Analytics 或其他分析技术。
+We will NEVER share any personal information collected to third parties.
 
-## 站点的嵌入内容
+## Cookie Policy
 
-站点嵌入了外部来源（包括但不限于 imgur, sm.ms, imgbox, steam, itch.io）的媒体（包括但不限于图片、视频），这些站点可能会随流量收集关于您的 IP 地址、用户代理、语言等信息。也可能嵌入第三方跟踪程序收集您的更多信息，并将您与其登录用户身份进行关联。
+We currently do not use cookies which will send to any servers.
 
-## 站点的托管服务提供者
+In the future, we may use cookies. We will remind you before using cookies. The privacy policy will also be updated.
 
-本站点托管在 Github Pages 上，Github 可能会收集关于您的 IP 地址、用户代理、语言等信息。Github 的隐私政策见：https://help.github.com/en/github/site-policy/github-privacy-statement
+We are using Local Storage to save your preferences in your browser (such as showing sensitive contents). These Preferences will never be transferred to other computers in any form.
 
-## 我们如何使用您的个人信息
+### Third-party (external websites) cookies
 
-由于我们尚未收集任何个人信息，我们不以任意形式处理、使用或披露。
+By using our site, you may see cookies from Google/YouTube as we often embed YouTube videos directly into the website. ([Privacy Policy of Youtube](https://www.youtube.com/static?template=privacy_guidelines))
+
+> Managing your cookies and cookie/third-party cookie preferences can be done from within your browser's options/preferences.
+
+## Third-party (external websites) static contents
+
+We have embed multiple external static media contents. They are from imgur, imgbox, steam, itch.io. Your browser will transmite to them:
+
+Browser type, version and language
+Operating System type and (maybe) version
+Referrer URL
+Your IP address
+The time of the request
+
+> When using the offline edition of this website, you will almost never encounter external sources.
+
+## Where is the site hosted
+
+This site is hosted on Github Pages. Your browser will transmite to them:
+
+Browser type, version and language
+Operating System type and (maybe) version
+Referrer URL
+Your IP address
+The time of the request
+
+[Privacy Policy of Github](https://help.github.com/en/github/site-policy/github-privacy-statement)
+
+> When using the offline edition of this website, this policy will not apply to you.
+
+## Acceptance of this policy
+
+Continued use of our site signifies your acceptance of this policy. If you do not accept the policy then please do not use this site.
