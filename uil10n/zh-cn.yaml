@@ -1,4 +1,4 @@
-page_title: 兽人控游戏索引 (Beta)
+page_title: 兽人控游戏索引
 
 nav_index: 主页
 nav_list: 所有游戏
@@ -16,7 +16,7 @@ index_content: >
   <h1>兽人控游戏索引 - FurryGamesIndex - 发现好玩的兽人游戏</h1>
   <p>FGI (FurryGamesIndex 的缩写) 是一个致力于收集、组织、分类、标签“兽人游戏”或包含 furry、kemono 内容的游戏的项目。同时也收集这些游戏的第三方本地化资源链接。</p>
   <p>创建该项目的动机是狗哥（LuckyDoge）放弃了他的<a href="https://doge.im/recommend/kemono-games.html">兽人控游戏合集</a>项目，Utopic Panther 曾经受益于狗哥的项目，试图在互联网上重建一个游戏合集。<a href="https://github.com/FurryGamesIndex/games/blob/master/luckydoge.txt">狗哥慷慨地提供了他曾经付出大量努力取得的成果</a>，使这个项目快速发展为实用的列表成为了可能。</p>
-  <p>该项目更加注重可维护性，更加鼓励社区参与，为社区参与提供便利的基础设施和提高易用性（如标签及搜索功能（目前尚未完全实施）），未来可能还会做评分和讨论功能。</p>
+  <p>该项目更加注重可维护性，更加鼓励社区参与，为社区参与提供便利的基础设施和提高易用性（如标签及搜索功能），未来可能还会做评分和讨论功能。</p>
 
 index_link_games: 显示所有游戏
 search_found_n_item: 共找到 {0} 项
