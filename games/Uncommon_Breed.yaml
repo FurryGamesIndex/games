@@ -1,4 +1,4 @@
-name: Uncommon Breed (A Furry RPG / Dating sim)
+name: Uncommon Breed
 
 description: |
   Warning this game contain: Fantasy Violence , Sexual Content
@@ -44,17 +44,34 @@ description: |
 
   Current patrons are unaffected.
   
-  [Patron download link](https://uncommonbreedvn.itch.io/uncommon-breed/patreon-access)
+  [Patreon download link](https://uncommonbreedvn.itch.io/uncommon-breed/patreon-access)
 
 description-format: markdown
 
 tags:
-  sys:
-    - staging
-    - tagme
+  author:
+    - FoxBytez
   type:
-    - role-playing
     - dating-sim
+    - role-playing
+    - bara
+    - yiff
+  male:
+    - lion
+    - bear
+    - wolf
+    - bull
+  misc:
+    - engine-unity
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - android
 
 links:
   - name: .itch.io
