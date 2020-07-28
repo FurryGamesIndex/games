@@ -28,11 +28,11 @@ By using our site, you may see cookies from Google/YouTube as we often embed You
 
 We have embed multiple external static media contents. They are from imgur, imgbox, steam, itch.io. Your browser will transmite to them:
 
-Browser type, version and language
-Operating System type and (maybe) version
-Referrer URL
-Your IP address
-The time of the request
+- Browser type, version and language
+- Operating System type and (maybe) version
+- Referrer URL
+- Your IP address
+- The time of the request
 
 > When using the offline edition of this website, you will almost never encounter external sources.
 
@@ -40,11 +40,11 @@ The time of the request
 
 This site is hosted on Github Pages. Your browser will transmite to them:
 
-Browser type, version and language
-Operating System type and (maybe) version
-Referrer URL
-Your IP address
-The time of the request
+- Browser type, version and language
+- Operating System type and (maybe) version
+- Referrer URL
+- Your IP address
+- The time of the request
 
 [Privacy Policy of Github](https://help.github.com/en/github/site-policy/github-privacy-statement)
 
