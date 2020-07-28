@@ -1,4 +1,4 @@
-# Privacy Polocy
+# Privacy Policy
 
 Your privacy is extremely important. We firmly believe that user privacy and data protection are human rights.
 
