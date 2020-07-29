@@ -23,7 +23,7 @@ description: |
 
   **Note for Android Users**: If you're having trouble installing Sileo on your Android device, please try disabling your antivirus and trying again. So far, we've identified issues with AVG blocking the install, but there may be other antivirus products which do the same. Most phones come with an antivirus preinstalled these days.
 
-description-format: markdowm
+description-format: markdown
 
 tags:
   author:
