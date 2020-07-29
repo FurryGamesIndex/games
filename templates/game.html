@@ -52,6 +52,8 @@ if (localStorage.getItem("show_sensitive") == "true") {
 		i.src = i.dataset.realsrc;
 		i.classList.remove("hide")
 	});
-	$("#sensitive_media_warn").classList.add("hide");
+	const warn = $("#sensitive_media_warn");
+	if (warn != null)
+		warn.classList.add("hide");
 }
 </script>
