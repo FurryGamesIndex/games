@@ -57,8 +57,6 @@ tags:
     - macos
     - linux
     - android
-  sys:
-    - tagme
 
 links:
   - name: .itch.io
