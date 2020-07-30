@@ -6,6 +6,10 @@ String.prototype.format = function() {
 		return typeof arguments[number] != 'undefined' ? arguments[number] : match;
 	});
 };
+
+if ('serviceWorker' in navigator)
+	navigator.serviceWorker.register('/sw.js');
+
 } catch (e) {
 	console.log("FGI base.js load failed")
 }
