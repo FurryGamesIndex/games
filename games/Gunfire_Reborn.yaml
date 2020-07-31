@@ -1,0 +1,57 @@
+name: Gunfire Reborn
+
+description: |
+  Gunfire Reborn is an adventure level-based game featuring FPS, roguelite, and RPG elements. Players can control unique heroes—each with different abilities—as they adventure through random levels and pick up randomly dropped weapons. You can play Gunfire Reborn alone or cooperatively with up to three other players (4-player co-op).
+  Every level is random; each new restart is a brand-new experience. You will meet different heroes and experience new weapons, items, checkpoints, and unique combat rhythms across the game’s many levels.
+  Gunfire Reborn is still in Early Access. We will gradually fix bugs, add more content, and come up with new gameplay ideas. Thank you for your support! We will try our best to optimize our game to deliver a premium experience you can’t wait to return to.
+
+  Game Features:
+  FPS+Roguelite+RPG combined gameplay, construct diverse Build through death cycle for differnt experience
+  Elaborate, yet randomized stage experience
+  Over 100 different items and various weapons
+  Many heroes and multiple game plus with different game mechanism
+  Unique art style
+  Co-op level-based adventure
+
+tags:
+  author:
+    - Duoyi
+  type:
+    - shooter
+    - roguelike
+  male:
+    - cat
+    - bear
+    - fox
+    - non-anthro
+  misc:
+    - 3d
+    - online
+    - multiplayer
+    - work-in-process
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1217060
+  - name: .twitter
+    uri: twitter:GunfireReborn
+  - name: Publish page for China
+    uri: https://qh.duoyi.com/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/ss_60ff60b040de062c39033897e0785edbfc56e89e.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/ss_19e306c5893d537cfee09054e32a28dfd17fc59b.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/ss_1d6e5fd145fbd5888af8724f6e44ca929340d1ea.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/ss_4fd4c15626a3987b4079e2e25a6f04bd6c899621.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/ss_5dd1fac4e0055a410bfb166da83b9eab171808c8.1920x1080.jpg
+
