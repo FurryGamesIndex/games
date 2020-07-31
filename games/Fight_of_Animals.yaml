@@ -41,9 +41,11 @@ tags:
   publish:
     - steam
     - e-shop
+    - google-play
   platform:
     - windows
     - nintendo-switch
+    - android
 
 links:
   - name: .steam
@@ -52,6 +54,8 @@ links:
     uri: https://ec.nintendo.com/JP/ja/titles/70010000030521
   - name: .twitter
     uri: twitter:FightofAnimals
+  - name: .google-play
+    uri: https://play.google.com/store/apps/details?id=com.DigitalCrafter.FightOfAnimalsMobile
 
 thumbnail: thumbnail.jpg
 
