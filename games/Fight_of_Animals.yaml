@@ -32,6 +32,8 @@ tags:
     - bird
   misc:
     - 3d
+    - engine-unity
+    - freeware
     - multiplayer
     - online
   lang:
@@ -41,9 +43,11 @@ tags:
   publish:
     - steam
     - e-shop
+    - google-play
   platform:
     - windows
     - nintendo-switch
+    - android
 
 links:
   - name: .steam
@@ -52,6 +56,8 @@ links:
     uri: https://ec.nintendo.com/JP/ja/titles/70010000030521
   - name: .twitter
     uri: twitter:FightofAnimals
+  - name: .play-store
+    uri: google-play-store:com.DigitalCrafter.FightOfAnimalsMobile
 
 thumbnail: thumbnail.jpg
 
