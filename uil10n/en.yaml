@@ -35,11 +35,13 @@ search_form_mode_tag: Search tags
 search_form_do: Search
 search_help_link: Instructions for using the searching
 
-gamewarn_nolang: This game may not contain localized language English
+gamewarn_yiff: This game contains sensitive content or is not suitable for access at work.
+gamewarn_nolang: This game may not contain localized language for English
 gamewarn_lang_unofficial: Localized language English is supported by unofficial source
 gamewarn_ongoing: This game is an ongoing project
 gamewarn_unpublished: This game is NOT published
-gamewarn_died: This game dies before completion
+gamewarn_died: This game is probably dead before completion
+gamewarn_notonlyfurry: This game is not just about Furry topics. This means you may not like this game.
 
 game_contact_us: Contant FurryGamesIndex project by
 game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>

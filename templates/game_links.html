@@ -1,4 +1,10 @@
 <div class="gamewarn tip">
+{% if "type" in game.tags %}
+{% if "yiff" in game.tags.type %}
+<div class="iconline"><i class="fas fa-shield-alt fa-fw"></i><span>{{ ui.gamewarn_yiff }}</span></div>
+{% endif %}
+{% endif %}
+
 {% if "lang" in game.tags %}
 {% if lang_without_region + "-unofficial" in game.tags.lang %}
 <div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_lang_unofficial }}</span></div>
@@ -16,6 +22,9 @@
 {% endif %}
 {% if "died" in game.tags.misc %}
 <div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_died }}</span></div>
+{% endif %}
+{% if "not-only-furry-topic" in game.tags.misc %}
+<div class="iconline"><i class="fas fa-exclamation-triangle fa-fw"></i><span>{{ ui.gamewarn_notonlyfurry }}</span></div>
 {% endif %}
 {% endif %}
 </div>
