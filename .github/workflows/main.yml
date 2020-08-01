@@ -45,7 +45,7 @@ jobs:
 
     - name: deploy
       run: | 
-        rm -rf .git
+        mv .git _git
         echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
         git config --global user.email "noreply@example.com"
         git config --global user.name "deploy-bot"
@@ -55,3 +55,11 @@ jobs:
         git add .
         git commit -m 'deploy website'
         git push -f origin master
+        cd ..
+        rm -rf output
+        mv _git .git
+
+    - name: sync-mirror
+      run: |
+        echo -e "Host gitee.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        git push git@gitee.com:furrygamesindex/games.git master || true
