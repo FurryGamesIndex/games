@@ -36,7 +36,7 @@ IFS="$nl"
 while read -r i ; do
 	echo "new: $i"
 	uri="https://furrygamesindex.github.io/zh-cn/games/${i}.html"
-	jq -e .expunge < "games/$i.yaml" > /dev/null 2>&1
+	grep '^expunge:' "games/$i.yaml" > /dev/null 2>&1
 	[ "$?" = "0" ] && i="$i (Expunged)"
 	games_zh="${games_zh}<a href='${uri}'>${i}</a>${nl}"
 done <<< "$games"
