@@ -1,0 +1,46 @@
+name: Khemia
+
+description: |
+  Follow-up story of Adastra
+  The game just started
+  Description will be updated in the future
+
+expunge: true
+
+tags:
+  sys:
+    - staging
+  author:
+    - 'The Echo Project'
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - wolf
+    - bear
+    - muscle
+  female:
+    - wolf
+  misc:
+    - engine-renpy
+    - multiple-series
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .patreon
+    uri: patreon:EchoGame
+  - name: .twitter
+    uri: twitter:EchoTheVN
+
+thumbnail: thumbnail.jpg
+
+screenshots: []
