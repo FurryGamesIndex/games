@@ -1,0 +1,73 @@
+name: Tribal Hunter
+
+description: |
+  Tribal Hunter is action platformer with an open world. You play as a village guardian who can shift it's body shape, allowing it to grow huge and devour enemies. As you grow, you can use this 'growth' as energy to fire projectiles at enemies!
+
+  The goal of the game is to power up your abilities in order to fight powerful enemies and bosses around the world, saving your tribe members and growing your village.
+
+  We hope you enjoy our demo, and choose to support our project! We have patreon page, please check it if you are interested! :D
+
+  https://www.patreon.com/tribalhunter
+
+  Thank you so much for playing!
+
+tags:
+  author:
+    - 'Melonsoda Soft'
+  type:
+    - casual
+    - adventure
+    - action
+  male:
+    - dragon
+    - bull
+    - sheep
+    - cat
+    - fox
+    - pig
+    - bird
+    - crocodile
+    - shark
+    - humankind
+    - muscle
+  female:
+    - humankind
+    - rabbit
+    - shark
+    - loli
+    - muscle
+  malex:
+    - muscle-growth
+    - inflation
+    - absorption
+    - parasite
+  misc:
+    - pixel-art
+    - freeware
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - steam
+    - itchio
+    - patreon
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1379870
+  - name: .itch.io
+    uri: https://usez.itch.io/tribal-hunter
+  - name: .patreon
+    uri: patreon:tribalhunter
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NzAucG5n/original/93U6Fx.png
+  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NzEucG5n/original/Jr0rCV.png
+  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDM4MTkucG5n/original/t73QA%2F.png
+  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NjAuZ2lm/original/hA58Ae.gif
+  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NjIuZ2lm/original/d5vVI1.gif
+  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NjguZ2lm/original/5t3SeS.gif
