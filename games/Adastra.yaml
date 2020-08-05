@@ -56,8 +56,10 @@ links:
   - name: .twitter
     uri: twitter:EchoTheVN 
   - name: .unofficial-patch-zh-cn
+    icon: twitter
     uri: https://twitter.com/ABLocalization/status/1272934863977345025
   - name: .unofficial-patch-zh-cn
+    icon: weibo
     uri: https://weibo.com/7429628292/J6V5SACH8
 
 thumbnail: thumbnail.jpg

@@ -50,7 +50,11 @@ links:
   - name: .twitter
     uri: twitter:EchoTheVN 
   - name: .unofficial-patch-zh-cn
-    uri: https://weibo.com/7429628292/IDNxe5LMo
+    icon: twitter
+    uri: https://twitter.com/ABLocalization/status/1283925296517754887
+  - name: .unofficial-patch-zh-cn
+    icon: weibo
+    uri: https://weibo.com/7429628292/JbujJ0rbY
 
 thumbnail: thumbnail.jpg
 
