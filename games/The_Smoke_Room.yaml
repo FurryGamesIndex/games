@@ -57,11 +57,6 @@ links:
     icon: weibo
     uri: https://weibo.com/7429628292/JcpYhdeGI
 
-disabled-links:
-  # This is old version. But no new version published to twitter. (new version now is published to weibo currently)
-  - name: .unofficial-patch-zh-cn
-    uri: https://twitter.com/ABLocalization/status/1268764341496680448
-
 thumbnail: thumbnail.jpg
 
 screenshots:
