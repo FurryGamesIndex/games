@@ -1,0 +1,26 @@
+name: Star Fox (series)
+
+description: |
+  TODO
+
+description-format: markdown
+
+expunge: true
+
+tags:
+  author:
+    - 'Nintendo'
+  sys:
+    - staging
+
+links:
+  - name: Star Fox 64 3D
+    uri: https://www.nintendo.com/games/detail/star-fox-64-3d-3ds/
+  - name: Star Fox Zero
+    uri: https://www.nintendo.com/games/detail/star-fox-zero-wii-u/
+  - name: Star Fox Guard
+    uri: https://www.nintendo.com/games/detail/star-fox-guard-wii-u/
+
+thumbnail: thumbnail.jpg
+
+screenshots: []
