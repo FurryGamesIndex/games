@@ -1,0 +1,61 @@
+name: Four-Letter Word
+
+description: |
+  What's the hardest thing to say to someone you really care about when you're not sure how they feel about you? Four-Letter Word is a gay, furry visual novel about love and some of the many different paths through life it can take you. Play as one of two roommates with a shared history who are on their own journeys to figure out who they are and what they want, and help them find the answers they seek.
+
+  The visual novel serves as a continuation of the comic of the same name ([which you can read here](https://www.furaffinity.net/view/12463117/).) Although it's not necessary to read it, as the game works as a standalone piece of interactive fiction, it can provide some background information and additional context to the events in the visual novel. 
+
+  Development began in the tail end of 2014 and continued until early 2016, where I took an extended hiatus for health reasons, but now things are back on track with a new build coming out each month! If you'd like to help support the project, [consider becoming one of my patrons on Patreon](https://www.patreon.com/Kho) and getting access to builds two weeks before the public, along with a number of other available perks!
+
+description-format: markdown
+
+tags:
+  author:
+    - Kho
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - dog
+    - cheetah
+    - tiger
+    - lion
+    - muscle
+    - anal
+    - blowjob
+  misc:
+    - freeware
+    - engine-renpy
+    - uncensored
+    - work-in-process
+    - multiple-endings
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://kho.itch.io/four-letter-word
+  - name: .patreon
+    uri: patreon:Kho
+  - name: .twitter
+    uri: twitter:Khopdates
+  - name: .furaffinity
+    uri: furaffinity:k-ho
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjM0ODIxLzM0NDA0ODQucG5n/original/1wU9u7.png
+  - https://img.itch.zone/aW1hZ2UvNjM0ODIxLzM0NDA1MTgucG5n/original/dnh%2BY5.png
+  - https://img.itch.zone/aW1hZ2UvNjM0ODIxLzM0NDA1MjAucG5n/original/JXO1YC.png
+  - https://img.itch.zone/aW1hZ2UvNjM0ODIxLzM0NDA1MzUucG5n/original/uyNe28.png
+  - https://img.itch.zone/aW1hZ2UvNjM0ODIxLzM0NDA1NzkucG5n/original/6jIIcz.png
