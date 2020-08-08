@@ -1,0 +1,66 @@
+name: Socially Awkward
+
+description: |
+  Socially Awkward is a 18+ semi-linear furry visual novel focusing on emotional cues to portray the story of each individual character on certain topics and reactions.
+
+  You are Jayce (Name can be replaced). An insecure half breed cat who just started his college life. Follow his college days to uncover each characters' past to get to know them.
+
+  THE GAME IS STILL A W.I.P.
+
+  If you'd like to support me on Patreon, you can find it [here](https://www.patreon.com/sociallyawkwardcat)!
+
+  Or maybe a cup of [ko-fi](https://ko-fi.com/S6S3ASCM)? o3o~
+
+  I also got a discord server if you'd like to come over to chat about the game or give some input on the characters, story, grammar and bugs that needs fixing! [Click me](https://discord.gg/XCqxY3M)!
+
+  PLEASE READ THE DEVLOGS FOR ISSUES, FIXES AND CHANGES!!! Ty~
+
+  Updates every 25th of the month.
+
+description-format: markdown
+
+tags:
+  author:
+    - 'Monchi Mutt'
+  type:
+    - visual-novel
+    - bara
+  male:
+    - lung
+    - dragon
+    - dog
+    - cat
+    - lion
+    - wolf
+    - muscle
+    - males-only
+  misc:
+    - freeware
+    - engine-renpy
+    - uncensored
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://monchimutt.itch.io/socially-awkward
+  - name: .patreon
+    uri: patreon:sociallyawkwardcat
+  - name: .discord
+    uri: discord:XCqxY3M
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzMwMzE5NjIucG5n/original/scokT4.png
+  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzMwMzE5NjEucG5n/original/jD3ftI.png
+  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzM0MTA0MzQucG5n/original/WKjlr9.png
+  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzM0MTA1MzAucG5n/original/lSvpob.png

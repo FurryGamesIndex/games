@@ -3,6 +3,24 @@ name: Star Fox (series)
 description: |
   TODO
 
+  # Star Fox
+
+  # Star Fox 64
+
+  # Star Fox 64 3D
+
+  # Star Fox Adventures
+
+  # Star Fox: Assault
+
+  # Star Fox Command
+
+  # Star Fox Guard
+
+  # Star Fox Zero
+
+  # Star Fox 2
+
 description-format: markdown
 
 expunge: true
@@ -16,10 +34,10 @@ tags:
 links:
   - name: Star Fox 64 3D
     uri: https://www.nintendo.com/games/detail/star-fox-64-3d-3ds/
-  - name: Star Fox Zero
-    uri: https://www.nintendo.com/games/detail/star-fox-zero-wii-u/
   - name: Star Fox Guard
     uri: https://www.nintendo.com/games/detail/star-fox-guard-wii-u/
+  - name: Star Fox Zero
+    uri: https://www.nintendo.com/games/detail/star-fox-zero-wii-u/
 
 thumbnail: thumbnail.jpg
 
