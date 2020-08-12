@@ -1,0 +1,60 @@
+name: 'Witanlore: Dreamtime'
+
+description: |
+  In Witanlore: Dreamtime, you assume the role of a young Ursine brave whose destiny has not yet been determined. Guided by a spirit totem animal, you embark on an astral journey into the spirit world to stand before your patron deity and receive divine messages about your destiny. However, there is something far less benevolent than a goddess waiting for you in the mists...
+  Find yourself swept up in the chaos of an ancient battle for power, the outcome of which hinges on your decisions and a weapon that could lead us all to salvation or ruin. The path you take and the choices you make will determine the story’s outcome and alter the very fabric of the world.
+  Witanlore: Dreamtime is a single player, story-driven, Adventure RPG for Windows PC, being developed on Unreal Engine 4.
+
+  Detailed, Realistic Open World to Explore
+  Story-driven, Role-playing Focus
+  Totem System - Level Up Your Spirit Guide for Buffs &amp; Bonuses!
+  Choices &amp; Consequences - What Players Say &amp; Do Matters!
+  Voiced, Non-linear Dialogue
+  Extensive Main Quest &amp; Numerous Side Quests
+  Rich Cultural Histories &amp; Lore to Discover
+  In-depth Player Character Customization
+  Recruit Companions &amp; Allies
+  Unique Dungeon Diving &amp; Rewards - No Pointless Loot Dungeons!
+  Multiple Weapon Styles with Tribal Bonuses
+
+  Please see the Early Access section for detailed lists of current game features!
+
+  Our pledge is to always be honest, transparent, and respectful to our growing community as we navigate the inevitable hurdles we’ll encounter on the road to completion together. We will listen to your comments, with an open and willing spirit, and keep communication at the forefront of our development so that each of you feels your voice is heard and that you are part of something awesome.
+
+tags:
+  author:
+    - 'Druid Gameworks Studio LLC'
+  type:
+    - role-playing
+    - adventure
+  male:
+    - bear
+    - wolf
+    - non-anthro
+  female:
+    - bear
+  misc:
+    - 3d
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:554570
+  - name: .twitter
+    uri: twitter:druidgameworks
+  - name: .website
+    uri: https://www.druidgameworks.com/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://steamcdn-a.akamaihd.net/steam/apps/554570/ss_e41d29d68ce2f1276aee8e06d001818d1e68dd87.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/554570/ss_489af6fddfb56e82c96a1f9a88fc4d616450a794.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/554570/ss_8e1caa9c9ec1ebb226d3b89d592c2a4ea02a65c2.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/554570/ss_8e1caa9c9ec1ebb226d3b89d592c2a4ea02a65c2.1920x1080.jpg
