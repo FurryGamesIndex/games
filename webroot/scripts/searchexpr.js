@@ -90,31 +90,34 @@ const lexer = expr => {
 	return list;
 }
 
-const intpDoAndOrNot = (s1, s2, state) => {
-	switch (state) {
-	case TOKEN_TYPE.AND:
-		return new Set([...s1].filter(v => s2.has(v)));
-		break;
-	case TOKEN_TYPE.OR:
-		return new Set([...s1, ...s2]);
-		break;
-	case TOKEN_TYPE.NOT:
-		return new Set([...s1].filter(v => !s2.has(v)));
-		break;
-	}
-	return new Set();
-}
-
 const interpreter = (tokens, pos, callback) => {
 	let s = new Set();
 	let state = TOKEN_TYPE.OR;
 	let temp;
 
+	const intpDoAndOrNot = (s1, s2) => {
+		const cstate = state;
+		state = TOKEN_TYPE.AND;
+
+		switch (cstate) {
+		case TOKEN_TYPE.AND:
+			return new Set([...s1].filter(v => s2.has(v)));
+			break;
+		case TOKEN_TYPE.OR:
+			return new Set([...s1, ...s2]);
+			break;
+		case TOKEN_TYPE.NOT:
+			return new Set([...s1].filter(v => !s2.has(v)));
+			break;
+		}
+		return new Set();
+	}
+
 	while (pos < tokens.length) {
 		switch (tokens[pos].type) {
 		case TOKEN_TYPE.LEFT_BRACKETS:
 			const retv = interpreter(tokens, pos + 1, callback);
-			s = intpDoAndOrNot(s, retv[1], state);
+			s = intpDoAndOrNot(s, retv[1]);
 			pos = retv[0]
 			break;
 		case TOKEN_TYPE.RIGHT_BRACKETS:
@@ -122,7 +125,7 @@ const interpreter = (tokens, pos, callback) => {
 			break;
 		case TOKEN_TYPE.STRING:
 			temp = new Set(callback(tokens[pos].value));
-			s = intpDoAndOrNot(s, temp, state);
+			s = intpDoAndOrNot(s, temp);
 			break;
 		case TOKEN_TYPE.AND:
 		case TOKEN_TYPE.OR:
