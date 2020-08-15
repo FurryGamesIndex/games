@@ -55,12 +55,15 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: .unofficial-patch-zh-cn
+  - name: Unoffical Chinese patch (provided by 北极光汉化组)
     icon: twitter
     uri: https://twitter.com/ABLocalization/status/1283925296517754887
-  - name: .unofficial-patch-zh-cn
+  - name: Unoffical Chinese patch (provided by 北极光汉化组)
     icon: weibo
     uri: https://weibo.com/7429628292/JbujJ0rbY
+  - name: Unoffical Chinese patch (provided by 回音汉化组)
+    icon: itch.io
+    uri: https://lupei.itch.io/echo-chinese
 
 thumbnail: thumbnail.jpg
 
