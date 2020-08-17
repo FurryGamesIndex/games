@@ -36,6 +36,9 @@ tags:
   female:
     - dragon
     - non-anthro
+  misc:
+    - engine-renpy
+    - muliple-endings
   lang:
     - en
     - zh-unofficial
