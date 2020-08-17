@@ -23,6 +23,7 @@ const TOKEN_TYPE = {
 	AND: 4,
 	OR: 5,
 	NOT: 6,
+	INIT: 7,
 	INVALID: 0
 };
 
@@ -92,7 +93,7 @@ const lexer = expr => {
 
 const interpreter = (tokens, pos, callback) => {
 	let s = new Set();
-	let state = TOKEN_TYPE.OR;
+	let state = TOKEN_TYPE.INIT;
 	let temp;
 
 	const intpDoAndOrNot = (s1, s2) => {
@@ -104,6 +105,7 @@ const interpreter = (tokens, pos, callback) => {
 			return new Set([...s1].filter(v => s2.has(v)));
 			break;
 		case TOKEN_TYPE.OR:
+		case TOKEN_TYPE.INIT:
 			return new Set([...s1, ...s2]);
 			break;
 		case TOKEN_TYPE.NOT:
@@ -129,7 +131,11 @@ const interpreter = (tokens, pos, callback) => {
 			break;
 		case TOKEN_TYPE.AND:
 		case TOKEN_TYPE.OR:
+			state = tokens[pos].type;
+			break;
 		case TOKEN_TYPE.NOT:
+			if (state === TOKEN_TYPE.INIT)
+				s = new Set(callback('$all'));
 			state = tokens[pos].type;
 			break;
 		}
