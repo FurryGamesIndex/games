@@ -1,0 +1,47 @@
+name: I Promise
+
+description:
+  Scott with his classmates went to a little Cristmas travel. They're up for great recreation, skiing, tubing, snowboarding and much more! But are that the only things waiting for them?..
+
+
+  It is an addon to our VN "[Great Troubles](Great_Troubles.html)".
+  
+description-format: markdown
+
+tags:
+  author:
+    - 'HAZUKASHII TEAM'
+  type:
+    - visual-novel
+    - dating-sim
+    - bara
+  male:
+    - dog
+    - cat
+  misc:
+    - freeware
+    - engine-renpy
+    - multiple-endings
+    - multiple-series
+  lang:
+    - en
+  publish:
+    - website
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: Publish page
+    icon: furaffinity
+    uri: https://www.furaffinity.net/view/22114371/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/eieHUfr.png
+
+
+X-Created-by: anonymous
+X-Co-authored-by: [ UtopicPanther ]
