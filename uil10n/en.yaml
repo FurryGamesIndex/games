@@ -14,7 +14,7 @@ copying_oss: Powered by Open-source softwares
 
 index_content: >
   <h1>FurryGamesIndex - Find the best furry &amp; kemono games</h1>
-  <p>FGI (an acronym for FurryGamesIndex) is a project to collect, organize, classify, tag games which are "furry games" or include furry and/or kemono contents. Also collect third-party localized resource links for these games.</p>
+  <p>FGI (short for FurryGamesIndex) is a project to collect, organize, classify, tag games which are "furry games" or include furry and/or kemono contents. Also collect third-party localized resource links for these games.</p>
   <p>The motive for creating this project was that Lucky Doge gave up his <a href="https://doge.im/recommend/kemono-games.html">Furry Game Collection</a> project, and Utopic Panther once benefited from the project of Lucky Doge, and trying to rebuild a game collection on the Internet. Lucky Doge <a href="https://github.com/FurryGamesIndex/games/blob/master/luckydoge.txt">generously provided the results that he had made a lot of hard work</a>, making it possible for this project to quickly develop into a practical list.</p>
   <p>The project pays more attention to maintainability, encourages community participation, provides convenient infrastructure for community participation and improves ease of use (such as tagging and search functions), and may also do voting and discussion in the future.</p>
 
@@ -36,10 +36,10 @@ search_form_do: Search
 search_help_link: Instructions for using the searching
 
 gamewarn_yiff: This game contains sensitive content or is not suitable for access at work.
-gamewarn_nolang: This game may not contain localized language for English
-gamewarn_lang_unofficial: Localized language English is supported by unofficial source
+gamewarn_nolang: This game may not contain English language localizations
+gamewarn_lang_unofficial: English language localization is provided by a third party
 gamewarn_ongoing: This game is an ongoing project
-gamewarn_unpublished: This game is NOT published
+gamewarn_unpublished: This game has NOT been released yet
 gamewarn_died: This game is probably dead before completion
 gamewarn_notonlyfurry: This game is not just about Furry topics. This means you may not like this game.
 
