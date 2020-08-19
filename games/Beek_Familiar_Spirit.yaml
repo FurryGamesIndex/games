@@ -40,7 +40,7 @@ tags:
 
 links:
   - name: .play-store
-    uri: https://play.google.com/store/apps/details?id=com.orangejuicedogshanghai.beek
+    uri: google-play-store:com.orangejuicedogshanghai.beek
   - name: .apple-appstore
     uri: https://apps.apple.com/app/id1477804219
   - name: .itch.io

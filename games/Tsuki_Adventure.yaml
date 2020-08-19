@@ -44,7 +44,7 @@ links:
   - name: .website
     uri: https://hyperbeard.com/game/tsuki/
   - name: .play-store
-    uri: https://play.google.com/store/apps/details?id=com.hyperbeard.tsuki&hl
+    uri: google-play-store:com.hyperbeard.tsuki
   - name: .apple-appstore
     uri: https://itunes.apple.com/us/app/tsuki-adventure/id1436776211
 
