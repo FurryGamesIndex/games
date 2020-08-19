@@ -58,6 +58,7 @@ warnbox_staging: 這是一個施工中的頁面，其內容可能在將來發生
 noticebox_tagme: 這個頁面已知缺少重要標籤。請幫忙新增標籤。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-tw.md">貢獻指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-tw.md">標籤列表和解釋</a>
 
 stock-link-website: 官方網站
+stock-link-release-page: 釋出頁面
 stock-link-steam: 在 Steam 上獲取
 stock-link-itch.io: 在 itch.io 上獲取
 stock-link-booth: 在 booth 上獲取
