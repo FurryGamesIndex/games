@@ -31,7 +31,7 @@ tags:
     - android
 
 links:
-  - name: Publish page
+  - name: .release-page
     uri: https://tieba.baidu.com/p/3345903293
   - name: .twitter
     uri: twitter:xingmahaov

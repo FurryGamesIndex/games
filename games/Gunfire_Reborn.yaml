@@ -43,7 +43,7 @@ links:
     uri: steam:1217060
   - name: .twitter
     uri: twitter:GunfireReborn
-  - name: Publish page for China
+  - name: Release page for China
     uri: https://qh.duoyi.com/
 
 thumbnail: thumbnail.jpg

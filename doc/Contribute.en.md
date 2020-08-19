@@ -230,6 +230,7 @@ However, it should be noted that FGI has designed something called "Stock Link" 
 FGI supported stock links include the following
 
 - `stock-link-website`: Official Website
+- `stock-link-release-page`: Release page
 - `stock-link-steam`: Get on Steam
 - `stock-link-itch.io`: Get on itch.io
 - `stock-link-booth`: Get on booth
@@ -264,6 +265,7 @@ At the same time, some links can be abbreviated to the URI form we defined, reco
 - Tumblr: `tumblr:user name` such as `tumblr:xxx`, which is equivalent to `https://xxx.tumblr.com/`
 - pixiv: `pixiv:user ID` such as `pixiv:123456`, equivalent to `https://www.pixiv.net/users/123456`
 - Furaffinity: `furaffinity:user name`, equivalent to `https://www.furaffinity.net/user/<username>/`
+- Google Play store: `google-play-store:package name` such as `google-play-store:com.danfornace.loversofaether`, equivalent to `https://play.google.com/store/apps/details?id=com.danfornace.loversofaether`
 
 icon
 
