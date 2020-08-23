@@ -62,8 +62,8 @@ def __convgamesl10n(cn, tw, f, fn):
     with open(fn) as stream:
         data = yaml.safe_load(stream)
 
-    if "X-Chinese-Converter-Hint" in data:
-        data = data["X-Chinese-Converter-Hint"]
+    if "X-Chinese-Convertor-Hint" in data:
+        data = data["X-Chinese-Convertor-Hint"]
         if "prefer" in data:
             if data["prefer"] == "TW":
                 conv(twf, cnf, conv=convertert2s)
