@@ -23,7 +23,7 @@ FGI 的中文變體轉換由 `zhconv.py` 實現，最早的（也是現在預設
 
 ## X-Chinese-Convertor-Hint 提示
 
-在遊戲頁面對應的 l10n yaml 檔案中（`games/l10n/zh-tw/*.yaml` 或 `games/l10n/zh-tw/*.yaml`），新增`X-Chinese-Convertor-Hint` 擴充套件，提示轉換器更改預設行為。
+在遊戲頁面對應的 l10n yaml 檔案中（`games/l10n/zh-cn/*.yaml` 或 `games/l10n/zh-tw/*.yaml`），新增`X-Chinese-Convertor-Hint` 擴充套件，提示轉換器更改預設行為。
 
 ```
 X-Chinese-Convertor-Hint:
@@ -38,4 +38,4 @@ PREFER 的取值如下：
 
 值得注意的是，若多個 l10n yaml 變體中的 `X-Chinese-Convertor-Hint` 不同，優先採用簡體中文 yaml 檔案中的 `X-Chinese-Convertor-Hint` 提示。
 
-當直接新增一個繁體版本的遊戲 l10n 頁面時，如 `games/l10n/zh-tw/NAME.yaml`，若不存在簡體頁面，將會使用此提示，通常將提示設定為 `prefer: TW`，這樣，第一次轉換出 `games/l10n/zh-tw/NAME.yaml` 的 `prefer` 仍然是 `TW`，即使第二次優先使用 `games/l10n/zh-tw/NAME.yaml` 的 `X-Chinese-Convertor-Hint`，也將會使用繁體版本生成簡體版本的策略。
+當直接新增一個繁體版本的遊戲 l10n 頁面時，如 `games/l10n/zh-tw/NAME.yaml`，若不存在簡體頁面，將會使用此提示，通常將提示設定為 `prefer: TW`，這樣，第一次轉換出 `games/l10n/zh-cn/NAME.yaml` 的 `prefer` 仍然是 `TW`，即使第二次優先使用 `games/l10n/zh-cn/NAME.yaml` 的 `X-Chinese-Convertor-Hint`，也將會使用繁體版本生成簡體版本的策略。
