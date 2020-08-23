@@ -105,7 +105,5 @@ for i in args.extra_pathes:
     t = i.split(":")[1]
     if os.path.isfile(f):
         conv(f, t)
-    elif os.path.isdir(f):
-        convdir(f, t, True)
     else:
-        print("Warning: unknown path: %s" % f)
+        raise ValueError("file not exists: %s" % f)
