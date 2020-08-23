@@ -69,6 +69,8 @@ def __convgamesl10n(cn, tw, f, fn):
                 conv(twf, cnf, conv=convertert2s)
             elif data["prefer"] == "CN":
                 conv(cnf, twf)
+            elif data["prefer"] == "ignored":
+                pass
             else:
                 raise ValueError("unsupported cchint prefer %s" % prefer)
     else:
