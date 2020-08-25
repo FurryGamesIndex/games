@@ -1,0 +1,92 @@
+name: Spiritfarer
+
+description: |
+  ![gif1](https://media.st.dl.pinyuncloud.com/steam/apps/972660/extras/Steam_1.gif?t=1598282921)
+  
+  **What will you leave behind?**
+
+  *Spiritfarer®* is a cozy management game about dying. You play Stella, ferrymaster to the deceased, a Spiritfarer. Build a boat to explore the world, then befriend and care for spirits before finally releasing them into the afterlife. Farm, mine, fish, harvest, cook, and craft your way across mystical seas. Join the adventure as Daffodil the cat, in two-player cooperative play. Spend relaxing quality time with your spirit passengers, create lasting memories, and, ultimately, learn how to say goodbye to your cherished friends. What will you leave behind?
+
+  ![gif2](https://media.st.dl.pinyuncloud.com/steam/apps/972660/extras/Steam_3.gif?t=1598282921)
+  
+  **Features:**
+
+  * Build, manage, and improve your own ferry.
+  * Farm, mine, fish, harvest, cook, weave, craft! An endless variety of activities await you!
+  * Meet, take on board, care for, and forge relationships with a cast of memorable characters.
+  * Run, jump, and glide your way through elegantly constructed platforming levels.
+  * Explore a fantastic and imaginative world. Seek and gather resources to craft upgrades for your ship and gifts for your passengers.
+  * Experience moving, emotional stories filled with unforgettable moments.
+  * Unwind for hours into cozy and relaxing gameplay. 30 hours to finish, hundreds more to experience everything Spiritfarer has to offer.
+  * Make the adventure your own with rich customization options for your boat, character, even the cat!
+  * Play as Daffodil the cat in optional local co-op.
+
+  ![gif3](https://media.st.dl.pinyuncloud.com/steam/apps/972660/extras/Steam_2.gif?t=1598282921)
+
+description-format: markdown
+
+tags:
+  author:
+    - 'Thunder Lotus'
+  type:
+    - casual
+    - adventure
+    - business-sim
+  male:
+    - bird
+    - shark
+  female:
+    - deer
+    - snake
+    - lynx
+    - weasel
+    - humankind
+    - non-anthro
+  misc:
+    - multiplayer
+    - engine-unity
+    - outside-furry-fandom
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+    - itchio
+    - e-shop
+    - gog
+    - microsoft-store
+  platform:
+    - windows
+    - macos
+    - linux
+    - nintendo-switch
+    - xbox-one
+    - playstation4
+
+links:
+  - name: .website
+    uri: http://thunderlotusgames.com/spiritfarer
+  - name: .twitter
+    uri: twitter:ThunderLotus
+  - name: .itch.io
+    uri: https://thunderlotus.itch.io/spiritfarer
+  - name: .steam
+    uri: steam:972660
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/spiritfarer-switch/
+  - name: .gog.com
+    uri: https://www.gog.com/game/spiritfarer
+  - name: .microsoft-store
+    uri: https://www.xbox.com/en-CA/games/spiritfarer
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: youtube
+    uri: youtube:Xu4JHmcfrtw
+  - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1NzgucG5n/original/K3HQZx.png
+  - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1NzkuanBn/original/XkkmW1.jpg
+  - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1ODAucG5n/original/WV5Z73.png
+  - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1ODEucG5n/original/yxUH6t.png
+  - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1ODIuanBn/original/5Msp4N.jpg
+  - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1ODMucG5n/original/JO5BJa.png
