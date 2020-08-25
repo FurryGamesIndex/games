@@ -74,7 +74,7 @@ links:
     uri: steam:972660
   - name: .nintendo-e-shop
     uri: https://www.nintendo.com/games/detail/spiritfarer-switch/
-  - name: .gog
+  - name: .gog.com
     uri: https://www.gog.com/game/spiritfarer
   - name: .microsoft-store
     uri: https://www.xbox.com/en-CA/games/spiritfarer
