@@ -1,11 +1,7 @@
 name: Kemono Code
 
 description: |
-  【此游戏的获取方式已经失效】
-  
   来自魔族的半兽半魔的青年伊沃，突然转学到一所兽人学园生活。这里是一个无论环境还是理念都与魔族大相径庭的世界。这里有闷骚的学纪委员长、放荡的足球队员、拜金的老师、害羞胆小的舍友，伊沃究竟能否在这里找到属于自己的真爱呢？
-
-expunge: true
 
 tags:
   author:
@@ -26,6 +22,7 @@ tags:
     - freeware
     - multiple-endings
     - uncensored
+    - expired
   lang:
     - zh
   publish:
