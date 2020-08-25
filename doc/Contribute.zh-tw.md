@@ -231,18 +231,20 @@ links:
 FGI 支援的庫存連結包括以下幾個
 
 - `.website`: 官方網站
-- `.itch.io`: 在 itch.io 平臺上獲取
-- `.steam`: 在 Steam 平臺上獲取
-- `.google-play` 在 Google Play 平臺上獲取
-- `.apple-appstore` 在 Apple appstore 平臺上獲取
-- `.e-shop` 在 Nintendo E-Shop 平臺上獲取
-- `.gog` 在 gog.com 平臺上獲取
-- `.microsoft-store` 在 ‎Microsoft Store 平臺上獲取
-- `.patreon`: Patreon (在 Patreon 平臺上贊助作者)
+- `.release-page`: 釋出頁面
+- `.steam`: 在 Steam 上獲取
+- `.itch.io`: 在 itch.io 上獲取
+- `.booth`: 在 booth 上獲取
+- `.play-store`: 在 Google Play 上獲取
+- `.apple-appstore`: 在 Apple appstore 上獲取
+- `.nintendo-e-shop`: 在 Nintendo E-Shop 上獲取
+- `.gog.com`: 在 gog.com 上獲取
+- `.microsoft-store`: 在 Microsoft Store 上獲取
 - `.twitter`: 官方 Twitter
 - `.furaffinity`: 官方 FurAffinity
 - `.weibo`: 官方微博
 - `.tumblr`: 官方 Tumblr
+- `.pixiv`: 官方 Pixiv
 - `.discord`: 官方 Discord
 - `.unofficial-patch-zh-cn`: 非官方簡體中文補丁
 - `.unofficial-ver-zh-cn`: 非官方簡體中文版本
