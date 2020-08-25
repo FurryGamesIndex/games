@@ -23,6 +23,9 @@
 {% if "died" in game.tags.misc %}
 <div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_died }}</span></div>
 {% endif %}
+{% if "expired" in game.tags.misc %}
+<div class="iconline"><i class="far fa-trash-alt fa-fw"></i><span>{{ ui.gamewarn_expired }}</span></div>
+{% endif %}
 {% if "not-only-furry-topic" in game.tags.misc %}
 <div class="iconline"><i class="fas fa-exclamation-triangle fa-fw"></i><span>{{ ui.gamewarn_notonlyfurry }}</span></div>
 {% endif %}
