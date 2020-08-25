@@ -229,27 +229,27 @@ However, it should be noted that FGI has designed something called "Stock Link" 
 
 FGI supported stock links include the following
 
-- `stock-link-website`: Official Website
-- `stock-link-release-page`: Release page
-- `stock-link-steam`: Get on Steam
-- `stock-link-itch.io`: Get on itch.io
-- `stock-link-booth`: Get on booth
-- `stock-link-play-store`: Get on Google Play
-- `stock-link-apple-appstore`: Get on Apple Appstore
-- `stock-link-nintendo-e-shop`: Get on Nintendo E-Shop
-- `stock-link-gog.com`: Get on gog.com
-- `stock-link-microsoft-store`: Get on Microsoft Store
-- `stock-link-twitter`: Official Twitter
-- `stock-link-furaffinity`: Official FurAffinity
-- `stock-link-patreon`: Patreon
-- `stock-link-weibo`: Official Weibo
-- `stock-link-tumblr`: Official Tumblr
-- `stock-link-pixiv`: Official Pixiv
-- `stock-link-discord`: Official Discord
-- `stock-link-unofficial-patch-zh-cn`: Unofficial Simplified Chinese patch
-- `stock-link-unofficial-ver-zh-cn`: Unofficial Simplified Chinese version
-- `stock-link-unofficial-patch-zh-tw`: Unofficial Traditional Chinese patch
-- `stock-link-unofficial-ver-zh-tw`: Unofficial Traditional Chinese version
+- `.website`: Official Website
+- `.release-page`: Release page
+- `.steam`: Get on Steam
+- `.itch.io`: Get on itch.io
+- `.booth`: Get on booth
+- `.play-store`: Get on Google Play
+- `.apple-appstore`: Get on Apple Appstore
+- `.nintendo-e-shop`: Get on Nintendo E-Shop
+- `.gog.com`: Get on gog.com
+- `.microsoft-store`: Get on Microsoft Store
+- `.twitter`: Official Twitter
+- `.furaffinity`: Official FurAffinity
+- `.patreon`: Patreon
+- `.weibo`: Official Weibo
+- `.tumblr`: Official Tumblr
+- `.pixiv`: Official Pixiv
+- `.discord`: Official Discord
+- `.unofficial-patch-zh-cn`: Unofficial Simplified Chinese patch
+- `.unofficial-ver-zh-cn`: Unofficial Simplified Chinese version
+- `.unofficial-patch-zh-tw`: Unofficial Traditional Chinese patch
+- `.unofficial-ver-zh-tw`: Unofficial Traditional Chinese version
 
 When you use the stock link, you don’t need to write such a long word, and you don’t need to write a copy for each language, because the stock link is fixed, and each language can be processed automatically.
 

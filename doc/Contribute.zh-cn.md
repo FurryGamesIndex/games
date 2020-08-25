@@ -235,7 +235,7 @@ FGI 支持的库存链接包括以下几个
 - `.steam`: 在 Steam 平台上获取
 - `.google-play` 在 Google Play 平台上获取
 - `.apple-appstore` 在 Apple appstore 平台上获取
-- `.e-shop` 在 Nintendo E-Shop 平台上获取
+- `.nintendo-e-shop` 在 Nintendo E-Shop 平台上获取
 - `.gog` 在 gog.com 平台上获取
 - `.microsoft-store` 在 ‎Microsoft Store 平台上获取
 - `.patreon`: Patreon (在 Patreon 平台上赞助作者)
