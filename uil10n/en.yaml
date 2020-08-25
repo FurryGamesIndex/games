@@ -25,7 +25,7 @@ index_link_contributors: Contributors list
 index_link_github: Github Repository
 index_link_tg: Telegram Channel/Groups
 
-search_searching: Shearching...
+search_searching: Searching...
 search_not_found: No items found
 search_found_n_item: Found {0} items
 search_load_db_error: Error occured
@@ -35,7 +35,7 @@ search_form_mode_tag: Search tags
 search_form_do: Search
 search_help_link: Instructions for using the searching
 
-gamewarn_yiff: This game contains sensitive content or is not suitable for access at work.
+gamewarn_yiff: This game may contain sensitive content or may not be appropriate for viewing at work.
 gamewarn_nolang: This game may not contain English language localizations
 gamewarn_lang_unofficial: English language localization is provided by a third party
 gamewarn_ongoing: This game is an ongoing project
