@@ -771,6 +771,12 @@ died:
     en: 'When the game is not finished, the author announced to give up (If this tag exists, please destroy the misc:work-in-process tag)'
     zh-cn: '游戏尚未完成时被作者宣布放弃（此标签存在时，请销毁 misc:work-in-process 标签）'
 
+expired:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The acquisition method (such as download links) for the game is no longer valid (whether the game was abandoned before completion or not. Not to be confused with misc:died)'
+    zh-cn: '游戏的获取方式（如下载链接）已经失效（不管游戏是否完成前被放弃，只要不再存在获取方式。则使用此标签，不要与 misc:died 混淆）'
+
 unofficial:
   namespaces: [ misc ]
   explanation:

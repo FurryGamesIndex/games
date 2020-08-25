@@ -167,6 +167,7 @@ Used to describe miscellaneous information related to the game
 - `work-in-process` The game is ongoing
 - `multiple-series` The game is included in a series of connected worldviews or plots
 - `died` When the game is not finished, the author announced to give up (If this tag exists, please destroy the misc:work-in-process tag)
+- `expired` The acquisition method (such as download links) for the game is no longer valid (whether the game was abandoned before completion or not. Not to be confused with misc:died)
 - `unofficial` The game is a unoffical work (such as Morenatsu unoffical ver)
 - `mods` This is a mods for a game
 - `unpublished` The game has not been released, usually the Demo version has been released, but the author deleted and announced that the official version will be released in the future. Or the reputable author announced the upcoming game
