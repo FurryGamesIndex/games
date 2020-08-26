@@ -35,12 +35,14 @@ tags:
     - windows
 
 links:
+  - name: Original Japanese version archive
+    uri: https://drive.google.com/uc?id=1KYEOnr9PcQYg7a2IsMKDDzxbPI_5xISo&export=download
   - name: .unofficial-ver-zh-cn
     uri: https://srk.im/thread-3-1-1.html
 
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - https://i.imgur.com/sqKu2tL.jpg
   - https://i.imgur.com/ibsFl03.png
   - https://i.imgur.com/ytwT3Ml.png
-  - https://i.imgur.com/sqKu2tL.jpg
