@@ -1,0 +1,84 @@
+name: The Cathouse Tale
+
+description: |
+  Cathouse Tale is an adult game project featuring anthropomorphic characters. We are currently working on expanding our character customizer and adding loads of new animations, as well as getting started on the actual sex scene gameplay. Our long-term goal is to make something that sets a new standard for x-rated fantasy game content.
+
+  We intend to make sexual content for everyone to enjoy, featuring every combination of males, females, and hermaphrodites, so you'll see plenty of variety, but with the option to restrict scenes according to your personal tastes.
+
+  Gameplay - You will be playing as a prostitute at a high-tier, exclusive brothel. The goal is to serve your customers well, get to know your coworkers, and develop your skills. As you work your way up, you will be introduced to new challenges, encounters and unlockables.
+
+  Player progression - We plan to incorporate a few RPG elements for the player, such as an engaging cast of characters to interact with and unlockable skills to augment your abilities. These skills would give you an edge in stimulating and satisfying your partners, which will grow steadily more challenging later in the game.
+
+  Story progression and exploration - The Cathouse is a large place, and you start out at the bottom rung, with access to only one area. As you prove yourself, new areas of the building will be unlocked, and secrets will be revealed. Eventually, you will prove yourself worthy of the Owner, and become the Cathouse's elite international agent and the heir to the Owner.
+
+tags:
+  author:
+    - 'The Cathouse Tale Team'
+  type:
+    - role-playing
+    - business-sim
+    - bara
+    - yuri
+    - yiff
+  male:
+    - wolf
+    - bird
+    - fox
+    - deer
+    - horse
+    - lion
+    - mouse
+    - otter
+    - rabbit
+    - shark
+    - tiger
+    - muscle
+    - anal
+    - blowjob
+  female:
+    - wolf
+    - bird
+    - fox
+    - deer
+    - horse
+    - lion
+    - mouse
+    - otter
+    - rabbit
+    - shark
+    - muscle
+    - blowjob
+  misc:
+    - 3d
+    - uncensored
+    - engine-unity
+    - died
+  lang:
+    - en
+  publish:
+    - website
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .release-page
+    uri: https://cathousetale.com/game/
+  - name: .patreon
+    uri: patreon:thecathousetale
+
+thumbnail: thumbnail.jpg
+
+sensitive_media: true
+
+screenshots:
+  - https://i.imgur.com/mIIhmtW.png
+  - sensitive: true
+    uri: https://images2.imgbox.com/33/82/qS51k71b_o.png
+  - https://i.imgur.com/hmUVnFu.png
+  - sensitive: true
+    uri: https://images2.imgbox.com/d6/c5/Q3pOh3ER_o.png
+  - https://i.imgur.com/JJ2EnqO.png
+
