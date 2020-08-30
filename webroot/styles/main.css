@@ -12,19 +12,47 @@ html[lang=zh-tw] {
 	line-height: 1.42;
 }
 
-body {
+:root {
+	--background-color: white;
 	--text-color: black;
 	--link-color: #08c;
 	--link-color-hover: #005580;
 	--tip-color: grey;
 	--border-color: grey;
+	--tag-border-color: #aaa;
 	--box-warn-border-color: #fc3;
 	--box-warn-color: #fff3ca;
 	--box-notice-border-color: #6cf;
 	--box-notice-color: #f0faff;
 	--infobar-color: #f3f3f3;
+}
 
-	color: var(--taxt-color);
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color: #e8e8e8;
+		--background-color: #212121;
+		--background-color: black;
+		--text-color: white;
+		--link-color: #70ace5;
+		--link-color-hover: #0086ca;
+		--tip-color: #bbb;
+		--border-color: #989898;
+		--tag-border-color: #777;
+		--box-warn-border-color: #fc3;
+		--box-warn-color: #fff3ca;
+		--box-notice-border-color: #6cf;
+		--box-notice-color: #f0faff;
+		--infobar-color: #f3f3f3;
+	}
+
+	img {
+		opacity: 0.9;
+	}
+}
+
+body {
+	background: var(--background-color);
+	color: var(--text-color);
 	font-family: sans-serif;
 
 	margin: 0;
@@ -156,7 +184,7 @@ code {
 	line-height: 1.4em;
 }
 
-@media screen and (max-width: 940px){
+@media screen and (max-width: 940px) {
 	/* fix for mobile safari */
 	body {
 		-webkit-text-size-adjust: 100%;
@@ -369,7 +397,7 @@ code {
 	display: inline-block;
 	padding: 2px 6px;
 	margin: 2px;
-	border: 1px solid #989898;
+	border: 1px solid var(--tag-border-color);
 }
 
 .game .screenshots>* {
