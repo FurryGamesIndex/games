@@ -63,3 +63,5 @@ jobs:
       run: |
         echo -e "Host gitee.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
         git push git@gitee.com:furrygamesindex/games.git master || true
+        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        git push git@gitlab.com:furrygamesindex/games.git master || true
