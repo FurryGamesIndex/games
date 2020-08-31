@@ -38,11 +38,11 @@ html[lang=zh-tw] {
 		--tip-color: #bbb;
 		--border-color: #989898;
 		--tag-border-color: #777;
-		--box-warn-border-color: #fc3;
-		--box-warn-color: #fff3ca;
-		--box-notice-border-color: #6cf;
-		--box-notice-color: #f0faff;
-		--infobar-color: #f3f3f3;
+		--box-warn-border-color: #dea700;
+		--box-warn-color: #886900;
+		--box-notice-border-color: #006ca2;
+		--box-notice-color: #002f46;
+		--infobar-color: #424242;
 	}
 
 	img {
