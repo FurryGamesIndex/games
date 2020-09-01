@@ -872,6 +872,11 @@ ja-unofficial:
     en: 'Japanese supporting provided by unoffical source'
     zh-cn: '游戏有非官方日语版本'
 
+ru:
+  namespaces: [ lang ]
+  explanation:
+    en: 'STUB'
+
 zh:
   namespaces: [ lang ]
   explanation:
