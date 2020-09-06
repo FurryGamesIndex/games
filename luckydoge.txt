@@ -124,6 +124,8 @@ Willy Bear Beach 2
 咱的夏天。（非正式版） / 漏れなつ。（非公式版）
 咱的夏天。 返乡版 / Homecoming ~Morenatsu Revisited~
 咱的夏天。 ~重制版~ / Morenatsu ~Revisited~
+Flexible survival
+兽人代码 / Kemono Code
 
 But these games are NOT accepted:
 
@@ -131,10 +133,8 @@ Due to expired:
  Hello, 吳鍊
  The Twin
  Blank Blood Delga
- Flexible survival
  Mugen Delga
  Mugen Delga Action
- 兽人代码 / Kemono Code
  逃 / Escape
  先辈被我弄得很爽♂(雾) / Kemono Roster – Minos
 
