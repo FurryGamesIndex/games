@@ -1,0 +1,57 @@
+name: Nerus
+
+description: |
+  Nerus is a mystery and romance kinetic novel about two souls with intertwined fates.
+  
+  This tale spans across many eras and places, each one riddled with mystery, suspense and clues to understand the inner workings of this fantastical world. I only ask that you sit down and enjoy the story. But, be wary of that which lurks within the dark.
+  
+  Our first story follows Shax, a young shapeshifter sent serve a Great Shapeshifter, Neru Magnus, as punishment for his crimes. As their relationship changes and they grow closer, Shax comes to realize something about himself.
+  
+  Our second story follows Alessia and Bitey, a detective duo that lives in a ruined world, in their efforts to solve a mysterious crime that took place inside an important abbey.
+  
+  Nerus contains nudity, adult themes and sexually explicit content of homosexual nature between fictional characters. To play this game you must be 18 years old or the applicable age in your country.
+  
+  Consider following our [Twitter page](https://twitter.com/nerusvn) for updates on the game's development. Current cover was drawn by [nanoff](https://twitter.com/nanoff94) from the [Minotaur Hotel](Minotaur_Hotel.html) team.
+
+description-format: markdown
+
+tags:
+  author:
+    - roddorod
+  type:
+    - visual-novel
+    - bara
+  male:
+    - lizard
+    - dog
+    - leopard
+    - wolf
+    - humankind
+  female:
+    - humankind
+  misc:
+    - freeware
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://roddorod.itch.io/nerus
+  - name: .twitter
+    uri: twitter:nerusvn
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzM5MjM4MzgucG5n/original/cV3CEr.png
+  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzM5MjM4MzkucG5n/original/npIPOZ.png
+  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzM5MjM4NDAucG5n/original/hsN%2FVX.png
