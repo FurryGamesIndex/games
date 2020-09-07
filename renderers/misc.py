@@ -20,7 +20,7 @@
 import os
 from datetime import datetime
 from markdown2 import Markdown
-from utils.sitemap import openw_with_sm
+from utils.seo.sitemap import openw_with_sm
 
 context= {
     "rr": "..",

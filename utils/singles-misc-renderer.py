@@ -21,7 +21,7 @@ import os
 from utils.i18n import get
 from markdown2 import Markdown
 
-from utils.sitemap import openw_with_sm
+from utils.seo.sitemap import openw_with_sm
 
 context = {
     "rr": ".",

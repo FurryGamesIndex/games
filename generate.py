@@ -43,7 +43,7 @@ args = parser.parse_args()
 
 from utils.search import searchdb
 from utils import tagmgr
-from utils import sitemap
+from utils.seo import sitemap
 
 
 dir = "games"

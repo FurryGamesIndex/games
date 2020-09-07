@@ -21,7 +21,7 @@ import os
 import json
 from utils import image
 from utils.i18n import get
-from utils.sitemap import openw_with_sm
+from utils.seo.sitemap import openw_with_sm
 
 from __main__ import args
 
