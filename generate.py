@@ -44,6 +44,7 @@ args = parser.parse_args()
 from utils.search import searchdb
 from utils import tagmgr
 from utils.seo import sitemap
+from utils.seo import keywords
 
 
 dir = "games"
@@ -114,6 +115,7 @@ for language in languages:
     with open(os.path.join("uil10n", language + ".yaml")) as stream:
         ui = base_l10n.copy()
         ui.update(yaml.safe_load(stream))
+        keywords.preprocess_keywords(ui)
     if args.extra_ui is not None:
         euifn = os.path.join(args.extra_ui, language + ".yaml") 
         if os.path.isfile(euifn):

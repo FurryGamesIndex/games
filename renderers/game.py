@@ -24,6 +24,7 @@ from utils.i18n import get
 from utils.i18n import get_desc
 from utils.link import link_info
 from utils.seo.sitemap import openw_with_sm
+from utils.seo import keywords
 
 def checktag(game, namespace, value):
     return value in game["tags"].get(namespace, {})
@@ -80,6 +81,8 @@ def render(games, env, language, language_ui, output):
         desc = get(game, language, 'description')[:200].replace('\n', '') + "..."
         meta["description"] = re.sub(r'<[^<]*>', '', desc)
         meta["image"] = image.uri(context["rr"], game["thumbnail"], name)
+
+        meta["extra_keywords"] = keywords.game_page_extra_keywords(game, language_ui)
 
         # TODO: Refactor this code
         if 'expunge' in game:
