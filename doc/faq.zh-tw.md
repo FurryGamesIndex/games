@@ -6,6 +6,16 @@
 
 歡迎[參與 FGI 貢獻](https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-tw.md)
 
+### 你們接受直男向遊戲嗎？
+
+實際上是的。但是為本專案做貢獻的志願者們大部分是同性戀，因此導致了列表上出現的同性戀遊戲較多。
+
+即使如此，我們仍然添加了一些直男向遊戲。如果你希望看到你喜歡的直男向遊戲出現在此列表上，不要猶豫，現在就貢獻吧。
+
+### 你們接受 "Kemonomimi" 遊戲嗎?
+
+永遠不會。並且，如果一個遊戲同時包含 Kemonomimi 和可接受的 Furry 元素, Kemonomimi 將被認定為“人類或智人 [humankind](https://furrygamesindex.github.io/en/search.html?tagx?male:humankind%20or%20female:humankind)”。
+
 <a id="search_help"></a>
 ### 我該如何充分利用本站的“搜尋”功能
 
