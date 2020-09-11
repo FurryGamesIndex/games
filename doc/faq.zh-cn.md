@@ -12,6 +12,8 @@
 
 即使如此，我们仍然添加了一些直男向游戏。如果你希望看到你喜欢的直男向游戏出现在此列表上，不要犹豫，现在就贡献吧。
 
+对于那些想要过滤掉部分性取向的人来说，我们提供两个标签，`type:bara` 表示游戏含有男同性恋元素，`type:yuri` 表示游戏含有女同性恋元素。可以配合下面的"我该如何充分利用本站的“搜索”功能"使用。
+
 ### 你们接受 "Kemonomimi" 游戏吗?
 
 永远不会。并且，如果一个游戏同时包含 Kemonomimi 和可接受的 Furry 元素, Kemonomimi 将被认定为“人类或智人 [humankind](https://furrygamesindex.github.io/en/search.html?tagx?male:humankind%20or%20female:humankind)”。

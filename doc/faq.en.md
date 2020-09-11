@@ -12,6 +12,8 @@ Actually yes. But most of the volunteers who contributed to this project are gay
 
 Even so, we've still added some straight games. If you'd like to see your favorite straight games appear on this list, don't hesitate to contribute now.
 
+For those who want to filter out some of the sexual orientation, we offer two tags, `type:bara` for games with gay contents and `type:yuri` for games with lesbian contents. This can be used in conjunction with the "How can I make full use of the search function of this site" below.
+
 ### Do you accept "Kemonomimi" games?
 
 Never. Also, if a game contains both Kemonomimi and acceptable furries, Kemonomimi will be identified as "[humankind](https://furrygamesindex.github.io/en/search.html?tagx?male:humankind%20or%20female:humankind)".
