@@ -1,0 +1,68 @@
+name: Salad Fields
+
+description: |
+  Salad Fields is a DREAMYQUEER experience.
+  In this adventure-puzzle game you explore surreal lands and meet strange folks...
+
+  Folks include:
+  -=-  Yippie the gay leather-mouse who bakes doughnuts using vegetables
+  -=-  Kizzy the computer who fears Y2K
+  -=-  Myrtyl the anti-cop queer skater punk
+  -=-  Fancy Andy the ampersand-shaped butler and wannabe beekeeper
+  -=-  3 "dudebirds" (dudebro + bird)
+
+  Two gameplay modes for flexible playstyles:
+  -=-  "Puzzle mode" provides challenge
+  -=-  "Exploration mode" lets you walk right through the puzzles, making the game's various bizarre worlds accessible to anyone (...anyone weird enough to play this game)
+
+  *informercial voice* But how big is this game, you ask?! It's pretty goshdarn big. :O
+  -=-  Over 100 (ONE HUNDRED) puzzles!
+  -=-  30 music tracks, or over an hour of music!
+  -=-  A whole bunch'a locations and characters and things!
+
+  The devs:
+  Resni is the creator of the unofficial cult-classic "Mibibli's Quest", and jars received their MFA and likes puzzles.
+  We are also queer furries and a couple. Salad Fields might seem very silly (and it is) but we feel it reflects our truths as strange misfits in various ways. We hope that you find something in it you resonate with. :3
+
+tags:
+  author:
+    - resnijars
+  type:
+    - adventure
+    - puzzle
+    - bara
+  male:
+    - wolf
+    - dog
+    - raccoon
+    - bird
+  female:
+    - dog
+  misc:
+    - pixel-art
+  lang:
+    - en
+  publish:
+    - steam
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .steam
+    uri: steam:1162430
+  - name: .itch.io
+    uri: https://resnijars.itch.io/salad-fields
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    uri: youtube:2LZkcFzB3HM
+  - https://steamcdn-a.akamaihd.net/steam/apps/1162430/ss_7c914570f7e7e84ce4c363d95b09781b1efa6d93.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1162430/ss_6f1ac674ae48d736bfd086d6e2f4517dd48e7d57.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1162430/ss_4ed213d8c2e027f2770d0d51588c056e8af96348.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1162430/ss_6537fce01c15c3f62873a70ed37889f33af97ade.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1162430/ss_ed4b4d39c05a73f5a9b0b7f36212206793784382.1920x1080.jpg
