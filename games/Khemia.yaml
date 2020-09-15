@@ -1,15 +1,24 @@
 name: Khemia
 
 description: |
-  Follow-up story of Adastra
-  The game just started
-  Description will be updated in the future
+  (Khemia contains themes of an adult nature -  you must be 18 or older to play)
 
-expunge: true
+  Things have changed quite a bit on Adastra. The Human's arrival has altered the political course of the entire galaxy. After his departure, the friends he knew on the wolven moon are left guessing as to what needs to be done next. The Parents, the supposedly all-knowing, all-powerful beings controlling the Galaxias, have a plan, but it's not like they're being upfront about it. They never are, and Scipio, a young wolf on a diplomatic mission, starts to wonder if these Parents really do hold hold all the answers. He starts to wonder if there are Others.
+  
+  ## Credits
+
+  Sprite art is by [HAPS](https://twitter.com/GotSomeHaps).  
+  Background art is by [Stranj](https://twitter.com/CivetStranj).  
+  Additional art is by [Karadamon](https://twitter.com/LimeCardamom).  
+  Music is composed by [Moe](https://twitter.com/Moemusician).
+
+  ## Update Schedule
+
+  The game is updated within the first two weeks of every month. You can also get updates and access builds up to two weeks early on our Patreon which you can find  HERE!
+
+description-format: markdown
 
 tags:
-  sys:
-    - staging
   author:
     - 'The Echo Project'
   type:
@@ -30,12 +39,15 @@ tags:
     - en
   publish:
     - patreon
+    - itchio
   platform:
     - windows
     - macos
     - linux
 
 links:
+  - name: .itch.io
+    uri: https://echoproject.itch.io/khemia
   - name: .patreon
     uri: patreon:EchoGame
   - name: .twitter
@@ -43,4 +55,8 @@ links:
 
 thumbnail: thumbnail.jpg
 
-screenshots: []
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNzU4MzUxLzQyMzk1ODcucG5n/original/S9PP13.png
+  - https://img.itch.zone/aW1hZ2UvNzU4MzUxLzQyMzk1ODkucG5n/original/eNDq6E.png
+  - https://img.itch.zone/aW1hZ2UvNzU4MzUxLzQyMzk1OTEucG5n/original/uSJKKR.png
+  - https://img.itch.zone/aW1hZ2UvNzU4MzUxLzQyMzk1OTIucG5n/original/fvGg5a.png
