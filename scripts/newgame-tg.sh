@@ -31,20 +31,25 @@ BASE_REF="${BASE_REF}~1"
 games=$(git diff --name-only --diff-filter=A "${BASE_REF}" "${END_REF}" | grep '^games/[^/]*.yaml' | sed 's|games/\([^.]*\).yaml|\1|g')
 
 games_zh=""
+games_en=""
 
 IFS="$nl"
 while read -r i ; do
 	echo "new: $i"
 	uri="https://furrygamesindex.github.io/zh-cn/games/${i}.html"
+	uri_en="https://furrygamesindex.github.io/en/games/${i}.html"
 	grep '^expunge:' "games/$i.yaml" > /dev/null 2>&1
 	[ "$?" = "0" ] && i="$i (Expunged)"
 	games_zh="${games_zh}<a href='${uri}'>${i}</a>${nl}"
+	games_en="${games_en}<a href='${uri_en}'>${i}</a>${nl}"
 done <<< "$games"
 
 echo "$games_zh"
 
 if [ -n "$games" ]; then
 	curl "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" --data-urlencode "chat_id=${TELEGRAM_TO}" --data-urlencode "disable_web_page_preview=true" --data-urlencode "parse_mode=html" --data-urlencode "text=[Github] 已添加游戏：${nl}${games_zh}${nl}<i>需要等待 1 分钟或更长的时间后才能访问</i>" > /dev/null
+	sleep 1
+	curl "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" --data-urlencode "chat_id=${TELEGRAM_TO_EN}" --data-urlencode "disable_web_page_preview=true" --data-urlencode "parse_mode=html" --data-urlencode "text=[Github] Game added：${nl}${games_en}${nl}<i>Wait 1 minute or more before accessing</i>" > /dev/null
 else
 	echo "No games added"
 fi
