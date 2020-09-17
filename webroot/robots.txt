@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /*/search.html?*
 
 Sitemap: https://furrygamesindex.github.io/sitemap.xml
