@@ -116,8 +116,14 @@ for language in languages:
         ui = base_l10n.copy()
         ui.update(yaml.safe_load(stream))
         keywords.preprocess_keywords(ui)
+
+    puifn = os.path.join("uil10n", language + "_PRIVATE.yaml") 
+    if os.path.isfile(puifn):
+        with open(puifn) as stream:
+            ui.update(yaml.safe_load(stream))
+
     if args.extra_ui is not None:
-        euifn = os.path.join(args.extra_ui, language + ".yaml") 
+        euifn = os.path.join(args.extra_ui, language + ".yaml")
         if os.path.isfile(euifn):
             with open(euifn) as stream:
                 ui.update(yaml.safe_load(stream))
