@@ -37,6 +37,7 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - patreon
     - itchio
@@ -52,6 +53,9 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN
+  - name: .unofficial-patch-zh-cn
+    icon: weibo
+    uri: https://weibo.com/7429628292/Jl3FRmNKf
 
 thumbnail: thumbnail.jpg
 
