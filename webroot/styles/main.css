@@ -192,8 +192,10 @@ code {
 	}
 
 	#navbar,
-	#app {
+	#app,
+	.center_page {
 		width: 100%;
+		max-width: 100%;
 	}
 
 	#navbar {
