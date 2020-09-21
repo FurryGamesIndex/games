@@ -40,13 +40,16 @@ tags:
   publish:
     - patreon
     - steam
+    - itchio
   platform:
     - windows
     - macos
 
 links:
-  - name: Get demo
+  - name: .website
     uri: https://linktr.ee/roarhowlnightstudio
+  - name: .itch.io
+    uri: https://roar-howl-night-studio.itch.io/disguise
   - name: .patreon
     uri: patreon:RoarHowlNightStudio
   - name: .twitter
