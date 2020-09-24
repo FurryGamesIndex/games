@@ -32,6 +32,7 @@ class Image:
     def __init__(self, uri):
         self.uri = uri
         self.is_remote = regexp.match(uri)
+        self.path = None
 
 def _uri(rr, image, gameid):
     if image.is_remote:
