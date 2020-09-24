@@ -73,9 +73,9 @@ def uri(rr, imageuri, gameid):
         img.uri += ".webp"
         img.path += ".webp"
 
-        if not os.path.exists(img.path) \
-                and os.path.exists(path):
-            webp.cwebp(path, img.path)
+        if os.path.exists(path):
+            if not os.path.exists(img.path):
+                webp.cwebp(path, img.path)
             os.remove(path)
 
     return img.uri
