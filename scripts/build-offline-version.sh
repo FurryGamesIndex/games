@@ -21,6 +21,7 @@ RMRF="rm -rf "
 [ "$(uname -s)" = "Linux" ] && RMRF="$RMRF --preserve-root"
 
 OUTPUT_DIR="${1:-output}"
+OUTPUT_DIR_WEBP="${1:-output}-webp"
 CACHE_DIR="${2:-output}"
 echo "Output directory is $OUTPUT_DIR"
 echo "Cache directory is $CACHE_DIR"
@@ -49,7 +50,10 @@ EOF
 ./zhconv.py --no-builtin extraui/zh-cn.yaml:extraui/zh-tw.yaml
 #./generate.py --no-sitemap --no-purge-prev-builds --download-external-images --extra-ui extraui "$OUTPUT_DIR"
 ./generate.py --no-sitemap --download-external-images --use-external-images-cache "$CACHE_DIR" --extra-ui extraui "$OUTPUT_DIR"
+test "$FGI_OFFLINE_WEBP" = 1 && ./generate.py --no-sitemap --download-external-images --images-to-webp --use-external-images-cache "$OUTPUT_DIR" --extra-ui extraui "$OUTPUT_DIR_WEBP"
 
 echo -n "var _searchdb=JSON.parse(atob('" > "${OUTPUT_DIR}/scripts/searchdb_offline.js"
 cat "${OUTPUT_DIR}/scripts/searchdb.json" | python3 -m base64 | tr -d "\n" >> "${OUTPUT_DIR}/scripts/searchdb_offline.js"
 echo -n "'))" >> "${OUTPUT_DIR}/scripts/searchdb_offline.js"
+
+test "$FGI_OFFLINE_WEBP" = 1 && cp "${OUTPUT_DIR}/scripts/searchdb_offline.js" "${OUTPUT_DIR_WEBP}/scripts/searchdb_offline.js"

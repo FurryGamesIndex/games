@@ -32,11 +32,14 @@ jobs:
         mv FGI-nightly FGI-nightly-cache || true
 
     - name: gen
+      env:
+        FGI_OFFLINE_WEBP: 1
       run: |
         python3 --version
         python3 -m markdown2 --patch-info
         ./scripts/build-offline-version.sh FGI-nightly FGI-nightly-cache
         zip -r output.zip FGI-nightly
+        zip -r output-webp.zip FGI-nightly-webp
 
     - name: upload-release
       uses: svenstaro/upload-release-action@v1-release
@@ -44,5 +47,14 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: output.zip
         asset_name: FGI-nightly.zip
+        tag: _gh_assets
+        overwrite: true
+
+    - name: upload-release-webp
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: output-webp.zip
+        asset_name: FGI-nightly-webp.zip
         tag: _gh_assets
         overwrite: true
