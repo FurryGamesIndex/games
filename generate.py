@@ -37,6 +37,7 @@ parser.add_argument('--no-searchdb', default=False, action='store_true', help='D
 parser.add_argument('--no-purge-prev-builds', default=False, action='store_true', help='Do not purge previous builds')
 parser.add_argument('--download-external-images', default=False, action='store_true', help='Download external images to output dir')
 parser.add_argument('--use-external-images-cache', type=str, help='Set a previous builds dir to avoid to download repeatly')
+parser.add_argument('--images-to-webp', default=False, action='store_true', help='convert images to webp (cwebp command required)')
 parser.add_argument('output', type=str, help='Output path')
 
 args = parser.parse_args()
@@ -64,6 +65,13 @@ with open("tags.yaml") as f:
 
 sdb = searchdb(stub = args.no_searchdb)
 
+if os.path.exists(output) and not args.no_purge_prev_builds:
+    shutil.rmtree(output)
+#shutil.copytree("webroot", output)
+#shutil.copytree("assets", os.path.join(output, "assets"))
+dir_util.copy_tree("webroot", output)
+dir_util.copy_tree("assets", os.path.join(output, "assets"))
+
 for f in sorted(os.listdir(dir)):
     file = os.path.join(dir, f)
     game_id = os.path.splitext(f)[0]
@@ -88,13 +96,6 @@ for f in sorted(os.listdir(dir)):
     sdb.update(games[game_id])
 
 env = Environment(loader = FileSystemLoader("templates"))
-
-if os.path.exists(output) and not args.no_purge_prev_builds:
-    shutil.rmtree(output)
-#shutil.copytree("webroot", output)
-#shutil.copytree("assets", os.path.join(output, "assets"))
-dir_util.copy_tree("webroot", output)
-dir_util.copy_tree("assets", os.path.join(output, "assets"))
 
 if not args.no_searchdb:
     with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:

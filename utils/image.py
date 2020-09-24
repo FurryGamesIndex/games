@@ -23,34 +23,61 @@ import hashlib
 from shutil import copyfile
 from html import escape
 from utils.webutils import dl
+from utils import webp
 from __main__ import args
 
 regexp = re.compile("^[a-zA-Z0-9\-]+:/{0,2}[^/]+")
 
-def uri(rr, image, gameid):
-    if (regexp.match(image)):
+class Image:
+    def __init__(self, uri):
+        self.uri = uri
+        self.is_remote = regexp.match(uri)
+
+def _uri(rr, image, gameid):
+    if image.is_remote:
         if args.download_external_images:
-            uri = image
-            sum = hashlib.sha1(image.encode("utf-8")).hexdigest();
-            image = "assets/" + gameid + "/" + sum + os.path.splitext(uri)[1]
+            path = image.uri
+            sum = hashlib.sha1(image.uri.encode("utf-8")).hexdigest()
+            path = "assets/" + gameid + "/" + sum + os.path.splitext(image.uri)[1]
+            image.path = os.path.join(args.output, path)
 
-            if not os.path.isfile(os.path.join(args.output, image)):
+            if not os.path.isfile(image.path):
                 if args.use_external_images_cache is not None:
-                    cached_image = os.path.join(args.use_external_images_cache, image)
+                    cached_image = os.path.join(args.use_external_images_cache, path)
                     if os.path.isfile(cached_image):
-                        copyfile(cached_image, os.path.join(args.output, image))
+                        copyfile(cached_image, image.path)
                     else:
-                        print("cache missing, downloading %s %s" % (sum, uri))
-                        dl(uri, os.path.join(args.output, image))
+                        print("cache missing, downloading %s %s" % (sum, image.uri))
+                        dl(image.uri, image.path)
                 else:
-                    print("downloading %s %s" % (sum, uri))
-                    dl(uri, os.path.join(args.output, image))
+                    print("downloading %s %s" % (sum, image.uri))
+                    dl(image.uri, os.path.join(args.output, path))
 
-            image = rr + "/" + image
-
-        return image
+            image.is_remote = False
+            image.uri = rr + "/" + path
     else:
-        return rr + "/assets/" + gameid + "/" + image
+        path = "assets/" + gameid + "/" + image.uri
+        image.path = os.path.join(args.output, path)
+        image.uri = rr + "/" + path
+
+def uri(rr, imageuri, gameid):
+    img = Image(imageuri)
+    _uri(rr, img, gameid)
+
+    path = img.path
+
+    if args.images_to_webp \
+            and not img.is_remote \
+            and webp.can_convert(path):
+        img.uri += ".webp"
+        img.path += ".webp"
+
+        if not os.path.exists(img.path) \
+                and os.path.exists(path):
+            webp.cwebp(path, img.path)
+            os.remove(path)
+
+    return img.uri
 
 def _media_image(rr, image, gameid, name):
     if "sensitive" in image and image["sensitive"] == True:
