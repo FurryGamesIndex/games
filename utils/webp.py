@@ -21,11 +21,14 @@ import os
 import subprocess
 
 def cwebp(ofn, tfn):
-    cp = subprocess.run(["cwebp", ofn, "-o", tfn], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    command = "cwebp"
+    if os.path.splitext(ofn)[1] == ".gif":
+        command = "gif2webp"
+    cp = subprocess.run([command, ofn, "-o", tfn], stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     if cp.returncode != 0:
-        raise RuntimeError(f"cwebp {ofn} error, outputs:\n{cp.stdout.decode('utf-8')}")
+        raise RuntimeError(f"{command}: {ofn} error, outputs:\n{cp.stdout.decode('utf-8')}")
 
-allowed_suffixes = set(['.png', '.jpg', '.jpeg', '.tiff', '.webp'])
+allowed_suffixes = set(['.png', '.jpg', '.jpeg', '.tiff', '.webp', '.gif'])
 
 def can_convert(fn):
     suffix = os.path.splitext(fn)[1]
