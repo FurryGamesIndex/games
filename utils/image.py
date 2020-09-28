@@ -20,6 +20,8 @@
 import re
 import os
 import hashlib
+import heapq
+from dataclasses import dataclass
 from shutil import copyfile
 from html import escape
 from utils.webutils import dl
@@ -28,11 +30,86 @@ from __main__ import args
 
 regexp = re.compile("^[a-zA-Z0-9\-]+:/{0,2}[^/]+")
 
+mimemap = {
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".png": "image/png",
+    ".gif": "image/gif",
+    ".webp": "image/webp",
+}
+
+mimenice = {
+    "image/webp": 10,
+    "image/jpeg": 20,
+    "image/png": 30,
+    "image/gif": 20
+}
+
 class Image:
     def __init__(self, uri):
         self.uri = uri
         self.is_remote = regexp.match(uri)
         self.path = None
+
+@dataclass
+class HTMLPictureSource:
+    srcset: str
+    type: str
+
+    def __lt__(self, other):
+        return mimenice[self.type] < mimenice[other.type]
+
+class HTMLImage:
+    def __init__(self):
+        self.sources = []
+        self.src = None
+        self.alt = None
+        pass
+
+    def add_source(self, source, mime, as_src = False):
+        if mime is None:
+            sfx = os.path.splitext(source)[1]
+            if sfx in mimemap:
+                mime = mimemap[sfx]
+            else:
+                # TODO: force disable "HTML picture" mode while mime is unknown
+                #       That will always make only a single <img> element
+                raise NotImplementedError(f"Can not recognize mime for {source}")
+
+        if as_src:
+            self.src = source
+
+        heapq.heappush(self.sources, HTMLPictureSource(source, mime))
+
+    def html(self, node_class=None):
+        code = None
+        node = ""
+
+        if self.src is None:
+            raise ValueError("No failback image src")
+
+        if self.alt is None:
+            self.alt = ""
+
+        if node_class is not None:
+            node += f"class='{node_class}' "
+
+        if len(self.sources) > 1:
+            code = "<picture>"
+            for i in self.sources:
+                code += f"<source srcset='{i.srcset}' type='{i.type}'>"
+            code += f"<img {node}src='{self.src}' alt='{escape(self.alt)}'></picture>"
+        else:
+            code = f"<img {node}src='{self.src}' alt='{escape(self.alt)}'>"
+
+        return code
+
+    @staticmethod
+    def from_image(image):
+        hi = HTMLImage()
+        hi.add_source(image.uri, None, True)
+        return hi
+
 
 def _uri(rr, image, gameid):
     if image.is_remote:
@@ -61,7 +138,7 @@ def _uri(rr, image, gameid):
         image.path = os.path.join(args.output, path)
         image.uri = rr + "/" + path
 
-def uri(rr, imageuri, gameid):
+def uri_to_html_image(rr, imageuri, gameid, alt = None):
     img = Image(imageuri)
     _uri(rr, img, gameid)
 
@@ -78,13 +155,33 @@ def uri(rr, imageuri, gameid):
                 webp.cwebp(path, img.path)
             os.remove(path)
 
-    return img.uri
+    hi = HTMLImage.from_image(img)
+    hi.alt = alt
+
+    if args.images_candidate_webp \
+            and not img.is_remote \
+            and webp.can_convert(path) \
+            and os.path.exists(path):
+        webpfn = img.path + ".webp"
+
+        if not os.path.exists(webpfn):
+            webp.cwebp(path, webpfn)
+
+        hi.add_source(img.uri + ".webp", "image/webp", False)
+
+    return hi
+
+# TODO: remove deprecated function uri
+def uri(rr, imageuri, gameid):
+    return uri_to_html_image(rr, imageuri, gameid).src
+
 
 def _media_image(rr, image, gameid, name):
     if "sensitive" in image and image["sensitive"] == True:
+        # TODO: use HTMLImage for sensitive images
         return '<img class="sensitive_img hide" data-realsrc="%s" src="data:image/png;base64,">' % uri(rr, image["uri"], gameid)
     else:
-        return '<img alt="%s" src="%s">' % (escape(name), uri(rr, image["uri"], gameid))
+        return uri_to_html_image(rr, image["uri"], gameid, alt=name).html()
 
 def _media_youtube(rr, image, gameid, name):
     return '<iframe width="100%%" height="342" src="https://www.youtube.com/embed/%s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' % image["uri"].split(":")[1]

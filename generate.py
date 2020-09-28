@@ -37,7 +37,8 @@ parser.add_argument('--no-searchdb', default=False, action='store_true', help='D
 parser.add_argument('--no-purge-prev-builds', default=False, action='store_true', help='Do not purge previous builds')
 parser.add_argument('--download-external-images', default=False, action='store_true', help='Download external images to output dir')
 parser.add_argument('--use-external-images-cache', type=str, help='Set a previous builds dir to avoid to download repeatly')
-parser.add_argument('--images-to-webp', default=False, action='store_true', help='convert images to webp (cwebp command required)')
+parser.add_argument('--images-to-webp', default=False, action='store_true', help='convert images to webp and replace original (cwebp command required)')
+parser.add_argument('--images-candidate-webp', default=False, action='store_true', help='convert images to webp as candidation (cwebp command required)')
 parser.add_argument('output', type=str, help='Output path')
 
 args = parser.parse_args()

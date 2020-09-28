@@ -1,10 +1,11 @@
 <div class="items">
 {% for name, game in games.items() %}{% if 'expunge' not in game %}
 {% set desc = get(game, lang, 'description') %}
+{% set game_name = get(game, lang, 'name') %}
 	<div class="item">
-		<img class="thumbnail" alt="{{ get(game, lang, 'name')|e }}" src="{{ image_uri(rr, game.thumbnail, name) }}" >
+		{{ uri_to_html_image(rr, game.thumbnail, name, game_name).html(node_class="thumbnail") }}
 		<div class="content">
-		<div class="name"><a href="games/{{ name }}.html">{{ get(game, lang, 'name')|e }}</a></div>
+		<div class="name"><a href="games/{{ name }}.html">{{ game_name|e }}</a></div>
 		<div class="description">{{ (desc[:480] + (desc[480:] and '...'))|e }}</div>
 		</div>
 	</div>

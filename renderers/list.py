@@ -28,7 +28,7 @@ from __main__ import args
 context = {
     "rr": "..",
     "active_list": "actived",
-    "image_uri": image.uri,
+    "uri_to_html_image": image.uri_to_html_image,
     "get": get
 }
 
