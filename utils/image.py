@@ -21,7 +21,6 @@ import re
 import os
 import hashlib
 import heapq
-from dataclasses import dataclass
 from shutil import copyfile
 from html import escape
 from utils.webutils import dl
@@ -51,10 +50,10 @@ class Image:
         self.is_remote = regexp.match(uri)
         self.path = None
 
-@dataclass
 class HTMLPictureSource:
-    srcset: str
-    type: str
+    def __init__(self, srcset, mime):
+        self.srcset = srcset
+        self.type = mime
 
     def __lt__(self, other):
         return mimenice[self.type] < mimenice[other.type]
