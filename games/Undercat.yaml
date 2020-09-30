@@ -1,0 +1,65 @@
+name: Undercat
+
+description: |
+  The once thriving city full of animals has been taken over by cats. They’ve enslaved all the animals and put collars on them. Those that have refused to obey have been kicked out of the city and crammed into slums. You are playing an oppressed dog named “Chips”. He grew up in the slums and recently joined a rebellion group in order to take back the city and end the cats’ tyranny once and for all. 
+
+  In order to defeat the cats, you will have to save other animals who are captive to their rule.  Create diversions, look for different items that can help you in your rebellion, and brawl with cats along the way.
+
+  Utilize different mechanics in order to proceed though the game. As a dog, you have an amazing sense of smell; use it to find items and secret locations. 
+
+  Pick up boxes, cats and other animals, shake them well and throw them away! No obstacle or cat should stand on your way! 
+
+  If crushing everything on your way is not a solution, use boxes, trash cans and bushes to hide. Use your stealth for sneak attacks on your enemies or to proceed undetected.
+  
+  key Features:
+  Four main regions, each containing 8 levels to complete. 
+  Co-op mode up to 2 players.
+  Purchase more than 15 different items in the shop.
+  Play various arcade games in your hub.
+  Explore the story of the city by finding artifacts scattered throughout the city.
+  Utilize your sense of smell to find secret locations.
+  Fight thrilling bosses. 
+  Fight against your friends in a PVP mode.
+  Shake money from Cats!
+
+tags:
+  author:
+    - SparkyTailGames
+  type:
+    - adventure
+    - action
+  male:
+    - wolf
+    - hyena
+    - dog
+    - cat
+  misc:
+    - engine-unity
+    - work-in-process
+    - multiplayer
+    - pvp
+  publish:
+    - steam
+  platform:
+    - windows
+    - nintendo-switch
+
+links:
+  - name: .steam
+    uri: steam:1296340
+  - name: .website
+    uri: https://undercatgame.com/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - uri: https://steamcdn-a.akamaihd.net/steam/apps/256782069/movie480_vp9.webm
+        mime: video/webm
+  - https://steamcdn-a.akamaihd.net/steam/apps/1296340/extras/base_steam_opt.gif
+  - https://steamcdn-a.akamaihd.net/steam/apps/1296340/extras/sniff_and_diff_opt2.gif
+  - https://steamcdn-a.akamaihd.net/steam/apps/1296340/extras/bush_and_cat_opt.gif
+  - https://steamcdn-a.akamaihd.net/steam/apps/1296340/ss_774b426ecfe545ce7696afb157f13286886bc473.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1296340/ss_9a53b6593cff0e49dd0e57d9e9cd0dde1115de73.1920x1080.jpg
+  - https://steamcdn-a.akamaihd.net/steam/apps/1296340/ss_90147f9fde8b5e84384fc0268b4247eeea477b0b.1920x1080.jpg

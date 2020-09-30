@@ -717,6 +717,11 @@ multiplayer:
     en: 'The game is multiplayer or includes multiplayer mode'
     zh-cn: '游戏是多人游戏或包括多人模式'
 
+pvp:
+  namespaces: [ misc ]
+  explanation:
+    en: 'STUB'
+
 uncensored:
   namespaces: [ misc ]
   explanation:
