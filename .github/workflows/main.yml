@@ -16,6 +16,7 @@ jobs:
     - name: tg-notify
       env:
        TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
+       TELEGRAM_TO_EN: ${{ secrets.TELEGRAM_TO_EN }}
        TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
       run: |
         ./scripts/newgame-tg.sh
