@@ -38,6 +38,9 @@ tags:
     - work-in-process
     - multiplayer
     - pvp
+  lang:
+    - en
+    - ru
   publish:
     - steam
   platform:
