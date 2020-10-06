@@ -20,7 +20,7 @@
 from html import escape
 from markdown2 import Markdown
 
-from utils import image
+from core import image
 
 def get(game, language, key):
     l10n_value = game["tr"].get(language, {}).get(key)

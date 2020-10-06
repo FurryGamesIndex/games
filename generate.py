@@ -43,10 +43,10 @@ parser.add_argument('output', type=str, help='Output path')
 
 args = parser.parse_args()
 
-from utils.search import searchdb
-from utils import tagmgr
-from utils.seo import sitemap
-from utils.seo import keywords
+from core.search import searchdb
+from core import tagmgr
+from core.seo import sitemap
+from core.seo import keywords
 
 
 dir = "games"
@@ -110,7 +110,7 @@ if args.extra_ui is not None:
         base_l10n.update(yaml.safe_load(stream))
 
 print("Rendering misc single pages")
-renderer = importlib.import_module("utils.singles-misc-renderer")
+renderer = importlib.import_module("core.singles-misc-renderer")
 renderer.render(games, env, "c", base_l10n, output)
 
 for language in languages:
