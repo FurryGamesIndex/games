@@ -18,14 +18,50 @@
 # 
 
 import os
-
+import yaml
 from html import escape
 from markdown2 import Markdown
 
 from core import image
+from core import args
+from core.seo import keywords
 
 def get_languages_list(dbdir):
     return [f for f in os.listdir(os.path.join(dbdir, "l10n"))]
+
+def uil10n_load_base(l10ndir):
+    base_l10n = None
+
+    with open(os.path.join(l10ndir, "en.yaml")) as stream:
+        base_l10n = yaml.safe_load(stream)
+
+    if args.args.extra_ui is not None:
+        with open(os.path.join(args.args.extra_ui, "en.yaml")) as stream:
+            base_l10n.update(yaml.safe_load(stream))
+
+    return base_l10n
+
+def ui10n_load_language(l10ndir, base_l10n, language):
+    ui = None
+
+    with open(os.path.join(l10ndir, language + ".yaml")) as stream:
+        ui = base_l10n.copy()
+        ui.update(yaml.safe_load(stream))
+        keywords.preprocess_keywords(ui)
+
+    puifn = os.path.join(l10ndir, language + "_PRIVATE.yaml") 
+    if os.path.isfile(puifn):
+        with open(puifn) as stream:
+            ui.update(yaml.safe_load(stream))
+
+    if args.args.extra_ui is not None:
+        euifn = os.path.join(args.args.extra_ui, language + ".yaml")
+        if os.path.isfile(euifn):
+            with open(euifn) as stream:
+                ui.update(yaml.safe_load(stream))
+
+    return ui
+
 
 def get(game, language, key):
     l10n_value = game["tr"].get(language, {}).get(key)

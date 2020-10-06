@@ -25,7 +25,6 @@ import shutil
 import argparse
 import importlib
 import json
-from sys import argv
 from pathlib import Path
 from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
@@ -35,8 +34,7 @@ from core.args import parse
 from core.search import searchdb
 from core import tagmgr
 from core.seo import sitemap
-from core.seo import keywords
-from core.i18n import get_languages_list
+from core.i18n import get_languages_list, uil10n_load_base, ui10n_load_language
 
 def main(argv):
     parse(argv[1:])
@@ -45,8 +43,6 @@ def main(argv):
     dbdir = "games"
     output = args.output
     sitemap.ignore = args.no_sitemap
-
-    print(output)
 
     renderer_files = [os.path.splitext(f)[0] \
             for f in os.listdir("renderers") \
@@ -74,32 +70,15 @@ def main(argv):
 
     languages = get_languages_list(dbdir)
     languages.append('en')
-    with open(os.path.join("uil10n", "en.yaml")) as stream:
-        base_l10n = yaml.safe_load(stream)
-    if args.extra_ui is not None:
-        with open(os.path.join(args.extra_ui, "en.yaml")) as stream:
-            base_l10n.update(yaml.safe_load(stream))
+
+    base_l10n = uil10n_load_base("uil10n")
 
     print("Rendering misc single pages")
     renderer = importlib.import_module("core.singles-misc-renderer")
     renderer.render(games, env, "c", base_l10n, output)
 
     for language in languages:
-        with open(os.path.join("uil10n", language + ".yaml")) as stream:
-            ui = base_l10n.copy()
-            ui.update(yaml.safe_load(stream))
-            keywords.preprocess_keywords(ui)
-
-        puifn = os.path.join("uil10n", language + "_PRIVATE.yaml") 
-        if os.path.isfile(puifn):
-            with open(puifn) as stream:
-                ui.update(yaml.safe_load(stream))
-
-        if args.extra_ui is not None:
-            euifn = os.path.join(args.extra_ui, language + ".yaml")
-            if os.path.isfile(euifn):
-                with open(euifn) as stream:
-                    ui.update(yaml.safe_load(stream))
+        ui = ui10n_load_language("uil10n", base_l10n, language)
         
         Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
 
