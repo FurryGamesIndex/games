@@ -20,8 +20,8 @@
 import os
 import yaml
 
-from core.i18n import get_languages_list
-from core import tagmgr
+from fgi.i18n import get_languages_list
+from fgi import tagmgr
 
 def load_game(dbdir, f, languages):
     game = None

@@ -18,10 +18,10 @@
 # 
 
 import os
-from core.i18n import get
+from fgi.i18n import get
 from markdown2 import Markdown
 
-from core.seo.sitemap import openw_with_sm
+from fgi.seo.sitemap import openw_with_sm
 
 context = {
     "rr": ".",

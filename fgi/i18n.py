@@ -22,9 +22,9 @@ import yaml
 from html import escape
 from markdown2 import Markdown
 
-from core import image
-from core import args
-from core.seo import keywords
+from fgi import image
+from fgi import args
+from fgi.seo import keywords
 
 def get_languages_list(dbdir):
     return [f for f in os.listdir(os.path.join(dbdir, "l10n"))]

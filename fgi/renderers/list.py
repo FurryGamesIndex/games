@@ -19,11 +19,11 @@
 
 import os
 import json
-from core import image
-from core.i18n import get
-from core.seo.sitemap import openw_with_sm
+from fgi import image
+from fgi.i18n import get
+from fgi.seo.sitemap import openw_with_sm
 
-from core import args
+from fgi import args
 
 context = {
     "rr": "..",

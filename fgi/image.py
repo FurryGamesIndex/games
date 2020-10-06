@@ -23,9 +23,9 @@ import hashlib
 import heapq
 from shutil import copyfile
 from html import escape
-from utils.webutils import dl
-from utils import webp
-from core import args
+from .utils.webutils import dl
+from .utils import webp
+from fgi import args
 
 regexp = re.compile("^[a-zA-Z0-9\-]+:/{0,2}[^/]+")
 

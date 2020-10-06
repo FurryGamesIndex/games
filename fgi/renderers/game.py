@@ -19,12 +19,12 @@
 
 import os
 import re
-from core import image
-from core.i18n import get
-from core.i18n import get_desc
-from core.link import link_info
-from core.seo.sitemap import openw_with_sm
-from core.seo import keywords
+from fgi import image
+from fgi.i18n import get
+from fgi.i18n import get_desc
+from fgi.link import link_info
+from fgi.seo.sitemap import openw_with_sm
+from fgi.seo import keywords
 
 def checktag(game, namespace, value):
     return value in game["tags"].get(namespace, {})

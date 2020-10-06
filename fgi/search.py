@@ -17,7 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
-from core import image
+from fgi import image
 
 class searchdb:
     def __init__(self, stub=False):
