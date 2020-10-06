@@ -43,11 +43,12 @@ parser.add_argument('output', type=str, help='Output path')
 
 args = parser.parse_args()
 
+from core.base import *
 from core.search import searchdb
 from core import tagmgr
 from core.seo import sitemap
 from core.seo import keywords
-
+from core.i18n import get_languages_list
 
 dir = "games"
 output = args.output
@@ -56,8 +57,6 @@ sitemap.ignore = args.no_sitemap
 renderer_files = [os.path.splitext(f)[0] \
         for f in os.listdir("renderers") \
         if os.path.isfile(os.path.join("renderers", f)) and f[0] != '.']
-languages = [f for f in os.listdir(os.path.join(dir, "l10n"))]
-games = {}
 
 with open("tag-dependencies.yaml") as f:
     tagmgr.loaddep(yaml.safe_load(f))
@@ -68,33 +67,10 @@ sdb = searchdb(stub = args.no_searchdb)
 
 if os.path.exists(output) and not args.no_purge_prev_builds:
     shutil.rmtree(output)
-#shutil.copytree("webroot", output)
-#shutil.copytree("assets", os.path.join(output, "assets"))
 dir_util.copy_tree("webroot", output)
 dir_util.copy_tree("assets", os.path.join(output, "assets"))
 
-for f in sorted(os.listdir(dir)):
-    file = os.path.join(dir, f)
-    game_id = os.path.splitext(f)[0]
-
-    if (not os.path.isfile(file)) or (f[0] == '.'):
-        continue
-
-    print("Loading %s" % file)
-    with open(file) as stream:
-        games[game_id] = yaml.safe_load(stream)
-        games[game_id]["id"] = game_id
-        games[game_id]["tr"] = {}
-
-    for language in languages:
-        l10n_file = os.path.join(dir, "l10n", language, f)
-        if os.path.isfile(l10n_file):
-            print("Loading %s" % l10n_file)
-            with open(l10n_file) as stream:
-                games[game_id]["tr"][language] = yaml.safe_load(stream)
-
-    tagmgr.check_and_patch(games[game_id])
-    sdb.update(games[game_id])
+games = load_game_all(dir, sdb)
 
 env = Environment(loader = FileSystemLoader("templates"))
 
@@ -102,6 +78,7 @@ if not args.no_searchdb:
     with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
         f.write(json.dumps(sdb.db))
 
+languages = get_languages_list(dir)
 languages.append('en')
 with open(os.path.join("uil10n", "en.yaml")) as stream:
     base_l10n = yaml.safe_load(stream)

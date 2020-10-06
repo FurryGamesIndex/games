@@ -17,10 +17,15 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
+import os
+
 from html import escape
 from markdown2 import Markdown
 
 from core import image
+
+def get_languages_list(dbdir):
+    return [f for f in os.listdir(os.path.join(dbdir, "l10n"))]
 
 def get(game, language, key):
     l10n_value = game["tr"].get(language, {}).get(key)
