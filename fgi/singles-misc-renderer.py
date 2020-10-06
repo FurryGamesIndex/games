@@ -26,12 +26,12 @@ from fgi.seo.sitemap import openw_with_sm
 context = {
     "rr": ".",
     "lang": "en",
-    "active_languages": "actived",
     "get": get
 }
 
 def render(games, env, language, language_ui, output):
     context["ui"] = language_ui
+    context["active_languages"] = "actived"
     with open(os.path.join(output, "languages.html"), "w") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("languages.html").render(context))

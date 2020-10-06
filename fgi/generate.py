@@ -47,8 +47,6 @@ def main(argv):
             for f in os.listdir(os.path.join("fgi", "renderers")) \
             if os.path.isfile(os.path.join("fgi", "renderers", f)) and f[0] != '.' and f != "__init__.py"]
 
-    print(renderer_files)
-
     with open("tag-dependencies.yaml") as f:
         tagmgr.loaddep(yaml.safe_load(f))
     with open("tags.yaml") as f:
@@ -58,6 +56,7 @@ def main(argv):
 
     if os.path.exists(output) and not args.no_purge_prev_builds:
         shutil.rmtree(output)
+    dir_util._path_created = {}
     dir_util.copy_tree("webroot", output)
     dir_util.copy_tree("assets", os.path.join(output, "assets"))
 
