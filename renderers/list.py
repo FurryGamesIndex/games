@@ -23,7 +23,7 @@ from core import image
 from core.i18n import get
 from core.seo.sitemap import openw_with_sm
 
-from __main__ import args
+from core import args
 
 context = {
     "rr": "..",

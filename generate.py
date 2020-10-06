@@ -20,98 +20,95 @@
 
 import yaml
 import os
+import sys
 import shutil
+import argparse
 import importlib
-from sys import argv
 import json
+from sys import argv
 from pathlib import Path
 from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
-import argparse
-
-parser = argparse.ArgumentParser()
-parser.add_argument('--extra-ui', type=str, help='Set extra ui profile path')
-parser.add_argument('--no-sitemap', default=False, action='store_true', help='Do not generate sitemap')
-parser.add_argument('--no-searchdb', default=False, action='store_true', help='Do not generate searchdb')
-parser.add_argument('--no-purge-prev-builds', default=False, action='store_true', help='Do not purge previous builds')
-parser.add_argument('--download-external-images', default=False, action='store_true', help='Download external images to output dir')
-parser.add_argument('--use-external-images-cache', type=str, help='Set a previous builds dir to avoid to download repeatly')
-parser.add_argument('--images-to-webp', default=False, action='store_true', help='convert images to webp and replace original (cwebp command required)')
-parser.add_argument('--images-candidate-webp', default=False, action='store_true', help='convert images to webp as candidation (cwebp command required)')
-parser.add_argument('output', type=str, help='Output path')
-
-args = parser.parse_args()
-
 from core.base import *
+from core.args import parse
 from core.search import searchdb
 from core import tagmgr
 from core.seo import sitemap
 from core.seo import keywords
 from core.i18n import get_languages_list
 
-dir = "games"
-output = args.output
-sitemap.ignore = args.no_sitemap
+def main(argv):
+    parse(argv[1:])
+    from core.args import args
 
-renderer_files = [os.path.splitext(f)[0] \
-        for f in os.listdir("renderers") \
-        if os.path.isfile(os.path.join("renderers", f)) and f[0] != '.']
+    dbdir = "games"
+    output = args.output
+    sitemap.ignore = args.no_sitemap
 
-with open("tag-dependencies.yaml") as f:
-    tagmgr.loaddep(yaml.safe_load(f))
-with open("tags.yaml") as f:
-    tagmgr.load(yaml.safe_load(f))
+    print(output)
 
-sdb = searchdb(stub = args.no_searchdb)
+    renderer_files = [os.path.splitext(f)[0] \
+            for f in os.listdir("renderers") \
+            if os.path.isfile(os.path.join("renderers", f)) and f[0] != '.']
 
-if os.path.exists(output) and not args.no_purge_prev_builds:
-    shutil.rmtree(output)
-dir_util.copy_tree("webroot", output)
-dir_util.copy_tree("assets", os.path.join(output, "assets"))
+    with open("tag-dependencies.yaml") as f:
+        tagmgr.loaddep(yaml.safe_load(f))
+    with open("tags.yaml") as f:
+        tagmgr.load(yaml.safe_load(f))
 
-games = load_game_all(dir, sdb)
+    sdb = searchdb(stub = args.no_searchdb)
 
-env = Environment(loader = FileSystemLoader("templates"))
+    if os.path.exists(output) and not args.no_purge_prev_builds:
+        shutil.rmtree(output)
+    dir_util.copy_tree("webroot", output)
+    dir_util.copy_tree("assets", os.path.join(output, "assets"))
 
-if not args.no_searchdb:
-    with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
-        f.write(json.dumps(sdb.db))
+    games = load_game_all(dbdir, sdb)
 
-languages = get_languages_list(dir)
-languages.append('en')
-with open(os.path.join("uil10n", "en.yaml")) as stream:
-    base_l10n = yaml.safe_load(stream)
-if args.extra_ui is not None:
-    with open(os.path.join(args.extra_ui, "en.yaml")) as stream:
-        base_l10n.update(yaml.safe_load(stream))
+    env = Environment(loader = FileSystemLoader("templates"))
 
-print("Rendering misc single pages")
-renderer = importlib.import_module("core.singles-misc-renderer")
-renderer.render(games, env, "c", base_l10n, output)
+    if not args.no_searchdb:
+        with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
+            f.write(json.dumps(sdb.db))
 
-for language in languages:
-    with open(os.path.join("uil10n", language + ".yaml")) as stream:
-        ui = base_l10n.copy()
-        ui.update(yaml.safe_load(stream))
-        keywords.preprocess_keywords(ui)
-
-    puifn = os.path.join("uil10n", language + "_PRIVATE.yaml") 
-    if os.path.isfile(puifn):
-        with open(puifn) as stream:
-            ui.update(yaml.safe_load(stream))
-
+    languages = get_languages_list(dbdir)
+    languages.append('en')
+    with open(os.path.join("uil10n", "en.yaml")) as stream:
+        base_l10n = yaml.safe_load(stream)
     if args.extra_ui is not None:
-        euifn = os.path.join(args.extra_ui, language + ".yaml")
-        if os.path.isfile(euifn):
-            with open(euifn) as stream:
+        with open(os.path.join(args.extra_ui, "en.yaml")) as stream:
+            base_l10n.update(yaml.safe_load(stream))
+
+    print("Rendering misc single pages")
+    renderer = importlib.import_module("core.singles-misc-renderer")
+    renderer.render(games, env, "c", base_l10n, output)
+
+    for language in languages:
+        with open(os.path.join("uil10n", language + ".yaml")) as stream:
+            ui = base_l10n.copy()
+            ui.update(yaml.safe_load(stream))
+            keywords.preprocess_keywords(ui)
+
+        puifn = os.path.join("uil10n", language + "_PRIVATE.yaml") 
+        if os.path.isfile(puifn):
+            with open(puifn) as stream:
                 ui.update(yaml.safe_load(stream))
-    
-    Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
 
-    for f in renderer_files:
-        print("Rendering %s %s" % (language, f))
-        renderer = importlib.import_module("renderers." + f)
-        renderer.render(games, env, language, ui, output)
+        if args.extra_ui is not None:
+            euifn = os.path.join(args.extra_ui, language + ".yaml")
+            if os.path.isfile(euifn):
+                with open(euifn) as stream:
+                    ui.update(yaml.safe_load(stream))
+        
+        Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
 
-sitemap.write_to_file(os.path.join(output, "sitemap.xml"))
+        for f in renderer_files:
+            print("Rendering %s %s" % (language, f))
+            renderer = importlib.import_module("renderers." + f)
+            renderer.render(games, env, language, ui, output)
+
+    sitemap.write_to_file(os.path.join(output, "sitemap.xml"))
+
+if __name__ == "__main__":
+    main(sys.argv)

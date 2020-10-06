@@ -25,7 +25,7 @@ from shutil import copyfile
 from html import escape
 from utils.webutils import dl
 from utils import webp
-from __main__ import args
+from core import args
 
 regexp = re.compile("^[a-zA-Z0-9\-]+:/{0,2}[^/]+")
 
@@ -112,15 +112,15 @@ class HTMLImage:
 
 def _uri(rr, image, gameid):
     if image.is_remote:
-        if args.download_external_images:
+        if args.args.download_external_images:
             path = image.uri
             sum = hashlib.sha1(image.uri.encode("utf-8")).hexdigest()
             path = "assets/" + gameid + "/" + sum + os.path.splitext(image.uri)[1]
-            image.path = os.path.join(args.output, path)
+            image.path = os.path.join(args.args.output, path)
 
             if not os.path.isfile(image.path):
-                if args.use_external_images_cache is not None:
-                    cached_image = os.path.join(args.use_external_images_cache, path)
+                if args.args.use_external_images_cache is not None:
+                    cached_image = os.path.join(args.args.use_external_images_cache, path)
                     if os.path.isfile(cached_image):
                         copyfile(cached_image, image.path)
                     else:
@@ -128,13 +128,13 @@ def _uri(rr, image, gameid):
                         dl(image.uri, image.path)
                 else:
                     print("downloading %s %s" % (sum, image.uri))
-                    dl(image.uri, os.path.join(args.output, path))
+                    dl(image.uri, os.path.join(args.args.output, path))
 
             image.is_remote = False
             image.uri = rr + "/" + path
     else:
         path = "assets/" + gameid + "/" + image.uri
-        image.path = os.path.join(args.output, path)
+        image.path = os.path.join(args.args.output, path)
         image.uri = rr + "/" + path
 
 def uri_to_html_image(rr, imageuri, gameid, alt = None):
@@ -143,7 +143,7 @@ def uri_to_html_image(rr, imageuri, gameid, alt = None):
 
     path = img.path
 
-    if args.images_to_webp \
+    if args.args.images_to_webp \
             and not img.is_remote \
             and webp.can_convert(path):
         img.uri += ".webp"
@@ -157,7 +157,7 @@ def uri_to_html_image(rr, imageuri, gameid, alt = None):
     hi = HTMLImage.from_image(img)
     hi.alt = alt
 
-    if args.images_candidate_webp \
+    if args.args.images_candidate_webp \
             and not img.is_remote \
             and webp.can_convert(path) \
             and os.path.exists(path):
