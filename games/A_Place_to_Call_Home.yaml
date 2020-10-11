@@ -1,0 +1,65 @@
+name: A Place to Call Home
+
+description: |
+  (The game contains some adult themes. You must be 18 or older to play!)
+
+  What is this game about?
+  
+  **A Place to Call Home** is a **Character driven** genre kinetic visual novel with themes of ***comedy***, ***romance*** and ***drama*** centered on gay audiences.
+
+  What's it about?
+  
+  The story centers around 3 characters in their everyday life, 5 years after an alternate-universe world war II.
+
+  NSFW  SCENES?
+  
+  In the future.
+
+  Thank you for all  your support! <3
+  
+  Check out my [Patreon](https://www.patreon.com/HugeCookie) here!
+
+  ***Big thanks to Tavern of Spear devs for permission to their logo on the sprite's shirt, to Compymono from Nekoji.  for that reference I took too far, and Howly's permission for an Adastra reference.***
+
+  Game is in continuous development
+
+description-format: markdown
+
+tags:
+  author:
+    - HugeCookie
+  type:
+    - visual-novel
+    - bara
+  male:
+    - wolf
+    - lion
+    - muscle
+    - males-only
+  misc:
+    - freeware
+    - work-in-process
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://hugecookie.itch.io/a-place-to-call-home
+  - name: .patreon
+    uri: patreon:HugeCookie
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjY1MDAyLzQxMDgxNTAucG5n/original/4IOuoj.png
+  - https://img.itch.zone/aW1hZ2UvNjY1MDAyLzQxMDgxNDkucG5n/original/zNFWyz.png
+  - https://img.itch.zone/aW1hZ2UvNjY1MDAyLzQxMDgxNTEucG5n/original/fcocTq.png
+  - https://img.itch.zone/aW1hZ2UvNjY1MDAyLzQxMDgxNTIucG5n/original/luceG9.png
