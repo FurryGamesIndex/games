@@ -1,0 +1,60 @@
+name: '9:22'
+
+description: |
+  9:22 is a mystery visual novel set in north america, in  the year 2010.
+  
+  Spencer, a college freshman and chronic insomniac, struggles to keep his new life together. On the third week of semester 1, he's all but given up on making new friends, having new experiences, and everything else the recruiter claimed he could expect. Come morning, as usual, he had overslept. The clock reads 9:22. That day, nothing seems right. Once he's finally on school grounds, however, things truly start to unravel.
+  
+  Download using the links below or play directly in your browser [here](https://cockhole.itch.io/9-22-web?secret=5rJdMokcOhsaUPNNPImfTiBTd5Y).
+  
+  If you'd like to ask a question, submit a particularly silly typo, or just say hello, please give me a shout on [Twitter](twitter:its_cockhole).
+  
+  Want to support the project? If so, please consider becoming a patron over at [Patreon](patreon:922vn).
+  
+  Update Schedule
+  Public versions are released on the 1st of every month.
+  Additional mid-month versions are released every ten days or so over on [Patreon](patreon:922vn).
+
+tags:
+  author:
+    - Cockhole
+  type:
+    - visual-novel
+    - bara
+  male:
+    - dog
+    - cat
+    - deer
+    - males-only
+  misc:
+    - freeware
+    - work-in-process
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - web
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://cockhole.itch.io/9-22
+  - name: .patreon
+    uri: patreon:922vn
+  - name: .twitter
+    uri: twitter:its_cockhole
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjU4Nzc0LzM1NDM1MDkucG5n/original/QQOkbe.png
+  - https://img.itch.zone/aW1hZ2UvNjU4Nzc0LzM1NDM1MTAucG5n/original/6E9hRw.png
+  - https://img.itch.zone/aW1hZ2UvNjU4Nzc0LzM1NDM1MTEucG5n/original/VR9Dzw.png
+  - https://img.itch.zone/aW1hZ2UvNjU4Nzc0LzM3NzQ3NDIucG5n/original/%2FYXRuI.png
+  - https://img.itch.zone/aW1hZ2UvNjU4Nzc0LzM3NzQ3NDMucG5n/original/yr77gj.png
