@@ -43,9 +43,11 @@ def main(argv):
     output = args.output
     sitemap.ignore = args.no_sitemap
 
+    package_path = os.path.dirname(__file__)
     renderer_files = [os.path.splitext(f)[0] \
-            for f in os.listdir(os.path.join("fgi", "renderers")) \
-            if os.path.isfile(os.path.join("fgi", "renderers", f)) and f[0] != '.' and f != "__init__.py"]
+            for f in os.listdir(os.path.join(package_path, "renderers")) \
+                if os.path.isfile(os.path.join(package_path, "renderers", f)) \
+                    and f[0] != '.' and f != "__init__.py"]
 
     with open("tag-dependencies.yaml") as f:
         tagmgr.loaddep(yaml.safe_load(f))
@@ -74,7 +76,7 @@ def main(argv):
     base_l10n = uil10n_load_base("uil10n")
 
     print("Rendering misc single pages")
-    renderer = importlib.import_module(".singles-misc-renderer", package="fgi")
+    renderer = importlib.import_module(".singles-misc-renderer", package=__package__)
     renderer.render(games, env, "c", base_l10n, output)
 
     for language in languages:
@@ -84,7 +86,7 @@ def main(argv):
 
         for f in renderer_files:
             print("Rendering %s %s" % (language, f))
-            renderer = importlib.import_module(".renderers." + f, package="fgi")
+            renderer = importlib.import_module(".renderers." + f, package=__package__)
             renderer.render(games, env, language, ui, output)
 
     sitemap.write_to_file(os.path.join(output, "sitemap.xml"))
