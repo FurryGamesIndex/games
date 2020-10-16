@@ -26,9 +26,10 @@ context= {
     "rr": "..",
 }
 
-def render(games, env, language, language_ui, output):
-    context["lang"] = language
-    context["ui"] = language_ui
+def render(games, env, lctx, output):
+    context.update(lctx)
+    language = lctx["lang"]
+
     context["datetime"] = datetime
 
     markdowner = Markdown()

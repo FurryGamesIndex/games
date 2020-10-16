@@ -80,9 +80,15 @@ def main(argv):
         
         Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
 
+        lctx = {
+            "lang": language,
+            "ui": ui,
+            "searchdb": sdb,
+        }
+
         for f in renderer_files:
             print("Rendering %s %s" % (language, f))
             renderer = importlib.import_module(".renderers." + f, package=__package__)
-            renderer.render(games, env, language, ui, output)
+            renderer.render(games, env, lctx, output)
 
     sitemap.write_to_file(os.path.join(output, "sitemap.xml"))

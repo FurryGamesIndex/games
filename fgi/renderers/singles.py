@@ -29,11 +29,12 @@ context = {
     "get": get
 }
 
-def render(games, env, language, language_ui, output):
+def render(games, env, lctx, output):
+    language = lctx["lang"]
     if language != "en":
         return
 
-    context["ui"] = language_ui
+    context.update(lctx)
 
     context["active_languages"] = "actived"
     with open(os.path.join(output, "languages.html"), "w") as f:

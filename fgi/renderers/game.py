@@ -57,9 +57,10 @@ context = {
     "platform_icons": platform_icons
 }
 
-def render(games, env, language, language_ui, output):
-    context["lang"] = language
-    context["ui"] = language_ui
+def render(games, env, lctx, output):
+    context.update(lctx)
+    language = lctx["lang"]
+
     meta = {}
     context["meta"] = meta
 
@@ -82,7 +83,7 @@ def render(games, env, language, language_ui, output):
         meta["description"] = re.sub(r'<[^<]*>', '', desc)
         meta["image"] = image.uri(context["rr"], game["thumbnail"], name)
 
-        meta["extra_keywords"] = keywords.game_page_extra_keywords(game, language_ui)
+        meta["extra_keywords"] = keywords.game_page_extra_keywords(game, lctx["ui"])
 
         # TODO: Refactor this code
         if 'expunge' in game:
