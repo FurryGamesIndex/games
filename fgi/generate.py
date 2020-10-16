@@ -75,10 +75,6 @@ def main(argv):
 
     base_l10n = uil10n_load_base("uil10n")
 
-    print("Rendering misc single pages")
-    renderer = importlib.import_module(".singles-misc-renderer", package=__package__)
-    renderer.render(games, env, "c", base_l10n, output)
-
     for language in languages:
         ui = ui10n_load_language("uil10n", base_l10n, language)
         

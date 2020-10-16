@@ -30,7 +30,11 @@ context = {
 }
 
 def render(games, env, language, language_ui, output):
+    if language != "en":
+        return
+
     context["ui"] = language_ui
+
     context["active_languages"] = "actived"
     with open(os.path.join(output, "languages.html"), "w") as f:
         f.write(env.get_template("header.html").render(context))
@@ -41,16 +45,16 @@ def render(games, env, language, language_ui, output):
     markdowner = Markdown()
     with open("doc/privacy-policy.md") as f:
         context["content"] = markdowner.convert(f.read())
-
     with open(os.path.join(output, "privacy-policy.html"), "w") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("simple_md.html").render(context))
         f.write(env.get_template("footer.html").render(context))
+    del context["content"]
 
     with open("doc/credits.md") as f:
         context["content"] = markdowner.convert(f.read())
-
     with openw_with_sm(output, "credits.html") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("simple_md.html").render(context))
         f.write(env.get_template("footer.html").render(context))
+    del context["content"]
