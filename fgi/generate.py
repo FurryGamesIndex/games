@@ -54,7 +54,7 @@ def main(argv):
     with open("tags.yaml") as f:
         tagmgr.load(yaml.safe_load(f))
 
-    sdb = searchdb(stub = args.no_searchdb)
+    sdb = searchdb(no_data = args.no_searchdb)
 
     if os.path.exists(output) and not args.no_purge_prev_builds:
         shutil.rmtree(output)

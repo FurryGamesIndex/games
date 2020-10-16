@@ -20,16 +20,13 @@
 from fgi import image
 
 class searchdb:
-    def __init__(self, stub=False):
+    def __init__(self, no_data=False):
         self.db = {}
         self.db["rtag"] = {}
         self.db["data"] = {}
-        self.stub = stub
+        self.no_data = no_data
 
     def update(self, game):
-        if self.stub:
-            return
-
         if 'expunge' in game:
             return
 
@@ -40,17 +37,18 @@ class searchdb:
                     self.db["rtag"][tag] = []
                 self.db["rtag"][tag].append(game["id"])
 
-        data = {}
-        data["tr"] = {}
-        data["name"] = game["name"]
-        data["description"] = game["description"]
-        data["thumbnail"] = image.uri("..", game["thumbnail"], game["id"])
+        if not self.no_data:
+            data = {}
+            data["tr"] = {}
+            data["name"] = game["name"]
+            data["description"] = game["description"]
+            data["thumbnail"] = image.uri("..", game["thumbnail"], game["id"])
 
-        for lang in game["tr"]:
-            data["tr"][lang] = {}
-            if "name" in game["tr"][lang]:
-                data["tr"][lang]["name"] = game["tr"][lang]["name"]
-            if "description" in game["tr"][lang]:
-                data["tr"][lang]["description"] = game["tr"][lang]["description"]
+            for lang in game["tr"]:
+                data["tr"][lang] = {}
+                if "name" in game["tr"][lang]:
+                    data["tr"][lang]["name"] = game["tr"][lang]["name"]
+                if "description" in game["tr"][lang]:
+                    data["tr"][lang]["description"] = game["tr"][lang]["description"]
 
-        self.db["data"][game["id"]] = data
+            self.db["data"][game["id"]] = data
