@@ -37,11 +37,13 @@
 		{{ image.dom(rr, i, name, name = get(game, lang, 'name')) }}
 		{% endfor %}
 		</div>
+		<div class="onmobile">{% include 'game_author_widget.html' %}</div>
 		<div class="onmobile">{% include 'copying.html' %}</div>
 	</div>
 	<div class="rightbox">
 		{% include 'game_logo.html' %}
 		{% include 'game_links.html' %}
+		{% include 'game_author_widget.html' %}
 		{% include 'copying.html' %}
 	</div>
 </div>

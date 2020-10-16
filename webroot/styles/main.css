@@ -455,6 +455,13 @@ code {
 	border-bottom: 1px solid var(--border-color);
 }
 
+.author-widget .author-more {
+	margin-bottom: 6px;
+}
+
+.author-widget .author-more:not(:first-child) {
+	margin-top: 16px;
+}
 
 @media screen and (max-width: 940px) {
 	.game {

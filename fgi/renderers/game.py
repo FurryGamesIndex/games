@@ -57,6 +57,32 @@ context = {
     "platform_icons": platform_icons
 }
 
+def author_widget(game, sdb, games):
+    name = game["id"]
+    rtag = sdb.db["rtag"]
+    data = {}
+    ga = {}
+
+    for author in game["tags"].get("author", []):
+        key = f"author:{author}"
+        if key in rtag:
+            tmp = rtag[key]
+
+            for i in tmp:
+                if i != name:
+                    if i not in ga:
+                        ga[i] = set()
+                    ga[i].add(author)
+
+    for gid, au in ga.items():
+        authornames = ", ".join(sorted(au))
+        if authornames not in data:
+            data[authornames] = []
+        data[authornames].append(games[gid])
+
+    return data
+
+
 def render(games, env, lctx, output):
     context.update(lctx)
     language = lctx["lang"]
@@ -74,6 +100,8 @@ def render(games, env, lctx, output):
         context["game"] = game
         context["name"] = name
         print("  => %s" % name)
+
+        context["author_widget"] = author_widget(game, lctx["searchdb"], games)
 
         if 'expunge' in game:
             context["noindex"] = True

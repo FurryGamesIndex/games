@@ -55,6 +55,8 @@ gamewarn_died: This game is probably dead before completion
 gamewarn_expired: Access to the game is no longer available
 gamewarn_notonlyfurry: This game is not just about Furry topics. This means you may not like this game.
 
+game_author_widget_more_from: 'More games from <b>%s</b>:'
+
 game_contact_us: Contant FurryGamesIndex project by
 game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>
 
