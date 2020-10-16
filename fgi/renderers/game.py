@@ -85,18 +85,16 @@ def render(games, env, lctx, output):
 
         meta["extra_keywords"] = keywords.game_page_extra_keywords(game, lctx["ui"])
 
-        # TODO: Refactor this code
         if 'expunge' in game:
-            with open(os.path.join(output, language, "games", name + ".html"), "w") as f:
-                f.write(env.get_template("header.html").render(context))
-                f.write(env.get_template("game.html").render(context))
-                f.write(env.get_template("footer.html").render(context))
+            f = open(os.path.join(output, language, "games", name + ".html"), "w")
         else:
-            with openw_with_sm(output, os.path.join(language, "games", name + ".html"),
-                    priority="0.7", lastmod_file=os.path.join("games", name + ".yaml")) as f:
-                f.write(env.get_template("header.html").render(context))
-                f.write(env.get_template("game.html").render(context))
-                f.write(env.get_template("footer.html").render(context))
+            f = openw_with_sm(output, os.path.join(language, "games", name + ".html"),
+                    priority="0.7", lastmod_file=os.path.join("games", name + ".yaml"))
+
+        f.write(env.get_template("header.html").render(context))
+        f.write(env.get_template("game.html").render(context))
+        f.write(env.get_template("footer.html").render(context))
+        f.close()
 
         if "noindex" in context:
             del context["noindex"]
