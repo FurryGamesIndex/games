@@ -45,6 +45,7 @@ links:
   - name: Unoffical archive/wiki
     uri: http://www.sf4remix.com/dragonblast/index.php
   - name: website (expired)
+    rel: nofollow
     uri: http://www.urakata.org/
 
 thumbnail: thumbnail.jpg

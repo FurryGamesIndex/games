@@ -35,6 +35,7 @@ links:
   - name: .weibo
     uri: https://weibo.com/u/3868792778
   - name: Old demo release (expired)
+    rel: nofollow
     uri: https://weibo.com/ttarticle/p/show?id=2309404303102474900712
 
 thumbnail: thumbnail.jpg

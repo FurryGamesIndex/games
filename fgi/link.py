@@ -74,4 +74,7 @@ def link_info(link, l10n_data, ui_l10n_data, language):
         icon = icons[link["icon"]]
     a["content"] = icon + "<span>" + a["content"] + "</span>"
 
+    if "rel" in link:
+        a["rel"] = link["rel"]
+
     return a
