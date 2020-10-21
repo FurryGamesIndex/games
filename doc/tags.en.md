@@ -158,6 +158,7 @@ Used to describe miscellaneous information related to the game
 - `pixel-art` The game is mainly presented in pixel-art
 - `freeware` The game is free or a big part is free (Demo version is not included)
 - `multiplayer` The game is multiplayer or includes multiplayer mode
+- `pvp` STUB
 - `uncensored` Images, CGs, models, etc. have not censored (Consider this tag only when type:yiff exists)
 - `engine-renpy` The game is developed using RenPy engine
 - `engine-unity` The game is developed using Unity engine
@@ -177,6 +178,8 @@ Used to describe miscellaneous information related to the game
 - `online` The game includes online functions, such as paid purchase points, online ranking system, etc.
 - `centralized` The main function of the game depends on a centralized server and the server cannot be deployed by the player. This means that if the game service provider shuts down the server, the game is likely to be no longer playable. (Not meant to bundle DRM systems like steam or itch.io, see misc:drm)
 - `drm` This game has used Digital Rights Management to restrict players. (This tag is designed for the future and is not currently used in FGI.)
+- `grayscale` The interface of this game has no or very little color and is mainly presented in grayscale.
+- `full-audio` This game offers a full audio experience with voiceovers or/and more.
 - `homophobia` Game include homophobia contents
 
 ## Namespace lang
@@ -187,6 +190,7 @@ The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 - `en-unofficial` English supporting provided by unoffical source
 - `ja` Japanese supporting provided by offical author
 - `ja-unofficial` Japanese supporting provided by unoffical source
+- `ru` STUB
 - `zh` Chinese supporting provided by offical author
 - `zh-unofficial` Chinese supporting provided by unoffical source
 

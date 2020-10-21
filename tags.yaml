@@ -836,13 +836,23 @@ drm:
     en: 'This game has used Digital Rights Management to restrict players. (This tag is designed for the future and is not currently used in FGI.)'
     zh-cn: '这个游戏使用了数字版权管理限制玩家（此标签为将来设计，暂时没有在当前 FGI 中被使用。）'
 
+grayscale:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The interface of this game has no or very little color and is mainly presented in grayscale.'
+    zh-cn: '这个游戏的界面没有或很少有彩色，主要以灰度形式呈现。'
+
+full-audio:
+  namespaces: [ misc ]
+  explanation:
+    en: 'This game offers a full audio experience with voiceovers or/and more.'
+    zh-cn: '这个游戏提供配音等完整的音频体验。'
 
 homophobia:
   namespaces: [ misc ]
   explanation:
     en: 'Game include homophobia contents'
     zh-cn: '游戏包含同性恋恐惧内容/情节'
-
 
 ###################################################
 ###################################################

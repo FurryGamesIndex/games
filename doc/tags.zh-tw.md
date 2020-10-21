@@ -158,6 +158,7 @@
 - `pixel-art` 遊戲主要以 Pixel Art 風格呈現
 - `freeware` 遊戲是免費的或有一個不小的部分是免費的（Demo 版本不計算在內）
 - `multiplayer` 遊戲是多人遊戲或包括多人模式
+- `pvp` STUB
 - `uncensored` 遊戲立繪、CG、模型等中沒有經過審查工序（無碼）（僅在 type:yiff 存在時考慮此標籤）
 - `engine-renpy` 遊戲使用了 RenPy 引擎開發
 - `engine-unity` 遊戲使用了 Unity 引擎
@@ -177,6 +178,8 @@
 - `online` 遊戲包括線上功能，如線上付費購買點數、線上排名系統等。
 - `centralized` 遊戲的主要功能依賴一個集中的伺服器且伺服器無法由玩家自行部署，這意味著如果遊戲運營商宣佈關服，則遊戲很可能無法再遊玩。（並非指使用了 steam, itch.io 或其他 DRM，見 misc:drm）
 - `drm` 這個遊戲使用了數字版權管理限制玩家（此標籤為將來設計，暫時沒有在當前 FGI 中被使用。）
+- `grayscale` 這個遊戲的介面沒有或很少有彩色，主要以灰度形式呈現。
+- `full-audio` 這個遊戲提供配音等完整的音訊體驗。
 - `homophobia` 遊戲包含同性戀恐懼內容/情節
 
 ## lang 名稱空間
@@ -187,6 +190,7 @@
 - `en-unofficial` 遊戲有非官方英語版本
 - `ja` 遊戲有官方日語版本
 - `ja-unofficial` 遊戲有非官方日語版本
+- `ru` STUB
 - `zh` 遊戲有官方中文版本
 - `zh-unofficial` 遊戲有非官方中文版本
 
