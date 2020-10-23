@@ -28,6 +28,7 @@ parser.add_argument('--download-external-images', default=False, action='store_t
 parser.add_argument('--use-external-images-cache', type=str, help='Set a previous builds dir to avoid to download repeatly')
 parser.add_argument('--images-to-webp', default=False, action='store_true', help='convert images to webp and replace original (cwebp command required)')
 parser.add_argument('--images-candidate-webp', default=False, action='store_true', help='convert images to webp as candidation (cwebp command required)')
+parser.add_argument('--next', default=False, action='store_true', help='enable experimental features')
 parser.add_argument('output', type=str, help='Output path')
 
 args = None
@@ -35,3 +36,7 @@ args = None
 def parse(a):
     global args
     args = parser.parse_args(a)
+
+    if args.next:
+        args.images_to_webp = True
+        args.no_sitemap = True

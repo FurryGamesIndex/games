@@ -27,7 +27,13 @@ from fgi import args
 from fgi.seo import keywords
 
 def get_languages_list(dbdir):
-    return [f for f in os.listdir(os.path.join(dbdir, "l10n"))]
+    ll = [f for f in os.listdir(os.path.join(dbdir, "l10n"))]
+
+    # FIXME: uncompleted languages is blacklisted
+    if not args.args.next:
+        ll.remove("ja")
+
+    return ll
 
 def uil10n_load_base(l10ndir):
     base_l10n = None
