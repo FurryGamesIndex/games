@@ -37,6 +37,7 @@ def load_game(dbdir, f, languages):
         game = yaml.safe_load(stream)
         game["id"] = game_id
         game["tr"] = {}
+        game["mtime"] = os.path.getmtime(fn)
 
     for language in languages:
         l10n_file = os.path.join(dbdir, "l10n", language, f)
@@ -44,6 +45,7 @@ def load_game(dbdir, f, languages):
             print("Loading %s" % l10n_file)
             with open(l10n_file) as stream:
                 game["tr"][language] = yaml.safe_load(stream)
+                game["tr"][language]["mtime"] = os.path.getmtime(l10n_file)
 
     return (game, game_id)
 
