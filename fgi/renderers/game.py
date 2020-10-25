@@ -82,6 +82,11 @@ def author_widget(game, sdb, games):
 
     return data
 
+def get_mtime(game, language):
+    if language in game["tr"]:
+        return max(game["tr"][language]["mtime"], game["mtime"])
+    else:
+        return game["mtime"]
 
 def render(games, env, lctx, output):
     context.update(lctx)
@@ -117,7 +122,7 @@ def render(games, env, lctx, output):
             f = open(os.path.join(output, language, "games", name + ".html"), "w")
         else:
             f = openw_with_sm(output, os.path.join(language, "games", name + ".html"),
-                    priority="0.7", lastmod_file=os.path.join("games", name + ".yaml"))
+                    priority="0.7", lastmod_ts=get_mtime(game, language))
 
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("game.html").render(context))
