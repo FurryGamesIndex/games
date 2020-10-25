@@ -32,8 +32,4 @@ The code for this project is licensed under version 3 or later of the GNU Genera
 
 ## TODO
 
-- [x] Mobile layout
-- [x] Automatically generate traditional Chinese version
-- [ ] Simplified Chinese and Traditional Chinese contribution seamless conversion
-- [x] Title/description search and mulitple tags search (Impl more powerful search function)
-- [x] English translation of documents (The current document is completed, but future document translation may be delayed)
+see `TODO` and `FIXME` in source codes.

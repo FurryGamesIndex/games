@@ -49,23 +49,3 @@ Do a general build
 ## More Options
 
 see `./generate.py -h`
-
-### Disable Sitemap
-
-TODO
-
-### Disable SearchDB
-
-TODO
-
-### Not purge previous builds
-
-TODO
-
-### Extra UI profile
-
-TODO
-
-### Download external images
-
-TODO
