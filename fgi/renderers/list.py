@@ -34,7 +34,7 @@ def render(games, env, lctx, output):
     context.update(lctx)
     language = lctx["lang"]
 
-    context["games"] = dict(sorted(games.items(), key=lambda t: t[0].replace("_", "").upper()))
+    context["games"] = games
     with openw_with_sm(output, os.path.join(language, "list.html"), priority="0.6") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("list.html").render(context))

@@ -47,6 +47,9 @@ def load_game(dbdir, f, languages):
 
     return (game, game_id)
 
+def sorted_games(games):
+    return dict(sorted(games.items(), key=lambda t: t[0].replace("_", "").upper()))
+
 def load_game_all(dbdir, sdb):
     games = {}
     languages = get_languages_list(dbdir)
@@ -62,4 +65,4 @@ def load_game_all(dbdir, sdb):
 
         games[game_id] = game
 
-    return games
+    return sorted_games(games)
