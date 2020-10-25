@@ -30,7 +30,7 @@ sitemap = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 """
 
-def openw_with_sm(output_dir, filename, priority=None, changefreq=None, lastmod_file=None):
+def openw_with_sm(output_dir, filename, priority=None, changefreq=None, lastmod_ts=None, lastmod_file=None):
     global sitemap
 
     if not ignore:
@@ -38,9 +38,11 @@ def openw_with_sm(output_dir, filename, priority=None, changefreq=None, lastmod_
         if priority is not None:
             sitemap += "<priority>" + priority + "</priority>"
         if changefreq is not None:
-            sitemap += "<changefreq>" + priority + "</changefreq>"
-        if lastmod_file is not None:
-            dt = datetime.fromtimestamp(os.path.getmtime(lastmod_file), tz=timezone.utc).isoformat()#.strftime('%FT%T:%z')
+            sitemap += "<changefreq>" + changefreq + "</changefreq>"
+        if lastmod_file is not None or lastmod_ts is not None:
+            if lastmod_ts is None:
+                lastmod_ts = os.path.getmtime(lastmod_file)
+            dt = datetime.fromtimestamp(lastmod_ts, tz=timezone.utc).isoformat()
             sitemap += "<lastmod>" + dt + "</lastmod>"
         sitemap += "</url>"
 
