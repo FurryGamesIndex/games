@@ -52,6 +52,12 @@ def load_game(dbdir, f, languages):
 def sorted_games(games):
     return dict(sorted(games.items(), key=lambda t: t[0].replace("_", "").upper()))
 
+def sorted_games_by_mtime(games):
+    return dict(sorted(games.items(), key=lambda t: t[1]["mtime"], reverse=True))
+
+def strip_games_expunge(games):
+    return { k: v for k, v in games.items() if "expunge" not in v }
+
 def load_game_all(dbdir, sdb):
     games = {}
     languages = get_languages_list(dbdir)

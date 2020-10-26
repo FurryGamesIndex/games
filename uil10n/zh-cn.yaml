@@ -66,6 +66,8 @@ sensitive_page_tip: |
 warnbox_staging: 这是一个施工中的页面，其内容可能在将来发生破坏性改变。
 noticebox_tagme: 这个页面已知缺少重要标签。请帮忙添加标签。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md">贡献指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-cn.md">标签列表和解释</a>
 
+rss_desc: RSS Feed 将以时间顺序推送最近添加或编辑的 30 个游戏界面
+
 stock-link-website: 官方网站
 stock-link-release-page: 发布页面
 stock-link-steam: 在 Steam 上获取

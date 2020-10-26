@@ -19,15 +19,25 @@
 
 import os
 import json
-from fgi import image
+from itertools import islice
+from datetime import datetime, timezone
+import email.utils
+
+from fgi import image, args
 from fgi.i18n import get
 from fgi.seo.sitemap import openw_with_sm
+from fgi.base import sorted_games_by_mtime, strip_games_expunge
+
+def ts_to_rfc5322(ts):
+    dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+    return email.utils.format_datetime(dt)
 
 context = {
     "rr": "..",
     "active_list": "actived",
     "uri_to_html_image": image.uri_to_html_image,
-    "get": get
+    "get": get,
+    "ts_to_rfc5322": ts_to_rfc5322
 }
 
 def render(games, env, lctx, output):
@@ -39,3 +49,8 @@ def render(games, env, lctx, output):
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("list.html").render(context))
         f.write(env.get_template("footer.html").render(context))
+
+    if args.args.with_rss:
+        context["games"] = dict(islice(strip_games_expunge(sorted_games_by_mtime(games)).items(), 30))
+        with open(os.path.join(output, language, "feed.xml"), "w") as f:
+            f.write(env.get_template("rss_feed.xml").render(context))

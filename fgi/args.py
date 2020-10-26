@@ -28,6 +28,7 @@ parser.add_argument('--download-external-images', default=False, action='store_t
 parser.add_argument('--use-external-images-cache', type=str, help='Set a previous builds dir to avoid to download repeatly')
 parser.add_argument('--images-to-webp', default=False, action='store_true', help='convert images to webp and replace original (cwebp command required)')
 parser.add_argument('--images-candidate-webp', default=False, action='store_true', help='convert images to webp as candidation (cwebp command required)')
+parser.add_argument('--with-rss', default=False, action='store_true', help='generate RSS feeds (need to run scripts/fix-mtime.sh first)')
 parser.add_argument('--next', default=False, action='store_true', help='enable experimental features')
 parser.add_argument('output', type=str, help='Output path')
 

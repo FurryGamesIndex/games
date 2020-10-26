@@ -22,6 +22,7 @@ copying_area_tip: Found something missing or wrong? Or want to add a game to thi
 copying_area_copyright: Copyright The FurryGamesIndex project, The data on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>. The copyright of some data (such as game screenshots) belongs to the original owner. We only release them under the premise of <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>.
 copying_privacy_policy: Privacy Policy
 copying_oss: Powered by Open-source softwares
+copying_rss: RSS Feed
 
 index_content: >
   <h1>FurryGamesIndex - Find the best furry &amp; kemono games</h1>
@@ -69,6 +70,8 @@ sensitive_page_tip: |
 warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
 noticebox_tagme: This page is known to be missing important tags. Please help to add tags. <br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribution guide</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md">Tags list and explanation</a>
 warnbox_expunge: This page is expunged from list and search.
+
+rss_desc: RSS Feed will push the last 30 game pages added or edited in chronological order.
 
 stock-link-website: Official Website
 stock-link-release-page: Release page

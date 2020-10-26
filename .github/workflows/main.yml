@@ -36,7 +36,7 @@ jobs:
         python3 --version
         python3 -m markdown2 --patch-info
         cwebp -version
-        ./generate.py --images-candidate-webp output
+        ./generate.py --images-candidate-webp --with-rss output
 
     - name: ssh-key
       uses: shimataro/ssh-key-action@v2
