@@ -13,36 +13,49 @@ html[lang=zh-tw] {
 }
 
 :root {
+	--nord0: #2e3440;
+	--nord1: #3b4252;
+	--nord2: #434c5e;
+	--nord3: #4c566a;
+	--nord4: #d8dee9;
+	--nord5: #e5e9f0;
+	--nord6: #eceff4;
+	--nord7: #8fbcbb;
+	--nord8: #88c0d0;
+	--nord9: #81a1c1;
+	--nord10: #5e81ac;
+	--nord11: #bf616a;
+	--nord12: #d08770;
+	--nord13: #ebcb8b;
+	--nord14: #a3be8c;
+	--nord15: #b48ead;
+
 	--background-color: white;
 	--text-color: black;
-	--link-color: #08c;
-	--link-color-hover: #005580;
-	--tip-color: grey;
-	--border-color: grey;
-	--tag-border-color: #aaa;
-	--box-warn-border-color: #fc3;
-	--box-warn-color: #fff3ca;
-	--box-notice-border-color: #6cf;
-	--box-notice-color: #f0faff;
-	--infobar-color: #f3f3f3;
+	--link-color: var(--nord10);
+	--link-color-hover: var(--nord8);
+	--tip-color: var(--nord3);
+	--border-color: var(--nord9);
+	--tag-border-color: var(--nord8);
+	--box-warn-border-color: var(--nord13);
+	--box-warn-color: var(--nord13);
+	--box-notice-border-color: var(--nord4);
+	--box-notice-color: var(--nord5);
+	--infobar-color: var(--nord6);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--color: #e8e8e8;
-		--background-color: #212121;
-		--background-color: black;
-		--text-color: white;
-		--link-color: #70ace5;
-		--link-color-hover: #0086ca;
-		--tip-color: #bbb;
-		--border-color: #989898;
-		--tag-border-color: #777;
-		--box-warn-border-color: #dea700;
-		--box-warn-color: #886900;
-		--box-notice-border-color: #006ca2;
-		--box-notice-color: #002f46;
-		--infobar-color: #424242;
+		--background-color: rgb(41, 46, 57);
+		--text-color: var(--nord6);
+		--link-color: var(--nord8);
+		--link-color-hover: var(--nord10);
+		--tip-color: var(--nord4);
+		--border-color: var(--nord10);
+		--tag-border-color: var(--nord3);
+		--box-notice-border-color: var(--nord3);
+		--box-notice-color: var(--nord2);
+		--infobar-color: var(--nord1);
 	}
 
 	img {
@@ -80,7 +93,7 @@ code {
 	padding: 4px 8px;
 	margin: 0 2px;
 	font-size: .9em;
-	background-color: rgba(27,31,35,.05);
+	background-color: var(--infobar-color);
 	border-radius: 6px;
 }
 
