@@ -39,5 +39,5 @@ def parse(a):
     args = parser.parse_args(a)
 
     if args.next:
-        args.images_to_webp = True
+        args.images_candidate_webp = True
         args.no_sitemap = True
