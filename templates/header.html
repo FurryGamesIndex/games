@@ -19,7 +19,7 @@
 {% if noindex is defined %}
 	<meta name="robots" content="noindex">
 {% endif %}
-	<link rel="stylesheet" href="{{ rr }}/styles/main.css?v=13">
+	<link rel="stylesheet" href="{{ rr }}/styles/main.css?t={{ os.path.getmtime(os.path.join(webrootdir, "styles", "main.css"))|int }}">
 	<link rel="stylesheet" href="{{ rr }}/styles/fa.all.min.css">
 </head>
 <body>

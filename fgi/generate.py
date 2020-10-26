@@ -97,6 +97,8 @@ def main(argv):
             "lang": language,
             "ui": ui,
             "searchdb": sdb,
+            "os": os,
+            "webrootdir": "webroot",
         }
 
         for f in renderer_files:
