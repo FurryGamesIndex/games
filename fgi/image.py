@@ -80,7 +80,7 @@ class HTMLImage:
 
         heapq.heappush(self.sources, HTMLPictureSource(source, mime))
 
-    def html(self, node_class=None):
+    def html(self, node_class=None, use_picture=True):
         code = None
         node = ""
 
@@ -93,7 +93,7 @@ class HTMLImage:
         if node_class is not None:
             node += f"class='{node_class}' "
 
-        if len(self.sources) > 1:
+        if len(self.sources) > 1 and use_picture:
             code = "<picture>"
             for i in self.sources:
                 code += f"<source srcset='{i.srcset}' type='{i.type}'>"
