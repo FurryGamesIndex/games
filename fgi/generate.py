@@ -24,6 +24,11 @@ import shutil
 import argparse
 import importlib
 import json
+import jinja2
+import subprocess
+import getpass
+import platform
+from datetime import datetime
 from pathlib import Path
 from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
@@ -35,8 +40,16 @@ from fgi import tagmgr
 from fgi.seo import sitemap
 from fgi.i18n import get_languages_list, uil10n_load_base, ui10n_load_language
 
+def run_cmd(cmd, failback=''):
+    try:
+        return subprocess.check_output(cmd).decode('utf-8').rstrip()
+    except:
+        return failback
+
+
 def main(argv):
-    parse(argv[1:])
+    argv = argv[1:]
+    parse(argv)
     from fgi.args import args
 
     dbdir = "games"
@@ -92,3 +105,17 @@ def main(argv):
             renderer.render(games, env, lctx, output)
 
     sitemap.write_to_file(os.path.join(output, "sitemap.xml"))
+
+    with open(os.path.join(output, "_buildinfo.txt"), "w") as f:
+        f.write("# FGI BUILD INFO START\n")
+        f.write(f"revision: {run_cmd(['git', 'rev-parse', 'HEAD'], failback='unknown')}\n")
+        f.write(f"options: {' '.join(argv[:-1])}\n")
+        f.write(f"build datetime: {datetime.utcnow()}\n")
+        f.write(f"builder: {getpass.getuser()}@{platform.uname()[1]}\n")
+        f.write("interpreter: ")
+        f.write(sys.version.replace("\n", " "))
+        f.write("\n")
+        f.write(f"jinja2 version: {jinja2.__version__}\n")
+        f.write(f"pyyaml version: {yaml.__version__}\n")
+        f.write(f"webp utils version: {run_cmd(['cwebp', '-version'], failback='unknown')}\n")
+        f.write("# FGI BUILD INFO END\n")
