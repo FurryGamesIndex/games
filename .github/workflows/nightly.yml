@@ -21,7 +21,7 @@ jobs:
     - name: install-dep
       run: |
         sudo apt -y update || true
-        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip python3-setuptools zip unzip
+        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip python3-setuptools python3-pil zip unzip
         pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2
         pip3 install OpenCC
         wget "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/${WEBP_UTIL}.tar.gz"

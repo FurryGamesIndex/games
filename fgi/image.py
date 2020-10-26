@@ -21,8 +21,10 @@ import re
 import os
 import hashlib
 import heapq
+import PIL.Image
 from shutil import copyfile
 from html import escape
+
 from .utils.webutils import dl
 from .utils import webp
 from fgi import args
@@ -63,6 +65,8 @@ class HTMLImage:
         self.sources = []
         self.src = None
         self.alt = None
+        self.width = 0
+        self.height = 0
         pass
 
     def add_source(self, source, mime, as_src = False):
@@ -80,6 +84,10 @@ class HTMLImage:
 
         heapq.heappush(self.sources, HTMLPictureSource(source, mime))
 
+    def set_size(self, width, height):
+        self.width = width
+        self.height = height
+
     def html(self, node_class=None, use_picture=True):
         code = None
         node = ""
@@ -92,6 +100,9 @@ class HTMLImage:
 
         if node_class is not None:
             node += f"class='{node_class}' "
+
+        if self.width > 0:
+            node += f"width='{self.width}' height='{self.height}' "
 
         if len(self.sources) > 1 and use_picture:
             code = "<picture>"
@@ -107,6 +118,12 @@ class HTMLImage:
     def from_image(image):
         hi = HTMLImage()
         hi.add_source(image.uri, None, True)
+
+        if not image.is_remote \
+                and os.path.exists(image.path):
+            im = PIL.Image.open(image.path)
+            hi.set_size(*im.size)
+
         return hi
 
 
