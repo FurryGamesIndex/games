@@ -286,6 +286,7 @@ code {
 	max-width: 230px;
 	margin-right: 12px;
 	flex: 0 0 auto;
+	height: auto;
 	max-height: 150px;
 	object-fit: contain;
 }
@@ -423,6 +424,7 @@ code {
 	width: 280px;
 	min-width: 280px;
 	max-width: 280px;
+	height: auto;
 	max-height: 280px;
 }
 
