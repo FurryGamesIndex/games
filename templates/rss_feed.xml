@@ -9,7 +9,7 @@
 {% for name, game in games %}
 {% set game_name = get(game, lang, 'name') %}
 {% set guid = "https://furrygamesindex.github.io/" ~ lang ~ "/games/" ~ name ~ ".html" %}
-{% set www_link = "https://furrygames.top/" ~ lang ~ "/games/" ~ name ~ ".html" %}
+{% set www_link = "https://utopicpanther.surge.sh/fgi-next/" ~ lang ~ "/games/" ~ name ~ ".html" %}
 <item>
 <title>{{ game_name|e }}</title>
 <description><![CDATA[
