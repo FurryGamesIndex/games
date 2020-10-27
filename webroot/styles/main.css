@@ -298,6 +298,7 @@ code {
 .items .description {
 	color: var(--tip-color);
 	font-size: 0.94em;
+	overflow-wrap: break-word;
 }
 
 #search_box #search_mode {
