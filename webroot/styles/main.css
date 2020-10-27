@@ -299,7 +299,7 @@ code {
 	color: var(--tip-color);
 	font-size: 0.94em;
 	word-break: normal;
-	overflow-wrap: break-word;
+	overflow-wrap: anywhere;
 }
 
 #search_box #search_mode {
