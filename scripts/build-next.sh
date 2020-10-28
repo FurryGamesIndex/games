@@ -48,7 +48,7 @@ infobar: >
 EOF
 
 ./zhconv.py --no-builtin extraui/zh-cn.yaml:extraui/zh-tw.yaml
-./generate.py --next --extra-ui extraui --with-rss "$1"
+./generate.py --next --images-candidate-webp --no-sitemap --extra-ui extraui --with-rss "$1"
 
 git reset --hard
 git clean -f -d

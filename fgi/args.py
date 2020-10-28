@@ -37,7 +37,3 @@ args = None
 def parse(a):
     global args
     args = parser.parse_args(a)
-
-    if args.next:
-        args.images_candidate_webp = True
-        args.no_sitemap = True
