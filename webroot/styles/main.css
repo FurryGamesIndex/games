@@ -298,8 +298,9 @@ code {
 .items .description {
 	color: var(--tip-color);
 	font-size: 0.94em;
-	word-break: normal;
-	overflow-wrap: anywhere;
+	/*word-break: normal;
+	overflow-wrap: anywhere;*/
+	word-break: break-word; /* Safari need */
 }
 
 #search_box #search_mode {
