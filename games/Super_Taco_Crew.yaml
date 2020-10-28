@@ -1,0 +1,50 @@
+name: Super Taco Crew
+
+description: |
+  Edgar the Fox has stumbled through life, never seeming to catch a break.  From a young age he's taken to thieving as a means to survive in this dark, dystopic city.  He's been trying to get away from it and lead a normal life, but things don't always go as they're planned.
+
+  The rise of machine life has complicated things further, with corporations seeking to control more and more.  Follow Edgar on an epic adventure, filled with mystery and deception, and possibly the chance of love. 
+
+tags:
+  author:
+    - 'Decker the Wolf'
+  type:
+    - visual-novel
+    - bara
+  male:
+    - fox
+    - wolf
+    - dragon
+    - otter
+    - bear
+    - males-only
+    - muscle
+  misc:
+    - work-in-process
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+
+links:
+  - name: .itch.io
+    uri: https://deckerwolf.itch.io/super-taco-crew
+  - name: .patreon
+    uri: patreon:deckerwolf
+  - name: .twitter
+    uri: twitter:decker_the_wolf
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    uri: youtube:KdxkW8WiXIY
+  - https://img.itch.zone/aW1hZ2UvNzg1NjgyLzQ0MDAyOTYucG5n/original/3PZgGt.png
+  - https://img.itch.zone/aW1hZ2UvNzg1NjgyLzQ0MDAyODcucG5n/original/6CKwA1.png
+  - https://img.itch.zone/aW1hZ2UvNzg1NjgyLzQ0MDAyODgucG5n/original/8Lp5ZH.png
+  - https://img.itch.zone/aW1hZ2UvNzg1NjgyLzQ0MDAyOTAucG5n/original/%2FWXoIj.png
+  - https://img.itch.zone/aW1hZ2UvNzg1NjgyLzQ0MDAyODkucG5n/original/wsi5ca.png

@@ -1,0 +1,73 @@
+name: Dawn Chorus
+
+description: |
+  Dawn Chorus is a wholesome and light-hearted non-linear romance furry visual novel set in Norway. 
+
+  Moving to another country for studies is a huge step, but it is also a chance for a new beginning. No matter how hard you try, you can never really leave your past behind, though. It's been two months since the beginning of the academic year and you are about to take part in a science camp in a remote guesthouse above the arctic circle, and an old friend from your hometown is going too. Will you embrace your past or try to move forward? Will you manage to befriend your fellow camp-goers? And will one of your friendships blossom into something more?
+
+  ---
+
+  The game is currently in development, with updates released monthly, with each update first being available to the patrons on Patreon and released publicly here two weeks later.
+
+  If you would like to support the development of Dawn Chorus and gain access to the new updates on release, together with other benefits like sneak peeks or concept arts, check out our Patreon [here](https://www.patreon.com/DawnChorusVN).
+
+  ---
+
+  The team for Dawn Chorus is  
+  Keo (script/writing/soundtrack),  
+  hq (visual artist/character design),  
+  Roborak (backgrounds) and  
+  Tintiai (CGs).
+
+  Follow us on our Twitter: [https://twitter.com/DawnChorusVN](https://twitter.com/DawnChorusVN)  
+  Visit our visual artist's page: [https://twitter.com/hq_png](https://twitter.com/hq_png)
+
+description-format: markdown
+
+tags:
+  author:
+    - Keo
+    - hq
+    - Roborak
+    - Tintiai
+  type:
+    - visual-novel
+    - bara
+  male:
+    - bear
+    - leopard
+    - sheep
+    - lion
+    - deer
+    - tiger
+    - males-only
+    - muscle
+  misc:
+    - freeware
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+    
+links:
+  - name: .itch.io
+    uri: https://dawn-chorus.itch.io/dawn-chorus
+  - name: .patreon
+    uri: patreon:DawnChorusVN
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzQxMDk5MTMucG5n/original/NzlJzc.png
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzQxMDMwNzIucG5n/original/7VrnEH.png
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzQ0MTQ1NjcucG5n/original/O5o14h.png
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzQ0MTQ1NjgucG5n/original/7THVWK.png
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzM5Mzc2NjkucG5n/original/bUs7v9.png
