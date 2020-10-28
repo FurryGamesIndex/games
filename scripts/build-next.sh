@@ -33,7 +33,7 @@ git branch --list "next-*" | while read -r branch ; do
 	git reset HEAD
 done
 git branch --list "next-*" | while read -r branch ; do
-	git log "..$branch" >> .patches_info
+	git log --pretty='format:%H  %s' "..$branch" >> .patches_info
 	echo '' >> .patches_info
 done
 
