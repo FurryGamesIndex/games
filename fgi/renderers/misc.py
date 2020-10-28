@@ -57,7 +57,7 @@ def render(games, env, lctx, output):
         context["content"] = markdowner.convert(f.read())
     context["active_faq"] = "actived"
     with openw_with_sm(output, os.path.join(language, "faq.html"), priority="0.4",
-            lastmod_file="doc/faq." + language + ".md") as f:
+            lastmod_file=faq_source) as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("simple_md.html").render(context))
         f.write(env.get_template("footer.html").render(context))
