@@ -101,15 +101,23 @@ let onload = async () => {
 					break;
 				}
 
-				const ns = tag.substring(0, tag.indexOf(":"))
+				let ns = tag.substring(0, tag.indexOf(":"))
 				let v = tag.substring(tag.indexOf(":") + 1)
 
 				if (searchdb.tagalias.hasOwnProperty(v)) {
 					v = searchdb.tagalias[v];
 				}
 
-				if (ns === "") {
+				switch (ns) {
+				case 'malex':
+					ns = 'male';
+					break;
+				case 'femalex':
+					ns = 'female';
+					break;
+				case '':
 					// STUB
+					break;
 				}
 
 				tag = ns + ":" + v;

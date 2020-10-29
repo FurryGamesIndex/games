@@ -553,139 +553,130 @@ animal-on-furry:
     zh-cn: '主要角色中，动物或纯兽（非人形 furry）和兽人发生了性关系'
 
 ###################################################
-###################################################
-
-'@namespace:malex+femalex':
-  name: 'malex/femalex'
-  content:
-    - en: 'TODO: English descriptions is ongoing'
-      zh-cn: '用于说明游戏中出现的特殊内容。'
-    - en: 'Unless otherwise specified, the malex namespace indicates the furry/human physiological gender is male, and the femalex namespace indicates the furry/human physiological gender is female'
-      zh-cn: '除非特殊说明，在 malex 命名空间表示兽人/人类生理性别是男性，在 femalex 命名空间表示兽人/人类生理性别是女性'
 
 exhibitionism:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色出现了在有可能被其他人看见的地方（如户外）进行自愿裸体或性行为'
 
 netorare:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   alias: [ ntr ]
   explanation:
     en: ''
     zh-cn: '另一个角色的配偶/伴侣与某角色发生关系。'
 
 rape:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: 'STUB'
     zh-cn: 'STUB'
 
 mind-break:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '通过长时间或严格的性刺激来训练/使某人在心理上成为性奴隶（洗脑）'
 
 mind-control:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '强迫参与者（违背自己的意愿）自己做某事（催眠）'
 
 corruption:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中用魔法或其他超自然力量强硬地腐化某人的头脑，抢夺他们的纯洁'
 
 parasite:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了寄生或被寄生'
 
 drugs:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色之间使用鼓动滥交或快感的药物'
 
 body-swap:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色之间出现了灵魂互换'
 
 time-stop:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色之间出现了时间停止行为'
 
 guro:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了肢解行为'
 
 tentacles:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了被触手侵犯'
 
 body-modification:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了以人工方式替换身体的某些部位'
 
 conjoined:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中有两个或更多的头分享同一个身体的角色'
 
 muscle-growth:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了肌肉产生或变大'
 
 inflation:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了腹部向外膨胀得像个气球'
 
 absorption:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了吸收某人或某物'
 
 petrification:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中成为雕像/岩石般的形象'
 
 stomach-deformation:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了固体从腹内向外推压，并出现一个可见突起'
 
 brain-fuck:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色之间包括涉及大脑的性行为'
 
 vore:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: 'Main characters may swallow or be swallowed whole via the mouth.'
     zh-cn: '主要角色可能（从嘴）吞入某个角色或被某个角色吞人'
