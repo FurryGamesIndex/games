@@ -52,8 +52,12 @@ def load(data):
             if ns not in tags:
                 tags[ns] = {}
                 tags[ns]["@cur_index"] = 1
-            tags[ns][k] = tags[ns]["@cur_index"] + 6000
-            tags[ns]["@cur_index"] += 1
+
+            if "order" in v:
+                tags[ns][k] = v["order"]
+            else:
+                tags[ns][k] = tags[ns]["@cur_index"] + 6000
+                tags[ns]["@cur_index"] += 1
 
         if "alias" in v:
             for i in v["alias"]:
