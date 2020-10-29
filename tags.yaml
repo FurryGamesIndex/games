@@ -574,8 +574,14 @@ netorare:
   alias: [ ntr ]
   explanation:
     en: ''
-    zh-cn: '主要角色之间出现了戴绿帽'
- 
+    zh-cn: '另一个角色的配偶/伴侣与某角色发生关系。'
+
+rape:
+  namespaces: [ malex, femalex ]
+  explanation:
+    en: 'STUB'
+    zh-cn: 'STUB'
+
 mind-break:
   namespaces: [ malex, femalex ]
   explanation:

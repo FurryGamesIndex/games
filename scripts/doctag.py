@@ -54,7 +54,11 @@ def doctag_class(name, data):
     _doctag_content(data)
 
 def doctag_tag(name, data):
-    print("- `%s` %s" % (name, data["explanation"].get(lang, data["explanation"]["en"])))
+    explan = data["explanation"].get(lang, data["explanation"]["en"])
+    aliases = ""
+    if "alias" in data:
+        aliases = " (Alias: `" + "`, `".join(data["alias"]) + "`)"
+    print(f"- `{name}` {explan}{aliases}")
 
 with open("tags.yaml") as f:
     tags = yaml.safe_load(f.read())

@@ -130,7 +130,8 @@ TODO: English descriptions is ongoing
 Unless otherwise specified, the malex namespace indicates the furry/human physiological gender is male, and the femalex namespace indicates the furry/human physiological gender is female
 
 - `exhibitionism` 
-- `ntr` 
+- `netorare`  (Alias: `ntr`)
+- `rape` STUB
 - `mind-break` 
 - `mind-control` 
 - `corruption` 
