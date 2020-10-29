@@ -100,6 +100,20 @@ let onload = async () => {
 					return Object.keys(searchdb.data);
 					break;
 				}
+
+				const ns = tag.substring(0, tag.indexOf(":"))
+				let v = tag.substring(tag.indexOf(":") + 1)
+
+				if (searchdb.tagalias.hasOwnProperty(v)) {
+					v = searchdb.tagalias[v];
+				}
+
+				if (ns === "") {
+					// STUB
+				}
+
+				tag = ns + ":" + v;
+
 				return searchdb.rtag[tag] || [];
 			})).forEach(i => {
 				num++;
