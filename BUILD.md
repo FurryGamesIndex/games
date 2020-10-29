@@ -4,7 +4,7 @@ Tested operating systems:
 
 - macOS Catalina
 - Ubuntu 20.04
-- Windows 10 (Partially available)
+- Windows 10
 
 You need Python 3.7 or later. (If you are using CPython, 3.6 is also acceptable)
 
@@ -20,7 +20,7 @@ Currently, a patched python-markdown2 (added [image filter supporting](https://g
 pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2
 ```
 
-(Optional) For Chinese Converting, you need (Seems not working on Windows due to encoding problem)
+(Optional) For Chinese Converting, you need
 
 ```
 pip3 install --user OpenCC
@@ -40,11 +40,28 @@ Do a general build
 ./generate.py <output_path>
 ```
 
-## Build offline snapshot version (Not working on Windows)
+## Build offline snapshot editiom
 
 ```
 ./scripts/build-offline-version.sh <output_path>
 ```
+
+> On Windows, you should use [MSYS2](https://www.msys2.org)
+> 
+> This requires a good internet connection.
+
+## Build FGI-next (FGI with experimental patches)
+
+FGI-next requires a `git` command and FGI source tree MUST be in a cleaning git workspace.
+
+```
+./scripts/fix-mtime.sh
+./scripts/build-next.sh
+```
+
+> On Windows, you should use [MSYS2](https://www.msys2.org)
+> 
+> The script cannot clean up the git workspace after patching when the build fails, you need to clean it up manually. It can be automatically cleaned up when building successfully.
 
 ## More Options
 
