@@ -26,6 +26,9 @@ class searchdb:
         self.db["data"] = {}
         self.no_data = no_data
 
+    def add_extra_data(self, k, v):
+        self.db[k] = v
+
     def update(self, game):
         if 'expunge' in game:
             return

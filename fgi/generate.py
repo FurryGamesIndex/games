@@ -68,6 +68,7 @@ def main(argv):
         tagmgr.load(yaml.safe_load(f))
 
     sdb = searchdb(no_data = args.no_searchdb)
+    sdb.add_extra_data("tagalias", tagmgr.tagalias)
 
     if os.path.exists(output) and not args.no_purge_prev_builds:
         shutil.rmtree(output)

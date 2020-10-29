@@ -20,7 +20,8 @@
 import sys
 
 tagdep = {}
-tags = set()
+tags = {}
+tagalias = {}
 
 def closure(ns, s):
     r = s.copy()
@@ -42,12 +43,24 @@ def loaddep(data):
 
 def load(data):
     global tags
+    global tagalias
 
     tmp = { k: v for k, v in data.items() if k[0] != '@' }
 
     for k, v in tmp.items():
         for ns in v["namespaces"]:
-            tags.add(ns + ":" + k)
+            if ns not in tags:
+                tags[ns] = {}
+                tags[ns]["@cur_index"] = 1
+            tags[ns][k] = tags[ns]["@cur_index"] + 6000
+            tags[ns]["@cur_index"] += 1
+
+        if "alias" in v:
+            for i in v["alias"]:
+                tagalias[i] = k
+
+    for ns in tags:
+        del tags[ns]["@cur_index"]
 
 needed_ns = ["type", "author", "lang", "platform"]
 
@@ -59,10 +72,9 @@ def check_and_patch(game):
     for ns, v in game["tags"].items():
         if ns != "author":
             for i in v:
-                name = ns + ":" + i
-                if name not in tags:
-                    print("""Error: The tag '%s' is not standardized.
-Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.""" % name)
+                if i not in tags[ns]:
+                    print("""Error: The tag '%s:%s' is not standardized.
+Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.""" % (ns, i))
                     sys.exit(1)
 
         if ns in tagdep:
