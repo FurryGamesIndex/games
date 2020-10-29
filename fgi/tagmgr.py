@@ -82,5 +82,8 @@ Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml fil
             for i in v:
                 if i in tagdep[ns]:
                     tmp = tmp.union(tagdep[ns][i])
-            game["tags"][ns] = list(sorted(tmp))
+            game["tags"][ns] = list(tmp)
+
+        if ns != "author":
+            game["tags"][ns] = sorted(game["tags"][ns], key=lambda i: tags[ns][i])
 
