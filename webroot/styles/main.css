@@ -38,7 +38,8 @@ html[lang=zh-tw] {
 	--border-color: var(--nord9);
 	--tag-border-color: var(--nord8);
 	--box-warn-border-color: var(--nord13);
-	--box-warn-color: var(--nord13);
+	--box-warn-color: #FFE099;
+	--box-warn-text-color: black;
 	--box-notice-border-color: var(--nord4);
 	--box-notice-color: var(--nord5);
 	--infobar-color: var(--nord6);
@@ -53,6 +54,7 @@ html[lang=zh-tw] {
 		--tip-color: var(--nord4);
 		--border-color: var(--nord10);
 		--tag-border-color: var(--nord3);
+		--box-warn-text-color: black;
 		--box-notice-border-color: var(--nord3);
 		--box-notice-color: var(--nord2);
 		--infobar-color: var(--nord1);
@@ -119,6 +121,7 @@ code {
 .box.warning {
 	border: 1px solid var(--box-warn-border-color);
 	background-color: var(--box-warn-color);
+	color: var(--box-warn-text-color);
 }
 
 .box.notice {
