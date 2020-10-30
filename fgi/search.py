@@ -45,8 +45,8 @@ class searchdb:
             data = {}
             data["tr"] = {}
             data["name"] = game["name"]
-            desc = desc[:480] + (desc[480:] and '...')
             desc = game["description"]
+            desc = desc[:480] + (desc[480:] and '...')
             data["description"] = desc
             data["thumbnail"] = image.uri("..", game["thumbnail"], game["id"])
 
