@@ -18,6 +18,7 @@
 # 
 
 from fgi import image
+from fgi.i18n import get, get_desc
 
 class searchdb:
     def __init__(self, no_data=False):
@@ -52,6 +53,8 @@ class searchdb:
                 if "name" in game["tr"][lang]:
                     data["tr"][lang]["name"] = game["tr"][lang]["name"]
                 if "description" in game["tr"][lang]:
-                    data["tr"][lang]["description"] = game["tr"][lang]["description"]
+                    desc = game["tr"][lang]["description"]
+                    desc = desc[:480] + (desc[480:] and '...')
+                    data["tr"][lang]["description"] = desc
 
             self.db["data"][game["id"]] = data
