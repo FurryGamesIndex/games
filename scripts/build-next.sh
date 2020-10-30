@@ -22,19 +22,19 @@ set -e
 if [ -n "$(git status --porcelain)" ]; then
 	echo "Working space MUST be clean while doing FGI-next build"
 	echo "Exiting..."
-	exit 1
 fi
 
 rm -f .patches_info
 
 git branch --list "next-*" | while read -r branch ; do
-	echo "applying $branch"
-	git merge --no-ff --no-commit "$branch"
-	git reset HEAD
-done
-git branch --list "next-*" | while read -r branch ; do
-	git log --pretty='format:%H  %s' "..$branch" >> .patches_info
+	git log --pretty='format:%H  %s' "..$branch" --reverse >> .patches_info
 	echo '' >> .patches_info
+done
+
+cat .patches_info | while read -r i ; do
+	echo "Applying patch $i"
+	i="${i%% *}"
+	git diff-tree -p "$i" | patch -p1
 done
 
 mkdir -p extraui
