@@ -76,7 +76,7 @@ let onload = async () => {
 
 		let searchdb;
 		if (typeof(_searchdb) === 'undefined') {
-			searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json")).json();
+			searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json?hc=uquery&t={{ time()|int }}")).json();
 		} else {
 			searchdb = _searchdb;
 		}

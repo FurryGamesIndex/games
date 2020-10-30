@@ -28,6 +28,7 @@ import jinja2
 import subprocess
 import getpass
 import platform
+from time import time
 from datetime import datetime
 from pathlib import Path
 from distutils import dir_util
@@ -100,6 +101,7 @@ def main(argv):
             "searchdb": sdb,
             "os": os,
             "webrootdir": "webroot",
+            "time": time,
         }
 
         for f in renderer_files:
