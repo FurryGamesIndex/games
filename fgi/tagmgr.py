@@ -22,6 +22,7 @@ import sys
 tagdep = {}
 tags = {}
 tagalias = {}
+tagns = {}
 
 def closure(ns, s):
     r = s.copy()
@@ -44,6 +45,7 @@ def loaddep(data):
 def load(data):
     global tags
     global tagalias
+    global tagns
 
     tmp = { k: v for k, v in data.items() if k[0] != '@' }
 
@@ -62,6 +64,8 @@ def load(data):
         if "alias" in v:
             for i in v["alias"]:
                 tagalias[i] = k
+
+        tagns[k] = v["namespaces"]
 
     for ns in tags:
         del tags[ns]["@cur_index"]

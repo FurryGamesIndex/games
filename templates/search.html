@@ -64,6 +64,22 @@ let add = (id, game) => {
 	items.appendChild(item);
 }
 
+const searchTagWithoutNamespace = (searchdb, tag) => {
+	let res = new Set()
+	const ns = searchdb.tagns[tag];
+
+	if (ns == null)
+		return [];
+
+	ns.forEach(i => {
+		console.log(i)
+		const tmp = searchdb.rtag[i + ":" + tag] || [];
+		res = new Set([...res, ...tmp]);
+	});
+
+	return [...res];
+}
+
 let onload = async () => {
 	$('#search_mode').value = mode;
 	if ($('#search_mode').selectedIndex < 0)
@@ -116,7 +132,7 @@ let onload = async () => {
 					ns = 'female';
 					break;
 				case '':
-					// STUB
+					return searchTagWithoutNamespace(searchdb, v);
 					break;
 				}
 

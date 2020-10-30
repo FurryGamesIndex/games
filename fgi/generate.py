@@ -71,6 +71,7 @@ def main(argv):
 
     sdb = searchdb(no_data = args.no_searchdb)
     sdb.add_extra_data("tagalias", tagmgr.tagalias)
+    sdb.add_extra_data("tagns", tagmgr.tagns)
 
     if os.path.exists(output) and not args.no_purge_prev_builds:
         shutil.rmtree(output)
