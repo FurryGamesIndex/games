@@ -28,6 +28,7 @@ import jinja2
 import subprocess
 import getpass
 import platform
+import markdown2
 from time import time
 from datetime import datetime
 from pathlib import Path
@@ -122,6 +123,7 @@ def main(argv):
         f.write("\n")
         f.write(f"jinja2 version: {jinja2.__version__}\n")
         f.write(f"pyyaml version: {yaml.__version__}\n")
+        f.write(f"markdown2 version: {markdown2.__version__}\n")
         f.write(f"webp utils version: {run_cmd(['cwebp', '-version'], failback='unknown')}\n")
         f.write("# ADDITIONAL PATCHES\n")
         if os.path.exists(".patches_info"):
