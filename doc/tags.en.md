@@ -143,6 +143,9 @@ The following are automatic tags, they are no different from other tags when you
 - `stomach-deformation` 
 - `brain-fuck` 
 - `vore` Main characters may swallow or be swallowed whole via the mouth.
+- `fisting` 
+- `bondage` 
+- `public-use` 
 
 ## Namespace misc
 

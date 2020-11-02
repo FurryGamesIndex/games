@@ -681,6 +681,24 @@ vore:
     en: 'Main characters may swallow or be swallowed whole via the mouth.'
     zh-cn: '主要角色可能（从嘴）吞入某个角色或被某个角色吞人'
 
+fisting:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh-cn: '主要角色可能出现拳交'
+
+bondage:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh-cn: '主要角色可能出现绑缚（BDSM）'
+
+public-use:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh-cn: '主要角色可能成为肉便器'
+
 
 ###################################################
 ###################################################
