@@ -27,6 +27,9 @@
 			</tr>
 		{% endfor %}
 		</tbody></table></div>
+		<div class="opts">
+			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml"><i class="fas fa-edit fa-fw"></i><span>{{ ui.game_edit }}</span></a>
+		</div>
 		<div class="screenshots">
 		{% if "sensitive_media" in game %}
 			<div class="warning box" id="sensitive_media_warn">

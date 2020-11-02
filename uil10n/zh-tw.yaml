@@ -53,6 +53,7 @@ gamewarn_notonlyfurry: 這個遊戲並非是僅圍繞 Furry 話題的遊戲。�
 
 game_author_widget_more_from: 來自 <b>%s</b> 的更多遊戲：
 
+game_edit: 編輯此頁面
 game_contact_us: 透過以下方式聯絡“獸人控遊戲索引”專案
 game_sensitive_warning: 當前頁面可能包含敏感媒體，它們已被隱藏。 <a href="%s/%s/sensitive.html">管理敏感內容設定</a>
 warnbox_expunge: 此頁面已從列表頁面和搜尋結果中移除

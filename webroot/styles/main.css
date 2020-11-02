@@ -7,6 +7,7 @@ html {
 	line-height: 1.32;
 }
 
+html[lang=ja],
 html[lang=zh-cn],
 html[lang=zh-tw] {
 	line-height: 1.42;
@@ -89,6 +90,10 @@ a:hover,
 a:active,
 a:focus {
 	outline: 0;
+}
+
+a>span {
+	margin-left: 4px;
 }
 
 code {
@@ -185,7 +190,6 @@ code {
 
 #navlinks>a>span {
 	line-height: 1em;
-	margin-left: 4px;
 }
 
 #navbar,
@@ -404,10 +408,7 @@ code {
 }
 
 .game .tags {
-	margin-bottom: 12px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid var(--border-color);
-
 	line-height: 1.32em;
 }
 
@@ -421,6 +422,15 @@ code {
 	padding: 2px 6px;
 	margin: 2px;
 	border: 1px solid var(--tag-border-color);
+}
+
+.game .opts {
+	padding-bottom: 10px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid var(--border-color);
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
 }
 
 .game .screenshots>* {

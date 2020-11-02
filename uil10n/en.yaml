@@ -58,6 +58,7 @@ gamewarn_notonlyfurry: This game is not just about Furry topics. This means you 
 
 game_author_widget_more_from: 'More games from <b>%s</b>:'
 
+game_edit: Edit this page
 game_contact_us: Contant FurryGamesIndex project by
 game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>
 
