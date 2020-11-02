@@ -39,7 +39,6 @@ jobs:
         FGI_OFFLINE_WEBP: 1
       run: |
         python3 --version
-        python3 -m markdown2 --patch-info
         export PATH="./${WEBP_UTIL}/bin/:$PATH"
         cwebp -version
         gif2webp -version
