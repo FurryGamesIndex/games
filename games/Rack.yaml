@@ -1,0 +1,81 @@
+name: Rack
+
+description: |
+  Rack is a science-themed bondage game where you can perform sexual tests and experiments using a variety of toys and gadgets. As you play the game, you'll unlock new features, lab settings, and test subjects to play with.
+
+  The game features a massive variety of test subjects of all genders and species, including human characters. It also supports custom character importing, which means there are lots of user-created characters available.
+
+  You can get your own character added to the game by keeping an eye on my [FurAffinity account](http://www.furaffinity.net/user/fek), where I occasionally hold character auctions. If you're artistically inclined and have access to Flash Pro CS6 or higher, you can also make your own character using the [template files](http://www.fek.onl/racksubjects/templates.html), which are available to the public completely free-of-charge.
+
+description-format: markdown
+
+tags:
+  author:
+    - fek
+  type:
+    - business-sim
+    - bara
+    - yuri
+    - yiff
+  male:
+    - cat
+    - wolf
+    - horse
+    - mouse
+    - cheetah
+    - fox
+    - dragon
+    - tiger
+    - bull
+    - shark
+    - dog
+    - lizard
+    - bird
+    - otter
+    - hyena
+    - deer
+    - raccoon
+    - lynx
+    - rabbit
+    - mixed
+    - humankind
+    - anal
+    - handjob
+  female:
+    - dog
+    - horse
+    - dragon
+    - tiger
+    - shark
+    - wolf
+    - otter
+    - cat
+    - humankind
+    - handjob
+  misc:
+    - freeware
+    - adobe-flash
+    - multiple-series
+    - online
+  lang:
+    - en
+  publish:
+    - website
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .website
+    uri: http://www.fek.onl/
+  - name: Get on Furaffinity
+    icon: furaffinity
+    uri: https://www.furaffinity.net/view/18723806/
+  - name: .twitter
+    uri: twitter:fekfekfekfek
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/hSaUy6s.png
+  - https://i.imgur.com/OhS0se2.png
