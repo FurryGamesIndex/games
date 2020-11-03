@@ -30,6 +30,12 @@
 <div class="iconline"><i class="fas fa-exclamation-triangle fa-fw"></i><span>{{ ui.gamewarn_notonlyfurry }}</span></div>
 {% endif %}
 {% endif %}
+
+{% if "platform" in game.tags %}
+{% if "shockwave-flash" in game.tags.platform and game.tags.platform|length == 1 %}
+<div class="iconline"><i class="fas fa-heart-broken fa-fw"></i><span>{{ ui.gamewarn_deprecated_shockwave_flash }}</span></div>
+{% endif %}
+{% endif %}
 </div>
 <div class="links links-group">
 {% for i in game.links %}

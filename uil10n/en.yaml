@@ -55,6 +55,7 @@ gamewarn_unpublished: This game has NOT been released yet
 gamewarn_died: This game is probably dead before completion
 gamewarn_expired: Access to the game is no longer available
 gamewarn_notonlyfurry: This game is not just about Furry topics. This means you may not like this game.
+gamewarn_deprecated_shockwave_flash: Flash Player required
 
 game_author_widget_more_from: 'More games from <b>%s</b>:'
 
