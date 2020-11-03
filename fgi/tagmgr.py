@@ -24,12 +24,19 @@ tags = {}
 tagalias = {}
 tagns = {}
 
-def closure(ns, s):
+def closure(_ns, s):
     r = s.copy()
 
     for i in s:
-        if i in tagdep[ns]:
-            r = r.union(closure(ns, tagdep[ns][i]))
+        ns = _ns
+        prefix = ""
+        if ":" in i:
+            ns, i = i.split(":")
+            prefix = ns + ":"
+        if ns in tagdep and i in tagdep[ns]:
+            tmp = tagdep[ns][i]
+            tmp = set([i if ":" in i else prefix + i for i in tmp])
+            r = r.union(closure(ns, tmp))
 
     return r
 

@@ -24,3 +24,6 @@ male:
   <<: *metazoa
 female:
   <<: *metazoa
+
+platform:
+  shockwave-flash: [ 'misc:adobe-flash' ]
