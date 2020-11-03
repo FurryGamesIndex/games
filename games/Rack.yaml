@@ -64,6 +64,7 @@ tags:
   platform:
     - windows
     - macos
+    - shockwave-flash
 
 links:
   - name: .website

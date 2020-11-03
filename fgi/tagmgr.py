@@ -18,6 +18,7 @@
 # 
 
 import sys
+from itertools import islice
 
 tagdep = {}
 tags = {}
@@ -80,25 +81,32 @@ def load(data):
 needed_ns = ["type", "author", "lang", "platform"]
 
 def check_and_patch(game):
+    for ns, v in game["tags"].items():
+        if ns in tagdep:
+            for i in islice(v, 0, len(v)):
+                if i in tagdep[ns]:
+                    for j in tagdep[ns][i]:
+                        if ":" in j:
+                            nns, j = j.split(":")
+                            if nns not in game["tags"]:
+                                game["tags"] = {}
+                            game["tags"][nns].append(j)
+                        else:
+                            v.append(j)
+
     for i in needed_ns:
         if i not in game["tags"]:
             print("[warning] missing %s namespace for game '%s'" % (i, game["id"]))
 
-    for ns, v in game["tags"].items():
+    for ns in game["tags"]:
         if ns != "author":
+            v = list(set(game["tags"][ns]))
+            v = sorted(v, key=lambda i: tags[ns][i])
+            game["tags"][ns] = v
+
             for i in v:
                 if i not in tags[ns]:
                     print("""Error: The tag '%s:%s' is not standardized.
 Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.""" % (ns, i))
                     sys.exit(1)
-
-        if ns in tagdep:
-            tmp = set(v)
-            for i in v:
-                if i in tagdep[ns]:
-                    tmp = tmp.union(tagdep[ns][i])
-            game["tags"][ns] = list(tmp)
-
-        if ns != "author":
-            game["tags"][ns] = sorted(game["tags"][ns], key=lambda i: tags[ns][i])
 
