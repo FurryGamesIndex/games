@@ -161,6 +161,7 @@ Used to describe miscellaneous information related to the game
 - `engine-unity` The game is developed using Unity engine
 - `engine-rpg-maker` The game is developed using RPG Maker engine
 - `engine-godot` The game is developed using GoDot engine
+- `adobe-flash` The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.
 - `multiple-endings` There are multiple different endings in the game
 - `work-in-process` The game is ongoing
 - `multiple-series` The game is included in a series of connected worldviews or plots
@@ -215,6 +216,7 @@ The operating systems and platforms offical supported by the game
 - `windows` Microsoft Windows
 - `macos` Apple macOS
 - `linux` GNU/Linux
+- `shockwave-flash` The game requires Shockwave Flash (Adobe Flash Player) to run. In particular, this tag is only used for games that are distributed with `.swf` files. This tag should not be used if Flash Player is bundled with the game package (e.g. Adobe AIR). All games that use Adobe Flash technology should use `misc:adobe-flash`
 - `android` Android
 - `ios` Apple iOS
 - `nds` Nintendo DS

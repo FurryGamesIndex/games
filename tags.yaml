@@ -768,6 +768,12 @@ engine-godot:
     en: 'The game is developed using GoDot engine'
     zh-cn: '游戏使用了 GoDot 引擎'
 
+adobe-flash:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.'
+    zh-cn: '游戏使用了 Adobe Flash 开发。不要与 `platform:shockwave-flash` 混淆，后者强调需要用户单独安装 Flash Player 才能运行。'
+
 multiple-endings:
   namespaces: [ misc ]
   explanation:
@@ -1029,6 +1035,12 @@ linux:
   explanation:
     en: 'GNU/Linux'
     zh-cn: '游戏官方支持 GNU/Linux'
+
+shockwave-flash:
+  namespaces: [ platform ]
+  explanation:
+    en: 'The game requires Shockwave Flash (Adobe Flash Player) to run. In particular, this tag is only used for games that are distributed with `.swf` files. This tag should not be used if Flash Player is bundled with the game package (e.g. Adobe AIR). All games that use Adobe Flash technology should use `misc:adobe-flash`'
+    zh-cn: '游戏需要 Shockwave Flash (Adobe Flash Player) 以运行。特别地，此标签仅用于在发行 `.swf` 文件的游戏。如果发行的游戏包中捆绑了 Flash Player（如 Adobe AIR），不应使用此标签。所有使用了 Adobe Flash 技术的游戏都应该使用 `misc:adobe-flash`'
 
 android:
   namespaces: [ platform ]

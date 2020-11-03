@@ -161,6 +161,7 @@
 - `engine-unity` 遊戲使用了 Unity 引擎
 - `engine-rpg-maker` 遊戲使用了 RPG Maker 引擎
 - `engine-godot` 遊戲使用了 GoDot 引擎
+- `adobe-flash` 遊戲使用了 Adobe Flash 開發。不要與 `platform:shockwave-flash` 混淆，後者強調需要使用者單獨安裝 Flash Player 才能執行。
 - `multiple-endings` 遊戲有多種結局
 - `work-in-process` 遊戲尚未完結（但有先行預覽版本或 Demo）
 - `multiple-series` 遊戲包含多個世界觀、劇情有聯絡的系列/版本（提示：如果世界觀具有其特殊性且相近，即使劇情無聯絡，則仍然認為是同一系列（類似於數碼寶貝1, 3）；如果世界觀是一種常見的、樸實的、一般的世界，如“現代日本”，“中世紀歐洲”，則只有當劇情有聯絡時，才認為是同一系列。這個標籤在使用上有時可能會傾向主觀而非客觀，如果有更多問題，請開啟 issue 討論）
@@ -215,6 +216,7 @@
 - `windows` 遊戲官方支援 Microsoft Windows
 - `macos` 遊戲官方支援 Apple macOS
 - `linux` 遊戲官方支援 GNU/Linux
+- `shockwave-flash` 遊戲需要 Shockwave Flash (Adobe Flash Player) 以執行。特別地，此標籤僅用於在發行 `.swf` 檔案的遊戲。如果發行的遊戲包中捆綁了 Flash Player（如 Adobe AIR），不應使用此標籤。所有使用了 Adobe Flash 技術的遊戲都應該使用 `misc:adobe-flash`
 - `android` 遊戲官方支援 Android
 - `ios` 遊戲官方支援 Apple iOS
 - `nds` 遊戲官方支援 Nintendo DS
