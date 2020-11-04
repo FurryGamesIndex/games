@@ -1,55 +1,57 @@
-name: カモネギ号が魔法剣でいっぱいになる
+name: The Kamonegi is full of magic swords / カモネギ号が魔法剣でいっぱいになる
 
 description: |
-  はじまり
+  At the beginning.
 
-  魔法剣の存在する世界で、あなたは目を覚ました。
+  You wake up in a world where magic swords exist.
 
-  あなたは、カモネギ号の船長に声をかけられ、通信士として働くことになる。
-  船長と船員と共に、魔法剣を探す仕事が始まる。
+  You are approached by the captain of the Kamonegi to work as a communications officer.
+  Together with the captain and the ship's crew, your job to find the magical sword begins.
 
-  ５年前の大災害で、なにが起こったのか。
-  あなたは知らない。
+  What happened in the great disaster of five years ago?
+  You don't know.
 
-  無線機で魔法剣の情報を教えてくれる、預言者とは何者なのか。
-  あなたを襲った黒い魔法剣の正体とは。魔法の力はどうやって使うのか。
-  そしてなぜ、魔法剣は生まれたのか。
+  You don't know who is the prophet, the one who gives you the information about the magic sword on his radio.
+  What is the nature of the black magic sword that attacked you? How does the magic power work?
+  And why was the magic sword created?
 
-  この世界が生きていくために、
-  あなたは、たくさんの魔法剣を手に入れなければならない。
+  So that this world could live.
+  You have to get a lot of magic swords.
 
-  【カモネギ号が魔法剣でいっぱいになる】
+  [The Kamonegi is full of magic swords]
 
-  空飛ぶ船で、魔法剣を探しながら、いちゃいちゃするゲームです。
-  登場人物は、ケモノまたは獣人と呼ばれる姿をしています。
-  また同性愛要素の強いゲームです。
+  It's a game of flirting in a flying ship while searching for magic swords.
+  The characters are called furry.
+  It is a game with strong homosexual elements.
 
-  ジャンル：アドベンチャーゲーム
-  プレイ時間目安：3～5時間。
-  エンディング：1（多少の変化あり）
-  バッドエンディング：10くらい
-  イベントスチル：基本50くらい
-  アダルトイベント：4キャラx4＋その他10くらい
-  （※製作者もよくおぼえてません）
+  Genre: Adventure game
+  Approximate play time: 3 to 5 hours.
+  Ending: 1 (with some variation)
+  Bad Ending: about 10.
+  Event stills: about 50 basic.
+  Adult Event: 4 characters x4 + about 10 others
+  The producer doesn't quite remember.
 
-  主人公は一切しゃべりません。あなたの選択によってストーリーが進んでいきます。
-  船の中を自由に移動できるので、どこで誰に話しかけ、ストーリーをどう進めるのかは、通信士となったあなたの自由です。
+  The protagonist does not speak at all. The story progresses according to your choices.
+  You can move freely around the ship, so it's up to you, the correspondent, to decide where to talk to and who to talk to and how to progress in the story.
 
-  このゲームにはイージーモードがあります。
-  数ある選択肢の中から、ストーリーの進むものに緑の色がつきます。
-  その他、バッドエンドなら赤、アダルト系ならピンク色になります。
-  さらに、ベリーイージーでは時間経過で緑が選択されます。
-  その場合、マウスホイールを回すだけでゲームが進んでいきます。
+  There is an easy mode in this game.
+  From a number of options, you will be given a green color for what the story is going to be about.
+  Others will be red for bad endings and pink for adult ones.
+  Additionally, in Very Easy, green will be selected over time.
+  In this case, all you have to do is turn the mouse wheel to advance the game.
 
-  製作：数井ムサシ 協力：椿のぞみ こっとん
+  Created by Musashi Kazui with the help of Nozomi Tsubaki Koton
 
-  開発は吉里吉里2（KKDE）で行っています。
-  わりと古いエンジンなので、互換性の問題もあるかもしれません。
-  体験版がありますので、動作確認を行う場合はご利用ください。
+  Development is done on Kirikiri-Kirikiri 2 (KKDE).
+  Because it is a rather old engine, there may be a compatibility problem.
+  A trial version is available, so please use it if you want to check the operation.
+
+  (Translated from Japanese)
 
 tags:
   author:
-    - KoI
+    - 数井ムサシ
   type:
     - visual-novel
     - adventure
