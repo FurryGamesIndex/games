@@ -170,7 +170,7 @@ def uri_to_html_image(rr, imageuri, gameid, alt = None):
         new_path = img.path + ".webp"
 
         if os.path.exists(path):
-            if os.path.exists(new_path):
+            if not os.path.exists(new_path):
                 try:
                     webp.cwebp(path, new_path)
                     img.uri += ".webp"
