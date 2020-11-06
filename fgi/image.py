@@ -121,8 +121,11 @@ class HTMLImage:
 
         if not image.is_remote \
                 and os.path.exists(image.path):
-            im = PIL.Image.open(image.path)
-            hi.set_size(*im.size)
+            try:
+                im = PIL.Image.open(image.path)
+                hi.set_size(*im.size)
+            except:
+                print(f"[warning] can not load image {image.path}")
 
         return hi
 
