@@ -435,6 +435,7 @@ code {
 
 .game .screenshots>* {
 	width: 100%;
+	height: auto;
 }
 
 #sensitive_media_warn {
