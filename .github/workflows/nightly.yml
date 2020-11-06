@@ -46,20 +46,20 @@ jobs:
         zip -r output.zip FGI-nightly
         zip -r output-webp.zip FGI-nightly-webp
 
-    - name: upload-release
-      uses: svenstaro/upload-release-action@v1-release
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: output.zip
-        asset_name: FGI-nightly.zip
-        tag: _gh_assets
-        overwrite: true
-
     - name: upload-release-webp
       uses: svenstaro/upload-release-action@v1-release
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: output-webp.zip
         asset_name: FGI-nightly-webp.zip
+        tag: _gh_assets
+        overwrite: true
+
+    - name: upload-release
+      uses: svenstaro/upload-release-action@v1-release
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: output.zip
+        asset_name: FGI-nightly.zip
         tag: _gh_assets
         overwrite: true

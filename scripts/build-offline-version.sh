@@ -17,6 +17,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
+set -e
+
 RMRF="rm -rf "
 [ "$(uname -s)" = "Linux" ] && RMRF="$RMRF --preserve-root"
 
