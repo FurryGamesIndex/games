@@ -9,7 +9,7 @@ on:
 
 env:
   WEBP_UTIL: libwebp-1.1.0-linux-x86-64
-  USELESS_VAR: 6
+  USELESS_VAR: 7
 
 jobs:
   build:

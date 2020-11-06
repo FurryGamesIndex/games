@@ -169,15 +169,15 @@ def uri_to_html_image(rr, imageuri, gameid, alt = None):
 
         new_path = img.path + ".webp"
 
-        if os.path.exists(path) \
-                and not os.path.exists(new_path):
-            try:
-                webp.cwebp(path, new_path)
-                os.remove(path)
-                img.uri += ".webp"
-                img.path = new_path
-            except:
-                print(f"[warning] {path} can not be converted to webp")
+        if os.path.exists(path):
+            if os.path.exists(new_path):
+                try:
+                    webp.cwebp(path, new_path)
+                    img.uri += ".webp"
+                    img.path = new_path
+                except:
+                    print(f"[warning] {path} can not be converted to webp")
+            os.remove(path)
 
     hi = HTMLImage.from_image(img)
     hi.alt = alt
