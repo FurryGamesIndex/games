@@ -58,6 +58,8 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - type: steam-widget
+    id: 571880
   - https://steamcdn-a.akamaihd.net/steam/apps/571880/ss_efa69afb9c1f6dbaf2e748738a3758deeb058595.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/571880/ss_f552f9624ac4800bc361648d2f4b9be75d0f3530.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/571880/ss_83832a3da49e26973a8cc0ffd658287905bd4bc3.1920x1080.jpg

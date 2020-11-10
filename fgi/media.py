@@ -120,6 +120,9 @@ class MediaFactory:
             elm += '<source src="%s" type="%s">' % (i["uri"], i["mime"])
         return elm + "</video>"
 
+    def _media_steam_widget(self, rr, image, gameid, name):
+        return f'<iframe sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-forms allow-same-origin" src="https://store.steampowered.com/widget/{image["id"]}/" frameborder="0" width="100%" height="190"></iframe>'
+
     def dom(self, rr, image, gameid, name = ""):
         mode = self._media_image
         image_meta = image
@@ -132,5 +135,7 @@ class MediaFactory:
                 mode = self._media_youtube
             if image["type"] == "video":
                 mode = self._media_video
+            if image["type"] == "steam-widget":
+                mode = self._media_steam_widget
 
         return mode(rr, image_meta, gameid, name)
