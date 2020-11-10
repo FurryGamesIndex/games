@@ -36,10 +36,12 @@ class RendererSingles(Renderer):
         with open(self.getpath("languages.html"), "w") as f:
             f.write(self.env.get_template("languages.html").render(context))
 
+        """disable privacy policy on FGI-next builds
         context = self.new_context()
         context["content"] = conv_doc_markdown(self.fctx, "privacy-policy", None)
         with open(self.getpath("privacy-policy.html"), "w") as f:
             f.write(self.env.get_template("simple_md.html").render(context))
+        """
 
         context = self.new_context()
         context["content"] = conv_doc_markdown(self.fctx, "credits", None)
