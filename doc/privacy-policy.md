@@ -12,7 +12,9 @@ We will NEVER share any personal information collected to third parties.
 
 ## Cookie Policy
 
-We currently do not use cookies which will send to any servers.
+We currently do not use cookies. But we are using Cloudflare CDN.
+
+Cloudflare will make a cookie called `__cfduid`. For more infomations, see their [document](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies) and [privacy policy](https://www.cloudflare.com/privacypolicy/).
 
 In the future, we may use cookies. We will remind you before using cookies. The privacy policy will also be updated.
 
@@ -38,15 +40,17 @@ We have embed multiple external static media contents. They are from imgur, imgb
 
 ## Where is the site hosted
 
-This site is hosted on Github Pages. Your browser will transmite to them:
+This site is hosted on Github Pages and provided contents behind Cloudflare CDN. Your browser will transmite to them:
 
 - Browser type, version and language
 - Operating System type and (maybe) version
 - Referrer URL
 - Your IP address
 - The time of the request
+- Cookies which they make
 
 [Privacy Policy of Github](https://help.github.com/en/github/site-policy/github-privacy-statement)
+[Privacy Policy of Cloudflare](https://www.cloudflare.com/privacypolicy/)
 
 > When using the offline edition of this website, this policy will not apply to you.
 
