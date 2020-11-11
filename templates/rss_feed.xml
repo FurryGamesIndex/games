@@ -3,12 +3,13 @@
 <channel>
 <title>{{ ui.page_title }}</title>
 <description>{{ ui.page_description|e }} - {{ ui.rss_desc|e }}</description>
-<link>https://furrygamesindex.github.io/{{ lang }}</link>
+<link>https://furrygames.top/{{ lang }}</link>
 <copyright>FurryGamesIndex project. All rights reserved</copyright>
 <ttl>1800</ttl>
 {% for name, game in games.items() %}
 {% set game_name = get(game, lang, 'name') %}
-{% set www_link = "https://furrygamesindex.github.io/" ~ lang ~ "/games/" ~ name ~ ".html" %}
+{% set guid = "https://furrygamesindex.github.io/" ~ lang ~ "/games/" ~ name ~ ".html" %}
+{% set www_link = "https://furrygames.top/" ~ lang ~ "/games/" ~ name ~ ".html" %}
 <item>
 <title>{{ game_name|e }}</title>
 <description><![CDATA[
@@ -17,7 +18,7 @@
 	<a href="{{ www_link }}">{{ www_link }}</a>
 ]]></description>
 <link>{{ www_link }}</link>
-<guid>{{ www_link }}</guid>
+<guid>{{ guid }}</guid>
 <pubDate>{{ ts_to_rfc5322(game.mtime) }}</pubDate>
 </item>
 {% endfor %}

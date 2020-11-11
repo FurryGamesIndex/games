@@ -36,8 +36,8 @@ games_en=""
 IFS="$nl"
 while read -r i ; do
 	echo "new: $i"
-	uri="https://furrygamesindex.github.io/zh-cn/games/${i}.html"
-	uri_en="https://furrygamesindex.github.io/en/games/${i}.html"
+	uri="https://furrygames.top/zh-cn/games/${i}.html"
+	uri_en="https://furrygames.top/en/games/${i}.html"
 	grep '^expunge:' "games/$i.yaml" > /dev/null 2>&1
 	[ "$?" = "0" ] && i="$i (Expunged)"
 	games_zh="${games_zh}<a href='${uri}'>${i}</a>${nl}"

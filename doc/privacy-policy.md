@@ -50,6 +50,7 @@ This site is hosted on Github Pages and provided contents behind Cloudflare CDN.
 - Cookies which they make
 
 [Privacy Policy of Github](https://help.github.com/en/github/site-policy/github-privacy-statement)
+
 [Privacy Policy of Cloudflare](https://www.cloudflare.com/privacypolicy/)
 
 > When using the offline edition of this website, this policy will not apply to you.

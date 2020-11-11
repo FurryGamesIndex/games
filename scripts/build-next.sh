@@ -40,11 +40,11 @@ done
 mkdir -p extraui
 cat > extraui/en.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> This is FGI-next, a unstable preview contains many changes that may be finally rejected. <a href="https://furrygamesindex.github.io/">Click here to switch to the stable version</a>
+  <i class="fas fa-exclamation-circle"></i> This is FGI-next, a unstable preview contains many changes that may be finally rejected. <a href="https://furrygames.top/">Click here to switch to the stable version</a>
 EOF
 cat > extraui/zh-cn.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> 这是 FGI-next，一个 FGI 的实验性预览构建，可能包含很多最终被否决的更改。<a href="https://furrygamesindex.github.io/">点击此处切换到稳定版本</a>
+  <i class="fas fa-exclamation-circle"></i> 这是 FGI-next，一个 FGI 的实验性预览构建，可能包含很多最终被否决的更改。<a href="https://furrygames.top/">点击此处切换到稳定版本</a>
 EOF
 
 ./zhconv.py --no-builtin extraui/zh-cn.yaml:extraui/zh-tw.yaml

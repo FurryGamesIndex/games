@@ -38,7 +38,7 @@ You have to create a blank file and name it `Game ID.yaml`, where `Game ID` is t
 
 ## Step 4: Edit the game description file
 
-Here is a sample description file for the `Adastra` game. After seeing this ([Effect Demo](https://furrygamesindex.github.io/en/games/Adastra.html)), you may already have a basic understanding of the game description file. If you still don’t understand, It does not matter, because I will introduce you to the meaning and writing of each part of the file.
+Here is a sample description file for the `Adastra` game. After seeing this ([Effect Demo](https://furrygames.top/en/games/Adastra.html)), you may already have a basic understanding of the game description file. If you still don’t understand, It does not matter, because I will introduce you to the meaning and writing of each part of the file.
 
 ```
 name: Adastra
