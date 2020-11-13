@@ -16,7 +16,7 @@
 
 ### 你們接受 "Kemonomimi" 遊戲嗎?
 
-永遠不會。並且，如果一個遊戲同時包含 Kemonomimi 和可接受的 Furry 元素, Kemonomimi 將被認定為“人類或智人 [humankind](https://furrygamesindex.github.io/en/search.html?tagx?male:humankind%20or%20female:humankind)”。
+永遠不會。並且，如果一個遊戲同時包含 Kemonomimi 和可接受的 Furry 元素, Kemonomimi 將被認定為“人類或智人 [humankind](https://furrygames.top/en/search.html?tagx?male:humankind%20or%20female:humankind)”。
 
 <a id="search_help"></a>
 ### 我該如何充分利用本站的“搜尋”功能

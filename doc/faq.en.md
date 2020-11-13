@@ -16,7 +16,7 @@ For those who want to filter out some of the sexual orientation, we offer two ta
 
 ### Do you accept "Kemonomimi" games?
 
-Never. Also, if a game contains both Kemonomimi and acceptable furries, Kemonomimi will be identified as "[humankind](https://furrygamesindex.github.io/en/search.html?tagx?male:humankind%20or%20female:humankind)".
+Never. Also, if a game contains both Kemonomimi and acceptable furries, Kemonomimi will be identified as "[humankind](https://furrygames.top/en/search.html?tagx?male:humankind%20or%20female:humankind)".
 
 <a id="search_help"></a>
 ### How can I make full use of the "search" function of this site

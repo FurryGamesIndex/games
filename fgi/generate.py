@@ -111,7 +111,7 @@ def main(argv):
             renderer = importlib.import_module(".renderers." + f, package=__package__)
             renderer.render(games, env, lctx, output)
 
-    sitemap.write_to_file(os.path.join(output, "sitemap.xml"))
+    sitemap.write_to_file(output)
 
     with open(os.path.join(output, "_buildinfo.txt"), "w") as f:
         f.write("# FGI BUILD INFO START\n")

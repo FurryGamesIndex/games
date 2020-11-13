@@ -38,7 +38,7 @@
 
 ## 第四步：編輯遊戲描述檔案
 
-這裡首先給出 `Adastra` 遊戲的一個樣板描述檔案。看到這個模板（[效果演示](https://furrygamesindex.github.io/zh-tw/games/Adastra.html)），你可能已經對遊戲描述檔案有一個基本瞭解了，即使你仍然不明白，也沒有關係，因為接下來，我會給你介紹每一部分的含義和寫法。
+這裡首先給出 `Adastra` 遊戲的一個樣板描述檔案。看到這個模板（[效果演示](https://furrygames.top/zh-tw/games/Adastra.html)），你可能已經對遊戲描述檔案有一個基本瞭解了，即使你仍然不明白，也沒有關係，因為接下來，我會給你介紹每一部分的含義和寫法。
 
 ```
 name: Adastra
