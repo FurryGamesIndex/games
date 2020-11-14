@@ -103,6 +103,12 @@ roguelike:
     en: 'This game is a Roguelike game'
     zh-cn: 'Roguelike 游戏'
 
+non-indie:
+  namespaces: [ type ]
+  explanation:
+    en: 'This game is a non-indie game'
+    zh-cn: '非独立 游戏'
+
 bara:
   namespaces: [ type ]
   explanation:
@@ -431,6 +437,12 @@ non-anthro:
   explanation:
     en: 'Main characters include non-anthro furries'
     zh-cn: '主要角色包括非人形 furry（纯兽）（动物形态，但通常具有高级智慧）'
+
+funny-animal:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+    zh-cn: 'STUB'
 
 ###################################################
 
@@ -885,6 +897,12 @@ homophobia:
     - en: 'The languages supported by the game (using the ISO 639-1 Alpha-2 code)'
       zh-cn: '用于说明游戏的语言（使用 ISO 639-1 Alpha-2 code 标准语言代码）'
 
+de:
+  namespaces: [ lang ]
+  explanation:
+    en: 'German supporting provided by offical source'
+    zh-cn: '游戏有官方德语版本'
+
 en:
   namespaces: [ lang ]
   explanation:
@@ -896,6 +914,24 @@ en-unofficial:
   explanation:
     en: 'English supporting provided by unoffical source'
     zh-cn: '游戏有非官方英语版本'
+
+es:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Spanish supporting provided by offical author'
+    zh-cn: '游戏有官方西班牙语版本'
+
+fr:
+  namespaces: [ lang ]
+  explanation:
+    en: 'French supporting provided by offical source'
+    zh-cn: '游戏有官方法语版本'
+
+it:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Italian supporting provided by offical source'
+    zh-cn: '游戏有官方意大利语版本'
 
 ja:
   namespaces: [ lang ]
@@ -909,10 +945,23 @@ ja-unofficial:
     en: 'Japanese supporting provided by unoffical source'
     zh-cn: '游戏有非官方日语版本'
 
+pt:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Portuguese supporting provided by offical author'
+    zh-cn: '游戏有官方葡萄牙语版本'
+
 ru:
   namespaces: [ lang ]
   explanation:
-    en: 'STUB'
+    en: 'Russian supporting provided by offical author'
+    zh-cn: '游戏有官方俄语版本'
+
+tr:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Turkish supporting provided by offical author'
+    zh-cn: '游戏有官方土耳其语版本'
 
 zh:
   namespaces: [ lang ]
