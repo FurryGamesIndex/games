@@ -1,19 +1,19 @@
 name: 'Gori: Cuddly Carnage'
 
 description: |
-  [![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Gori_JoinDiscord.png)](https://steamcommunity.com/linkfilter/?uri=https://discord.gg/nM9xXFD)  
-    
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/DestroyUnicorns.png)  
+  ## Destroy Unicorns!
+
   Want to slice creepy toys? Want to dice mutated unicorns? Want to play as a murder-kitty on a death-dealing hoverboard? Great news! *Gori: Cuddly Carnage* is the game you’ve been waiting for!  
     
   ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Steampage_GIF_edges.gif)  
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/OurHeros.png)  
+  ## Our Heros  
+  
   Come meet the team. First up, there’s your sentient, razor-sharp hoverboard, *F.R.A.N.K.* Then there’s *CH1-P*, a modular AI that will constantly complain as you wipe out hordes of corrupted cuddly toys. And then there’s the star of the show – *Gori* – the most adorable and badass cat in the world.  
     
   This cuddly crew gets unwillingly dragged into a battle that wiped out all humans and laid waste to everything on earth that wasn’t cute and cuddly enough for The Adorable Army - a horde of mutated and blood-thirsty toys that only YOU can destroy!  
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/GetRDY.png)  
+  #Get Ready for  
     
   * Fast-paced, third-person skate-and-slash carnage.  
   * A futuristic world tainted by the Adorable Army.  
@@ -23,11 +23,9 @@ description: |
     
   Follow Gori, F.R.A.N.K., and CH1-P, on their journey to save their own lives and stop the carnage of the Adorable Army and its dark leaders.  
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Warning.png)  
+  ## Warning 
+
   Game contains foul language, excessive gore and other adult content! Enjoy!  
-    
-    
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Unicorn_Orginal_Transp_small.png) 
 
 description-format: markdown
 
@@ -42,16 +40,22 @@ tags:
   misc:
     - 3d
     - work-in-process
+    - full-audio
   lang:
     - en
   publish:
     - steam
+    - itchio
   platform:
     - windows
 
 links:
   - name: .steam
     uri: steam:1299690
+  - name: .itch.io
+    uri: https://angrydemonstudio.itch.io/cuddlycarnage
+  - name: .patreon
+    uri: https://www.patreon.com/AngryDemonStudio
 
 thumbnail: thumbnail.jpg
 

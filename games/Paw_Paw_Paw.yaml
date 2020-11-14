@@ -10,22 +10,17 @@ description: |
   *  Hire companion to help you in battle  
   *  Ride your mount into battle
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1037910/extras/desc_2.gif)  
   ## CHARACTERS
-    
+
   There are four starting characters to chose from, with more to be unlocked as you play the game. Each character has their own abilities, stats, combos, and weapon preferences. Choose a character that fit your play style!  
-    
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1037910/extras/steam_desc_15.gif)  
+ 
   ## WEAPONS
     
   Unlock new and powerful weapons for your characters! Each weapon has its own stats and bonuses. Loot weapons by defeating enemies and bosses. Or you can buy new weapons from the wandering merchants.  
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1037910/extras/steam_desc_18.gif)  
   ## OUTPOST
     
-  Outposts are places that you can visit between levels. A place for you to rest and prepare for the next mission. Here you can level up your characters, equip new weapons, restock your supplies, buy various items and recruit a companion.  
-    
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1037910/extras/steam_desc_10.gif) 
+  Outposts are places that you can visit between levels. A place for you to rest and prepare for the next mission. Here you can level up your characters, equip new weapons, restock your supplies, buy various items and recruit a companion. 
 
 description-format: markdown
 
@@ -38,6 +33,10 @@ tags:
   male:
     - dog
     - bear
+    - rabbit
+  misc:
+    - full-audio
+    - multiplayer
   lang:
     - zh
     - en

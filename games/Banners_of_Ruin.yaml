@@ -5,22 +5,27 @@ description: |
     
   Build your deck and fight your way through the city of Dawn's Point with card based combat and up to 6 members in your party. Characters loyal to your cause have a set of unique cards and abilities that may augment your deck in powerful, exciting ways. Defeat each of the elite opponents in your path to the city's Guard Captain and cripple the Enders at their core. You and your brethren may fall at this attempt, but there will always be others to carry the torch. House Blackfoot will remember, and they will never relent. Encounter a series of scenarios as you travel through the city which may help you, but at the expense of some moral ground.  
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/GateHouse.gif)  
-    
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Store_Features.png)  
+  ## Features
+
   * Build your deck by looting, buying and unlocking a myriad of cards.
+  
   * Beavers and Bears? Or Wolves and Weasels? Build a party of up to 6 throughout your run to battle your foes. 
+  
   * 6 Races to explore with unique racial card pools and passives to choose from.
+  
   * Ding! Level up your characters to unlock talent cards and powerful passives that can drastically impact your strategy.
+  
   * Loot! Collect weapons and armour to bolster your ranks with interesting effects and abilities.
+  
   * Which way? Navigate the streets in a dynamic card driven campaign.
+  
   * Decisions. Reveal and engage in varying encounters on your journey which can have positive and negative outcomes.
+  
   * Fight an increasingly challenging array of enemies with exciting AI behaviours.
-  * Another failed attempt? Earn tokens after every run to unlock new cards and passives into the game to help you achieve victory.
+  
+  * Another failed attempt? Earn tokens after every run to unlock new cards and passives into the game to help you achieve victory.  
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/EnemiesGif_StorePage_Optimised.gif)  
-    
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Store_AboutUs.png)  
+  ## Abous Us
     
   We think Banners of Ruin is in a really enjoyable place right now. There's plenty to expand upon, balance and polish - a lot of the artwork needs a rendering pass (the game requires a huge amount!) - but we think there's plenty of depth to explore. As long-standing fans of deckbuilders like Dominion, we think the game offers a deeper, more unique flavour of deckbuilding while introducing new mechanics like positions, characters, equipment and races!  
     
@@ -31,12 +36,6 @@ description: |
   Don't hesitate to contact us if you're having issues, want to provide some feedback, or just tell us which animal you think is the best :)  
     
   (P.S. it's Bears.)  
-    
-  [![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/BoR_JoinUsOnDiscord.png)]()  
-    
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Steam_StorePage_Divider.png)  
-    
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Greatsword_Optimised_Cropped.gif) 
 
 description-format: markdown
 
@@ -78,6 +77,8 @@ links:
     uri: https://twitter.com/montebearo
   - name: .youtube
     uri: https://www.youtube.com/goblinzstudiotv
+  - name: .discord
+    uri: https://discord.gg/HXdVQHb
 
 thumbnail: thumbnail.jpg
 
