@@ -14,6 +14,7 @@ making it possible for this project to quickly grow up into a practical list.
 Designed and developed the FGI softwares, 
 Current maintainer of the project, 
 Games submitter and editor, 
+Tags spec editor, 
 Chinese Documents.
 
 ### HuaJi2333DaDa
@@ -21,6 +22,8 @@ Chinese Documents.
 [Telegram](https://t.me/HuaJi2333dada) | [Twitter](https://twitter.com/HuaJi2333dada) | [Github](https://github.com/HuaJi2333DaDa)
 	
 Games submitter and editor, 
+Tags spec editor, 
+Code contributor/Developer, 
 Chinese Documents.
 
 ### xiaoxiaohaoa
@@ -28,13 +31,22 @@ Chinese Documents.
 [Telegram](https://t.me/xiaoxiaohaoa) | [Github](https://github.com/xiaoxiaohaoa)
 	
 Games submitter and editor, 
+Tags spec editor, 
 Chinese Documents.
 
 ### BlueJett
 
 Games submitter and editor
 
-* For new contributors, please add your name and contacts before this line.
+### SouthFox
+
+[Github](https://github.com/SouthFox09)
+
+Games submitter and editor, 
+Tags spec editor, 
+Code contributor/Developer.
+
+***For new contributors, please add your name and contacts before this line.***
 
 ## Game referrers
 
