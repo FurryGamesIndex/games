@@ -49,6 +49,10 @@ def uri_to_src(uri):
         return "https://www.pixiv.net/users/%s" % res[1]
     elif (res[0] == 'google-play-store'):
         return "https://play.google.com/store/apps/details?id=%s" % res[1]
+    elif (res[0] == 'youtube'):
+        return "https://www.youtube.com/%s" % res[1]
+    elif (res[0] == 'facebook'):
+        return "https://www.facebook.com/%s" % res[1]
     else:
         return uri
 

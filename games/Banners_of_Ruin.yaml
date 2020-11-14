@@ -1,18 +1,13 @@
 name: Banners of Ruin
 
-description: |
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/DescriptionCapsule.jpg?t=1603900434)  
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/BoR_SteamStore_Description_Tagline_616.png?t=1603900434)  
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Steam_StorePage_Divider.png?t=1603900434)  
-    
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Steam_WishlistFollow.gif?t=1603900434)  
+description: | 
   The Blackfoots have been dealt a mighty blow by the fearsome House Ender - you must infiltrate their defences and cut out the rot.   
     
   Build your deck and fight your way through the city of Dawn's Point with card based combat and up to 6 members in your party. Characters loyal to your cause have a set of unique cards and abilities that may augment your deck in powerful, exciting ways. Defeat each of the elite opponents in your path to the city's Guard Captain and cripple the Enders at their core. You and your brethren may fall at this attempt, but there will always be others to carry the torch. House Blackfoot will remember, and they will never relent. Encounter a series of scenarios as you travel through the city which may help you, but at the expense of some moral ground.  
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/GateHouse.gif?t=1603900434)  
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/GateHouse.gif)  
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Store_Features.png?t=1603900434)  
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Store_Features.png)  
   * Build your deck by looting, buying and unlocking a myriad of cards.
   * Beavers and Bears? Or Wolves and Weasels? Build a party of up to 6 throughout your run to battle your foes. 
   * 6 Races to explore with unique racial card pools and passives to choose from.
@@ -23,9 +18,9 @@ description: |
   * Fight an increasingly challenging array of enemies with exciting AI behaviours.
   * Another failed attempt? Earn tokens after every run to unlock new cards and passives into the game to help you achieve victory.
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/EnemiesGif_StorePage_Optimised.gif?t=1603900434)  
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/EnemiesGif_StorePage_Optimised.gif)  
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Store_AboutUs.png?t=1603900434)  
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Store_AboutUs.png)  
     
   We think Banners of Ruin is in a really enjoyable place right now. There's plenty to expand upon, balance and polish - a lot of the artwork needs a rendering pass (the game requires a huge amount!) - but we think there's plenty of depth to explore. As long-standing fans of deckbuilders like Dominion, we think the game offers a deeper, more unique flavour of deckbuilding while introducing new mechanics like positions, characters, equipment and races!  
     
@@ -37,11 +32,11 @@ description: |
     
   (P.S. it's Bears.)  
     
-  [![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/BoR_JoinUsOnDiscord.png?t=1603900434)](https://steamcommunity.com/linkfilter/?url=https://discord.gg/HXdVQHb)  
+  [![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/BoR_JoinUsOnDiscord.png)]()  
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Steam_StorePage_Divider.png?t=1603900434)  
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Steam_StorePage_Divider.png)  
     
-  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Greatsword_Optimised_Cropped.gif?t=1603900434) 
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1075740/extras/Greatsword_Optimised_Cropped.gif) 
 
 description-format: markdown
 
@@ -49,8 +44,6 @@ tags:
   author:
     - MonteBearo
   type:
-    - indie
-    - rpg
     - strategy
     - board
   male:
@@ -78,19 +71,19 @@ tags:
 
 links:
   - name: .steam
-    url: steam:1075740
+    uri: steam:1075740
   - name: .website
-    url: https://www.montebearo.co.uk/banners-of-ruin
+    uri: https://www.montebearo.co.uk/banners-of-ruin
   - name: .twitter
-    url: https://twitter.com/montebearo
+    uri: https://twitter.com/montebearo
   - name: .youtube
-    url: https://www.youtube.com/goblinzstudiotv/
+    uri: https://www.youtube.com/goblinzstudiotv
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_1b2d2cb08a934ac57c78fb73b53e653fb0a28634.1920x1080.jpg?t=1603900434
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_6de3b1e7713c4bab7b528f3f33701a7fdc2c00df.1920x1080.jpg?t=1603900434
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_aff71ac32e03fe158629f9975b866636b95636a7.1920x1080.jpg?t=1603900434
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_0ebdd77a3ceed055bec3d7747850dd8c6d8de94d.1920x1080.jpg?t=1603900434
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_153dcac929e22996473683686bc920985e234c93.1920x1080.jpg?t=1603900434
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_1b2d2cb08a934ac57c78fb73b53e653fb0a28634.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_6de3b1e7713c4bab7b528f3f33701a7fdc2c00df.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_aff71ac32e03fe158629f9975b866636b95636a7.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_0ebdd77a3ceed055bec3d7747850dd8c6d8de94d.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1075740/ss_153dcac929e22996473683686bc920985e234c93.1920x1080.jpg

@@ -1,19 +1,19 @@
 name: 'Gori: Cuddly Carnage'
 
 description: |
-  [![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Gori_JoinDiscord.png?t=1603465210)](https://steamcommunity.com/linkfilter/?url=https://discord.gg/nM9xXFD)  
+  [![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Gori_JoinDiscord.png)](https://steamcommunity.com/linkfilter/?uri=https://discord.gg/nM9xXFD)  
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/DestroyUnicorns.png?t=1603465210)  
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/DestroyUnicorns.png)  
   Want to slice creepy toys? Want to dice mutated unicorns? Want to play as a murder-kitty on a death-dealing hoverboard? Great news! *Gori: Cuddly Carnage* is the game you’ve been waiting for!  
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Steampage_GIF_edges.gif?t=1603465210)  
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Steampage_GIF_edges.gif)  
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/OurHeros.png?t=1603465210)  
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/OurHeros.png)  
   Come meet the team. First up, there’s your sentient, razor-sharp hoverboard, *F.R.A.N.K.* Then there’s *CH1-P*, a modular AI that will constantly complain as you wipe out hordes of corrupted cuddly toys. And then there’s the star of the show – *Gori* – the most adorable and badass cat in the world.  
     
   This cuddly crew gets unwillingly dragged into a battle that wiped out all humans and laid waste to everything on earth that wasn’t cute and cuddly enough for The Adorable Army - a horde of mutated and blood-thirsty toys that only YOU can destroy!  
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/GetRDY.png?t=1603465210)  
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/GetRDY.png)  
     
   * Fast-paced, third-person skate-and-slash carnage.  
   * A futuristic world tainted by the Adorable Army.  
@@ -23,11 +23,11 @@ description: |
     
   Follow Gori, F.R.A.N.K., and CH1-P, on their journey to save their own lives and stop the carnage of the Adorable Army and its dark leaders.  
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Warning.png?t=1603465210)  
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Warning.png)  
   Game contains foul language, excessive gore and other adult content! Enjoy!  
     
     
-  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Unicorn_Orginal_Transp_small.png?t=1603465210) 
+  ![](https://steamcdn-a.akamaihd.net/steam/apps/1299690/extras/Unicorn_Orginal_Transp_small.png) 
 
 description-format: markdown
 
@@ -37,7 +37,6 @@ tags:
   type:
     - action
     - adventure
-    - indie
   male:
     - cat
   misc:
@@ -52,13 +51,13 @@ tags:
 
 links:
   - name: .steam
-    url: steam:1299690
+    uri: steam:1299690
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_b0c8041087ae25922641885fef39ce7cdb4407d9.1920x1080.jpg?t=1603465210
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_1de4038601a1deccc6effad0f671402782b6bbe7.1920x1080.jpg?t=1603465210
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_81bca6cad1fd3b8e0fac37c60acdc3f4f8c17b9b.1920x1080.jpg?t=1603465210
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_d36e4ac049787b78be829a90969d57b426dff6f7.1920x1080.jpg?t=1603465210
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_d369ebfa5b37b5464d81751245ced34220dd026d.1920x1080.jpg?t=1603465210
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_b0c8041087ae25922641885fef39ce7cdb4407d9.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_1de4038601a1deccc6effad0f671402782b6bbe7.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_81bca6cad1fd3b8e0fac37c60acdc3f4f8c17b9b.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_d36e4ac049787b78be829a90969d57b426dff6f7.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1299690/ss_d369ebfa5b37b5464d81751245ced34220dd026d.1920x1080.jpg
