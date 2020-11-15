@@ -36,6 +36,8 @@ Chinese Documents.
 
 ### BlueJett
 
+[Github](https://github.com/BlueJett)
+
 Games submitter and editor
 
 ### SouthFox
