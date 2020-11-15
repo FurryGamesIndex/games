@@ -45,6 +45,7 @@ tags:
     - itchio
   platform:
     - windows
+    - shockwave-flash
 
 links:
   - name: .itch.io
