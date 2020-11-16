@@ -65,11 +65,11 @@ let add = (id, game) => {
 }
 
 const searchTagWithoutNamespace = (searchdb, tag) => {
-	let res = new Set()
-	const ns = searchdb.tagns[tag];
+	let res = new Set(),
+		ns = searchdb.tagns[tag];
 
 	if (ns == null)
-		return [];
+		ns = [ "author" ];
 
 	ns.forEach(i => {
 		console.log(i)
