@@ -18,7 +18,6 @@
 # 
 
 from fgi import image
-from fgi.i18n import get, get_desc
 
 class searchdb:
     def __init__(self, no_data=False):
@@ -45,9 +44,7 @@ class searchdb:
             data = {}
             data["tr"] = {}
             data["name"] = game["name"]
-            desc = game["description"]
-            desc = desc[:480] + (desc[480:] and '...')
-            data["description"] = desc
+            data["description"] = game["description"]
             data["thumbnail"] = image.uri("..", game["thumbnail"], game["id"])
 
             for lang in game["tr"]:
@@ -55,8 +52,6 @@ class searchdb:
                 if "name" in game["tr"][lang]:
                     data["tr"][lang]["name"] = game["tr"][lang]["name"]
                 if "description" in game["tr"][lang]:
-                    desc = game["tr"][lang]["description"]
-                    desc = desc[:480] + (desc[480:] and '...')
-                    data["tr"][lang]["description"] = desc
+                    data["tr"][lang]["description"] = game["tr"][lang]["description"]
 
             self.db["data"][game["id"]] = data
