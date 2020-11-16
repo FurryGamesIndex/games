@@ -80,19 +80,25 @@ def load(data):
 
 needed_ns = ["type", "author", "lang", "platform"]
 
+def _patch_ns(game, ns, v):
+    for i in islice(v, 0, len(v)):
+        if i not in tagdep[ns]:
+            continue
+
+        for j in tagdep[ns][i]:
+            if ":" in j:
+                nns, j = j.split(":")
+                if nns not in game["tags"]:
+                    game["tags"] = {}
+                game["tags"][nns].append(j)
+            else:
+                v.append(j)
+
+
 def check_and_patch(game):
     for ns, v in game["tags"].items():
         if ns in tagdep:
-            for i in islice(v, 0, len(v)):
-                if i in tagdep[ns]:
-                    for j in tagdep[ns][i]:
-                        if ":" in j:
-                            nns, j = j.split(":")
-                            if nns not in game["tags"]:
-                                game["tags"] = {}
-                            game["tags"][nns].append(j)
-                        else:
-                            v.append(j)
+            _patch_ns(game, ns, v)
 
     for i in needed_ns:
         if i not in game["tags"]:
