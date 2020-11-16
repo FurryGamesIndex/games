@@ -29,8 +29,8 @@
 </div>
 <script src="{{ rr }}/scripts/base.js"></script>
 <script src="{{ rr }}/scripts/searchexpr.js"></script>
-{% if "search_extra_scripts" in ui %}
-	{{ ui.search_extra_scripts }}
+{% if args.file_uri_workaround %}
+<script src="{{ rr }}/scripts/searchdb_offline.js"></script>
 {% endif %}
 <script>
 const items = $('.items');

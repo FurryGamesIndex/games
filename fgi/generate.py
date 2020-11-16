@@ -83,9 +83,7 @@ def main(argv):
 
     env = Environment(loader = FileSystemLoader("templates"))
 
-    if not args.no_searchdb:
-        with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
-            f.write(json.dumps(sdb.db))
+    sdb.write_to_file(output)
 
     languages = get_languages_list(dbdir)
     languages.append('en')
@@ -98,6 +96,7 @@ def main(argv):
         Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
 
         lctx = {
+            "args": args,
             "lang": language,
             "ui": ui,
             "searchdb": sdb,

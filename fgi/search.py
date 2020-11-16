@@ -17,7 +17,12 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
+import os
+import json
+import base64
+
 from fgi import image
+from fgi import args
 
 class searchdb:
     def __init__(self, no_data=False):
@@ -55,3 +60,14 @@ class searchdb:
                     data["tr"][lang]["description"] = game["tr"][lang]["description"]
 
             self.db["data"][game["id"]] = data
+
+    def write_to_file(self, output):
+        if not self.no_data:
+            with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
+                f.write(json.dumps(self.db))
+
+            if args.args.file_uri_workaround:
+                with open(os.path.join(output, "scripts", "searchdb_offline.js"), "w") as f:
+                    f.write("var _searchdb=JSON.parse(atob('")
+                    f.write(base64.b64encode(json.dumps(self.db).encode('utf-8')).decode('ascii'))
+                    f.write("'))")
