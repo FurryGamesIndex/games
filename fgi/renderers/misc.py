@@ -21,6 +21,7 @@ import os
 from datetime import datetime
 from markdown2 import Markdown
 from fgi.seo.sitemap import openw_with_sm
+from fgi.i18n import conv_doc_markdown
 
 context= {
     "rr": "..",
@@ -50,14 +51,9 @@ def render(games, env, lctx, output):
         f.write(env.get_template("footer.html").render(context))
     del context["active_index"]
 
-    faq_source = "doc/faq." + language + ".md"
-    if not os.path.exists(faq_source):
-        faq_source = "doc/faq.en.md"
-    with open(faq_source) as f:
-        context["content"] = markdowner.convert(f.read())
+    context["content"] = conv_doc_markdown("faq", language)
     context["active_faq"] = "actived"
-    with openw_with_sm(output, os.path.join(language, "faq.html"), priority="0.4",
-            lastmod_file=faq_source) as f:
+    with openw_with_sm(output, os.path.join(language, "faq.html"), priority="0.4") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("simple_md.html").render(context))
         f.write(env.get_template("footer.html").render(context))

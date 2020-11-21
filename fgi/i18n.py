@@ -26,6 +26,7 @@ from fgi import image
 from fgi import args
 from fgi.seo import keywords
 
+
 def get_languages_list(dbdir):
     ll = [f for f in os.listdir(os.path.join(dbdir, "l10n"))]
 
@@ -87,3 +88,23 @@ def get_desc(rr, game, language):
     else:
         raise ValueError("description format invaild")
 
+doc_markdowner = Markdown(extras=["tables", "metadata"])
+doc_md_cache = dict()
+
+def conv_doc_markdown(name, language):
+    fn = f"doc/{name}.{language}.md"
+    fnen = f"doc/{name}.en.md"
+
+    if name not in doc_md_cache:
+        with open(fnen) as f:
+            doc_md_cache[name] = doc_markdowner.convert(f.read())
+
+    if language == "en" or not os.path.exists(fn):
+        return doc_md_cache[name]
+
+    with open(fn) as f:
+        result = doc_markdowner.convert(f.read())
+        if doc_md_cache[name].metadata:
+            result.metadata = { **doc_md_cache[name].metadata, **result.metadata }
+
+        return result
