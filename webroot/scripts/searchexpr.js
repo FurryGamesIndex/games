@@ -24,11 +24,25 @@ const TOKEN_TYPE = {
 	OR: 5,
 	NOT: 6,
 	INIT: 7,
+	ACTION_ORDER: 8,
 	INVALID: 0
 };
 
 function Token(type, value) {
 	this.type = type;
+
+	if (type == TOKEN_TYPE.STRING) {
+		switch (value[0]) {
+		case "@":
+			this.type = TOKEN_TYPE.ACTION_ORDER;
+			value = value.substring(1);
+			break;
+		case "$":
+			this.type = TOKEN_TYPE.INVALID;
+			break;
+		}
+	}
+
 	this.value = value;
 }
 
@@ -115,6 +129,30 @@ const interpreter = (tokens, pos, callback) => {
 		return new Set();
 	}
 
+	const intpReOrder = (s, cmd) => {
+		switch (cmd) {
+		case "reverse":
+			return new Set([...s].reverse());
+			break;
+		case "lastmod":
+			return new Set([...s].sort((fe, se) => {
+				return callback("$sortcmpr", {
+					sortedBy: cmd,
+					firstElm: fe,
+					secondElm: se
+				});
+			}));
+			break;
+		}
+		throw "Unknown order action \"" + cmd + "\"."
+	}
+
+	const intpSubExprRequireLoadAll = () => {
+		if (state === TOKEN_TYPE.INIT)
+			s = new Set(callback('$all'));
+			state = TOKEN_TYPE.AND;
+	}
+
 	while (pos < tokens.length) {
 		switch (tokens[pos].type) {
 		case TOKEN_TYPE.LEFT_BRACKETS:
@@ -134,10 +172,13 @@ const interpreter = (tokens, pos, callback) => {
 			state = tokens[pos].type;
 			break;
 		case TOKEN_TYPE.NOT:
-			if (state === TOKEN_TYPE.INIT)
-				s = new Set(callback('$all'));
+			intpSubExprRequireLoadAll();
 			state = tokens[pos].type;
 			break;
+		case TOKEN_TYPE.ACTION_ORDER:
+			intpSubExprRequireLoadAll();
+			s = intpReOrder(s, tokens[pos].value);
+			break;	
 		}
 		pos++;
 	}

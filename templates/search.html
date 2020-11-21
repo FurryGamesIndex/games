@@ -109,12 +109,21 @@ let onload = async () => {
 			}
 			break;
 		case "tagx":
-			searchexpr(value, (tag => {
+			searchexpr(value, ((tag, args) => {
 				console.log("find: " + tag);
 				switch (tag) {
 				case '$all':
 					return Object.keys(searchdb.data);
 					break;
+				case '$sortcmpr':
+					switch (args.sortedBy) {
+					case "lastmod":
+						return searchdb.data[args.secondElm].mtime - searchdb.data[args.firstElm].mtime;
+						break;
+					default:
+						throw "unknown sortedBy arg: " + args.sortedBy;
+						break;
+					}
 				}
 
 				let ns = tag.substring(0, tag.indexOf(":"))
