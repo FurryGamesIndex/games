@@ -21,6 +21,9 @@
 {% endif %}
 	<link rel="stylesheet" href="{{ rr }}/styles/main.css?hc=uquery&t={{ os.path.getmtime(os.path.join(webrootdir, "styles", "main.css"))|int }}">
 	<link rel="stylesheet" href="{{ rr }}/styles/fa.all.min.css">
+{% if extra_styles is defined %}
+	<style>{{ extra_styles }}</style>
+{% endif %}
 </head>
 <body>
 {% if "infobar" in ui %}

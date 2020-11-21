@@ -32,6 +32,7 @@ html[lang=zh-tw] {
 	--nord15: #b48ead;
 
 	--background-color: white;
+	--background-color-alt: rgb(242, 244, 248);
 	--text-color: black;
 	--link-color: var(--nord10);
 	--link-color-hover: var(--nord8);
@@ -49,6 +50,7 @@ html[lang=zh-tw] {
 @media (prefers-color-scheme: dark) {
 	:root {
 		--background-color: rgb(41, 46, 57);
+		--background-color-alt: var(--nord1);
 		--text-color: var(--nord6);
 		--link-color: var(--nord8);
 		--link-color-hover: var(--nord10);
@@ -102,6 +104,19 @@ code {
 	font-size: .9em;
 	background-color: var(--infobar-color);
 	border-radius: 6px;
+}
+
+table {
+	border: 1px solid var(--border-color);
+	border-collapse: collapse;
+}
+
+table td {
+	padding: 12px;
+}
+
+tbody>tr:nth-child(odd) {
+	background-color: var(--background-color-alt);
 }
 
 .hide {

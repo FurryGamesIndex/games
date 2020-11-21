@@ -60,6 +60,15 @@ def render(games, env, lctx, output):
     del context["active_faq"]
     del context["content"]
 
+    context["content"] = conv_doc_markdown("search_help", language)
+    context["extra_styles"] = context["content"].metadata["styles"]
+    with openw_with_sm(output, os.path.join(language, "search_help.html"), priority="0.5") as f:
+        f.write(env.get_template("header.html").render(context))
+        f.write(env.get_template("simple_md.html").render(context))
+        f.write(env.get_template("footer.html").render(context))
+    del context["extra_styles"]
+    del context["content"]
+
     with openw_with_sm(output, os.path.join(language, "sensitive.html"), priority="0.2",
             lastmod_file="templates/sensitive.html") as f:
         f.write(env.get_template("header.html").render(context))
