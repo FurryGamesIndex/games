@@ -51,6 +51,7 @@ class searchdb:
             data["name"] = game["name"]
             data["description"] = game["description"]
             data["thumbnail"] = image.uri("..", game["thumbnail"], game["id"])
+            data["mtime"] = game["mtime"]
 
             for lang in game["tr"]:
                 data["tr"][lang] = {}
