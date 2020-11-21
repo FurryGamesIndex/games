@@ -62,15 +62,18 @@ def load_game_all(dbdir, sdb):
     games = {}
     languages = get_languages_list(dbdir)
 
-    for f in sorted(os.listdir(dbdir)):
+    for f in os.listdir(dbdir):
         game, game_id = load_game(dbdir, f, languages)
 
         if game is None:
             continue
 
+        games[game_id] = game
+
+    games = sorted_games(games)
+
+    for game_id, game in games.items():
         tagmgr.check_and_patch(game)
         sdb.update(game)
 
-        games[game_id] = game
-
-    return sorted_games(games)
+    return games
