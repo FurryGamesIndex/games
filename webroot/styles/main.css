@@ -106,16 +106,16 @@ code {
 	border-radius: 6px;
 }
 
-table {
+.doc table {
 	border: 1px solid var(--border-color);
 	border-collapse: collapse;
 }
 
-table td {
+.doc table td {
 	padding: 12px;
 }
 
-tbody>tr:nth-child(odd) {
+.doc tbody>tr:nth-child(odd) {
 	background-color: var(--background-color-alt);
 }
 
