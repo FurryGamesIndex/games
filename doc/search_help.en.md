@@ -28,7 +28,7 @@ The "Search Title" and "Search Title and Description" will try to match relevant
 
 Before we begin, a brief explanation of FGI's tagging system is in order.
 
-FGI's tags consist of two parts, an optional "namespace" and a "value". For example, for the `male:dog` tag, the namespace is `male` and the value is `dog`.
+FGI's tags consist of two parts, an optional "namespace" and a "value". For example, for the `male:dog` tag, the namespace is `male:` and the value is `dog`.
 
 The namespace is optional, so `dog` is also a valid tag. When the namespace is not specified, it means that the namespace is not considered, and games with `male:dog` or `female:dog` or both are considered to contain the `dog` tag.
 
@@ -53,8 +53,8 @@ You can see a list of all the tags currently supported by FGI from [here](https:
 
 | |
 |-|
-| male:dog` |
-| Search for games that contain the `dog` tag in the `male` namespace. This example will search for games that contain male dog furries. |
+| `male:dog` |
+| Search for games that contain the `dog` tag in the `male:` namespace. This example will search for games that contain male dog furries. |
 
 ### When do you need quotes?
 
@@ -63,7 +63,7 @@ If you are using a tag that includes spaces, you MUST place it in double quotes.
 | |
 |-|
 | `type:visual-novel`<br>`"type:visual-novel"` |
-| Search for games that contain the `visual-novel` tag in the `type` namespace. This example will search for visual novel games. In this case, the two writings are equivalent. |
+| Search for games that contain the `visual-novel` tag in the `type:` namespace. This example will search for visual novel games. In this case, the two writings are equivalent. |
 | `"author:The Echo Project"` |
 | Search for games that contain the `The Echo Project` tag in the `author` namespace. This example will search for games developed by The Echo Project. Searching with `author:The Echo Project` (without quotes) will not work as expected. |
 
@@ -74,7 +74,7 @@ If you are using a tag that includes spaces, you MUST place it in double quotes.
 | `not misc:work-in-process` |
 | Search for games that don't have the `work-in-process` tag in the `misc` namespace. This example will search for games that are already released (not still in development). |
 | `not yiff` |
-| Search for games that do not contain the `yiff` tag in any namespace. This example will exclude games with adult contents. <br> > The `yiff` tag exists only in the `type` namespace. So for this tag, `type:yiff` and `yiff` are equivalent. |
+| Search for games that do not contain the `yiff` tag in any namespace. This example will exclude games with adult contents. <br> > The `yiff` tag exists only in the `type:` namespace. So for this tag, `type:yiff` and `yiff` are equivalent. |
 
 ## Search multiple tags
 
@@ -91,7 +91,7 @@ If you are using a tag that includes spaces, you MUST place it in double quotes.
 | `male:canine or female:canine` |
 | Search for games with `male:canine` tag or with `female:canine` tag or with both. (In this example, the expression is actually equivalent to searching for `canine`. |
 | `male:felidae and visual-novel not "author:Studio Klondike"` |
-| Search for games with `male:fedidae` tag and `visual-novel` tag, but without the `"author:Studio Klondike"` tag. This example will search for visual novels that include feline furries, but are not developed by `"Studio Klondike"`. |
+| Search for games with `male:fedidae` tag and `visual-novel` tag, but without the `"author:Studio Klondike"` tag. This example will search for visual novels that include male feline furries, but are not developed by `"Studio Klondike"`. |
 
 ### Change priority
 

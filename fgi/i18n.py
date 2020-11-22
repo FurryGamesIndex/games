@@ -91,20 +91,28 @@ def get_desc(rr, game, language):
 doc_markdowner = Markdown(extras=["tables", "metadata"])
 doc_md_cache = dict()
 
-def conv_doc_markdown(name, language):
+def _conv_doc_markdown_get_content(fn, callback):
+    with open(fn) as f:
+        content = f.read()
+        if callback is not None:
+            content = callback(content)
+        return content
+
+def conv_doc_markdown(name, language, callback=None):
     fn = f"doc/{name}.{language}.md"
     fnen = f"doc/{name}.en.md"
 
     if name not in doc_md_cache:
-        with open(fnen) as f:
-            doc_md_cache[name] = doc_markdowner.convert(f.read())
+        content = _conv_doc_markdown_get_content(fnen, callback)
+        doc_md_cache[name] = doc_markdowner.convert(content)
 
     if language == "en" or not os.path.exists(fn):
         return doc_md_cache[name]
 
-    with open(fn) as f:
-        result = doc_markdowner.convert(f.read())
-        if doc_md_cache[name].metadata:
-            result.metadata = { **doc_md_cache[name].metadata, **result.metadata }
+    content = _conv_doc_markdown_get_content(fn, callback)
 
-        return result
+    result = doc_markdowner.convert(content)
+    if doc_md_cache[name].metadata:
+        result.metadata = { **doc_md_cache[name].metadata, **result.metadata }
+
+    return result

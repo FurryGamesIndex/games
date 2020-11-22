@@ -8,7 +8,7 @@
 
 在开始之前，简单说明一下 FGI 的标签系统是有必要的。
 
-FGI 的标签包含两部分，可选的 “命名空间” 和 “值”。例如 `male:dog` 标签，命名空间是 `male`，值则为 `dog`。
+FGI 的标签包含两部分，可选的 “命名空间” 和 “值”。例如 `male:dog` 标签，命名空间是 `male:`，值则为 `dog`。
 
 命名空间是可选的，因此 `dog` 也是合法的标签。当不带命名空间时，表示不对命名空间进行限定，带有 `male:dog` 或 `female:dog` 或二者都包含的游戏将被认定为包含 `dog` 标签。
 
@@ -34,7 +34,7 @@ FGI 的标签包含两部分，可选的 “命名空间” 和 “值”。例�
 | |
 |-|
 | `male:dog` |
-| 搜索在 `male` 命名空间包含 `dog` 标签的游戏。此示例将搜索含有雄性犬兽人的游戏。 |
+| 搜索在 `male:` 命名空间包含 `dog` 标签的游戏。此示例将搜索含有雄性犬兽人的游戏。 |
 
 ### 何时需要引号
 
@@ -43,7 +43,7 @@ FGI 的标签包含两部分，可选的 “命名空间” 和 “值”。例�
 | |
 |-|
 | `type:visual-novel`<br>`"type:visual-novel"` |
-| 搜索在 `type` 命名空间包含 `visual-novel` 标签的游戏。此示例将搜索视觉小说游戏。此时两种写法等价。 |
+| 搜索在 `type:` 命名空间包含 `visual-novel` 标签的游戏。此示例将搜索视觉小说游戏。此时两种写法等价。 |
 | `"author:The Echo Project"` |
 | 搜索在 `author` 命名空间包含 `The Echo Project` 标签的游戏。此示例将搜索由 Echo Project 开发的游戏。使用 `author:The Echo Project` （不带引号）搜索将不按预期工作。 |
 
@@ -54,7 +54,7 @@ FGI 的标签包含两部分，可选的 “命名空间” 和 “值”。例�
 | `not misc:work-in-process` |
 | 搜索在 `misc` 命名空间不包含 `work-in-process` 标签的游戏。此示例将搜索已正式发布（而不是仍在开发中的）游戏。 |
 | `not yiff` |
-| 搜索在任意命名空间不包含 `yiff` 标签的游戏。此示例将排除含有成人内容的游戏。<br> > `yiff` 标签只存在于 `type` 命名空间。因此对于此标签而言，`type:yiff` 和 `yiff` 等效。 |
+| 搜索在任意命名空间不包含 `yiff` 标签的游戏。此示例将排除含有成人内容的游戏。<br> > `yiff` 标签只存在于 `type:` 命名空间。因此对于此标签而言，`type:yiff` 和 `yiff` 等效。 |
 
 ## 搜索多个标签
 
@@ -71,13 +71,13 @@ FGI 的标签包含两部分，可选的 “命名空间” 和 “值”。例�
 | `male:canine or female:canine` |
 | 搜索含有 `male:canine` 标签或含有 `female:canine` 标签或二者都含有的游戏。（在这个示例中，这个表达式实际上与搜索 `canine` 等效. |
 | `male:felidae and visual-novel not "author:Studio Klondike"` |
-| 搜索含有 `male:fedidae` 标签和 `visual-novel` 标签，但是不含有 `"author:Studio Klondike"` 标签的游戏。此示例将搜索主要角色中包括猫科兽人并且类型是视觉小说，但作者不是 `“Studio Klondike”` 的游戏。 |
+| 搜索含有 `male:fedidae` 标签和 `visual-novel` 标签，但是不含有 `"author:Studio Klondike"` 标签的游戏。此示例将搜索主要角色中包括雄性猫科兽人并且类型是视觉小说，但作者不是 `“Studio Klondike”` 的游戏。 |
 
 ### 改变优先级
 
 表达式的优先级为从左到右运算，你可以添加括号来强制改变优先级。括号作为一个整体的部分与父级参与运算。
 
-考虑 `male:canine and type:visual-novel or type:dating-sim` 表达式先查找含有 `male:canine` 的游戏，然后从中筛选含有 `type:visual-novel` 的游戏，再加上从全部游戏中含有 `type:dating-sim` 的游戏。因此它将搜索含有雄性犬科兽人的视觉小说或（不一定要包含男性犬科兽人）的约会模拟器。如果你是要查找含有雄性犬科兽人的视觉小说或约会模拟器，这显然不是你想要的。解决办法是先让搜索引擎搜索 `type:visual-novel or type:dating-sim`，然后将结果与 `male:canine` 做与运算。我们可以按从左到右的顺序重写表达式，也可以用括号改变优先级。
+考虑 `male:canine and type:visual-novel or type:dating-sim` 表达式先查找含有 `male:canine` 的游戏，然后从中筛选含有 `type:visual-novel` 的游戏，再加上从全部游戏中含有 `type:dating-sim` 的游戏。因此它将搜索含有雄性犬科兽人的视觉小说或（不一定要包含雄性犬科兽人）的约会模拟器。如果你是要查找含有雄性犬科兽人的视觉小说或约会模拟器，这显然不是你想要的。解决办法是先让搜索引擎搜索 `type:visual-novel or type:dating-sim`，然后将结果与 `male:canine` 做与运算。我们可以按从左到右的顺序重写表达式，也可以用括号改变优先级。
 
 | |
 |-|
