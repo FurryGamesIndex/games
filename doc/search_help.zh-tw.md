@@ -45,14 +45,14 @@ FGI 的標籤包含兩部分，可選的 “名稱空間” 和 “值”。例�
 | `type:visual-novel`<br>`"type:visual-novel"` |
 | 搜尋在 `type:` 名稱空間包含 `visual-novel` 標籤的遊戲。此示例將搜尋視覺小說遊戲。此時兩種寫法等價。 |
 | `"author:The Echo Project"` |
-| 搜尋在 `author` 名稱空間包含 `The Echo Project` 標籤的遊戲。此示例將搜尋由 Echo Project 開發的遊戲。使用 `author:The Echo Project` （不帶引號）搜尋將不按預期工作。 |
+| 搜尋在 `author:` 名稱空間包含 `"The Echo Project"` 標籤的遊戲。此示例將搜尋由 Echo Project 開發的遊戲。使用 `author:The Echo Project` （不帶引號）搜尋將不按預期工作。 |
 
 ### 如果需要排除標籤
 
 | |
 |-|
 | `not misc:work-in-process` |
-| 搜尋在 `misc` 名稱空間不包含 `work-in-process` 標籤的遊戲。此示例將搜尋已正式釋出（而不是仍在開發中的）遊戲。 |
+| 搜尋在 `misc:` 名稱空間不包含 `work-in-process` 標籤的遊戲。此示例將搜尋已正式釋出（而不是仍在開發中的）遊戲。 |
 | `not yiff` |
 | 搜尋在任意名稱空間不包含 `yiff` 標籤的遊戲。此示例將排除含有成人內容的遊戲。<br> > `yiff` 標籤只存在於 `type:` 名稱空間。因此對於此標籤而言，`type:yiff` 和 `yiff` 等效。 |
 

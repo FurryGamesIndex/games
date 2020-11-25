@@ -65,14 +65,14 @@ If you are using a tag that includes spaces, you MUST place it in double quotes.
 | `type:visual-novel`<br>`"type:visual-novel"` |
 | Search for games that contain the `visual-novel` tag in the `type:` namespace. This example will search for visual novel games. In this case, the two writings are equivalent. |
 | `"author:The Echo Project"` |
-| Search for games that contain the `The Echo Project` tag in the `author` namespace. This example will search for games developed by The Echo Project. Searching with `author:The Echo Project` (without quotes) will not work as expected. |
+| Search for games that contain the `"The Echo Project"` tag in the `author:` namespace. This example will search for games developed by The Echo Project. Searching with `author:The Echo Project` (without quotes) will not work as expected. |
 
 ### If you need to exclude tags
 
 | |
 |-|
 | `not misc:work-in-process` |
-| Search for games that don't have the `work-in-process` tag in the `misc` namespace. This example will search for games that are already released (not still in development). |
+| Search for games that don't have the `work-in-process` tag in the `misc:` namespace. This example will search for games that are already released (not still in development). |
 | `not yiff` |
 | Search for games that do not contain the `yiff` tag in any namespace. This example will exclude games with adult contents. <br> > The `yiff` tag exists only in the `type:` namespace. So for this tag, `type:yiff` and `yiff` are equivalent. |
 
@@ -105,7 +105,7 @@ Consider the `male:canine and type:visual-novel or type:dating-sim` expression t
 | This expression will find games that are "visual novels" or "dating simulators", and then filter them for games that contain male canines. |
 | `misc:3d and (lang:en or lang:zh or lang:en-unofficial or lang:zh-unofficial) not type:yiff` |
 | Search for all-ages 3D style games that support English or Chinese language. |
-| A and (B or (C and D) not (E or (F and G)))`.
+| `A and (B or (C and D) not (E or (F and G)))` |
 | This example only indicates that multiple levels can exist in parentheses. The maximum number of levels is browser-specific. |
 
 ### Change the order

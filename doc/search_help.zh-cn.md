@@ -45,14 +45,14 @@ FGI 的标签包含两部分，可选的 “命名空间” 和 “值”。例�
 | `type:visual-novel`<br>`"type:visual-novel"` |
 | 搜索在 `type:` 命名空间包含 `visual-novel` 标签的游戏。此示例将搜索视觉小说游戏。此时两种写法等价。 |
 | `"author:The Echo Project"` |
-| 搜索在 `author` 命名空间包含 `The Echo Project` 标签的游戏。此示例将搜索由 Echo Project 开发的游戏。使用 `author:The Echo Project` （不带引号）搜索将不按预期工作。 |
+| 搜索在 `author:` 命名空间包含 `"The Echo Project"` 标签的游戏。此示例将搜索由 Echo Project 开发的游戏。使用 `author:The Echo Project` （不带引号）搜索将不按预期工作。 |
 
 ### 如果需要排除标签
 
 | |
 |-|
 | `not misc:work-in-process` |
-| 搜索在 `misc` 命名空间不包含 `work-in-process` 标签的游戏。此示例将搜索已正式发布（而不是仍在开发中的）游戏。 |
+| 搜索在 `misc:` 命名空间不包含 `work-in-process` 标签的游戏。此示例将搜索已正式发布（而不是仍在开发中的）游戏。 |
 | `not yiff` |
 | 搜索在任意命名空间不包含 `yiff` 标签的游戏。此示例将排除含有成人内容的游戏。<br> > `yiff` 标签只存在于 `type:` 命名空间。因此对于此标签而言，`type:yiff` 和 `yiff` 等效。 |
 
