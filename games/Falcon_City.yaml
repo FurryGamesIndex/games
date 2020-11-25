@@ -1,0 +1,55 @@
+name: 'Falcon City'
+
+description: |
+  ## YOU ARE THE LAW!
+  Trouble is brewing in Falcon City, and you are on the trail as Kurt Tracker, detective extraordinaire. You may be a disillusioned rabbit with an acerbic wit and a thorn in your boss’ side, but you are also pretty damn good at your job.   
+  Still, finding a kidnapped victim without reliable witnesses or evidence is no easy task. Will you be able to crack the case?  
+    
+  ## PUT ON YOUR DETECTING BOOTS!
+  Explore the rough streets of the urban jungle, and meet a cast of interesting characters - some helpful, some dangerous, and some that are just plain weird. Find clues and solve puzzles to advance your investigation, then discuss it with other members of the police force to gain new insights. Choices you make on the way help shaping the story, and you might even find romance on the way if you play your cards right.  
+  A unique noir adventure awaits you, full of intrigue, drama, and humor. Time to dive in, and solve the mystery, Detective! Falcon City is counting on you!  
+    
+  ## Featuring
+  • Point & Click adventure game with everything that makes the genre great!  
+  • Charming art style, with hand drawn characters, environments and animations!  
+  • Fully voice acted, with original music to boot!  
+  • Multiple endings based on your decisions and performance!
+
+description-format: markdown
+
+tags:
+  author:
+    - Likely Games
+  type:
+    - adventure
+    - casual
+  male:
+    - rabbit
+  female:
+    - rabbit
+    - otter
+  misc:
+    - full-audio
+  lang:
+    - zh
+    - en
+    - hu
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1270590
+  - name: .website
+    uri: http://likelygames.com/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1270590/ss_4e11f7a984ce546ced5a4f8d61e98df208b97094.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1270590/ss_7489231ba819b4fe513a8a1dea2570b0f40b99a6.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1270590/ss_27e6b7f13a8ab7e909953979ae280adfe8326f23.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1270590/ss_7c6584382ebcdca8b7a607541cb5b59785aaaad4.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1270590/ss_f5203a9af7b8dc54b8087fbe0922e733651a1807.1920x1080.jpg
