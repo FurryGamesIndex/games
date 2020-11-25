@@ -25,9 +25,11 @@ tags:
     - casual
   male:
     - rabbit
+    - funny-animal
   female:
     - rabbit
     - otter
+    - funny-animal
   misc:
     - full-audio
   lang:
