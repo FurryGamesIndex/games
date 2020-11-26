@@ -35,7 +35,7 @@ jobs:
       run: |
         python3 --version
         cwebp -version
-        ./generate.py --images-candidate-webp --with-rss output
+        ./generate.py --images-candidate-webp --with-rss --plugin steam-cdn-unite,verbose=1 output
 
     - name: ssh-key
       uses: shimataro/ssh-key-action@v2

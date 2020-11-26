@@ -26,4 +26,4 @@ jobs:
     - name: gen
       run: |
         python3 --version
-        ./generate.py --no-searchdb --no-sitemap "output/${ID}/"
+        ./generate.py --no-searchdb --no-sitemap --plugin steam-cdn-unite,verbose=1 "output/${ID}/"
