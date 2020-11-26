@@ -18,6 +18,7 @@
 # 
 
 import argparse
+import importlib
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--extra-ui', type=str, help='Set extra ui profile path')
@@ -31,10 +32,22 @@ parser.add_argument('--images-candidate-webp', default=False, action='store_true
 parser.add_argument('--with-rss', default=False, action='store_true', help='generate RSS feeds (need to run scripts/fix-mtime.sh first)')
 parser.add_argument('--file-uri-workaround', default=False, action='store_true', help='Generate workaround files to make site work well on file:///')
 parser.add_argument('--next', default=False, action='store_true', help='enable experimental features')
+parser.add_argument('--plugin', type=str, action='append', help='Load plugin. format: name[,options]')
 parser.add_argument('output', type=str, help='Output path')
 
 args = None
+plugins = []
 
 def parse(a):
     global args
     args = parser.parse_args(a)
+
+    if args.plugin:
+        for i in args.plugin:
+            d = i.split(',', 1)
+            name = d[0]
+            options = None
+            if len(d) >= 2:
+                options = d[1]
+            p = importlib.import_module(".plugins." + name, package=__package__)
+            plugins.append(p.impl(options))

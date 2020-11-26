@@ -17,6 +17,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
+from fgi.plugin import invoke_plugins
+
 icons = {
     'website': '<i class="fas fa-home fa-fw"></i>',
     'steam': '<i class="fab fa-steam-symbol fa-fw"></i>',
@@ -59,6 +61,8 @@ def uri_to_src(uri):
 def link_info(link, l10n_data, ui_l10n_data, language):
     name = link["name"]
     a = {}
+
+    link["uri"] = invoke_plugins("link_pre_uri_convert", link["uri"], link, l10n_data, ui_l10n_data, language)
     a["href"] = uri_to_src(link["uri"])
 
     icon = '<i class="fas fa-external-link-alt fa-fw"></i>'
@@ -81,4 +85,5 @@ def link_info(link, l10n_data, ui_l10n_data, language):
     if "rel" in link:
         a["rel"] = link["rel"]
 
+    invoke_plugins("link_post_process", a, link, l10n_data, ui_l10n_data, language)
     return a

@@ -35,8 +35,8 @@ from pathlib import Path
 from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
-from fgi.base import *
 from fgi.args import parse
+from fgi.base import load_game_all
 from fgi.search import searchdb
 from fgi import tagmgr
 from fgi.seo import sitemap

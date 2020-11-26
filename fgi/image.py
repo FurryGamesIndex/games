@@ -28,6 +28,7 @@ from html import escape
 from .utils.webutils import dl
 from .utils import webp
 from fgi import args
+from fgi.plugin import invoke_plugins
 
 regexp = re.compile("^[a-zA-Z0-9\-]+:/{0,2}[^/]+")
 
@@ -192,6 +193,7 @@ def uri_to_html_image(rr, imageuri, gameid, alt = None):
 
         hi.add_source(img.uri + ".webp", "image/webp", False)
 
+    invoke_plugins("image_post_html_image_done", hi, origin_uri = imageuri, gameid = gameid, alt = alt)
     return hi
 
 # TODO: remove deprecated function uri
