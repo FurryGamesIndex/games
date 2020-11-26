@@ -900,7 +900,7 @@ homophobia:
 de:
   namespaces: [ lang ]
   explanation:
-    en: 'German supporting provided by offical source'
+    en: 'German supporting provided by offical author'
     zh-cn: '游戏有官方德语版本'
 
 en:
@@ -924,13 +924,19 @@ es:
 fr:
   namespaces: [ lang ]
   explanation:
-    en: 'French supporting provided by offical source'
+    en: 'French supporting provided by offical author'
     zh-cn: '游戏有官方法语版本'
+
+hu:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Hungarian supporting provided by offical author'
+    zh-cn: '游戏有官方匈牙利语版本'
 
 it:
   namespaces: [ lang ]
   explanation:
-    en: 'Italian supporting provided by offical source'
+    en: 'Italian supporting provided by offical author'
     zh-cn: '游戏有官方意大利语版本'
 
 ja:

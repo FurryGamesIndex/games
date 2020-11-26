@@ -184,11 +184,18 @@ Used to describe miscellaneous information related to the game
 
 The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 
+- `de` German supporting provided by offical author
 - `en` English supporting provided by offical author
 - `en-unofficial` English supporting provided by unoffical source
+- `es` Spanish supporting provided by offical author
+- `fr` French supporting provided by offical author
+- `hu` Hungarian supporting provided by offical author
+- `it` Italian supporting provided by offical author
 - `ja` Japanese supporting provided by offical author
 - `ja-unofficial` Japanese supporting provided by unoffical source
-- `ru` STUB
+- `pt` Portuguese supporting provided by offical author
+- `ru` Russian supporting provided by offical author
+- `tr` Turkish supporting provided by offical author
 - `zh` Chinese supporting provided by offical author
 - `zh-unofficial` Chinese supporting provided by unoffical source
 
