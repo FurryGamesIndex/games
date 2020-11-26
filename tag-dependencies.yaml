@@ -25,5 +25,9 @@ male:
 female:
   <<: *metazoa
 
+misc:
+  co-op: [ 'multiplayer' ]
+  pvp: [ 'multiplayer' ]
+
 platform:
   shockwave-flash: [ 'misc:adobe-flash' ]

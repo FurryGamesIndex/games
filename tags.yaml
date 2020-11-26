@@ -745,6 +745,12 @@ multiplayer:
     en: 'The game is multiplayer or includes multiplayer mode'
     zh-cn: '游戏是多人游戏或包括多人模式'
 
+co-op:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game has cooperative game mode'
+    zh-cn: '游戏支持合作模式'
+
 pvp:
   namespaces: [ misc ]
   explanation:
