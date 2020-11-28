@@ -41,6 +41,7 @@ from fgi.search import searchdb
 from fgi import tagmgr
 from fgi.seo import sitemap
 from fgi.i18n import get_languages_list, uil10n_load_base, ui10n_load_language
+from fgi.plugin import invoke_plugins
 
 def run_cmd(cmd, failback=''):
     try:
@@ -48,6 +49,20 @@ def run_cmd(cmd, failback=''):
     except:
         return failback
 
+
+def local_res_href(rr, path, hc_uquery = None):
+    query = ""
+    if hc_uquery:
+        query = f"?hc=uquery&t={hc_uquery}"
+
+    mod_value = invoke_plugins("html_local_res_href", None, rr=rr, path=path, hc_uquery=hc_uquery)
+
+    if mod_value:
+        if mod_value[-1:] == "?":
+            mod_value = mod_value[:-1] + query
+        return mod_value
+    else:
+        return rr + path + query
 
 def main(argv):
     argv = argv[1:]
@@ -103,6 +118,7 @@ def main(argv):
             "os": os,
             "webrootdir": "webroot",
             "time": time,
+            "res": local_res_href,
         }
 
         for f in renderer_files:
@@ -111,6 +127,8 @@ def main(argv):
             renderer.render(games, env, lctx, output)
 
     sitemap.write_to_file(output)
+
+    invoke_plugins("post_build", None, output_path = output)
 
     with open(os.path.join(output, "_buildinfo.txt"), "w") as f:
         f.write("# FGI BUILD INFO START\n")
