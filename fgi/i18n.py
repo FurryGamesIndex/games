@@ -99,20 +99,23 @@ def _conv_doc_markdown_get_content(fn, callback):
         return content
 
 def conv_doc_markdown(name, language, callback=None):
-    fn = f"doc/{name}.{language}.md"
-    fnen = f"doc/{name}.en.md"
+    if language is None:
+        content = _conv_doc_markdown_get_content(f"doc/{name}.md", callback)
+        result = doc_markdowner.convert(content)
+    else:
+        fn = f"doc/{name}.{language}.md"
+        fnen = f"doc/{name}.en.md"
+        if name not in doc_md_cache:
+            content = _conv_doc_markdown_get_content(fnen, callback)
+            doc_md_cache[name] = doc_markdowner.convert(content)
 
-    if name not in doc_md_cache:
-        content = _conv_doc_markdown_get_content(fnen, callback)
-        doc_md_cache[name] = doc_markdowner.convert(content)
+        if language == "en" or not os.path.exists(fn):
+            return doc_md_cache[name]
 
-    if language == "en" or not os.path.exists(fn):
-        return doc_md_cache[name]
+        content = _conv_doc_markdown_get_content(fn, callback)
 
-    content = _conv_doc_markdown_get_content(fn, callback)
-
-    result = doc_markdowner.convert(content)
-    if doc_md_cache[name].metadata:
-        result.metadata = { **doc_md_cache[name].metadata, **result.metadata }
+        result = doc_markdowner.convert(content)
+        if doc_md_cache[name].metadata:
+            result.metadata = { **doc_md_cache[name].metadata, **result.metadata }
 
     return result

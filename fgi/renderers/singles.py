@@ -18,9 +18,7 @@
 # 
 
 import os
-from fgi.i18n import get
-from markdown2 import Markdown
-
+from fgi.i18n import get, conv_doc_markdown
 from fgi.seo.sitemap import openw_with_sm
 
 context = {
@@ -43,17 +41,14 @@ def render(games, env, lctx, output):
         f.write(env.get_template("footer.html").render(context))
     del context["active_languages"]
 
-    markdowner = Markdown()
-    with open("doc/privacy-policy.md") as f:
-        context["content"] = markdowner.convert(f.read())
+    context["content"] = conv_doc_markdown("privacy-policy", None)
     with open(os.path.join(output, "privacy-policy.html"), "w") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("simple_md.html").render(context))
         f.write(env.get_template("footer.html").render(context))
     del context["content"]
 
-    with open("doc/credits.md") as f:
-        context["content"] = markdowner.convert(f.read())
+    context["content"] = conv_doc_markdown("credits", None)
     with openw_with_sm(output, "credits.html") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("simple_md.html").render(context))
