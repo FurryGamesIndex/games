@@ -27,10 +27,10 @@
 <div class="default">
 {% include 'copying.html' %}
 </div>
-<script src="{{ rr }}/scripts/base.js"></script>
-<script src="{{ rr }}/scripts/searchexpr.js"></script>
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
+<script src="{{ res(rr, '/scripts/searchexpr.js') }}"></script>
 {% if args.file_uri_workaround %}
-<script src="{{ rr }}/scripts/searchdb_offline.js"></script>
+<script src="{{ res(rr, '/scripts/searchdb_offline.js') }}"></script>
 {% endif %}
 <script>
 const items = $('.items');
@@ -50,7 +50,7 @@ let add = (id, game) => {
 	const item = template.cloneNode(true);
 	item.classList.remove("hide");
 
-	item.querySelector(".thumbnail").src = game.thumbnail;
+	item.querySelector(".thumbnail").src = "{{ res(rr, '') }}" + game.thumbnail;
 
 	const link = item.querySelector(".name_a");
 	link.textContent = getL10n(game, "name");
@@ -92,7 +92,7 @@ let onload = async () => {
 
 		let searchdb;
 		if (typeof(_searchdb) === 'undefined') {
-			searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json?hc=uquery&t={{ time()|int }}")).json();
+			searchdb = await (await fetch("{{ res(rr, '/scripts/searchdb.json', hc_uquery=time()|int) }}")).json();
 		} else {
 			searchdb = _searchdb;
 		}
