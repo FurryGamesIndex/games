@@ -72,7 +72,7 @@ class HTMLImage:
 
     @property
     def src(self):
-        return self._src.srcset
+        return self._src.srcset.uri
 
     @src.setter
     def src(self, value):
@@ -80,7 +80,7 @@ class HTMLImage:
 
     def add_source(self, source, mime, as_src = False):
         if mime is None:
-            sfx = os.path.splitext(source)[1]
+            sfx = os.path.splitext(source.uri)[1]
             if sfx in mimemap:
                 mime = mimemap[sfx]
             else:
@@ -117,33 +117,37 @@ class HTMLImage:
         if len(self.sources) > 1 and use_picture:
             code = "<picture>"
             for i in self.sources:
-                code += f"<source srcset='{i.srcset}' type='{i.type}'>"
+                code += f"<source srcset='{i.srcset.uri}' type='{i.type}'>"
             code += f"<img {node}src='{self.src}' alt='{escape(self.alt)}'></picture>"
         else:
             code = f"<img {node}src='{self.src}' alt='{escape(self.alt)}'>"
 
         return code
 
+    def set_size_by_image_softfail(self, image):
+        try:
+            im = PIL.Image.open(image.path)
+            self.set_size(*im.size)
+        except:
+            print(f"[warning] can not load image '{image.path}' for setting html image size")
+
+
     @staticmethod
     def from_image(image):
         hi = HTMLImage()
-        hi.add_source(image.uri, None, True)
+        hi.add_source(image, None, True)
 
         if not image.is_remote \
                 and os.path.exists(image.path):
-            try:
-                im = PIL.Image.open(image.path)
-                hi.set_size(*im.size)
-            except:
-                print(f"[warning] can not load image {image.path}")
+            hi.set_size_by_image_softfail(image)
 
         return hi
 
+def uri_to_html_image(rr, imageuri, gameid, alt = None):
+    image = Image(imageuri)
 
-def _uri(rr, image, gameid):
     if image.is_remote:
         if args.args.download_external_images:
-            path = image.uri
             sum = hashlib.sha1(image.uri.encode("utf-8")).hexdigest()
             path = "assets/" + gameid + "/" + sum + os.path.splitext(image.uri)[1]
             image.path = os.path.join(args.args.output, path)
@@ -167,40 +171,38 @@ def _uri(rr, image, gameid):
         image.path = os.path.join(args.args.output, path)
         image.uri = rr + "/" + path
 
-def uri_to_html_image(rr, imageuri, gameid, alt = None):
-    img = Image(imageuri)
-    _uri(rr, img, gameid)
-
-    path = img.path
+    path = image.path
 
     if args.args.images_to_webp \
-            and not img.is_remote \
+            and not image.is_remote \
             and webp.can_convert(path):
 
-        img.uri += ".webp"
-        img.path += ".webp"
+        image.uri += ".webp"
+        image.path += ".webp"
 
         if os.path.exists(path):
-            if not os.path.exists(img.path):
+            if not os.path.exists(image.path):
                 try:
-                    webp.cwebp(path, img.path)
+                    webp.cwebp(path, image.path)
                 except:
                     print(f"[warning] {path} can not be converted to webp")
             os.remove(path)
 
-    hi = HTMLImage.from_image(img)
+    hi = HTMLImage.from_image(image)
     hi.alt = alt
 
     if args.args.images_candidate_webp \
-            and not img.is_remote \
+            and not image.is_remote \
             and webp.can_convert(path) \
             and os.path.exists(path):
-        webpfn = img.path + ".webp"
+        webpfn = image.path + ".webp"
 
         if not os.path.exists(webpfn):
             webp.cwebp(path, webpfn)
 
-        hi.add_source(img.uri + ".webp", "image/webp", False)
+        wpi = Image(image.uri + ".webp")
+        wpi.path = webpfn
+        hi.add_source(wpi, "image/webp", False)
 
     invoke_plugins("image_post_html_image_done", hi, origin_uri = imageuri, gameid = gameid, alt = alt)
     return hi

@@ -61,7 +61,7 @@ class Plugin:
                 if len(pair) == 2:
                     self._update_option_attr(name, pair[1])
                 else:
-                    self._update_option_attr(name, True)
+                    self._update_option_attr(name, "true")
 
 def invoke_plugins(method, var, *args, **kwargs):
     if plugins:
