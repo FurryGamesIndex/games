@@ -18,7 +18,7 @@
 # 
 
 import argparse
-import importlib
+from fgi.plugin import load_plugin
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--extra-ui', type=str, help='Set extra ui profile path')
@@ -36,7 +36,6 @@ parser.add_argument('--plugin', type=str, action='append', help='Load plugin. fo
 parser.add_argument('output', type=str, help='Output path')
 
 args = None
-plugins = []
 
 def parse(a):
     global args
@@ -49,5 +48,4 @@ def parse(a):
             options = None
             if len(d) >= 2:
                 options = d[1]
-            p = importlib.import_module(".plugins." + name, package=__package__)
-            plugins.append(p.impl(options))
+            load_plugin(name, options)

@@ -17,15 +17,55 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
-from fgi import args as gctx
+import importlib
+
+plugins = []
 
 class Plugin:
     def __init__(self, options):
-        pass
+        if options:
+            self._parse_options(options)
+
+    def _update_option_attr(self, name, value):
+        if hasattr(self, name):
+            origin = getattr(self, name)
+            if type(origin) is bool:
+                if value == "false" or \
+                        value == "0" or \
+                        value == "no" or \
+                        value == "OFF":
+                    value = False
+                elif value == "true" or \
+                        value == "1" or \
+                        value == "yes" or \
+                        value == "ON":
+                    value = True
+                else:
+                    raise ValueError(f"invalid boolean value '{value}'")
+                setattr(self, name, value)
+            elif type(origin) is str or origin is None:
+                setattr(self, name, value)
+            elif type(origin) is int:
+                setattr(self, name, int(value))
+            else:
+                raise ValueError(f"Not supported option type {type(origin)}")
+        else:
+            raise NameError(f"Plugin does not support option {name}")
+
+    def _parse_options(self, options):
+        opts = options.split(",")
+        for i in opts:
+            pair = i.split("=", 1)
+            name = pair[0]
+            if name:
+                if len(pair) == 2:
+                    self._update_option_attr(name, pair[1])
+                else:
+                    self._update_option_attr(name, True)
 
 def invoke_plugins(method, var, *args, **kwargs):
-    if gctx.plugins:
-        for i in gctx.plugins:
+    if plugins:
+        for i in plugins:
             func = getattr(i, method, None)
 
             if func is None:
@@ -36,3 +76,10 @@ def invoke_plugins(method, var, *args, **kwargs):
                 var = _var
 
     return var
+
+def load_plugin(name, options):
+    p = importlib.import_module(".plugins." + name, package=__package__)
+    if not hasattr(p, "impl"):
+        raise ValueError(f"Module '{name}' does not provide a plugin implement.")
+    plugins.append(p.impl(options))
+
