@@ -44,6 +44,4 @@ class SteamCDNUnitePlugin(Plugin):
         for i in hi.sources:
             i.srcset = self._replace_uri(i.srcset)
 
-        hi.src = self._replace_uri(hi.src)
-
 impl = SteamCDNUnitePlugin

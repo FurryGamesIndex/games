@@ -64,11 +64,19 @@ class HTMLPictureSource:
 class HTMLImage:
     def __init__(self):
         self.sources = []
-        self.src = None
+        self._src = None
         self.alt = None
         self.width = 0
         self.height = 0
         pass
+
+    @property
+    def src(self):
+        return self._src.srcset
+
+    @src.setter
+    def src(self, value):
+        self._src = value
 
     def add_source(self, source, mime, as_src = False):
         if mime is None:
@@ -80,10 +88,11 @@ class HTMLImage:
                 #       That will always make only a single <img> element
                 raise NotImplementedError(f"Can not recognize mime for {source}")
 
+        picture_source = HTMLPictureSource(source, mime)
         if as_src:
-            self.src = source
+            self.src = picture_source
 
-        heapq.heappush(self.sources, HTMLPictureSource(source, mime))
+        heapq.heappush(self.sources, picture_source)
 
     def set_size(self, width, height):
         self.width = width
