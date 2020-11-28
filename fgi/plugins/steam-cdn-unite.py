@@ -19,21 +19,27 @@
 
 from fgi.plugin import Plugin
 
-_unified_cdn_uri_base = "https://steamcdn-a.akamaihd.net/"
+_cdn_list = {
+    "china": "https://media.st.dl.pinyuncloud.com/",
+    "akamai": "https://steamcdn-a.akamaihd.net/",
+    "cf": "https://cdn.cloudflare.steamstatic.com/",
+}
 
 class SteamCDNUnitePlugin(Plugin):
     def __init__(self, options):
         self.verbose = False
+        self.cdn = "akamai"
 
-        if options:
-            if "verbose=1" in options:
-                self.verbose = True
+        super().__init__(options)
+
+        self._bad_cdns = _cdn_list.copy()
+        self._bad_cdns.pop(self.cdn)
+        self._unified_cdn_uri_base = _cdn_list[self.cdn]
 
     def _replace_uri(self, uri):
-        for prefix in ["https://media.st.dl.pinyuncloud.com/",
-                "https://cdn.cloudflare.steamstatic.com/"]:
+        for _, prefix in self._bad_cdns.items():
             if uri.startswith(prefix):
-                uri = uri.replace(prefix, _unified_cdn_uri_base)
+                uri = uri.replace(prefix, self._unified_cdn_uri_base)
                 if self.verbose:
                     print(f"[info] [steam-cdn-unite] replace uri from {prefix} to {uri}")
                 return uri
