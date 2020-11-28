@@ -56,6 +56,7 @@ Recommend build arguments:
         output = kwargs["output_path"]
         shutil.rmtree(os.path.join(output, "assets"))
         shutil.rmtree(os.path.join(output, "styles"))
+        shutil.rmtree(os.path.join(output, "scripts"))
         shutil.rmtree(os.path.join(output, "webfonts"))
         shutil.rmtree(os.path.join(output, "en"))
         shutil.rmtree(os.path.join(output, "zh-tw"))
@@ -67,10 +68,7 @@ Recommend build arguments:
 
     def html_local_res_href(self, mod, rr = None, path = None, hc_uquery = None, *args, **kwargs):
         if not mod:
-            query = "?"
-            if path.startswith("/assets/"):
-                query = "?hc=always"
-            return "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io" + path + query
+            return "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io" + path + "?"
         else:
             return mod
 
@@ -78,7 +76,10 @@ Recommend build arguments:
         for i in hi.sources:
             img = i.srcset
             if not img.is_remote:
-                img.uri = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io/" + remove_image_path_rr_parents(img.uri)
+                suffix = remove_image_path_rr_parents(img.uri)
+                if suffix.startswith("assets/"):
+                    suffix += "?hc=always"
+                img.uri = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io/" + suffix
                 img.is_remote = True
 
 impl = ChinaOptimizePlugin
