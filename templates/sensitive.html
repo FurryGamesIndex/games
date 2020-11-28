@@ -5,7 +5,7 @@
 		{{ ui.sensitive_page_tip }}
 	</div>
 </div>
-<script src="{{ rr }}/scripts/base.js"></script>
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
 <script>
 $("#sensitive_switch").addEventListener('change', async e => {
 	e.preventDefault();

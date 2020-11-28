@@ -50,7 +50,7 @@
 		{% include 'copying.html' %}
 	</div>
 </div>
-<script src="{{ rr }}/scripts/base.js"></script>
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
 <script>
 if (localStorage.getItem("show_sensitive") == "true") {
 	$$(".sensitive_img").forEach(i => {
