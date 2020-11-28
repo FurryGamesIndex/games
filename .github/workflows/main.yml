@@ -68,3 +68,15 @@ jobs:
         git push git@gitlab.com:furrygamesindex/games.git master || true
         echo -e "Host bitbucket.org\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
         git push git@bitbucket.org:furrygamesindex/games.git master || true
+
+    - name: cn-surge-build
+      run: |
+        ./generate.py --no-sitemap --images-candidate-webp --with-rss --plugin steam-cdn-unite,cdn=china --plugin cn-optimize --plugin webp-converter-stub output-cn
+
+    - name: cn-surge-publish
+      uses: dswistowski/surge-sh-action@v1
+      with:
+        domain: 'cn.furrygames.top'
+        project: './output-cn'
+        login: ${{ secrets.surge_login }}
+        token: ${{ secrets.surge_token }}
