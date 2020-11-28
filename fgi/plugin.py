@@ -27,7 +27,12 @@ def invoke_plugins(method, var, *args, **kwargs):
     if gctx.plugins:
         for i in gctx.plugins:
             func = getattr(i, method, None)
-            if func is not None:
-                var = func(var, *args, **kwargs)
+
+            if func is None:
+                continue
+
+            _var = func(var, *args, **kwargs)
+            if _var is not None:
+                var = _var
 
     return var
