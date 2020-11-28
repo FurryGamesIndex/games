@@ -20,7 +20,9 @@
 import os
 import subprocess
 
-def cwebp(ofn, tfn):
+cwebp_impl = None
+
+def _cwebp(ofn, tfn):
     if os.path.splitext(ofn)[1] == ".gif":
         command = ["gif2webp", "-mixed", "-min_size", "-mt", ofn, "-o", tfn]
     else:
@@ -29,6 +31,12 @@ def cwebp(ofn, tfn):
     cp = subprocess.run(command, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
     if cp.returncode != 0:
         raise RuntimeError(f"{command[0]}: {ofn} error, outputs:\n{cp.stdout.decode('utf-8')}")
+
+def cwebp(ofn, tfn):
+    if cwebp_impl is None:
+        _cwebp(ofn, tfn)
+    else:
+        cwebp_impl.webp_converter_impl(ofn, tfn)
 
 allowed_suffixes = set(['.png', '.jpg', '.jpeg', '.tiff', '.webp', '.gif'])
 
