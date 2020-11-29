@@ -55,11 +55,22 @@ def local_res_href(rr, path, hc_uquery = None):
     if hc_uquery:
         query = f"?hc=uquery&t={hc_uquery}"
 
-    mod_value = invoke_plugins("html_local_res_href", None, rr=rr, path=path, hc_uquery=hc_uquery)
+    mod = invoke_plugins("html_local_res_href", None, rr=rr, path=path, hc_uquery=hc_uquery)
 
-    if mod_value:
-        if mod_value[-1:] == "?":
-            mod_value = mod_value[:-1] + query
+    if mod:
+        mod_value = mod["new_uri"]
+        if "query_mode" in mod:
+            if mod["query_mode"] == "unmanaged":
+                mod_value = mod_value + query
+            elif mod["query_mode"] == "origin-first":
+                if query != "":
+                    mod_value = mod_value + query
+                else:
+                    mod_value = mod_value + mod["query_fb"]
+            elif mod["query_mode"] == "managed":
+                pass
+            else:
+                raise ValueError(f"unkown query_mode: {mode['query_mode']}")
         return mod_value
     else:
         return rr + path + query

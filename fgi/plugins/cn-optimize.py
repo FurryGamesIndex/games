@@ -68,9 +68,15 @@ Recommend build arguments:
 
     def html_local_res_href(self, mod, rr = None, path = None, hc_uquery = None, *args, **kwargs):
         if not mod:
-            return "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io" + path + "?"
-        else:
-            return mod
+            mod = dict()
+            mod["new_uri"] = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io" + path
+            mod["query_mode"] = "unmanaged"
+            if path.startswith("/styles") or \
+                    path.startswith("webfonts/"):
+                mod["query_mode"] = "origin-first"
+                mod["query_fb"] = "?hc=always"
+
+        return mod
 
     def image_post_html_image_done(self, hi, *args, **kwargs):
         for i in hi.sources:
