@@ -70,11 +70,15 @@ Recommend build arguments:
         if not mod:
             mod = dict()
             mod["new_uri"] = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io" + path
-            mod["query_mode"] = "unmanaged"
-            if path.startswith("/styles") or \
-                    path.startswith("webfonts/"):
-                mod["query_mode"] = "origin-first"
-                mod["query_fb"] = "?hc=always"
+            mod["query_mode"] = "managed"
+
+            query = ""
+            if hc_uquery is not None:
+                query = f"?hc=uquery&t={hc_uquery}&cors=1"
+            else:
+                if path.startswith("styles/"):
+                    query = "?hc=always&cors=1"
+            mod["new_uri"] += query
 
         return mod
 
@@ -84,7 +88,7 @@ Recommend build arguments:
             if not img.is_remote:
                 suffix = remove_image_path_rr_parents(img.uri)
                 if suffix.startswith("assets/"):
-                    suffix += "?hc=always"
+                    suffix += "?hc=always&cors=1"
                 img.uri = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io/" + suffix
                 img.is_remote = True
 
