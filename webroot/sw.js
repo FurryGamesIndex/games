@@ -1,4 +1,4 @@
-const CACHE_NAME = "sw:i:2"
+const CACHE_NAME = "sw:i:3"
 
 self.addEventListener('activate', async e => {
 	e.waitUntil((async () => {
@@ -13,8 +13,9 @@ self.addEventListener('activate', async e => {
 self.addEventListener('fetch', async e => {
 	e.respondWith((async () => {
 		const url = new URL(e.request.url);
-		let nohint = true;
-		let uquery = false;
+		let nohint = true,
+			uquery = false,
+			cors = false;
 
 		if (URL.prototype.hasOwnProperty("searchParams")) {
 			hc = url.searchParams.get("hc");
@@ -24,6 +25,9 @@ self.addEventListener('fetch', async e => {
 				case "uquery":
 					uquery = true;
 					break;
+				}
+				if (url.searchParams.get("cors")) {
+					cors = true;
 				}
 			}
 		}
@@ -47,7 +51,13 @@ self.addEventListener('fetch', async e => {
 					});
 				});
 			}
-			resp = await fetch(e.request.clone());
+			let req;
+			if (cors) {
+				req = new Request(e.request.url, {mode: 'cors'});
+			} else {
+				req = e.request.clone();
+			}
+			resp = await fetch(req);
 			if (resp.status < 400) {
 				console.log('sw: caching the response to', e.request.url);
 				await cache.put(e.request, resp.clone());
