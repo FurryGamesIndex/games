@@ -30,6 +30,7 @@ from fgi.utils import webp
 
 class WebpConverterSTUBPlugin(Plugin):
     def __init__(self, options):
+        self._bypass_hook_chain = True
         super().__init__(options)
 
         assert webp.cwebp_impl is None

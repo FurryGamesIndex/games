@@ -81,5 +81,7 @@ def load_plugin(name, options):
     p = importlib.import_module(".plugins." + name, package=__package__)
     if not hasattr(p, "impl"):
         raise ValueError(f"Module '{name}' does not provide a plugin implement.")
-    plugins.append(p.impl(options))
+    plugin = p.impl(options)
+    if not hasattr(plugin, "_bypass_hook_chain"):
+        plugins.append(plugin)
 
