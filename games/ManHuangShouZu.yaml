@@ -1,21 +1,9 @@
 name: 蛮荒兽族
 
 description: |
-  一切都始于那个燃烧着喧嚣的盛夏。
-  第一话　南柯一梦——人情冷漠心灰冷，唯能寄意浮世梦。
-  第二话　萍水相逢——黯然回首伤流年，但求与君初相见。
-  第三话　野性蛮荒——背水一战不眠夜，勇武凶悍蛮荒血。
-  第四话　塞翁失马——福祸更迭有天意，生死轮回无常理。
-  第五话　生日礼物——夏风吹散心头苦，落雨涤净眼中雾。
-  第六话　朴素誓言——红尘滚滚尽余欢，长路漫漫不胜寒。
-  第七话　同床共枕——酒意微醺情难却，夜色朦胧心相悦。
-  第八话　游园惊魂——善恶取舍争论起，咫尺天涯恐别离。
-  第九话　水月镜花——聚散莫测泪凄楚，分合难料梦荒芜。
-  第十话　血脉交融——因爱甘心入虎口，为情宁愿舍乡愁。
-  番外篇之一　莫离——无法传达的爱　（13000点历练解锁）
-  番外篇之二　风烈——夜空下的思念　（15000点历练解锁）
-  番外篇之三　萧凯——南柯梦　　　　（17000点历练解锁）
-  番外篇之四　真相——两难抉择　　　（无限制）
+  It all began in the hustle and bustle of that summer.
+
+  (Translated from Chinese)
 
 tags:
   author:
@@ -29,6 +17,7 @@ tags:
     - humankind
   misc:
     - freeware
+    - expired
     - centralized
   lang:
     - zh
@@ -36,7 +25,8 @@ tags:
     - web
 
 links:
-  - name: Play on 66rpg.com
+  - name: Play on 66rpg.com (expired)
+    rel: nofollow
     uri: https://www.66rpg.com/game/uncheck/356881
     
 thumbnail: thumbnail.jpg
