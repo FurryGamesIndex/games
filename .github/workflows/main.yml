@@ -60,18 +60,25 @@ jobs:
         rm -rf output
         mv _git .git
 
-    - name: sync-mirror
-      run: |
-        echo -e "Host gitee.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
-        git push git@gitee.com:furrygamesindex/games.git master || true
-        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
-        git push git@gitlab.com:furrygamesindex/games.git master || true
-        echo -e "Host bitbucket.org\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
-        git push git@bitbucket.org:furrygamesindex/games.git master || true
-
-    - name: cn-surge-build
+    - name: cn-build
       run: |
         ./generate.py --no-sitemap --images-candidate-webp --with-rss --plugin steam-cdn-unite,cdn=china --plugin cn-optimize --plugin webp-converter-stub output-cn
+
+    - name: cn-deploy
+      run: | 
+        mv .git _git
+        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        git config --global user.email "noreply@example.com"
+        git config --global user.name "deploy-bot"
+        cd output-cn
+        git init
+        git remote add origin git@gitlab.com:furrygamesindex/cn-netlify-build.git
+        git add .
+        git commit -m 'deploy cn website'
+        git push -f origin master
+        cd ..
+        rm -rf output
+        mv _git .git
 
     - name: cn-surge-publish
       uses: dswistowski/surge-sh-action@v1
@@ -80,3 +87,12 @@ jobs:
         project: './output-cn'
         login: ${{ secrets.surge_login }}
         token: ${{ secrets.surge_token }}
+
+    - name: sync-mirror
+      run: |
+        echo -e "Host gitee.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        git push git@gitee.com:furrygamesindex/games.git master || true
+        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        git push git@gitlab.com:furrygamesindex/games.git master || true
+        echo -e "Host bitbucket.org\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        git push git@bitbucket.org:furrygamesindex/games.git master || true
