@@ -65,6 +65,11 @@ Recommend build arguments:
         with open(os.path.join(output, "robots.txt"), "w") as f:
             f.write("User-agent: *\n")
             f.write("Disallow: /\n")
+            f.write("User-agent: Baiduspider\n")
+            f.write("Allow: /\n")
+        with open(os.path.join(output, "_redirects"), "w") as f:
+            f.write("/en/*    https://furrygames.top/en/:splat    301\n")
+            f.write("/zh-tw/*    https://furrygames.top/zh-tw/:splat    301\n")
 
     def html_local_res_href(self, mod, rr = None, path = None, hc_uquery = None, *args, **kwargs):
         if not mod:
