@@ -52,14 +52,15 @@ Recommend build arguments:
 
         super().__init__(options)
 
+    def i18n_post_ll_done(self, ll, *args, **kwargs):
+        return ["zh-cn"]
+
     def post_build(self, _, *args, **kwargs):
         output = kwargs["output_path"]
         shutil.rmtree(os.path.join(output, "assets"))
         shutil.rmtree(os.path.join(output, "styles"))
         shutil.rmtree(os.path.join(output, "scripts"))
         shutil.rmtree(os.path.join(output, "webfonts"))
-        shutil.rmtree(os.path.join(output, "en"))
-        shutil.rmtree(os.path.join(output, "zh-tw"))
         with open(os.path.join(output, "CNAME"), "w") as f:
             f.write("cn.furrygames.top\n")
         with open(os.path.join(output, "robots.txt"), "w") as f:
@@ -70,6 +71,9 @@ Recommend build arguments:
         with open(os.path.join(output, "_redirects"), "w") as f:
             f.write("/en/*    https://furrygames.top/en/:splat    301\n")
             f.write("/zh-tw/*    https://furrygames.top/zh-tw/:splat    301\n")
+        with open(os.path.join(output, "netlify.toml"), "w") as f:
+            f.write("[build.processing]\n")
+            f.write("  skip_processing = true\n")
 
     def html_local_res_href(self, mod, rr = None, path = None, hc_uquery = None, *args, **kwargs):
         if not mod:
