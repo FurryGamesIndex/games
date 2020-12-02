@@ -28,10 +28,6 @@ context = {
 }
 
 def render(games, env, lctx, output):
-    language = lctx["lang"]
-    if language != "en":
-        return
-
     context.update(lctx)
 
     context["active_languages"] = "actived"

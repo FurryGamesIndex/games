@@ -77,3 +77,10 @@ def load_game_all(dbdir, sdb):
         sdb.update(game)
 
     return games
+
+def list_pymod(dirname):
+    package_path = os.path.dirname(__file__)
+    return [os.path.splitext(f)[0] \
+        for f in os.listdir(os.path.join(package_path, dirname)) \
+            if os.path.isfile(os.path.join(package_path, dirname, f)) \
+                and f[0] != '.' and f != "__init__.py"]

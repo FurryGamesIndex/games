@@ -36,7 +36,7 @@ from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
 from fgi.args import parse
-from fgi.base import load_game_all
+from fgi.base import load_game_all, list_pymod
 from fgi.search import searchdb
 from fgi import tagmgr
 from fgi.seo import sitemap
@@ -84,11 +84,8 @@ def main(argv):
     output = args.output
     sitemap.ignore = args.no_sitemap
 
-    package_path = os.path.dirname(__file__)
-    renderer_files = [os.path.splitext(f)[0] \
-            for f in os.listdir(os.path.join(package_path, "renderers")) \
-                if os.path.isfile(os.path.join(package_path, "renderers", f)) \
-                    and f[0] != '.' and f != "__init__.py"]
+    renderer_files = list_pymod("renderers")
+    renderer_nonl10n_files = list_pymod(os.path.join("renderers", "nonl10n"))
 
     with open("tag-dependencies.yaml") as f:
         tagmgr.loaddep(yaml.safe_load(f))
@@ -112,30 +109,35 @@ def main(argv):
     sdb.write_to_file(output)
 
     languages = get_languages_list(dbdir)
-    languages.append('en')
-
     base_l10n = uil10n_load_base("uil10n")
+
+    lctx = {
+        "args": args,
+        "searchdb": sdb,
+        "os": os,
+        "webrootdir": "webroot",
+        "time": time,
+        "res": local_res_href,
+    }
 
     for language in languages:
         ui = ui10n_load_language("uil10n", base_l10n, language)
         
         Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
 
-        lctx = {
-            "args": args,
-            "lang": language,
-            "ui": ui,
-            "searchdb": sdb,
-            "os": os,
-            "webrootdir": "webroot",
-            "time": time,
-            "res": local_res_href,
-        }
+        lctx["lang"] = language
+        lctx["ui"] = ui
 
         for f in renderer_files:
             print("Rendering %s %s" % (language, f))
             renderer = importlib.import_module(".renderers." + f, package=__package__)
             renderer.render(games, env, lctx, output)
+
+    lctx["ui"] = base_l10n
+    for f in renderer_nonl10n_files:
+        print(f"Rendering nonl10n {f}")
+        renderer = importlib.import_module(".renderers.nonl10n." + f, package=__package__)
+        renderer.render(games, env, lctx, output)
 
     sitemap.write_to_file(output)
 
