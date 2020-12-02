@@ -15,8 +15,8 @@ tags:
     - fox
     - wolf
     - dragon
-    - otter
-    - bear
+    - badger
+    - red-panda
     - males-only
     - muscle
   misc:
@@ -37,6 +37,12 @@ links:
     uri: patreon:deckerwolf
   - name: .twitter
     uri: twitter:decker_the_wolf
+  - name: .unofficial-patch-zh
+    icon: twitter
+    uri: https://twitter.com/ABLocalization/status/1329463208629784579
+  - name: .unofficial-patch-zh
+    icon: weibo
+    uri: https://weibo.com/7429628292/JuG407vti
 
 thumbnail: thumbnail.jpg
 
