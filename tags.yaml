@@ -283,6 +283,12 @@ bird:
     en: 'Main characters include bird furries'
     zh-cn: '主要角色包括鸟兽人'
 
+red-panda:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include red panda furries'
+    zh-cn: '主要角色包括小熊猫兽人'
+
 ###################################################
 
 '@class:male+female/felidae':

@@ -26,6 +26,7 @@
 - `role-playing` 角色扮演游戏
 - `dating-sim` 约会模拟游戏
 - `roguelike` Roguelike 游戏
+- `non-indie` 非独立 游戏
 - `bara` 包含较多男同性恋向内容的作品
 - `yuri` 包含较多女同性恋向内容的作品
 - `yiff` 包含成人（R-18）限制级内容的作品
@@ -65,6 +66,7 @@
 - `shark` 主要角色包括鲨鱼兽人
 - `deer` 主要角色包括鹿兽人
 - `bird` 主要角色包括鸟兽人
+- `red-panda` 主要角色包括小熊猫兽人
 
 ### 物种：猫科
 
@@ -100,6 +102,7 @@
 - `mixed` 主要角色包括混合兽人（如虎鲨，狮狗等等）
 - `humankind` 主要角色包括人类或智人
 - `non-anthro` 主要角色包括非人形 furry（纯兽）（动物形态，但通常具有高级智慧）
+- `funny-animal` STUB
 
 ### 非物种
 
@@ -155,6 +158,7 @@
 - `pixel-art` 游戏主要以 Pixel Art 风格呈现
 - `freeware` 游戏是免费的或有一个不小的部分是免费的（Demo 版本不计算在内）
 - `multiplayer` 游戏是多人游戏或包括多人模式
+- `co-op` 游戏支持合作模式
 - `pvp` STUB
 - `uncensored` 游戏立绘、CG、模型等中没有经过审查工序（无码）（仅在 type:yiff 存在时考虑此标签）
 - `engine-renpy` 游戏使用了 RenPy 引擎开发
@@ -187,7 +191,7 @@
 - `de` 游戏有官方德语版本
 - `en` 游戏有官方英语版本
 - `en-unofficial` 游戏有非官方英语版本
-- `es` 游戏有官方英语版本
+- `es` 游戏有官方西班牙语版本
 - `fr` 游戏有官方法语版本
 - `hu` 游戏有官方匈牙利语版本
 - `it` 游戏有官方意大利语版本

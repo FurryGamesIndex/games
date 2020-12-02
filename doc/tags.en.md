@@ -26,6 +26,7 @@ Used to describe the type of game
 - `role-playing` This game is a RPG
 - `dating-sim` This game is a dating simulator
 - `roguelike` This game is a Roguelike game
+- `non-indie` This game is a non-indie game
 - `bara` Contains a lot of things of gay
 - `yuri` Contains a lot of things of lesbian
 - `yiff` Contains adult (R18) sensitive contents
@@ -65,6 +66,7 @@ The following are automatic tags, they are no different from other tags when you
 - `shark` Main characters include shark furries
 - `deer` Main characters include deer furries
 - `bird` Main characters include bird furries
+- `red-panda` Main characters include red panda furries
 
 ### Biological species: Felidae
 
@@ -100,6 +102,7 @@ The following are automatic tags, they are no different from other tags when you
 - `mixed` Main characters include mixed furries (tiger-shark, lion-dog and many more)
 - `humankind` Main characters include humankind creatures
 - `non-anthro` Main characters include non-anthro furries
+- `funny-animal` STUB
 
 ### Non species
 
@@ -155,6 +158,7 @@ Used to describe miscellaneous information related to the game
 - `pixel-art` The game is mainly presented in pixel-art
 - `freeware` The game is free or a big part is free (Demo version is not included)
 - `multiplayer` The game is multiplayer or includes multiplayer mode
+- `co-op` The game has cooperative game mode
 - `pvp` STUB
 - `uncensored` Images, CGs, models, etc. have not censored (Consider this tag only when type:yiff exists)
 - `engine-renpy` The game is developed using RenPy engine
