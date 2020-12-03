@@ -963,6 +963,13 @@ ja-unofficial:
     en: 'Japanese supporting provided by unoffical source'
     zh-cn: '游戏有非官方日语版本'
 
+
+ko:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Korean supporting provided by offical author'
+    zh-cn: '游戏有官方韩语版本'
+
 pt:
   namespaces: [ lang ]
   explanation:

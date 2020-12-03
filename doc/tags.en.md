@@ -197,6 +197,7 @@ The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 - `it` Italian supporting provided by offical author
 - `ja` Japanese supporting provided by offical author
 - `ja-unofficial` Japanese supporting provided by unoffical source
+- `ko` Korean supporting provided by offical author
 - `pt` Portuguese supporting provided by offical author
 - `ru` Russian supporting provided by offical author
 - `tr` Turkish supporting provided by offical author

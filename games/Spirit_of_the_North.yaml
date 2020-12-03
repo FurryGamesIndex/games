@@ -1,0 +1,77 @@
+name: Spirit of the North
+
+description: |
+  **Spirit of the North** 
+  
+  is a single-player 3rd-person adventure game inspired by the breathtaking and mysterious landscapes of Iceland. The story takes root from various pieces of *Nordic* folklore.   
+    
+  Play as an ordinary red fox whose story becomes entwined with the guardian of the Northern Lights, a magical spirit fox. As you journey over the mountains and under red-stained skies, you’ll discover more about your companion and land left in ruin.  
+    
+  Uniquely designed to purposefully have no dialog or narration. Players must breathe in their surroundings to solve various puzzles and speculate the meaning of a lost ancient civilization.  
+
+  ***'touching & memorable' - GamingBolt***  
+
+  ***'[...] a journey well worth taking' - TechRaptor***  
+  
+  ## Key Features:
+  - Make your way across stunning landscapes, on an emotionally stirring journey.  
+  - Solve environmental puzzles to change the world around you, using ancient powers bestowed upon you by the guardian of the Northern Lights.  
+  - Follow the mysterious Spirit Fox across a land left in ruin as you discover more about a lost civilization.  
+  - Moving orchestral soundtrack featuring 14 original compositions.  
+    
+  If you enjoyed the following games, you'll love Spirit of the North:  
+  - Lost Ember  
+  - RiME  
+  - Journey  
+  - The First Tree
+
+description-format: markdown
+
+tags:
+  author:
+    - Infuse Studio
+  type:
+    - adventure
+    - casual
+  male:
+    - fox
+    - non-anthro
+  female:
+    - fox
+    - non-anthro
+  misc:
+    - 3d
+  lang:
+    - zh
+    - en
+    - fr
+    - de
+    - es
+    - ja
+    - pt
+    - ru
+    - it
+    - ko
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1213700
+  - name: .website
+    uri: https://playspiritofthenorth.com/
+  - name: .twitter
+    uri: https://twitter.com/PlaySOTN
+  - name: .youtube
+    uri: https://www.youtube.com/mergegames/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1213700/ss_0b4d8358c5605e7322cd5f3697bbbd2b909401c5.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1213700/ss_3b585c6f6771436a73fcfc72a9012fb83c20beb3.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1213700/ss_5f049501bdaa03e7bfb173e4b4e5a7373cf6736d.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1213700/ss_efb21ff1e9c997cb121b39744f1668c5c64d7ecf.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1213700/ss_84033db4945f307e0eed24448095f02383fbba66.1920x1080.jpg
