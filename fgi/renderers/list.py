@@ -35,7 +35,7 @@ def ts_to_rfc5322(ts):
 def list_games(games):
     for name, game in games.items():
         if "replaced-by" in game \
-                or "expuge" in game:
+                or "expunge" in game:
             continue
         yield name, game
 
