@@ -5,6 +5,9 @@
 {% if checktag(game, "sys", "tagme") %}
 	<div class="box notice">{{ ui.noticebox_tagme }}</div>
 {% endif %}
+{% if 'replaced-by' in game %}
+	<div class="box notice">{{ ui.noticebox_replacedby % (rbgame.id + ".html", get(rbgame, lang, 'name')|e) }}</div>
+{% endif %}
 {% if 'expunge' in game %}
 	<div class="box warning">{{ ui.warnbox_expunge }}</div>
 {% endif %}

@@ -1,5 +1,5 @@
 <div class="items">
-{% for name, game in games.items() %}{% if 'expunge' not in game %}
+{% for name, game in games %}
 {% set desc = get(game, lang, 'description') %}
 {% set game_name = get(game, lang, 'name') %}
 	<div class="item">
@@ -9,7 +9,7 @@
 		<div class="description">{{ (desc[:480] + (desc[480:] and '...'))|e }}</div>
 		</div>
 	</div>
-{% endif %}{% endfor %}
+{% endfor %}
 	<div style="height: 20px;"></div>
 {% include 'copying.html' %}
 </div>

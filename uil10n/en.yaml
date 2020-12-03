@@ -63,15 +63,16 @@ game_edit: Edit this page
 game_contact_us: Contant FurryGamesIndex project by
 game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>
 
+warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
+noticebox_tagme: This page is known to be missing important tags. Please help to add tags. <br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribution guide</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md">Tags list and explanation</a>
+warnbox_expunge: This page is expunged from list and search.
+noticebox_replacedby: This game has been replaced by <a href="%s">%s</a>. Therefore, it will not be displayed on the list page.
+
 sensitive_page_tip: |
   This will enable the display of sensitive content on all FGI pages.<br>
   You must reach the adult standard under local laws before you can open the above options.<br>
   You must use a modern browser and enable JavaScript.<br>
   After modifying this setting, you need to refresh the page to take effect.
-
-warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
-noticebox_tagme: This page is known to be missing important tags. Please help to add tags. <br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribution guide</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md">Tags list and explanation</a>
-warnbox_expunge: This page is expunged from list and search.
 
 rss_desc: RSS Feed will push the last 30 game pages added or edited in chronological order.
 

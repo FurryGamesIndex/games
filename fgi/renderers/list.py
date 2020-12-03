@@ -32,6 +32,13 @@ def ts_to_rfc5322(ts):
     dt = datetime.fromtimestamp(ts, tz=timezone.utc)
     return email.utils.format_datetime(dt)
 
+def list_games(games):
+    for name, game in games.items():
+        if "replaced-by" in game \
+                or "expuge" in game:
+            continue
+        yield name, game
+
 context = {
     "rr": "..",
     "active_list": "actived",
@@ -44,13 +51,13 @@ def render(games, env, lctx, output):
     context.update(lctx)
     language = lctx["lang"]
 
-    context["games"] = games
+    context["games"] = list_games(games)
     with openw_with_sm(output, os.path.join(language, "list.html"), priority="0.6") as f:
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("list.html").render(context))
         f.write(env.get_template("footer.html").render(context))
 
     if args.args.with_rss:
-        context["games"] = dict(islice(strip_games_expunge(sorted_games_by_mtime(games)).items(), 30))
+        context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(games)).items(), 30)
         with open(os.path.join(output, language, "feed.xml"), "w") as f:
             f.write(env.get_template("rss_feed.xml").render(context))

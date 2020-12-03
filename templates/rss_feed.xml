@@ -6,7 +6,7 @@
 <link>https://furrygames.top/{{ lang }}</link>
 <copyright>FurryGamesIndex project. All rights reserved</copyright>
 <ttl>1800</ttl>
-{% for name, game in games.items() %}
+{% for name, game in games %}
 {% set game_name = get(game, lang, 'name') %}
 {% set guid = "https://furrygamesindex.github.io/" ~ lang ~ "/games/" ~ name ~ ".html" %}
 {% set www_link = "https://furrygames.top/" ~ lang ~ "/games/" ~ name ~ ".html" %}

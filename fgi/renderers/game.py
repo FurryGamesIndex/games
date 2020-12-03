@@ -124,6 +124,10 @@ def render(games, env, lctx, output):
             f = openw_with_sm(output, os.path.join(language, "games", name + ".html"),
                     priority="0.7", lastmod_ts=get_mtime(game, language))
 
+        if 'replaced-by' in game:
+            rbgame = games[game['replaced-by']]
+            context["rbgame"] = rbgame
+
         f.write(env.get_template("header.html").render(context))
         f.write(env.get_template("game.html").render(context))
         f.write(env.get_template("footer.html").render(context))
@@ -131,3 +135,5 @@ def render(games, env, lctx, output):
 
         if "noindex" in context:
             del context["noindex"]
+        if "rbgame" in context:
+            del context["rbgame"]

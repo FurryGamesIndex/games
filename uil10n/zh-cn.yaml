@@ -57,16 +57,17 @@ game_author_widget_more_from: 来自 <b>%s</b> 的更多游戏：
 game_edit: 编辑此页面
 game_contact_us: 通过以下方式联系“兽人控游戏索引”项目
 game_sensitive_warning: 当前页面可能包含敏感媒体，它们已被隐藏。 <a href="%s/%s/sensitive.html">管理敏感内容设置</a>
+
+warnbox_staging: 这是一个施工中的页面，其内容可能在将来发生破坏性改变。
+noticebox_tagme: 这个页面已知缺少重要标签。请帮忙添加标签。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md">贡献指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-cn.md">标签列表和解释</a>
 warnbox_expunge: 此页面已从列表页面和搜索结果中移除
+noticebox_replacedby: 这个游戏已被 <a href="%s">%s</a> 取代。因此不会显示在列表页面。
 
 sensitive_page_tip: |
   这将在所有 FGI 页面上启用显示敏感内容。<br>
   你必须在当地法律下达到成年标准后才可以打开上述选项。<br>
   你必须使用现代浏览器并启用 JavaScript。<br>
   修改该设置后需要刷新页面才能生效。
-
-warnbox_staging: 这是一个施工中的页面，其内容可能在将来发生破坏性改变。
-noticebox_tagme: 这个页面已知缺少重要标签。请帮忙添加标签。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md">贡献指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-cn.md">标签列表和解释</a>
 
 rss_desc: RSS Feed 将以时间顺序推送最近添加或编辑的 30 个游戏界面
 
