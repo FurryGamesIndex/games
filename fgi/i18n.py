@@ -45,6 +45,7 @@ def uil10n_load_base(l10ndir):
 
     with open(os.path.join(l10ndir, "en.yaml")) as stream:
         base_l10n = yaml.safe_load(stream)
+        keywords.preprocess_keywords(base_l10n)
 
     if args.args.extra_ui is not None:
         with open(os.path.join(args.args.extra_ui, "en.yaml")) as stream:
