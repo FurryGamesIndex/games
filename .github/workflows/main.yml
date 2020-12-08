@@ -31,7 +31,7 @@ jobs:
       run: |
         ./scripts/fix-mtime.sh
 
-    - name: gen
+    - name: build
       run: |
         python3 --version
         cwebp -version
@@ -77,14 +77,21 @@ jobs:
         git commit -m 'deploy cn website'
         git push -f origin master
         cd ..
-        rm -rf output
+        rm -rf output-cn
         mv _git .git
 
-    - name: cn-surge-publish
+    - name: next-build
+      run: |
+        ./scripts/build-next.sh init origin
+        ./scripts/build-next.sh build output-next || true
+        echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}"
+
+    - name: next-deploy
+      if: ${{ env.FGI_NEXT_DONE == '1' }}
       uses: dswistowski/surge-sh-action@v1
       with:
-        domain: 'cn.furrygames.top'
-        project: './output-cn'
+        domain: 'next-build.furrygames.top'
+        project: './output-next'
         login: ${{ secrets.surge_login }}
         token: ${{ secrets.surge_token }}
 

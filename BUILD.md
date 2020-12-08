@@ -56,11 +56,14 @@ FGI-next requires a `git` command and FGI source tree MUST be in a cleaning git 
 
 ```
 ./scripts/fix-mtime.sh
-./scripts/build-next.sh
+./scripts/build-next.sh init origin
+./scripts/build-next.sh build <output_path>
 ```
 
 > On Windows, you should use [MSYS2](https://www.msys2.org)
-> 
+>
+> If FGI git remote name is not "origin", please use `./scripts/build-next.sh init <your remote name>` instead.
+>
 > The script cannot clean up the git workspace after patching when the build fails, you need to clean it up manually. It can be automatically cleaned up when building successfully.
 
 ## More Options
