@@ -50,7 +50,7 @@ links:
   - name: .itch.io
     uri: https://ghostrickfrost.itch.io/the-beast-visual-novel
   - name: .twitter
-    uri: twitter:https://twitter.com/ghostiespectie
+    uri: twitter:ghostiespectie
 
 thumbnail: thumbnail.png
 
@@ -64,4 +64,4 @@ screenshots:
     uri: https://img.itch.zone/aW1hZ2UvNjQyODI5LzQ1NTIyMDcucG5n/original/ochiRY.png
 
 X-Created-by: Ghostie Spectie
-X-Co-authored-by: [ commiter@git ]
+X-Co-edited-by: [ commiter@git ]
