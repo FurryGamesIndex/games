@@ -29,7 +29,10 @@ Used to describe the type of game
 - `non-indie` This game is a non-indie game
 - `bara` Contains a lot of things of gay
 - `yuri` Contains a lot of things of lesbian
-- `yiff` Contains adult (R18) sensitive contents
+- `yiff` Contains adult contents. Pages that contain this tag will display a sensitive content warning message.
+- `gore` Contains grotesque contents. Pages that contain this tag will display a sensitive content warning message.
+- `comedy` STUB
+- `horror` STUB
 
 ## Namespace male/female
 
@@ -64,6 +67,7 @@ The following are automatic tags, they are no different from other tags when you
 - `hyena` Main characters include hyena furries
 - `raccoon` Main characters include raccoon furries
 - `shark` Main characters include shark furries
+- `dolphin` Main characters include dolphin furries
 - `deer` Main characters include deer furries
 - `bird` Main characters include bird furries
 - `red-panda` Main characters include red panda furries

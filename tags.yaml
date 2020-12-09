@@ -124,8 +124,24 @@ yuri:
 yiff:
   namespaces: [ type ]
   explanation:
-    en: 'Contains adult (R18) sensitive contents'
-    zh-cn: '包含成人（R-18）限制级内容的作品'
+    en: 'Contains adult contents. Pages that contain this tag will display a sensitive content warning message.'
+    zh-cn: '包含成人（R-18）内容的作品。包含此标签的页面将显示敏感内容警告信息。'
+
+gore:
+  namespaces: [ type ]
+  explanation:
+    en: 'Contains grotesque contents. Pages that contain this tag will display a sensitive content warning message.'
+    zh-cn: '包含怪诞内容的作品。包含此标签的页面将显示敏感内容警告信息。'
+
+comedy:
+  namespaces: [ type ]
+  explanation:
+    en: 'STUB'
+
+horror:
+  namespaces: [ type ]
+  explanation:
+    en: 'STUB'
 
 ###################################################
 ###################################################
@@ -270,6 +286,12 @@ shark:
   explanation:
     en: 'Main characters include shark furries'
     zh-cn: '主要角色包括鲨鱼兽人'
+
+dolphin:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include dolphin furries'
+    zh-cn: '主要角色包括海豚兽人'
 
 deer:
   namespaces: [ male, female ]
