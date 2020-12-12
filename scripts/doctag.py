@@ -59,7 +59,7 @@ def doctag_tag(name, data):
     explan = data["explanation"].get(lang, data["explanation"]["en"])
     aliases = ""
     if "alias" in data:
-        aliases = " (" + uilang[lang]["alias"] + ": `" + "`, `".join(data["alias"]) + "`)"
+        aliases = " (" + uilang[lang]["alias"] + "`" + "`, `".join(data["alias"]) + "`)"
     print(f"- `{name}` {explan}{aliases}")
 
 with open("tags.yaml") as f:

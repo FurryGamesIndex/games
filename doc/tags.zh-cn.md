@@ -46,22 +46,22 @@
 以下是自动标签，它们在你搜索游戏时和其他标签没有区别。 但如果你是游戏编辑者、贡献者，你不必为游戏手动添加自动标签， 因为它们将在必要时自动被添加 （如您添加 `male:cat` 标签，该游戏将自动继承 `male:felidae` 标签）
 
 
-- `feline` 主要角色包括猫科兽人 (标签别名：: `felidae`)
-- `canine` 主要角色包括犬科兽人 (标签别名：: `canidae`)
+- `feline` 主要角色包括猫科兽人 (标签别名：`felidae`)
+- `canine` 主要角色包括犬科兽人 (标签别名：`canidae`)
 - `mustelidae` 主要角色包括鼬科兽人
 - `reptilia` 主要角色包括爬行纲兽人
 
 ### 物种：杂类
 
 - `dragon` 主要角色包括龙兽人（仅西方龙）
-- `lung` 主要角色包括东方龙兽人 (标签别名：: `long`, `chinese-dragon`)
+- `lung` 主要角色包括东方龙兽人 (标签别名：`long`, `chinese-dragon`)
 - `mouse` 主要角色包括鼠兽人
 - `monkey` 主要角色包括猴子兽人
 - `bull` 主要角色包括牛兽人（只出现在 male 命名空间）
 - `cow` 主要角色包括牛兽人（只出现在 female 命名空间）
 - `sheep` 主要角色包括羊兽人
 - `horse` 主要角色包括马兽人
-- `rabbit` 主要角色包括兔兽人 (标签别名：: `hare`, `leporids`)
+- `rabbit` 主要角色包括兔兽人 (标签别名：`hare`, `leporids`)
 - `bear` 主要角色包括熊兽人
 - `pig` 主要角色包括猪兽人
 - `hyena` 主要角色包括鬣狗兽人
@@ -84,7 +84,7 @@
 
 ### 物种：犬科
 
-- `dog` 主要角色包括犬兽人 (标签别名：: `shibainu`, `husky`)
+- `dog` 主要角色包括犬兽人 (标签别名：`shibainu`, `husky`)
 - `wolf` 主要角色包括狼兽人
 - `fox` 主要角色包括狐兽人
 - `raccoon-dog` 主要角色包括貉兽人
@@ -130,7 +130,7 @@
 - `human-on-furry` 主要角色中，人类与兽人发生了性关系
 - `animal-on-furry` 主要角色中，动物或纯兽（非人形 furry）和兽人发生了性关系
 - `exhibitionism` 主要角色出现了在有可能被其他人看见的地方（如户外）进行自愿裸体或性行为
-- `netorare` 另一个角色的配偶/伴侣与某角色发生关系。 (标签别名：: `ntr`)
+- `netorare` 另一个角色的配偶/伴侣与某角色发生关系。 (标签别名：`ntr`)
 - `rape` STUB
 - `mind-break` 通过长时间或严格的性刺激来训练/使某人在心理上成为性奴隶（洗脑）
 - `mind-control` 强迫参与者（违背自己的意愿）自己做某事（催眠）
@@ -171,7 +171,7 @@
 - `engine-godot` 游戏使用了 GoDot 引擎
 - `adobe-flash` 游戏使用了 Adobe Flash 开发。不要与 `platform:shockwave-flash` 混淆，后者强调需要用户单独安装 Flash Player 才能运行。
 - `multiple-endings` 游戏有多种结局
-- `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo） (标签别名：: `ongoing`)
+- `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo） (标签别名：`ongoing`)
 - `multiple-series` 游戏包含多个世界观、剧情有联系的系列/版本（提示：如果世界观具有其特殊性且相近，即使剧情无联系，则仍然认为是同一系列（类似于数码宝贝1, 3）；如果世界观是一种常见的、朴实的、一般的世界，如“现代日本”，“中世纪欧洲”，则只有当剧情有联系时，才认为是同一系列。这个标签在使用上有时可能会倾向主观而非客观，如果有更多问题，请打开 issue 讨论）
 - `died` 游戏尚未完成时被作者宣布放弃（此标签存在时，请销毁 misc:work-in-process 标签）
 - `expired` 游戏的获取方式（如下载链接）已经失效（不管游戏是否完成前被放弃，只要不再存在获取方式。则使用此标签，不要与 misc:died 混淆）
@@ -213,15 +213,15 @@
 用于说明游戏发布在哪里
 
 - `steam` 游戏在 Steam 上有发布
-- `itchio` 游戏在 itch.io 上有发布 (标签别名：: `itch-io`, `itch`)
+- `itchio` 游戏在 itch.io 上有发布 (标签别名：`itch-io`, `itch`)
 - `patreon` 游戏在 Patreon 上有发布
 - `booth` 游戏在 BOOTH 上有发布
 - `digiket` 游戏在 DiGiket 上有发布
 - `website` 游戏在其网站上有发布
 - `google-play` 游戏在 Google Play 商店上有发布
 - `apple-appstore` 游戏在 Apple appstore 上有发布
-- `e-shop` 游戏在 Nintendo E-Shop 上有发布 (标签别名：: `nintendo-e-shop`)
-- `gog` 游戏在 gog.com 商店上有发布 (标签别名：: `gog-com`)
+- `e-shop` 游戏在 Nintendo E-Shop 上有发布 (标签别名：`nintendo-e-shop`)
+- `gog` 游戏在 gog.com 商店上有发布 (标签别名：`gog-com`)
 - `microsoft-store` 游戏在 Microsoft Store 商店上有发布
 
 ## platform 命名空间
@@ -230,8 +230,8 @@
 
 - `web` 游戏官方支持 Web 平台（HTML/JS/Canvas/WebGL/...）
 - `windows` 游戏官方支持 Microsoft Windows
-- `macos` 游戏官方支持 Apple macOS (标签别名：: `macintosh`, `osx`, `macosx`)
-- `linux` 游戏官方支持 GNU/Linux (标签别名：: `gnu-linux`)
+- `macos` 游戏官方支持 Apple macOS (标签别名：`macintosh`, `osx`, `macosx`)
+- `linux` 游戏官方支持 GNU/Linux (标签别名：`gnu-linux`)
 - `shockwave-flash` 游戏需要 Shockwave Flash (Adobe Flash Player) 以运行。特别地，此标签仅用于在发行 `.swf` 文件的游戏。如果发行的游戏包中捆绑了 Flash Player（如 Adobe AIR），不应使用此标签。所有使用了 Adobe Flash 技术的游戏都应该使用 `misc:adobe-flash`
 - `android` 游戏官方支持 Android
 - `ios` 游戏官方支持 Apple iOS
