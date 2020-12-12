@@ -27,11 +27,13 @@ lang = argv[1]
 uilang = {
     'en': {
         'namespace': '## Namespace %s',
-        'tip': 'If you want to add new tags, welcome to create issues for discussion.'
+        'tip': 'If you want to add new tags, welcome to create issues for discussion.',
+        'alias': 'Tag aliases: '
     },
     'zh-cn': {
         'namespace': '## %s 命名空间',
-        'tip': '如果你认为应该增加新的标签，欢迎创建 issues 讨论。'
+        'tip': '如果你认为应该增加新的标签，欢迎创建 issues 讨论。',
+        'alias': '标签别名：'
     }
 }
 
@@ -57,7 +59,7 @@ def doctag_tag(name, data):
     explan = data["explanation"].get(lang, data["explanation"]["en"])
     aliases = ""
     if "alias" in data:
-        aliases = " (Alias: `" + "`, `".join(data["alias"]) + "`)"
+        aliases = " (" + uilang[lang]["alias"] + ": `" + "`, `".join(data["alias"]) + "`)"
     print(f"- `{name}` {explan}{aliases}")
 
 with open("tags.yaml") as f:

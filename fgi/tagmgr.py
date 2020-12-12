@@ -94,7 +94,6 @@ def _patch_ns(game, ns, v):
             else:
                 v.append(j)
 
-
 def check_and_patch(game):
     for ns, v in game["tags"].items():
         if ns in tagdep:
@@ -107,12 +106,13 @@ def check_and_patch(game):
     for ns in game["tags"]:
         if ns != "author":
             v = list(set(game["tags"][ns]))
-            v = sorted(v, key=lambda i: tags[ns][i])
-            game["tags"][ns] = v
 
-            for i in v:
+            def sort_tag(i):
                 if i not in tags[ns]:
                     print("""Error: The tag '%s:%s' is not standardized.
 Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.""" % (ns, i))
                     sys.exit(1)
+                return tags[ns][i]
 
+            v = sorted(v, key=sort_tag)
+            game["tags"][ns] = v

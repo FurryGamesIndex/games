@@ -172,14 +172,16 @@ horror:
         因为它们将在必要时自动被添加
         （如您添加 `male:cat` 标签，该游戏将自动继承 `male:felidae` 标签）
 
-felidae:
+feline:
   namespaces: [ male, female ]
+  alias: [ felidae ]
   explanation:
     en: 'Main characters include feline furries'
     zh-cn: '主要角色包括猫科兽人'
 
 canine:
   namespaces: [ male, female ]
+  alias: [ canidae ]
   explanation:
     en: 'Main characters include canine furries'
     zh-cn: '主要角色包括犬科兽人'
@@ -211,6 +213,7 @@ dragon:
 
 lung:
   namespaces: [ male, female ]
+  alias: [ long, chinese-dragon ]
   explanation:
     en: 'Main characters include lung (Chinese dragon) furries'
     zh-cn: '主要角色包括东方龙兽人'
@@ -253,6 +256,7 @@ horse:
 
 rabbit:
   namespaces: [ male, female ]
+  alias: [ hare, leporids ]
   explanation:
     en: 'Main characters include rabbit furries'
     zh-cn: '主要角色包括兔兽人'
@@ -369,6 +373,7 @@ lynx:
 
 dog:
   namespaces: [ male, female ]
+  alias: [ shibainu, husky ]
   explanation:
     en: 'Main characters include dog furries'
     zh-cn: '主要角色包括犬兽人'
@@ -828,6 +833,7 @@ multiple-endings:
 
 work-in-process:
   namespaces: [ misc ]
+  alias: [ ongoing ]
   explanation:
     en: 'The game is ongoing'
     zh-cn: '游戏尚未完结（但有先行预览版本或 Demo）'
@@ -1040,6 +1046,7 @@ steam:
 
 itchio:
   namespaces: [ publish ]
+  alias: [ itch-io, itch ]
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 itch.io 上有发布'
@@ -1082,12 +1089,14 @@ apple-appstore:
 
 e-shop:
   namespaces: [ publish ]
+  alias: [ nintendo-e-shop ]
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 Nintendo E-Shop 上有发布'
 
 gog:
   namespaces: [ publish ]
+  alias: [ gog-com ]
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 gog.com 商店上有发布'
@@ -1122,12 +1131,14 @@ windows:
 
 macos:
   namespaces: [ platform ]
+  alias: [ macintosh, osx, macosx ]
   explanation:
     en: 'Apple macOS'
     zh-cn: '游戏官方支持 Apple macOS'
 
 linux:
   namespaces: [ platform ]
+  alias: [ gnu-linux ]
   explanation:
     en: 'GNU/Linux'
     zh-cn: '游戏官方支持 GNU/Linux'

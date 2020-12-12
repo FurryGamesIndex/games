@@ -70,12 +70,10 @@ def load_game_all(dbdir, sdb):
 
         games[game_id] = game
 
-    games = sorted_games(games)
-
-    for game_id, game in games.items():
         tagmgr.check_and_patch(game)
         sdb.update(game)
 
+    games = sorted_games(games)
     return games
 
 def list_pymod(dirname):

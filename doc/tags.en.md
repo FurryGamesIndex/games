@@ -46,22 +46,22 @@ Unless otherwise specified, the male namespace indicates the furry/human physiol
 The following are automatic tags, they are no different from other tags when you search for games. But if you are a game editor or contributor, you don’t have to manually add automatic tags to the game, Because they will be added automatically when necessary (For example, If you add the `male:cat` tag, the game will automatically inherit the `male:felidae` tag)
 
 
-- `felidae` Main characters include feline furries
-- `canine` Main characters include canine furries
+- `feline` Main characters include feline furries (Tag aliases: : `felidae`)
+- `canine` Main characters include canine furries (Tag aliases: : `canidae`)
 - `mustelidae` Main characters include mustelidae furries
 - `reptilia` Main characters include reptilia furries
 
 ### Biological species: Miscellaneous
 
 - `dragon` Main characters include dragon furries (western cultures dragon only)
-- `lung` Main characters include lung (Chinese dragon) furries
+- `lung` Main characters include lung (Chinese dragon) furries (Tag aliases: : `long`, `chinese-dragon`)
 - `mouse` Main characters include mouse furries
 - `monkey` Main characters include monkey furries
 - `bull` Main characters include monkey furries (only in namespace male)
 - `cow` Main characters include monkey furries (only in namespace female)
 - `sheep` Main characters include sheep furries
 - `horse` Main characters include horse furries
-- `rabbit` Main characters include rabbit furries
+- `rabbit` Main characters include rabbit furries (Tag aliases: : `hare`, `leporids`)
 - `bear` Main characters include bear furries
 - `pig` Main characters include pig furries
 - `hyena` Main characters include hyena furries
@@ -84,7 +84,7 @@ The following are automatic tags, they are no different from other tags when you
 
 ### Biological species: Canine
 
-- `dog` Main characters include dog furries
+- `dog` Main characters include dog furries (Tag aliases: : `shibainu`, `husky`)
 - `wolf` Main characters include wolf furries
 - `fox` Main characters include fox furries
 - `raccoon-dog` Main characters include raccoon furries
@@ -130,7 +130,7 @@ The following are automatic tags, they are no different from other tags when you
 - `human-on-furry` Sexual activity between a humankind creature and a furry
 - `animal-on-furry` Sexual activity between a animal/non-anthro and a furry
 - `exhibitionism` 
-- `netorare`  (Alias: `ntr`)
+- `netorare`  (Tag aliases: : `ntr`)
 - `rape` STUB
 - `mind-break` 
 - `mind-control` 
@@ -171,7 +171,7 @@ Used to describe miscellaneous information related to the game
 - `engine-godot` The game is developed using GoDot engine
 - `adobe-flash` The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.
 - `multiple-endings` There are multiple different endings in the game
-- `work-in-process` The game is ongoing
+- `work-in-process` The game is ongoing (Tag aliases: : `ongoing`)
 - `multiple-series` The game is included in a series of connected worldviews or plots
 - `died` When the game is not finished, the author announced to give up (If this tag exists, please destroy the misc:work-in-process tag)
 - `expired` The acquisition method (such as download links) for the game is no longer valid (whether the game was abandoned before completion or not. Not to be confused with misc:died)
@@ -213,15 +213,15 @@ The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 Indicate where the game is released
 
 - `steam` Self-pleasuring.
-- `itchio` Self-pleasuring.
+- `itchio` Self-pleasuring. (Tag aliases: : `itch-io`, `itch`)
 - `patreon` Self-pleasuring.
 - `booth` Self-pleasuring.
 - `digiket` Self-pleasuring.
 - `website` Self-pleasuring.
 - `google-play` Self-pleasuring.
 - `apple-appstore` Self-pleasuring.
-- `e-shop` Self-pleasuring.
-- `gog` Self-pleasuring.
+- `e-shop` Self-pleasuring. (Tag aliases: : `nintendo-e-shop`)
+- `gog` Self-pleasuring. (Tag aliases: : `gog-com`)
 - `microsoft-store` Self-pleasuring.
 
 ## Namespace platform
@@ -230,8 +230,8 @@ The operating systems and platforms offical supported by the game
 
 - `web` Web platform (Play in web browser) (HTML/JS/Canvas/WebGL/...)
 - `windows` Microsoft Windows
-- `macos` Apple macOS
-- `linux` GNU/Linux
+- `macos` Apple macOS (Tag aliases: : `macintosh`, `osx`, `macosx`)
+- `linux` GNU/Linux (Tag aliases: : `gnu-linux`)
 - `shockwave-flash` The game requires Shockwave Flash (Adobe Flash Player) to run. In particular, this tag is only used for games that are distributed with `.swf` files. This tag should not be used if Flash Player is bundled with the game package (e.g. Adobe AIR). All games that use Adobe Flash technology should use `misc:adobe-flash`
 - `android` Android
 - `ios` Apple iOS
