@@ -19,9 +19,30 @@
 
 import os
 import yaml
+from html import escape
+from bs4 import BeautifulSoup
+from markdown2 import Markdown
 
-from fgi.i18n import get_languages_list
+from fgi import image
 from fgi import tagmgr
+from fgi.i18n import get_languages_list
+
+
+def parse_description(game, fmt, game_id):
+    if "description" not in game:
+        return
+
+    desc = game["description"]
+
+    if fmt == "plain":
+        game["@desc_html"] = escape(desc).replace("\n", "<br>")
+    elif fmt == "markdown":
+        markdowner = Markdown(extras=["strike", "target-blank-links"],
+                inline_image_uri_filter = lambda uri: image.uri("../..", uri, game_id))
+        game["@desc_html"] = markdowner.convert(desc)
+        game["description"] = BeautifulSoup(game["@desc_html"], features="html.parser").get_text()
+    else:
+        raise ValueError(f"description format invaild: {fmt}")
 
 def load_game(dbdir, f, languages):
     game = None
@@ -39,6 +60,11 @@ def load_game(dbdir, f, languages):
         game["tr"] = {}
         game["mtime"] = os.path.getmtime(fn)
 
+        if "description-format" not in game:
+            game["description-format"] = "plain"
+
+        parse_description(game, game["description-format"], game_id)
+
     for language in languages:
         l10n_file = os.path.join(dbdir, "l10n", language, f)
         if os.path.isfile(l10n_file):
@@ -46,6 +72,7 @@ def load_game(dbdir, f, languages):
             with open(l10n_file) as stream:
                 game["tr"][language] = yaml.safe_load(stream)
                 game["tr"][language]["mtime"] = os.path.getmtime(l10n_file)
+                parse_description(game["tr"][language], game["description-format"], game_id)
 
     return (game, game_id)
 

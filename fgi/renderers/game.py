@@ -21,7 +21,6 @@ import os
 import re
 from fgi import image
 from fgi.i18n import get
-from fgi.i18n import get_desc
 from fgi.link import link_info
 from fgi.seo.sitemap import openw_with_sm
 from fgi.seo import keywords
@@ -51,7 +50,6 @@ context = {
     "rr": "../..",
     "image": image,
     "get": get,
-    "get_desc": get_desc,
     "link_info": link_info,
     "checktag": checktag,
     "platform_icons": platform_icons

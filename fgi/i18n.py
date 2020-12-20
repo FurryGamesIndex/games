@@ -19,10 +19,8 @@
 
 import os
 import yaml
-from html import escape
 from markdown2 import Markdown
 
-from fgi import image
 from fgi import args
 from fgi.seo import keywords
 from fgi.plugin import invoke_plugins
@@ -85,17 +83,6 @@ def get(game, language, key):
         return l10n_value
     else:
         return game[key]
-
-def get_desc(rr, game, language):
-    desc = get(game, language, "description")
-    if "description-format" not in game:
-        return escape(desc).replace("\n", "<br>")
-    elif game["description-format"] == "markdown":
-        markdowner = Markdown(extras=["strike", "target-blank-links"],
-                inline_image_uri_filter = lambda uri: image.uri(rr, uri, game["id"]))
-        return markdowner.convert(desc)
-    else:
-        raise ValueError("description format invaild")
 
 doc_markdowner = Markdown(extras=["tables", "metadata"])
 doc_md_cache = dict()
