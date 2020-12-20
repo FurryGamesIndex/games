@@ -16,7 +16,7 @@ FGI 的標籤包含兩部分，可選的 “名稱空間” 和 “值”。例�
 
 標籤之間還可能存在依賴關係，但這對於搜尋來講無關緊要。
 
-你可以從 [這裡](https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-tw.md) 檢視 FGI 當前支援的全部標籤的列表。如果你認為應該新增更多標籤，歡迎聯絡我們。
+**你可以從 [這裡](https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-tw.md) 檢視 FGI 當前支援的全部標籤的列表。如果你發現某個遊戲缺失它該有的標籤，歡迎參與貢獻。如果你認為應該新增更多標籤，歡迎聯絡我們。**
 
 ## 基本的搜尋
 

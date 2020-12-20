@@ -36,7 +36,7 @@ The value portion of the tag may have one or more "aliases", e.g. the `netorare`
 
 There may also be dependencies between tags, but this is irrelevant for search purposes.
 
-You can see a list of all the tags currently supported by FGI from [here](https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md). If you think more tags should be added, feel free to contact us.
+**You can see a list of all the tags currently supported by FGI from [here](https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md). If you find that a game is missing tag(s), feel free to contribute. If you think more tags should be added, feel free to contact us.**
 
 ## Basic Search
 
