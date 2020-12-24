@@ -1,0 +1,66 @@
+name: Cryptid Crush
+
+description: |
+  ![](https://img.itch.zone/aW1nLzQ4MjAxODcucG5n/original/qfVEPD.png)
+  
+  **Cryptid Crush is a TTRPG inspired Monster Visual Novel with eldritch elements!**
+  
+  *As a newcomer to the seaside town of Longhope, you find yourself surrounded by monsters of urban myth. Haunted by the cat specter Taro, your journey begins alongside the wingless Jersey Devil Jamie and the pint-sized Mothman Atlas.*
+  
+  Cryptid Crush will feature at *least* FOUR monster singles, this demo highlights the dynamics between two of them. 
+  
+  Check out our [twitter!](https://twitter.com/cryptidcrush?lang=en)
+  
+  *Major thanks to our playtesters, friends and folk heroes like you!*
+
+  Note: The accessibility menu can be toggled by pressing the **A** key.
+  
+  Self-voicing mode can be toggled by pressing the **V** key.  
+  
+description-format: markdown
+
+tags:
+  author:
+    - Drowsy Drake
+  type:
+    - visual-novel
+    - bara
+    - yuri
+  male:
+    - bird
+    - dragon
+    - cat
+    - non-anthro
+    - humankind
+    - muscle
+  female:
+    - bird
+    - monkey
+    - non-anthro
+    - humankind
+  misc:
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://cryptid-keep.itch.io/cryptid-crush
+  - name: .twitter
+    uri: twitter:DrakeDrowsy
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzQ1NzI4OTEucG5n/original/p%2F7oMG.png
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzQ1NzI4OTIucG5n/original/%2FEzQXn.png
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzQ1NzI4OTAucG5n/original/%2Bg07Qa.png
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzQ1NzI4ODYucG5n/original/4OX1iZ.png
