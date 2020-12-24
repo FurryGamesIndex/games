@@ -49,6 +49,9 @@ tags:
 links:
   - name: .itch.io
     uri: https://satyroom.itch.io/heroicsphere-episode1
+  - name: .demo-version
+    icon: itch.io
+    uri: https://satyroom.itch.io/short-versheroicsphere-episode1-cyberwolf-barafurry
   - name: .twitter
     uri: twitter:satyroom
   - name: .discord
