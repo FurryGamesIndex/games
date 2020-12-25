@@ -26,6 +26,7 @@ from shutil import copyfile
 from html import escape
 
 from .utils.webutils import dl
+from .utils.uriutils import append_query
 from .utils import webp
 from fgi import args
 from fgi.plugin import invoke_plugins
@@ -69,7 +70,7 @@ class HTMLImage:
         self.alt = None
         self.width = 0
         self.height = 0
-        self.query = ""
+        self.query = dict()
         pass
 
     @property
@@ -119,10 +120,10 @@ class HTMLImage:
         if len(self.sources) > 1 and use_picture:
             code = "<picture>"
             for i in self.sources:
-                code += f"<source srcset='{i.srcset.uri}{self.query}' type='{i.type}'>"
-            code += f"<img {node}src='{self.src}{self.query}' alt='{escape(self.alt)}'></picture>"
+                code += f"<source srcset='{append_query(i.srcset.uri, self.query)}' type='{i.type}'>"
+            code += f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(self.alt)}'></picture>"
         else:
-            code = f"<img {node}src='{self.src}{self.query}' alt='{escape(self.alt)}'>"
+            code = f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(self.alt)}'>"
 
         return code
 
@@ -135,12 +136,12 @@ class HTMLImage:
 
     def dict(self):
         tmp = dict()
-        tmp["src"] = self.src + self.query
+        tmp["src"] = append_query(self.src, self.query)
         tmp["source"] = list()
 
         for i in self.sources:
             source = dict()
-            source["srcset"] = i.srcset.uri + self.query
+            source["srcset"] = append_query(i.srcset.uri, self.query)
             source["type"] = i.type
             tmp["source"].append(source)
 
@@ -156,7 +157,8 @@ class HTMLImage:
             hi.set_size_by_image_softfail(image)
 
         if image.mtime:
-            hi.query = f"?hc=uquery&t={int(image.mtime)}"
+            hi.query["hc"] = "uquery"
+            hi.query["t"] = int(image.mtime)
 
         return hi
 
