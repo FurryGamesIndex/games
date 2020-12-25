@@ -133,6 +133,18 @@ class HTMLImage:
         except:
             print(f"[warning] can not load image '{image.path}' for setting html image size")
 
+    def dict(self):
+        tmp = dict()
+        tmp["src"] = self.src
+        tmp["source"] = list()
+
+        for i in self.sources:
+            source = dict()
+            source["srcset"] = i.srcset.uri
+            source["type"] = i.type
+            tmp["source"].append(source)
+
+        return tmp
 
     @staticmethod
     def from_image(image):

@@ -16,7 +16,8 @@
 </div>
 <div class="items">
 	<div class="item hide">
-		<div class="_thumbnail"></div>
+		<picture class="_thumbnail">
+		</picture>
 		<div class="content">
 			<div class="name"><a href="#" class="name_a"></a></div>
 			<div class="description"></div>
@@ -50,7 +51,20 @@ let add = (id, game) => {
 	const item = template.cloneNode(true);
 	item.classList.remove("hide");
 
-	item.querySelector("._thumbnail").outerHTML = game.thumbnail;
+	const _prefix = "{{ res(rr, '') }}"
+	const thumb = item.querySelector("._thumbnail");
+
+	game.thumbnail.source.forEach(i => {
+		const source = document.createElement("source");
+		source.setAttribute("type", i.type);
+		source.setAttribute("srcset", _prefix + i.srcset);
+		thumb.appendChild(source);
+	});
+
+	const thumb_src = document.createElement("img");
+	thumb_src.src = _prefix + game.thumbnail.src;
+	thumb_src.classList.add("thumbnail")
+	thumb.appendChild(thumb_src)
 
 	const link = item.querySelector(".name_a");
 	link.textContent = getL10n(game, "name");
