@@ -96,8 +96,6 @@ Recommend build arguments:
             img = i.srcset
             if not img.is_remote:
                 suffix = remove_image_path_rr_parents(img.uri)
-                if suffix.startswith("assets/"):
-                    suffix += "?hc=always&cors=1"
                 img.uri = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io/" + suffix
                 img.is_remote = True
 

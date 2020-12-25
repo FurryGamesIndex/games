@@ -52,6 +52,7 @@ class Image:
         self.uri = uri
         self.is_remote = regexp.match(uri)
         self.path = None
+        self.mtime = None
 
 class HTMLPictureSource:
     def __init__(self, srcset, mime):
@@ -68,6 +69,7 @@ class HTMLImage:
         self.alt = None
         self.width = 0
         self.height = 0
+        self.query = ""
         pass
 
     @property
@@ -117,10 +119,10 @@ class HTMLImage:
         if len(self.sources) > 1 and use_picture:
             code = "<picture>"
             for i in self.sources:
-                code += f"<source srcset='{i.srcset.uri}' type='{i.type}'>"
-            code += f"<img {node}src='{self.src}' alt='{escape(self.alt)}'></picture>"
+                code += f"<source srcset='{i.srcset.uri}{self.query}' type='{i.type}'>"
+            code += f"<img {node}src='{self.src}{self.query}' alt='{escape(self.alt)}'></picture>"
         else:
-            code = f"<img {node}src='{self.src}' alt='{escape(self.alt)}'>"
+            code = f"<img {node}src='{self.src}{self.query}' alt='{escape(self.alt)}'>"
 
         return code
 
@@ -140,6 +142,9 @@ class HTMLImage:
         if not image.is_remote \
                 and os.path.exists(image.path):
             hi.set_size_by_image_softfail(image)
+
+        if image.mtime:
+            hi.query = f"?hc=uquery&t={int(image.mtime)}"
 
         return hi
 
@@ -169,6 +174,8 @@ def uri_to_html_image(rr, imageuri, gameid, alt = None):
     else:
         path = "assets/" + gameid + "/" + image.uri
         image.path = os.path.join(args.args.output, path)
+        if os.path.exists(image.path):
+            image.mtime = os.path.getmtime(image.path)
         image.uri = rr + "/" + path
 
     path = image.path
