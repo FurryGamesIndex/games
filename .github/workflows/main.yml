@@ -53,6 +53,7 @@ jobs:
         cd output
         git init
         git remote add origin git@github.com:FurryGamesIndex/FurryGamesIndex.github.io
+        echo "FGI_GITHUB_PAGES_REV=$(git rev-parse HEAD)" >> "${GITHUB_ENV}"
         git add .
         git commit -m 'deploy website'
         git push -f origin master
@@ -62,7 +63,14 @@ jobs:
 
     - name: cn-build
       run: |
-        ./generate.py --no-sitemap --images-candidate-webp --with-rss --plugin steam-cdn-unite,cdn=china --plugin cn-optimize --plugin webp-converter-stub output-cn
+        ./generate.py \
+            --no-sitemap \
+            --images-candidate-webp \
+            --with-rss \
+            --plugin steam-cdn-unite,cdn=china \
+            --plugin cn-optimize,rev="$FGI_GITHUB_PAGES_REV" \
+            --plugin webp-converter-stub \
+            output-cn
 
     - name: cn-deploy
       run: | 
@@ -83,8 +91,7 @@ jobs:
     - name: next-build
       run: |
         ./scripts/build-next.sh init origin
-        ./scripts/build-next.sh build output-next || true
-        echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}"
+        ./scripts/build-next.sh build output-next && echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}" || true
 
     - name: next-deploy
       if: ${{ env.FGI_NEXT_DONE == '1' }}

@@ -50,6 +50,8 @@ Recommend build arguments:
         --plugin webp-converter-stub
 """)
 
+        self.rev = "master"
+
         super().__init__(options)
 
     def i18n_post_ll_done(self, ll, *args, **kwargs):
@@ -78,7 +80,7 @@ Recommend build arguments:
     def html_local_res_href(self, mod, rr = None, path = None, hc_uquery = None, *args, **kwargs):
         if not mod:
             mod = dict()
-            mod["new_uri"] = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@master" + path
+            mod["new_uri"] = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@" + self.rev + path
             mod["query_mode"] = "managed"
 
             query = ""
@@ -98,7 +100,7 @@ Recommend build arguments:
             img = i.srcset
             if not img.is_remote:
                 suffix = remove_image_path_rr_parents(img.uri)
-                img.uri = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@master/" + suffix
+                img.uri = f"https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@{self.rev}/{suffix}"
                 img.is_remote = True
                 modified = True
 
