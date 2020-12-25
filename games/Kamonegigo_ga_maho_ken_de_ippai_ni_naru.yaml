@@ -80,8 +80,10 @@ tags:
     - windows
 
 links:
-  - name: Get on Digiket
+  - name: .digiket
     uri: https://www.digiket.com/work/show/_data/ID=ITM0198506/
+  - name: .steam
+    uri: steam:1270230
   - name: .website
     uri: https://kagiz.x.fc2.com/index.html
 
