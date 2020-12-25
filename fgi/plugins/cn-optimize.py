@@ -62,6 +62,7 @@ Recommend build arguments:
         output = kwargs["output_path"]
         shutil.rmtree(os.path.join(output, "assets"))
         shutil.rmtree(os.path.join(output, "styles"))
+        shutil.rmtree(os.path.join(output, "scripts"))
         shutil.rmtree(os.path.join(output, "webfonts"))
         with open(os.path.join(output, "CNAME"), "w") as f:
             f.write("cn.furrygames.top\n")
@@ -79,22 +80,6 @@ Recommend build arguments:
 
     def html_local_res_href(self, mod, rr = None, path = None, hc_uquery = None, *args, **kwargs):
         if not mod:
-
-            # FIXME: dirty hack
-            #
-            # China version searchdb.json contains different image URIs
-            # If we use upstream version, service worker will be confused
-            # and it will cause duplicate caching.
-            #
-            # We must specify git rev in the jsdelivr URI. Because jsdelivr
-            # may have cache timeliness issues. If it is cached by the
-            # service worker when the jsdelivr is not refreshed, it is a fatal.
-            #
-            # Therefore, we must copy this file when CI is built.
-            # See .github/workflows/main.yml
-            if path == "/scripts/searchdb.json":
-                path = "/scripts/searchdb-cn.json"
-
             mod = dict()
             mod["new_uri"] = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@" + self.rev + path
             mod["query_mode"] = "managed"

@@ -37,18 +37,6 @@ jobs:
         cwebp -version
         ./generate.py --images-candidate-webp --with-rss --plugin steam-cdn-unite,verbose=1 output
 
-    - name: cn-build
-      run: |
-        ./generate.py \
-            --no-sitemap \
-            --images-candidate-webp \
-            --with-rss \
-            --plugin steam-cdn-unite,cdn=china \
-            --plugin cn-optimize,rev="$FGI_GITHUB_PAGES_REV" \
-            --plugin webp-converter-stub \
-            output-cn
-        cp output-cn/scripts/searchdb.json output/scripts/searchdb-cn.json
-
     - name: ssh-key
       uses: shimataro/ssh-key-action@v2
       with:
@@ -72,6 +60,17 @@ jobs:
         cd ..
         rm -rf output
         mv _git .git
+
+    - name: cn-build
+      run: |
+        ./generate.py \
+            --no-sitemap \
+            --images-candidate-webp \
+            --with-rss \
+            --plugin steam-cdn-unite,cdn=china \
+            --plugin cn-optimize,rev="$FGI_GITHUB_PAGES_REV" \
+            --plugin webp-converter-stub \
+            output-cn
 
     - name: cn-deploy
       run: | 
