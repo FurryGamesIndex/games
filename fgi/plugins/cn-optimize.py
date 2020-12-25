@@ -92,11 +92,20 @@ Recommend build arguments:
         return mod
 
     def image_post_html_image_done(self, hi, *args, **kwargs):
+        modified = False
+
         for i in hi.sources:
             img = i.srcset
             if not img.is_remote:
                 suffix = remove_image_path_rr_parents(img.uri)
                 img.uri = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io/" + suffix
                 img.is_remote = True
+                modified = True
+
+        if modified:
+            if hi.query == "":
+                hi.query = "?cors=1"
+            else:
+                hi.query += "&cors=1"
 
 impl = ChinaOptimizePlugin
