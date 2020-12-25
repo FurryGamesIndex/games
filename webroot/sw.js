@@ -1,4 +1,4 @@
-const CACHE_NAME = "sw:i:5"
+const CACHE_NAME = "sw:i:6"
 
 self.addEventListener('activate', async e => {
 	e.waitUntil((async () => {
@@ -43,6 +43,11 @@ self.addEventListener('fetch', async e => {
 		    !url.pathname.startsWith("/styles/") &&
 		    !url.pathname.startsWith("/webfonts/"))
 			return fetch(e.request.clone());
+
+		if (url.hostname !== self.location.hostname && !cors) {
+			cors = true;
+			console.warn("sw: cross-domain request should use CORS. Opaque cache avoided. URI:", e.request.url);
+		}
 
 		const cache = await caches.open(CACHE_NAME);
 		let resp = await cache.match(name);
