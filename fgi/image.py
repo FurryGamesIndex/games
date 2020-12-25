@@ -135,12 +135,12 @@ class HTMLImage:
 
     def dict(self):
         tmp = dict()
-        tmp["src"] = self.src
+        tmp["src"] = self.src + self.query
         tmp["source"] = list()
 
         for i in self.sources:
             source = dict()
-            source["srcset"] = i.srcset.uri
+            source["srcset"] = i.srcset.uri + self.query
             source["type"] = i.type
             tmp["source"].append(source)
 
