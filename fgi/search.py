@@ -21,7 +21,7 @@ import os
 import json
 import base64
 
-from fgi import image
+from fgi.image import uri_to_html_image
 from fgi import args
 
 class searchdb:
@@ -50,7 +50,7 @@ class searchdb:
             data["tr"] = {}
             data["name"] = game["name"]
             data["description"] = game["description"]
-            data["thumbnail"] = "/assets/" + game["id"] + "/" + game["thumbnail"]
+            data["thumbnail"] = uri_to_html_image("..", game["thumbnail"], game["id"]).html(node_class="thumbnail")
             data["mtime"] = game["mtime"]
 
             for lang in game["tr"]:
@@ -64,11 +64,13 @@ class searchdb:
 
     def write_to_file(self, output):
         if not self.no_data:
+            data = json.dumps(self.db, separators=(',', ':'))
+
             with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
-                f.write(json.dumps(self.db))
+                f.write(data)
 
             if args.args.file_uri_workaround:
                 with open(os.path.join(output, "scripts", "searchdb_offline.js"), "w") as f:
                     f.write("var _searchdb=JSON.parse(atob('")
-                    f.write(base64.b64encode(json.dumps(self.db).encode('utf-8')).decode('ascii'))
+                    f.write(base64.b64encode(data.encode('utf-8')).decode('ascii'))
                     f.write("'))")

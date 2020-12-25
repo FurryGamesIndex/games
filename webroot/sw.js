@@ -1,4 +1,4 @@
-const CACHE_NAME = "sw:i:3"
+const CACHE_NAME = "sw:i:4"
 
 self.addEventListener('activate', async e => {
 	e.waitUntil((async () => {
