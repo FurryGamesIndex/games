@@ -15,7 +15,8 @@ self.addEventListener('fetch', async e => {
 		const url = new URL(e.request.url);
 		let nohint = true,
 			uquery = false,
-			cors = false;
+			cors = false,
+			name = e.request;
 
 		if (URL.prototype.hasOwnProperty("searchParams")) {
 			hc = url.searchParams.get("hc");
@@ -30,6 +31,11 @@ self.addEventListener('fetch', async e => {
 					cors = true;
 				}
 			}
+			const uid = url.searchParams.get("uid");
+			if (uid != null) {
+				url.searchParams.delete("uid");
+				name = "/_virtual/" + uid + url.search;
+			}
 		}
 
 		if (nohint &&
@@ -39,10 +45,10 @@ self.addEventListener('fetch', async e => {
 			return fetch(e.request.clone());
 
 		const cache = await caches.open(CACHE_NAME);
-		let resp = await cache.match(e.request);
+		let resp = await cache.match(name);
 		if (!resp) {
 			if (uquery) {
-				const oldresp = await cache.matchAll(e.request, {
+				const oldresp = await cache.matchAll(name, {
 					"ignoreSearch": true
 				});
 				if (oldresp != null) {
@@ -61,7 +67,7 @@ self.addEventListener('fetch', async e => {
 			resp = await fetch(req);
 			if (resp.status < 400) {
 				console.log('sw: caching the response to', e.request.url);
-				await cache.put(e.request, resp.clone());
+				await cache.put(name, resp.clone());
 			}
 		}
 		return resp;
