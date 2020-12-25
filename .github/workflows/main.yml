@@ -53,9 +53,9 @@ jobs:
         cd output
         git init
         git remote add origin git@github.com:FurryGamesIndex/FurryGamesIndex.github.io
-        echo "FGI_GITHUB_PAGES_REV=$(git rev-parse HEAD)" >> "${GITHUB_ENV}"
         git add .
         git commit -m 'deploy website'
+        echo "FGI_GITHUB_PAGES_REV=$(git rev-parse HEAD)" >> "${GITHUB_ENV}"
         git push -f origin master
         cd ..
         rm -rf output
