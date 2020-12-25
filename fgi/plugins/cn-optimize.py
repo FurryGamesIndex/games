@@ -20,6 +20,7 @@
 import os
 import re
 import shutil
+from urllib.parse import quote
 from fgi.plugin import Plugin
 
 def remove_image_path_rr_parents(path):
@@ -85,7 +86,7 @@ Recommend build arguments:
 
             query = ""
             if hc_uquery is not None:
-                query = f"?hc=uquery&t={hc_uquery}&cors=1"
+                query = f"?hc=uquery&t={hc_uquery}&cors=1&uid=v1/" + quote(path, safe='')
             else:
                 if path.startswith("styles/"):
                     query = "?hc=always&cors=1"
@@ -100,14 +101,11 @@ Recommend build arguments:
             img = i.srcset
             if not img.is_remote:
                 suffix = remove_image_path_rr_parents(img.uri)
-                img.uri = f"https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@{self.rev}/{suffix}"
+                img.uri = f"https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@{self.rev}/{suffix}?uid=v1/{quote(suffix, safe='')}"
                 img.is_remote = True
                 modified = True
 
         if modified:
-            if hi.query == "":
-                hi.query = "?cors=1"
-            else:
-                hi.query += "&cors=1"
+            hi.query["cors"] = "1"
 
 impl = ChinaOptimizePlugin
