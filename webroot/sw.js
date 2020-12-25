@@ -42,14 +42,15 @@ self.addEventListener('fetch', async e => {
 		let resp = await cache.match(e.request);
 		if (!resp) {
 			if (uquery) {
-				cache.matchAll(e.request, {
+				const oldresp = await cache.matchAll(e.request, {
 					"ignoreSearch": true
-				}).then(resp => {
-					resp.forEach((el, index, arr) => {
+				});
+				if (oldresp != null) {
+					oldresp.forEach((el, index, arr) => {
 						console.log('sw: deleting the response to', el.url);
 						cache.delete(el.url);
 					});
-				});
+				}
 			}
 			let req;
 			if (cors) {
