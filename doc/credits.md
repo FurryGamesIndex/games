@@ -79,9 +79,3 @@ MIT License
 ## GNU Coreutils
 
 [https://www.gnu.org/software/coreutils/](https://www.gnu.org/software/coreutils/)
-
-## CSSnowflakes
-
-[MIT License](https://github.com/pajasevi/CSSnowflakes/blob/master/LICENSE)
-
-<https://pajasevi.github.io/CSSnowflakes/>
