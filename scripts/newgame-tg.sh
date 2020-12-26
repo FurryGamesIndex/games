@@ -40,6 +40,8 @@ while read -r i ; do
 	uri_en="https://furrygames.top/en/games/${i}.html"
 	grep '^expunge:' "games/$i.yaml" > /dev/null 2>&1
 	[ "$?" = "0" ] && i="$i (Expunged)"
+	grep '^replaced-by:' "games/$i.yaml" > /dev/null 2>&1
+	[ "$?" = "0" ] && i="$i (Be Replaced)"
 	games_zh="${games_zh}<a href='${uri}'>${i}</a>${nl}"
 	games_en="${games_en}<a href='${uri_en}'>${i}</a>${nl}"
 done <<< "$games"
