@@ -1,0 +1,3 @@
+## replaced-by Type
+
+`string`
