@@ -12,7 +12,7 @@ description: |
 
   Next sequel: [Khemia](Khemia.html)
 
-description-format: markdown223
+description-format: markdown
 
 tags:
   author:
@@ -52,7 +52,6 @@ tags:
     - android
 
 links:
-  - err: abc
   - name: .itch.io
     uri: https://echoproject.itch.io/adastra
   - name: .patreon
@@ -69,11 +68,6 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - abc: def
-    xxxx: yyyy
-    z:
-      - 1
-      - 2
   - https://i.imgur.com/mue7WCx.png
   - https://i.imgur.com/syIeL3g.png
 
