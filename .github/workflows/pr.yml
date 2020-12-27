@@ -16,11 +16,12 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: ${{ github.event.pull_request.head.sha }}
+        fetch-depth: 0
 
     - name: install-dep
       run: |
         sudo apt -y update || true
-        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip python3-setuptools python3-pil python3-bs4
+        sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip python3-setuptools python3-pil python3-bs4 python3-jsonschema
         pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2
 
     - name: validate
