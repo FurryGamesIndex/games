@@ -1,0 +1,172 @@
+type: object
+title: GameEntry
+description: |
+  A game entry in FGI's game database.
+properties:
+  name:
+    type: string
+    description: |
+      The name of the game.
+
+      For English games, it should be `Game name`.
+
+      For non-English games, it should be `English name / Original name` or `Original name`.
+  description:
+    type: string
+    description: |
+      The description of the game. In English.
+  description-format:
+    type: string
+    enum:
+      - plain
+      - markdown
+    description: |
+      Game description should be `plain` (default) text or will be rendered by `markdown`.
+  expuged:
+    type: boolean
+    description: |
+      `true` if the game entry should be expuged.
+
+      If the game is not expuged, do not add this property.
+  replaced-by:
+    type: string
+    description: |
+      A game ID who the owner has replaced this game.
+
+      If the game is not replaced by another game, do not add this property.
+  tags:
+    type: object
+    title: TagDict
+    description: |
+      The tags of the game.
+    patternProperties:
+      "":
+        type: array
+        title: NamespaceTagArray
+        description: |
+          The key is the namespace name. Must be defined in `tags.yaml`.
+
+          The value is a array of tags in the namespace.
+        items:
+          type: string
+          description: |
+            The tags name. Must be defined in `tags.yaml`.
+  links:
+    type: array
+    items:
+      title: Link
+      properties:
+        name:
+          type: string
+          description: |
+            A stock name (begin with .) or the English name of the link.
+        icon:
+          type: string
+          title: IconName
+          description: |
+            Override the icon of the link.
+        uri:
+          type: string
+          description: |
+            The URI of the link.
+        rel:
+          type: string
+          description: |
+            The "rel" html element attribute.
+      required: [ name, uri ]
+  thumbnail:
+    type: string
+    description: |
+      The path or URI of the thumbnail image of the game.
+  sensitive_media:
+    type: boolean
+    description: |
+      `true` if at last one of the screenshots is sensitive.
+  screenshots:
+    type: array
+    description: |
+      The screenshots or other related medias of the game.
+    items:
+      oneOf:
+        - type: object
+          title: ScreenshotImage
+          description:
+            An image. Sensitive or non-sensitive.
+          properties:
+            sensitive:
+              type: boolean
+              description: |
+                `true` if the image is sensitive
+            uri:
+              type: string
+              description: |
+                The path or the URI of the image.
+          required: [ sensitive, uri ]
+        - type: string
+          title: ScreenshotBasicImage
+          description:
+            A non-sensitive image. The path or the URI of the image.
+        - type: object
+          title: ScreenshotYoutubeEmbeddedVideo
+          description: |
+            A embedded youtube video.
+          properties:
+            type:
+              type: string
+              const: youtube
+              description: |
+                Must be `youtube`
+            uri:
+              type: string
+              description: |
+                Must be `youtube:ID`. ID is the video's ID.
+          required: [ type, uri ]
+        - type: object
+          title: ScreenshotHTMLEmbeddedVideo
+          description: |
+            A HTML embedded video.
+          properties:
+            type:
+              type: string
+              const: video
+              description: |
+                Must be `video`
+            src:
+              type: array
+              items:
+                type: object
+                title: HTMLVideoSource
+                properties:
+                  mime:
+                    type: string
+                    description: |
+                      The MIME type of the video source
+                  uri:
+                    type: string
+                    description: |
+                      The URI of the video
+                required: [ mime, uri ]
+          required: [ type, src ]
+  X-Created-by:
+    type: string
+    description: |
+      Specify the actual contributor who creates the game entry.
+
+      Use git commit infomation when not specified.
+
+      This field should not used when the actual contributor uses git (not commited by the maintainer).
+
+      Allow `name` or `name <email address>`
+  X-Co-edited-by:
+    type: array
+    description: |
+      Specify the actual contributors who edited the game entry (except X-Created-by).
+
+      Use git commit infomation when not specified.
+
+      This field should not used when the actual contributor uses git (not commited by the maintainer).
+
+      Allow `name` or `name <email address>`
+    contains:
+      type: string
+required: [ name, description, tags, links, thumbnail, screenshots ]
