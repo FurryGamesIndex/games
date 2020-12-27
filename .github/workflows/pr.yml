@@ -23,6 +23,22 @@ jobs:
         sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip python3-setuptools python3-pil python3-bs4
         pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2
 
+    - name: validate
+      env:
+        BASE_REF: ${{ github.event.pull_request.base.sha }}
+      run: |
+        IFS=$'\n'
+        dfs="$(git diff --name-only --diff-filter=AMR "$BASE_REF")"
+
+        echo "$dfs" | grep '^games/[^/]*$' | while read -r i; do
+          echo "Validating '$i'"
+          ./scripts/validate.py schemas/game.schema.yaml "$i"
+        done
+        echo "$dfs" | grep '^games/l10n/[^/]*$' | while read -r i; do
+          echo "Validating '$i'"
+          ./scripts/validate.py schemas/game-l10n.schema.yaml "$i"
+        done
+
     - name: gen
       run: |
         python3 --version
