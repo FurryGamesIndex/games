@@ -1,8 +1,8 @@
-## items Type
+## prefer Type
 
-unknown
+`string`
 
-## items Constraints
+## prefer Constraints
 
 **enum**: the value of this property must be equal to one of the following values:
 

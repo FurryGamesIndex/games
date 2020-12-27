@@ -4,12 +4,12 @@
 
 # GameL10nEntry Properties
 
-| Property                                              | Type     | Required | Nullable       | Defined by                                                                                                         |
-| :---------------------------------------------------- | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------- |
-| [name](#name)                                         | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-name.md "undefined#/properties/name")                                         |
-| [description](#description)                           | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-description.md "undefined#/properties/description")                           |
-| [links-tr](#links-tr)                                 | `object` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-linktranslation.md "undefined#/properties/links-tr")                          |
-| [X-Chinese-Convertor-Hint](#x-chinese-convertor-hint) | `object` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-x-chinese-convertor-hint.md "undefined#/properties/X-Chinese-Convertor-Hint") |
+| Property                                              | Type     | Required | Nullable       | Defined by                                                                                                              |
+| :---------------------------------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| [name](#name)                                         | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-name.md "undefined#/properties/name")                                              |
+| [description](#description)                           | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-description.md "undefined#/properties/description")                                |
+| [links-tr](#links-tr)                                 | `object` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-linktranslation.md "undefined#/properties/links-tr")                               |
+| [X-Chinese-Convertor-Hint](#x-chinese-convertor-hint) | `object` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-extensionchineseconvertorhint.md "undefined#/properties/X-Chinese-Convertor-Hint") |
 
 ## name
 
@@ -67,10 +67,10 @@ Hints for Chinese convertor. Should only be used in `zh-*` l10n entries.
 `X-Chinese-Convertor-Hint`
 
 -   is optional
--   Type: `object` ([Details](game-l10n-properties-x-chinese-convertor-hint.md))
+-   Type: `object` ([ExtensionChineseConvertorHint](game-l10n-properties-extensionchineseconvertorhint.md))
 -   cannot be null
--   defined in: [GameL10nEntry](game-l10n-properties-x-chinese-convertor-hint.md "undefined#/properties/X-Chinese-Convertor-Hint")
+-   defined in: [GameL10nEntry](game-l10n-properties-extensionchineseconvertorhint.md "undefined#/properties/X-Chinese-Convertor-Hint")
 
 ### X-Chinese-Convertor-Hint Type
 
-`object` ([Details](game-l10n-properties-x-chinese-convertor-hint.md))
+`object` ([ExtensionChineseConvertorHint](game-l10n-properties-extensionchineseconvertorhint.md))

@@ -1,3 +1,0 @@
-## prefer Type
-
-`string`

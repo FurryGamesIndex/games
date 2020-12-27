@@ -25,16 +25,16 @@ properties:
           The value is the translated name of the link.
   X-Chinese-Convertor-Hint:
     type: object
+    title: ExtensionChineseConvertorHint
     description: |
       Hints for Chinese convertor. Should only be used in `zh-*` l10n entries.
     properties:
       prefer:
         type: string
-        items:
-          enum:
-            - CN
-            - TW
-            - ignored
+        enum:
+          - CN
+          - TW
+          - ignored
         description: |
           Specify the base Chinese variant. default is `CN`.
 

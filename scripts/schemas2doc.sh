@@ -23,8 +23,10 @@ for i in schemas/*.schema.yaml; do
 	yaml2json "$i" > "$TEMP/schemas/$name"
 done
 
-rm -rf 
+rm -rf "doc/spec"
 
 # https://github.com/adobe/jsonschema2md
 # npm install -g @adobe/jsonschema2md
 jsonschema2md -d "$TEMP/schemas/" -n -h false -o "doc/spec/" -x "$TEMP/hole"
+
+rm -rf "$TEMP"
