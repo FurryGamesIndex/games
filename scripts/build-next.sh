@@ -51,7 +51,7 @@ build() {
 	cat .patches_info | while read -r i ; do
 		echo "Applying patch $i"
 		i="${i%% *}"
-		git diff-tree -p "$i" | patch -f -p1
+		git diff-tree -p --binary "$i" | git apply
 	done
 
 	mkdir -p extraui
