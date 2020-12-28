@@ -1,0 +1,54 @@
+type: object
+title: AuthorEntry
+description: |
+  A author entry in FGI's author database.
+properties:
+  name:
+    type: string
+    description: |
+      The name of the author.
+  aliases:
+    type: array
+    items:
+      type: string
+      description: |
+        Well-known aliases of the author.
+  type:
+    type: string
+    description: |
+      The type of the author.
+    enum:
+      - unknown
+      - personal
+      - small-team
+      - company
+      - publisher
+  avatar:
+    type: string
+    description: |
+      The URI or path of the author avatar.
+  email:
+    type: string
+    description: |
+      Email address of the author.
+
+      If there is not any email address provided by author, do not specify this property.
+  links:
+    type: array
+    description: |
+      Email address of the author.
+
+      If there is not any email address provided by author, do not specify this property.
+    items:
+      type: object
+      title: AuthorSNSEntry
+      properties:
+        name:
+          type: string
+          description: |
+            The stock SNS type or custom sns type. Stock SNS name starts with `.`
+        uri:
+          type: string
+          description: |
+            The URI of the SNS
+required: [ name, type ]
