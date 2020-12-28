@@ -140,13 +140,13 @@ The tags of the game.
 `links`
 
 -   is required
--   Type: unknown\[] ([Link](game-properties-links-link.md))
+-   Type: `object[]` ([Link](game-properties-links-link.md))
 -   cannot be null
 -   defined in: [GameEntry](game-properties-links.md "undefined#/properties/links")
 
 ### links Type
 
-unknown\[] ([Link](game-properties-links-link.md))
+`object[]` ([Link](game-properties-links-link.md))
 
 ## thumbnail
 

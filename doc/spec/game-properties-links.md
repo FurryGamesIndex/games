@@ -1,3 +1,3 @@
 ## links Type
 
-unknown\[] ([Link](game-properties-links-link.md))
+`object[]` ([Link](game-properties-links-link.md))

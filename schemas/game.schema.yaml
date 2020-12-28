@@ -54,6 +54,7 @@ properties:
   links:
     type: array
     items:
+      type: object
       title: Link
       properties:
         name:
