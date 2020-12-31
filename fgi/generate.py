@@ -39,7 +39,7 @@ from jinja2 import Environment, FileSystemLoader
 from fgi.args import parse
 from fgi.base import load_game_all, list_pymod
 from fgi.search import searchdb
-from fgi import tagmgr
+from fgi.tagmgr import TagManager
 from fgi.seo import sitemap
 from fgi.i18n import get_languages_list, uil10n_load_base, ui10n_load_language
 from fgi.plugin import invoke_plugins
@@ -88,6 +88,8 @@ def main(argv):
     renderer_files = list_pymod("renderers")
     renderer_nonl10n_files = list_pymod(os.path.join("renderers", "nonl10n"))
 
+    tagmgr = TagManager()
+
     with open("tag-dependencies.yaml") as f:
         tagmgr.loaddep(yaml.safe_load(f))
     with open("tags.yaml") as f:
@@ -103,7 +105,7 @@ def main(argv):
     dir_util.copy_tree("webroot", output)
     dir_util.copy_tree("assets", os.path.join(output, "assets"))
 
-    games = load_game_all(dbdir, sdb)
+    games = load_game_all(dbdir, sdb, tagmgr)
 
     env = Environment(loader = FileSystemLoader("templates"))
 

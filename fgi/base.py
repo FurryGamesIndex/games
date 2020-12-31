@@ -24,7 +24,6 @@ from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
 from fgi import image
-from fgi import tagmgr
 from fgi.i18n import get_languages_list
 
 
@@ -85,7 +84,7 @@ def sorted_games_by_mtime(games):
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if "expunge" not in v }
 
-def load_game_all(dbdir, sdb):
+def load_game_all(dbdir, sdb, tagmgr):
     games = {}
     languages = get_languages_list(dbdir)
 
