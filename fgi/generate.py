@@ -37,7 +37,7 @@ from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
 from fgi.args import parse
-from fgi.base import load_game_all, list_pymod
+from fgi.base import load_game_all, list_pymod, local_res_href
 from fgi.search import searchdb
 from fgi.tagmgr import TagManager
 from fgi.seo import sitemap
@@ -50,103 +50,103 @@ def run_cmd(cmd, failback=''):
     except:
         return failback
 
+class Generator:
+    def __init__(self):
+        from fgi.args import args as _args
+        self.args = _args
 
-def local_res_href(rr, path, hc_uquery = None):
-    query = ""
-    if hc_uquery:
-        query = f"?hc=uquery&t={hc_uquery}"
+        self.dbdir = "games"
+        self.output = self.args.output
 
-    mod = invoke_plugins("html_local_res_href", None, rr=rr, path=path, hc_uquery=hc_uquery)
+        self.dir_renderer_files = "renderers"
+        self.dir_renderer_nonl10n_files = os.path.join("renderers", "nonl10n")
 
-    if mod:
-        mod_value = mod["new_uri"]
-        if "query_mode" in mod:
-            if mod["query_mode"] == "unmanaged":
-                mod_value = mod_value + query
-            elif mod["query_mode"] == "origin-first":
-                if query != "":
-                    mod_value = mod_value + query
-                else:
-                    mod_value = mod_value + mod["query_fb"]
-            elif mod["query_mode"] == "managed":
-                pass
-            else:
-                raise ValueError(f"unkown query_mode: {mode['query_mode']}")
-        return mod_value
-    else:
-        return rr + path + query
+        self.tagmgr = TagManager()
+
+        self.tagdep_file = "tag-dependencies.yaml"
+        self.tags_file = "tags.yaml"
+
+        self.dir_templates = "templates"
+        self.dir_uil10n = "uil10n"
+
+        self.webroot_path = "webroot"
+        self.assets_path = "assets"
+
+    def prepare(self):
+        self.renderer_files = list_pymod(self.dir_renderer_files)
+        self.renderer_nonl10n_files = list_pymod(self.dir_renderer_nonl10n_files)
+
+        with open(self.tagdep_file) as f:
+            self.tagmgr.loaddep(yaml.safe_load(f))
+        with open(self.tags_file) as f:
+            self.tagmgr.load(yaml.safe_load(f))
+
+        self.sdb = searchdb(no_data = self.args.no_searchdb)
+        self.sdb.add_extra_data("tagalias", self.tagmgr.tagalias)
+        self.sdb.add_extra_data("tagns", self.tagmgr.tagns)
+
+        self.env = Environment(loader = FileSystemLoader(self.dir_templates))
+
+        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr)
+
+        self.languages = get_languages_list(self.dbdir)
+        self.base_l10n = uil10n_load_base(self.dir_uil10n)
+
+        self.lctx = {
+            "args": self.args,
+            "searchdb": self.sdb,
+            "os": os,
+            "webrootdir": "webroot",
+            "time": time,
+            "res": local_res_href,
+        }
+
+    def run(self):
+        if os.path.exists(self.output) and not self.args.no_purge_prev_builds:
+            shutil.rmtree(self.output)
+        dir_util._path_created = {}
+        dir_util.copy_tree(self.webroot_path, self.output)
+        dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
+
+        self.sdb.write_to_file(self.output)
+
+        for language in self.languages:
+            ui = ui10n_load_language(self.dir_uil10n, self.base_l10n, language)
+            
+            Path(os.path.join(self.output, language, "games")).mkdir(parents=True, exist_ok=True)
+
+            self.lctx["lang"] = language
+            self.lctx["ui"] = ui
+
+            for f in self.renderer_files:
+                print("Rendering %s %s" % (language, f))
+                renderer = importlib.import_module(".renderers." + f, package=__package__)
+                renderer.render(self.games, self.env, self.lctx, self.output)
+
+        self.lctx["ui"] = self.base_l10n
+        for f in self.renderer_nonl10n_files:
+            print(f"Rendering nonl10n {f}")
+            renderer = importlib.import_module(".renderers.nonl10n." + f, package=__package__)
+            renderer.render(self.games, self.env, self.lctx, self.output)
+
+        sitemap.write_to_file(self.output)
+
+        invoke_plugins("post_build", None, output_path = self.output)
 
 def main(argv):
     argv = argv[1:]
-    parse(argv)
-    from fgi.args import args
 
-    dbdir = "games"
-    output = args.output
+    # Parse arguments, load plugins
+    parse(argv)
+
+    from fgi.args import args
     sitemap.ignore = args.no_sitemap
 
-    renderer_files = list_pymod("renderers")
-    renderer_nonl10n_files = list_pymod(os.path.join("renderers", "nonl10n"))
+    gen = Generator()
+    gen.prepare()
+    gen.run()
 
-    tagmgr = TagManager()
-
-    with open("tag-dependencies.yaml") as f:
-        tagmgr.loaddep(yaml.safe_load(f))
-    with open("tags.yaml") as f:
-        tagmgr.load(yaml.safe_load(f))
-
-    sdb = searchdb(no_data = args.no_searchdb)
-    sdb.add_extra_data("tagalias", tagmgr.tagalias)
-    sdb.add_extra_data("tagns", tagmgr.tagns)
-
-    if os.path.exists(output) and not args.no_purge_prev_builds:
-        shutil.rmtree(output)
-    dir_util._path_created = {}
-    dir_util.copy_tree("webroot", output)
-    dir_util.copy_tree("assets", os.path.join(output, "assets"))
-
-    games = load_game_all(dbdir, sdb, tagmgr)
-
-    env = Environment(loader = FileSystemLoader("templates"))
-
-    sdb.write_to_file(output)
-
-    languages = get_languages_list(dbdir)
-    base_l10n = uil10n_load_base("uil10n")
-
-    lctx = {
-        "args": args,
-        "searchdb": sdb,
-        "os": os,
-        "webrootdir": "webroot",
-        "time": time,
-        "res": local_res_href,
-    }
-
-    for language in languages:
-        ui = ui10n_load_language("uil10n", base_l10n, language)
-        
-        Path(os.path.join(output, language, "games")).mkdir(parents=True, exist_ok=True)
-
-        lctx["lang"] = language
-        lctx["ui"] = ui
-
-        for f in renderer_files:
-            print("Rendering %s %s" % (language, f))
-            renderer = importlib.import_module(".renderers." + f, package=__package__)
-            renderer.render(games, env, lctx, output)
-
-    lctx["ui"] = base_l10n
-    for f in renderer_nonl10n_files:
-        print(f"Rendering nonl10n {f}")
-        renderer = importlib.import_module(".renderers.nonl10n." + f, package=__package__)
-        renderer.render(games, env, lctx, output)
-
-    sitemap.write_to_file(output)
-
-    invoke_plugins("post_build", None, output_path = output)
-
-    with open(os.path.join(output, "_buildinfo.txt"), "w") as f:
+    with open(os.path.join(args.output, "_buildinfo.txt"), "w") as f:
         f.write("# FGI BUILD INFO START\n")
         f.write(f"base revision: {run_cmd(['git', 'rev-parse', 'HEAD'], failback='unknown')}\n")
         f.write(f"options: {' '.join(argv[:-1])}\n")

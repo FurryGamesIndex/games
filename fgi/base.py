@@ -25,6 +25,7 @@ from markdown2 import Markdown
 
 from fgi import image
 from fgi.i18n import get_languages_list
+from fgi.plugin import invoke_plugins
 
 
 def parse_description(game, fmt, game_id):
@@ -108,3 +109,30 @@ def list_pymod(dirname):
         for f in os.listdir(os.path.join(package_path, dirname)) \
             if os.path.isfile(os.path.join(package_path, dirname, f)) \
                 and f[0] != '.' and f != "__init__.py"]
+
+def local_res_href(rr, path, hc_uquery = None):
+    query = ""
+    if hc_uquery:
+        query = f"?hc=uquery&t={hc_uquery}"
+
+    mod = invoke_plugins("html_local_res_href", None, rr=rr, path=path, hc_uquery=hc_uquery)
+
+    if mod:
+        mod_value = mod["new_uri"]
+        if "query_mode" in mod:
+            if mod["query_mode"] == "unmanaged":
+                mod_value = mod_value + query
+            elif mod["query_mode"] == "origin-first":
+                if query != "":
+                    mod_value = mod_value + query
+                else:
+                    mod_value = mod_value + mod["query_fb"]
+            elif mod["query_mode"] == "managed":
+                pass
+            else:
+                raise ValueError(f"unkown query_mode: {mode['query_mode']}")
+        return mod_value
+    else:
+        return rr + path + query
+
+
