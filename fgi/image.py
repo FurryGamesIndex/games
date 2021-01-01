@@ -162,7 +162,8 @@ class HTMLImage:
 
         return hi
 
-def uri_to_html_image(rr, imageuri, gameid, alt = None):
+def uri_to_html_image(_rr, imageuri, gameid, alt = None):
+    rr = _rr if _rr else ""
     image = Image(imageuri)
 
     if image.is_remote:
@@ -225,7 +226,7 @@ def uri_to_html_image(rr, imageuri, gameid, alt = None):
         wpi.path = webpfn
         hi.add_source(wpi, "image/webp", False)
 
-    invoke_plugins("image_post_html_image_done", hi, origin_uri = imageuri, gameid = gameid, alt = alt)
+    invoke_plugins("image_post_html_image_done", hi, rr = _rr, origin_uri = imageuri, gameid = gameid, alt = alt)
     return hi
 
 # TODO: remove deprecated function uri

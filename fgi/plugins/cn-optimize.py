@@ -112,8 +112,11 @@ Recommend build arguments:
         for i in hi.sources:
             img = i.srcset
             if not img.is_remote:
-                suffix = remove_image_path_rr_parents(img.uri)
-                img.uri = f"https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@{self.rev}/{suffix}?uid=v1/{quote(suffix, safe='')}"
+                if kwargs["rr"]:
+                    suffix = remove_image_path_rr_parents(img.uri)
+                    img.uri = f"https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@{self.rev}/{suffix}?uid=v1/{quote(suffix, safe='')}"
+                else:
+                    img.uri = f"{img.uri}?uid=v1/{quote(img.uri, safe='')}"
                 img.is_remote = True
                 modified = True
 

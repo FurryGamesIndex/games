@@ -50,7 +50,7 @@ class searchdb:
             data["tr"] = {}
             data["name"] = game["name"]
             data["description"] = game["description"]
-            data["thumbnail"] = uri_to_html_image("", game["thumbnail"], game["id"]).dict()
+            data["thumbnail"] = uri_to_html_image(None, game["thumbnail"], game["id"]).dict()
             data["mtime"] = game["mtime"]
 
             for lang in game["tr"]:
