@@ -42,7 +42,7 @@ from fgi.search import searchdb
 from fgi.tagmgr import TagManager
 from fgi.seo import sitemap
 from fgi.i18n import get_languages_list, uil10n_load_base, ui10n_load_language
-from fgi.plugin import invoke_plugins
+from fgi.plugin import invoke_plugins, load_plugin
 
 def run_cmd(cmd, failback=''):
     try:
