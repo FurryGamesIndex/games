@@ -21,39 +21,38 @@ import os
 import yaml
 from markdown2 import Markdown
 
-from fgi import args
 from fgi.seo import keywords
 from fgi.plugin import invoke_plugins
 
 
-def get_languages_list(dbdir):
+def get_languages_list(dbdir, args):
     ll = [f for f in os.listdir(os.path.join(dbdir, "l10n"))]
     ll.append("en")
 
     # FIXME: uncompleted languages is blacklisted
-    if not args.args.next:
+    if not args.next:
         ll.remove("ja")
 
     ll = invoke_plugins("i18n_post_ll_done", ll)
 
     return ll
 
-def uil10n_load_base(l10ndir):
+def uil10n_load_base(l10ndir, args):
     base_l10n = None
 
     with open(os.path.join(l10ndir, "en.yaml")) as stream:
         base_l10n = yaml.safe_load(stream)
         keywords.preprocess_keywords(base_l10n)
 
-    if args.args.extra_ui is not None:
-        with open(os.path.join(args.args.extra_ui, "en.yaml")) as stream:
+    if args.extra_ui is not None:
+        with open(os.path.join(args.extra_ui, "en.yaml")) as stream:
             base_l10n.update(yaml.safe_load(stream))
 
     base_l10n = invoke_plugins("i18n_post_load_uil10n_base_data", base_l10n)
 
     return base_l10n
 
-def ui10n_load_language(l10ndir, base_l10n, language):
+def ui10n_load_language(l10ndir, base_l10n, language, args):
     ui = None
 
     with open(os.path.join(l10ndir, language + ".yaml")) as stream:
@@ -66,8 +65,8 @@ def ui10n_load_language(l10ndir, base_l10n, language):
         with open(puifn) as stream:
             ui.update(yaml.safe_load(stream))
 
-    if args.args.extra_ui is not None:
-        euifn = os.path.join(args.args.extra_ui, language + ".yaml")
+    if args.extra_ui is not None:
+        euifn = os.path.join(args.extra_ui, language + ".yaml")
         if os.path.isfile(euifn):
             with open(euifn) as stream:
                 ui.update(yaml.safe_load(stream))

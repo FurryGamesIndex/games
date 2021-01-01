@@ -51,9 +51,8 @@ def run_cmd(cmd, failback=''):
         return failback
 
 class Generator:
-    def __init__(self):
-        from fgi.args import args as _args
-        self.args = _args
+    def __init__(self, args):
+        self.args = args
 
         self.dbdir = "games"
         self.output = self.args.output
@@ -85,12 +84,13 @@ class Generator:
         self.sdb.add_extra_data("tagalias", self.tagmgr.tagalias)
         self.sdb.add_extra_data("tagns", self.tagmgr.tagns)
 
+        self.languages = get_languages_list(self.dbdir, self.args)
+
         self.env = Environment(loader = FileSystemLoader(self.dir_templates))
 
-        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr)
+        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages)
 
-        self.languages = get_languages_list(self.dbdir)
-        self.base_l10n = uil10n_load_base(self.dir_uil10n)
+        self.base_l10n = uil10n_load_base(self.dir_uil10n, self.args)
 
         self.lctx = {
             "args": self.args,
@@ -111,7 +111,7 @@ class Generator:
         self.sdb.write_to_file(self.output)
 
         for language in self.languages:
-            ui = ui10n_load_language(self.dir_uil10n, self.base_l10n, language)
+            ui = ui10n_load_language(self.dir_uil10n, self.base_l10n, language, self.args)
             
             Path(os.path.join(self.output, language, "games")).mkdir(parents=True, exist_ok=True)
 
@@ -136,13 +136,25 @@ class Generator:
 def main(argv):
     argv = argv[1:]
 
-    # Parse arguments, load plugins
-    parse(argv)
+    # FIXME: --start--
+    # These global stuffs should be refector to Generator object context
+    args = parse(argv)
+    from fgi import args as _
+    _.args = args
 
-    from fgi.args import args
+    if args.plugin:
+        for i in args.plugin:
+            d = i.split(',', 1)
+            name = d[0]
+            options = None
+            if len(d) >= 2:
+                options = d[1]
+            load_plugin(name, options)
+
     sitemap.ignore = args.no_sitemap
+    # FIXME: --end--
 
-    gen = Generator()
+    gen = Generator(args)
     gen.prepare()
     gen.run()
 

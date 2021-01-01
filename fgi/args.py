@@ -18,7 +18,9 @@
 # 
 
 import argparse
-from fgi.plugin import load_plugin
+
+#FIXME: old code may refer the global args
+args = None
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--extra-ui', type=str, help='Set extra ui profile path')
@@ -35,17 +37,5 @@ parser.add_argument('--next', default=False, action='store_true', help='enable e
 parser.add_argument('--plugin', type=str, action='append', help='Load plugin. format: name[,options]')
 parser.add_argument('output', type=str, help='Output path')
 
-args = None
-
-def parse(a):
-    global args
-    args = parser.parse_args(a)
-
-    if args.plugin:
-        for i in args.plugin:
-            d = i.split(',', 1)
-            name = d[0]
-            options = None
-            if len(d) >= 2:
-                options = d[1]
-            load_plugin(name, options)
+def parse(argv):
+    return parser.parse_args(argv)

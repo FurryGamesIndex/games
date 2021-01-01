@@ -85,9 +85,8 @@ def sorted_games_by_mtime(games):
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if "expunge" not in v }
 
-def load_game_all(dbdir, sdb, tagmgr):
+def load_game_all(dbdir, sdb, tagmgr, languages):
     games = {}
-    languages = get_languages_list(dbdir)
 
     for f in os.listdir(dbdir):
         game, game_id = load_game(dbdir, f, languages)
