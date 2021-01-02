@@ -87,9 +87,7 @@ class HTMLImage:
             if sfx in mimemap:
                 mime = mimemap[sfx]
             else:
-                # TODO: force disable "HTML picture" mode while mime is unknown
-                #       That will always make only a single <img> element
-                raise NotImplementedError(f"Can not recognize mime for {source}")
+                raise ValueError(f"Can not recognize MIME for {source}")
 
         picture_source = HTMLPictureSource(source, mime)
         if as_src:
@@ -106,7 +104,7 @@ class HTMLImage:
         node = ""
 
         if self.src is None:
-            raise ValueError("No failback image src")
+            raise ValueError("Fallback image src required")
 
         if self.alt is None:
             self.alt = ""
@@ -135,6 +133,9 @@ class HTMLImage:
             print(f"[warning] can not load image '{image.path}' for setting html image size")
 
     def dict(self):
+        if self.src is None:
+            raise ValueError("Fallback image src required")
+
         tmp = dict()
         tmp["src"] = append_query(self.src, self.query)
         tmp["source"] = list()
