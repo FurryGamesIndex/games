@@ -22,10 +22,11 @@ import json
 import base64
 
 from fgi.image import uri_to_html_image
-from fgi import args
 
-class searchdb:
-    def __init__(self, no_data=False):
+class SearchDatabase:
+    def __init__(self, fctx, no_data=False):
+        self.fctx = fctx
+
         self.db = {}
         self.db["rtag"] = {}
         self.db["data"] = {}
@@ -69,7 +70,7 @@ class searchdb:
             with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
                 f.write(data)
 
-            if args.args.file_uri_workaround:
+            if self.fctx.args.file_uri_workaround:
                 with open(os.path.join(output, "scripts", "searchdb_offline.js"), "w") as f:
                     f.write("var _searchdb=JSON.parse(atob('")
                     f.write(base64.b64encode(data.encode('utf-8')).decode('ascii'))

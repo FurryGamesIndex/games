@@ -23,7 +23,7 @@ from itertools import islice
 from datetime import datetime, timezone
 import email.utils
 
-from fgi import image, args
+from fgi.image import uri_to_html_image
 from fgi.renderer import Renderer
 from fgi.i18n import get
 from fgi.seo.sitemap import openw_with_sm
@@ -47,7 +47,7 @@ class RendererList(Renderer):
         self.basectx = {
             "rr": "..",
             "active_list": "actived",
-            "uri_to_html_image": image.uri_to_html_image,
+            "uri_to_html_image": uri_to_html_image,
             "get": get,
             "ts_to_rfc5322": ts_to_rfc5322
         }
@@ -63,7 +63,7 @@ class RendererList(Renderer):
             f.write(self.env.get_template("list.html").render(context))
             f.write(self.env.get_template("footer.html").render(context))
 
-        if args.args.with_rss:
+        if self.fctx.args.with_rss:
             context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(self.games)).items(), 30)
             with open(self.getpath("feed.xml"), "w") as f:
                 f.write(self.env.get_template("rss_feed.xml").render(context))

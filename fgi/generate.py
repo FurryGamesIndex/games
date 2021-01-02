@@ -38,7 +38,7 @@ from jinja2 import Environment, FileSystemLoader
 
 from fgi.args import parse
 from fgi.base import load_game_all, list_pymod, local_res_href
-from fgi.search import searchdb
+from fgi.search import SearchDatabase
 from fgi.tagmgr import TagManager
 from fgi.seo import sitemap
 from fgi.i18n import get_languages_list, uil10n_load_base, ui10n_load_language
@@ -80,7 +80,7 @@ class Generator:
         with open(self.tags_file) as f:
             self.tagmgr.load(yaml.safe_load(f))
 
-        self.sdb = searchdb(no_data = self.args.no_searchdb)
+        self.sdb = SearchDatabase(self, no_data = self.args.no_searchdb)
         self.sdb.add_extra_data("tagalias", self.tagmgr.tagalias)
         self.sdb.add_extra_data("tagns", self.tagmgr.tagns)
 
