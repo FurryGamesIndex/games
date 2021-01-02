@@ -76,6 +76,8 @@ Recommend build arguments:
         with open(os.path.join(output, "netlify.toml"), "w") as f:
             f.write("[build.processing]\n")
             f.write("  skip_processing = true\n")
+        with open(os.path.join(output, "zh-cn", "sensitive.html"), "w") as f:
+            f.write("<html><head><meta charset='utf-8'></head><body>我们非常抱歉，但是此镜像已启用审查，以避免产生法律问题。如果要修改此页面上的首选项，请使用我们的<a href='https://furrygames.top'>主站点（https://furrygames.top）</a>。</body></html>\n")
 
     def html_local_res_href(self, mod, rr = None, path = None, hc_uquery = None, *args, **kwargs):
         if not mod:
