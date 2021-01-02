@@ -65,7 +65,7 @@ class RendererList(Renderer):
 
         if args.args.with_rss:
             context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(self.games)).items(), 30)
-            with open(*self.getpath_sm("feed.xml"), "w") as f:
+            with open(self.getpath("feed.xml"), "w") as f:
                 f.write(self.env.get_template("rss_feed.xml").render(context))
 
 impl = RendererList
