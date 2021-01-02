@@ -99,6 +99,7 @@ class Generator:
             "webrootdir": "webroot",
             "time": time,
             "res": local_res_href,
+            "games": self.games,
         }
 
     def run(self):
@@ -115,19 +116,23 @@ class Generator:
             
             Path(os.path.join(self.output, language, "games")).mkdir(parents=True, exist_ok=True)
 
-            self.lctx["lang"] = language
-            self.lctx["ui"] = ui
+            lctx = self.lctx.copy()
+            lctx["lang"] = language
+            lctx["ui"] = ui
 
             for f in self.renderer_files:
                 print("Rendering %s %s" % (language, f))
-                renderer = importlib.import_module(".renderers." + f, package=__package__)
-                renderer.render(self.games, self.env, self.lctx, self.output)
+                renderer_module = importlib.import_module(".renderers." + f, package=__package__)
+                renderer = renderer_module.impl(self, lctx)
+                renderer.render()
 
-        self.lctx["ui"] = self.base_l10n
+        lctx = self.lctx.copy()
+        lctx["ui"] = self.base_l10n
         for f in self.renderer_nonl10n_files:
             print(f"Rendering nonl10n {f}")
-            renderer = importlib.import_module(".renderers.nonl10n." + f, package=__package__)
-            renderer.render(self.games, self.env, self.lctx, self.output)
+            renderer_module = importlib.import_module(".renderers.nonl10n." + f, package=__package__)
+            renderer = renderer_module.impl(self, lctx)
+            renderer.render()
 
         sitemap.write_to_file(self.output)
 

@@ -24,6 +24,7 @@ from datetime import datetime, timezone
 import email.utils
 
 from fgi import image, args
+from fgi.renderer import Renderer
 from fgi.i18n import get
 from fgi.seo.sitemap import openw_with_sm
 from fgi.base import sorted_games_by_mtime, strip_games_expunge
@@ -39,25 +40,32 @@ def list_games(games):
             continue
         yield name, game
 
-context = {
-    "rr": "..",
-    "active_list": "actived",
-    "uri_to_html_image": image.uri_to_html_image,
-    "get": get,
-    "ts_to_rfc5322": ts_to_rfc5322
-}
+class RendererList(Renderer):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
 
-def render(games, env, lctx, output):
-    context.update(lctx)
-    language = lctx["lang"]
+        self.basectx = {
+            "rr": "..",
+            "active_list": "actived",
+            "uri_to_html_image": image.uri_to_html_image,
+            "get": get,
+            "ts_to_rfc5322": ts_to_rfc5322
+        }
 
-    context["games"] = list_games(games)
-    with openw_with_sm(output, os.path.join(language, "list.html"), priority="0.6") as f:
-        f.write(env.get_template("header.html").render(context))
-        f.write(env.get_template("list.html").render(context))
-        f.write(env.get_template("footer.html").render(context))
+        self.games = self.lctx["games"]
 
-    if args.args.with_rss:
-        context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(games)).items(), 30)
-        with open(os.path.join(output, language, "feed.xml"), "w") as f:
-            f.write(env.get_template("rss_feed.xml").render(context))
+    def render(self):
+        context = self.new_context()
+
+        context["games"] = list_games(self.games)
+        with openw_with_sm(*self.getpath_sm("list.html"), priority="0.6") as f:
+            f.write(self.env.get_template("header.html").render(context))
+            f.write(self.env.get_template("list.html").render(context))
+            f.write(self.env.get_template("footer.html").render(context))
+
+        if args.args.with_rss:
+            context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(self.games)).items(), 30)
+            with open(*self.getpath_sm("feed.xml"), "w") as f:
+                f.write(self.env.get_template("rss_feed.xml").render(context))
+
+impl = RendererList

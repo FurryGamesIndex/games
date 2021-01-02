@@ -18,35 +18,40 @@
 # 
 
 import os
+from fgi.renderer import Renderer
 from fgi.i18n import get, conv_doc_markdown
 from fgi.seo.sitemap import openw_with_sm
 
-context = {
-    "rr": ".",
-    "lang": "en",
-    "get": get
-}
+class RendererSingles(Renderer):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs, nonl10n=True)
 
-def render(games, env, lctx, output):
-    context.update(lctx)
+        self.basectx = {
+            "rr": ".",
+            "lang": "en",
+            "get": get
+        }
 
-    context["active_languages"] = "actived"
-    with open(os.path.join(output, "languages.html"), "w") as f:
-        f.write(env.get_template("header.html").render(context))
-        f.write(env.get_template("languages.html").render(context))
-        f.write(env.get_template("footer.html").render(context))
-    del context["active_languages"]
+    def render(self):
+        context = self.new_context()
+        context["active_languages"] = "actived"
+        with open(self.getpath("languages.html"), "w") as f:
+            f.write(self.env.get_template("header.html").render(context))
+            f.write(self.env.get_template("languages.html").render(context))
+            f.write(self.env.get_template("footer.html").render(context))
 
-    context["content"] = conv_doc_markdown("privacy-policy", None)
-    with open(os.path.join(output, "privacy-policy.html"), "w") as f:
-        f.write(env.get_template("header.html").render(context))
-        f.write(env.get_template("simple_md.html").render(context))
-        f.write(env.get_template("footer.html").render(context))
-    del context["content"]
+        context = self.new_context()
+        context["content"] = conv_doc_markdown("privacy-policy", None)
+        with open(self.getpath("privacy-policy.html"), "w") as f:
+            f.write(self.env.get_template("header.html").render(context))
+            f.write(self.env.get_template("simple_md.html").render(context))
+            f.write(self.env.get_template("footer.html").render(context))
 
-    context["content"] = conv_doc_markdown("credits", None)
-    with openw_with_sm(output, "credits.html") as f:
-        f.write(env.get_template("header.html").render(context))
-        f.write(env.get_template("simple_md.html").render(context))
-        f.write(env.get_template("footer.html").render(context))
-    del context["content"]
+        context = self.new_context()
+        context["content"] = conv_doc_markdown("credits", None)
+        with openw_with_sm(*self.getpath_sm("credits.html")) as f:
+            f.write(self.env.get_template("header.html").render(context))
+            f.write(self.env.get_template("simple_md.html").render(context))
+            f.write(self.env.get_template("footer.html").render(context))
+
+impl = RendererSingles

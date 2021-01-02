@@ -83,6 +83,13 @@ def get(game, language, key):
     else:
         return game[key]
 
+def get_mtime(game, language):
+    if language in game["tr"]:
+        return max(game["tr"][language]["mtime"], game["mtime"])
+    else:
+        return game["mtime"]
+
+
 doc_markdowner = Markdown(extras=["tables", "metadata"])
 doc_md_cache = dict()
 
