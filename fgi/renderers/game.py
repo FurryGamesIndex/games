@@ -125,9 +125,7 @@ class RendererGame(Renderer):
             rbgame = self.games[game['replaced-by']]
             context["rbgame"] = rbgame
 
-        f.write(self.env.get_template("header.html").render(context))
         f.write(self.env.get_template("game.html").render(context))
-        f.write(self.env.get_template("footer.html").render(context))
         f.close()
 
     def render(self):

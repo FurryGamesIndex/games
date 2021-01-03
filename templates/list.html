@@ -1,3 +1,4 @@
+{% include 'header.html' %}
 <div class="items">
 {% for name, game in games %}
 {% set desc = get(game, lang, 'description') %}
@@ -14,3 +15,4 @@
 {% include 'copying.html' %}
 </div>
 <script src="{{ res(rr, '/scripts/base.js') }}"></script>
+{% include 'footer.html' %}

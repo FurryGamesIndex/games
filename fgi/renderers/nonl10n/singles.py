@@ -36,22 +36,16 @@ class RendererSingles(Renderer):
         context = self.new_context()
         context["active_languages"] = "actived"
         with open(self.getpath("languages.html"), "w") as f:
-            f.write(self.env.get_template("header.html").render(context))
             f.write(self.env.get_template("languages.html").render(context))
-            f.write(self.env.get_template("footer.html").render(context))
 
         context = self.new_context()
         context["content"] = conv_doc_markdown("privacy-policy", None)
         with open(self.getpath("privacy-policy.html"), "w") as f:
-            f.write(self.env.get_template("header.html").render(context))
             f.write(self.env.get_template("simple_md.html").render(context))
-            f.write(self.env.get_template("footer.html").render(context))
 
         context = self.new_context()
         context["content"] = conv_doc_markdown("credits", None)
         with openw_with_sm(*self.getpath_sm("credits.html")) as f:
-            f.write(self.env.get_template("header.html").render(context))
             f.write(self.env.get_template("simple_md.html").render(context))
-            f.write(self.env.get_template("footer.html").render(context))
 
 impl = RendererSingles

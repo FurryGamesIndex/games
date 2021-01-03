@@ -1,3 +1,4 @@
+{% include 'header.html' %}
 <div class="default topbox">
 {% if checktag(game, "sys", "staging") %}
 	<div class="box warning">{{ ui.warnbox_staging }}</div>
@@ -65,3 +66,4 @@ if (localStorage.getItem("show_sensitive") == "true") {
 		warn.classList.add("hide");
 }
 </script>
+{% include 'footer.html' %}

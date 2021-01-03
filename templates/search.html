@@ -1,3 +1,4 @@
+{% include 'header.html' %}
 <div id="search_box" class="default">
 	<select id="search_mode" >
 		<option value="title">{{ ui.search_form_mode_title }}</option>
@@ -231,3 +232,4 @@ $('#search_value').addEventListener('keyup', e => {
 
 onload();
 </script>
+{% include 'footer.html' %}

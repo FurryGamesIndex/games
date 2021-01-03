@@ -58,9 +58,7 @@ class RendererList(Renderer):
 
         context["games"] = list_games(self.games)
         with openw_with_sm(*self.getpath_sm("list.html"), priority="0.6") as f:
-            f.write(self.env.get_template("header.html").render(context))
             f.write(self.env.get_template("list.html").render(context))
-            f.write(self.env.get_template("footer.html").render(context))
 
         if self.fctx.args.with_rss:
             context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(self.games)).items(), 30)
