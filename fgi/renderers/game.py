@@ -115,21 +115,21 @@ class RendererGame(Renderer):
         meta["image"] = self.fctx.mfac.uri_to_html_image(context["rr"], game["thumbnail"], gid).src
         meta["extra_keywords"] = keywords.game_page_extra_keywords(game, context["ui"])
 
-        if 'expunge' in game:
-            f = open(self.getpath("games", gid + ".html"), "w")
-        else:
-            f = openw_with_sm(*self.getpath_sm("games", gid + ".html"),
-                    priority="0.7", lastmod_ts=get_mtime(game, self.language))
-
         if 'replaced-by' in game:
             rbgame = self.games[game['replaced-by']]
             context["rbgame"] = rbgame
 
-        f.write(self.env.get_template("game.html").render(context))
-        f.close()
+        return self.env.get_template("game.html").render(context)
 
     def render(self):
         for gid, game in self.games.items():
-            self.render_game(gid, game)
+            if 'expunge' in game:
+                f = open(self.getpath("games", gid + ".html"), "w")
+            else:
+                f = openw_with_sm(*self.getpath_sm("games", gid + ".html"),
+                        priority="0.7", lastmod_ts=get_mtime(game, self.language))
+
+            f.write(self.render_game(gid, game))
+            f.close()
 
 impl = RendererGame
