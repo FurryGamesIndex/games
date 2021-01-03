@@ -24,4 +24,3 @@
 {% endfor %}
 </channel>
 </rss>
-{% include 'footer.html' %}
