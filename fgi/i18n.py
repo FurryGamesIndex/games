@@ -22,37 +22,35 @@ import yaml
 from markdown2 import Markdown
 
 from fgi.seo import keywords
-from fgi.plugin import invoke_plugins
 
-
-def get_languages_list(dbdir, args):
+def get_languages_list(fctx, dbdir):
     ll = [f for f in os.listdir(os.path.join(dbdir, "l10n"))]
     ll.append("en")
 
     # FIXME: uncompleted languages is blacklisted
-    if not args.next:
+    if not fctx.args.next:
         ll.remove("ja")
 
-    ll = invoke_plugins("i18n_post_ll_done", ll)
+    ll = fctx.pmgr.invoke_plugins("i18n_post_ll_done", ll)
 
     return ll
 
-def uil10n_load_base(l10ndir, args):
+def uil10n_load_base(fctx, l10ndir):
     base_l10n = None
 
     with open(os.path.join(l10ndir, "en.yaml")) as stream:
         base_l10n = yaml.safe_load(stream)
         keywords.preprocess_keywords(base_l10n)
 
-    if args.extra_ui is not None:
-        with open(os.path.join(args.extra_ui, "en.yaml")) as stream:
+    if fctx.args.extra_ui is not None:
+        with open(os.path.join(fctx.args.extra_ui, "en.yaml")) as stream:
             base_l10n.update(yaml.safe_load(stream))
 
-    base_l10n = invoke_plugins("i18n_post_load_uil10n_base_data", base_l10n)
+    base_l10n = fctx.pmgr.invoke_plugins("i18n_post_load_uil10n_base_data", base_l10n)
 
     return base_l10n
 
-def ui10n_load_language(l10ndir, base_l10n, language, args):
+def uil10n_load_language(fctx, l10ndir, base_l10n, language):
     ui = None
 
     with open(os.path.join(l10ndir, language + ".yaml")) as stream:
@@ -65,13 +63,13 @@ def ui10n_load_language(l10ndir, base_l10n, language, args):
         with open(puifn) as stream:
             ui.update(yaml.safe_load(stream))
 
-    if args.extra_ui is not None:
-        euifn = os.path.join(args.extra_ui, language + ".yaml")
+    if fctx.args.extra_ui is not None:
+        euifn = os.path.join(fctx.args.extra_ui, language + ".yaml")
         if os.path.isfile(euifn):
             with open(euifn) as stream:
                 ui.update(yaml.safe_load(stream))
 
-    ui = invoke_plugins("i18n_post_load_uil10n_language_data", ui, language=language, base_l10n=base_l10n)
+    ui = fctx.pmgr.invoke_plugins("i18n_post_load_uil10n_language_data", ui, language=language, base_l10n=base_l10n)
 
     return ui
 

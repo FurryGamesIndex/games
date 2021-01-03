@@ -24,8 +24,6 @@ from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
 from fgi.i18n import get_languages_list
-from fgi.plugin import invoke_plugins
-
 
 def parse_description(game, fmt, game_id, mfac):
     if "description" not in game:
@@ -108,12 +106,12 @@ def list_pymod(dirname):
             if os.path.isfile(os.path.join(package_path, dirname, f)) \
                 and f[0] != '.' and f != "__init__.py"]
 
-def local_res_href(rr, path, hc_uquery = None):
+def local_res_href(pmgr, rr, path, hc_uquery = None):
     query = ""
     if hc_uquery:
         query = f"?hc=uquery&t={hc_uquery}"
 
-    mod = invoke_plugins("html_local_res_href", None, rr=rr, path=path, hc_uquery=hc_uquery)
+    mod = pmgr.invoke_plugins("html_local_res_href", None, rr=rr, path=path, hc_uquery=hc_uquery)
 
     if mod:
         mod_value = mod["new_uri"]
@@ -133,4 +131,7 @@ def local_res_href(rr, path, hc_uquery = None):
     else:
         return rr + path + query
 
-
+def make_wrapper(func, arg):
+    def new_func(*args, **kwargs):
+        return func(arg, *args, **kwargs)
+    return new_func

@@ -37,13 +37,13 @@ from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
 from fgi.args import parse
-from fgi.base import load_game_all, list_pymod, local_res_href
+from fgi.base import load_game_all, list_pymod, local_res_href, make_wrapper
 from fgi.search import SearchDatabase
 from fgi.tagmgr import TagManager
 from fgi.media import MediaFactory
 from fgi.seo import sitemap
-from fgi.i18n import get_languages_list, uil10n_load_base, ui10n_load_language
-from fgi.plugin import invoke_plugins, load_plugin
+from fgi.i18n import get_languages_list, uil10n_load_base, uil10n_load_language
+from fgi.plugin import PluginManager
 
 def run_cmd(cmd, failback=''):
     try:
@@ -61,8 +61,8 @@ class Generator:
         self.dir_renderer_files = "renderers"
         self.dir_renderer_nonl10n_files = os.path.join("renderers", "nonl10n")
 
+        self.pmgr = PluginManager()
         self.tagmgr = TagManager()
-
         self.mfac = MediaFactory(self)
 
         self.tagdep_file = "tag-dependencies.yaml"
@@ -75,6 +75,15 @@ class Generator:
         self.assets_path = "assets"
 
     def prepare(self):
+        if self.args.plugin:
+            for i in args.plugin:
+                d = i.split(',', 1)
+                name = d[0]
+                options = None
+                if len(d) >= 2:
+                    options = d[1]
+                self.pmgr.load_plugin(name, options)
+
         self.renderer_files = list_pymod(self.dir_renderer_files)
         self.renderer_nonl10n_files = list_pymod(self.dir_renderer_nonl10n_files)
 
@@ -87,7 +96,7 @@ class Generator:
         self.sdb.add_extra_data("tagalias", self.tagmgr.tagalias)
         self.sdb.add_extra_data("tagns", self.tagmgr.tagns)
 
-        self.languages = get_languages_list(self.dbdir, self.args)
+        self.languages = get_languages_list(self, self.dbdir)
 
         self.env = Environment(loader = FileSystemLoader(self.dir_templates))
 
@@ -100,12 +109,12 @@ class Generator:
 
         self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac)
 
-        self.base_l10n = uil10n_load_base(self.dir_uil10n, self.args)
+        self.base_l10n = uil10n_load_base(self, self.dir_uil10n)
 
         self.lctx = {
             "os": os,
             "time": time,
-            "res": local_res_href,
+            "res": make_wrapper(local_res_href, self.pmgr),
             "args": self.args,
             "games": self.games,
             "webrootdir": self.webroot_path,
@@ -115,7 +124,7 @@ class Generator:
         self.sdb.write_to_file(self.output)
 
         for language in self.languages:
-            ui = ui10n_load_language(self.dir_uil10n, self.base_l10n, language, self.args)
+            ui = uil10n_load_language(self, self.dir_uil10n, self.base_l10n, language)
             
             Path(os.path.join(self.output, language, "games")).mkdir(parents=True, exist_ok=True)
 
@@ -139,7 +148,7 @@ class Generator:
 
         sitemap.write_to_file(self.output)
 
-        invoke_plugins("post_build", None, output_path = self.output)
+        self.pmgr.invoke_plugins("post_build", None, output_path = self.output)
 
 def main(argv):
     argv = argv[1:]
@@ -147,15 +156,6 @@ def main(argv):
     # FIXME: --start--
     # These global stuffs should be refector to Generator object context
     args = parse(argv)
-
-    if args.plugin:
-        for i in args.plugin:
-            d = i.split(',', 1)
-            name = d[0]
-            options = None
-            if len(d) >= 2:
-                options = d[1]
-            load_plugin(name, options)
 
     sitemap.ignore = args.no_sitemap
     # FIXME: --end--

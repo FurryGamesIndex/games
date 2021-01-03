@@ -24,7 +24,6 @@ from shutil import copyfile
 from fgi.image import HTMLImage, Image
 from fgi.utils.webutils import dl
 from fgi.utils import webp
-from fgi.plugin import invoke_plugins
 
 class MediaFactory:
     def __init__(self, fctx):
@@ -94,7 +93,8 @@ class MediaFactory:
             wpi.path = webpfn
             hi.add_source(wpi, "image/webp", False)
 
-        invoke_plugins("image_post_html_image_done", hi, rr = _rr, origin_uri = imageuri, gameid = gameid, alt = alt)
+        self.fctx.pmgr.invoke_plugins("image_post_html_image_done",
+            hi, rr = _rr, origin_uri = imageuri, gameid = gameid, alt = alt)
         return hi
 
     def _media_image(self, rr, image, gameid, name):

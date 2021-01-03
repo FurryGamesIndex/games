@@ -19,8 +19,6 @@
 
 import importlib
 
-plugins = []
-
 class Plugin:
     def __init__(self, options):
         if options:
@@ -63,9 +61,13 @@ class Plugin:
                 else:
                     self._update_option_attr(name, "true")
 
-def invoke_plugins(method, var, *args, **kwargs):
-    if plugins:
-        for i in plugins:
+
+class PluginManager:
+    def __init__(self):
+        self.plugins = []
+
+    def invoke_plugins(self, method, var, *args, **kwargs):
+        for i in self.plugins:
             func = getattr(i, method, None)
 
             if func is None:
@@ -75,13 +77,12 @@ def invoke_plugins(method, var, *args, **kwargs):
             if _var is not None:
                 var = _var
 
-    return var
+        return var
 
-def load_plugin(name, options):
-    p = importlib.import_module(".plugins." + name, package=__package__)
-    if not hasattr(p, "impl"):
-        raise ValueError(f"Module '{name}' does not provide a plugin implement.")
-    plugin = p.impl(options)
-    if not hasattr(plugin, "_bypass_hook_chain"):
-        plugins.append(plugin)
-
+    def load_plugin(self, name, options):
+        p = importlib.import_module(".plugins." + name, package=__package__)
+        if not hasattr(p, "impl"):
+            raise ValueError(f"Module '{name}' does not provide a plugin implement.")
+        plugin = p.impl(options)
+        if not hasattr(plugin, "_bypass_hook_chain"):
+            self.plugins.append(plugin)
