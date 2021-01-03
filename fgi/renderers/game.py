@@ -19,7 +19,6 @@
 
 import os
 import re
-from fgi import image
 from fgi.renderer import Renderer
 from fgi.i18n import get, get_mtime
 from fgi.link import link_info
@@ -53,7 +52,7 @@ class RendererGame(Renderer):
 
         self.basectx = {
             "rr": "../..",
-            "image": image,
+            "image": self.fctx.mfac,
             "get": get,
             "link_info": link_info,
             "checktag": checktag,
@@ -112,7 +111,7 @@ class RendererGame(Renderer):
         meta["title"] = get(game, self.language, 'name')
         desc = get(game, self.language, 'description')[:200].replace('\n', '') + "..."
         meta["description"] = re.sub(r'<[^<]*>', '', desc)
-        meta["image"] = image.uri(context["rr"], game["thumbnail"], gid)
+        meta["image"] = self.fctx.mfac.uri_to_html_image(context["rr"], game["thumbnail"], gid).src
         meta["extra_keywords"] = keywords.game_page_extra_keywords(game, context["ui"])
 
         if 'expunge' in game:

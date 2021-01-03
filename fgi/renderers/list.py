@@ -23,7 +23,6 @@ from itertools import islice
 from datetime import datetime, timezone
 import email.utils
 
-from fgi.image import uri_to_html_image
 from fgi.renderer import Renderer
 from fgi.i18n import get
 from fgi.seo.sitemap import openw_with_sm
@@ -47,9 +46,9 @@ class RendererList(Renderer):
         self.basectx = {
             "rr": "..",
             "active_list": "actived",
-            "uri_to_html_image": uri_to_html_image,
             "get": get,
-            "ts_to_rfc5322": ts_to_rfc5322
+            "ts_to_rfc5322": ts_to_rfc5322,
+            "mfac": self.fctx.mfac,
         }
 
         self.games = self.lctx["games"]

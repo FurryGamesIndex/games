@@ -23,12 +23,11 @@ from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
-from fgi import image
 from fgi.i18n import get_languages_list
 from fgi.plugin import invoke_plugins
 
 
-def parse_description(game, fmt, game_id):
+def parse_description(game, fmt, game_id, mfac):
     if "description" not in game:
         return
 
@@ -38,13 +37,13 @@ def parse_description(game, fmt, game_id):
         game["@desc_html"] = escape(desc).replace("\n", "<br>")
     elif fmt == "markdown":
         markdowner = Markdown(extras=["strike", "target-blank-links"],
-                inline_image_uri_filter = lambda uri: image.uri("../..", uri, game_id))
+                inline_image_uri_filter = lambda uri: mfac.uri_to_html_image("../..", uri, game_id).src)
         game["@desc_html"] = markdowner.convert(desc)
         game["description"] = BeautifulSoup(game["@desc_html"], features="html.parser").get_text()
     else:
         raise ValueError(f"description format invaild: {fmt}")
 
-def load_game(dbdir, f, languages):
+def load_game(dbdir, f, languages, mfac):
     game = None
     fn = os.path.join(dbdir, f)
 
@@ -63,7 +62,7 @@ def load_game(dbdir, f, languages):
         if "description-format" not in game:
             game["description-format"] = "plain"
 
-        parse_description(game, game["description-format"], game_id)
+        parse_description(game, game["description-format"], game_id, mfac)
 
     for language in languages:
         l10n_file = os.path.join(dbdir, "l10n", language, f)
@@ -72,7 +71,7 @@ def load_game(dbdir, f, languages):
             with open(l10n_file) as stream:
                 game["tr"][language] = yaml.safe_load(stream)
                 game["tr"][language]["mtime"] = os.path.getmtime(l10n_file)
-                parse_description(game["tr"][language], game["description-format"], game_id)
+                parse_description(game["tr"][language], game["description-format"], game_id, mfac)
 
     return (game, game_id)
 
@@ -85,11 +84,11 @@ def sorted_games_by_mtime(games):
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if "expunge" not in v }
 
-def load_game_all(dbdir, sdb, tagmgr, languages):
+def load_game_all(dbdir, sdb, tagmgr, languages, mfac):
     games = {}
 
     for f in os.listdir(dbdir):
-        game, game_id = load_game(dbdir, f, languages)
+        game, game_id = load_game(dbdir, f, languages, mfac)
 
         if game is None:
             continue

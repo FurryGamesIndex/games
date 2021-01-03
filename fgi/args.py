@@ -19,9 +19,6 @@
 
 import argparse
 
-#FIXME: old code may refer the global args
-args = None
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--extra-ui', type=str, help='Set extra ui profile path')
 parser.add_argument('--no-sitemap', default=False, action='store_true', help='Do not generate sitemap')

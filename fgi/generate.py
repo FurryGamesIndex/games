@@ -40,6 +40,7 @@ from fgi.args import parse
 from fgi.base import load_game_all, list_pymod, local_res_href
 from fgi.search import SearchDatabase
 from fgi.tagmgr import TagManager
+from fgi.media import MediaFactory
 from fgi.seo import sitemap
 from fgi.i18n import get_languages_list, uil10n_load_base, ui10n_load_language
 from fgi.plugin import invoke_plugins, load_plugin
@@ -61,6 +62,8 @@ class Generator:
         self.dir_renderer_nonl10n_files = os.path.join("renderers", "nonl10n")
 
         self.tagmgr = TagManager()
+
+        self.mfac = MediaFactory(self)
 
         self.tagdep_file = "tag-dependencies.yaml"
         self.tags_file = "tags.yaml"
@@ -88,27 +91,27 @@ class Generator:
 
         self.env = Environment(loader = FileSystemLoader(self.dir_templates))
 
-        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages)
+        if self.output != "-":
+            if os.path.exists(self.output) and not self.args.no_purge_prev_builds:
+                shutil.rmtree(self.output)
+            dir_util._path_created = {}
+            dir_util.copy_tree(self.webroot_path, self.output)
+            dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
+
+        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac)
 
         self.base_l10n = uil10n_load_base(self.dir_uil10n, self.args)
 
         self.lctx = {
-            "args": self.args,
-            "searchdb": self.sdb,
             "os": os,
-            "webrootdir": "webroot",
             "time": time,
             "res": local_res_href,
+            "args": self.args,
             "games": self.games,
+            "webrootdir": self.webroot_path,
         }
 
     def run(self):
-        if os.path.exists(self.output) and not self.args.no_purge_prev_builds:
-            shutil.rmtree(self.output)
-        dir_util._path_created = {}
-        dir_util.copy_tree(self.webroot_path, self.output)
-        dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
-
         self.sdb.write_to_file(self.output)
 
         for language in self.languages:
@@ -144,8 +147,6 @@ def main(argv):
     # FIXME: --start--
     # These global stuffs should be refector to Generator object context
     args = parse(argv)
-    from fgi import args as _
-    _.args = args
 
     if args.plugin:
         for i in args.plugin:

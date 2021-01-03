@@ -19,17 +19,11 @@
 
 import re
 import os
-import hashlib
 import heapq
 import PIL.Image
-from shutil import copyfile
 from html import escape
 
-from .utils.webutils import dl
-from .utils.uriutils import append_query
-from .utils import webp
-from fgi import args
-from fgi.plugin import invoke_plugins
+from fgi.utils.uriutils import append_query
 
 regexp = re.compile("^[a-zA-Z0-9\-]+:/{0,2}[^/]+")
 
@@ -162,106 +156,3 @@ class HTMLImage:
             hi.query["t"] = int(image.mtime)
 
         return hi
-
-def uri_to_html_image(_rr, imageuri, gameid, alt = None):
-    rr = _rr if _rr else ""
-    image = Image(imageuri)
-
-    if image.is_remote:
-        if args.args.download_external_images:
-            sum = hashlib.sha1(image.uri.encode("utf-8")).hexdigest()
-            path = "assets/" + gameid + "/" + sum + os.path.splitext(image.uri)[1]
-            image.path = os.path.join(args.args.output, path)
-
-            if not os.path.isfile(image.path):
-                if args.args.use_external_images_cache is not None:
-                    cached_image = os.path.join(args.args.use_external_images_cache, path)
-                    if os.path.isfile(cached_image):
-                        copyfile(cached_image, image.path)
-                    else:
-                        print("cache missing, downloading %s %s" % (sum, image.uri))
-                        dl(image.uri, image.path)
-                else:
-                    print("downloading %s %s" % (sum, image.uri))
-                    dl(image.uri, os.path.join(args.args.output, path))
-
-            image.is_remote = False
-            image.uri = rr + "/" + path
-    else:
-        path = "assets/" + gameid + "/" + image.uri
-        image.path = os.path.join(args.args.output, path)
-        if os.path.exists(image.path):
-            image.mtime = os.path.getmtime(image.path)
-        image.uri = rr + "/" + path
-
-    path = image.path
-
-    if args.args.images_to_webp \
-            and not image.is_remote \
-            and webp.can_convert(path):
-
-        image.uri += ".webp"
-        image.path += ".webp"
-
-        if os.path.exists(path):
-            if not os.path.exists(image.path):
-                try:
-                    webp.cwebp(path, image.path)
-                except:
-                    print(f"[warning] {path} can not be converted to webp")
-            os.remove(path)
-
-    hi = HTMLImage.from_image(image)
-    hi.alt = alt
-
-    if args.args.images_candidate_webp \
-            and not image.is_remote \
-            and webp.can_convert(path) \
-            and os.path.exists(path):
-        webpfn = image.path + ".webp"
-
-        if not os.path.exists(webpfn):
-            webp.cwebp(path, webpfn)
-
-        wpi = Image(image.uri + ".webp")
-        wpi.path = webpfn
-        hi.add_source(wpi, "image/webp", False)
-
-    invoke_plugins("image_post_html_image_done", hi, rr = _rr, origin_uri = imageuri, gameid = gameid, alt = alt)
-    return hi
-
-# TODO: remove deprecated function uri
-def uri(rr, imageuri, gameid):
-    return uri_to_html_image(rr, imageuri, gameid).src
-
-
-def _media_image(rr, image, gameid, name):
-    if "sensitive" in image and image["sensitive"] == True:
-        # TODO: use HTMLImage for sensitive images
-        return '<img class="sensitive_img hide" data-realsrc="%s" src="data:image/png;base64,">' % uri(rr, image["uri"], gameid)
-    else:
-        return uri_to_html_image(rr, image["uri"], gameid, alt=name).html()
-
-def _media_youtube(rr, image, gameid, name):
-    return '<iframe width="100%%" height="342" src="https://www.youtube.com/embed/%s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' % image["uri"].split(":")[1]
-
-def _media_video(rr, image, gameid, name):
-    elm = '<video controls width="100%">'
-    for i in image["src"]:
-        elm += '<source src="%s" type="%s">' % (i["uri"], i["mime"])
-    return elm + "</video>"
-
-def dom(rr, image, gameid, name = ""):
-    mode = _media_image
-    image_meta = image
-
-    if type(image) is str:
-        image_meta = dict()
-        image_meta["uri"] = image
-    elif "type" in image:
-        if image["type"] == "youtube":
-            mode = _media_youtube
-        if image["type"] == "video":
-            mode = _media_video
-
-    return mode(rr, image_meta, gameid, name)
