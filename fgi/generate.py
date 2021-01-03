@@ -76,7 +76,7 @@ class Generator:
 
     def prepare(self):
         if self.args.plugin:
-            for i in args.plugin:
+            for i in self.args.plugin:
                 d = i.split(',', 1)
                 name = d[0]
                 options = None
