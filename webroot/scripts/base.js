@@ -7,6 +7,25 @@ String.prototype.format = function() {
 	});
 };
 
+window.make_picture = (data, prefix, picture) => {
+	if (picture == null)
+		picture = document.createElement("picture");
+
+	data.source.forEach(i => {
+		const source = document.createElement("source");
+		source.setAttribute("type", i.type);
+		source.setAttribute("srcset", prefix + i.srcset);
+		picture.appendChild(source);
+	});
+
+	const srcnode = document.createElement("img");
+	srcnode.src = prefix + data.src;
+	picture.appendChild(srcnode);
+
+	picture.srcNode = srcnode;
+	return picture;
+}
+
 if ('serviceWorker' in navigator)
 	navigator.serviceWorker.register('/sw.js');
 

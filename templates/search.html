@@ -55,17 +55,8 @@ let add = (id, game) => {
 	const _prefix = "{{ res(rr, '') }}"
 	const thumb = item.querySelector("._thumbnail");
 
-	game.thumbnail.source.forEach(i => {
-		const source = document.createElement("source");
-		source.setAttribute("type", i.type);
-		source.setAttribute("srcset", _prefix + i.srcset);
-		thumb.appendChild(source);
-	});
-
-	const thumb_src = document.createElement("img");
-	thumb_src.src = _prefix + game.thumbnail.src;
-	thumb_src.classList.add("thumbnail")
-	thumb.appendChild(thumb_src)
+	make_picture(game.thumbnail, _prefix, thumb);
+	thumb.srcNode.classList.add("thumbnail")
 
 	const link = item.querySelector(".name_a");
 	link.textContent = getL10n(game, "name");
