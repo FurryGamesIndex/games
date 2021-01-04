@@ -57,9 +57,12 @@
 <script src="{{ res(rr, '/scripts/base.js') }}"></script>
 <script>
 if (localStorage.getItem("show_sensitive") == "true") {
-	$$(".sensitive_img").forEach(i => {
-		i.src = i.dataset.realsrc;
-		i.classList.remove("hide")
+	$$('script[type="text/x-FGI-sensitive-media"]').forEach(i => {
+		const media = JSON.parse(atob(i.textContent));
+		if (media.type === "image") {
+			const picture = make_picture(media.data, "", null);
+			i.parentNode.insertBefore(picture, i);
+		}
 	});
 	const warn = $("#sensitive_media_warn");
 	if (warn != null)

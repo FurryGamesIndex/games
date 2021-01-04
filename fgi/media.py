@@ -18,7 +18,9 @@
 # 
 
 import os
+import json
 import hashlib
+import base64
 from shutil import copyfile
 
 from fgi.image import HTMLImage, Image
@@ -98,12 +100,16 @@ class MediaFactory:
         return hi
 
     def _media_image(self, rr, image, gameid, name):
+        hi = self.uri_to_html_image(rr, image["uri"], gameid, alt=name)
+
         if "sensitive" in image and image["sensitive"] == True:
-            # TODO: use HTMLImage for sensitive images
-            uri =  self.uri_to_html_image(rr, image["uri"], gameid, alt=name).src
-            return '<img class="sensitive_img hide" data-realsrc="%s" src="data:image/png;base64,">' % uri
+            data = base64.b64encode(json.dumps({
+                "type": "image",
+                "data": hi.dict()
+            }, separators=(',', ':')).encode('utf-8')).decode()
+            return f'<script type="text/x-FGI-sensitive-media">{data}</script>'
         else:
-            return self.uri_to_html_image(rr, image["uri"], gameid, alt=name).html()
+            return hi.html()
 
     def _media_youtube(self, rr, image, gameid, name):
         return '<iframe width="100%%" height="342" src="https://www.youtube.com/embed/%s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' % image["uri"].split(":")[1]

@@ -448,11 +448,13 @@ code {
 	justify-content: flex-end;
 }
 
-.game .screenshots>* {
+.game .screenshots>*,
+.game .screenshots>picture>img {
 	width: 100%;
 }
 
-.game .screenshots>img {
+.game .screenshots>img,
+.game .screenshots>picture>img {
 	height: auto;
 }
 
