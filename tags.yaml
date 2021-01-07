@@ -494,13 +494,13 @@ males-only:
   namespaces: [ male ]
   explanation:
     en: 'Main characters are all males (only in namespace male)'
-    zh: '主要角色只有男性（只出现于 male 命名空间）'
+    zh-cn: '主要角色只有雄性（只出现于 male 命名空间）'
 
 females-only:
   namespaces: [ female ]
   explanation:
     en: 'Main characters are all females (only in namespace female)'
-    zh-cn: '主要角色只有女性（只出现于 female 命名空间）'
+    zh-cn: '主要角色只有雌性（只出现于 female 命名空间）'
 
 shota:
   namespaces: [ male ]
