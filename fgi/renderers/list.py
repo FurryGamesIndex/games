@@ -25,7 +25,6 @@ import email.utils
 
 from fgi.renderer import Renderer
 from fgi.i18n import get
-from fgi.seo.sitemap import openw_with_sm
 from fgi.base import sorted_games_by_mtime, strip_games_expunge
 
 def ts_to_rfc5322(ts):
@@ -57,7 +56,7 @@ class RendererList(Renderer):
         context = self.new_context()
 
         context["games"] = list_games(self.games)
-        with openw_with_sm(*self.getpath_sm("list.html"), priority="0.6") as f:
+        with self.sm_openw("list.html", priority="0.6") as f:
             f.write(self.env.get_template("list.html").render(context))
 
         if self.fctx.args.with_rss:

@@ -21,7 +21,6 @@ import os
 import re
 from datetime import datetime
 from fgi.renderer import Renderer
-from fgi.seo.sitemap import openw_with_sm
 from fgi.i18n import conv_doc_markdown
 
 class RendererMisc(Renderer):
@@ -48,7 +47,7 @@ class RendererMisc(Renderer):
 
         context = self.new_context()
         context["active_index"] = "actived"
-        with openw_with_sm(*self.getpath_sm("index.html"), priority="0.6") as f:
+        with self.sm_openw("index.html", priority="0.6") as f:
             f.write(env.get_template("index.html").render(context))
 
         # faq.html
@@ -56,7 +55,7 @@ class RendererMisc(Renderer):
         context = self.new_context()
         context["content"] = conv_doc_markdown("faq", self.language)
         context["active_faq"] = "actived"
-        with openw_with_sm(*self.getpath_sm("faq.html"), priority="0.4") as f:
+        with self.sm_openw("faq.html", priority="0.4") as f:
             f.write(env.get_template("simple_md.html").render(context))
 
         # search_help.html
@@ -73,13 +72,13 @@ class RendererMisc(Renderer):
             callback=lambda c: re.sub(r'`(.*?)`', _add_search_icon_link, c))
         context["extra_styles"] = context["content"].metadata["styles"]
 
-        with openw_with_sm(*self.getpath_sm("search_help.html"), priority="0.5") as f:
+        with self.sm_openw("search_help.html", priority="0.5") as f:
             f.write(env.get_template("simple_md.html").render(context))
 
         # sensitive.html
 
         context = self.new_context()
-        with openw_with_sm(*self.getpath_sm("sensitive.html"), priority="0.2",
+        with self.sm_openw("sensitive.html", priority="0.2",
                 lastmod_file="templates/sensitive.html") as f:
             f.write(env.get_template("sensitive.html").render(context))
 

@@ -41,7 +41,7 @@ from fgi.base import load_game_all, list_pymod, local_res_href, make_wrapper
 from fgi.search import SearchDatabase
 from fgi.tagmgr import TagManager
 from fgi.media import MediaFactory
-from fgi.seo import sitemap
+from fgi.seo.sitemap import Sitemap, SitemapGenerator
 from fgi.i18n import get_languages_list, uil10n_load_base, uil10n_load_language
 from fgi.plugin import PluginManager
 
@@ -52,7 +52,9 @@ def run_cmd(cmd, failback=''):
         return failback
 
 class Generator:
-    def __init__(self, args):
+    def __init__(self, argv):
+        self.argv = argv
+        args = parse(argv)
         self.args = args
 
         self.dbdir = "games"
@@ -74,6 +76,9 @@ class Generator:
         self.webroot_path = "webroot"
         self.assets_path = "assets"
 
+        self.base_uri = "https://furrygames.top/"
+        self.base_uri_old = "https://furrygamesindex.github.io/"
+
     def prepare(self):
         if self.args.plugin:
             for i in self.args.plugin:
@@ -83,6 +88,11 @@ class Generator:
                 if len(d) >= 2:
                     options = d[1]
                 self.pmgr.load_plugin(name, options)
+
+        self.sitemap = SitemapGenerator()
+        if not self.args.no_sitemap:
+            self.sitemap.add_site(Sitemap(self.base_uri, "sitempa2.xml"))
+            self.sitemap.add_site(Sitemap(self.base_uri_old, "sitemap.xml"))
 
         self.renderer_files = list_pymod(self.dir_renderer_files)
         self.renderer_nonl10n_files = list_pymod(self.dir_renderer_nonl10n_files)
@@ -146,40 +156,31 @@ class Generator:
             renderer = renderer_module.impl(self, lctx)
             renderer.render()
 
-        sitemap.write_to_file(self.output)
+        self.sitemap.save(self.output)
+
+        with open(os.path.join(self.args.output, "_buildinfo.txt"), "w") as f:
+            f.write("# FGI BUILD INFO START\n")
+            f.write(f"base revision: {run_cmd(['git', 'rev-parse', 'HEAD'], failback='unknown')}\n")
+            f.write(f"options: {' '.join(self.argv[:-1])}\n")
+            f.write(f"build datetime: {datetime.utcnow()}\n")
+            f.write(f"builder: {getpass.getuser()}@{platform.uname()[1]}\n")
+            f.write("interpreter: ")
+            f.write(sys.version.replace("\n", " "))
+            f.write("\n")
+            f.write(f"jinja2 version: {jinja2.__version__}\n")
+            f.write(f"pyyaml version: {yaml.__version__}\n")
+            f.write(f"markdown2 version: {markdown2.__version__}\n")
+            f.write(f"BeautifulSoup version: {bs4.__version__}\n")
+            f.write(f"webp utils version: {run_cmd(['cwebp', '-version'], failback='unknown')}\n")
+            f.write("# ADDITIONAL PATCHES\n")
+            if os.path.exists(".patches_info"):
+                with open(".patches_info") as pi:
+                    f.write(pi.read())
+            f.write("# FGI BUILD INFO END\n")
 
         self.pmgr.invoke_plugins("post_build", None, output_path = self.output)
 
 def main(argv):
-    argv = argv[1:]
-
-    # FIXME: --start--
-    # These global stuffs should be refector to Generator object context
-    args = parse(argv)
-
-    sitemap.ignore = args.no_sitemap
-    # FIXME: --end--
-
-    gen = Generator(args)
+    gen = Generator(argv[1:])
     gen.prepare()
     gen.run()
-
-    with open(os.path.join(args.output, "_buildinfo.txt"), "w") as f:
-        f.write("# FGI BUILD INFO START\n")
-        f.write(f"base revision: {run_cmd(['git', 'rev-parse', 'HEAD'], failback='unknown')}\n")
-        f.write(f"options: {' '.join(argv[:-1])}\n")
-        f.write(f"build datetime: {datetime.utcnow()}\n")
-        f.write(f"builder: {getpass.getuser()}@{platform.uname()[1]}\n")
-        f.write("interpreter: ")
-        f.write(sys.version.replace("\n", " "))
-        f.write("\n")
-        f.write(f"jinja2 version: {jinja2.__version__}\n")
-        f.write(f"pyyaml version: {yaml.__version__}\n")
-        f.write(f"markdown2 version: {markdown2.__version__}\n")
-        f.write(f"BeautifulSoup version: {bs4.__version__}\n")
-        f.write(f"webp utils version: {run_cmd(['cwebp', '-version'], failback='unknown')}\n")
-        f.write("# ADDITIONAL PATCHES\n")
-        if os.path.exists(".patches_info"):
-            with open(".patches_info") as pi:
-                f.write(pi.read())
-        f.write("# FGI BUILD INFO END\n")

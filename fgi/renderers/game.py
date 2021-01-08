@@ -23,7 +23,6 @@ from fgi.base import make_wrapper
 from fgi.renderer import Renderer
 from fgi.i18n import get, get_mtime
 from fgi.link import link_info
-from fgi.seo.sitemap import openw_with_sm
 from fgi.seo import keywords
 
 def checktag(game, namespace, value):
@@ -123,13 +122,10 @@ class RendererGame(Renderer):
 
     def render(self):
         for gid, game in self.games.items():
-            if 'expunge' in game:
-                f = open(self.getpath("games", gid + ".html"), "w")
-            else:
-                f = openw_with_sm(*self.getpath_sm("games", gid + ".html"),
-                        priority="0.7", lastmod_ts=get_mtime(game, self.language))
+            nosm = 'expunge' in game
 
-            f.write(self.render_game(gid, game))
-            f.close()
+            with self.sm_openw("games", gid + ".html", sm = not nosm,
+                    priority="0.7", lastmod_ts=get_mtime(game, self.language)) as f:
+                f.write(self.render_game(gid, game))
 
 impl = RendererGame

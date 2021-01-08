@@ -20,7 +20,6 @@
 import os
 from fgi.renderer import Renderer
 from fgi.i18n import get, conv_doc_markdown
-from fgi.seo.sitemap import openw_with_sm
 
 class RendererSingles(Renderer):
     def __init__(self, *args, **kwargs):
@@ -45,7 +44,7 @@ class RendererSingles(Renderer):
 
         context = self.new_context()
         context["content"] = conv_doc_markdown("credits", None)
-        with openw_with_sm(*self.getpath_sm("credits.html")) as f:
+        with self.sm_openw("credits.html") as f:
             f.write(self.env.get_template("simple_md.html").render(context))
 
 impl = RendererSingles

@@ -42,9 +42,10 @@ class Renderer:
         else:
             return os.path.join(self.fctx.output, self.language, *fn)
 
-    def getpath_sm(self, *fn):
-        path = self.getpath()
-        return path, "/".join([*fn])
+    def sm_openw(self, *fn, sm = True, **kwargs):
+        if sm:
+            self.fctx.sitemap.add_entry("/".join([*fn]), **kwargs)
+        return open(self.getpath(*fn), "w")
 
     def render(self):
         pass
