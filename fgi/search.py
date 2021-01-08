@@ -17,14 +17,21 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
-from fgi import image
+import os
+import json
+import base64
 
-class searchdb:
-    def __init__(self, no_data=False):
+class SearchDatabase:
+    def __init__(self, fctx, no_data=False):
+        self.fctx = fctx
+
         self.db = {}
         self.db["rtag"] = {}
         self.db["data"] = {}
         self.no_data = no_data
+
+    def add_extra_data(self, k, v):
+        self.db[k] = v
 
     def update(self, game):
         if 'expunge' in game:
@@ -42,7 +49,8 @@ class searchdb:
             data["tr"] = {}
             data["name"] = game["name"]
             data["description"] = game["description"]
-            data["thumbnail"] = image.uri("..", game["thumbnail"], game["id"])
+            data["thumbnail"] = self.fctx.mfac.uri_to_html_image(None, game["thumbnail"], game["id"]).dict()
+            data["mtime"] = game["mtime"]
 
             for lang in game["tr"]:
                 data["tr"][lang] = {}
@@ -52,3 +60,16 @@ class searchdb:
                     data["tr"][lang]["description"] = game["tr"][lang]["description"]
 
             self.db["data"][game["id"]] = data
+
+    def write_to_file(self, output):
+        if not self.no_data:
+            data = json.dumps(self.db, separators=(',', ':'))
+
+            with open(os.path.join(output, "scripts", "searchdb.json"), "w") as f:
+                f.write(data)
+
+            if self.fctx.args.file_uri_workaround:
+                with open(os.path.join(output, "scripts", "searchdb_offline.js"), "w") as f:
+                    f.write("var _searchdb=JSON.parse(atob('")
+                    f.write(base64.b64encode(data.encode('utf-8')).decode('ascii'))
+                    f.write("'))")

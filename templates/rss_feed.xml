@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+<title>{{ ui.page_title }}</title>
+<description>{{ ui.page_description|e }} - {{ ui.rss_desc|e }}</description>
+<link>https://furrygames.top/{{ lang }}</link>
+<copyright>FurryGamesIndex project. All rights reserved</copyright>
+<ttl>1800</ttl>
+{% for name, game in games %}
+{% set game_name = get(game, lang, 'name') %}
+{% set guid = "https://furrygamesindex.github.io/" ~ lang ~ "/games/" ~ name ~ ".html" %}
+{% set www_link = "https://furrygames.top/" ~ lang ~ "/games/" ~ name ~ ".html" %}
+<item>
+<title>{{ game_name|e }}</title>
+<description><![CDATA[
+	{{ mfac.uri_to_html_image(rr, game.thumbnail, name, game_name).html(use_picture=False) }}<br><br>
+	{{ get(game, lang, 'description')|e|replace('\n', '<br>') }}<br><br>
+	<a href="{{ www_link }}">{{ www_link }}</a>
+]]></description>
+<link>{{ www_link }}</link>
+<guid>{{ guid }}</guid>
+<pubDate>{{ ts_to_rfc5322(game.mtime) }}</pubDate>
+</item>
+{% endfor %}
+</channel>
+</rss>

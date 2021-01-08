@@ -1,0 +1,67 @@
+name: THE BEAST
+
+description: |
+  **(THE BEAST contains scenes of torturing, explicit violence and gore - you must be 18 or older to play)**
+
+  THE BEAST is a role-playing horror furry visual novel about a world filled by terrifying monsters named "The Corrupted", a demonic species that hungers for human flesh and blood. A company of Alchemia Corp, hired a special team called "BEAST Hunters" to hunt down and eliminate them. It was at this moment, Eric, a teenage boy who lives a smooth life without going out in a clean house, gradually learned that he is not a human...
+
+description-format: markdown
+
+tags:
+  author:
+    - 'GhostieSpectie'
+  type:
+    - visual-novel
+    - bara
+    - action
+    - role-playing
+    - gore
+    - comedy
+    - horror
+  male:
+    - canine
+    - feline
+    - dog
+    - humankind
+    - muscle
+    - human-on-furry
+    - tentacles
+    - dragon
+  female:
+    - canine
+    - humankind
+    - dolphin
+    - tentacles
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .itch.io
+    uri: https://ghostrickfrost.itch.io/the-beast-visual-novel
+  - name: .twitter
+    uri: twitter:ghostiespectie
+
+thumbnail: thumbnail.png
+
+sensitive_media: true
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjQyODI5LzQ3Mzg1NTYucG5n/original/KYIKwo.png
+  - https://img.itch.zone/aW1hZ2UvNjQyODI5LzQ1NTIyMDQucG5n/original/oHc0gj.png
+  - https://img.itch.zone/aW1hZ2UvNjQyODI5LzQ1NTIyMDYucG5n/original/biKOA%2B.png
+  - sensitive: true
+    uri: https://img.itch.zone/aW1hZ2UvNjQyODI5LzQ1NTIyMDcucG5n/original/ochiRY.png
+
+X-Created-by: Ghostie Spectie
+X-Co-edited-by: [ commiter@git ]

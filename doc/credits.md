@@ -56,6 +56,12 @@ Patched fork: [https://github.com/FurryGamesIndex/python-markdown2](https://gith
 
 [https://fontawesome.com/](https://fontawesome.com/)
 
+## Nord color palette
+
+MIT License
+
+[https://www.nordtheme.com/](https://www.nordtheme.com/)
+
 ## git
 
 ![git](https://i.imgur.com/PPCjVty.png)

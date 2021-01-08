@@ -27,11 +27,13 @@ lang = argv[1]
 uilang = {
     'en': {
         'namespace': '## Namespace %s',
-        'tip': 'If you want to add new tags, welcome to create issues for discussion.'
+        'tip': 'If you want to add new tags, welcome to create issues for discussion.',
+        'alias': 'Tag aliases: '
     },
     'zh-cn': {
         'namespace': '## %s 命名空间',
-        'tip': '如果你认为应该增加新的标签，欢迎创建 issues 讨论。'
+        'tip': '如果你认为应该增加新的标签，欢迎创建 issues 讨论。',
+        'alias': '标签别名：'
     }
 }
 
@@ -54,7 +56,11 @@ def doctag_class(name, data):
     _doctag_content(data)
 
 def doctag_tag(name, data):
-    print("- `%s` %s" % (name, data["explanation"].get(lang, data["explanation"]["en"])))
+    explan = data["explanation"].get(lang, data["explanation"]["en"])
+    aliases = ""
+    if "alias" in data:
+        aliases = " (" + uilang[lang]["alias"] + "`" + "`, `".join(data["alias"]) + "`)"
+    print(f"- `{name}` {explan}{aliases}")
 
 with open("tags.yaml") as f:
     tags = yaml.safe_load(f.read())

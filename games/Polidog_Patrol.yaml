@@ -1,0 +1,61 @@
+name: Polidog Patrol / ポリドッグパトロール
+
+description: |
+  The latest work from the team *Untendo* that created the [Benki Wars](BENKI_WARS.html).
+  It is a full-fledged action game that was completed after two and a half years of development.
+
+  # Game Description
+  The game is a side-view action RPG in which you control a rookie cop, Shibakuro, and solve a variety of cases. Battles take place seamlessly as you explore a vast field and fight against an evil organization with senior police officers.
+
+  # Play time
+  About 20 hours (varies depending on the style of play)
+
+  # Trial Version
+  As this game is very heavy, we have attached a load test version of the game in the trial version section. It is possible to actually operate the game, so it can also function as a trial version. Please use it before purchasing.
+
+  (Translated from Japanese)
+
+description-format: markdown
+
+tags:
+  author:
+    - Untendo
+  type:
+    - role-playing
+    - action
+    - yiff
+  male:
+    - tiger
+    - dog
+  lang:
+    - ja
+  publish:
+    - digiket
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: Digiket (Digital ver) (Windows)
+    uri: https://www.digiket.com/work/show/_data/ID=ITM0209502/
+  - name: Digiket (Digital ver) (macOS)
+    uri: https://www.digiket.com/work/show/_data/ID=ITM0209503/
+  - name: Alice-books (Physical ver)
+    uri: https://alice-books.com/item/show/3288-19
+  - name: Ver 1.01 update patch
+    uri: https://untendo.booth.pm/items/2555415
+  - name: Get Demo (Windows)
+    uri: https://untendo.booth.pm/items/2527877
+  - name: Get Demo (macOS)
+    uri: https://untendo.booth.pm/items/2527966
+  - name: .website
+    uri: https://www.untendo.com/
+  - name: .twitter
+    uri: twitter:kajimaru_0507
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/jOi0m6a.png
+  - https://i.imgur.com/ppNaC9f.png
+  - https://i.imgur.com/6l202fQ.png

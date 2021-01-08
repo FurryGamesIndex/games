@@ -22,6 +22,7 @@ copying_area_tip: Found something missing or wrong? Or want to add a game to thi
 copying_area_copyright: Copyright The FurryGamesIndex project, The data on this site is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>. The copyright of some data (such as game screenshots) belongs to the original owner. We only release them under the premise of <a href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>.
 copying_privacy_policy: Privacy Policy
 copying_oss: Powered by Open-source softwares
+copying_rss: RSS Feed
 
 index_content: >
   <h1>FurryGamesIndex - Find the best furry &amp; kemono games</h1>
@@ -44,7 +45,7 @@ search_form_mode_title: Search titles
 search_form_mode_tindes: Search titles and descriptions
 search_form_mode_tag: Search tags
 search_form_do: Search
-search_help_link: Instructions for using the searching
+search_help_link: Search Help
 
 gamewarn_yiff: This game may contain sensitive content or may not be appropriate for viewing at work.
 gamewarn_nolang: This game may not contain English language localizations
@@ -54,11 +55,18 @@ gamewarn_unpublished: This game has NOT been released yet
 gamewarn_died: This game is probably dead before completion
 gamewarn_expired: Access to the game is no longer available
 gamewarn_notonlyfurry: This game is not just about Furry topics. This means you may not like this game.
+gamewarn_deprecated_shockwave_flash: Flash Player required
 
 game_author_widget_more_from: 'More games from <b>%s</b>:'
 
+game_edit: Edit this page
 game_contact_us: Contant FurryGamesIndex project by
 game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>
+
+warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
+noticebox_tagme: This page is known to be missing important tags. Please help to add tags. <br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribution guide</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md">Tags list and explanation</a>
+warnbox_expunge: This page is expunged from list and search.
+noticebox_replacedby: This game has been replaced by <a href="%s">%s</a>. Therefore, it will not be displayed on the list page.
 
 sensitive_page_tip: |
   This will enable the display of sensitive content on all FGI pages.<br>
@@ -66,15 +74,14 @@ sensitive_page_tip: |
   You must use a modern browser and enable JavaScript.<br>
   After modifying this setting, you need to refresh the page to take effect.
 
-warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
-noticebox_tagme: This page is known to be missing important tags. Please help to add tags. <br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md">Contribution guide</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.en.md">Tags list and explanation</a>
-warnbox_expunge: This page is expunged from list and search.
+rss_desc: RSS Feed will push the last 30 game pages added or edited in chronological order.
 
 stock-link-website: Official Website
 stock-link-release-page: Release page
 stock-link-steam: Get on Steam
 stock-link-itch.io: Get on itch.io
 stock-link-booth: Get on booth
+stock-link-digiket: Get on Digiket
 stock-link-play-store: Get on Google Play
 stock-link-apple-appstore: Get on Apple Appstore
 stock-link-nintendo-e-shop: Get on Nintendo E-Shop
@@ -88,6 +95,12 @@ stock-link-weibo: Official Weibo
 stock-link-tumblr: Official Tumblr
 stock-link-pixiv: Official Pixiv
 stock-link-discord: Official Discord
+stock-link-youtube: Official YouTube
+stock-link-facebook: Official Facebook
+stock-link-unofficial-patch-zh: Unofficial Chinese patch
+stock-link-unofficial-version-zh: Unofficial Chinese version
+stock-link-demo-version: Get Demo version
+# Deprecated
 stock-link-unofficial-patch-zh-cn: Unofficial Simplified Chinese patch
 stock-link-unofficial-ver-zh-cn: Unofficial Simplified Chinese version
 stock-link-unofficial-patch-zh-tw: Unofficial Traditional Chinese patch

@@ -1,6 +1,8 @@
 <div class="gamewarn tip">
 {% if "type" in game.tags %}
-{% if "yiff" in game.tags.type %}
+{% if "yiff" in game.tags.type or
+        "gore" in game.tags.type
+%}
 <div class="iconline"><i class="fas fa-shield-alt fa-fw"></i><span>{{ ui.gamewarn_yiff }}</span></div>
 {% endif %}
 {% endif %}
@@ -28,6 +30,12 @@
 {% endif %}
 {% if "not-only-furry-topic" in game.tags.misc %}
 <div class="iconline"><i class="fas fa-exclamation-triangle fa-fw"></i><span>{{ ui.gamewarn_notonlyfurry }}</span></div>
+{% endif %}
+{% endif %}
+
+{% if "platform" in game.tags %}
+{% if "shockwave-flash" in game.tags.platform and game.tags.platform|length == 1 %}
+<div class="iconline"><i class="fas fa-heart-broken fa-fw"></i><span>{{ ui.gamewarn_deprecated_shockwave_flash }}</span></div>
 {% endif %}
 {% endif %}
 </div>

@@ -1,3 +1,4 @@
+{% include 'header.html' %}
 <div id="search_box" class="default">
 	<select id="search_mode" >
 		<option value="title">{{ ui.search_form_mode_title }}</option>
@@ -9,14 +10,15 @@
 		<input id="search_value" />
 		<button id="search_do">{{ ui.search_form_do }}</button>
 	</div>
-	<a href="faq.html#search_help">{{ ui.search_help_link }}</a>
+	<a href="search_help.html">{{ ui.search_help_link }}</a>
 </div>
 <div id="search_info" class="default">
 
 </div>
 <div class="items">
 	<div class="item hide">
-		<img class="thumbnail" src="data:," >
+		<picture class="_thumbnail">
+		</picture>
 		<div class="content">
 			<div class="name"><a href="#" class="name_a"></a></div>
 			<div class="description"></div>
@@ -27,10 +29,10 @@
 <div class="default">
 {% include 'copying.html' %}
 </div>
-<script src="{{ rr }}/scripts/base.js"></script>
-<script src="{{ rr }}/scripts/searchexpr.js"></script>
-{% if "search_extra_scripts" in ui %}
-	{{ ui.search_extra_scripts }}
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
+<script src="{{ res(rr, '/scripts/searchexpr.js') }}"></script>
+{% if args.file_uri_workaround %}
+<script src="{{ res(rr, '/scripts/searchdb_offline.js') }}"></script>
 {% endif %}
 <script>
 const items = $('.items');
@@ -50,7 +52,11 @@ let add = (id, game) => {
 	const item = template.cloneNode(true);
 	item.classList.remove("hide");
 
-	item.querySelector(".thumbnail").src = game.thumbnail;
+	const _prefix = "{{ res(rr, '') }}"
+	const thumb = item.querySelector("._thumbnail");
+
+	make_picture(game.thumbnail, _prefix, thumb);
+	thumb.srcNode.classList.add("thumbnail")
 
 	const link = item.querySelector(".name_a");
 	link.textContent = getL10n(game, "name");
@@ -62,6 +68,22 @@ let add = (id, game) => {
 	item.querySelector(".description").textContent = desc;
 
 	items.appendChild(item);
+}
+
+const searchTagWithoutNamespace = (searchdb, tag) => {
+	let res = new Set(),
+		ns = searchdb.tagns[tag];
+
+	if (ns == null)
+		ns = [ "author" ];
+
+	ns.forEach(i => {
+		console.log(i)
+		const tmp = searchdb.rtag[i + ":" + tag] || [];
+		res = new Set([...res, ...tmp]);
+	});
+
+	return [...res];
 }
 
 let onload = async () => {
@@ -76,7 +98,7 @@ let onload = async () => {
 
 		let searchdb;
 		if (typeof(_searchdb) === 'undefined') {
-			searchdb = await (await fetch("{{ rr }}/scripts/searchdb.json")).json();
+			searchdb = await (await fetch("{{ res(rr, '/scripts/searchdb.json', hc_uquery=time()|int) }}")).json();
 		} else {
 			searchdb = _searchdb;
 		}
@@ -93,13 +115,44 @@ let onload = async () => {
 			}
 			break;
 		case "tagx":
-			searchexpr(value, (tag => {
+			searchexpr(value, ((tag, args) => {
 				console.log("find: " + tag);
 				switch (tag) {
 				case '$all':
 					return Object.keys(searchdb.data);
 					break;
+				case '$sortcmpr':
+					switch (args.sortedBy) {
+					case "lastmod":
+						return searchdb.data[args.secondElm].mtime - searchdb.data[args.firstElm].mtime;
+						break;
+					default:
+						throw "unknown sortedBy arg: " + args.sortedBy;
+						break;
+					}
 				}
+
+				let ns = tag.substring(0, tag.indexOf(":"))
+				let v = tag.substring(tag.indexOf(":") + 1)
+
+				if (searchdb.tagalias.hasOwnProperty(v)) {
+					v = searchdb.tagalias[v];
+				}
+
+				switch (ns) {
+				case 'malex':
+					ns = 'male';
+					break;
+				case 'femalex':
+					ns = 'female';
+					break;
+				case '':
+					return searchTagWithoutNamespace(searchdb, v);
+					break;
+				}
+
+				tag = ns + ":" + v;
+
 				return searchdb.rtag[tag] || [];
 			})).forEach(i => {
 				num++;
@@ -170,3 +223,4 @@ $('#search_value').addEventListener('keyup', e => {
 
 onload();
 </script>
+{% include 'footer.html' %}

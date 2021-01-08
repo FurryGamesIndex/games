@@ -17,6 +17,8 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
+set -e
+
 RMRF="rm -rf "
 [ "$(uname -s)" = "Linux" ] && RMRF="$RMRF --preserve-root"
 
@@ -38,22 +40,14 @@ mkdir -p extraui
 dt=$(date -R)
 cat > extraui/en.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> This is a snapshot offline built for FurryGamesIndex (Build datetime: ${dt}). The upstream online version may already have a lot of improvements. <a href="https://furrygamesindex.github.io/">Click here to switch to the online version</a>
-search_extra_scripts: >
-  <script src="../scripts/searchdb_offline.js"></script>
+  <i class="fas fa-exclamation-circle"></i> This is a snapshot offline built for FurryGamesIndex (Build datetime: ${dt}). The upstream online version may already have a lot of improvements. <a href="https://furrygames.top/">Click here to switch to the online version</a>
 EOF
 cat > extraui/zh-cn.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> 这是一个 FurryGamesIndex 的离线快照构建（构建时间：${dt}）。上游在线版本可能已经有了重大改进。<a href="https://furrygamesindex.github.io/">点击此处切换到在线版本</a>
+  <i class="fas fa-exclamation-circle"></i> 这是一个 FurryGamesIndex 的离线快照构建（构建时间：${dt}）。上游在线版本可能已经有了重大改进。<a href="https://furrygames.top/">点击此处切换到在线版本</a>
 EOF
 
 ./zhconv.py --no-builtin extraui/zh-cn.yaml:extraui/zh-tw.yaml
 #./generate.py --no-sitemap --no-purge-prev-builds --download-external-images --extra-ui extraui "$OUTPUT_DIR"
-./generate.py --no-sitemap --download-external-images --use-external-images-cache "$CACHE_DIR" --extra-ui extraui "$OUTPUT_DIR"
-test "$FGI_OFFLINE_WEBP" = 1 && ./generate.py --no-sitemap --download-external-images --images-to-webp --use-external-images-cache "$OUTPUT_DIR" --extra-ui extraui "$OUTPUT_DIR_WEBP"
-
-echo -n "var _searchdb=JSON.parse(atob('" > "${OUTPUT_DIR}/scripts/searchdb_offline.js"
-cat "${OUTPUT_DIR}/scripts/searchdb.json" | python3 -m base64 | tr -d "\n" >> "${OUTPUT_DIR}/scripts/searchdb_offline.js"
-echo -n "'))" >> "${OUTPUT_DIR}/scripts/searchdb_offline.js"
-
-test "$FGI_OFFLINE_WEBP" = 1 && cp "${OUTPUT_DIR}/scripts/searchdb_offline.js" "${OUTPUT_DIR_WEBP}/scripts/searchdb_offline.js"
+./generate.py --no-sitemap --file-uri-workaround --download-external-images --use-external-images-cache "$CACHE_DIR" --extra-ui extraui "$OUTPUT_DIR"
+test "$FGI_OFFLINE_WEBP" = 1 && ./generate.py --no-sitemap --file-uri-workaround --download-external-images --images-to-webp --use-external-images-cache "$OUTPUT_DIR" --extra-ui extraui "$OUTPUT_DIR_WEBP"

@@ -1,11 +1,11 @@
 _metazoa: &metazoa
-  cat: [ 'felidae' ]
-  tiger: [ 'felidae' ]
-  lion: [ 'felidae' ]
-  leopard: [ 'felidae' ]
-  snow-leopard: [ 'felidae' ]
-  cheetah: [ 'felidae' ]
-  lynx: [ 'felidae' ]
+  cat: [ 'feline' ]
+  tiger: [ 'feline' ]
+  lion: [ 'feline' ]
+  leopard: [ 'feline' ]
+  snow-leopard: [ 'feline' ]
+  cheetah: [ 'feline' ]
+  lynx: [ 'feline' ]
 
   dog: [ 'canine' ]
   wolf: [ 'canine' ]
@@ -24,3 +24,10 @@ male:
   <<: *metazoa
 female:
   <<: *metazoa
+
+misc:
+  co-op: [ 'multiplayer' ]
+  pvp: [ 'multiplayer' ]
+
+platform:
+  shockwave-flash: [ 'misc:adobe-flash' ]

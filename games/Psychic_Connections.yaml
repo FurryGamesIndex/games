@@ -1,0 +1,69 @@
+name: Psychic Connections
+
+description: |
+  ![](https://img.itch.zone/aW1nLzM5MDkwNjEucG5n/original/Fo%2Bqdr.png)
+  
+  **(PC) is a romance visual novel set in the fictional college town of Elmwood. Upon arrival, you will be inducted into a secret support group for the local psychics in this supernatural slice-of-life.**
+  
+   As a member of the support group you will face several choices in your day to day life as you balance college with keeping your newfound friends' abnormalities a secret. 
+  
+   Meet the cast and entangle yourself further with one of our four eligible bachelors as you learn more about their troubled lives as psychics. You'll have the chance to help them cope with the issues their "gifts" bring — by doing so, you may even find yourself forming a deeper connection.
+  
+   ---
+  
+   PC's fantastic sprite art is by the artist Shiuk, who you can find on his [twitter](https://twitter.com/Shiuk).
+  
+   You can also follow the progress of the game via my profile or occasionally on the game's [twitter page](https://twitter.com/RookFluffy).
+  
+   If you would like to get access to builds a week early, view additional dev logs, as well as support the continuation of our project, check out our Patreon - [HERE](https://www.patreon.com/RookVN)!
+  
+   ---
+  
+   If you have any questions, feel free to ask, and we'll answer if we can. We'll be happy to read any reviews/thoughts you have on Psychic Connections as well.
+
+description-format: markdown
+
+tags:
+  author:
+    - RookFluffy
+  type:
+    - visual-novel
+    - bara
+  male:
+    - dog
+    - wolf
+    - deer
+    - rabbit
+    - leopard
+  female:
+    - dog
+  misc:
+    - freeware
+    - work-in-process
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://rookfluffy.itch.io/psychic-connections
+  - name: .patreon
+    uri: patreon:RookVN
+  - name: .twitter
+    uri: twitter:RookFluffy
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjkzMzMyLzQ1MjEzMDEuanBn/original/8koUhy.jpg
+  - https://img.itch.zone/aW1hZ2UvNjkzMzMyLzQ1MjEzMDAuanBn/original/CvcuBI.jpg
+  - https://img.itch.zone/aW1hZ2UvNjkzMzMyLzQzMDQ3NDIucG5n/original/e4THws.png
+  - https://img.itch.zone/aW1hZ2UvNjkzMzMyLzQzMDUyMzUucG5n/original/ENoKHw.png

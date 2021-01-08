@@ -24,31 +24,51 @@ from datetime import timezone
 
 ignore = False
 
-base_uri = "https://furrygamesindex.github.io/"
+base_uri = "https://furrygames.top/"
+base_uri_old = "https://furrygamesindex.github.io/"
 
-sitemap = """<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-"""
+sitemap_magic = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">"""
 
-def openw_with_sm(output_dir, filename, priority=None, changefreq=None, lastmod_file=None):
+sitemap = []
+sitemap_old = []
+
+def _sm_url_entry(prefix, filename, priority=None, changefreq=None, lastmod_ts=None, lastmod_file=None):
+    e = "<url><loc>" + prefix + escape(filename) + "</loc>"
+
+    if priority is not None:
+        e += "<priority>" + priority + "</priority>"
+    if changefreq is not None:
+        e += "<changefreq>" + changefreq + "</changefreq>"
+    if lastmod_file is not None or lastmod_ts is not None:
+        if lastmod_ts is None:
+            lastmod_ts = os.path.getmtime(lastmod_file)
+        dt = datetime.fromtimestamp(lastmod_ts, tz=timezone.utc).isoformat()
+        e += "<lastmod>" + dt + "</lastmod>"
+
+    return e + "</url>"
+
+def openw_with_sm(output_dir, filename, priority=None, changefreq=None, lastmod_ts=None, lastmod_file=None):
     global sitemap
 
     if not ignore:
-        sitemap += "<url><loc>" + base_uri + escape(filename) + "</loc>"
-        if priority is not None:
-            sitemap += "<priority>" + priority + "</priority>"
-        if changefreq is not None:
-            sitemap += "<changefreq>" + priority + "</changefreq>"
-        if lastmod_file is not None:
-            dt = datetime.fromtimestamp(os.path.getmtime(lastmod_file), tz=timezone.utc).isoformat()#.strftime('%FT%T:%z')
-            sitemap += "<lastmod>" + dt + "</lastmod>"
-        sitemap += "</url>"
+        sitemap.append(_sm_url_entry(base_uri, filename, priority=priority, changefreq=changefreq, lastmod_ts=lastmod_ts, lastmod_file=lastmod_file))
+        sitemap_old.append(_sm_url_entry(base_uri_old, filename, priority=priority, changefreq=changefreq, lastmod_ts=lastmod_ts, lastmod_file=lastmod_file))
 
     return open(os.path.join(output_dir, filename), "w")
 
-def write_to_file(filename):
+def _write_sm_file(f, arr):
+    f.write(sitemap_magic)
+    for i in arr:
+        f.write(i)
+    f.write("</urlset>")
+
+def write_to_file(dirname):
     if ignore:
         return
 
-    with open(filename, "w") as f:
-        f.write(sitemap + "</urlset>")
+    with open(os.path.join(dirname, "sitemap.xml"), "w") as f:
+        _write_sm_file(f, sitemap_old)
+
+    with open(os.path.join(dirname, "sitemap2.xml"), "w") as f:
+        _write_sm_file(f, sitemap)

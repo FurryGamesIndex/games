@@ -36,7 +36,7 @@ tags:
   misc:
     - engine-unity
     - work-in-process
-    - multiplayer
+    - co-op
     - pvp
   lang:
     - en
@@ -60,6 +60,8 @@ screenshots:
     src:
       - uri: https://steamcdn-a.akamaihd.net/steam/apps/256782069/movie480_vp9.webm
         mime: video/webm
+      - uri: https://steamcdn-a.akamaihd.net/steam/apps/256782069/movie480.mp4
+        mime: video/mp4
   - https://steamcdn-a.akamaihd.net/steam/apps/1296340/extras/base_steam_opt.gif
   - https://steamcdn-a.akamaihd.net/steam/apps/1296340/extras/sniff_and_diff_opt2.gif
   - https://steamcdn-a.akamaihd.net/steam/apps/1296340/extras/bush_and_cat_opt.gif

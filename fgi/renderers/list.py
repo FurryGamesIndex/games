@@ -19,23 +19,50 @@
 
 import os
 import json
-from fgi import image
+from itertools import islice
+from datetime import datetime, timezone
+import email.utils
+
+from fgi.renderer import Renderer
 from fgi.i18n import get
 from fgi.seo.sitemap import openw_with_sm
+from fgi.base import sorted_games_by_mtime, strip_games_expunge
 
-context = {
-    "rr": "..",
-    "active_list": "actived",
-    "uri_to_html_image": image.uri_to_html_image,
-    "get": get
-}
+def ts_to_rfc5322(ts):
+    dt = datetime.fromtimestamp(ts, tz=timezone.utc)
+    return email.utils.format_datetime(dt)
 
-def render(games, env, lctx, output):
-    context.update(lctx)
-    language = lctx["lang"]
+def list_games(games):
+    for name, game in games.items():
+        if "replaced-by" in game \
+                or "expunge" in game:
+            continue
+        yield name, game
 
-    context["games"] = dict(sorted(games.items(), key=lambda t: t[0].replace("_", "").upper()))
-    with openw_with_sm(output, os.path.join(language, "list.html"), priority="0.6") as f:
-        f.write(env.get_template("header.html").render(context))
-        f.write(env.get_template("list.html").render(context))
-        f.write(env.get_template("footer.html").render(context))
+class RendererList(Renderer):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self.basectx = {
+            "rr": "..",
+            "active_list": "actived",
+            "get": get,
+            "ts_to_rfc5322": ts_to_rfc5322,
+            "mfac": self.fctx.mfac,
+        }
+
+        self.games = self.lctx["games"]
+
+    def render(self):
+        context = self.new_context()
+
+        context["games"] = list_games(self.games)
+        with openw_with_sm(*self.getpath_sm("list.html"), priority="0.6") as f:
+            f.write(self.env.get_template("list.html").render(context))
+
+        if self.fctx.args.with_rss:
+            context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(self.games)).items(), 30)
+            with open(self.getpath("feed.xml"), "w") as f:
+                f.write(self.env.get_template("rss_feed.xml").render(context))
+
+impl = RendererList

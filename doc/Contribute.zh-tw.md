@@ -38,7 +38,7 @@
 
 ## 第四步：編輯遊戲描述檔案
 
-這裡首先給出 `Adastra` 遊戲的一個樣板描述檔案。看到這個模板（[效果演示](https://furrygamesindex.github.io/zh-tw/games/Adastra.html)），你可能已經對遊戲描述檔案有一個基本瞭解了，即使你仍然不明白，也沒有關係，因為接下來，我會給你介紹每一部分的含義和寫法。
+這裡首先給出 `Adastra` 遊戲的一個樣板描述檔案。看到這個模板（[效果演示](https://furrygames.top/zh-tw/games/Adastra.html)），你可能已經對遊戲描述檔案有一個基本瞭解了，即使你仍然不明白，也沒有關係，因為接下來，我會給你介紹每一部分的含義和寫法。
 
 ```
 name: Adastra
@@ -246,14 +246,12 @@ FGI 支援的庫存連結包括以下幾個
 - `.tumblr`: 官方 Tumblr
 - `.pixiv`: 官方 Pixiv
 - `.discord`: 官方 Discord
-- `.unofficial-patch-zh-cn`: 非官方簡體中文補丁
-- `.unofficial-ver-zh-cn`: 非官方簡體中文版本
-- `.unofficial-patch-zh-tw`: 非官方繁體中文補丁
-- `.unofficial-ver-zh-tw`: 非官方繁體中文版本
+- `.unofficial-patch-zh`: 非官方中文補丁
+- `.unofficial-version-zh`: 非官方中文版本
 
 當你使用庫存連結時，你就無需寫這麼一段長字，而且無需為每種語言寫一份，因為庫存連結是固定的，每種語言都可以自動處理。
 
-如果確實需要非庫存連結，則名稱部分直接寫就可以了，注意這裡我們要使用英文（然後可能還需要再在它處寫其他語言的名稱）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code>，是建立一個指向非官方中文補丁的連結。（現在 Adastra 已經使用 `.unofficial-patch-zh-cn` 庫存連結代替此自定義連結，但本文件仍然使用舊的自定義連結以幫助你理解以及說明自定義連結的翻譯方法）
+如果確實需要非庫存連結，則名稱部分直接寫就可以了，注意這裡我們要使用英文（然後可能還需要再在它處寫其他語言的名稱）比如本例的 <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code>，是建立一個指向非官方中文補丁的連結。（現在 Adastra 已經使用 `.unofficial-patch-zh` 庫存連結代替此自定義連結，但本文件仍然使用舊的自定義連結以幫助你理解以及說明自定義連結的翻譯方法）
 
 URI 部分可能是一個網址或 URL，比如上面的“在 itch.io 平臺上獲取”連結上，我們應該跳轉開啟該遊戲的 itch.io 網頁，因此我們填寫 `https://echoproject.itch.io/adastra`
 

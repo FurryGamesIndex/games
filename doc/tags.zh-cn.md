@@ -26,9 +26,13 @@
 - `role-playing` 角色扮演游戏
 - `dating-sim` 约会模拟游戏
 - `roguelike` Roguelike 游戏
+- `non-indie` 非独立 游戏
 - `bara` 包含较多男同性恋向内容的作品
 - `yuri` 包含较多女同性恋向内容的作品
-- `yiff` 包含成人（R-18）限制级内容的作品
+- `yiff` 包含成人（R-18）内容的作品。包含此标签的页面将显示敏感内容警告信息。
+- `gore` 包含怪诞内容的作品。包含此标签的页面将显示敏感内容警告信息。
+- `comedy` STUB
+- `horror` STUB
 
 ## male/female 命名空间
 
@@ -42,29 +46,31 @@
 以下是自动标签，它们在你搜索游戏时和其他标签没有区别。 但如果你是游戏编辑者、贡献者，你不必为游戏手动添加自动标签， 因为它们将在必要时自动被添加 （如您添加 `male:cat` 标签，该游戏将自动继承 `male:felidae` 标签）
 
 
-- `felidae` 主要角色包括猫科兽人
-- `canine` 主要角色包括犬科兽人
+- `feline` 主要角色包括猫科兽人 (标签别名：`felidae`)
+- `canine` 主要角色包括犬科兽人 (标签别名：`canidae`)
 - `mustelidae` 主要角色包括鼬科兽人
 - `reptilia` 主要角色包括爬行纲兽人
 
 ### 物种：杂类
 
 - `dragon` 主要角色包括龙兽人（仅西方龙）
-- `lung` 主要角色包括东方龙兽人
+- `lung` 主要角色包括东方龙兽人 (标签别名：`long`, `chinese-dragon`)
 - `mouse` 主要角色包括鼠兽人
 - `monkey` 主要角色包括猴子兽人
 - `bull` 主要角色包括牛兽人（只出现在 male 命名空间）
 - `cow` 主要角色包括牛兽人（只出现在 female 命名空间）
 - `sheep` 主要角色包括羊兽人
 - `horse` 主要角色包括马兽人
-- `rabbit` 主要角色包括兔兽人
+- `rabbit` 主要角色包括兔兽人 (标签别名：`hare`, `leporids`)
 - `bear` 主要角色包括熊兽人
 - `pig` 主要角色包括猪兽人
 - `hyena` 主要角色包括鬣狗兽人
 - `raccoon` 主要角色包括浣熊兽人
 - `shark` 主要角色包括鲨鱼兽人
+- `dolphin` 主要角色包括海豚兽人
 - `deer` 主要角色包括鹿兽人
 - `bird` 主要角色包括鸟兽人
+- `red-panda` 主要角色包括小熊猫兽人
 
 ### 物种：猫科
 
@@ -78,7 +84,7 @@
 
 ### 物种：犬科
 
-- `dog` 主要角色包括犬兽人
+- `dog` 主要角色包括犬兽人 (标签别名：`shibainu`, `husky`)
 - `wolf` 主要角色包括狼兽人
 - `fox` 主要角色包括狐兽人
 - `raccoon-dog` 主要角色包括貉兽人
@@ -100,12 +106,13 @@
 - `mixed` 主要角色包括混合兽人（如虎鲨，狮狗等等）
 - `humankind` 主要角色包括人类或智人
 - `non-anthro` 主要角色包括非人形 furry（纯兽）（动物形态，但通常具有高级智慧）
+- `funny-animal` STUB
 
 ### 非物种
 
 - `futanari` 主要角色包括扶她（通常放置于 female 命名空间）
-- `males-only` Main characters are all males (only in namespace male)
-- `females-only` 主要角色只有女性（只出现于 female 命名空间）
+- `males-only` 主要角色只有雄性（只出现于 male 命名空间）
+- `females-only` 主要角色只有雌性（只出现于 female 命名空间）
 - `shota` 主要角色包括像孩子一样的男性（只出现于 male 命名空间）
 - `loli` 主要角色包括像孩子一样的女性（只出现于 female 命名空间）
 - `muscle` 主要角色中包括肌肉丰满的角色
@@ -122,15 +129,9 @@
 - `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` 主要角色中，人类与兽人发生了性关系
 - `animal-on-furry` 主要角色中，动物或纯兽（非人形 furry）和兽人发生了性关系
-
-## malex/femalex 命名空间
-
-用于说明游戏中出现的特殊内容。
-
-除非特殊说明，在 malex 命名空间表示兽人/人类生理性别是男性，在 femalex 命名空间表示兽人/人类生理性别是女性
-
 - `exhibitionism` 主要角色出现了在有可能被其他人看见的地方（如户外）进行自愿裸体或性行为
-- `ntr` 主要角色之间出现了戴绿帽
+- `netorare` 另一个角色的配偶/伴侣与某角色发生关系。 (标签别名：`ntr`)
+- `rape` STUB
 - `mind-break` 通过长时间或严格的性刺激来训练/使某人在心理上成为性奴隶（洗脑）
 - `mind-control` 强迫参与者（违背自己的意愿）自己做某事（催眠）
 - `corruption` 主要角色中用魔法或其他超自然力量强硬地腐化某人的头脑，抢夺他们的纯洁
@@ -149,6 +150,9 @@
 - `stomach-deformation` 主要角色中出现了固体从腹内向外推压，并出现一个可见突起
 - `brain-fuck` 主要角色之间包括涉及大脑的性行为
 - `vore` 主要角色可能（从嘴）吞入某个角色或被某个角色吞人
+- `fisting` 主要角色可能出现拳交
+- `bondage` 主要角色可能出现绑缚（BDSM）
+- `public-use` 主要角色可能成为肉便器
 
 ## misc 命名空间
 
@@ -158,14 +162,16 @@
 - `pixel-art` 游戏主要以 Pixel Art 风格呈现
 - `freeware` 游戏是免费的或有一个不小的部分是免费的（Demo 版本不计算在内）
 - `multiplayer` 游戏是多人游戏或包括多人模式
+- `co-op` 游戏支持合作模式
 - `pvp` STUB
 - `uncensored` 游戏立绘、CG、模型等中没有经过审查工序（无码）（仅在 type:yiff 存在时考虑此标签）
 - `engine-renpy` 游戏使用了 RenPy 引擎开发
 - `engine-unity` 游戏使用了 Unity 引擎
 - `engine-rpg-maker` 游戏使用了 RPG Maker 引擎
 - `engine-godot` 游戏使用了 GoDot 引擎
+- `adobe-flash` 游戏使用了 Adobe Flash 开发。不要与 `platform:shockwave-flash` 混淆，后者强调需要用户单独安装 Flash Player 才能运行。
 - `multiple-endings` 游戏有多种结局
-- `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo）
+- `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo） (标签别名：`ongoing`)
 - `multiple-series` 游戏包含多个世界观、剧情有联系的系列/版本（提示：如果世界观具有其特殊性且相近，即使剧情无联系，则仍然认为是同一系列（类似于数码宝贝1, 3）；如果世界观是一种常见的、朴实的、一般的世界，如“现代日本”，“中世纪欧洲”，则只有当剧情有联系时，才认为是同一系列。这个标签在使用上有时可能会倾向主观而非客观，如果有更多问题，请打开 issue 讨论）
 - `died` 游戏尚未完成时被作者宣布放弃（此标签存在时，请销毁 misc:work-in-process 标签）
 - `expired` 游戏的获取方式（如下载链接）已经失效（不管游戏是否完成前被放弃，只要不再存在获取方式。则使用此标签，不要与 misc:died 混淆）
@@ -186,11 +192,19 @@
 
 用于说明游戏的语言（使用 ISO 639-1 Alpha-2 code 标准语言代码）
 
+- `de` 游戏有官方德语版本
 - `en` 游戏有官方英语版本
 - `en-unofficial` 游戏有非官方英语版本
+- `es` 游戏有官方西班牙语版本
+- `fr` 游戏有官方法语版本
+- `hu` 游戏有官方匈牙利语版本
+- `it` 游戏有官方意大利语版本
 - `ja` 游戏有官方日语版本
 - `ja-unofficial` 游戏有非官方日语版本
-- `ru` STUB
+- `ko` 游戏有官方韩语版本
+- `pt` 游戏有官方葡萄牙语版本
+- `ru` 游戏有官方俄语版本
+- `tr` 游戏有官方土耳其语版本
 - `zh` 游戏有官方中文版本
 - `zh-unofficial` 游戏有非官方中文版本
 
@@ -199,15 +213,15 @@
 用于说明游戏发布在哪里
 
 - `steam` 游戏在 Steam 上有发布
-- `itchio` 游戏在 itch.io 上有发布
+- `itchio` 游戏在 itch.io 上有发布 (标签别名：`itch-io`, `itch`)
 - `patreon` 游戏在 Patreon 上有发布
 - `booth` 游戏在 BOOTH 上有发布
 - `digiket` 游戏在 DiGiket 上有发布
 - `website` 游戏在其网站上有发布
 - `google-play` 游戏在 Google Play 商店上有发布
 - `apple-appstore` 游戏在 Apple appstore 上有发布
-- `e-shop` 游戏在 Nintendo E-Shop 上有发布
-- `gog` 游戏在 gog.com 商店上有发布
+- `e-shop` 游戏在 Nintendo E-Shop 上有发布 (标签别名：`nintendo-e-shop`)
+- `gog` 游戏在 gog.com 商店上有发布 (标签别名：`gog-com`)
 - `microsoft-store` 游戏在 Microsoft Store 商店上有发布
 
 ## platform 命名空间
@@ -216,8 +230,9 @@
 
 - `web` 游戏官方支持 Web 平台（HTML/JS/Canvas/WebGL/...）
 - `windows` 游戏官方支持 Microsoft Windows
-- `macos` 游戏官方支持 Apple macOS
-- `linux` 游戏官方支持 GNU/Linux
+- `macos` 游戏官方支持 Apple macOS (标签别名：`macintosh`, `osx`, `macosx`)
+- `linux` 游戏官方支持 GNU/Linux (标签别名：`gnu-linux`)
+- `shockwave-flash` 游戏需要 Shockwave Flash (Adobe Flash Player) 以运行。特别地，此标签仅用于在发行 `.swf` 文件的游戏。如果发行的游戏包中捆绑了 Flash Player（如 Adobe AIR），不应使用此标签。所有使用了 Adobe Flash 技术的游戏都应该使用 `misc:adobe-flash`
 - `android` 游戏官方支持 Android
 - `ios` 游戏官方支持 Apple iOS
 - `nds` 游戏官方支持 Nintendo DS

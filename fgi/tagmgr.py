@@ -18,57 +18,96 @@
 # 
 
 import sys
+from itertools import islice
 
-tagdep = {}
-tags = set()
+class TagManager:
+    def __init__(self):
+        self.tagdep = dict()
+        self.tags = dict()
+        self.tagalias = dict()
+        self.tagns = dict()
 
-def closure(ns, s):
-    r = s.copy()
+    def closure(self, _ns, s):
+        r = s.copy()
 
-    for i in s:
-        if i in tagdep[ns]:
-            r = r.union(closure(ns, tagdep[ns][i]))
+        for i in s:
+            ns = _ns
+            prefix = ""
+            if ":" in i:
+                ns, i = i.split(":")
+                prefix = ns + ":"
+            if ns in self.tagdep and i in self.tagdep[ns]:
+                tmp = self.tagdep[ns][i]
+                tmp = set([i if ":" in i else prefix + i for i in tmp])
+                r = r.union(self.closure(ns, tmp))
 
-    return r
+        return r
 
-def loaddep(data):
-    global tagdep
+    def loaddep(self, data):
+        self.tagdep = { k: { kk: set(vv) for kk, vv in v.items() } for k, v in data.items() if k[0] != '_' }
 
-    tagdep = { k: { kk: set(vv) for kk, vv in v.items() } for k, v in data.items() if k[0] != '_' }
+        for ns, v in self.tagdep.items():
+            for value, s in v.items():
+                self.tagdep[ns][value] = self.closure(ns, s)
 
-    for ns, v in tagdep.items():
-        for value, s in v.items():
-            tagdep[ns][value] = closure(ns, s)
+    def load(self, data):
+        tmp = { k: v for k, v in data.items() if k[0] != '@' }
 
-def load(data):
-    global tags
+        for k, v in tmp.items():
+            for ns in v["namespaces"]:
+                if ns not in self.tags:
+                    self.tags[ns] = {}
+                    self.tags[ns]["@cur_index"] = 1
 
-    tmp = { k: v for k, v in data.items() if k[0] != '@' }
+                if "order" in v:
+                    self.tags[ns][k] = v["order"]
+                else:
+                    self.tags[ns][k] = self.tags[ns]["@cur_index"] + 6000
+                    self.tags[ns]["@cur_index"] += 1
 
-    for k, v in tmp.items():
-        for ns in v["namespaces"]:
-            tags.add(ns + ":" + k)
+            if "alias" in v:
+                for i in v["alias"]:
+                    self.tagalias[i] = k
 
-needed_ns = ["type", "author", "lang", "platform"]
+            self.tagns[k] = v["namespaces"]
 
-def check_and_patch(game):
-    for i in needed_ns:
-        if i not in game["tags"]:
-            print("[warning] missing %s namespace for game '%s'" % (i, game["id"]))
+        for ns in self.tags:
+            del self.tags[ns]["@cur_index"]
 
-    for ns, v in game["tags"].items():
-        if ns != "author":
-            for i in v:
-                name = ns + ":" + i
-                if name not in tags:
-                    print("""Error: The tag '%s' is not standardized.
-Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.""" % name)
-                    sys.exit(1)
 
-        if ns in tagdep:
-            tmp = set(v)
-            for i in v:
-                if i in tagdep[ns]:
-                    tmp = tmp.union(tagdep[ns][i])
-            game["tags"][ns] = list(sorted(tmp))
+    def _patch_ns(self, game, ns, v):
+        for i in islice(v, 0, len(v)):
+            if i not in self.tagdep[ns]:
+                continue
 
+            for j in self.tagdep[ns][i]:
+                if ":" in j:
+                    nns, j = j.split(":")
+                    if nns not in game["tags"]:
+                        game["tags"] = {}
+                    game["tags"][nns].append(j)
+                else:
+                    v.append(j)
+
+    def check_and_patch(self, game):
+        for ns, v in game["tags"].items():
+            if ns in self.tagdep:
+                self._patch_ns(game, ns, v)
+
+        for i in ["type", "author", "lang", "platform"]:
+            if i not in game["tags"]:
+                print("[warning] missing %s namespace for game '%s'" % (i, game["id"]))
+
+        for ns in game["tags"]:
+            if ns != "author":
+                v = list(set(game["tags"][ns]))
+
+                def sort_tag(i):
+                    if i not in self.tags[ns]:
+                        print("""Error: The tag '%s:%s' is not standardized.
+Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.""" % (ns, i))
+                        sys.exit(1)
+                    return self.tags[ns][i]
+
+                v = sorted(v, key=sort_tag)
+                game["tags"][ns] = v

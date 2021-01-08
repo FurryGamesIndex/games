@@ -49,12 +49,18 @@ def uri_to_src(uri):
         return "https://www.pixiv.net/users/%s" % res[1]
     elif (res[0] == 'google-play-store'):
         return "https://play.google.com/store/apps/details?id=%s" % res[1]
+    elif (res[0] == 'youtube'):
+        return "https://www.youtube.com/%s" % res[1]
+    elif (res[0] == 'facebook'):
+        return "https://www.facebook.com/%s" % res[1]
     else:
         return uri
 
-def link_info(link, l10n_data, ui_l10n_data, language):
+def link_info(fctx, link, l10n_data, ui_l10n_data, language):
     name = link["name"]
     a = {}
+
+    link["uri"] = fctx.pmgr.invoke_plugins("link_pre_uri_convert", link["uri"], link, l10n_data, ui_l10n_data, language)
     a["href"] = uri_to_src(link["uri"])
 
     icon = '<i class="fas fa-external-link-alt fa-fw"></i>'
@@ -77,4 +83,5 @@ def link_info(link, l10n_data, ui_l10n_data, language):
     if "rel" in link:
         a["rel"] = link["rel"]
 
+    fctx.pmgr.invoke_plugins("link_post_process", a, link, l10n_data, ui_l10n_data, language)
     return a

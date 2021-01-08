@@ -99,6 +99,7 @@ if not args.no_builtin:
     conv(os.path.join(doc_dir, "Contribute.%s.md" % origin), os.path.join(doc_dir, "Contribute.%s.md" % to), True)
     conv(os.path.join(doc_dir, "zhconv.%s.md" % origin), os.path.join(doc_dir, "zhconv.%s.md" % to), False)
     conv(os.path.join(doc_dir, "faq.%s.md" % origin), os.path.join(doc_dir, "faq.%s.md" % to), True)
+    conv(os.path.join(doc_dir, "search_help.%s.md" % origin), os.path.join(doc_dir, "search_help.%s.md" % to), True)
 
 for i in args.extra_pathes:
     f = i.split(":")[0]

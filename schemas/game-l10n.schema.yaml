@@ -1,0 +1,41 @@
+type: object
+title: GameL10nEntry
+description: |
+  A game l10n entry in FGI's game database.
+properties:
+  name:
+    type: string
+    description: |
+      The translated name of the game.
+  description:
+    type: string
+    description: |
+      The translated description of the game.
+  links-tr:
+    type: object
+    title: LinkTranslation
+    description: |
+      A map contains translated link names.
+    patternProperties:
+      "":
+        type: string
+        description: |
+          The key is the origin link name. In game entry `links` array items' `name` property.
+
+          The value is the translated name of the link.
+  X-Chinese-Convertor-Hint:
+    type: object
+    title: ExtensionChineseConvertorHint
+    description: |
+      Hints for Chinese convertor. Should only be used in `zh-*` l10n entries.
+    properties:
+      prefer:
+        type: string
+        enum:
+          - CN
+          - TW
+          - ignored
+        description: |
+          Specify the base Chinese variant. default is `CN`.
+
+          To inhibition Chinese convertion, specify `ignored`.

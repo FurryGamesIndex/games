@@ -19,9 +19,9 @@
 
 import os
 import re
-from fgi import image
-from fgi.i18n import get
-from fgi.i18n import get_desc
+from fgi.base import make_wrapper
+from fgi.renderer import Renderer
+from fgi.i18n import get, get_mtime
 from fgi.link import link_info
 from fgi.seo.sitemap import openw_with_sm
 from fgi.seo import keywords
@@ -47,82 +47,89 @@ platform_icons = {
     "xbox-360": '<i title="Xbox 360" class="fab fa-xbox fa-fw"></i>',
 }
 
-context = {
-    "rr": "../..",
-    "image": image,
-    "get": get,
-    "get_desc": get_desc,
-    "link_info": link_info,
-    "checktag": checktag,
-    "platform_icons": platform_icons
-}
+class RendererGame(Renderer):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
 
-def author_widget(game, sdb, games):
-    name = game["id"]
-    rtag = sdb.db["rtag"]
-    data = {}
-    ga = {}
+        self.basectx = {
+            "rr": "../..",
+            "image": self.fctx.mfac,
+            "get": get,
+            "link_info": make_wrapper(link_info, self.fctx),
+            "checktag": checktag,
+            "platform_icons": platform_icons
+        }
 
-    for author in game["tags"].get("author", []):
-        key = f"author:{author}"
-        if key in rtag:
-            tmp = rtag[key]
+        self.games = self.lctx["games"]
+        self.context = self.new_context()
 
-            for i in tmp:
-                if i != name:
-                    if i not in ga:
-                        ga[i] = set()
-                    ga[i].add(author)
+        lang_without_region = self.language
+        if '-' in lang_without_region:
+            lang_without_region = lang_without_region.split('-')[0]
 
-    for gid, au in ga.items():
-        authornames = ", ".join(sorted(au))
-        if authornames not in data:
-            data[authornames] = []
-        data[authornames].append(games[gid])
+        self.context["lang_without_region"] = lang_without_region
 
-    return data
+    def new_game_context(self):
+        return self.context.copy()
 
+    def author_widget(self, game):
+        name = game["id"]
+        rtag = self.fctx.sdb.db["rtag"]
+        data = {}
+        ga = {}
 
-def render(games, env, lctx, output):
-    context.update(lctx)
-    language = lctx["lang"]
+        for author in game["tags"].get("author", []):
+            key = f"author:{author}"
+            if key in rtag:
+                tmp = rtag[key]
 
-    meta = {}
-    context["meta"] = meta
+                for i in tmp:
+                    if i != name:
+                        if i not in ga:
+                            ga[i] = set()
+                        ga[i].add(author)
 
-    lang_without_region = language
-    if '-' in lang_without_region:
-        lang_without_region = lang_without_region.split('-')[0]
+        for gid, au in ga.items():
+            authornames = ", ".join(sorted(au))
+            if authornames not in data:
+                data[authornames] = []
+            data[authornames].append(self.games[gid])
 
-    context["lang_without_region"] = lang_without_region
+        return data
 
-    for name, game in games.items():
+    def render_game(self, gid, game):
+        print("  => %s" % gid)
+        context = self.new_game_context()
+
         context["game"] = game
-        context["name"] = name
-        print("  => %s" % name)
-
-        context["author_widget"] = author_widget(game, lctx["searchdb"], games)
+        context["name"] = gid
+        context["author_widget"] = self.author_widget(game)
 
         if 'expunge' in game:
             context["noindex"] = True
 
-        meta["title"] = get(game, language, 'name')
-        desc = get(game, language, 'description')[:200].replace('\n', '') + "..."
+        meta = dict()
+        meta["title"] = get(game, self.language, 'name')
+        desc = get(game, self.language, 'description')[:200].replace('\n', '') + "..."
         meta["description"] = re.sub(r'<[^<]*>', '', desc)
-        meta["image"] = image.uri(context["rr"], game["thumbnail"], name)
+        meta["image"] = self.fctx.mfac.uri_to_html_image(context["rr"], game["thumbnail"], gid).src
+        meta["extra_keywords"] = keywords.game_page_extra_keywords(game, context["ui"])
 
-        meta["extra_keywords"] = keywords.game_page_extra_keywords(game, lctx["ui"])
+        if 'replaced-by' in game:
+            rbgame = self.games[game['replaced-by']]
+            context["rbgame"] = rbgame
 
-        if 'expunge' in game:
-            f = open(os.path.join(output, language, "games", name + ".html"), "w")
-        else:
-            f = openw_with_sm(output, os.path.join(language, "games", name + ".html"),
-                    priority="0.7", lastmod_file=os.path.join("games", name + ".yaml"))
+        return self.env.get_template("game.html").render(context)
 
-        f.write(env.get_template("header.html").render(context))
-        f.write(env.get_template("game.html").render(context))
-        f.write(env.get_template("footer.html").render(context))
-        f.close()
+    def render(self):
+        for gid, game in self.games.items():
+            if 'expunge' in game:
+                f = open(self.getpath("games", gid + ".html"), "w")
+            else:
+                f = openw_with_sm(*self.getpath_sm("games", gid + ".html"),
+                        priority="0.7", lastmod_ts=get_mtime(game, self.language))
 
-        if "noindex" in context:
-            del context["noindex"]
+            f.write(self.render_game(gid, game))
+            f.close()
+
+impl = RendererGame

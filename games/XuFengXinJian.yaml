@@ -46,9 +46,14 @@ tags:
     - website
   platform:
     - windows
+    - macos
+    - linux
     - android
 
 links:
+  - name: .release-page
+    icon: weibo
+    uri: https://weibo.com/5857154820/JkK8D1Z3e
   - name: .website
     uri: https://www.xufengxinjian.com/
   - name: .weibo

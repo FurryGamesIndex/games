@@ -1,3 +1,4 @@
+{% include 'header.html' %}
 <div class="index default">
 	<div class="main">
 		<div class="col-1">
@@ -14,7 +15,7 @@
 	</div>
 	<div class="blogs">
 	</div>
-	<div class="tip">Deploy datetime: {{ datetime.now() }}</div>
 {% include 'copying.html' %}
 </div>
-<script src="{{ rr }}/scripts/base.js"></script>
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
+{% include 'footer.html' %}

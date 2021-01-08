@@ -1,0 +1,3 @@
+## expuged Type
+
+`boolean`

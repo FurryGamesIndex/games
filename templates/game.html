@@ -1,9 +1,13 @@
+{% include 'header.html' %}
 <div class="default topbox">
 {% if checktag(game, "sys", "staging") %}
 	<div class="box warning">{{ ui.warnbox_staging }}</div>
 {% endif %}
 {% if checktag(game, "sys", "tagme") %}
 	<div class="box notice">{{ ui.noticebox_tagme }}</div>
+{% endif %}
+{% if 'replaced-by' in game %}
+	<div class="box notice">{{ ui.noticebox_replacedby % (rbgame.id + ".html", get(rbgame, lang, 'name')|e) }}</div>
 {% endif %}
 {% if 'expunge' in game %}
 	<div class="box warning">{{ ui.warnbox_expunge }}</div>
@@ -13,7 +17,7 @@
 	<div class="leftbox">
 		<h1>{{ get(game, lang, 'name')|e }}</h1>
 		<div class="onmobile">{% include 'game_logo.html' %}</div>
-		<div class="description">{{ get_desc(rr, game, lang) }}</div>
+		<div class="description">{{ get(game, lang, '@desc_html') }}</div>
 		<div class="onmobile">{% include 'game_links.html' %}</div>
 		<div class="tags"><table><tbody>
 		{% for group in game.tags %}
@@ -27,6 +31,9 @@
 			</tr>
 		{% endfor %}
 		</tbody></table></div>
+		<div class="opts">
+			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml"><i class="fas fa-edit fa-fw"></i><span>{{ ui.game_edit }}</span></a>
+		</div>
 		<div class="screenshots">
 		{% if "sensitive_media" in game %}
 			<div class="warning box" id="sensitive_media_warn">
@@ -47,15 +54,19 @@
 		{% include 'copying.html' %}
 	</div>
 </div>
-<script src="{{ rr }}/scripts/base.js"></script>
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
 <script>
 if (localStorage.getItem("show_sensitive") == "true") {
-	$$(".sensitive_img").forEach(i => {
-		i.src = i.dataset.realsrc;
-		i.classList.remove("hide")
+	$$('script[type="text/x-FGI-sensitive-media"]').forEach(i => {
+		const media = JSON.parse(atob(i.textContent));
+		if (media.type === "image") {
+			const picture = make_picture(media.data, "", null);
+			i.parentNode.insertBefore(picture, i);
+		}
 	});
 	const warn = $("#sensitive_media_warn");
 	if (warn != null)
 		warn.classList.add("hide");
 }
 </script>
+{% include 'footer.html' %}

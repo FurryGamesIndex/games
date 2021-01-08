@@ -1,0 +1,79 @@
+name: Limits
+
+description: |
+  Limits is an interactive M/M visual novel. What happens within is for you to find out.
+
+  Interested?
+
+  Disclaimer: Intended for mature audiences, contains mild language and mentions of substance.
+
+  ### Will there be NSFW content?
+
+  In the future. :)
+
+  ### Creator's Note:
+
+  This is just a passion project that I do as a hobby. Apologies for any literature mistakes and etc. English is not exactly my first language but I speak it so frequently and for majority of my life that it might as well be lol. My writing could use some work though... Anyway, thanks for visiting and have a good day.  
+
+  ### Credits:
+  
+  Character assets were created by me, the backgrounds and some sfx were taken from the internet and mildly edited (Could eventually be replaced), Musics were taken from: <https://mixkit.co>.
+  
+  SFX (Most) : <https://www.zapsplat.com>
+  
+  It has been confirmed that the **Mac** build does work... But no promises.*
+  
+  Last but not least, stay safe and thanks for visiting!
+  
+description-format: markdown
+
+tags:
+  author:
+    - drakes64
+  type:
+    - visual-novel
+    - bara
+  male:
+    - tiger
+    - dragon
+    - lion
+    - dog
+    - wolf
+    - fox
+    - bear
+    - muscle
+  female:
+    - fox
+  misc:
+    - freeware
+    - work-in-process
+    - engine-renpy
+    - multiple-endings
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://drakes64.itch.io/limits
+  - name: .patreon
+    uri: patreon:drakes64
+  - name: .discord
+    uri: discord:qcCZnRS
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyODkucG5n/original/4BTu5w.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQ1MDc3MTMucG5n/original/UEyubX.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyOTQucG5n/original/cid%2BVo.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyOTEucG5n/original/qnyAOK.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyOTIucG5n/original/XXUPKq.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyOTAucG5n/original/V2wXXS.png

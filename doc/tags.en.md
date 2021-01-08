@@ -26,9 +26,13 @@ Used to describe the type of game
 - `role-playing` This game is a RPG
 - `dating-sim` This game is a dating simulator
 - `roguelike` This game is a Roguelike game
+- `non-indie` This game is a non-indie game
 - `bara` Contains a lot of things of gay
 - `yuri` Contains a lot of things of lesbian
-- `yiff` Contains adult (R18) sensitive contents
+- `yiff` Contains adult contents. Pages that contain this tag will display a sensitive content warning message.
+- `gore` Contains grotesque contents. Pages that contain this tag will display a sensitive content warning message.
+- `comedy` STUB
+- `horror` STUB
 
 ## Namespace male/female
 
@@ -42,29 +46,31 @@ Unless otherwise specified, the male namespace indicates the furry/human physiol
 The following are automatic tags, they are no different from other tags when you search for games. But if you are a game editor or contributor, you don’t have to manually add automatic tags to the game, Because they will be added automatically when necessary (For example, If you add the `male:cat` tag, the game will automatically inherit the `male:felidae` tag)
 
 
-- `felidae` Main characters include feline furries
-- `canine` Main characters include canine furries
+- `feline` Main characters include feline furries (Tag aliases: `felidae`)
+- `canine` Main characters include canine furries (Tag aliases: `canidae`)
 - `mustelidae` Main characters include mustelidae furries
 - `reptilia` Main characters include reptilia furries
 
 ### Biological species: Miscellaneous
 
 - `dragon` Main characters include dragon furries (western cultures dragon only)
-- `lung` Main characters include lung (Chinese dragon) furries
+- `lung` Main characters include lung (Chinese dragon) furries (Tag aliases: `long`, `chinese-dragon`)
 - `mouse` Main characters include mouse furries
 - `monkey` Main characters include monkey furries
 - `bull` Main characters include monkey furries (only in namespace male)
 - `cow` Main characters include monkey furries (only in namespace female)
 - `sheep` Main characters include sheep furries
 - `horse` Main characters include horse furries
-- `rabbit` Main characters include rabbit furries
+- `rabbit` Main characters include rabbit furries (Tag aliases: `hare`, `leporids`)
 - `bear` Main characters include bear furries
 - `pig` Main characters include pig furries
 - `hyena` Main characters include hyena furries
 - `raccoon` Main characters include raccoon furries
 - `shark` Main characters include shark furries
+- `dolphin` Main characters include dolphin furries
 - `deer` Main characters include deer furries
 - `bird` Main characters include bird furries
+- `red-panda` Main characters include red panda furries
 
 ### Biological species: Felidae
 
@@ -78,7 +84,7 @@ The following are automatic tags, they are no different from other tags when you
 
 ### Biological species: Canine
 
-- `dog` Main characters include dog furries
+- `dog` Main characters include dog furries (Tag aliases: `shibainu`, `husky`)
 - `wolf` Main characters include wolf furries
 - `fox` Main characters include fox furries
 - `raccoon-dog` Main characters include raccoon furries
@@ -100,6 +106,7 @@ The following are automatic tags, they are no different from other tags when you
 - `mixed` Main characters include mixed furries (tiger-shark, lion-dog and many more)
 - `humankind` Main characters include humankind creatures
 - `non-anthro` Main characters include non-anthro furries
+- `funny-animal` STUB
 
 ### Non species
 
@@ -122,15 +129,9 @@ The following are automatic tags, they are no different from other tags when you
 - `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` Sexual activity between a humankind creature and a furry
 - `animal-on-furry` Sexual activity between a animal/non-anthro and a furry
-
-## Namespace malex/femalex
-
-TODO: English descriptions is ongoing
-
-Unless otherwise specified, the malex namespace indicates the furry/human physiological gender is male, and the femalex namespace indicates the furry/human physiological gender is female
-
 - `exhibitionism` 
-- `ntr` 
+- `netorare`  (Tag aliases: `ntr`)
+- `rape` STUB
 - `mind-break` 
 - `mind-control` 
 - `corruption` 
@@ -149,6 +150,9 @@ Unless otherwise specified, the malex namespace indicates the furry/human physio
 - `stomach-deformation` 
 - `brain-fuck` 
 - `vore` Main characters may swallow or be swallowed whole via the mouth.
+- `fisting` 
+- `bondage` 
+- `public-use` 
 
 ## Namespace misc
 
@@ -158,14 +162,16 @@ Used to describe miscellaneous information related to the game
 - `pixel-art` The game is mainly presented in pixel-art
 - `freeware` The game is free or a big part is free (Demo version is not included)
 - `multiplayer` The game is multiplayer or includes multiplayer mode
+- `co-op` The game has cooperative game mode
 - `pvp` STUB
 - `uncensored` Images, CGs, models, etc. have not censored (Consider this tag only when type:yiff exists)
 - `engine-renpy` The game is developed using RenPy engine
 - `engine-unity` The game is developed using Unity engine
 - `engine-rpg-maker` The game is developed using RPG Maker engine
 - `engine-godot` The game is developed using GoDot engine
+- `adobe-flash` The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.
 - `multiple-endings` There are multiple different endings in the game
-- `work-in-process` The game is ongoing
+- `work-in-process` The game is ongoing (Tag aliases: `ongoing`)
 - `multiple-series` The game is included in a series of connected worldviews or plots
 - `died` When the game is not finished, the author announced to give up (If this tag exists, please destroy the misc:work-in-process tag)
 - `expired` The acquisition method (such as download links) for the game is no longer valid (whether the game was abandoned before completion or not. Not to be confused with misc:died)
@@ -186,11 +192,19 @@ Used to describe miscellaneous information related to the game
 
 The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 
+- `de` German supporting provided by offical author
 - `en` English supporting provided by offical author
 - `en-unofficial` English supporting provided by unoffical source
+- `es` Spanish supporting provided by offical author
+- `fr` French supporting provided by offical author
+- `hu` Hungarian supporting provided by offical author
+- `it` Italian supporting provided by offical author
 - `ja` Japanese supporting provided by offical author
 - `ja-unofficial` Japanese supporting provided by unoffical source
-- `ru` STUB
+- `ko` Korean supporting provided by offical author
+- `pt` Portuguese supporting provided by offical author
+- `ru` Russian supporting provided by offical author
+- `tr` Turkish supporting provided by offical author
 - `zh` Chinese supporting provided by offical author
 - `zh-unofficial` Chinese supporting provided by unoffical source
 
@@ -199,15 +213,15 @@ The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 Indicate where the game is released
 
 - `steam` Self-pleasuring.
-- `itchio` Self-pleasuring.
+- `itchio` Self-pleasuring. (Tag aliases: `itch-io`, `itch`)
 - `patreon` Self-pleasuring.
 - `booth` Self-pleasuring.
 - `digiket` Self-pleasuring.
 - `website` Self-pleasuring.
 - `google-play` Self-pleasuring.
 - `apple-appstore` Self-pleasuring.
-- `e-shop` Self-pleasuring.
-- `gog` Self-pleasuring.
+- `e-shop` Self-pleasuring. (Tag aliases: `nintendo-e-shop`)
+- `gog` Self-pleasuring. (Tag aliases: `gog-com`)
 - `microsoft-store` Self-pleasuring.
 
 ## Namespace platform
@@ -216,8 +230,9 @@ The operating systems and platforms offical supported by the game
 
 - `web` Web platform (Play in web browser) (HTML/JS/Canvas/WebGL/...)
 - `windows` Microsoft Windows
-- `macos` Apple macOS
-- `linux` GNU/Linux
+- `macos` Apple macOS (Tag aliases: `macintosh`, `osx`, `macosx`)
+- `linux` GNU/Linux (Tag aliases: `gnu-linux`)
+- `shockwave-flash` The game requires Shockwave Flash (Adobe Flash Player) to run. In particular, this tag is only used for games that are distributed with `.swf` files. This tag should not be used if Flash Player is bundled with the game package (e.g. Adobe AIR). All games that use Adobe Flash technology should use `misc:adobe-flash`
 - `android` Android
 - `ios` Apple iOS
 - `nds` Nintendo DS

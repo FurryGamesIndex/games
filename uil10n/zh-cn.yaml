@@ -38,7 +38,7 @@ search_load_db_error: 发生错误
 search_form_mode_title: 搜索标题
 search_form_mode_tindes: 搜索标题和描述
 search_form_mode_tag: 搜索标签
-search_help_link: 使用搜索功能的说明
+search_help_link: 搜索帮助
 
 search_form_do: 搜索
 
@@ -50,12 +50,18 @@ gamewarn_unpublished: 该游戏尚未发布
 gamewarn_died: 该游戏未完成并可能已停止开发
 gamewarn_expired: 游戏的获取途径已经失效
 gamewarn_notonlyfurry: 这个游戏并非是仅围绕 Furry 话题的游戏。这意味着你可能不会喜欢这个游戏。
+gamewarn_deprecated_shockwave_flash: 依赖 Flash Player 的游戏
 
 game_author_widget_more_from: 来自 <b>%s</b> 的更多游戏：
 
+game_edit: 编辑此页面
 game_contact_us: 通过以下方式联系“兽人控游戏索引”项目
 game_sensitive_warning: 当前页面可能包含敏感媒体，它们已被隐藏。 <a href="%s/%s/sensitive.html">管理敏感内容设置</a>
+
+warnbox_staging: 这是一个施工中的页面，其内容可能在将来发生破坏性改变。
+noticebox_tagme: 这个页面已知缺少重要标签。请帮忙添加标签。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md">贡献指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-cn.md">标签列表和解释</a>
 warnbox_expunge: 此页面已从列表页面和搜索结果中移除
+noticebox_replacedby: 这个游戏已被 <a href="%s">%s</a> 取代。因此不会显示在列表页面。
 
 sensitive_page_tip: |
   这将在所有 FGI 页面上启用显示敏感内容。<br>
@@ -63,14 +69,14 @@ sensitive_page_tip: |
   你必须使用现代浏览器并启用 JavaScript。<br>
   修改该设置后需要刷新页面才能生效。
 
-warnbox_staging: 这是一个施工中的页面，其内容可能在将来发生破坏性改变。
-noticebox_tagme: 这个页面已知缺少重要标签。请帮忙添加标签。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md">贡献指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-cn.md">标签列表和解释</a>
+rss_desc: RSS Feed 将以时间顺序推送最近添加或编辑的 30 个游戏界面
 
 stock-link-website: 官方网站
 stock-link-release-page: 发布页面
 stock-link-steam: 在 Steam 上获取
 stock-link-itch.io: 在 itch.io 上获取
 stock-link-booth: 在 booth 上获取
+stock-link-digiket: 在 Digiket 上获取
 stock-link-play-store: 在 Google Play 上获取
 stock-link-apple-appstore: 在 Apple appstore 上获取
 stock-link-nintendo-e-shop: 在 Nintendo E-Shop 上获取
@@ -82,6 +88,12 @@ stock-link-weibo: 官方微博
 stock-link-tumblr: 官方 Tumblr
 stock-link-pixiv: 官方 Pixiv
 stock-link-discord: 官方 Discord
+stock-link-youtube: 官方 YouTube
+stock-link-facebook: 官方 Facebook
+stock-link-unofficial-patch-zh: 非官方中文补丁
+stock-link-unofficial-version-zh: 非官方中文版本
+stock-link-demo-version: 获取演示版本
+# Deprecated
 stock-link-unofficial-patch-zh-cn: 非官方简体中文补丁
 stock-link-unofficial-ver-zh-cn: 非官方简体中文版本
 stock-link-unofficial-patch-zh-tw: 非官方繁体中文补丁

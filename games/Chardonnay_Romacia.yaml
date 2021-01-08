@@ -20,11 +20,14 @@ tags:
     - bara
     - yiff
   male:
-    - rabbit
-    - fox
     - dog
     - tiger
+    - rabbit
+    - fox
+    - monkey
+    - mixed
     - muscle
+    - males-only
   misc:
     - work-in-process
     - engine-unity
@@ -38,8 +41,10 @@ tags:
     - windows
 
 links:
-  - name: Download demo from booth
+  - name: .demo-version
     uri: https://cottonmochi.booth.pm/items/1815414
+  - name: "Special: Daha♥Bathtime"
+    uri: https://cottonmochi.booth.pm/items/2625804
   - name: .twitter
     uri: twitter:Cotton_nottoC
 

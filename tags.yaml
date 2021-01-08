@@ -103,6 +103,12 @@ roguelike:
     en: 'This game is a Roguelike game'
     zh-cn: 'Roguelike 游戏'
 
+non-indie:
+  namespaces: [ type ]
+  explanation:
+    en: 'This game is a non-indie game'
+    zh-cn: '非独立 游戏'
+
 bara:
   namespaces: [ type ]
   explanation:
@@ -118,8 +124,24 @@ yuri:
 yiff:
   namespaces: [ type ]
   explanation:
-    en: 'Contains adult (R18) sensitive contents'
-    zh-cn: '包含成人（R-18）限制级内容的作品'
+    en: 'Contains adult contents. Pages that contain this tag will display a sensitive content warning message.'
+    zh-cn: '包含成人（R-18）内容的作品。包含此标签的页面将显示敏感内容警告信息。'
+
+gore:
+  namespaces: [ type ]
+  explanation:
+    en: 'Contains grotesque contents. Pages that contain this tag will display a sensitive content warning message.'
+    zh-cn: '包含怪诞内容的作品。包含此标签的页面将显示敏感内容警告信息。'
+
+comedy:
+  namespaces: [ type ]
+  explanation:
+    en: 'STUB'
+
+horror:
+  namespaces: [ type ]
+  explanation:
+    en: 'STUB'
 
 ###################################################
 ###################################################
@@ -150,14 +172,16 @@ yiff:
         因为它们将在必要时自动被添加
         （如您添加 `male:cat` 标签，该游戏将自动继承 `male:felidae` 标签）
 
-felidae:
+feline:
   namespaces: [ male, female ]
+  alias: [ felidae ]
   explanation:
     en: 'Main characters include feline furries'
     zh-cn: '主要角色包括猫科兽人'
 
 canine:
   namespaces: [ male, female ]
+  alias: [ canidae ]
   explanation:
     en: 'Main characters include canine furries'
     zh-cn: '主要角色包括犬科兽人'
@@ -189,6 +213,7 @@ dragon:
 
 lung:
   namespaces: [ male, female ]
+  alias: [ long, chinese-dragon ]
   explanation:
     en: 'Main characters include lung (Chinese dragon) furries'
     zh-cn: '主要角色包括东方龙兽人'
@@ -231,6 +256,7 @@ horse:
 
 rabbit:
   namespaces: [ male, female ]
+  alias: [ hare, leporids ]
   explanation:
     en: 'Main characters include rabbit furries'
     zh-cn: '主要角色包括兔兽人'
@@ -265,6 +291,12 @@ shark:
     en: 'Main characters include shark furries'
     zh-cn: '主要角色包括鲨鱼兽人'
 
+dolphin:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include dolphin furries'
+    zh-cn: '主要角色包括海豚兽人'
+
 deer:
   namespaces: [ male, female ]
   explanation:
@@ -276,6 +308,12 @@ bird:
   explanation:
     en: 'Main characters include bird furries'
     zh-cn: '主要角色包括鸟兽人'
+
+red-panda:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include red panda furries'
+    zh-cn: '主要角色包括小熊猫兽人'
 
 ###################################################
 
@@ -335,6 +373,7 @@ lynx:
 
 dog:
   namespaces: [ male, female ]
+  alias: [ shibainu, husky ]
   explanation:
     en: 'Main characters include dog furries'
     zh-cn: '主要角色包括犬兽人'
@@ -432,6 +471,12 @@ non-anthro:
     en: 'Main characters include non-anthro furries'
     zh-cn: '主要角色包括非人形 furry（纯兽）（动物形态，但通常具有高级智慧）'
 
+funny-animal:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+    zh-cn: 'STUB'
+
 ###################################################
 
 '@class:male+female/non-species':
@@ -449,13 +494,13 @@ males-only:
   namespaces: [ male ]
   explanation:
     en: 'Main characters are all males (only in namespace male)'
-    zh: '主要角色只有男性（只出现于 male 命名空间）'
+    zh-cn: '主要角色只有雄性（只出现于 male 命名空间）'
 
 females-only:
   namespaces: [ female ]
   explanation:
     en: 'Main characters are all females (only in namespace female)'
-    zh-cn: '主要角色只有女性（只出现于 female 命名空间）'
+    zh-cn: '主要角色只有雌性（只出现于 female 命名空间）'
 
 shota:
   namespaces: [ male ]
@@ -553,135 +598,151 @@ animal-on-furry:
     zh-cn: '主要角色中，动物或纯兽（非人形 furry）和兽人发生了性关系'
 
 ###################################################
-###################################################
-
-'@namespace:malex+femalex':
-  name: 'malex/femalex'
-  content:
-    - en: 'TODO: English descriptions is ongoing'
-      zh-cn: '用于说明游戏中出现的特殊内容。'
-    - en: 'Unless otherwise specified, the malex namespace indicates the furry/human physiological gender is male, and the femalex namespace indicates the furry/human physiological gender is female'
-      zh-cn: '除非特殊说明，在 malex 命名空间表示兽人/人类生理性别是男性，在 femalex 命名空间表示兽人/人类生理性别是女性'
 
 exhibitionism:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色出现了在有可能被其他人看见的地方（如户外）进行自愿裸体或性行为'
 
-ntr:
-  namespaces: [ malex, femalex ]
+netorare:
+  namespaces: [ male, female ]
+  alias: [ ntr ]
   explanation:
     en: ''
-    zh-cn: '主要角色之间出现了戴绿帽'
- 
+    zh-cn: '另一个角色的配偶/伴侣与某角色发生关系。'
+
+rape:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+    zh-cn: 'STUB'
+
 mind-break:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '通过长时间或严格的性刺激来训练/使某人在心理上成为性奴隶（洗脑）'
 
 mind-control:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '强迫参与者（违背自己的意愿）自己做某事（催眠）'
 
 corruption:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中用魔法或其他超自然力量强硬地腐化某人的头脑，抢夺他们的纯洁'
 
 parasite:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了寄生或被寄生'
 
 drugs:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色之间使用鼓动滥交或快感的药物'
 
 body-swap:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色之间出现了灵魂互换'
 
 time-stop:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色之间出现了时间停止行为'
 
 guro:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了肢解行为'
 
 tentacles:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了被触手侵犯'
 
 body-modification:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了以人工方式替换身体的某些部位'
 
 conjoined:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中有两个或更多的头分享同一个身体的角色'
 
 muscle-growth:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了肌肉产生或变大'
 
 inflation:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了腹部向外膨胀得像个气球'
 
 absorption:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了吸收某人或某物'
 
 petrification:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中成为雕像/岩石般的形象'
 
 stomach-deformation:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了固体从腹内向外推压，并出现一个可见突起'
 
 brain-fuck:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色之间包括涉及大脑的性行为'
 
 vore:
-  namespaces: [ malex, femalex ]
+  namespaces: [ male, female ]
   explanation:
     en: 'Main characters may swallow or be swallowed whole via the mouth.'
     zh-cn: '主要角色可能（从嘴）吞入某个角色或被某个角色吞人'
+
+fisting:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh-cn: '主要角色可能出现拳交'
+
+bondage:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh-cn: '主要角色可能出现绑缚（BDSM）'
+
+public-use:
+  namespaces: [ male, female ]
+  explanation:
+    en: ''
+    zh-cn: '主要角色可能成为肉便器'
 
 
 ###################################################
@@ -716,6 +777,12 @@ multiplayer:
   explanation:
     en: 'The game is multiplayer or includes multiplayer mode'
     zh-cn: '游戏是多人游戏或包括多人模式'
+
+co-op:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game has cooperative game mode'
+    zh-cn: '游戏支持合作模式'
 
 pvp:
   namespaces: [ misc ]
@@ -752,6 +819,12 @@ engine-godot:
     en: 'The game is developed using GoDot engine'
     zh-cn: '游戏使用了 GoDot 引擎'
 
+adobe-flash:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.'
+    zh-cn: '游戏使用了 Adobe Flash 开发。不要与 `platform:shockwave-flash` 混淆，后者强调需要用户单独安装 Flash Player 才能运行。'
+
 multiple-endings:
   namespaces: [ misc ]
   explanation:
@@ -760,6 +833,7 @@ multiple-endings:
 
 work-in-process:
   namespaces: [ misc ]
+  alias: [ ongoing ]
   explanation:
     en: 'The game is ongoing'
     zh-cn: '游戏尚未完结（但有先行预览版本或 Demo）'
@@ -863,6 +937,12 @@ homophobia:
     - en: 'The languages supported by the game (using the ISO 639-1 Alpha-2 code)'
       zh-cn: '用于说明游戏的语言（使用 ISO 639-1 Alpha-2 code 标准语言代码）'
 
+de:
+  namespaces: [ lang ]
+  explanation:
+    en: 'German supporting provided by offical author'
+    zh-cn: '游戏有官方德语版本'
+
 en:
   namespaces: [ lang ]
   explanation:
@@ -874,6 +954,30 @@ en-unofficial:
   explanation:
     en: 'English supporting provided by unoffical source'
     zh-cn: '游戏有非官方英语版本'
+
+es:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Spanish supporting provided by offical author'
+    zh-cn: '游戏有官方西班牙语版本'
+
+fr:
+  namespaces: [ lang ]
+  explanation:
+    en: 'French supporting provided by offical author'
+    zh-cn: '游戏有官方法语版本'
+
+hu:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Hungarian supporting provided by offical author'
+    zh-cn: '游戏有官方匈牙利语版本'
+
+it:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Italian supporting provided by offical author'
+    zh-cn: '游戏有官方意大利语版本'
 
 ja:
   namespaces: [ lang ]
@@ -887,10 +991,30 @@ ja-unofficial:
     en: 'Japanese supporting provided by unoffical source'
     zh-cn: '游戏有非官方日语版本'
 
+
+ko:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Korean supporting provided by offical author'
+    zh-cn: '游戏有官方韩语版本'
+
+pt:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Portuguese supporting provided by offical author'
+    zh-cn: '游戏有官方葡萄牙语版本'
+
 ru:
   namespaces: [ lang ]
   explanation:
-    en: 'STUB'
+    en: 'Russian supporting provided by offical author'
+    zh-cn: '游戏有官方俄语版本'
+
+tr:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Turkish supporting provided by offical author'
+    zh-cn: '游戏有官方土耳其语版本'
 
 zh:
   namespaces: [ lang ]
@@ -922,6 +1046,7 @@ steam:
 
 itchio:
   namespaces: [ publish ]
+  alias: [ itch-io, itch ]
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 itch.io 上有发布'
@@ -964,12 +1089,14 @@ apple-appstore:
 
 e-shop:
   namespaces: [ publish ]
+  alias: [ nintendo-e-shop ]
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 Nintendo E-Shop 上有发布'
 
 gog:
   namespaces: [ publish ]
+  alias: [ gog-com ]
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 gog.com 商店上有发布'
@@ -1004,15 +1131,23 @@ windows:
 
 macos:
   namespaces: [ platform ]
+  alias: [ macintosh, osx, macosx ]
   explanation:
     en: 'Apple macOS'
     zh-cn: '游戏官方支持 Apple macOS'
 
 linux:
   namespaces: [ platform ]
+  alias: [ gnu-linux ]
   explanation:
     en: 'GNU/Linux'
     zh-cn: '游戏官方支持 GNU/Linux'
+
+shockwave-flash:
+  namespaces: [ platform ]
+  explanation:
+    en: 'The game requires Shockwave Flash (Adobe Flash Player) to run. In particular, this tag is only used for games that are distributed with `.swf` files. This tag should not be used if Flash Player is bundled with the game package (e.g. Adobe AIR). All games that use Adobe Flash technology should use `misc:adobe-flash`'
+    zh-cn: '游戏需要 Shockwave Flash (Adobe Flash Player) 以运行。特别地，此标签仅用于在发行 `.swf` 文件的游戏。如果发行的游戏包中捆绑了 Flash Player（如 Adobe AIR），不应使用此标签。所有使用了 Adobe Flash 技术的游戏都应该使用 `misc:adobe-flash`'
 
 android:
   namespaces: [ platform ]

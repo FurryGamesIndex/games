@@ -19,35 +19,38 @@
 
 import os
 import yaml
-from html import escape
 from markdown2 import Markdown
 
-from fgi import image
-from fgi import args
 from fgi.seo import keywords
 
-def get_languages_list(dbdir):
+def get_languages_list(fctx, dbdir):
     ll = [f for f in os.listdir(os.path.join(dbdir, "l10n"))]
+    ll.append("en")
 
     # FIXME: uncompleted languages is blacklisted
-    if not args.args.next:
+    if not fctx.args.next:
         ll.remove("ja")
+
+    ll = fctx.pmgr.invoke_plugins("i18n_post_ll_done", ll)
 
     return ll
 
-def uil10n_load_base(l10ndir):
+def uil10n_load_base(fctx, l10ndir):
     base_l10n = None
 
     with open(os.path.join(l10ndir, "en.yaml")) as stream:
         base_l10n = yaml.safe_load(stream)
+        keywords.preprocess_keywords(base_l10n)
 
-    if args.args.extra_ui is not None:
-        with open(os.path.join(args.args.extra_ui, "en.yaml")) as stream:
+    if fctx.args.extra_ui is not None:
+        with open(os.path.join(fctx.args.extra_ui, "en.yaml")) as stream:
             base_l10n.update(yaml.safe_load(stream))
+
+    base_l10n = fctx.pmgr.invoke_plugins("i18n_post_load_uil10n_base_data", base_l10n)
 
     return base_l10n
 
-def ui10n_load_language(l10ndir, base_l10n, language):
+def uil10n_load_language(fctx, l10ndir, base_l10n, language):
     ui = None
 
     with open(os.path.join(l10ndir, language + ".yaml")) as stream:
@@ -60,11 +63,13 @@ def ui10n_load_language(l10ndir, base_l10n, language):
         with open(puifn) as stream:
             ui.update(yaml.safe_load(stream))
 
-    if args.args.extra_ui is not None:
-        euifn = os.path.join(args.args.extra_ui, language + ".yaml")
+    if fctx.args.extra_ui is not None:
+        euifn = os.path.join(fctx.args.extra_ui, language + ".yaml")
         if os.path.isfile(euifn):
             with open(euifn) as stream:
                 ui.update(yaml.safe_load(stream))
+
+    ui = fctx.pmgr.invoke_plugins("i18n_post_load_uil10n_language_data", ui, language=language, base_l10n=base_l10n)
 
     return ui
 
@@ -76,14 +81,41 @@ def get(game, language, key):
     else:
         return game[key]
 
-def get_desc(rr, game, language):
-    desc = get(game, language, "description")
-    if "description-format" not in game:
-        return escape(desc).replace("\n", "<br>")
-    elif game["description-format"] == "markdown":
-        markdowner = Markdown(extras=["strike", "target-blank-links"],
-                inline_image_uri_filter = lambda uri: image.uri(rr, uri, game["id"]))
-        return markdowner.convert(desc)
+def get_mtime(game, language):
+    if language in game["tr"]:
+        return max(game["tr"][language]["mtime"], game["mtime"])
     else:
-        raise ValueError("description format invaild")
+        return game["mtime"]
 
+
+doc_markdowner = Markdown(extras=["tables", "metadata"])
+doc_md_cache = dict()
+
+def _conv_doc_markdown_get_content(fn, callback):
+    with open(fn) as f:
+        content = f.read()
+        if callback is not None:
+            content = callback(content)
+        return content
+
+def conv_doc_markdown(name, language, callback=None):
+    if language is None:
+        content = _conv_doc_markdown_get_content(f"doc/{name}.md", callback)
+        result = doc_markdowner.convert(content)
+    else:
+        fn = f"doc/{name}.{language}.md"
+        fnen = f"doc/{name}.en.md"
+        if name not in doc_md_cache:
+            content = _conv_doc_markdown_get_content(fnen, callback)
+            doc_md_cache[name] = doc_markdowner.convert(content)
+
+        if language == "en" or not os.path.exists(fn):
+            return doc_md_cache[name]
+
+        content = _conv_doc_markdown_get_content(fn, callback)
+
+        result = doc_markdowner.convert(content)
+        if doc_md_cache[name].metadata:
+            result.metadata = { **doc_md_cache[name].metadata, **result.metadata }
+
+    return result

@@ -1,16 +1,18 @@
+{% include 'header.html' %}
 <div class="items">
-{% for name, game in games.items() %}{% if 'expunge' not in game %}
+{% for name, game in games %}
 {% set desc = get(game, lang, 'description') %}
 {% set game_name = get(game, lang, 'name') %}
 	<div class="item">
-		{{ uri_to_html_image(rr, game.thumbnail, name, game_name).html(node_class="thumbnail") }}
+		{{ mfac.uri_to_html_image(rr, game.thumbnail, name, game_name).html(node_class="thumbnail") }}
 		<div class="content">
 		<div class="name"><a href="games/{{ name }}.html">{{ game_name|e }}</a></div>
 		<div class="description">{{ (desc[:480] + (desc[480:] and '...'))|e }}</div>
 		</div>
 	</div>
-{% endif %}{% endfor %}
+{% endfor %}
 	<div style="height: 20px;"></div>
 {% include 'copying.html' %}
 </div>
-<script src="{{ rr }}/scripts/base.js"></script>
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
+{% include 'footer.html' %}

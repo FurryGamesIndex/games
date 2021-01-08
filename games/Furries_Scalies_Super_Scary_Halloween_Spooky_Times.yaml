@@ -29,6 +29,7 @@ tags:
     - en
   publish:
     - steam
+    - itchio
   platform:
     - windows
     - linux
@@ -36,6 +37,8 @@ tags:
 links:
   - name: .steam
     uri: steam:1112230
+  - name: .itch.io
+    uri: https://steg-game-dev.itch.io/furries-scalies-halloween
 
 thumbnail: thumbnail.jpg
 

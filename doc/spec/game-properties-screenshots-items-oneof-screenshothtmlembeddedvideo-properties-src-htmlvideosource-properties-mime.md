@@ -1,0 +1,3 @@
+## mime Type
+
+`string`

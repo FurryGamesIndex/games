@@ -38,7 +38,7 @@ You have to create a blank file and name it `Game ID.yaml`, where `Game ID` is t
 
 ## Step 4: Edit the game description file
 
-Here is a sample description file for the `Adastra` game. After seeing this ([Effect Demo](https://furrygamesindex.github.io/en/games/Adastra.html)), you may already have a basic understanding of the game description file. If you still don’t understand, It does not matter, because I will introduce you to the meaning and writing of each part of the file.
+Here is a sample description file for the `Adastra` game. After seeing this ([Effect Demo](https://furrygames.top/en/games/Adastra.html)), you may already have a basic understanding of the game description file. If you still don’t understand, It does not matter, because I will introduce you to the meaning and writing of each part of the file.
 
 ```
 name: Adastra
@@ -246,14 +246,12 @@ FGI supported stock links include the following
 - `.tumblr`: Official Tumblr
 - `.pixiv`: Official Pixiv
 - `.discord`: Official Discord
-- `.unofficial-patch-zh-cn`: Unofficial Simplified Chinese patch
-- `.unofficial-ver-zh-cn`: Unofficial Simplified Chinese version
-- `.unofficial-patch-zh-tw`: Unofficial Traditional Chinese patch
-- `.unofficial-ver-zh-tw`: Unofficial Traditional Chinese version
+- `.unofficial-patch-zh`: Unofficial Chinese patch
+- `.unofficial-version-zh`: Unofficial Chinese version
 
 When you use the stock link, you don’t need to write such a long word, and you don’t need to write a copy for each language, because the stock link is fixed, and each language can be processed automatically.
 
-If you really need a non-stock link, you can just write the name part directly. Note that we will use English (and then you may need to write another name in another language) such as <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code> is to create a link to an unofficial Chinese patch. (Now Adastra has used the `.unofficial-patch-zh-cn` stock link instead of this custom link, but this document still uses the old custom link to help you understand and explain how to translate the custom link)
+If you really need a non-stock link, you can just write the name part directly. Note that we will use English (and then you may need to write another name in another language) such as <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code> is to create a link to an unofficial Chinese patch. (Now Adastra has used the `.unofficial-patch-zh` stock link instead of this custom link, but this document still uses the old custom link to help you understand and explain how to translate the custom link)
 
 The URI part may be a web address or URL, such as the "Get on itch.io platform" link above, we should jump to open the game's itch.io webpage, so we fill in `https://echoproject.itch.io /adastra`
 

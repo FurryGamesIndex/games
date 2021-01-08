@@ -1,3 +1,4 @@
+{% include 'header.html' %}
 <div class="default tip" id="lang_tip"></div>
 <div id="langs" class="default links-group">
 	<a style="display: block;" href="{{ rr }}/en/"><i class="fas fa-globe-americas"></i> English</a>
@@ -11,7 +12,7 @@
 <div class="default">
 {% include 'copying.html' %}
 </div>
-<script src="{{ rr }}/scripts/base.js"></script>
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
 <script>
 const regexp = new RegExp(window.location.host + "/[a-z\\-]*/($|games/|list|index|search|faq).*");
 const match = document.referrer.match(regexp)
@@ -33,3 +34,4 @@ if (match !== null && match.length >= 1) {
 }
 
 </script>
+{% include 'footer.html' %}

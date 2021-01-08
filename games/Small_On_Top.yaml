@@ -49,6 +49,7 @@ tags:
     - engine-rpg-maker
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -62,6 +63,10 @@ links:
     uri: patreon:spedumon
   - name: .twitter
     uri: twitter:spedumon
+  - name: .discord
+    uri: discord:a7PHc967hP
+  - name: .unofficial-version-zh
+    uri: https://e-hentai.org/g/1800809/6968937421/
 
 thumbnail: thumbnail.jpg
 

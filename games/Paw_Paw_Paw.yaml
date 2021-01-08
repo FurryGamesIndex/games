@@ -1,0 +1,76 @@
+name: Paw Paw Paw
+
+description: |
+  Paw Paw Paw is a 2D Sidescroller Beat ‘Em Up game. You play as part of the resistance in their effort to bring down the King. Hack and slash your way to victory, and beat all your enemies into pulps!  
+  ## KEY FEATURES
+  *  Play single player or local co-op up to 4 players  
+  *  Level up your character  
+  *  Unlock new combo  
+  *  Loot and equip new weapons  
+  *  Hire companion to help you in battle  
+  *  Ride your mount into battle
+    
+  ## CHARACTERS
+
+  There are four starting characters to chose from, with more to be unlocked as you play the game. Each character has their own abilities, stats, combos, and weapon preferences. Choose a character that fit your play style!  
+ 
+  ## WEAPONS
+    
+  Unlock new and powerful weapons for your characters! Each weapon has its own stats and bonuses. Loot weapons by defeating enemies and bosses. Or you can buy new weapons from the wandering merchants.  
+    
+  ## OUTPOST
+    
+  Outposts are places that you can visit between levels. A place for you to rest and prepare for the next mission. Here you can level up your characters, equip new weapons, restock your supplies, buy various items and recruit a companion. 
+
+description-format: markdown
+
+tags:
+  author:
+    - Simpleton
+  type:
+    - action
+    - adventure
+  male:
+    - dog
+    - bear
+    - rabbit
+  misc:
+    - full-audio
+    - multiplayer
+  lang:
+    - zh
+    - en
+    - fr
+    - de
+    - es
+    - ja
+    - pt
+    - tr
+    - ru
+    - it
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .steam
+    uri: steam:1037910
+  - name: .website
+    uri: http://pawpawpawgame.com
+  - name: .facebook
+    uri: https://www.facebook.com/pawpawpawgame/
+  - name: .twitter
+    uri: https://twitter.com/simpletongame
+  - name: .youtube
+    uri: https://www.youtube.com/channel/UCBn6mtcceygnp0u_hWYvXNw/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1037910/ss_4a36f24c96bfd3e2095548b1aa71c7a68bb1a7bb.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1037910/ss_22558f9007ca3d5049a75b22d08308fbd73b780c.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1037910/ss_f34a1e05efe66c54a06a4467821185bc7e2d62ff.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1037910/ss_19dfea33e9a3161d046c5ba2373cc01b87eaf4e7.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1037910/ss_af9de6dfee03214165dff4a887b22d5127400b59.1920x1080.jpg
