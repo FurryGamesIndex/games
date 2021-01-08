@@ -54,10 +54,9 @@ def run_cmd(cmd, failback=''):
 class Generator:
     def __init__(self, argv):
         self.argv = argv
-        args = parse(argv)
-        self.args = args
+        self.args = parse(argv)
 
-        self.dbdir = "games"
+        self.dbdir = os.path.join(self.args.data_dir_prefix, "games")
         self.output = self.args.output
 
         self.dir_renderer_files = "renderers"
@@ -67,14 +66,16 @@ class Generator:
         self.tagmgr = TagManager()
         self.mfac = MediaFactory(self)
 
-        self.tagdep_file = "tag-dependencies.yaml"
-        self.tags_file = "tags.yaml"
+        self.tagdep_file = os.path.join(self.args.data_dir_prefix, "tag-dependencies.yaml")
+        self.tags_file = os.path.join(self.args.data_dir_prefix, "tags.yaml")
 
-        self.dir_templates = "templates"
-        self.dir_uil10n = "uil10n"
+        self.dir_templates = os.path.join(self.args.data_dir_prefix, "templates")
+        self.dir_uil10n = os.path.join(self.args.data_dir_prefix, "uil10n")
 
-        self.webroot_path = "webroot"
-        self.assets_path = "assets"
+        self.webroot_path = os.path.join(self.args.data_dir_prefix, "webroot")
+        self.assets_path = os.path.join(self.args.data_dir_prefix, "assets")
+
+        self.dir_doc = os.path.join(self.args.data_dir_prefix, "doc")
 
         self.base_uri = "https://furrygames.top/"
         self.base_uri_old = "https://furrygamesindex.github.io/"

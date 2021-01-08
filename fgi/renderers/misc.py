@@ -53,7 +53,7 @@ class RendererMisc(Renderer):
         # faq.html
 
         context = self.new_context()
-        context["content"] = conv_doc_markdown("faq", self.language)
+        context["content"] = conv_doc_markdown(self.fctx, "faq", self.language)
         context["active_faq"] = "actived"
         with self.sm_openw("faq.html", priority="0.4") as f:
             f.write(env.get_template("simple_md.html").render(context))
@@ -68,7 +68,7 @@ class RendererMisc(Renderer):
                 return f"`{c[:-1]}`"
 
         context = self.new_context()
-        context["content"] = conv_doc_markdown("search_help", self.language,
+        context["content"] = conv_doc_markdown(self.fctx, "search_help", self.language,
             callback=lambda c: re.sub(r'`(.*?)`', _add_search_icon_link, c))
         context["extra_styles"] = context["content"].metadata["styles"]
 
@@ -79,7 +79,7 @@ class RendererMisc(Renderer):
 
         context = self.new_context()
         with self.sm_openw("sensitive.html", priority="0.2",
-                lastmod_file="templates/sensitive.html") as f:
+                lastmod_file=f"{self.fctx.dir_templates}/sensitive.html") as f:
             f.write(env.get_template("sensitive.html").render(context))
 
 impl = RendererMisc

@@ -98,13 +98,13 @@ def _conv_doc_markdown_get_content(fn, callback):
             content = callback(content)
         return content
 
-def conv_doc_markdown(name, language, callback=None):
+def conv_doc_markdown(fctx, name, language, callback=None):
     if language is None:
-        content = _conv_doc_markdown_get_content(f"doc/{name}.md", callback)
+        content = _conv_doc_markdown_get_content(f"{fctx.dir_doc}/{name}.md", callback)
         result = doc_markdowner.convert(content)
     else:
-        fn = f"doc/{name}.{language}.md"
-        fnen = f"doc/{name}.en.md"
+        fn = f"{fctx.dir_doc}/{name}.{language}.md"
+        fnen = f"{fctx.dir_doc}/{name}.en.md"
         if name not in doc_md_cache:
             content = _conv_doc_markdown_get_content(fnen, callback)
             doc_md_cache[name] = doc_markdowner.convert(content)

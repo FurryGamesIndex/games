@@ -29,9 +29,10 @@ parser.add_argument('--use-external-images-cache', type=str, help='Set a previou
 parser.add_argument('--images-to-webp', default=False, action='store_true', help='convert images to webp and replace original (cwebp command required)')
 parser.add_argument('--images-candidate-webp', default=False, action='store_true', help='convert images to webp as candidation (cwebp command required)')
 parser.add_argument('--with-rss', default=False, action='store_true', help='generate RSS feeds (need to run scripts/fix-mtime.sh first)')
-parser.add_argument('--file-uri-workaround', default=False, action='store_true', help='Generate workaround files to make site work well on file:///')
+parser.add_argument('--file-uri-workaround', default=False, action='store_true', help='Generate workaround files to make site work well on file://')
 parser.add_argument('--next', default=False, action='store_true', help='enable experimental features')
-parser.add_argument('--plugin', type=str, action='append', help='Load plugin. format: name[,options]')
+parser.add_argument('--data-dir-prefix', default="", type=str, help='Specify the where the FGI datas stored (defaultly current directory)')
+parser.add_argument('--plugin', type=str, action='append', help='Load plugin. format: name[,options] (To load multiple plugins, you can specify this argument multiple times)')
 parser.add_argument('output', type=str, help='Output path')
 
 def parse(argv):

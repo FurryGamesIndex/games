@@ -38,12 +38,12 @@ class RendererSingles(Renderer):
             f.write(self.env.get_template("languages.html").render(context))
 
         context = self.new_context()
-        context["content"] = conv_doc_markdown("privacy-policy", None)
+        context["content"] = conv_doc_markdown(self.fctx, "privacy-policy", None)
         with open(self.getpath("privacy-policy.html"), "w") as f:
             f.write(self.env.get_template("simple_md.html").render(context))
 
         context = self.new_context()
-        context["content"] = conv_doc_markdown("credits", None)
+        context["content"] = conv_doc_markdown(self.fctx, "credits", None)
         with self.sm_openw("credits.html") as f:
             f.write(self.env.get_template("simple_md.html").render(context))
 
