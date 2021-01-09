@@ -428,6 +428,42 @@ code {
 	font-size: 0.96em !important;
 }
 
+.game .authors {
+	padding: 12px;
+}
+
+.game .author {
+	margin-bottom: 12px;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.game .authoravatar {
+	width: 48px;
+	height: 48px;
+	max-width: 48px;
+	max-height: 48px;
+	min-width: 48px;
+	min-height: 48px;
+	border-radius: 50%;
+	margin-right: 12px;
+	flex-shrink: 0;
+}
+
+.game .authoravatar.alt {
+	background-color: var(--background-color-alt);
+	color: var(--link-color-hover);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.game .authorroles>span:not(:first-child) {
+	margin-left: 6px;
+}
+
 .game .tags {
 	padding-bottom: 10px;
 	line-height: 1.32em;

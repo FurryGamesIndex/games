@@ -19,6 +19,26 @@
 		<div class="onmobile">{% include 'game_logo.html' %}</div>
 		<div class="description">{{ get(game, lang, '@desc_html') }}</div>
 		<div class="onmobile">{% include 'game_links.html' %}</div>
+		<div class="authors">
+		{% for i in game.authors %}
+			{% if i.name in authors %}
+				{% set author = authors[i.name] %}
+			{% endif %}
+			<div class="author">
+				{% if author %} {{ image.uri_to_html_image(rr, author.avatar, '_avatar', alt=i.name).html(node_class='authoravatar') }}
+				{% else %} <div class="authoravatar alt"><i class="fas fa-paw"></i></div> {% endif %}
+				<div class="authorinfo">
+				{% if author %} <div class="authorname"><a href="{{ rr }}/{{ lang }}/authors/{{ author.id }}.html">{{ i.name }}</a></div>
+				{% else %} <div class="authorname">{{ i.name }}</div> {% endif %}
+					<div class="authorroles tip">
+					{% for i in i.role %}
+						<span>{{ ui["author-role-" + i] }}</span>
+					{% endfor %}
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
 		<div class="tags"><table><tbody>
 		{% for group in game.tags %}
 			<tr>

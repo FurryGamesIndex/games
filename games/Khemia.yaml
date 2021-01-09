@@ -18,13 +18,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'The Echo Project'
+    role: [ producer ]
+  - name: HAPS
+    role: [ artist ]
+  - name: Stranj
+    role: [ artist ]
+  - name: Karadamon
+    role: [ artist ]
+  - name: Moe Jams
+    role: [ musician ]
+
 tags:
-  author:
-    - 'The Echo Project'
-    - HAPS
-    - Stranj
-    - Karadamon
-    - Moe
   type:
     - visual-novel
     - bara

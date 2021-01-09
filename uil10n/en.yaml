@@ -105,3 +105,13 @@ stock-link-unofficial-patch-zh-cn: Unofficial Simplified Chinese patch
 stock-link-unofficial-ver-zh-cn: Unofficial Simplified Chinese version
 stock-link-unofficial-patch-zh-tw: Unofficial Traditional Chinese patch
 stock-link-unofficial-ver-zh-tw: Unofficial Traditional Chinese version
+
+author-role-producer: Producer
+author-role-screenwriter: Screenwriter
+author-role-programmer: Programmer
+author-role-artist: Artist
+author-role-musician: Musician
+author-role-character-designer: Character designer
+author-role-scenographer: Scenographer
+author-role-translator: Translator
+author-role-others: Others

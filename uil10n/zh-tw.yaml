@@ -98,3 +98,13 @@ stock-link-unofficial-patch-zh-cn: 非官方簡體中文補丁
 stock-link-unofficial-ver-zh-cn: 非官方簡體中文版本
 stock-link-unofficial-patch-zh-tw: 非官方繁體中文補丁
 stock-link-unofficial-ver-zh-tw: 非官方繁體中文版本
+
+author-role-producer: 製作
+author-role-screenwriter: 劇本
+author-role-programmer: 程式
+author-role-artist: 藝術家
+author-role-musician: 音樂家
+author-role-character-designer: 角色設計
+author-role-scenographer: 場景設計
+author-role-translator: 翻譯者
+author-role-others: 其他
