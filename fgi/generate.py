@@ -37,7 +37,7 @@ from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
 from fgi.args import parse
-from fgi.base import load_game_all, list_pymod, local_res_href, make_wrapper
+from fgi.base import load_game_all, load_author_all, list_pymod, local_res_href, make_wrapper
 from fgi.search import SearchDatabase
 from fgi.tagmgr import TagManager
 from fgi.media import MediaFactory
@@ -57,6 +57,7 @@ class Generator:
         self.args = parse(argv)
 
         self.dbdir = os.path.join(self.args.data_dir_prefix, "games")
+        self.dbdir_author = os.path.join(self.args.data_dir_prefix, "authors")
         self.output = self.args.output
 
         self.dir_renderer_files = "renderers"
@@ -118,7 +119,8 @@ class Generator:
             dir_util.copy_tree(self.webroot_path, self.output)
             dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
 
-        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac)
+        self.authors = load_author_all(self.dbdir_author)
+        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac, self.authors)
 
         self.base_l10n = uil10n_load_base(self, self.dir_uil10n)
 
@@ -128,6 +130,7 @@ class Generator:
             "res": make_wrapper(local_res_href, self.pmgr),
             "args": self.args,
             "games": self.games,
+            "authors": self.authors,
             "webrootdir": self.webroot_path,
         }
 

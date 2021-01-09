@@ -42,6 +42,23 @@ def parse_description(game, fmt, game_id, mfac):
         raise ValueError(f"description format invaild: {fmt}")
 
 def cook_game(game, tagmgr, mfac):
+    if "authors" in game:
+        # If Using new generation format authors property,
+        # the #/tags/author will be overrided unconditionally
+        tmp = { "author": list() }
+        tmp.update(game["tags"])
+        game["tags"] = tmp
+        for i in game["authors"]:
+            game["tags"]["author"].append(i["name"])
+    else:
+        # For games using legecy format or without author infomation,
+        # generate a basic authors property
+        game["authors"] = list()
+        for i in game["tags"].get("author", {}):
+            tmp = dict()
+            tmp["name"] = i
+            game["authors"].append(tmp)
+
     tagmgr.check_and_patch(game)
 
     if "description-format" not in game:
@@ -51,6 +68,7 @@ def cook_game(game, tagmgr, mfac):
 
     for ln, game_l10n in game["tr"].items():
         parse_description(game_l10n, game["description-format"], game["id"], mfac)
+
 
 def load_game(dbdir, f, languages):
     game = None
@@ -90,7 +108,7 @@ def sorted_games_by_mtime(games):
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if "expunge" not in v }
 
-def load_game_all(dbdir, sdb, tagmgr, languages, mfac):
+def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
     games = {}
 
     for f in sorted_games_name(os.listdir(dbdir)):
@@ -103,9 +121,43 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac):
 
         games[game_id] = game
 
+        for i in game["authors"]:
+            name = i["name"]
+            if name in authors:
+                authors[name]["games"].append(game)
+
         sdb.update(game)
 
     return games
+
+def load_author(dbdir, f):
+    fn = os.path.join(dbdir, f)
+
+    if (not os.path.isfile(fn)) or (f[0] == '.'):
+        return None
+
+    author_id = os.path.splitext(f)[0]
+
+    print("Loading %s" % fn)
+    with open(fn) as stream:
+        author = yaml.safe_load(stream)
+        author["id"] = author_id
+        author["games"] = list()
+
+    return author
+
+def load_author_all(dbdir):
+    authors = dict()
+
+    for f in os.listdir(dbdir):
+        author = load_author(dbdir, f)
+
+        if author is None:
+            continue
+
+        authors[author["name"]] = author
+
+    return authors
 
 def list_pymod(dirname):
     package_path = os.path.dirname(__file__)
