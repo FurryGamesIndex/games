@@ -138,6 +138,11 @@ comedy:
   explanation:
     en: 'STUB'
 
+tragedy:
+  namespaces: [ type ]
+  explanation:
+    en: 'STUB'
+
 horror:
   namespaces: [ type ]
   explanation:
