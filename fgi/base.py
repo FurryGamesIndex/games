@@ -41,7 +41,18 @@ def parse_description(game, fmt, game_id, mfac):
     else:
         raise ValueError(f"description format invaild: {fmt}")
 
-def load_game(dbdir, f, languages, mfac):
+def cook_game(game, tagmgr, mfac):
+    tagmgr.check_and_patch(game)
+
+    if "description-format" not in game:
+        game["description-format"] = "plain"
+
+    parse_description(game, game["description-format"], game["id"], mfac)
+
+    for ln, game_l10n in game["tr"].items():
+        parse_description(game_l10n, game["description-format"], game["id"], mfac)
+
+def load_game(dbdir, f, languages):
     game = None
     fn = os.path.join(dbdir, f)
 
@@ -57,11 +68,6 @@ def load_game(dbdir, f, languages, mfac):
         game["tr"] = {}
         game["mtime"] = os.path.getmtime(fn)
 
-        if "description-format" not in game:
-            game["description-format"] = "plain"
-
-        parse_description(game, game["description-format"], game_id, mfac)
-
     for language in languages:
         l10n_file = os.path.join(dbdir, "l10n", language, f)
         if os.path.isfile(l10n_file):
@@ -69,9 +75,11 @@ def load_game(dbdir, f, languages, mfac):
             with open(l10n_file) as stream:
                 game["tr"][language] = yaml.safe_load(stream)
                 game["tr"][language]["mtime"] = os.path.getmtime(l10n_file)
-                parse_description(game["tr"][language], game["description-format"], game_id, mfac)
 
     return (game, game_id)
+
+def sorted_games_name(games):
+    return sorted(games, key=lambda t: t.replace("_", "").upper())
 
 def sorted_games(games):
     return dict(sorted(games.items(), key=lambda t: t[0].replace("_", "").upper()))
@@ -85,18 +93,18 @@ def strip_games_expunge(games):
 def load_game_all(dbdir, sdb, tagmgr, languages, mfac):
     games = {}
 
-    for f in os.listdir(dbdir):
-        game, game_id = load_game(dbdir, f, languages, mfac)
+    for f in sorted_games_name(os.listdir(dbdir)):
+        game, game_id = load_game(dbdir, f, languages)
 
         if game is None:
             continue
 
+        cook_game(game, tagmgr, mfac)
+
         games[game_id] = game
 
-        tagmgr.check_and_patch(game)
         sdb.update(game)
 
-    games = sorted_games(games)
     return games
 
 def list_pymod(dirname):
