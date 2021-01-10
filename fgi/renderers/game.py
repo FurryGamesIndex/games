@@ -113,6 +113,7 @@ class RendererGame(Renderer):
         meta["description"] = re.sub(r'<[^<]*>', '', desc)
         meta["image"] = self.fctx.mfac.uri_to_html_image(context["rr"], game["thumbnail"], gid).src
         meta["extra_keywords"] = keywords.game_page_extra_keywords(game, context["ui"])
+        context["meta"] = meta
 
         if 'replaced-by' in game:
             rbgame = self.games[game['replaced-by']]
