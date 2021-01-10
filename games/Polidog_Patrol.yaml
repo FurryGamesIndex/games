@@ -29,6 +29,7 @@ tags:
     - dog
   lang:
     - ja
+    - en
   publish:
     - digiket
   platform:
@@ -42,7 +43,7 @@ links:
     uri: https://www.digiket.com/work/show/_data/ID=ITM0209503/
   - name: Alice-books (Physical ver)
     uri: https://alice-books.com/item/show/3288-19
-  - name: Ver 1.01 update patch
+  - name: Update patch
     uri: https://untendo.booth.pm/items/2555415
   - name: Get Demo (Windows)
     uri: https://untendo.booth.pm/items/2527877
