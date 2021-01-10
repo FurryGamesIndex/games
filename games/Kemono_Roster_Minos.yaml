@@ -1,13 +1,13 @@
 name: Kemono Roster - Minos
 
 description: |
-  STUB
+  The protagonist musters up the courage to confess his love to the tiger furry senior he has been secretly in love with, only to be hurt by the other side. When lost, a character claiming to be a god came down from the sky and said he would help the protagonist to take revenge on the senior. So, the story of the protagonist's revenge on the senior has opened up like this.
 
-expunge: true
+  The game has a total of four endings, pay attention to the hints that appear in the game, you can successfully reach all the endings.
+
+  (Translated from Chinese)
 
 tags:
-  sys:
-    - staging
   author:
     - Zoharwolf
   type:
@@ -41,4 +41,11 @@ links:
 
 thumbnail: thumbnail.jpg
 
-screenshots: []
+sensitive_media: true
+
+screenshots:
+  - https://i.imgur.com/jONgVxv.png
+  - sensitive: true
+    uri: https://images2.imgbox.com/7b/bd/GqyfYnGY_o.png
+  - sensitive: true
+    uri: https://images2.imgbox.com/cb/06/7BevihWS_o.png
