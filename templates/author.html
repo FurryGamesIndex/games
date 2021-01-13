@@ -1,0 +1,37 @@
+{% include 'header.html' %}
+<div class="page_author">
+	<div class="leftbox">
+		<div class="items">
+			{% for game in author.games %}
+			{% set desc = get(game, lang, 'description') %}
+			{% set game_name = get(game, lang, 'name') %}
+			<div class="item">
+				{{ mfac.uri_to_html_image(rr, game.thumbnail, game.id, game_name).html(node_class="thumbnail") }}
+				<div class="content">
+				<div class="name"><a href="{{ rr }}/{{ lang }}/games/{{ game.id }}.html">{{ game_name|e }}</a></div>
+				<div class="description">{{ (desc[:240] + (desc[240:] and '...'))|e }}</div>
+				</div>
+			</div>
+			{% endfor %}
+			<div style="height: 20px;"></div>
+		</div>
+		<div class="onmobile">{% include 'copying.html' %}</div>
+	</div>
+	<div class="rightbox">
+		<div class="flexline widget">
+			{{ image.uri_to_html_image(rr, author.avatar, '_avatar', alt=author.name).html(node_class='authoravatar') }}
+			<h1>{{ author.name }}</h1>
+		</div>
+		<div class="links links-group">
+		{% for i in author.links %}
+		{% set li = link_info(i, {}, ui, lang) %}
+			<a class="iconline" href="{{ li.href }}" target="_blank"{% if "rel" in li %} rel="{{ li.rel }}"{% endif %}>{{ li.content }}</a>
+		{% endfor %}
+		</div>
+		<div class="hideonmobile">{% include 'copying.html' %}</div>
+	</div>
+</div>
+<script src="{{ res(rr, '/scripts/base.js') }}"></script>
+<script>
+</script>
+{% include 'footer.html' %}

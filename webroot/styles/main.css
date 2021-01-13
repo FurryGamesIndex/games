@@ -155,7 +155,8 @@ code {
 	padding: 12px 4px;
 }
 
-.iconline {
+.iconline,
+.flexline {
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
@@ -384,9 +385,10 @@ code {
 	}
 }
 
-/* stylesheet for games/*.html */
+/* stylesheet for games/*.html and authors/*.html */
 
-.game {
+.game,
+.page_author {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-start;
@@ -398,20 +400,39 @@ code {
 	margin-bottom: 8px;
 }
 
-.game>.leftbox {
+.game>.rightbox,
+.page_author>.rightbox {
 	display: inline-block;
 	flex-shrink: 1;
 	flex-grow: 1;
 }
 
-.game>.leftbox .onmobile {
+.game .onmobile,
+.page_author .onmobile {
 	display: none;
+}
+
+.game .widget,
+.page_author .widget {
+	margin-bottom: 20px;
+}
+
+.game .has-divline,
+.page_author .has-divline {
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--border-color);
 }
 
 .game h1 {
 	font-size: 1.24em;
 	font-weight: bold;
 	margin: 0 0 12px 0;
+}
+
+.page_author h1 {
+	display: inline-block;
+	font-size: 1.12em;
+	font-weight: bold;
 }
 
 .game .description {
@@ -440,7 +461,8 @@ code {
 	align-items: center;
 }
 
-.game .authoravatar {
+.game .authoravatar,
+.page_author .authoravatar {
 	width: 48px;
 	height: 48px;
 	max-width: 48px;
@@ -504,12 +526,21 @@ code {
 	margin-bottom: 12px;
 }
 
-.game>.rightbox {
+.game>.rightbox,
+.page_author>.rightbox {
 	display: inline-block;
 	width: 300px;
 	max-width: 300px;
 	padding: 8px;
+	flex-shrink: 0;
+}
+
+.game>.rightbox {
 	margin-left: 12px;
+}
+
+.page_author>.leftbox {
+	margin-right: 12px;
 }
 
 .game .thumbnail {
@@ -538,7 +569,8 @@ code {
 	margin: 8px 2px;
 }
 
-.game .links {
+.game .links,
+.page_author .links {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: flex-start;
@@ -558,15 +590,21 @@ code {
 }
 
 @media screen and (max-width: 940px) {
-	.game {
+	.game,
+	.page_author {
 		display: flex;
 		flex-flow: column nowrap;
 		justify-content: flex-start;
 		align-items: stretch;
 	}
 
-	.game>.leftbox .onmobile {
+	.game .onmobile,
+	.page_author .onmobile {
 		display: block;
+	}
+
+	.page_author .hideonmobile {
+		display: none;
 	}
 
 	.game>.leftbox .game_logo {
@@ -583,5 +621,17 @@ code {
 
 	.game>.rightbox {
 		display: none;
+	}
+
+	.page_author>.leftbox {
+		order: 11;
+	}
+
+	.page_author>.rightbox {
+		order: 10;
+		width: 100%;
+		max-width: 100%;
+		padding: 0px;
+		margin-left: 0px;
 	}
 }
