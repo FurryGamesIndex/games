@@ -24,11 +24,11 @@
 
 ## 版权信息
 
-所有游戏数据和文档按照 [创作共用署名-非商业性使用-相同方式共享(CC BY-NC-SA) 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。参见项目根目录的 LICENSE.CC-BY-NC-SA4 文件。
+所有游戏数据和文档（`games/`、`doc/`（但不包含自动生成的 `doc/spec/` 目录）目录中的文件）按照 [创作共用署名-非商业性使用-相同方式共享(CC BY-NC-SA) 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可。参见项目根目录的 LICENSE.CC-BY-NC-SA4 文件。
 
 部分数据（如游戏截图）版权归原始权利人所有。我们仅在[合理使用](https://en.wikipedia.org/wiki/Fair_use)的前提下发布它们。
 
-本项目的代码按照 GNU General Public License 的第 3 版或更高版本进行许可。参见项目根目录的 LICENSE.GPL3 文件。
+本项目的代码和基本数据文件（其他所有目录中的文件）按照 GNU General Public License 的第 3 版或更高版本进行许可。参见项目根目录的 LICENSE.GPL3 文件。
 
 ## TODO
 

@@ -24,11 +24,11 @@
 
 ## 版權資訊
 
-所有遊戲資料和文件按照 [創作共用署名-非商業性使用-相同方式共享(CC BY-NC-SA) 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 許可。參見專案根目錄的 LICENSE.CC-BY-NC-SA4 檔案。
+所有遊戲資料和文件（`games/`、`doc/`（但不包含自動生成的 `doc/spec/` 目錄）目錄中的檔案）按照 [創作共用署名-非商業性使用-相同方式共享(CC BY-NC-SA) 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 許可。參見專案根目錄的 LICENSE.CC-BY-NC-SA4 檔案。
 
 部分資料（如遊戲截圖）版權歸原始權利人所有。我們僅在[合理使用](https://en.wikipedia.org/wiki/Fair_use)的前提下發布它們。
 
-本專案的程式碼按照 GNU General Public License 的第 3 版或更高版本進行許可。參見專案根目錄的 LICENSE.GPL3 檔案。
+本專案的程式碼和基本資料檔案（其他所有目錄中的檔案）按照 GNU General Public License 的第 3 版或更高版本進行許可。參見專案根目錄的 LICENSE.GPL3 檔案。
 
 ## TODO
 
