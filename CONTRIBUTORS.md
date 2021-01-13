@@ -48,6 +48,13 @@ Games submitter and editor,
 Tags spec editor, 
 Code contributor/Developer.
 
+### Downey Rem / 唐尼瑞姆|唐门
+
+[Pixiv](https://www.pixiv.net/users/16721009) | [Telegram Channel](https://t.me/TNTwwxs)
+
+Games submitter and editor, 
+Tags spec editor, 
+
 ***For new contributors, please add your name and contacts before this line.***
 
 ## Game referrers
@@ -57,12 +64,6 @@ Code contributor/Developer.
 [Furaffinity](https://www.furaffinity.net/user/rockytherookie/) | [Twitter](https://twitter.com/rockytherookie) | [Pixiv](https://www.pixiv.net/users/17292937)
 
 Introduced a variety of games.
-
-### Downey Rem / 唐尼瑞姆|唐门
-
-[Pixiv](https://www.pixiv.net/users/16721009) | [Telegram Channel](https://t.me/TNTwwxs)
-
-Introduced some games.
 
 ### 人间食尽
 
