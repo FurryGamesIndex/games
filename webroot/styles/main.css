@@ -149,6 +149,12 @@ code {
 	background-color: var(--box-notice-color);
 }
 
+.iconbtn {
+	display: inline-block;
+	font-size: 1.36em;
+	padding: 12px 4px;
+}
+
 .iconline {
 	display: flex;
 	flex-flow: row nowrap;
