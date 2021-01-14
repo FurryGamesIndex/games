@@ -52,12 +52,12 @@ def cook_game(game, tagmgr, mfac):
             game["tags"]["author"].append(i["name"])
     else:
         # For games using legecy format or without author infomation,
-        # generate a basic authors property
+        # create a STUB authors property
         game["authors"] = list()
-        for i in game["tags"].get("author", {}):
-            tmp = dict()
-            tmp["name"] = i
-            game["authors"].append(tmp)
+        #for i in game["tags"].get("author", {}):
+        #    tmp = dict()
+        #    tmp["name"] = i
+        #    game["authors"].append(tmp)
 
     tagmgr.check_and_patch(game)
 
