@@ -177,6 +177,15 @@ code {
 	padding: 12px;
 }
 
+#infobar_rt {
+	padding: 12px;
+	margin: 8px;
+}
+
+#infobar_rt .iconbtn {
+	margin-right: 12px;
+}
+
 .default,
 #navbar {
 	padding: 12px;
@@ -216,6 +225,7 @@ code {
 
 #navbar,
 #app,
+#infobar_rt,
 .center_page {
 	width: 940px;
 	max-width: 940px;
