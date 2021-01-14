@@ -11,6 +11,7 @@
 | [description-format](#description-format) | `string`  | Optional | cannot be null | [GameEntry](game-properties-description-format.md "undefined#/properties/description-format") |
 | [expuged](#expuged)                       | `boolean` | Optional | cannot be null | [GameEntry](game-properties-expuged.md "undefined#/properties/expuged")                       |
 | [replaced-by](#replaced-by)               | `string`  | Optional | cannot be null | [GameEntry](game-properties-replaced-by.md "undefined#/properties/replaced-by")               |
+| [authors](#authors)                       | `array`   | Optional | cannot be null | [GameEntry](game-properties-authors.md "undefined#/properties/authors")                       |
 | [tags](#tags)                             | `object`  | Required | cannot be null | [GameEntry](game-properties-tagdict.md "undefined#/properties/tags")                          |
 | [links](#links)                           | `array`   | Required | cannot be null | [GameEntry](game-properties-links.md "undefined#/properties/links")                           |
 | [thumbnail](#thumbnail)                   | `string`  | Required | cannot be null | [GameEntry](game-properties-thumbnail.md "undefined#/properties/thumbnail")                   |
@@ -115,6 +116,22 @@ If the game is not replaced by another game, do not add this property.
 ### replaced-by Type
 
 `string`
+
+## authors
+
+The infomation about the author(s) of the game.
+
+
+`authors`
+
+-   is optional
+-   Type: `object[]` ([GameAuthor](game-properties-authors-gameauthor.md))
+-   cannot be null
+-   defined in: [GameEntry](game-properties-authors.md "undefined#/properties/authors")
+
+### authors Type
+
+`object[]` ([GameAuthor](game-properties-authors-gameauthor.md))
 
 ## tags
 

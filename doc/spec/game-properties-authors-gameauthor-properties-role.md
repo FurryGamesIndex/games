@@ -1,0 +1,3 @@
+## role Type
+
+`string[]`

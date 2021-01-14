@@ -31,8 +31,8 @@ properties:
     type: string
     description: |
       Email address of the author.
-
-      If there is not any email address provided by author, do not specify this property.
+      
+      Do not use this property to avoid spam.
   links:
     type: array
     description: |

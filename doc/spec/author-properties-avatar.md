@@ -1,0 +1,3 @@
+## avatar Type
+
+`string`
