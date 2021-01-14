@@ -93,7 +93,7 @@ class Generator:
 
         self.sitemap = SitemapGenerator()
         if not self.args.no_sitemap:
-            self.sitemap.add_site(Sitemap(self.base_uri, "sitempa2.xml"))
+            self.sitemap.add_site(Sitemap(self.base_uri, "sitemap2.xml"))
             self.sitemap.add_site(Sitemap(self.base_uri_old, "sitemap.xml"))
 
         self.renderer_files = list_pymod(self.dir_renderer_files)
