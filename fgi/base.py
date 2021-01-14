@@ -23,8 +23,6 @@ from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
-from fgi.i18n import get_languages_list
-
 def parse_description(game, fmt, game_id, mfac):
     if "description" not in game:
         return
@@ -54,10 +52,11 @@ def cook_game(game, tagmgr, mfac):
         # For games using legecy format or without author infomation,
         # create a STUB authors property
         game["authors"] = list()
-        #for i in game["tags"].get("author", {}):
-        #    tmp = dict()
-        #    tmp["name"] = i
-        #    game["authors"].append(tmp)
+        for i in game["tags"].get("author", {}):
+            tmp = dict()
+            tmp["name"] = i
+            tmp["@stub"] = True
+            game["authors"].append(tmp)
 
     tagmgr.check_and_patch(game)
 

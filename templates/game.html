@@ -20,7 +20,7 @@
 		<div class="description">{{ get(game, lang, '@desc_html') }}</div>
 		<div class="onmobile">{% include 'game_links.html' %}</div>
 		<div class="authors">
-		{% for i in game.authors %}
+			{% for i in game.authors %}{% if "@stub" not in i %}
 			{% if i.name in authors %}
 				{% set author = authors[i.name] %}
 			{% endif %}
@@ -37,7 +37,7 @@
 					</div>
 				</div>
 			</div>
-		{% endfor %}
+			{% endif %}{% endfor %}
 		</div>
 		<div class="tags"><table><tbody>
 		{% for group in game.tags %}
