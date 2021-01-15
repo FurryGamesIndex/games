@@ -54,7 +54,7 @@ properties:
             type: string
             enum:
               - producer
-              - script-writer
+              - screenwriter
               - programmer
               - artist
               - musician
