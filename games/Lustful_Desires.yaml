@@ -82,9 +82,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Hyao
+    role: [ producer, screenwriter, programmer ]
+  - name: Zoroj
+    role: [ artist ]
+  - name: Gavel
+    role: [ artist ]
+
 tags:
-  author:
-    - Hyao
   type:
     - visual-novel
     - adventure
@@ -118,7 +124,7 @@ tags:
 
 links:
   - name: .itch.io
-    uri: https://hyao.itch.io/lustful-desires-
+    uri: https://hyao.itch.io/lustful-desires
   - name: .patreon
     uri: patreon:hyao
   - name: .discord
