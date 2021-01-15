@@ -1,0 +1,23 @@
+name: Studio SelfCropping
+
+aliases:
+  - 自我剪裁工作室
+  
+# aliases:
+#   - name: 自我剪裁工作室
+#     scope: [ zh ]
+  
+# l10n-names:
+#   zh: 自我剪裁工作室
+  
+type: small-team
+
+avatar: Studio_SelfCropping.jpg
+
+links:
+  - name: .steam
+    uri: https://store.steampowered.com/developer/apoto5
+  - name: .weibo
+    uri: https://www.weibo.com/ROMANSCHRISTMAS
+  - name: .twitter
+    uri: https://twitter.com/selfcropping
