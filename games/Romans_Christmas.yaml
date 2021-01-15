@@ -17,9 +17,13 @@ description: |
   The climax of chapter! Completely find out the truth of murder by completing the comic.
   This game may contain scenes with blood.
 
+authors:
+  -name: 'Studio SelfCropping'
+   role: [ producer ]
+  -name: APOTO5
+   role: [ screenwriter ]
+   
 tags:
-  author:
-    - 'Studio SelfCropping'
   type:
     - puzzle
     - visual-novel
