@@ -11,9 +11,15 @@ description: |
   Argo, who is just a commoner, was admitted because he has a special ability called “Cardification” sleeping within him.
   As he lives in the elite knight’s dormitory, Argo will learn to use his ability and eventually become entangled in a certain event.
 
+authors:
+  - name: KAIJU-09
+    role: [ producer, screenwriter ]
+  - name: Rossi Tsukigata
+    role: [ character-designer, artist ]
+  - name: and_is_w
+    role: [ translator ]
+
 tags:
-  author:
-    - KAIJU-09
   type:
     - visual-novel
     - bara
@@ -24,22 +30,19 @@ tags:
     - pig
     - muscle
     - blowjob
-  misc:
-    - work-in-process
   lang:
     - en
     - ja
-    - zh
   publish:
     - patreon
   platform:
     - windows
 
 links:
+  - name: .steam
+    uri: steam:1510030
   - name: .website
     uri: http://kaiju09.com/knights_college
-  - name: .patreon
-    uri: patreon:kaiju_09
   - name: .twitter
     uri: twitter:oodaru
 
