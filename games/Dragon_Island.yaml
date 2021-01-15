@@ -4,17 +4,17 @@ description: |
   Create unforgettable memories with your favorite male dragon on Dragon Island!
 
 authors:
-  -name: 'Studio SelfCropping'
-   role: [ producer ]
-  -name: APOTO5
-   role: [ screenwriter, musician ]
-  -name: 林彼丢
-   role: [ programmer ]
-  -name: Kulplant
-   role: [ character-design, artist ]
-  -name: 寒古林川
-   role: [ artist ]
-  -name: 翌月
+  - name: 'Studio SelfCropping'
+    role: [ producer ]
+  - name: APOTO5
+    role: [ screenwriter, musician ]
+  - name: 林彼丢
+    role: [ programmer ]
+  - name: Kulplant
+    role: [ character-design, artist ]
+  - name: 寒古林川
+    role: [ artist ]
+  - name: 翌月
    role: [ others ]
    
 tags:
