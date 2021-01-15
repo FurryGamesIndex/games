@@ -3,9 +3,21 @@ name: Dragon Island / 灵龙岛
 description: |  
   Create unforgettable memories with your favorite male dragon on Dragon Island!
 
+authors:
+  -name: 'Studio SelfCropping'
+   role: [ producer ]
+  -name: APOTO5
+   role: [ screenwriter ]
+  -name: 林彼丢
+   role: [ programmer ]
+  -name: Kulplant
+   role: [ character-design ]
+  -name: 寒古林川
+   role: [ artist ]
+  -name: 翌月
+   role: [ others ]
+   
 tags:
-  author:
-    - 'Studio SelfCropping'
   type:
     - visual-novel
     - puzzle
