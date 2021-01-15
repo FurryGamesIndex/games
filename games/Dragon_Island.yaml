@@ -46,8 +46,6 @@ tags:
     - staging
     
 links:
-  - name: .steam
-    uri: https://store.steampowered.com/developer/apoto5
   - name: .weibo
     uri: https://www.weibo.com/ROMANSCHRISTMAS
   - name: .weibo
