@@ -42,7 +42,9 @@ tags:
     - steam
   platform:
     - windows
-
+  sys:
+    - staging
+    
 links:
   - name: .steam
     uri: https://store.steampowered.com/developer/apoto5
@@ -61,6 +63,4 @@ screenshots:
   - https://i.imgur.com/PpSeJ5R.png
   - https://i.imgur.com/2QKVzZa.png
   
-sys: staging 
-expunge: true
   
