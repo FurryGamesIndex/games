@@ -15,7 +15,7 @@ type: small-team
 avatar: Studio_SelfCropping.jpg
 
 links:
-  - name: .steam
+  - name: steam
     uri: https://store.steampowered.com/developer/apoto5
   - name: .weibo
     uri: https://www.weibo.com/ROMANSCHRISTMAS
