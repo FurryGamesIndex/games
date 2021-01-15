@@ -18,10 +18,10 @@ description: |
   This game may contain scenes with blood.
 
 authors:
-  -name: 'Studio SelfCropping'
-   role: [ producer ]
-  -name: APOTO5
-   role: [ screenwriter ]
+  - name: 'Studio SelfCropping'
+    role: [ producer ]
+  - name: APOTO5
+    role: [ screenwriter ]
    
 tags:
   type:
