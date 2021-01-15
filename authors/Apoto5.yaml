@@ -8,7 +8,7 @@ type: personal
 avatar: Apoto5.jpg
 
 links:
-  - name: .steam
+  - name: steam
     uri: https://store.steampowered.com/developer/apoto5
   - name: .weibo
     uri: https://www.weibo.com/ROMANSCHRISTMAS
@@ -16,6 +16,5 @@ links:
     uri: https://twitter.com/Apoto5
   - name: .pixiv
     uri: https://www.pixiv.net/users/30135992
-  - name: afdian
-    icon: website
+  - name: 爱发电
     uri: https://www.afdian.net/p/062f6f4468d211e9ab5e52540025c377
