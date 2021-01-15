@@ -15,7 +15,7 @@ authors:
   - name: 寒古林川
     role: [ artist ]
   - name: 翌月
-   role: [ others ]
+    role: [ others ]
    
 tags:
   type:
