@@ -7,11 +7,11 @@ authors:
   -name: 'Studio SelfCropping'
    role: [ producer ]
   -name: APOTO5
-   role: [ screenwriter ]
+   role: [ screenwriter, musician ]
   -name: 林彼丢
    role: [ programmer ]
   -name: Kulplant
-   role: [ character-design ]
+   role: [ character-design, artist ]
   -name: 寒古林川
    role: [ artist ]
   -name: 翌月
