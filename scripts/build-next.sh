@@ -21,6 +21,8 @@ set -e
 
 if [ -n "$(git status --porcelain)" ]; then
 	echo "Working space MUST be clean while doing FGI-next build"
+	echo "Running git status..."
+	git status
 	echo "Exiting..."
 	exit 1
 fi
