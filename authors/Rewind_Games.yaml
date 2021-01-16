@@ -1,0 +1,11 @@
+name: Rewind Games
+
+type: small-team
+
+avatar: Rewind_Games.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:RewindGamesCA
+  - name: .website
+    uri: http://www.rewindgames.ca

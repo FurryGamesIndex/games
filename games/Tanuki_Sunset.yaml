@@ -15,9 +15,11 @@ description: |
     
 description-format: markdown
 
+authors:
+  - name: 'Rewind Games'
+    role: [ producer ]
+
 tags:
-  author:
-    - Rewind Games
   type:
     - action
     - adventure
