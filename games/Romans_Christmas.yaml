@@ -21,7 +21,7 @@ authors:
   - name: 'Studio SelfCropping'
     role: [ producer ]
   - name: APOTO5
-    role: [ screenwriter, musician ]
+    role: [ screenwriter, musician, programmer ]
    
 tags:
   type:
