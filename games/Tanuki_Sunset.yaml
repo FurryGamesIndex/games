@@ -1,0 +1,54 @@
+name: 'Tanuki Sunset'
+
+description: |
+  ## Overview
+    
+  **Tanuki Sunset** is a third-person longboarding game where players follow Tanuki, a rad raccoon with a longboard and a dream to land on the cover of the #1 magazine in Sunset Island: FISH!  
+    
+  Players must master longboard drifting to make their way from mountains ranges, through the city and down to the beach of Sunset Island. Throughout the journey players will guide Tanuki to perform rad tricks, jump-off ramps, all while avoiding cars and multiple obstacles. Collecting Tanuki Bits along the way is important to redeem for items and gear at Bob's Skate Shop, where players can customize Tanuki's outfit and longboard to better suit their personal style.  
+
+  ## Gameplay & Features
+    
+  The gameplay was designed to feel like something from the the PS2 era by having the player keep a state of flow with a simplified control scheme.  
+    
+  Aside from a single-player story mode the game includes additional game modes such as endless, score and time trials. The soundtrack features nostalgic styles, laid-back rhythms and a retro art-style. Tanuki Sunset aims to bring its players back to a nostalgic space and time, while enjoying a fun, modern and stylized arcade-like experience.  
+    
+description-format: markdown
+
+authors:
+  - name: 'Rewind Games'
+    role: [ producer ]
+
+tags:
+  type:
+    - action
+    - adventure
+    - sports
+  male:
+    - funny-animal
+    - raccoon
+  misc:
+    - 3d
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1251460
+  - name: .website
+    uri: http://www.rewindgames.ca
+  - name: .twitter
+    uri: https://twitter.com/RewindGamesCA
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1251460/ss_adc5e6b762f512c291231ad13fc9fc2f87a617d0.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1251460/ss_92a0e550fb2bb89a53011b73346d01f28e16a335.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1251460/ss_a7ba663330e651f43f909061b87517ca24e0d491.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1251460/ss_930b610812c1567025b64aa3d0857bacc333acf0.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1251460/ss_bd97b41229aeeefd8b21a4dfb4a5fed23391280a.1920x1080.jpg

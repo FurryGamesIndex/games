@@ -26,6 +26,7 @@
 - `role-playing` 角色扮演游戏
 - `dating-sim` 约会模拟游戏
 - `roguelike` Roguelike 游戏
+- `sports` 体育游戏
 - `non-indie` 非独立 游戏
 - `bara` 包含较多男同性恋向内容的作品
 - `yuri` 包含较多女同性恋向内容的作品
