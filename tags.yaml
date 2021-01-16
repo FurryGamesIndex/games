@@ -103,6 +103,12 @@ roguelike:
     en: 'This game is a Roguelike game'
     zh-cn: 'Roguelike 游戏'
 
+sports:
+  namespaces: [ type ]
+  explanation:
+    en: 'This game is a sports game'
+    zh-cn: '体育游戏'
+
 non-indie:
   namespaces: [ type ]
   explanation:

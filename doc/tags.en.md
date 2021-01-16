@@ -26,6 +26,7 @@ Used to describe the type of game
 - `role-playing` This game is a RPG
 - `dating-sim` This game is a dating simulator
 - `roguelike` This game is a Roguelike game
+- `sports` This game is a sports game
 - `non-indie` This game is a non-indie game
 - `bara` Contains a lot of things of gay
 - `yuri` Contains a lot of things of lesbian
