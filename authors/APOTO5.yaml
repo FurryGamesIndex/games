@@ -13,8 +13,8 @@ links:
   - name: .weibo
     uri: https://www.weibo.com/ROMANSCHRISTMAS
   - name: .twitter
-    uri: https://twitter.com/Apoto5
+    uri: twitter:Apoto5
   - name: .pixiv
-    uri: https://www.pixiv.net/users/30135992
+    uri: pixiv:30135992
   - name: 爱发电
     uri: https://www.afdian.net/p/062f6f4468d211e9ab5e52540025c377
