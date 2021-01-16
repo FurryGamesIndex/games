@@ -20,8 +20,8 @@ description: |
 authors:
   - name: 'Studio SelfCropping'
     role: [ producer ]
-  - name: Apoto5
-    role: [ screenwriter ]
+  - name: APOTO5
+    role: [ screenwriter, musician ]
    
 tags:
   type:
@@ -50,6 +50,7 @@ tags:
   platform:
     - windows
     - macos
+    - android
 
 links:
   - name: .steam
@@ -58,6 +59,8 @@ links:
     uri: https://www.weibo.com/ROMANSCHRISTMAS
   - name: .twitter
     uri: twitter:romanchristmas
+  - name: TapTap
+    uri: https://www.taptap.com/app/177572
 
 thumbnail: thumbnail.jpg
 
