@@ -51,7 +51,7 @@ links:
   - name: .weibo
     uri: https://weibo.com/DragonIsland7
   - name: .twitter
-    uri: https://twitter.com/selfcropping
+    uri: twitter:selfcropping
 
 thumbnail: thumbnail.jpg
 
@@ -60,5 +60,3 @@ screenshots:
   - https://i.imgur.com/AcXABHW.png
   - https://i.imgur.com/PpSeJ5R.png
   - https://i.imgur.com/2QKVzZa.png
-  
-  
