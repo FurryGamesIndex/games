@@ -17,9 +17,13 @@ description: |
   The climax of chapter! Completely find out the truth of murder by completing the comic.
   This game may contain scenes with blood.
 
+authors:
+  - name: 'Studio SelfCropping'
+    role: [ producer ]
+  - name: APOTO5
+    role: [ screenwriter, musician, programmer ]
+   
 tags:
-  author:
-    - 'Studio SelfCropping'
   type:
     - puzzle
     - visual-novel
@@ -46,6 +50,7 @@ tags:
   platform:
     - windows
     - macos
+    - android
 
 links:
   - name: .steam
@@ -54,6 +59,8 @@ links:
     uri: https://www.weibo.com/ROMANSCHRISTMAS
   - name: .twitter
     uri: twitter:romanchristmas
+  - name: TapTap
+    uri: https://www.taptap.com/app/177572
 
 thumbnail: thumbnail.jpg
 

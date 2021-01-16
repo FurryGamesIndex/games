@@ -1,0 +1,64 @@
+name: Dragon Island / 灵龙岛
+
+expunge: true
+
+description: |
+  Create unforgettable memories with your favorite male dragon on Dragon Island!
+
+authors:
+  - name: 'Studio SelfCropping'
+    role: [ producer ]
+  - name: APOTO5
+    role: [ screenwriter, musician ]
+  - name: 林彼丢
+    role: [ programmer ]
+  - name: Kulplant
+    role: [ character-designer, artist ]
+  - name: 寒古林川
+    role: [ artist ]
+  - name: 翌月
+    role: [ others ]
+   
+tags:
+  type:
+    - visual-novel
+    - puzzle
+    - dating-sim
+    - bara
+    - yiff
+  male:
+    - dragon
+    - lung
+    - mixed
+    - muscle
+    - shark
+    - bull
+    - sheep
+  misc:
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+  sys:
+    - staging
+    
+links:
+  - name: .weibo
+    uri: https://www.weibo.com/ROMANSCHRISTMAS
+  - name: .weibo
+    uri: https://weibo.com/DragonIsland7
+  - name: .twitter
+    uri: twitter:selfcropping
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/q2pcqr9.png
+  - https://i.imgur.com/AcXABHW.png
+  - https://i.imgur.com/PpSeJ5R.png
+  - https://i.imgur.com/2QKVzZa.png
