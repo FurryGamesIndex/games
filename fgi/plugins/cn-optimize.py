@@ -91,7 +91,8 @@ Recommend build arguments:
             # We must specify git rev in the jsdelivr URI. Because jsdelivr
             # may have cache timeliness issues. If it is cached by the
             # service worker when the jsdelivr is not refreshed, it is a fatal.
-            if path == "/scripts/searchdb.json":
+            if path == "/scripts/searchdb.json" or \
+                    path == "/scripts/searchdb_offline.js":
                 return mod
 
             mod = dict()
@@ -114,11 +115,7 @@ Recommend build arguments:
         for i in hi.sources:
             img = i.srcset
             if not img.is_remote:
-                if kwargs["rr"]:
-                    suffix = remove_image_path_rr_parents(img.uri)
-                    img.uri = f"https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@{self.rev}/{suffix}?uid=v1/{quote(suffix, safe='')}"
-                else:
-                    img.uri = f"{img.uri}?uid=v1/{quote(img.uri, safe='')}"
+                img.uri = f"https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@{self.rev}/{img.uri}?uid=v1/{quote(img.uri, safe='')}"
                 img.is_remote = True
                 modified = True
 
