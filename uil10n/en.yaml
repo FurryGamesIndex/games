@@ -60,7 +60,7 @@ gamewarn_deprecated_shockwave_flash: Flash Player required
 game_author_widget_more_from: 'More games from <b>%s</b>:'
 
 game_edit: Edit this page
-game_contact_us: Contant FurryGamesIndex project by
+game_contact_us: Contact FurryGamesIndex project by
 game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>
 
 warnbox_staging: This is a page under construction, and its content may incompatibly change in the future.
