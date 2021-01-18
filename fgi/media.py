@@ -31,8 +31,7 @@ class MediaFactory:
     def __init__(self, fctx):
         self.fctx = fctx
 
-    def uri_to_html_image(self, _rr, imageuri, gameid, alt = None):
-        rr = _rr if _rr else ""
+    def uri_to_html_image(self, imageuri, gameid, alt = None):
         image = Image(imageuri)
 
         if image.is_remote:
@@ -54,13 +53,13 @@ class MediaFactory:
                         dl(image.uri, os.path.join(self.fctx.args.output, path))
 
                 image.is_remote = False
-                image.uri = rr + "/" + path
+                image.uri = path
         else:
             path = "assets/" + gameid + "/" + image.uri
             image.path = os.path.join(self.fctx.args.output, path)
             if os.path.exists(image.path):
                 image.mtime = os.path.getmtime(image.path)
-            image.uri = rr + "/" + path
+            image.uri = path
 
         path = image.path
 
@@ -96,16 +95,16 @@ class MediaFactory:
             hi.add_source(wpi, "image/webp", False)
 
         self.fctx.pmgr.invoke_plugins("image_post_html_image_done",
-            hi, rr = _rr, origin_uri = imageuri, gameid = gameid, alt = alt)
+            hi, origin_uri = imageuri, gameid = gameid, alt = alt)
         return hi
 
     def _media_image(self, rr, image, gameid, name):
-        hi = self.uri_to_html_image(rr, image["uri"], gameid, alt=name)
+        hi = self.uri_to_html_image(image["uri"], gameid, alt=name).with_rr(rr)
 
         if "sensitive" in image and image["sensitive"] == True:
             data = base64.b64encode(json.dumps({
                 "type": "image",
-                "data": hi.dict()
+                "data": hi.with_rr(rr).dict()
             }, separators=(',', ':')).encode('utf-8')).decode()
             return f'<script type="text/x-FGI-sensitive-media">{data}</script>'
         else:

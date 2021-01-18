@@ -25,7 +25,7 @@
 				{% set author = authors[i.name] %}
 			{% endif %}
 			<div class="author">
-				{% if author %} {{ image.uri_to_html_image(rr, author.avatar, '_avatar', alt=i.name).html(node_class='authoravatar') }}
+				{% if author %} {{ image.uri_to_html_image(author.avatar, '_avatar', alt=i.name).with_rr(rr).html(node_class='authoravatar') }}
 				{% else %} <div class="authoravatar alt"><i class="fas fa-paw"></i></div> {% endif %}
 				<div class="authorinfo">
 				{% if author %} <div class="authorname"><a href="{{ rr }}/{{ lang }}/authors/{{ author.id }}.html">{{ i.name }}</a></div>

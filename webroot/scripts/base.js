@@ -7,11 +7,12 @@ String.prototype.format = function() {
 	});
 };
 
-window.make_picture = (data, prefix, picture) => {
+window.make_picture = (data, _prefix, picture) => {
 	if (picture == null)
 		picture = document.createElement("picture");
 
 	data.source.forEach(i => {
+		const prefix = (i.remote ? "" : _prefix);
 		const source = document.createElement("source");
 		source.setAttribute("type", i.type);
 		source.setAttribute("srcset", prefix + i.srcset);
@@ -19,6 +20,7 @@ window.make_picture = (data, prefix, picture) => {
 	});
 
 	const srcnode = document.createElement("img");
+	const prefix = (data.src_remote ? "" : _prefix);
 	srcnode.src = prefix + data.src;
 	picture.appendChild(srcnode);
 

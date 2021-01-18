@@ -20,6 +20,8 @@
 import re
 import os
 import heapq
+from copy import copy
+
 import PIL.Image
 from html import escape
 
@@ -45,9 +47,15 @@ mimenice = {
 class Image:
     def __init__(self, uri):
         self.uri = uri
-        self.is_remote = regexp.match(uri)
+        self.is_remote = regexp.match(uri) is not None
         self.path = None
         self.mtime = None
+
+    def get_uri(self, rr):
+        if rr is None or self.is_remote:
+            return self.uri
+        else:
+            return rr + "/" + self.uri
 
 class HTMLPictureSource:
     def __init__(self, srcset, mime):
@@ -65,15 +73,21 @@ class HTMLImage:
         self.width = 0
         self.height = 0
         self.query = dict()
+        self.rr = None
         pass
 
     @property
     def src(self):
-        return self._src.srcset.uri
+        return self._src.srcset.get_uri(self.rr)
 
     @src.setter
     def src(self, value):
         self._src = value
+
+    def with_rr(self, rr):
+        tmp = copy(self)
+        tmp.rr = rr
+        return tmp
 
     def add_source(self, source, mime, as_src = False):
         if mime is None:
@@ -112,7 +126,7 @@ class HTMLImage:
         if len(self.sources) > 1 and use_picture:
             code = "<picture>"
             for i in self.sources:
-                code += f"<source srcset='{append_query(i.srcset.uri, self.query)}' type='{i.type}'>"
+                code += f"<source srcset='{append_query(i.srcset.get_uri(self.rr), self.query)}' type='{i.type}'>"
             code += f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(self.alt)}'></picture>"
         else:
             code = f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(self.alt)}'>"
@@ -132,12 +146,14 @@ class HTMLImage:
 
         tmp = dict()
         tmp["src"] = append_query(self.src, self.query)
+        tmp["src_remote"] = self._src.srcset.is_remote
         tmp["source"] = list()
 
         for i in self.sources:
             source = dict()
-            source["srcset"] = append_query(i.srcset.uri, self.query)
+            source["srcset"] = append_query(i.srcset.get_uri(self.rr), self.query)
             source["type"] = i.type
+            source["remote"] = i.srcset.is_remote
             tmp["source"].append(source)
 
         return tmp

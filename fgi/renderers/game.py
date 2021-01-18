@@ -111,7 +111,7 @@ class RendererGame(Renderer):
         meta["title"] = get(game, self.language, 'name')
         desc = get(game, self.language, 'description')[:200].replace('\n', '') + "..."
         meta["description"] = re.sub(r'<[^<]*>', '', desc)
-        meta["image"] = self.fctx.mfac.uri_to_html_image(context["rr"], game["thumbnail"], gid).src
+        meta["image"] = self.fctx.mfac.uri_to_html_image(game["thumbnail"], gid).with_rr(context["rr"]).src
         meta["extra_keywords"] = keywords.game_page_extra_keywords(game, context["ui"])
         context["meta"] = meta
 

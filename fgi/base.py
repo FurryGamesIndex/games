@@ -33,7 +33,7 @@ def parse_description(game, fmt, game_id, mfac):
         game["@desc_html"] = escape(desc).replace("\n", "<br>")
     elif fmt == "markdown":
         markdowner = Markdown(extras=["strike", "target-blank-links"],
-                inline_image_uri_filter = lambda uri: mfac.uri_to_html_image("../..", uri, game_id).src)
+                inline_image_uri_filter = lambda uri: mfac.uri_to_html_image(uri, game_id).with_rr("../..").src)
         game["@desc_html"] = markdowner.convert(desc)
         game["description"] = BeautifulSoup(game["@desc_html"], features="html.parser").get_text()
     else:
