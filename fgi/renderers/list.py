@@ -47,7 +47,6 @@ class RendererList(Renderer):
             "active_list": "actived",
             "get": get,
             "ts_to_rfc5322": ts_to_rfc5322,
-            "mfac": self.fctx.mfac,
         }
 
         self.games = self.lctx["games"]

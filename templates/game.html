@@ -60,8 +60,8 @@
 				{{ ui.game_sensitive_warning % (rr, lang) }}
 			</div>
 		{% endif %}
-		{% for i in game.screenshots %}
-		{{ image.dom(rr, i, name, name = get(game, lang, 'name')) }}
+		{% for i in game.media %}
+		{{ i.dom(rr, alt=get(game, lang, 'name')) }}
 		{% endfor %}
 		</div>
 		<div class="onmobile">{% include 'game_author_widget.html' %}</div>

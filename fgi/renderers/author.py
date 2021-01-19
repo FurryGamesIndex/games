@@ -31,7 +31,6 @@ class RendererAuthor(Renderer):
 
         self.basectx = {
             "rr": "../..",
-            "image": self.fctx.mfac,
             "get": get,
             "link_info": make_wrapper(link_info, self.fctx),
             "mfac": self.fctx.mfac,

@@ -52,7 +52,6 @@ class RendererGame(Renderer):
 
         self.basectx = {
             "rr": "../..",
-            "image": self.fctx.mfac,
             "get": get,
             "link_info": make_wrapper(link_info, self.fctx),
             "checktag": checktag,

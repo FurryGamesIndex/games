@@ -27,6 +27,28 @@ from fgi.image import HTMLImage, Image
 from fgi.utils.webutils import dl
 from fgi.utils import webp
 
+class HTMLMiscellaneousMedia:
+    def __init__(self, outerHTML):
+        self.outerHTML = outerHTML
+
+    def dom(self, rr, **kwargs):
+        return self.outerHTML
+
+class HTMLImageMedia:
+    def __init__(self, hi, sensitive):
+        self.hi = hi
+        self.sensitive = sensitive
+
+    def dom(self, rr, alt=None, **kwargs):
+        if self.sensitive:
+            data = base64.b64encode(json.dumps({
+                "type": "image",
+                "data": self.hi.with_rr(rr).dict()
+            }, separators=(',', ':')).encode('utf-8')).decode()
+            return f'<script type="text/x-FGI-sensitive-media">{data}</script>'
+        else:
+            return self.hi.with_rr(rr).html(alt=alt)
+
 class MediaFactory:
     def __init__(self, fctx):
         self.fctx = fctx
@@ -97,38 +119,36 @@ class MediaFactory:
             hi, origin_uri = imageuri, gameid = gameid)
         return hi
 
-    def _media_image(self, rr, image, gameid, name):
-        hi = self.uri_to_html_image(image["uri"], gameid).with_rr(rr)
 
-        if "sensitive" in image and image["sensitive"] == True:
-            data = base64.b64encode(json.dumps({
-                "type": "image",
-                "data": hi.with_rr(rr).dict()
-            }, separators=(',', ':')).encode('utf-8')).decode()
-            return f'<script type="text/x-FGI-sensitive-media">{data}</script>'
+    def _create_image_media(self, uri, gameid, sensitive = False):
+        hi = self.uri_to_html_image(uri, gameid)
+        return HTMLImageMedia(hi, sensitive)
+
+    def create_media(self, media, gameid):
+        mtype = "image"
+        if type(media) is str:
+            return self._create_image_media(media, gameid)
+        elif "type" in media:
+            mtype = media["type"]
+
+        if mtype == "image":
+            if "sensitive" not in media:
+                return self._create_image_media(media["uri"], gameid)
+            else:
+                return self._create_image_media(media["uri"], gameid, sensitive=media["sensitive"])
+
+        elif mtype == "youtube":
+            if "id" in media:
+                videoid = media["id"]
+            else:
+                videoid = media["uri"].split(":")[1]
+            return HTMLMiscellaneousMedia(f'<iframe width="100%%" height="342" src="https://www.youtube.com/embed/{videoid}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
+
+        elif mtype == "video":
+            elm = '<video controls width="100%">'
+            for i in media["src"]:
+                elm += '<source src="%s" type="%s">' % (i["uri"], i["mime"])
+            return HTMLMiscellaneousMedia(elm + "</video>")
+
         else:
-            return hi.html(alt=name)
-
-    def _media_youtube(self, rr, image, gameid, name):
-        return '<iframe width="100%%" height="342" src="https://www.youtube.com/embed/%s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' % image["uri"].split(":")[1]
-
-    def _media_video(self, rr, image, gameid, name):
-        elm = '<video controls width="100%">'
-        for i in image["src"]:
-            elm += '<source src="%s" type="%s">' % (i["uri"], i["mime"])
-        return elm + "</video>"
-
-    def dom(self, rr, image, gameid, name = ""):
-        mode = self._media_image
-        image_meta = image
-
-        if type(image) is str:
-            image_meta = dict()
-            image_meta["uri"] = image
-        elif "type" in image:
-            if image["type"] == "youtube":
-                mode = self._media_youtube
-            if image["type"] == "video":
-                mode = self._media_video
-
-        return mode(rr, image_meta, gameid, name)
+            raise ValueError(f"Unknown media type '{mtype}'")

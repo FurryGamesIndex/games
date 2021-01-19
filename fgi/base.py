@@ -71,6 +71,10 @@ def cook_game(game, tagmgr, mfac):
     if "thumbnail" in game:
         game["hi_thumbnail"] = mfac.uri_to_html_image(game["thumbnail"], game["id"])
 
+    game["media"] = list()
+    for i in game["screenshots"]:
+        game["media"].append(mfac.create_media(i, game["id"]))
+
 def load_game(dbdir, f, languages):
     game = None
     fn = os.path.join(dbdir, f)
