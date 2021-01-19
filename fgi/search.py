@@ -49,7 +49,7 @@ class SearchDatabase:
             data["tr"] = {}
             data["name"] = game["name"]
             data["description"] = game["description"]
-            data["thumbnail"] = self.fctx.mfac.uri_to_html_image(game["thumbnail"], game["id"]).dict()
+            data["thumbnail"] = game["hi_thumbnail"].dict()
             data["mtime"] = game["mtime"]
 
             for lang in game["tr"]:

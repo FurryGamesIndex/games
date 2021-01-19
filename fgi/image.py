@@ -69,7 +69,6 @@ class HTMLImage:
     def __init__(self):
         self.sources = []
         self._src = None
-        self.alt = None
         self.width = 0
         self.height = 0
         self.query = dict()
@@ -107,15 +106,15 @@ class HTMLImage:
         self.width = width
         self.height = height
 
-    def html(self, node_class=None, use_picture=True):
+    def html(self, node_class=None, use_picture=True, alt=None):
         code = None
         node = ""
 
         if self.src is None:
             raise ValueError("Fallback image src required")
 
-        if self.alt is None:
-            self.alt = ""
+        if alt is None:
+            alt = ""
 
         if node_class is not None:
             node += f"class='{node_class}' "
@@ -127,9 +126,9 @@ class HTMLImage:
             code = "<picture>"
             for i in self.sources:
                 code += f"<source srcset='{append_query(i.srcset.get_uri(self.rr), self.query)}' type='{i.type}'>"
-            code += f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(self.alt)}'></picture>"
+            code += f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(alt)}'></picture>"
         else:
-            code = f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(self.alt)}'>"
+            code = f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(alt)}'>"
 
         return code
 

@@ -68,6 +68,8 @@ def cook_game(game, tagmgr, mfac):
     for ln, game_l10n in game["tr"].items():
         parse_description(game_l10n, game["description-format"], game["id"], mfac)
 
+    if "thumbnail" in game:
+        game["hi_thumbnail"] = mfac.uri_to_html_image(game["thumbnail"], game["id"])
 
 def load_game(dbdir, f, languages):
     game = None
@@ -129,7 +131,7 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
 
     return games
 
-def load_author(dbdir, f):
+def load_author(dbdir, f, mfac):
     fn = os.path.join(dbdir, f)
 
     if (not os.path.isfile(fn)) or (f[0] == '.'):
@@ -143,13 +145,16 @@ def load_author(dbdir, f):
         author["id"] = author_id
         author["games"] = list()
 
+    if "avatar" in author:
+        author["hi_avatar"] = mfac.uri_to_html_image(author["avatar"], "_avatar")
+
     return author
 
-def load_author_all(dbdir):
+def load_author_all(dbdir, mfac):
     authors = dict()
 
     for f in os.listdir(dbdir):
-        author = load_author(dbdir, f)
+        author = load_author(dbdir, f, mfac)
 
         if author is None:
             continue

@@ -13,7 +13,7 @@
 <item>
 <title>{{ game_name|e }}</title>
 <description><![CDATA[
-	{{ mfac.uri_to_html_image(game.thumbnail, name, game_name).with_rr(rr).html(use_picture=False) }}<br><br>
+	{{ game.hi_thumbnail.with_rr(rr).html(use_picture=False) }}<br><br>
 	{{ get(game, lang, 'description')|e|replace('\n', '<br>') }}<br><br>
 	<a href="{{ www_link }}">{{ www_link }}</a>
 ]]></description>

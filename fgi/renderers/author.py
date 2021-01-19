@@ -57,7 +57,7 @@ class RendererAuthor(Renderer):
 
         meta = dict()
         meta["title"] = author["name"]
-        meta["image"] = self.fctx.mfac.uri_to_html_image(author["avatar"], "_avatar").with_rr(context["rr"]).src
+        meta["image"] = author["hi_avatar"].with_rr(context["rr"]).src
         context["meta"] = meta
 
         return self.env.get_template("author.html").render(context)

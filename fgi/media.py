@@ -31,7 +31,7 @@ class MediaFactory:
     def __init__(self, fctx):
         self.fctx = fctx
 
-    def uri_to_html_image(self, imageuri, gameid, alt = None):
+    def uri_to_html_image(self, imageuri, gameid):
         image = Image(imageuri)
 
         if image.is_remote:
@@ -79,7 +79,6 @@ class MediaFactory:
                 os.remove(path)
 
         hi = HTMLImage.from_image(image)
-        hi.alt = alt
 
         if self.fctx.args.images_candidate_webp \
                 and not image.is_remote \
@@ -95,11 +94,11 @@ class MediaFactory:
             hi.add_source(wpi, "image/webp", False)
 
         self.fctx.pmgr.invoke_plugins("image_post_html_image_done",
-            hi, origin_uri = imageuri, gameid = gameid, alt = alt)
+            hi, origin_uri = imageuri, gameid = gameid)
         return hi
 
     def _media_image(self, rr, image, gameid, name):
-        hi = self.uri_to_html_image(image["uri"], gameid, alt=name).with_rr(rr)
+        hi = self.uri_to_html_image(image["uri"], gameid).with_rr(rr)
 
         if "sensitive" in image and image["sensitive"] == True:
             data = base64.b64encode(json.dumps({
@@ -108,7 +107,7 @@ class MediaFactory:
             }, separators=(',', ':')).encode('utf-8')).decode()
             return f'<script type="text/x-FGI-sensitive-media">{data}</script>'
         else:
-            return hi.html()
+            return hi.html(alt=name)
 
     def _media_youtube(self, rr, image, gameid, name):
         return '<iframe width="100%%" height="342" src="https://www.youtube.com/embed/%s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' % image["uri"].split(":")[1]
