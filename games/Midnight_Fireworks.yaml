@@ -9,9 +9,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: fek
+    role: [ producer, artist, programmer ]
+
 tags:
-  author:
-    - fek
   type:
     - bara
     - yuri
@@ -57,8 +59,6 @@ links:
     uri: twitter:fekfekfekfek
 
 thumbnail: thumbnail.jpg
-
-sensitive_media: true
 
 screenshots:
   - https://images2.imgbox.com/9e/12/u5i3xd45_o.png

@@ -66,9 +66,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: fek
+    role: [ producer, artist, programmer ]
+
 tags:
-  author:
-    - fek
   type:
     - business-sim
     - bara
@@ -156,8 +158,6 @@ links:
     uri: twitter:fekfekfekfek
 
 thumbnail: thumbnail.jpg
-
-sensitive_media: true
 
 screenshots:
   - https://i.imgur.com/qm5bcXL.jpg

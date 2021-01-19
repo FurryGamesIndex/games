@@ -22,11 +22,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: fek
+    role: [ producer, programmer ]
+  - name: Jasonafex
+    role: [ voice-actor ]
+  - name: KabsCorner
+    role: [ artist ]
+
 tags:
-  author:
-    - fek
-    - Jasonafex
-    - KabsCorner
   type:
     - bara
     - yiff
@@ -70,8 +74,6 @@ links:
     uri: twitter:fekfekfekfek
 
 thumbnail: thumbnail.jpg
-
-sensitive_media: true
 
 screenshots:
   - https://images2.imgbox.com/ce/61/CF22SOuk_o.png

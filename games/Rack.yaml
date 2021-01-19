@@ -9,9 +9,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: fek
+    role: [ producer, artist, programmer ]
+
 tags:
-  author:
-    - fek
   type:
     - business-sim
     - bara
