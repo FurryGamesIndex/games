@@ -185,6 +185,10 @@ The path or URI of the thumbnail image of the game.
 
 `true` if at last one of the screenshots is sensitive.
 
+WARNNING: This is a **deprecated** property.
+FGI will ignore this property and decide whether to add a sensitive media notification bar based on other information.
+It should not be used in newly edited game entries.
+
 
 `sensitive_media`
 

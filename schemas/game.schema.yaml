@@ -112,6 +112,10 @@ properties:
     type: boolean
     description: |
       `true` if at last one of the screenshots is sensitive.
+
+      WARNNING: This is a **deprecated** property.
+      FGI will ignore this property and decide whether to add a sensitive media notification bar based on other information.
+      It should not be used in newly edited game entries.
   screenshots:
     type: array
     description: |
@@ -123,6 +127,11 @@ properties:
           description:
             An image. Sensitive or non-sensitive.
           properties:
+            type:
+              type: string
+              const: image
+              description: |
+                Must be `image`. But you can make a object without `type` property, the object will have default type property `image`.
             sensitive:
               type: boolean
               description: |
@@ -146,11 +155,19 @@ properties:
               const: youtube
               description: |
                 Must be `youtube`
+            id:
+              type: string
+              description: |
+                Video ID of the youtube video, Required when you do not specify `uri`.
             uri:
               type: string
               description: |
-                Must be `youtube:ID`. ID is the video's ID.
-          required: [ type, uri ]
+                Must be `youtube:ID`. ID is the video's ID. Required when you do not specify `id`.
+
+                WARNNING: This is a **deprecated** property.
+                But FGI also supports it due to backward compatible.
+                It should not be used in newly edited game entries.
+          required: [ type ]
         - type: object
           title: ScreenshotHTMLEmbeddedVideo
           description: |

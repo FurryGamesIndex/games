@@ -9,7 +9,7 @@
 | Value                  | Explanation |
 | :--------------------- | ----------- |
 | `"producer"`           |             |
-| `"script-writer"`      |             |
+| `"screenwriter"`       |             |
 | `"programmer"`         |             |
 | `"artist"`             |             |
 | `"musician"`           |             |
