@@ -13,6 +13,7 @@
 | `"programmer"`         |             |
 | `"artist"`             |             |
 | `"musician"`           |             |
+| `"voice-actor"`        |             |
 | `"character-designer"` |             |
 | `"scenographer"`       |             |
 | `"translator"`         |             |
