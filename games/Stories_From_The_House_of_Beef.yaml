@@ -1,7 +1,14 @@
 name: Stories From The House of Beef
 
 description: |
+  Julian is living single in the big city.  He's been making a living as a novice photographer since the end of his college days, but he's ready for a change.  Can he find the change he needs at "The House of Beef"?
+
+  Take on the role of this shy introvert as his small world begins to unravel with each new day.  Can any of the various beefcakes help  Julian to come out of his shell, and see the big sexy picture?  You are armed with your trusty camera, and there are many experiences waiting for you at the House of Beef!
+
+  ---
+
   (From author's patreon)
+
   Maybe you already know OVERTIME, my first comic project published some years ago.
   Working in something like that was an extremely challenging and fun experience that I was only able to repeat once with my other comic STRIP BRAWLERS but time and work schedules made it impossible for me to continue doing this kind of things until now.
 
@@ -13,13 +20,20 @@ description: |
 
   And I also have to thank DyneWulf, creator of Extracurricular Activities for his help as well. And in case you haven't seen the great works they're doing here are their links so you visit their sites.
 
-  Wolfstar Patreon: https://www.patreon.com/Wolfstar
-  Dynewulf's Patreon: https://www.patreon.com/dk999
+  Wolfstar Patreon: <https://www.patreon.com/Wolfstar>  
+  Dynewulf's Patreon: <https://www.patreon.com/dk999>  
+
+description-format: markdown
+
+authors:
+  - name: Braford
+    role: [ producer, screenwriter, artist ]
+  - name: Wolfstar
+    role: [ programmer ]
+  - name: Dynewulf
+    role: [ others ]
 
 tags:
-  author:
-    - Braford
-    - Wolfstar
   type:
     - visual-novel
     - adventure
@@ -47,8 +61,10 @@ tags:
     - linux
 
 links:
+  - name: .itch.io
+    uri: https://hyperwolfstar.itch.io/brafords-house-of-beef
   - name: .patreon
-    uri: https://www.patreon.com/Braford
+    uri: patreon:Braford
 
 thumbnail: thumbnail.jpg
 
