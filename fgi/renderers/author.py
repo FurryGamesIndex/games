@@ -33,7 +33,6 @@ class RendererAuthor(Renderer):
             "rr": "../..",
             "get": get,
             "link_info": make_wrapper(link_info, self.fctx),
-            "mfac": self.fctx.mfac,
         }
 
         self.authors = self.lctx["authors"]

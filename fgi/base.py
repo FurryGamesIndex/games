@@ -40,6 +40,8 @@ def parse_description(game, fmt, game_id, mfac):
         raise ValueError(f"description format invaild: {fmt}")
 
 def cook_game(game, tagmgr, mfac):
+    gameid = game["id"]
+
     if "authors" in game:
         # If Using new generation format authors property,
         # the #/tags/author will be overrided unconditionally
@@ -63,17 +65,25 @@ def cook_game(game, tagmgr, mfac):
     if "description-format" not in game:
         game["description-format"] = "plain"
 
-    parse_description(game, game["description-format"], game["id"], mfac)
+    parse_description(game, game["description-format"], gameid, mfac)
 
     for ln, game_l10n in game["tr"].items():
-        parse_description(game_l10n, game["description-format"], game["id"], mfac)
+        parse_description(game_l10n, game["description-format"], gameid, mfac)
 
     if "thumbnail" in game:
-        game["hi_thumbnail"] = mfac.uri_to_html_image(game["thumbnail"], game["id"])
+        game["hi_thumbnail"] = mfac.uri_to_html_image(game["thumbnail"], gameid)
+
+    if "sensitive_media" in game:
+        print(f"[warning] game '{gameid}' is using deprecated property 'sensitive_media'. This property will be ignored.")
+        game["sensitive_media"] = False
 
     game["media"] = list()
     for i in game["screenshots"]:
-        game["media"].append(mfac.create_media(i, game["id"]))
+        game["media"].append(mfac.create_media(i, gameid))
+        if type(i) is not str and \
+                "sensitive" in i and \
+                i["sensitive"] == True:
+            game["sensitive_media"] = True
 
 def load_game(dbdir, f, languages):
     game = None
