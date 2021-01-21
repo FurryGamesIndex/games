@@ -160,6 +160,10 @@ properties:
               type: string
               description: |
                 Video ID of the youtube video, Required when you do not specify `uri`.
+            sensitive:
+              type: boolean
+              description: |
+                `true` if the media is sensitive
             uri:
               type: string
               description: |
@@ -179,6 +183,10 @@ properties:
               const: video
               description: |
                 Must be `video`
+            sensitive:
+              type: boolean
+              description: |
+                `true` if the media is sensitive
             src:
               type: array
               items:

@@ -28,11 +28,16 @@ from fgi.utils.webutils import dl
 from fgi.utils import webp
 
 class HTMLMiscellaneousMedia:
-    def __init__(self, outerHTML):
+    def __init__(self, outerHTML, sensitive):
         self.outerHTML = outerHTML
+        self.sensitive = sensitive
 
     def dom(self, rr, **kwargs):
-        return self.outerHTML
+        if self.sensitive:
+            data = base64.b64encode(self.outerHTML.encode('utf-8')).decode()
+            return f'<script type="text/x-FGI-sensitive-media-misc">{data}</script>'
+        else:
+            return self.outerHTML
 
 class HTMLImageMedia:
     def __init__(self, hi, sensitive):
@@ -126,29 +131,32 @@ class MediaFactory:
 
     def create_media(self, media, gameid):
         mtype = "image"
+        sensitive = False
+
         if type(media) is str:
             return self._create_image_media(media, gameid)
-        elif "type" in media:
-            mtype = media["type"]
+        else:
+            if "type" in media:
+                mtype = media["type"]
+
+            if "sensitive" in media:
+                sensitive = media["sensitive"]
 
         if mtype == "image":
-            if "sensitive" not in media:
-                return self._create_image_media(media["uri"], gameid)
-            else:
-                return self._create_image_media(media["uri"], gameid, sensitive=media["sensitive"])
+            return self._create_image_media(media["uri"], gameid, sensitive=sensitive)
 
         elif mtype == "youtube":
             if "id" in media:
                 videoid = media["id"]
             else:
                 videoid = media["uri"].split(":")[1]
-            return HTMLMiscellaneousMedia(f'<iframe width="100%%" height="342" src="https://www.youtube.com/embed/{videoid}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>')
+            return HTMLMiscellaneousMedia(f'<iframe width="100%%" height="342" src="https://www.youtube.com/embed/{videoid}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', sensitive)
 
         elif mtype == "video":
             elm = '<video controls width="100%">'
             for i in media["src"]:
                 elm += '<source src="%s" type="%s">' % (i["uri"], i["mime"])
-            return HTMLMiscellaneousMedia(elm + "</video>")
+            return HTMLMiscellaneousMedia(elm + "</video>", sensitive)
 
         else:
             raise ValueError(f"Unknown media type '{mtype}'")

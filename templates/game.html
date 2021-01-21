@@ -84,6 +84,9 @@ if (localStorage.getItem("show_sensitive") == "true") {
 			i.parentNode.insertBefore(picture, i);
 		}
 	});
+	$$('script[type="text/x-FGI-sensitive-media-misc"]').forEach(i => {
+		i.outerHTML = atob(i.textContent);
+	});
 	const warn = $("#sensitive_media_warn");
 	if (warn != null)
 		warn.classList.add("hide");
