@@ -21,7 +21,8 @@ from fgi.plugin import Plugin
 
 _cdn_list = {
     "china": "https://media.st.dl.pinyuncloud.com/",
-    "akamai": "https://steamcdn-a.akamaihd.net/",
+    "akamai-old": "https://steamcdn-a.akamaihd.net/",
+    "akamai": "https://cdn.akamai.steamstatic.com/",
     "cf": "https://cdn.cloudflare.steamstatic.com/",
 }
 
