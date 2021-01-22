@@ -94,7 +94,7 @@ class HTMLImage:
             if sfx in mimemap:
                 mime = mimemap[sfx]
             else:
-                raise ValueError(f"Can not recognize MIME for {source}")
+                raise ValueError(f"Can not recognize MIME for {source.uri}")
 
         picture_source = HTMLPictureSource(source, mime)
         if as_src:
