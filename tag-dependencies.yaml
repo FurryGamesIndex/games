@@ -1,4 +1,11 @@
-_metazoa: &metazoa
+# WARNING
+# THIS FILE IS DEPRECATED!
+# PLEASE DO NOT USE THIS FILE TO CREATE NEW TAG DEPENDENCIES
+# USE implication KEYWORD IN tags.yaml FILE PLEASE.
+#
+# THIS FILE IS ALSO PARSED BY FGI NOW, BUT MAY BE REMOVED IN FUTURE.
+
+_mf: &mf
   cat: [ 'feline' ]
   tiger: [ 'feline' ]
   lion: [ 'feline' ]
@@ -20,10 +27,14 @@ _metazoa: &metazoa
   crocodile: [ 'reptilia' ]
   snake: [ 'reptilia' ]
 
+  transfur: [ 'transform' ]
+
+  mawplay: [ 'micro-macro' ]
+
 male:
-  <<: *metazoa
+  <<: *mf
 female:
-  <<: *metazoa
+  <<: *mf
 
 misc:
   co-op: [ 'multiplayer' ]

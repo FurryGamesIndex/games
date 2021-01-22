@@ -33,6 +33,7 @@ Used to describe the type of game
 - `yiff` Contains adult contents. Pages that contain this tag will display a sensitive content warning message.
 - `gore` Contains grotesque contents. Pages that contain this tag will display a sensitive content warning message.
 - `comedy` STUB
+- `tragedy` STUB
 - `horror` STUB
 
 ## Namespace male/female
@@ -117,10 +118,11 @@ The following are automatic tags, they are no different from other tags when you
 - `shota` Main characters include childlike males (only in namespace male)
 - `loli` Main characters include childlike females (only in namespace female)
 - `muscle` Main characters include muscle characters
+- `transform` Main characters may transform (Tag aliases: `transformation`)
 - `transfur` Main characters may transfur
 - `anal` Main characters may do a anal sex
 - `group` More than two main characters may engage in sex simultaneously.
-- `blowjob` Main characters may do a blowjob
+- `blowjob` Main characters may do a blowjob (Tag aliases: `face-fucking`)
 - `frottage` Main characters' penises against one another
 - `cockslapping` Self-pleasuring.
 - `masturbation` Self-pleasuring.
@@ -134,7 +136,7 @@ The following are automatic tags, they are no different from other tags when you
 - `netorare`  (Tag aliases: `ntr`)
 - `rape` STUB
 - `mind-break` 
-- `mind-control` 
+- `mind-control`  (Tag aliases: `hypnosis`)
 - `corruption` 
 - `parasite` 
 - `drugs` 
@@ -151,9 +153,19 @@ The following are automatic tags, they are no different from other tags when you
 - `stomach-deformation` 
 - `brain-fuck` 
 - `vore` Main characters may swallow or be swallowed whole via the mouth.
+- `slit-vore` Main characters may swallow or be swallowed whole via the genital slit.
+- `cock-vore` Main characters may swallow or be swallowed whole via the penis.
 - `fisting` 
-- `bondage` 
+- `bondage` Bondage (BDSM), see <https://en.wikipedia.org/wiki/Bondage_(BDSM)>
+- `master-slave` Master/slave (BDSM), see <https://en.wikipedia.org/wiki/Master/slave_(BDSM)>
 - `public-use` 
+- `micro-macro` STUB (Tag aliases: `macro-micro`)
+- `mawplay` STUB
+- `cock-worship` STUB
+- `chastity-cage` STUB
+- `belly-riding` STUB
+- `living-condom` STUB
+- `living-toy` STUB
 
 ## Namespace misc
 

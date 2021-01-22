@@ -531,6 +531,12 @@ muscle:
     en: 'Main characters include muscle characters'
     zh-cn: '主要角色中包括肌肉丰满的角色'
 
+transform:
+  namespaces: [ male, female ]
+  alias: [ transformation ]
+  explanation:
+    en: 'Main characters may transform'
+
 transfur:
   namespaces: [ male, female ]
   explanation:
@@ -551,6 +557,7 @@ group:
 
 blowjob:
   namespaces: [ male, female ]
+  alias: [ face-fucking ]
   explanation:
     en: 'Main characters may do a blowjob'
     zh-cn: '主要角色之间包括口交性行为'
@@ -637,6 +644,7 @@ mind-break:
 
 mind-control:
   namespaces: [ male, female ]
+  alias: [ hypnosis ]
   explanation:
     en: ''
     zh-cn: '强迫参与者（违背自己的意愿）自己做某事（催眠）'
@@ -737,6 +745,16 @@ vore:
     en: 'Main characters may swallow or be swallowed whole via the mouth.'
     zh-cn: '主要角色可能（从嘴）吞入某个角色或被某个角色吞人'
 
+slit-vore:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters may swallow or be swallowed whole via the genital slit.'
+
+cock-vore:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters may swallow or be swallowed whole via the penis.'
+
 fisting:
   namespaces: [ male, female ]
   explanation:
@@ -746,14 +764,61 @@ fisting:
 bondage:
   namespaces: [ male, female ]
   explanation:
-    en: ''
-    zh-cn: '主要角色可能出现绑缚（BDSM）'
+    en: 'Bondage (BDSM), see <https://en.wikipedia.org/wiki/Bondage_(BDSM)>'
+    zh-cn: '主要角色可能出现绑缚（BDSM），请查看：<https://en.wikipedia.org/wiki/Bondage_(BDSM)>'
+
+master-slave:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Master/slave (BDSM), see <https://en.wikipedia.org/wiki/Master/slave_(BDSM)>'
+    zh-cn: '主要角色之间可能出现主人与奴隶 (BDSM), 请查看：<https://en.wikipedia.org/wiki/Master/slave_(BDSM)>'
 
 public-use:
   namespaces: [ male, female ]
   explanation:
     en: ''
     zh-cn: '主要角色可能成为肉便器'
+
+micro-macro:
+  namespaces: [ male, female ]
+  alias: [ macro-micro ]
+  explanation:
+    en: 'STUB'
+
+mawplay:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+cock-worship:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+chastity-cage:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+belly-riding:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+belly-riding:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+living-condom:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+living-toy:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
 
 
 ###################################################

@@ -33,6 +33,7 @@
 - `yiff` 包含成人（R-18）內容的作品。包含此標籤的頁面將顯示敏感內容警告資訊。
 - `gore` 包含怪誕內容的作品。包含此標籤的頁面將顯示敏感內容警告資訊。
 - `comedy` STUB
+- `tragedy` STUB
 - `horror` STUB
 
 ## male/female 名稱空間
@@ -117,10 +118,11 @@
 - `shota` 主要角色包括像孩子一樣的男性（只出現於 male 名稱空間）
 - `loli` 主要角色包括像孩子一樣的女性（只出現於 female 名稱空間）
 - `muscle` 主要角色中包括肌肉豐滿的角色
+- `transform` Main characters may transform (標籤別名：`transformation`)
 - `transfur` 主要角色中可能出現獸化現象
 - `anal` 主要角色之間包括肛交性行為
 - `group` 主要角色之間包括群 P 行為
-- `blowjob` 主要角色之間包括口交性行為
+- `blowjob` 主要角色之間包括口交性行為 (標籤別名：`face-fucking`)
 - `frottage` 主要角色之間包括陰莖摩擦行為
 - `cockslapping` 主要角色之間包括用陰莖打人
 - `masturbation` 主要角色中出現手淫行為
@@ -134,7 +136,7 @@
 - `netorare` 另一個角色的配偶/伴侶與某角色發生關係。 (標籤別名：`ntr`)
 - `rape` STUB
 - `mind-break` 透過長時間或嚴格的性刺激來訓練/使某人在心理上成為性奴隸（洗腦）
-- `mind-control` 強迫參與者（違背自己的意願）自己做某事（催眠）
+- `mind-control` 強迫參與者（違背自己的意願）自己做某事（催眠） (標籤別名：`hypnosis`)
 - `corruption` 主要角色中用魔法或其他超自然力量強硬地腐化某人的頭腦，搶奪他們的純潔
 - `parasite` 主要角色中出現了寄生或被寄生
 - `drugs` 主要角色之間使用鼓動濫交或快感的藥物
@@ -151,9 +153,19 @@
 - `stomach-deformation` 主要角色中出現了固體從腹內向外推壓，並出現一個可見突起
 - `brain-fuck` 主要角色之間包括涉及大腦的性行為
 - `vore` 主要角色可能（從嘴）吞入某個角色或被某個角色吞人
+- `slit-vore` Main characters may swallow or be swallowed whole via the genital slit.
+- `cock-vore` Main characters may swallow or be swallowed whole via the penis.
 - `fisting` 主要角色可能出現拳交
-- `bondage` 主要角色可能出現綁縛（BDSM）
+- `bondage` 主要角色可能出現綁縛（BDSM），請檢視：<https://en.wikipedia.org/wiki/Bondage_(BDSM)>
+- `master-slave` 主要角色之間可能出現主人與奴隸 (BDSM), 請檢視：<https://en.wikipedia.org/wiki/Master/slave_(BDSM)>
 - `public-use` 主要角色可能成為肉便器
+- `micro-macro` STUB (標籤別名：`macro-micro`)
+- `mawplay` STUB
+- `cock-worship` STUB
+- `chastity-cage` STUB
+- `belly-riding` STUB
+- `living-condom` STUB
+- `living-toy` STUB
 
 ## misc 名稱空間
 
