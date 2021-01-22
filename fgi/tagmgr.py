@@ -104,9 +104,8 @@ class TagManager:
 
                 def sort_tag(i):
                     if i not in self.tags[ns]:
-                        print("""Error: The tag '%s:%s' is not standardized.
-Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.""" % (ns, i))
-                        sys.exit(1)
+                        raise ValueError(f"The tag '{ns}:{i}' is not standardized. "
+                                "Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.")
                     return self.tags[ns][i]
 
                 v = sorted(v, key=sort_tag)
