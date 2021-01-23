@@ -22,7 +22,7 @@ import unittest
 import yaml
 from copy import deepcopy
 
-from fgi import tagmgr
+from fgi.tagmgr import TagManager
 
 class test_tagmgr(unittest.TestCase):
 
@@ -58,8 +58,12 @@ class test_tagmgr(unittest.TestCase):
         }
     }
 
-    def test_loaddep_closure(self):
+    def test_closure(self):
+        tagmgr = TagManager()
+
         tagmgr.loaddep(test_tagmgr.tagdep)
+        tagmgr.closure_all_tagdep()
+
         self.assertDictEqual(test_tagmgr.result, tagmgr.tagdep)
 
 if __name__ == '__main__':

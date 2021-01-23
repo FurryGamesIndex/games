@@ -43,9 +43,20 @@ class TagManager:
 
         return r
 
+    # FIXME; loaddep and tag-dependencies are deprecated.
     def loaddep(self, data):
-        self.tagdep = { k: { kk: set(vv) for kk, vv in v.items() } for k, v in data.items() if k[0] != '_' }
+        for ns, v in data.items():
+            if ns[0] == '_':
+                continue
+            for tag, implications in v.items():
+                self.set_tag_implication(tag, ns, implications)
 
+    def set_tag_implication(self, tag, ns, implications):
+        if ns not in self.tagdep:
+            self.tagdep[ns] = dict()
+        self.tagdep[ns][tag] = set(implications)
+
+    def closure_all_tagdep(self):
         for ns, v in self.tagdep.items():
             for value, s in v.items():
                 self.tagdep[ns][value] = self.closure(ns, s)
@@ -64,6 +75,9 @@ class TagManager:
                 else:
                     self.tags[ns][k] = self.tags[ns]["@cur_index"] + 6000
                     self.tags[ns]["@cur_index"] += 1
+
+                if "implication" in v:
+                    self.set_tag_implication(k, ns, v["implication"])
 
             if "alias" in v:
                 for i in v["alias"]:

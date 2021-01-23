@@ -1,9 +1,11 @@
 # WARNING
 # THIS FILE IS DEPRECATED!
 # PLEASE DO NOT USE THIS FILE TO CREATE NEW TAG DEPENDENCIES
-# USE implication KEYWORD IN tags.yaml FILE PLEASE.
+# USE implication KEYWORD IN tags.yaml FILE INSTEAD.
 #
 # THIS FILE IS ALSO PARSED BY FGI NOW, BUT MAY BE REMOVED IN FUTURE.
+#
+# To see all tag dependencies, please use `./scripts/dbutils.sh show-tagdep`
 
 _mf: &mf
   cat: [ 'feline' ]

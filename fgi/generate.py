@@ -81,6 +81,14 @@ class Generator:
         self.base_uri = "https://furrygames.top/"
         self.base_uri_old = "https://furrygamesindex.github.io/"
 
+    def prepare_tags(self):
+        print("Preparing tags")
+        print("[note] tag-dependencies.yaml is deprecated and will be removed in future. use implication instead.")
+        with open(self.tagdep_file) as f:
+            self.tagmgr.loaddep(yaml.safe_load(f))
+        with open(self.tags_file) as f:
+            self.tagmgr.load(yaml.safe_load(f))
+
     def prepare(self):
         if self.args.plugin:
             for i in self.args.plugin:
@@ -99,10 +107,7 @@ class Generator:
         self.renderer_files = list_pymod(self.dir_renderer_files)
         self.renderer_nonl10n_files = list_pymod(self.dir_renderer_nonl10n_files)
 
-        with open(self.tagdep_file) as f:
-            self.tagmgr.loaddep(yaml.safe_load(f))
-        with open(self.tags_file) as f:
-            self.tagmgr.load(yaml.safe_load(f))
+        self.prepare_tags()
 
         self.sdb = SearchDatabase(self, no_data = self.args.no_searchdb)
         self.sdb.add_extra_data("tagalias", self.tagmgr.tagalias)
