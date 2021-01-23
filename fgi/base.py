@@ -138,8 +138,12 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
 
         for i in game["authors"]:
             name = i["name"]
-            if name in authors:
-                authors[name]["games"].append(game)
+            if name not in authors:
+                authors[name] = dict()
+                authors[name]["@stub"] = True
+                authors[name]["games"] = list()
+
+            authors[name]["games"].append(game)
 
         sdb.update(game)
 

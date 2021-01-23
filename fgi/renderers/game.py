@@ -59,6 +59,7 @@ class RendererGame(Renderer):
         }
 
         self.games = self.lctx["games"]
+        self.authors = self.lctx["authors"]
         self.context = self.new_context()
 
         lang_without_region = self.language
@@ -72,20 +73,19 @@ class RendererGame(Renderer):
 
     def author_widget(self, game):
         name = game["id"]
-        rtag = self.fctx.sdb.db["rtag"]
         data = {}
         ga = {}
 
-        for author in game["tags"].get("author", []):
-            key = f"author:{author}"
-            if key in rtag:
-                tmp = rtag[key]
+        for author in game["authors"]:
+            aname = author["name"]
+            tmp = self.authors[aname]["games"]
 
-                for i in tmp:
-                    if i != name:
-                        if i not in ga:
-                            ga[i] = set()
-                        ga[i].add(author)
+            for g in tmp:
+                i = g["id"]
+                if i != name:
+                    if i not in ga:
+                        ga[i] = set()
+                    ga[i].add(aname)
 
         for gid, au in ga.items():
             authornames = ", ".join(sorted(au))
