@@ -598,6 +598,7 @@ rimjob:
 
 footjob:
   namespaces: [ male, female ]
+  implication: [ paw-fetish ]
   explanation:
     en: 'Main characters may use feet to sexually stimulate another participant'
     zh-cn: '主要角色之间出现用脚对另一角色进行性刺激'
@@ -820,6 +821,37 @@ living-condom:
     en: 'STUB'
 
 living-toy:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+paw-fetish:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+quishing:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+stomping:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+gynomorph:
+  namespaces: [ male, female ]
+  alias: [ dickgirl ]
+  explanation:
+    en: 'STUB'
+
+cuntboy:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
+violent-penetration:
   namespaces: [ male, female ]
   explanation:
     en: 'STUB'
