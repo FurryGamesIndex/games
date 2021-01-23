@@ -122,7 +122,8 @@ The following are automatic tags, they are no different from other tags when you
 - `transfur` Main characters may transfur
 - `anal` Main characters may do a anal sex
 - `group` More than two main characters may engage in sex simultaneously.
-- `blowjob` Main characters may do a blowjob (Tag aliases: `face-fucking`)
+- `blowjob` Main characters may do a blowjob
+- `face-fucking` Face-fucking may occur between main characters, not to be confused with `blowjob`.
 - `frottage` Main characters' penises against one another
 - `cockslapping` Self-pleasuring.
 - `masturbation` Self-pleasuring.

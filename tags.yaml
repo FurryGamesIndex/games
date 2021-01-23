@@ -557,10 +557,14 @@ group:
 
 blowjob:
   namespaces: [ male, female ]
-  alias: [ face-fucking ]
   explanation:
     en: 'Main characters may do a blowjob'
     zh-cn: '主要角色之间包括口交性行为'
+
+face-fucking:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Face-fucking may occur between main characters, not to be confused with `blowjob`.'
 
 frottage:
   namespaces: [ male, female ]

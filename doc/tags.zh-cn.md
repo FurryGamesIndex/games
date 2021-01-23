@@ -122,7 +122,8 @@
 - `transfur` 主要角色中可能出现兽化现象
 - `anal` 主要角色之间包括肛交性行为
 - `group` 主要角色之间包括群 P 行为
-- `blowjob` 主要角色之间包括口交性行为 (标签别名：`face-fucking`)
+- `blowjob` 主要角色之间包括口交性行为
+- `face-fucking` Face-fucking may occur between main characters, not to be confused with `blowjob`.
 - `frottage` 主要角色之间包括阴茎摩擦行为
 - `cockslapping` 主要角色之间包括用阴茎打人
 - `masturbation` 主要角色中出现手淫行为
