@@ -88,6 +88,7 @@ class TagManager:
         for ns in self.tags:
             del self.tags[ns]["@cur_index"]
 
+        self.closure_all_tagdep()
 
     def _patch_ns(self, game, ns, v):
         for i in islice(v, 0, len(v)):
