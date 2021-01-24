@@ -20,7 +20,6 @@
 
 import yaml
 from sys import argv
-from pprint import pprint
 
 lang = argv[1]
 
@@ -28,12 +27,14 @@ uilang = {
     'en': {
         'namespace': '## Namespace %s',
         'tip': 'If you want to add new tags, welcome to create issues for discussion.',
-        'alias': 'Tag aliases: '
+        'alias': 'This tag has these alias(es): ',
+        'implication': 'This tag implicate (depend on) these tags: ',
     },
     'zh-cn': {
         'namespace': '## %s 命名空间',
         'tip': '如果你认为应该增加新的标签，欢迎创建 issues 讨论。',
-        'alias': '标签别名：'
+        'alias': '此标签有这些别名：',
+        'implication': '此标签蕴含（依赖）这些标签: ',
     }
 }
 
@@ -57,13 +58,29 @@ def doctag_class(name, data):
 
 def doctag_tag(name, data):
     explan = data["explanation"].get(lang, data["explanation"]["en"])
-    aliases = ""
+
+    print(f"- `{name}` {explan}")
+
     if "alias" in data:
-        aliases = " (" + uilang[lang]["alias"] + "`" + "`, `".join(data["alias"]) + "`)"
-    print(f"- `{name}` {explan}{aliases}")
+        aliases = uilang[lang]["alias"] + ": `" + "`, `".join(data["alias"]) + "`"
+        print(f"    - {aliases}")
+
+    if "implication" in data:
+        implications = uilang[lang]["implication"] + ": `" + "`, `".join(data["implication"]) + "`"
+        print(f"    - {implications}")
+    elif name in extra_tagdep:
+        implications = uilang[lang]["implication"] + ": `" + "`, `".join(extra_tagdep[name]) + "`"
+        print(f"    - {implications}")
 
 with open("tags.yaml") as f:
     tags = yaml.safe_load(f.read())
+
+extra_tagdep = dict()
+with open("tag-dependencies.yaml") as f:
+    tagdep2 = yaml.safe_load(f.read())
+    for _, v in tagdep2.items():
+        for tag, i in v.items():
+            extra_tagdep[tag] = i
 
 doctag_funcs = {
     '@namespace': doctag_namespace,

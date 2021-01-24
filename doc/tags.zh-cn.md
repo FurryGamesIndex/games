@@ -48,22 +48,26 @@
 以下是自动标签，它们在你搜索游戏时和其他标签没有区别。 但如果你是游戏编辑者、贡献者，你不必为游戏手动添加自动标签， 因为它们将在必要时自动被添加 （如您添加 `male:cat` 标签，该游戏将自动继承 `male:felidae` 标签）
 
 
-- `feline` 主要角色包括猫科兽人 (标签别名：`felidae`)
-- `canine` 主要角色包括犬科兽人 (标签别名：`canidae`)
+- `feline` 主要角色包括猫科兽人
+    - 此标签有这些别名：: `felidae`
+- `canine` 主要角色包括犬科兽人
+    - 此标签有这些别名：: `canidae`
 - `mustelidae` 主要角色包括鼬科兽人
 - `reptilia` 主要角色包括爬行纲兽人
 
 ### 物种：杂类
 
 - `dragon` 主要角色包括龙兽人（仅西方龙）
-- `lung` 主要角色包括东方龙兽人 (标签别名：`long`, `chinese-dragon`)
+- `lung` 主要角色包括东方龙兽人
+    - 此标签有这些别名：: `long`, `chinese-dragon`
 - `mouse` 主要角色包括鼠兽人
 - `monkey` 主要角色包括猴子兽人
 - `bull` 主要角色包括牛兽人（只出现在 male 命名空间）
 - `cow` 主要角色包括牛兽人（只出现在 female 命名空间）
 - `sheep` 主要角色包括羊兽人
 - `horse` 主要角色包括马兽人
-- `rabbit` 主要角色包括兔兽人 (标签别名：`hare`, `leporids`)
+- `rabbit` 主要角色包括兔兽人
+    - 此标签有这些别名：: `hare`, `leporids`
 - `bear` 主要角色包括熊兽人
 - `pig` 主要角色包括猪兽人
 - `hyena` 主要角色包括鬣狗兽人
@@ -77,31 +81,49 @@
 ### 物种：猫科
 
 - `cat` 主要角色包括猫兽人
+    - 此标签蕴含（依赖）这些标签: : `feline`
 - `tiger` 主要角色包括虎兽人
+    - 此标签蕴含（依赖）这些标签: : `feline`
 - `lion` 主要角色包括狮兽人
+    - 此标签蕴含（依赖）这些标签: : `feline`
 - `leopard` 主要角色包括豹兽人
+    - 此标签蕴含（依赖）这些标签: : `feline`
 - `snow-leopard` 主要角色包括雪豹兽人
+    - 此标签蕴含（依赖）这些标签: : `feline`
 - `cheetah` 主要角色包括猎豹兽人
+    - 此标签蕴含（依赖）这些标签: : `feline`
 - `lynx` 主要角色包括猞猁兽人
+    - 此标签蕴含（依赖）这些标签: : `feline`
 
 ### 物种：犬科
 
-- `dog` 主要角色包括犬兽人 (标签别名：`shibainu`, `husky`)
+- `dog` 主要角色包括犬兽人
+    - 此标签有这些别名：: `shibainu`, `husky`
+    - 此标签蕴含（依赖）这些标签: : `canine`
 - `wolf` 主要角色包括狼兽人
+    - 此标签蕴含（依赖）这些标签: : `canine`
 - `fox` 主要角色包括狐兽人
+    - 此标签蕴含（依赖）这些标签: : `canine`
 - `raccoon-dog` 主要角色包括貉兽人
+    - 此标签蕴含（依赖）这些标签: : `canine`
 
 ### 物种：鼬科
 
 - `otter` 主要角色包括水獭兽人
+    - 此标签蕴含（依赖）这些标签: : `mustelidae`
 - `badger` 主要角色包括獾兽人
+    - 此标签蕴含（依赖）这些标签: : `mustelidae`
 - `weasel` 主要角色包括鼬兽人
+    - 此标签蕴含（依赖）这些标签: : `mustelidae`
 
 ### 物种：爬行纲
 
 - `lizard` 主要角色包括蜥蜴兽人
+    - 此标签蕴含（依赖）这些标签: : `reptilia`
 - `crocodile` 主要角色包括鳄鱼兽人
+    - 此标签蕴含（依赖）这些标签: : `reptilia`
 - `snake` 主要角色包括蛇兽人
+    - 此标签蕴含（依赖）这些标签: : `reptilia`
 
 ### 物种：特殊
 
@@ -118,8 +140,10 @@
 - `shota` 主要角色包括像孩子一样的男性（只出现于 male 命名空间）
 - `loli` 主要角色包括像孩子一样的女性（只出现于 female 命名空间）
 - `muscle` 主要角色中包括肌肉丰满的角色
-- `transform` Main characters may transform (标签别名：`transformation`)
+- `transform` Main characters may transform
+    - 此标签有这些别名：: `transformation`
 - `transfur` 主要角色中可能出现兽化现象
+    - 此标签蕴含（依赖）这些标签: : `transform`
 - `anal` 主要角色之间包括肛交性行为
 - `group` 主要角色之间包括群 P 行为
 - `blowjob` 主要角色之间包括口交性行为
@@ -130,14 +154,17 @@
 - `handjob` 主要角色之间出现手淫另一角色的阴茎
 - `rimjob` 主要角色之间出现用舌头在另一角色的肛门边缘上的性行为
 - `footjob` 主要角色之间出现用脚对另一角色进行性刺激
+    - 此标签蕴含（依赖）这些标签: : `paw-fetish`
 - `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` 主要角色中，人类与兽人发生了性关系
 - `animal-on-furry` 主要角色中，动物或纯兽（非人形 furry）和兽人发生了性关系
 - `exhibitionism` 主要角色出现了在有可能被其他人看见的地方（如户外）进行自愿裸体或性行为
-- `netorare` 另一个角色的配偶/伴侣与某角色发生关系。 (标签别名：`ntr`)
+- `netorare` 另一个角色的配偶/伴侣与某角色发生关系。
+    - 此标签有这些别名：: `ntr`
 - `rape` STUB
 - `mind-break` 通过长时间或严格的性刺激来训练/使某人在心理上成为性奴隶（洗脑）
-- `mind-control` 强迫参与者（违背自己的意愿）自己做某事（催眠） (标签别名：`hypnosis`)
+- `mind-control` 强迫参与者（违背自己的意愿）自己做某事（催眠）
+    - 此标签有这些别名：: `hypnosis`
 - `corruption` 主要角色中用魔法或其他超自然力量强硬地腐化某人的头脑，抢夺他们的纯洁
 - `parasite` 主要角色中出现了寄生或被寄生
 - `drugs` 主要角色之间使用鼓动滥交或快感的药物
@@ -160,13 +187,22 @@
 - `bondage` 主要角色可能出现绑缚（BDSM），请查看：<https://en.wikipedia.org/wiki/Bondage_(BDSM)>
 - `master-slave` 主要角色之间可能出现主人与奴隶 (BDSM), 请查看：<https://en.wikipedia.org/wiki/Master/slave_(BDSM)>
 - `public-use` 主要角色可能成为肉便器
-- `micro-macro` STUB (标签别名：`macro-micro`)
+- `micro-macro` STUB
+    - 此标签有这些别名：: `macro-micro`
 - `mawplay` STUB
+    - 此标签蕴含（依赖）这些标签: : `micro-macro`
 - `cock-worship` STUB
 - `chastity-cage` STUB
 - `belly-riding` STUB
 - `living-condom` STUB
 - `living-toy` STUB
+- `paw-fetish` STUB
+- `quishing` STUB
+- `stomping` STUB
+- `gynomorph` STUB
+    - 此标签有这些别名：: `dickgirl`
+- `cuntboy` STUB
+- `violent-penetration` STUB
 
 ## misc 命名空间
 
@@ -177,7 +213,9 @@
 - `freeware` 游戏是免费的或有一个不小的部分是免费的（Demo 版本不计算在内）
 - `multiplayer` 游戏是多人游戏或包括多人模式
 - `co-op` 游戏支持合作模式
+    - 此标签蕴含（依赖）这些标签: : `multiplayer`
 - `pvp` STUB
+    - 此标签蕴含（依赖）这些标签: : `multiplayer`
 - `uncensored` 游戏立绘、CG、模型等中没有经过审查工序（无码）（仅在 type:yiff 存在时考虑此标签）
 - `engine-renpy` 游戏使用了 RenPy 引擎开发
 - `engine-unity` 游戏使用了 Unity 引擎
@@ -185,7 +223,8 @@
 - `engine-godot` 游戏使用了 GoDot 引擎
 - `adobe-flash` 游戏使用了 Adobe Flash 开发。不要与 `platform:shockwave-flash` 混淆，后者强调需要用户单独安装 Flash Player 才能运行。
 - `multiple-endings` 游戏有多种结局
-- `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo） (标签别名：`ongoing`)
+- `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo）
+    - 此标签有这些别名：: `ongoing`
 - `multiple-series` 游戏包含多个世界观、剧情有联系的系列/版本（提示：如果世界观具有其特殊性且相近，即使剧情无联系，则仍然认为是同一系列（类似于数码宝贝1, 3）；如果世界观是一种常见的、朴实的、一般的世界，如“现代日本”，“中世纪欧洲”，则只有当剧情有联系时，才认为是同一系列。这个标签在使用上有时可能会倾向主观而非客观，如果有更多问题，请打开 issue 讨论）
 - `died` 游戏尚未完成时被作者宣布放弃（此标签存在时，请销毁 misc:work-in-process 标签）
 - `expired` 游戏的获取方式（如下载链接）已经失效（不管游戏是否完成前被放弃，只要不再存在获取方式。则使用此标签，不要与 misc:died 混淆）
@@ -227,15 +266,18 @@
 用于说明游戏发布在哪里
 
 - `steam` 游戏在 Steam 上有发布
-- `itchio` 游戏在 itch.io 上有发布 (标签别名：`itch-io`, `itch`)
+- `itchio` 游戏在 itch.io 上有发布
+    - 此标签有这些别名：: `itch-io`, `itch`
 - `patreon` 游戏在 Patreon 上有发布
 - `booth` 游戏在 BOOTH 上有发布
 - `digiket` 游戏在 DiGiket 上有发布
 - `website` 游戏在其网站上有发布
 - `google-play` 游戏在 Google Play 商店上有发布
 - `apple-appstore` 游戏在 Apple appstore 上有发布
-- `e-shop` 游戏在 Nintendo E-Shop 上有发布 (标签别名：`nintendo-e-shop`)
-- `gog` 游戏在 gog.com 商店上有发布 (标签别名：`gog-com`)
+- `e-shop` 游戏在 Nintendo E-Shop 上有发布
+    - 此标签有这些别名：: `nintendo-e-shop`
+- `gog` 游戏在 gog.com 商店上有发布
+    - 此标签有这些别名：: `gog-com`
 - `microsoft-store` 游戏在 Microsoft Store 商店上有发布
 
 ## platform 命名空间
@@ -244,9 +286,12 @@
 
 - `web` 游戏官方支持 Web 平台（HTML/JS/Canvas/WebGL/...）
 - `windows` 游戏官方支持 Microsoft Windows
-- `macos` 游戏官方支持 Apple macOS (标签别名：`macintosh`, `osx`, `macosx`)
-- `linux` 游戏官方支持 GNU/Linux (标签别名：`gnu-linux`)
+- `macos` 游戏官方支持 Apple macOS
+    - 此标签有这些别名：: `macintosh`, `osx`, `macosx`
+- `linux` 游戏官方支持 GNU/Linux
+    - 此标签有这些别名：: `gnu-linux`
 - `shockwave-flash` 游戏需要 Shockwave Flash (Adobe Flash Player) 以运行。特别地，此标签仅用于在发行 `.swf` 文件的游戏。如果发行的游戏包中捆绑了 Flash Player（如 Adobe AIR），不应使用此标签。所有使用了 Adobe Flash 技术的游戏都应该使用 `misc:adobe-flash`
+    - 此标签蕴含（依赖）这些标签: : `misc:adobe-flash`
 - `android` 游戏官方支持 Android
 - `ios` 游戏官方支持 Apple iOS
 - `nds` 游戏官方支持 Nintendo DS
