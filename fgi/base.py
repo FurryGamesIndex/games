@@ -45,6 +45,10 @@ def cook_game(game, tagmgr, mfac):
     if "authors" in game:
         # If Using new generation format authors property,
         # the #/tags/author will be overrided unconditionally
+
+        if "author" in game["tags"]:
+            raise ValueError("authors property conflict #/tags/author namespace")
+
         tmp = { "author": list() }
         tmp.update(game["tags"])
         game["tags"] = tmp
