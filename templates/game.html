@@ -21,8 +21,10 @@
 		<div class="onmobile">{% include 'game_links.html' %}</div>
 		<div class="authors">
 			{% for i in game.authors %}{% if "@stub" not in i %}
-			{% set author = authors[i.name] %}
-			{% if "@stub" in author %}{% set author = None %}{% endif %}
+			{% if i.name in authors %}
+				{% set author = authors[i.name] %}
+				{% if "@stub" in author %}{% set author = None %}{% endif %}
+			{% endif %}
 			<div class="author">
 				{% if author %} {{ author.hi_avatar.with_rr(rr).html(node_class='authoravatar', alt=i.name) }}
 				{% else %} <div class="authoravatar alt"><i class="fas fa-paw"></i></div> {% endif %}

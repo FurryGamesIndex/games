@@ -78,14 +78,15 @@ class RendererGame(Renderer):
 
         for author in game["authors"]:
             aname = author["name"]
-            tmp = self.authors[aname]["games"]
+            if aname in self.authors:
+                tmp = self.authors[aname]["games"]
 
-            for g in tmp:
-                i = g["id"]
-                if i != name:
-                    if i not in ga:
-                        ga[i] = set()
-                    ga[i].add(aname)
+                for g in tmp:
+                    i = g["id"]
+                    if i != name:
+                        if i not in ga:
+                            ga[i] = set()
+                        ga[i].add(aname)
 
         for gid, au in ga.items():
             authornames = ", ".join(sorted(au))
