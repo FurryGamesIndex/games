@@ -17,9 +17,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Hroft32
+    role: [ producer ]
+
 tags:
-  author:
-    - Hroft32
   type:
     - visual-novel
     - bara

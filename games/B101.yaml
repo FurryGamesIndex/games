@@ -28,9 +28,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Maxiess
+    role: [ producer, screenwriter ]
+  - name: Sean
+    role: [ others ]
+  - name: Hroft32
+    role: [ artist, musician, programmer ]
+
 tags:
-  author:
-    - 'Maxiess'
   type:
     - visual-novel
     - adventure

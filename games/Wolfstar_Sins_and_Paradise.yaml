@@ -8,9 +8,19 @@ description: |
   Creator's Comments:
   Thank you for taking the time to read about and special thanks if you try out my game.  Please consider supporting me either here or on Patreon.  All donations will be used to improving the quality of the project.  Thank you all again!  =3
 
+authors:
+  - name: Wolfstar
+    role: [ producer, screenwriter, programmer ]
+  - name: Mark Thorne
+    role: [ artist ]
+  - name: Azaghal
+    role: [ artist ]
+  - name: Gavel
+    role: [ artist ]
+  - name: DyneWulf
+    role: [ others ]
+
 tags:
-  author:
-    - Wolfstar
   type:
     - visual-novel
     - role-playing
@@ -25,6 +35,7 @@ tags:
     - humankind
     - non-anthro
     - muscle
+    - anal
     - handjob
     - blowjob
   female:
@@ -33,10 +44,13 @@ tags:
   misc:
     - freeware
     - engine-renpy
+    - uncensored
+    - multiple-endings
   lang:
     - en
   publish:
     - itchio
+    - patreon
   platform:
     - windows
     - macos
@@ -46,7 +60,7 @@ links:
   - name: .itch.io
     uri: https://hyperwolfstar.itch.io/wolfstar-sins-and-paradise
   - name: .patreon
-    uri: Hyperwolfstar
+    uri: patreon:Wolfstar
   - name: .twitter
     uri: twitter:Hyperwolfstar
 
