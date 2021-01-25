@@ -31,8 +31,6 @@ _mf: &mf
 
   transfur: [ 'transform' ]
 
-  mawplay: [ 'micro-macro' ]
-
 male:
   <<: *mf
 female:
