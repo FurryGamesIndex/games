@@ -580,6 +580,22 @@ code {
 	margin: 8px 2px;
 }
 
+.page_author .aliases {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+
+	margin-bottom: 12px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--border-color);
+}
+
+.page_author .aliases>* {
+	color: var(--tip-color);
+	padding: 4px 1px;
+}
+
 .game .links,
 .page_author .links {
 	display: flex;
