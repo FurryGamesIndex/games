@@ -523,6 +523,10 @@ code {
 	justify-content: flex-end;
 }
 
+.game .opts>*:not(:first-child) {
+	margin-left: 16px;
+}
+
 .game .screenshots>*,
 .game .screenshots>picture>img {
 	width: 100%;

@@ -60,6 +60,8 @@ gamewarn_deprecated_shockwave_flash: Flash Player required
 game_author_widget_more_from: 'More games from <b>%s</b>:'
 
 game_edit: Edit this page
+game_share_twitter: Share on Twitter
+game_share_twitter_text: View game "{name}" on FurryGamesIndex.
 game_contact_us: Contact FurryGamesIndex project by
 game_sensitive_warning: The current page may contain sensitive medias, and they have been hidden. <a href="%s/%s/sensitive.html">Manage sensitive content settings</a>
 

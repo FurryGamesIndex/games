@@ -55,6 +55,8 @@ gamewarn_deprecated_shockwave_flash: 依赖 Flash Player 的游戏
 game_author_widget_more_from: 来自 <b>%s</b> 的更多游戏：
 
 game_edit: 编辑此页面
+game_share_twitter: 分享到 Twitter
+game_share_twitter_text: 在兽人控游戏索引上查看游戏「{name}」
 game_contact_us: 通过以下方式联系“兽人控游戏索引”项目
 game_sensitive_warning: 当前页面可能包含敏感媒体，它们已被隐藏。 <a href="%s/%s/sensitive.html">管理敏感内容设置</a>
 

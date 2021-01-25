@@ -54,6 +54,7 @@
 		</tbody></table></div>
 		<div class="opts">
 			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml"><i class="fas fa-edit fa-fw"></i><span>{{ ui.game_edit }}</span></a>
+			<a href="https://twitter.com/intent/tweet?&text={{ ui.game_share_twitter_text.format(name=get(game, lang, 'name'))|urlencode }}&url={{ ("https://furrygames.top/" + lang + "/games/" + name + ".html")|urlencode }}&hashtags=furrygamesindex,furry,game&via=UtopicPanther" target="_blank"><i class="fab fa-twitter fa-fw"></i><span>{{ ui.game_share_twitter }}</span></a>
 		</div>
 		<div class="screenshots">
 		{% if "sensitive_media" in game %}
