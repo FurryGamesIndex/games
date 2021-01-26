@@ -24,12 +24,19 @@ description: |
   • Fun upgrades, combos and mobility options to keep you engaged
   • SFW mode for streaming!
 
+authors:
+  - name: Jasonafex
+    role: [ producer ]
+  - name: KabsCorner
+    role: [ artist ]
+  - name: CaliberS
+    role: [ musician ]
+
 tags:
-  author:
-    - Jasonafex
   type:
     - adventure
     - action
+    - roguelike
     - bara
     - yuri
     - yiff
@@ -41,11 +48,13 @@ tags:
     - muscle
     - anal
     - vore
+    - tentacles
   female:
     - bird
     - snake
     - muscle
     - vore
+    - tentacles
   misc:
     - work-in-process
     - engine-unity

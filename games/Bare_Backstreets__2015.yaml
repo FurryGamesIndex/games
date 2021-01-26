@@ -14,10 +14,15 @@ description: |
   * Put your dexterity to the test by mastering our sex minigame!
   * Optional SFW mode for Let's Players or those who want a traditional game experience!
 
+authors:
+  - name: Jasonafex
+    role: [ producer ]
+  - name: KabsCorner
+    role: [ artist ]
+  - name: Lennian
+    role: [ programmer ]
+
 tags:
-  author:
-    - 'Team Amorous'
-    - Jasonafex
   type:
     - adventure
     - action

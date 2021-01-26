@@ -22,10 +22,21 @@ description: |
 
   This game has seen many years of spare-time development, and all of it wouldn't have been possible without the support of our loyal Patrons. A free release on Steam is our way of thanking them and making sure the game will always remain available for everyone to enjoy.
 
+authors:
+  - name: Jasonafex
+    role: [ producer, screenwriter ]
+  - name: KabsCorner
+    role: [ artist ]
+  - name: Lennian
+    role: [ programmer ]
+  - name: Tazo
+    role: [ screenwriter ]
+  - name: Whiskey
+    role: [ screenwriter ]
+  - name: Tsumi
+    role: [ screenwriter ]
+
 tags:
-  author:
-    - 'Team Amorous'
-    - Jasonafex
   type:
     - dating-sim
     - yiff
