@@ -4,15 +4,17 @@ description: |
   Knights College is an adult kemono visual novel set in a dormitory where elite knights-in-training live.
   In this game, the cards the main character collects as he lives in the dormitory will present all possible choices.
 
-  Knights College will be released on Steam.
-
   One day, Argo, a young man who lives in a rural fishing village, receives an admission letter to a place he never expected.
   It is the Knights Training Organization’s “Knights College”, a place only those of noble blood lines and high status are allowed to enter.
   Argo, who is just a commoner, was admitted because he has a special ability called “Cardification” sleeping within him.
   As he lives in the elite knight’s dormitory, Argo will learn to use his ability and eventually become entangled in a certain event.
 
+  In order for adult scenes to appear, the R18 patch must be applied. You can find it on the official website.
+
 authors:
   - name: KAIJU-09
+    role: [ producer ]
+  - name: Oodaru
     role: [ producer, screenwriter ]
   - name: Rossi Tsukigata
     role: [ character-designer, artist ]
@@ -27,14 +29,23 @@ tags:
   male:
     - wolf
     - tiger
+    - leopard
+    - dog
+    - dragon
     - pig
+    - lion
+    - males-only
     - muscle
+    - anal
     - blowjob
+    - handjob
+  misc:
+    - engine-unity
   lang:
     - en
     - ja
   publish:
-    - patreon
+    - steam
   platform:
     - windows
 
