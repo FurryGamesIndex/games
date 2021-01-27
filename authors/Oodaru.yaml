@@ -1,0 +1,15 @@
+name: Oodaru
+
+aliases:
+  - おーだる
+  - 飛騨丸
+
+type: personal
+
+avatar: Oodaru.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:oodaru
+  - name: .pixiv
+    uri: pixiv:104188
