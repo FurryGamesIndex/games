@@ -8,9 +8,13 @@ description: |
   Multi-endings (Ending will change by your choices during the game)
   Bonus function to change clothes
 
+authors:
+  - name: KAIJU-09
+    role: [ producer ]
+  - name: Oodaru
+    role: [ producer, artist ]
+
 tags:
-  author:
-    - KAIJU-09
   type:
     - visual-novel
     - bara

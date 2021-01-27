@@ -12,9 +12,13 @@ description: |
   Languages
   This game supports multiple languages. With the press of a key, you can switch languages anytime during gameplay. This is a great tool for learning a new language!
 
+authors:
+  - name: KAIJU-09
+    role: [ producer ]
+  - name: Oodaru
+    role: [ producer ]
+
 tags:
-  author:
-    - KAIJU-09
   type:
     - visual-novel
     - bara

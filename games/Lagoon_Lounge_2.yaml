@@ -6,9 +6,13 @@ description: |
   This is the full English translation SEQUEL to LAGOON LOUNGE,
   the hit 2012 furry digital novel by KAIJYU.
 
+authors:
+  - name: KAIJU-09
+    role: [ producer ]
+  - name: Oodaru
+    role: [ producer, artist ]
+
 tags:
-  author:
-    - KAIJU-09
   type:
     - visual-novel
     - bara
