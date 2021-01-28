@@ -558,6 +558,11 @@ code {
 	margin-right: 12px;
 }
 
+.game>.leftbox,
+.page_author>.leftbox {
+	flex-grow: 1;
+}
+
 .game .thumbnail {
 	width: 280px;
 	min-width: 280px;
