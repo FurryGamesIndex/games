@@ -50,12 +50,12 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: .unofficial-patch-zh-cn
+  - name: .unofficial-patch-zh
     icon: twitter
-    uri: https://twitter.com/ABLocalization/status/1321734157551259648
-  - name: .unofficial-patch-zh-cn
+    uri: https://twitter.com/ABLocalization/status/1250378138950852610
+  - name: .unofficial-patch-zh
     icon: weibo
-    uri: https://weibo.com/7429628292/JrkCtdgQa
+    uri: https://weibo.com/7429628292/JBbi8FPjr
 
 thumbnail: thumbnail.jpg
 
