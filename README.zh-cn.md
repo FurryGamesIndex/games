@@ -4,23 +4,11 @@
 
 本项目中，每个游戏被组织到一个单独的 YAML 文件中结构化地表示，YAML 非常易于兽人和人类编辑，然后使用 python 脚本将其自动渲染成多种语言的 HTML 版本。
 
-## 我们想要你的参与
+[构建说明](https://github.com/FurryGamesIndex/games/blob/master/BUILD.md)
 
-### 所有兽控们
+## 参与其中
 
-帮助「添加游戏」到列表、「维护现有游戏」（如替换失效的外部链接）、「为游戏添加标签」、「修复现有游戏信息中的缺陷」等
-
-[立即了解如何贡献](https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md)，只需要花费你几分钟的时间了解贡献的步骤。
-
-### 开发者
-
-帮助「查找和修复 Bug」、「优化代码的结构和性能」、「实现激动兽心的新功能」，可见下文的 TODO 列表。
-
-[构建指南](https://github.com/FurryGamesIndex/games/blob/master/BUILD.md)
-
-### Web 设计师
-
-帮助「改善样式、交互和用户体验」等。
+[参与到 FurryGamesIndex](doc/Get-Involved.zh-cn.md)
 
 ## 版权信息
 

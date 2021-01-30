@@ -1,3 +1,5 @@
+> The Contribution Guide is under maintenance and may contain information that is partially out of date; the maintainer is planning to refactor this document.
+
 # Contribution guide
 
 This is a guide that describes how to add games to FurryGamesIndex (hereinafter may be referred to as FGI), and if you want to maintain an existing game, you can also learn how to do it in this guide.
