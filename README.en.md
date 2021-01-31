@@ -4,23 +4,11 @@ The motive for creating this project was that Lucky Doge gave up his [Furry Game
 
 In this project, each game is structured in a independent YAML file. YAML is very easy to edit by furries and humans, and then it is automatically rendered into HTML versions in multiple languages by python scripts.
 
-## We want your participation
-
-### All furries
-
-Help "add games" to the list, "maintain existing games" (such as replacing broken external links), "tag games", "fix defects in existing game information", etc.
-
-[Learn how to contribute now](https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md), it only takes you a few minutes to understand the steps to contribute.
-
-### Developer
-
-Help "Find and fix bugs", "Optimize code structure and performance", "Realize exciting new features", see the TODO list below.
-
 [Build guide](https://github.com/FurryGamesIndex/games/blob/master/BUILD.md)
 
-### Web designer
+## Get Involved
 
-Help "improve style, interaction and user experience", etc.
+[Get Involved in FurryGamesIndex](doc/Get-Involved.en.md)
 
 ## Copyright Information
 
