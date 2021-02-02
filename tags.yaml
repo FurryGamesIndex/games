@@ -231,6 +231,7 @@ lung:
 
 mouse:
   namespaces: [ male, female ]
+  alias: [ misc, rat ]
   explanation:
     en: 'Main characters include mouse furries'
     zh-cn: '主要角色包括鼠兽人'
@@ -325,6 +326,11 @@ red-panda:
   explanation:
     en: 'Main characters include red panda furries'
     zh-cn: '主要角色包括小熊猫兽人'
+
+kangaroo:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include kangaroo furries'
 
 ###################################################
 
@@ -1110,6 +1116,12 @@ ko:
     en: 'Korean supporting provided by offical author'
     zh-cn: '游戏有官方韩语版本'
 
+pl:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Polish supporting provided by offical author'
+    zh-cn: '游戏有官方波兰语版本'
+
 pt:
   namespaces: [ lang ]
   explanation:
@@ -1339,6 +1351,12 @@ playstation4:
     en: 'Sony PlayStation 4'
     zh-cn: '游戏官方支持 Sony PlayStation 4'
 
+playstation5:
+  namespaces: [ platform ]
+  explanation:
+    en: 'Sony PlayStation 5'
+    zh-cn: '游戏官方支持 Sony PlayStation 5'
+
 xbox:
   namespaces: [ platform ]
   explanation:
@@ -1356,6 +1374,18 @@ xbox-360:
   explanation:
     en: 'Microsoft Xbox 360'
     zh-cn: '游戏官方支持 Microsoft Xbox 360'
+
+xbox-series-x:
+  namespaces: [ platform ]
+  explanation:
+    en: 'Microsoft Xbox Series X'
+    zh-cn: '游戏官方支持 Microsoft Xbox Series X'
+
+xbox-series-s:
+  namespaces: [ platform ]
+  explanation:
+    en: 'Microsoft Xbox Series S'
+    zh-cn: '游戏官方支持 Microsoft Xbox Series S'
 
 
 ###################################################

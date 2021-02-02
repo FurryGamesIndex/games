@@ -62,14 +62,14 @@ def doctag_tag(name, data):
     print(f"- `{name}` {explan}")
 
     if "alias" in data:
-        aliases = uilang[lang]["alias"] + ": `" + "`, `".join(data["alias"]) + "`"
+        aliases = uilang[lang]["alias"] + "`" + "`, `".join(data["alias"]) + "`"
         print(f"    - {aliases}")
 
     if "implication" in data:
-        implications = uilang[lang]["implication"] + ": `" + "`, `".join(data["implication"]) + "`"
+        implications = uilang[lang]["implication"] + "`" + "`, `".join(data["implication"]) + "`"
         print(f"    - {implications}")
     elif name in extra_tagdep:
-        implications = uilang[lang]["implication"] + ": `" + "`, `".join(extra_tagdep[name]) + "`"
+        implications = uilang[lang]["implication"] + "`" + "`, `".join(extra_tagdep[name]) + "`"
         print(f"    - {implications}")
 
 with open("tags.yaml") as f:

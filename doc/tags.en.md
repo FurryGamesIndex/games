@@ -49,9 +49,9 @@ The following are automatic tags, they are no different from other tags when you
 
 
 - `feline` Main characters include feline furries
-    - This tag has these alias(es): : `felidae`
+    - This tag has these alias(es): `felidae`
 - `canine` Main characters include canine furries
-    - This tag has these alias(es): : `canidae`
+    - This tag has these alias(es): `canidae`
 - `mustelidae` Main characters include mustelidae furries
 - `reptilia` Main characters include reptilia furries
 
@@ -59,15 +59,16 @@ The following are automatic tags, they are no different from other tags when you
 
 - `dragon` Main characters include dragon furries (western cultures dragon only)
 - `lung` Main characters include lung (Chinese dragon) furries
-    - This tag has these alias(es): : `long`, `chinese-dragon`
+    - This tag has these alias(es): `long`, `chinese-dragon`
 - `mouse` Main characters include mouse furries
+    - This tag has these alias(es): `misc`, `rat`
 - `monkey` Main characters include monkey furries
 - `bull` Main characters include monkey furries (only in namespace male)
 - `cow` Main characters include monkey furries (only in namespace female)
 - `sheep` Main characters include sheep furries
 - `horse` Main characters include horse furries
 - `rabbit` Main characters include rabbit furries
-    - This tag has these alias(es): : `hare`, `leporids`
+    - This tag has these alias(es): `hare`, `leporids`
 - `bear` Main characters include bear furries
 - `pig` Main characters include pig furries
 - `hyena` Main characters include hyena furries
@@ -77,53 +78,54 @@ The following are automatic tags, they are no different from other tags when you
 - `deer` Main characters include deer furries
 - `bird` Main characters include bird furries
 - `red-panda` Main characters include red panda furries
+- `kangaroo` Main characters include kangaroo furries
 
 ### Biological species: Felidae
 
 - `cat` Main characters include cat furries
-    - This tag implicate (depend on) these tags: : `feline`
+    - This tag implicate (depend on) these tags: `feline`
 - `tiger` Main characters include tiger furries
-    - This tag implicate (depend on) these tags: : `feline`
+    - This tag implicate (depend on) these tags: `feline`
 - `lion` Main characters include lion furries
-    - This tag implicate (depend on) these tags: : `feline`
+    - This tag implicate (depend on) these tags: `feline`
 - `leopard` Main characters include leopard furries
-    - This tag implicate (depend on) these tags: : `feline`
+    - This tag implicate (depend on) these tags: `feline`
 - `snow-leopard` Main characters include snow leopard furries
-    - This tag implicate (depend on) these tags: : `feline`
+    - This tag implicate (depend on) these tags: `feline`
 - `cheetah` Main characters include cheetah furries
-    - This tag implicate (depend on) these tags: : `feline`
+    - This tag implicate (depend on) these tags: `feline`
 - `lynx` Main characters include lynx furries
-    - This tag implicate (depend on) these tags: : `feline`
+    - This tag implicate (depend on) these tags: `feline`
 
 ### Biological species: Canine
 
 - `dog` Main characters include dog furries
-    - This tag has these alias(es): : `shibainu`, `husky`
-    - This tag implicate (depend on) these tags: : `canine`
+    - This tag has these alias(es): `shibainu`, `husky`
+    - This tag implicate (depend on) these tags: `canine`
 - `wolf` Main characters include wolf furries
-    - This tag implicate (depend on) these tags: : `canine`
+    - This tag implicate (depend on) these tags: `canine`
 - `fox` Main characters include fox furries
-    - This tag implicate (depend on) these tags: : `canine`
+    - This tag implicate (depend on) these tags: `canine`
 - `raccoon-dog` Main characters include raccoon furries
-    - This tag implicate (depend on) these tags: : `canine`
+    - This tag implicate (depend on) these tags: `canine`
 
 ### Biological species: Mustelidae
 
 - `otter` Main characters include otter furries
-    - This tag implicate (depend on) these tags: : `mustelidae`
+    - This tag implicate (depend on) these tags: `mustelidae`
 - `badger` Main characters include badger furries
-    - This tag implicate (depend on) these tags: : `mustelidae`
+    - This tag implicate (depend on) these tags: `mustelidae`
 - `weasel` Main characters include weasel furries
-    - This tag implicate (depend on) these tags: : `mustelidae`
+    - This tag implicate (depend on) these tags: `mustelidae`
 
 ### Biological species: Reptilia
 
 - `lizard` Main characters include lizard furries
-    - This tag implicate (depend on) these tags: : `reptilia`
+    - This tag implicate (depend on) these tags: `reptilia`
 - `crocodile` Main characters include crocodile furries
-    - This tag implicate (depend on) these tags: : `reptilia`
+    - This tag implicate (depend on) these tags: `reptilia`
 - `snake` Main characters include snake furries
-    - This tag implicate (depend on) these tags: : `reptilia`
+    - This tag implicate (depend on) these tags: `reptilia`
 
 ### Biological species: Special
 
@@ -141,9 +143,9 @@ The following are automatic tags, they are no different from other tags when you
 - `loli` Main characters include childlike females (only in namespace female)
 - `muscle` Main characters include muscle characters
 - `transform` Main characters may transform
-    - This tag has these alias(es): : `transformation`
+    - This tag has these alias(es): `transformation`
 - `transfur` Main characters may transfur
-    - This tag implicate (depend on) these tags: : `transform`
+    - This tag implicate (depend on) these tags: `transform`
 - `anal` Main characters may do a anal sex
 - `group` More than two main characters may engage in sex simultaneously.
 - `blowjob` Main characters may do a blowjob
@@ -154,17 +156,17 @@ The following are automatic tags, they are no different from other tags when you
 - `handjob` Main characters may masturbate another participant
 - `rimjob` Main characters may orally stimulating anuses
 - `footjob` Main characters may use feet to sexually stimulate another participant
-    - This tag implicate (depend on) these tags: : `paw-fetish`
+    - This tag implicate (depend on) these tags: `paw-fetish`
 - `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` Sexual activity between a humankind creature and a furry
 - `animal-on-furry` Sexual activity between a animal/non-anthro and a furry
 - `exhibitionism` 
 - `netorare` 
-    - This tag has these alias(es): : `ntr`
+    - This tag has these alias(es): `ntr`
 - `rape` STUB
 - `mind-break` 
 - `mind-control` 
-    - This tag has these alias(es): : `hypnosis`
+    - This tag has these alias(es): `hypnosis`
 - `corruption` 
 - `parasite` 
 - `drugs` 
@@ -188,9 +190,8 @@ The following are automatic tags, they are no different from other tags when you
 - `master-slave` Master/slave (BDSM), see <https://en.wikipedia.org/wiki/Master/slave_(BDSM)>
 - `public-use` 
 - `micro-macro` STUB
-    - This tag has these alias(es): : `macro-micro`
+    - This tag has these alias(es): `macro-micro`
 - `mawplay` STUB
-    - This tag implicate (depend on) these tags: : `micro-macro`
 - `cock-worship` STUB
 - `chastity-cage` STUB
 - `belly-riding` STUB
@@ -200,7 +201,7 @@ The following are automatic tags, they are no different from other tags when you
 - `quishing` STUB
 - `stomping` STUB
 - `gynomorph` STUB
-    - This tag has these alias(es): : `dickgirl`
+    - This tag has these alias(es): `dickgirl`
 - `cuntboy` STUB
 - `violent-penetration` STUB
 
@@ -213,9 +214,9 @@ Used to describe miscellaneous information related to the game
 - `freeware` The game is free or a big part is free (Demo version is not included)
 - `multiplayer` The game is multiplayer or includes multiplayer mode
 - `co-op` The game has cooperative game mode
-    - This tag implicate (depend on) these tags: : `multiplayer`
+    - This tag implicate (depend on) these tags: `multiplayer`
 - `pvp` STUB
-    - This tag implicate (depend on) these tags: : `multiplayer`
+    - This tag implicate (depend on) these tags: `multiplayer`
 - `uncensored` Images, CGs, models, etc. have not censored (Consider this tag only when type:yiff exists)
 - `engine-renpy` The game is developed using RenPy engine
 - `engine-unity` The game is developed using Unity engine
@@ -224,7 +225,7 @@ Used to describe miscellaneous information related to the game
 - `adobe-flash` The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.
 - `multiple-endings` There are multiple different endings in the game
 - `work-in-process` The game is ongoing
-    - This tag has these alias(es): : `ongoing`
+    - This tag has these alias(es): `ongoing`
 - `multiple-series` The game is included in a series of connected worldviews or plots
 - `died` When the game is not finished, the author announced to give up (If this tag exists, please destroy the misc:work-in-process tag)
 - `expired` The acquisition method (such as download links) for the game is no longer valid (whether the game was abandoned before completion or not. Not to be confused with misc:died)
@@ -255,6 +256,7 @@ The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 - `ja` Japanese supporting provided by offical author
 - `ja-unofficial` Japanese supporting provided by unoffical source
 - `ko` Korean supporting provided by offical author
+- `pl` Polish supporting provided by offical author
 - `pt` Portuguese supporting provided by offical author
 - `ru` Russian supporting provided by offical author
 - `tr` Turkish supporting provided by offical author
@@ -267,7 +269,7 @@ Indicate where the game is released
 
 - `steam` Self-pleasuring.
 - `itchio` Self-pleasuring.
-    - This tag has these alias(es): : `itch-io`, `itch`
+    - This tag has these alias(es): `itch-io`, `itch`
 - `patreon` Self-pleasuring.
 - `booth` Self-pleasuring.
 - `digiket` Self-pleasuring.
@@ -275,9 +277,9 @@ Indicate where the game is released
 - `google-play` Self-pleasuring.
 - `apple-appstore` Self-pleasuring.
 - `e-shop` Self-pleasuring.
-    - This tag has these alias(es): : `nintendo-e-shop`
+    - This tag has these alias(es): `nintendo-e-shop`
 - `gog` Self-pleasuring.
-    - This tag has these alias(es): : `gog-com`
+    - This tag has these alias(es): `gog-com`
 - `microsoft-store` Self-pleasuring.
 
 ## Namespace platform
@@ -287,11 +289,11 @@ The operating systems and platforms offical supported by the game
 - `web` Web platform (Play in web browser) (HTML/JS/Canvas/WebGL/...)
 - `windows` Microsoft Windows
 - `macos` Apple macOS
-    - This tag has these alias(es): : `macintosh`, `osx`, `macosx`
+    - This tag has these alias(es): `macintosh`, `osx`, `macosx`
 - `linux` GNU/Linux
-    - This tag has these alias(es): : `gnu-linux`
+    - This tag has these alias(es): `gnu-linux`
 - `shockwave-flash` The game requires Shockwave Flash (Adobe Flash Player) to run. In particular, this tag is only used for games that are distributed with `.swf` files. This tag should not be used if Flash Player is bundled with the game package (e.g. Adobe AIR). All games that use Adobe Flash technology should use `misc:adobe-flash`
-    - This tag implicate (depend on) these tags: : `misc:adobe-flash`
+    - This tag implicate (depend on) these tags: `misc:adobe-flash`
 - `android` Android
 - `ios` Apple iOS
 - `nds` Nintendo DS
@@ -305,9 +307,12 @@ The operating systems and platforms offical supported by the game
 - `playstation2` Sony PlayStation 2
 - `playstation3` Sony PlayStation 3
 - `playstation4` Sony PlayStation 4
+- `playstation5` Sony PlayStation 5
 - `xbox` Microsoft Xbox
 - `xbox-one` Microsoft Xbox One
 - `xbox-360` Microsoft Xbox 360
+- `xbox-series-x` Microsoft Xbox Series X
+- `xbox-series-s` Microsoft Xbox Series S
 
 ## Namespace sys
 
