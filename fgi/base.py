@@ -53,7 +53,8 @@ def cook_game(game, tagmgr, mfac):
         tmp.update(game["tags"])
         game["tags"] = tmp
         for i in game["authors"]:
-            game["tags"]["author"].append(i["name"])
+            if "standalone" not in i or not i["standalone"]:
+                game["tags"]["author"].append(i["name"])
     else:
         # For games using legecy format or without author infomation,
         # create a STUB authors property
@@ -141,13 +142,14 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
         games[game_id] = game
 
         for i in game["authors"]:
-            name = i["name"]
-            if name not in authors:
-                authors[name] = dict()
-                authors[name]["@stub"] = True
-                authors[name]["games"] = list()
+            if "standalone" not in i or not i["standalone"]:
+                name = i["name"]
+                if name not in authors:
+                    authors[name] = dict()
+                    authors[name]["@stub"] = True
+                    authors[name]["games"] = list()
 
-            authors[name]["games"].append(game)
+                authors[name]["games"].append(game)
 
         sdb.update(game)
 
