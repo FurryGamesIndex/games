@@ -39,11 +39,14 @@ platform_icons = {
     "playstation2": '<i title="Playstation 2" class="fab fa-playstation fa-fw"></i>',
     "playstation3": '<i title="Playstation 3" class="fab fa-playstation fa-fw"></i>',
     "playstation4": '<i title="Playstation 4" class="fab fa-playstation fa-fw"></i>',
+    "playstation5": '<i title="Playstation 5" class="fab fa-playstation fa-fw"></i>',
     "psv": '<i title="Playstation Vita" class="fab fa-playstation fa-fw"></i>',
     "psp": '<i title="Playstation Portable" class="fab fa-playstation fa-fw"></i>',
     "xbox": '<i title="Xbox" class="fab fa-xbox fa-fw"></i>',
     "xbox-one": '<i title="Xbox One" class="fab fa-xbox fa-fw"></i>',
     "xbox-360": '<i title="Xbox 360" class="fab fa-xbox fa-fw"></i>',
+    "xbox-series-x": '<i title="Xbox Series X" class="fab fa-xbox fa-fw"></i>',
+    "xbox-series-s": '<i title="Xbox Series S" class="fab fa-xbox fa-fw"></i>',
 }
 
 class RendererGame(Renderer):

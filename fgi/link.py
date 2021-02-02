@@ -20,6 +20,7 @@
 icons = {
     'website': '<i class="fas fa-home fa-fw"></i>',
     'steam': '<i class="fab fa-steam-symbol fa-fw"></i>',
+    'demo-version-steam': '<i class="fab fa-steam-symbol fa-fw"></i>',
     'itch.io': '<i class="fab fa-itch-io fa-fw"></i>',
     'twitter': '<i class="fab fa-twitter fa-fw"></i>',
     'furaffinity': '<i class="fas fa-paw fa-fw"></i>',
