@@ -1,0 +1,173 @@
+name: BROK the InvestiGator
+
+description: |
+  The first "Classic Adventure" mixed with Beat'em Up and RPG, inspired by cartoons from the 80's/early 90's. What kind of detective will you be?
+  
+  Narrative-driven adventure game that blends action and investigation in never-before-seen ways. Will you use your brain... or your brawn?
+  
+  In a futuristic "light cyberpunk" world where animals have replaced humans, privileged citizens live under a dome protected from the ambient pollution while others struggle to make a living outside.
+  
+  Brok, a private detective and former boxer, lives with Graff, the son of his deceased wife. Although he could never elucidate her accident, recent events may shed some light on an even more tragic outcome... one that may be linked to their own existence.
+  
+  Will they be able to withstand the threats of this corrupted world and face their own destiny?
+  
+  FEATURES
+  
+  A deep and emotional narrative-rich experience filled with characters reminiscent of classic 80s/90s cartoons. The first game to combine a "Classic Adventure" with "Beat'em up" and RPG elements!
+  
+  Solve puzzles with your wits... or muscles!
+  Make choices impacting gameplay and/or story
+  Easy mode for pure "Point & Click" gameplay (fights can be skipped)
+  Level up to beat enemies and bosses
+  Combine clues to uncover the truth!
+  In-game hints
+  All controls supported (mouse, keyboard or controller)
+  Two playable characters, switch at any time
+  15 to 20 hours long on first playthrough
+  Multiple distinct endings to unlock
+  Text fully translated into 10 languages
+  Full english voice acting (23,000 lines)
+
+authors:
+  - name: COWCAT
+    role: [ producer, screenwriter, artist, programmer ]
+  - name: Jymn Magon
+    standalone: true
+    role: [ others ]
+  - name: PythonBlue
+    standalone: true
+    role: [ musician ]
+  - name: Kresblain
+    standalone: true
+    role: [ character-designer ]
+  - name: GlassesGator
+    standalone: true
+    role: [ character-designer ]
+  - name: Monika Rider
+    standalone: true
+    role: [ character-designer ]
+  - name: Danilo do B
+    standalone: true
+    role: [ artist ]
+  - name: Bryan Olson
+    standalone: true
+    role: [ voice-actor ]
+  - name: Michael Kovach
+    standalone: true
+    role: [ voice-actor ]
+  - name: Lee Foster
+    standalone: true
+    role: [ voice-actor ]
+  - name: Daisy Guevara
+    standalone: true
+    role: [ voice-actor ]
+  - name: Philip Sacramento
+    standalone: true
+    role: [ voice-actor ]
+  - name: Joseph Wilson
+    standalone: true
+    role: [ voice-actor ]
+  - name: Joshua Cookingham
+    standalone: true
+    role: [ voice-actor ]
+  - name: John Van Doren
+    standalone: true
+    role: [ voice-actor ]
+  - name: Brandon Jenkins
+    standalone: true
+    role: [ voice-actor ]
+  - name: Erin Lillis
+    standalone: true
+    role: [ voice-actor ]
+  - name: Michael Kovach
+    standalone: true
+    role: [ voice-actor ]
+  - name: Michael Kovach
+    standalone: true
+    role: [ voice-actor ]
+  - name: Matthew Simmons
+    standalone: true
+    role: [ voice-actor ]
+  - name: Edwyn Tiong
+    standalone: true
+    role: [ voice-actor ]
+  - name: Melissa Medina
+    standalone: true
+    role: [ voice-actor ]
+  - name: Mike Varker
+    standalone: true
+    role: [ voice-actor ]
+  - name: Austin Schmidt
+    standalone: true
+    role: [ voice-actor ]
+  - name: Ginger Sue
+    standalone: true
+    role: [ voice-actor ]
+  - name: Anthony Ray Morales
+    standalone: true
+    role: [ voice-actor ]
+  - name: Philip Sacramento
+    standalone: true
+    role: [ voice-actor ]
+
+tags:
+  type:
+    - role-playing
+    - puzzle
+  male:
+    - crocodile
+    - cat
+    - kangaroo
+    - mouse
+  female:
+    - bird
+  misc:
+    - work-in-process
+    - full-audio
+  lang:
+    - de
+    - en
+    - es
+    - fr
+    - it
+    - ja
+    - pl
+    - pt
+    - ru
+    - zh
+  publish:
+    - steam
+    - gog
+  platform:
+    - windows
+    - nintendo-switch
+    - playstation4
+    - playstation5
+    - xbox-one
+    - xbox-series-x
+    - xbox-series-s
+
+links:
+  - name: .website
+    uri: https://www.brokgame.com/
+  - name: .demo-version-steam
+    uri: steam:1318790
+  - name: .demo-version-gog.com
+    uri: https://www.gog.com/game/brok_the_investigator_prologue
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256809697/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256809697/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_be97f1e70df9e8ca7a77f9663d30975e1a08c98c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_856001674c2b9174e4a8260bb25430016557ea8a.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_31aab4446de485253aa918ebe9bd147d8db01f64.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_82ac9b3f06edf12693482c5b2355818bedf09a4d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_31aab4446de485253aa918ebe9bd147d8db01f64.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_31aab4446de485253aa918ebe9bd147d8db01f64.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_1ae321c841e618f3d390ed0ccd3c652d2f60551e.1920x1080.jpg
