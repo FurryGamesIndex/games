@@ -46,6 +46,11 @@ properties:
           type: string
           description: |
             The name of the author. If the author has been defined in author database, MUST use the name specified in `name` property in author datafile.
+        standalone:
+          type: boolean
+          description: |
+            `true` if this author is a standalone author.
+            Standalone author is only in current game scope and do not generate tags, do not link with author database.
         role:
           description: |
             What role is the author playing around this game.
