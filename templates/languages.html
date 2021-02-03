@@ -14,7 +14,7 @@
 </div>
 <script src="{{ res(rr, '/scripts/base.js') }}"></script>
 <script>
-const regexp = new RegExp(window.location.host + "/[a-z\\-]*/($|games/|list|index|search|faq).*");
+const regexp = new RegExp(window.location.host + "/[a-z\\-]*/($|games/|list|index|search|faq|preferences).*");
 const match = document.referrer.match(regexp)
 
 if (match !== null && match.length >= 1) {
