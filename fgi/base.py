@@ -39,6 +39,20 @@ def parse_description(game, fmt, game_id, mfac):
     else:
         raise ValueError(f"description format invaild: {fmt}")
 
+def cook_game_add_auto_medias(game, mfac):
+    # FIXME: link search should be done in link.py after classfied it
+    if "links" in game and game.get("auto-steam-widget", True):
+        for i in game["links"]:
+            if i["name"] == ".steam":
+                if i["uri"].startswith("steam:"):
+                    swid = i["uri"].split(':', 1)[1]
+                    game["media"].append(mfac.create_media({
+                        "type": "steam-widget",
+                        "id": swid,
+                    }, game["id"]))
+                else:
+                    print("[warning] steam widget can not be added while not using the steam: URI.")
+
 def cook_game(game, tagmgr, mfac):
     gameid = game["id"]
 
@@ -83,6 +97,9 @@ def cook_game(game, tagmgr, mfac):
         game["sensitive_media"] = False
 
     game["media"] = list()
+
+    cook_game_add_auto_medias(game, mfac)
+
     for i in game["screenshots"]:
         game["media"].append(mfac.create_media(i, gameid))
         if type(i) is not str and \
