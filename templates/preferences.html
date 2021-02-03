@@ -6,8 +6,32 @@
 		<h2>{{ ui.preferences_sensitive_h2 }}</h2>
 		<div>{{ ui.preferences_sensitive }}</div>
 	</div>
+
+	<div class="preferences_entry">
+		<h2>{{ ui.preferences_steam_widget_h2 }}</h2>
+		<div>
+			<input type="checkbox" id="steam_widget_switch" class="g_ls_switch" data-lskey="show_steam_widget">
+			<label for="steam_widget_switch">{{ ui.preferences_steam_widget }}</label>
+		</div>
+		<div class="tip" style="margin-top: 18px;">
+			{{ ui.preferences_steam_widget_tip }}
+		</div>
+	</div>
 </div>
 <script src="{{ res(rr, '/scripts/base.js') }}"></script>
 <script>
+function gLocalStorageSwitchChange(e) {
+	e.preventDefault();
+	const cb = e.target;
+	localStorage.setItem(cb.dataset.lskey, cb.checked ? "true" : "false");
+}
+
+$$("input.g_ls_switch").forEach(i => {
+	const k = i.dataset.lskey;
+	i.addEventListener('change', gLocalStorageSwitchChange);
+	if (localStorage.getItem(k) == "true") {
+		i.checked = true;
+	}
+})
 </script>
 {% include 'footer.html' %}

@@ -15,6 +15,7 @@ nav_languages: 語言
 
 copying_area_tip: 發現缺少了東西或錯誤？希望新增遊戲？或者想幫助改進 FurryGamesIndex？立即<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.zh-tw.md">參與其中</a>！
 copying_area_copyright: 版權所有 The FurryGamesIndex project，本站點的資料按照 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">創作共用署名-非商業性使用-相同方式共享(CC-BY-NC-SA) 4.0</a> 許可。部分資料（如遊戲截圖）版權歸原始權利人所有。我們僅在<a href="https://en.wikipedia.org/wiki/Fair_use">合理使用</a>的前提下發布它們。
+copying_preferences: 站點首選項
 copying_privacy_policy: 隱私權政策
 copying_oss: 由開源軟體提供動力
 
@@ -70,6 +71,13 @@ sensitive_page_tip: |
   你必須在當地法律下達到成年標準後才可以開啟上述選項。<br>
   你必須使用現代瀏覽器並啟用 JavaScript。<br>
   修改該設定後需要重新整理頁面才能生效。
+
+preferences_h1: 首選項
+preferences_sensitive_h2: 敏感內容設定
+preferences_sensitive: 請前往<a href="sensitive.html">此處</a>。在部分映象站點上，此首選項可能不能修改。
+preferences_steam_widget_h2: Steam 商店小部件（Steam Store Widget）
+preferences_steam_widget: 顯示 Steam Store Widget
+preferences_steam_widget_tip: 如果可能的話，將在遊戲頁面上顯示 Steam Store Widget。這可能便於您直接在 FGI 上檢視遊戲在 Steam 的當前售價，但請注意，Steam Store Widget 可能會使用第三方 Cookies 跟蹤你。<a target="_blank" href="https://store.steampowered.com/privacy_agreement/">Valve 隱私政策協議</a>。
 
 rss_desc: RSS Feed 將以時間順序推送最近新增或編輯的 30 個遊戲介面
 
