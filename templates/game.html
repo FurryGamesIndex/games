@@ -93,5 +93,10 @@ if (localStorage.getItem("show_sensitive") == "true") {
 	if (warn != null)
 		warn.classList.add("hide");
 }
+if (localStorage.getItem("show_steam_widget") == "true") {
+	$$('script[type="text/x-FGI-steam-widget"]').forEach(i => {
+		i.outerHTML = atob(i.textContent);
+	});
+}
 </script>
 {% include 'footer.html' %}

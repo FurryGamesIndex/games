@@ -54,6 +54,16 @@ class HTMLImageMedia:
         else:
             return self.hi.with_rr(rr).html(alt=alt)
 
+class HTMLSteamWidgetMedia:
+    def __init__(self, swid):
+        self.id = swid
+
+    def dom(self, rr, **kwargs):
+        html = f'<iframe sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-forms allow-same-origin" src="https://store.steampowered.com/widget/{self.id}/" frameborder="0" width="100%" height="190"></iframe>'
+        data = base64.b64encode(html.encode('utf-8')).decode()
+        return f'<script type="text/x-FGI-steam-widget">{data}</script>'
+
+
 class MediaFactory:
     def __init__(self, fctx):
         self.fctx = fctx
@@ -157,6 +167,9 @@ class MediaFactory:
             for i in media["src"]:
                 elm += '<source src="%s" type="%s">' % (i["uri"], i["mime"])
             return HTMLMiscellaneousMedia(elm + "</video>", sensitive)
+
+        elif mtype == "steam-widget":
+            return HTMLSteamWidgetMedia(media["id"])
 
         else:
             raise ValueError(f"Unknown media type '{mtype}'")
