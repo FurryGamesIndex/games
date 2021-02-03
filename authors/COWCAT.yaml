@@ -1,0 +1,12 @@
+name: COWCAT
+
+type: company
+
+avatar: COWCAT.jpg
+
+links:
+  - name: .website
+    uri: https://www.cowcatgames.com/
+  - name: Steam
+    icon: steam
+    uri: https://store.steampowered.com/developer/COWCAT
