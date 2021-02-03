@@ -82,4 +82,11 @@ class RendererMisc(Renderer):
                 lastmod_file=f"{self.fctx.dir_templates}/sensitive.html") as f:
             f.write(env.get_template("sensitive.html").render(context))
 
+        # preferences.html
+
+        context = self.new_context()
+        with self.sm_openw("preferences.html", priority="0.2",
+                lastmod_file=f"{self.fctx.dir_templates}/preferences.html") as f:
+            f.write(env.get_template("preferences.html").render(context))
+
 impl = RendererMisc

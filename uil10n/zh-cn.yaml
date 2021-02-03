@@ -71,6 +71,10 @@ sensitive_page_tip: |
   你必须使用现代浏览器并启用 JavaScript。<br>
   修改该设置后需要刷新页面才能生效。
 
+preferences_h1: 首选项
+preferences_sensitive_h2: 敏感内容设置
+preferences_sensitive: 请前往<a href="sensitive.html">此处</a>。在部分镜像站点上，此首选项可能不能修改。
+
 rss_desc: RSS Feed 将以时间顺序推送最近添加或编辑的 30 个游戏界面
 
 stock-link-website: 官方网站

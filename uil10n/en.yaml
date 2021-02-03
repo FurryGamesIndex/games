@@ -76,6 +76,10 @@ sensitive_page_tip: |
   You must use a modern browser and enable JavaScript.<br>
   After modifying this setting, you need to refresh the page to take effect.
 
+preferences_h1: Preferences
+preferences_sensitive_h2: Sensitive content settings
+preferences_sensitive: Please navigate to <a href="sensitive.html">here</a>. On some mirror sites, this preference may not be allowed to be modified.
+
 rss_desc: RSS Feed will push the last 30 game pages added or edited in chronological order.
 
 stock-link-website: Official Website
