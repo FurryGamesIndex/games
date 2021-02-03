@@ -1,0 +1,14 @@
+name: PastryGames
+
+aliases:
+  - PastryGlaze
+
+type: unknown
+
+avatar: PastryGames.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:PastryGlaze
+  - name: .patreon
+    uri: patreon:PastryGames
