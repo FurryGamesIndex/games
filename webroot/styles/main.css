@@ -396,6 +396,29 @@ code {
 	}
 }
 
+/* stylesheet for preferences.html */
+
+.preferences h1 {
+	font-size: 1.56em;
+	font-weight: bold;
+	margin: 0;
+}
+
+.preferences h2 {
+	font-size: 1.24em;
+	font-weight: bold;
+	margin: 12px 0;
+}
+
+.preferences .preferences_entry {
+	padding: 20px 0;
+	border-bottom: 1px solid var(--border-color);
+}
+
+.preferences .preferences_entry>*:not(h2) {
+	margin: 32px 0 0 32px;
+}
+
 /* stylesheet for games/*.html and authors/*.html */
 
 .game,
