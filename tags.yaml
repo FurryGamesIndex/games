@@ -784,6 +784,12 @@ master-slave:
     en: 'Master/slave (BDSM), see <https://en.wikipedia.org/wiki/Master/slave_(BDSM)>'
     zh-cn: '主要角色之间可能出现主人与奴隶 (BDSM), 请查看：<https://en.wikipedia.org/wiki/Master/slave_(BDSM)>'
 
+dominance-submission:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Dominance/submission (BDSM), see <https://en.wikipedia.org/wiki/Dominance_and_submission>'
+    zh-cn: '主要角色之间可能出现支配与臣服 (BDSM), 请查看：<https://en.wikipedia.org/wiki/Dominance_and_submission>'
+
 public-use:
   namespaces: [ male, female ]
   explanation:

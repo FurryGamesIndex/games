@@ -188,6 +188,7 @@
 - `fisting` 主要角色可能出现拳交
 - `bondage` 主要角色可能出现绑缚（BDSM），请查看：<https://en.wikipedia.org/wiki/Bondage_(BDSM)>
 - `master-slave` 主要角色之间可能出现主人与奴隶 (BDSM), 请查看：<https://en.wikipedia.org/wiki/Master/slave_(BDSM)>
+- `dominance-submission` 主要角色之间可能出现支配与臣服 (BDSM), 请查看：<https://en.wikipedia.org/wiki/Dominance_and_submission>
 - `public-use` 主要角色可能成为肉便器
 - `micro-macro` STUB
     - 此标签有这些别名：`macro-micro`

@@ -188,6 +188,7 @@ The following are automatic tags, they are no different from other tags when you
 - `fisting` 
 - `bondage` Bondage (BDSM), see <https://en.wikipedia.org/wiki/Bondage_(BDSM)>
 - `master-slave` Master/slave (BDSM), see <https://en.wikipedia.org/wiki/Master/slave_(BDSM)>
+- `dominance-submission` Dominance/submission (BDSM), see <https://en.wikipedia.org/wiki/Dominance_and_submission>
 - `public-use` 
 - `micro-macro` STUB
     - This tag has these alias(es): `macro-micro`
