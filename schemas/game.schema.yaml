@@ -122,6 +122,10 @@ properties:
       WARNNING: This is a **deprecated** property.
       FGI will ignore this property and decide whether to add a sensitive media notification bar based on other information.
       It should not be used in newly edited game entries.
+  auto-steam-widget:
+    type: boolean
+    description: |
+      Default is `true` and FGI will use infomations in `links` to generate steam store widget media in screenshots. Specify `false` to disable it.
   screenshots:
     type: array
     description: |
@@ -208,6 +212,21 @@ properties:
                       The URI of the video
                 required: [ mime, uri ]
           required: [ type, src ]
+        - type: object
+          title: ScreenshotSteamStoreWidget
+          description: |
+            A embedded Steam Store Widget.
+          properties:
+            type:
+              type: string
+              const: steam-widget
+              description: |
+                Must be `steam-widget`
+            id:
+              type: string
+              description: |
+                The ID of the game in Steam.
+          required: [ type, id ]
   X-Created-by:
     type: string
     description: |
