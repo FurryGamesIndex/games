@@ -4,11 +4,12 @@
 
 # ScreenshotYoutubeEmbeddedVideo Properties
 
-| Property      | Type     | Required | Nullable       | Defined by                                                                                                                                                               |
-| :------------ | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [type](#type) | `string` | Required | cannot be null | [GameEntry](game-properties-screenshots-items-oneof-screenshotyoutubeembeddedvideo-properties-type.md "undefined#/properties/screenshots/items/oneOf/2/properties/type") |
-| [id](#id)     | `string` | Optional | cannot be null | [GameEntry](game-properties-screenshots-items-oneof-screenshotyoutubeembeddedvideo-properties-id.md "undefined#/properties/screenshots/items/oneOf/2/properties/id")     |
-| [uri](#uri)   | `string` | Optional | cannot be null | [GameEntry](game-properties-screenshots-items-oneof-screenshotyoutubeembeddedvideo-properties-uri.md "undefined#/properties/screenshots/items/oneOf/2/properties/uri")   |
+| Property                | Type      | Required | Nullable       | Defined by                                                                                                                                                                         |
+| :---------------------- | --------- | -------- | -------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [type](#type)           | `string`  | Required | cannot be null | [GameEntry](game-properties-screenshots-items-oneof-screenshotyoutubeembeddedvideo-properties-type.md "undefined#/properties/screenshots/items/oneOf/2/properties/type")           |
+| [id](#id)               | `string`  | Optional | cannot be null | [GameEntry](game-properties-screenshots-items-oneof-screenshotyoutubeembeddedvideo-properties-id.md "undefined#/properties/screenshots/items/oneOf/2/properties/id")               |
+| [sensitive](#sensitive) | `boolean` | Optional | cannot be null | [GameEntry](game-properties-screenshots-items-oneof-screenshotyoutubeembeddedvideo-properties-sensitive.md "undefined#/properties/screenshots/items/oneOf/2/properties/sensitive") |
+| [uri](#uri)             | `string`  | Optional | cannot be null | [GameEntry](game-properties-screenshots-items-oneof-screenshotyoutubeembeddedvideo-properties-uri.md "undefined#/properties/screenshots/items/oneOf/2/properties/uri")             |
 
 ## type
 
@@ -49,6 +50,22 @@ Video ID of the youtube video, Required when you do not specify `uri`.
 ### id Type
 
 `string`
+
+## sensitive
+
+`true` if the media is sensitive
+
+
+`sensitive`
+
+-   is optional
+-   Type: `boolean`
+-   cannot be null
+-   defined in: [GameEntry](game-properties-screenshots-items-oneof-screenshotyoutubeembeddedvideo-properties-sensitive.md "undefined#/properties/screenshots/items/oneOf/2/properties/sensitive")
+
+### sensitive Type
+
+`boolean`
 
 ## uri
 

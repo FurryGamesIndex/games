@@ -67,6 +67,7 @@ properties:
               - character-designer
               - scenographer
               - translator
+              - publisher
               - others
       required: [ name, role ]
   tags:

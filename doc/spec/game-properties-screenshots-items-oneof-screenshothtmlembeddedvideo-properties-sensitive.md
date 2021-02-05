@@ -1,0 +1,3 @@
+## sensitive Type
+
+`boolean`

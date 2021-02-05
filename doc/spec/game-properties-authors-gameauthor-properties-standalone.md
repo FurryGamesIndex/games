@@ -1,0 +1,3 @@
+## standalone Type
+
+`boolean`

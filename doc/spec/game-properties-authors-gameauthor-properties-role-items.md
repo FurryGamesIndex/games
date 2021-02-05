@@ -17,4 +17,5 @@
 | `"character-designer"` |             |
 | `"scenographer"`       |             |
 | `"translator"`         |             |
+| `"publisher"`          |             |
 | `"others"`             |             |

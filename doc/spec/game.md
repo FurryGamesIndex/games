@@ -16,6 +16,7 @@
 | [links](#links)                           | `array`   | Required | cannot be null | [GameEntry](game-properties-links.md "undefined#/properties/links")                           |
 | [thumbnail](#thumbnail)                   | `string`  | Required | cannot be null | [GameEntry](game-properties-thumbnail.md "undefined#/properties/thumbnail")                   |
 | [sensitive_media](#sensitive_media)       | `boolean` | Optional | cannot be null | [GameEntry](game-properties-sensitive_media.md "undefined#/properties/sensitive_media")       |
+| [auto-steam-widget](#auto-steam-widget)   | `boolean` | Optional | cannot be null | [GameEntry](game-properties-auto-steam-widget.md "undefined#/properties/auto-steam-widget")   |
 | [screenshots](#screenshots)               | `array`   | Required | cannot be null | [GameEntry](game-properties-screenshots.md "undefined#/properties/screenshots")               |
 | [X-Created-by](#x-created-by)             | `string`  | Optional | cannot be null | [GameEntry](game-properties-x-created-by.md "undefined#/properties/X-Created-by")             |
 | [X-Co-edited-by](#x-co-edited-by)         | `array`   | Optional | cannot be null | [GameEntry](game-properties-x-co-edited-by.md "undefined#/properties/X-Co-edited-by")         |
@@ -198,6 +199,22 @@ It should not be used in newly edited game entries.
 -   defined in: [GameEntry](game-properties-sensitive_media.md "undefined#/properties/sensitive_media")
 
 ### sensitive_media Type
+
+`boolean`
+
+## auto-steam-widget
+
+Default is `true` and FGI will use infomations in `links` to generate steam store widget media in screenshots. Specify `false` to disable it.
+
+
+`auto-steam-widget`
+
+-   is optional
+-   Type: `boolean`
+-   cannot be null
+-   defined in: [GameEntry](game-properties-auto-steam-widget.md "undefined#/properties/auto-steam-widget")
+
+### auto-steam-widget Type
 
 `boolean`
 
