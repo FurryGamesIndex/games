@@ -943,6 +943,11 @@ engine-godot:
     en: 'The game is developed using GoDot engine'
     zh-cn: '游戏使用了 GoDot 引擎'
 
+engine-ue4:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game is developed using Unreal Engine 4'
+
 adobe-flash:
   namespaces: [ misc ]
   explanation:

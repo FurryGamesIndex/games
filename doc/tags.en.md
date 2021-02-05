@@ -223,6 +223,7 @@ Used to describe miscellaneous information related to the game
 - `engine-unity` The game is developed using Unity engine
 - `engine-rpg-maker` The game is developed using RPG Maker engine
 - `engine-godot` The game is developed using GoDot engine
+- `engine-ue4` The game is developed using Unreal Engine 4
 - `adobe-flash` The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.
 - `multiple-endings` There are multiple different endings in the game
 - `work-in-process` The game is ongoing

@@ -223,6 +223,7 @@
 - `engine-unity` 遊戲使用了 Unity 引擎
 - `engine-rpg-maker` 遊戲使用了 RPG Maker 引擎
 - `engine-godot` 遊戲使用了 GoDot 引擎
+- `engine-ue4` The game is developed using Unreal Engine 4
 - `adobe-flash` 遊戲使用了 Adobe Flash 開發。不要與 `platform:shockwave-flash` 混淆，後者強調需要使用者單獨安裝 Flash Player 才能執行。
 - `multiple-endings` 遊戲有多種結局
 - `work-in-process` 遊戲尚未完結（但有先行預覽版本或 Demo）
