@@ -1,0 +1,11 @@
+name: EggNut
+
+type: small-team
+
+avatar: EggNut.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:eggnutgames
+  - name: .website
+    uri: https://eggnut.net/

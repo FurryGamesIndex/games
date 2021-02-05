@@ -1,0 +1,70 @@
+name: Backbone
+
+description: |
+  Backbone is a noir roleplaying detective adventure. Step into the shoes of anthropomorphic raccoon and private eye, Howard Lotor, and explore the beautifully rendered 2.5D pixel art environments of dystopian Vancouver. 
+
+  Howard Lotor is smart, self-assured and set in his ways. Caught in the tedium of day-to-day life, he’s resigned to the abuses of the authoritative regime in power and compliant with the systemic inequality that permeates society. But a string of cases that grow progressively more outlandish will put his worldview to the test. 
+
+  Backbone's gameplay is a new take on point-and-click adventure, featuring stealth, exploration, and extensive branching dialogues inspired by classic CRPGs. As Howard, you must traverse the diverse districts of a now walled-off Vancouver, sniff out clues, collect evidence, interrogate witnesses, and choose which leads to follow. 
+
+  Inspired by film noir, Backbone will submerge you into its dark dystopian atmosphere. Every animation in the game is handcrafted frame by frame, and environments are modeled after real streets of Vancouver, BC. The breathtaking combination of high resolution pixel art and 3D effects like dynamic lighting, pouring rain, volumetric fog and neon lights bring the sprawling city to life. Original doom jazz soundtrack will keep you on the edge with the enveloping veil of bebop and cinematic soundscapes, where every sound tells a story.
+
+authors:
+  - name: EggNut
+    role: [ producer ]
+  - name: Raw Fury
+    role: [ publisher ]
+
+tags:
+  type:
+    - role-playing
+    - puzzle
+  male:
+    - raccoon
+    - fox
+  misc:
+    - pixel-art
+    - engine-ue4
+    - work-in-process
+    - full-audio
+  lang:
+    # FIXME: Currently, demo version has only English subtitles,
+    # the unpublished Full version may contain more languages.
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
+    - playstation4
+    - nintendo-switch
+    - xbox-one
+
+links:
+  - name: .demo-version-steam
+    uri: steam:992310
+  - name: .website
+    uri: https://eggnut.net/
+  - name: .twitter
+    uri: twitter:backbonegame
+  - name: Project on Kickstarter
+    uri: https://www.kickstarter.com/projects/106061903/backbone-pixel-art-detective-adventure-inspired-by/description
+  # FIXME: unpublished on steam
+  #- name: .steam
+  #  uri: steam:865610
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256820591/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256820591/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/865610/ss_167268d2d3e0c9ed3d531dfdd593e84a949e02c8.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/865610/ss_c531381ecf9d0db34117e89b3262ef40e34f0a95.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/865610/ss_89bc6b4c6eeab7dd276e2289cace99248e8b630f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/865610/ss_edb9f159404032786d854c72a98a7b7f25ec0a37.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/865610/ss_2eab8574670ead836351f0e98b339c9df820bf76.1920x1080.jpg
