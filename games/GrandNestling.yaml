@@ -1,13 +1,32 @@
 name: GrandNestling
 
 description: |
-  《GrandNestling》 is an detective Gal game, whose game object is to use limited clues to investigate and uncover crimes, as well as to help the main character Lanye to free himself from the shadow of a car incident and to find his life goal. Currently the game only supports simplified Chinese and traditional Chinese. English would be available in future.
-  The main characters are all presented in Furry appearances and the game involves plots about Furry Boy‘s Love.
-  All illustrations, scenes and plots in 《GrandNestling》 provide players with such a sense of reality that they could almost feel like the main character Lanye himself! With a creative multi-line narrative system, players can experience even more hidden plots through the eyes of another 7 main characters. Also, the game brings to the player 20 more characters with delicate illustrations and dialogues, just to create a realistic life experience of Lanye and build immersive social interactions with others.
+  《GrandNestling》 is a Ren’py based Suspense/Dating sim AVG game. The game demands the players to solve a series of cases through limited clues while helping the protagonist, Leo, to heal from the trauma of an accident and eventually find his life goal.
+
+  As of right now, the supported language of this game is limited to Simplified Chinese. The English version of the game will be supported in the future.
+
+  Warning: The main characters are all presented in appearances of anthropomorphic animals. The game also involves potential adult fantasies, potential adult content, and/or drug abuse.
+
+  Characteristic
+
+  A realistic and immersive experience through illustrations of the game characters, the game’s setting, and its plot.An engaging gameplay experience for plays to get involved with the main character’s life.
+  A multi-line narrative that includes the perspectives of 7 other characters (this is accessible after completing the game the first time).
+
+  Side Note: the First Page Of An Old Diary
+
+  Time passed fast. Since when I started to enjoy keeping a diary?It has been a whole year ever since I knew them. I have made a lot of new friends, and I also reconnected with some old friends as well.
+  But most importantly, I met him…
+  Well, the point of this diary was to document all my life events in the last year. Since I’m becoming more and more forgetful, I have to write everything down before they all get lost in my messy mind.
+  The stuff that I am about to keep in this diary are all secrets which I would lock inside a safe, and the safe could never be opened by anyone else except me. But if I passed away at some point, this diary would bring those back to light again.
+  Suppose it happens… If others find out the tough guy in their mind actually has such a flabby aspect, then I’d rather jump off a building.
+  So, whoever opens this diary, I just want you to read it as a tasteless story, and you shall never share it to anyone else! Otherwise, all my reputation and dignity would be diminished.
+  Anyway, that’s all I have to say. Let the story begin on May 1st of last year…
+
+authors:
+  - name: HinaKageDogs
+    role: [ producer ]
 
 tags:
-  author:
-    - HinaKageDogs
   type:
     - visual-novel
     - bara
@@ -15,13 +34,16 @@ tags:
   male:
     - wolf
     - dog
-    - cat
     - tiger
+    - snow-leopard
+    - leopard
     - muscle
     - anal
   misc:
-    - unpublished
+    - work-in-process
     - multiple-endings
+    - engine-renpy
+    - uncensored
   lang:
     - zh
   publish:
@@ -30,16 +52,20 @@ tags:
     - windows
   
 links:
-  - name: .steam
+  - name: .demo-version-steam
     uri: steam:1250670
   - name: .weibo
     uri: https://weibo.com/u/3868792778
-  - name: Old demo release (expired)
-    rel: nofollow
-    uri: https://weibo.com/ttarticle/p/show?id=2309404303102474900712
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://steamcdn-a.akamaihd.net/steam/apps/1250670/ss_75eef248428f6d4fa5c6f0f7f3b0153aa8891f70.1920x1080.jpg
-  - https://steamcdn-a.akamaihd.net/steam/apps/1250670/ss_9b01aa548510faef36f44e5a4a016435f9d56826.1920x1080.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256775221/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256775221/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1250670/ss_75eef248428f6d4fa5c6f0f7f3b0153aa8891f70.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1250670/ss_5bd5ed1b25accd8a61da91f9d469ed789054501a.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1250670/ss_b9c375d12c15a0433515e62b789f96d847e9dc5e.1920x1080.jpg
