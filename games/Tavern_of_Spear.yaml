@@ -11,8 +11,6 @@ description: |
 
   Following a tribal tradition, Eyvind leaves home and sets out on a journey.
 
-  ![Eyvind](https://i.imgur.com/W7xU3YC.png "Eyvind")
-
   Everyone just sits there and you can click and talk to them,
   someone can have sex after a talk,or finish their quest.
 
@@ -29,9 +27,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Caro
+    role: [ producer, artist, programmer ]
+  - name: ~Librarion~
+    standalone: true
+    avatar: Librarion.jpg
+    link-uri: twitter:bokedaidu
+    role: [ screenwriter ]
+  - name: HelloAnonMyOldFriend
+    standalone: true
+    avatar: HelloAnonMyOldFriend.jpg
+    link-uri: twitter:HelloAnonMOF
+    role: [ musician ]
+
 tags:
-  author:
-    - Caro
   type:
     - visual-novel
     - adventure
@@ -79,19 +89,10 @@ links:
     uri: https://www.hiccears.com/artist-profile.php?apid=46597
   - name: .discord
     uri: https://discord.com/invite/WFm49ap
-  - name: .furaffinity
-    uri: https://www.furaffinity.net/user/fd-caro/
-  - name: Coder/Artist's Twitter
-    icon: twitter
-    uri: twitter:Caro_Zalt
-  - name: Screenwriter's Twitter
-    icon: twitter
-    uri: twitter:bokedaidu
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1nLzM0NzgzMDIucG5n/original/CI13xA.png
   - https://img.itch.zone/aW1hZ2UvNDU2MjQ2LzI0NTA0MjIucG5n/original/BO843O.png
   - https://img.itch.zone/aW1hZ2UvNDU2MjQ2LzI0NTA0MjUucG5n/original/XvAqaC.png
   - https://img.itch.zone/aW1hZ2UvNDU2MjQ2LzI0NTA0MjcucG5n/original/nC6uDA.png
