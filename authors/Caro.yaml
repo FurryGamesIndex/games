@@ -1,0 +1,15 @@
+name: Caro
+
+type: personal
+
+avatar: Caro.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:Caro_Zalt
+  - name: .furaffinity
+    uri: furaffinity:fd-caro
+  - name: .weibo
+    uri: http://weibo.com/carozalt/
+  - name: .weibo
+    uri: https://weibo.com/u/3819197165/
