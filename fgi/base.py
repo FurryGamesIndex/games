@@ -23,6 +23,8 @@ from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
+from fgi.link import uri_to_src
+
 def parse_description(game, fmt, game_id, mfac):
     if "description" not in game:
         return
@@ -57,9 +59,6 @@ def cook_game(game, tagmgr, mfac):
     gameid = game["id"]
 
     if "authors" in game:
-        # If Using new generation format authors property,
-        # the #/tags/author will be overrided unconditionally
-
         if "author" in game["tags"]:
             raise ValueError("authors property conflict #/tags/author namespace")
 
@@ -67,8 +66,16 @@ def cook_game(game, tagmgr, mfac):
         tmp.update(game["tags"])
         game["tags"] = tmp
         for i in game["authors"]:
-            if "standalone" not in i or not i["standalone"]:
+            if "standalone" not in i:
+                i["standalone"] = False
+            if i["standalone"]:
+                if "avatar" in i:
+                    i["hi_avatar"] = mfac.uri_to_html_image(i["avatar"], gameid)
+                if "link-uri" in i:
+                    i["link_href"] = uri_to_src(i["link-uri"])
+            else:
                 game["tags"]["author"].append(i["name"])
+
     else:
         # For games using legecy format or without author infomation,
         # create a STUB authors property
@@ -77,6 +84,7 @@ def cook_game(game, tagmgr, mfac):
             tmp = dict()
             tmp["name"] = i
             tmp["@stub"] = True
+            tmp["standalone"] = False
             game["authors"].append(tmp)
 
     tagmgr.check_and_patch(game)
@@ -159,7 +167,7 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
         games[game_id] = game
 
         for i in game["authors"]:
-            if "standalone" not in i or not i["standalone"]:
+            if not i["standalone"]:
                 name = i["name"]
                 if name not in authors:
                     authors[name] = dict()
