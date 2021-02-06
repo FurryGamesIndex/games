@@ -13,3 +13,9 @@ for i in games/l10n/*/*; do
 	echo "Validating '$i'"
 	./scripts/validate.py ./schemas/game-l10n.schema.yaml "$i"
 done
+
+for i in authors/*; do
+	[ -f "$i" ] || continue
+	echo "Validating '$i'"
+	./scripts/validate.py ./schemas/author.schema.yaml "$i"
+done
