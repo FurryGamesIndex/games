@@ -1,0 +1,16 @@
+name: Ainro
+
+aliases:
+  - 亚罗神虎
+
+type: personal
+
+avatar: Ainro.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:Ainro
+  - name: .weibo
+    uri: https://weibo.com/ainro
+  - name: .furaffinity
+    uri: furaffinity:ainro
