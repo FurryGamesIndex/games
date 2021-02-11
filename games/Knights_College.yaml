@@ -19,6 +19,13 @@ authors:
   - name: Rossi Tsukigata
     role: [ character-designer, artist ]
   - name: and_is_w
+    standalone: true
+    role: [ translator ]
+  - name: Ronny
+    standalone: true
+    role: [ translator ]
+  - name: Lansas
+    standalone: true
     role: [ translator ]
 
 tags:
@@ -44,6 +51,7 @@ tags:
   lang:
     - en
     - ja
+    - zh
   publish:
     - steam
   platform:
