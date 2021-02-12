@@ -28,6 +28,8 @@ icons = {
     'weibo': '<i class="fab fa-weibo fa-fw"></i>',
     'tumblr': '<i class="fab fa-tumblr fa-fw"></i>',
     'discord': '<i class="fab fa-discord fa-fw"></i>',
+    'youtube': '<i class="fab fa-youtube fa-fw"></i>',
+    'facebook': '<i class="fab fa-facebook-square fa-fw"></i>',
     'play-store': '<i class="fab fa-google-play fa-fw"></i>',
     'apple-appstore': '<i class="fab fa-app-store fa-fw"></i>',
     'microsoft-store': '<i class="fab fa-microsoft fa-fw"></i>',
@@ -36,23 +38,23 @@ icons = {
 
 def uri_to_src(uri):
     res = uri.split(':', 1)
-    if (res[0] == 'steam'):
+    if res[0] == 'steam':
         return "https://store.steampowered.com/app/%s" % res[1]
-    elif (res[0] == 'twitter'):
+    elif res[0] == 'twitter':
         return "https://twitter.com/%s/" % res[1]
-    elif (res[0] == 'furaffinity'):
+    elif res[0] == 'furaffinity':
         return "https://www.furaffinity.net/user/%s/" % res[1]
-    elif (res[0] == 'patreon'):
+    elif res[0] == 'patreon':
         return "https://www.patreon.com/%s" % res[1]
-    elif (res[0] == 'tumblr'):
+    elif res[0] == 'tumblr':
         return "https://%s.tumblr.com/" % res[1]
-    elif (res[0] == 'pixiv'):
+    elif res[0] == 'pixiv':
         return "https://www.pixiv.net/users/%s" % res[1]
-    elif (res[0] == 'google-play-store'):
+    elif res[0] == 'google-play-store':
         return "https://play.google.com/store/apps/details?id=%s" % res[1]
-    elif (res[0] == 'youtube'):
+    elif res[0] == 'youtube':
         return "https://www.youtube.com/%s" % res[1]
-    elif (res[0] == 'facebook'):
+    elif res[0] == 'facebook':
         return "https://www.facebook.com/%s" % res[1]
     else:
         return uri
