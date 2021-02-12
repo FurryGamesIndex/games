@@ -989,13 +989,12 @@ unofficial:
   namespaces: [ misc ]
   explanation:
     en: 'The game is a unoffical work (such as Morenatsu unoffical ver)'
-    zh-cn: '游戏可能是玩家进行同人创作，如“漏夏（非公式版）”（不要和 misc:mods 混淆）'
+    zh-cn: '游戏可能是玩家进行同人创作，如“漏夏（非公式版）”'
 
-mods:
+moddable:
   namespaces: [ misc ]
   explanation:
-    en: 'This is a mods for a game'
-    zh-cn: '这不是一个完整的游戏，而是游戏的 mods'
+    en: 'This game is moddable.'
 
 unpublished:
   namespaces: [ misc ]

@@ -232,7 +232,7 @@ Used to describe miscellaneous information related to the game
 - `died` When the game is not finished, the author announced to give up (If this tag exists, please destroy the misc:work-in-process tag)
 - `expired` The acquisition method (such as download links) for the game is no longer valid (whether the game was abandoned before completion or not. Not to be confused with misc:died)
 - `unofficial` The game is a unoffical work (such as Morenatsu unoffical ver)
-- `mods` This is a mods for a game
+- `moddable` This game is moddable.
 - `unpublished` The game has not been released, usually the Demo version has been released, but the author deleted and announced that the official version will be released in the future. Or the reputable author announced the upcoming game
 - `outside-furry-fandom` Indicate that the game is a work born outside the furry fandom
 - `not-only-furry-topic` Indicate that topic of the game is not (or not noly) a furry things. This tag should not be added when the furries occupy the majority of the main characters; if the furries are only a small part of the main characters (such as a multi-racial world where the furries are only one of them), when the topic of the game have emphasized that furries race is in a special status, such as the grudges of the furries race and other races (such as humankinds), do not add this tag and if there is no special emphasis on the speciality of the furries race (that is, the race can be replaced by The other), you should add this tag. Not to be confused with misc:outside-furry-fandom.
