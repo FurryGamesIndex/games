@@ -1,0 +1,17 @@
+name: Wolfire Games
+
+type: small-team
+
+avatar: Wolfire_Games.jpg
+
+links:
+  - name: .website
+    uri: https://www.wolfire.com/
+  - name: .twitter
+    uri: twitter:Wolfire
+  - name: .discord
+    uri: https://discord.com/invite/wCntgVQ
+  - name: .facebook
+    uri: https://www.facebook.com/Overgrowth
+  - name: .youtube
+    uri: youtube:WolfireGames

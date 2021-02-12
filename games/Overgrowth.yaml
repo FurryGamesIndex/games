@@ -1,0 +1,57 @@
+name: Overgrowth
+
+description: |
+  As a lightning-fast acrobatic ninja rabbit, you can choose how to approach each encounter. Do you want to pick off enemies one at a time like the killer in a slasher film? Dive into the thick of it and fight whole groups in a frontal assault? Steal the most powerful weapon you can find, and turn it on the rest?
+
+  If you die, there is never any load time; you can try again instantly! As your skills improve, you'll see that the game is not about winning. It's about experimenting to make the coolest action scenes that you can. Every design decision is made with that in mind, from the mouselook camera to the context-sensitive combat controls.
+
+  After completing the story modes, you can try out all the mods that players have created with the integrated editor! If you want to play as a human character in a city, or try a whole new campaign, or even fly around as a bat, there's probably already a mod that makes that happen.
+
+authors:
+  - name: Wolfire Games
+    role: [ producer ]
+
+tags:
+  type:
+    - action
+  male:
+    - rabbit
+    - cat
+    - wolf
+    - dog
+    - mouse
+  misc:
+    - 3d
+    - moddable
+    - pvp
+    - co-op
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .steam
+    uri: steam:25000
+  - name: .website
+    uri: https://www.wolfire.com/overgrowth
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256704396/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256704396/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/25000/ss_c2fe02bd100c1722fc2856139d8272b84005cbfc.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/25000/ss_a2b6366d0f1318e8af3083f925e8130507bea7e7.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/25000/ss_bbca94e67a9e76dfd070316b5255b848a05738f9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/25000/ss_0c1aeb4ad8e80127d66ca45927a1748ecc0943a2.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/25000/ss_25f9c109070713871f167c85bdf3bc6eaf99b335.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/25000/ss_1aaa8a5b64fe98b6786f1a2c9f4f86190ac3c8d8.1920x1080.jpg
