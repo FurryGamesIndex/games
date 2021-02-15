@@ -1,10 +1,10 @@
 <div class="tags"><table><tbody>
-{% for group in game.tags %}
+{% for ns in game.tags %}
 	<tr>
-		<td class="taggroup">{{ group }}: </td>
+		<td class="taggroup">{{ ns }}: </td>
 		<td>
-		{% for tag in game.tags[group] %}
-		<div class="tag"><a href='../search.html?tagx?"{{ group }}:{{ tag }}"'>{{ tag }}</a></div>
+		{% for tag in game.tags[ns] %}
+			<div class="tag"><a href='{{ rr }}/{{ lang }}/search.html?tagx?"{{ ns }}:{{ tag }}"'>{{ tag }}</a></div>
 		{% endfor %}
 		</td>
 	</tr>
