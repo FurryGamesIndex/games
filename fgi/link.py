@@ -17,24 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
-icons = {
-    'website': '<i class="fas fa-home fa-fw"></i>',
-    'steam': '<i class="fab fa-steam-symbol fa-fw"></i>',
-    'demo-version-steam': '<i class="fab fa-steam-symbol fa-fw"></i>',
-    'itch.io': '<i class="fab fa-itch-io fa-fw"></i>',
-    'twitter': '<i class="fab fa-twitter fa-fw"></i>',
-    'furaffinity': '<i class="fas fa-paw fa-fw"></i>',
-    'patreon': '<i class="fab fa-patreon fa-fw"></i>',
-    'weibo': '<i class="fab fa-weibo fa-fw"></i>',
-    'tumblr': '<i class="fab fa-tumblr fa-fw"></i>',
-    'discord': '<i class="fab fa-discord fa-fw"></i>',
-    'youtube': '<i class="fab fa-youtube fa-fw"></i>',
-    'facebook': '<i class="fab fa-facebook-square fa-fw"></i>',
-    'play-store': '<i class="fab fa-google-play fa-fw"></i>',
-    'apple-appstore': '<i class="fab fa-app-store fa-fw"></i>',
-    'microsoft-store': '<i class="fab fa-microsoft fa-fw"></i>',
-    'playstation-store': '<i class="fab fa-playstation fa-fw"></i>'
-}
+from fgi.misc.icon import link_icons as icons
 
 def uri_to_src(uri):
     res = uri.split(':', 1)

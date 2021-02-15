@@ -24,30 +24,10 @@ from fgi.renderer import Renderer
 from fgi.i18n import get, get_mtime
 from fgi.link import link_info
 from fgi.seo import keywords
+from fgi.misc.icon import platform_icons
 
 def checktag(game, namespace, value):
     return value in game["tags"].get(namespace, {})
-
-platform_icons = {
-    "web": '<i title="Web" class="fab fa-safari fa-fw"></i>',
-    "windows": '<i title="Microsoft Windows" class="fab fa-windows fa-fw"></i>',
-    "macos": '<i title="Apple macOS" class="fab fa-apple fa-fw"></i>',
-    "linux": '<i title="GNU/Linux" class="fab fa-linux fa-fw"></i>',
-    "android": '<i title="Android" class="fab fa-android fa-fw"></i>',
-    "ios": '<i title="Apple iOS" class="fab fa-app-store-ios fa-fw"></i>',
-    "playstation": '<i title="Playstation" class="fab fa-playstation fa-fw"></i>',
-    "playstation2": '<i title="Playstation 2" class="fab fa-playstation fa-fw"></i>',
-    "playstation3": '<i title="Playstation 3" class="fab fa-playstation fa-fw"></i>',
-    "playstation4": '<i title="Playstation 4" class="fab fa-playstation fa-fw"></i>',
-    "playstation5": '<i title="Playstation 5" class="fab fa-playstation fa-fw"></i>',
-    "psv": '<i title="Playstation Vita" class="fab fa-playstation fa-fw"></i>',
-    "psp": '<i title="Playstation Portable" class="fab fa-playstation fa-fw"></i>',
-    "xbox": '<i title="Xbox" class="fab fa-xbox fa-fw"></i>',
-    "xbox-one": '<i title="Xbox One" class="fab fa-xbox fa-fw"></i>',
-    "xbox-360": '<i title="Xbox 360" class="fab fa-xbox fa-fw"></i>',
-    "xbox-series-x": '<i title="Xbox Series X" class="fab fa-xbox fa-fw"></i>',
-    "xbox-series-s": '<i title="Xbox Series S" class="fab fa-xbox fa-fw"></i>',
-}
 
 class RendererGame(Renderer):
     def __init__(self, *args, **kwargs):
