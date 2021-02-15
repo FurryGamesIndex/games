@@ -2,7 +2,7 @@
 <div class="default">
 	<div><span>Mode: <span><a href="list.html">Standard</a> | <b>Complex</b></div><!-- FIXME: should be handle by RendererList and should be able to dynamically expanded -->
 </div>
-<div class="items">
+<div class="items items-complex">
 {% for name, game in games %}
 {% set game_name = get(game, lang, 'name') %}
 	<div class="item item-complex game">

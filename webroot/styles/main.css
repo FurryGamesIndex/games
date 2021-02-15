@@ -400,7 +400,7 @@ code {
 		margin: 12px 0;
 	}
 
-	.items .description {
+	.items:not(.items-complex) .description {
 		overflow: hidden;
 		text-overflow: ellipsis;
 		display: -webkit-box;
