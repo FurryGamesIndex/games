@@ -1,0 +1,12 @@
+<div class="tags"><table><tbody>
+{% for group in game.tags %}
+	<tr>
+		<td class="taggroup">{{ group }}: </td>
+		<td>
+		{% for tag in game.tags[group] %}
+		<div class="tag"><a href='../search.html?tagx?"{{ group }}:{{ tag }}"'>{{ tag }}</a></div>
+		{% endfor %}
+		</td>
+	</tr>
+{% endfor %}
+</tbody></table></div>
