@@ -25,7 +25,9 @@ import email.utils
 
 from fgi.renderer import Renderer
 from fgi.i18n import get
-from fgi.base import sorted_games_by_mtime, strip_games_expunge
+from fgi.base import sorted_games_by_mtime, strip_games_expunge, make_wrapper
+from fgi.link import link_info
+from fgi.misc.icon import platform_icons
 
 def ts_to_rfc5322(ts):
     dt = datetime.fromtimestamp(ts, tz=timezone.utc)
@@ -47,17 +49,31 @@ class RendererList(Renderer):
             "active_list": "actived",
             "get": get,
             "ts_to_rfc5322": ts_to_rfc5322,
+            "link_info": make_wrapper(link_info, self.fctx),
+            "platform_icons": platform_icons,
         }
 
         self.games = self.lctx["games"]
 
     def render(self):
         context = self.new_context()
-
         context["games"] = list_games(self.games)
         with self.sm_openw("list.html", priority="0.6") as f:
             f.write(self.env.get_template("list.html").render(context))
 
+        context = self.new_context()
+
+        lang_without_region = self.language
+        if '-' in lang_without_region:
+            lang_without_region = lang_without_region.split('-')[0]
+
+        context["lang_without_region"] = lang_without_region
+
+        context["games"] = list_games(self.games)
+        with self.sm_openw("list-c.html", priority="0.6") as f:
+            f.write(self.env.get_template("list-complex.html").render(context))
+
+        context = self.new_context()
         if self.fctx.args.with_rss:
             context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(self.games)).items(), 30)
             with open(self.getpath("feed.xml"), "w") as f:

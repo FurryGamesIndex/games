@@ -356,6 +356,19 @@ code {
 	word-break: break-word; /* Safari need */
 }
 
+.items .content {
+	flex-grow: 1;
+}
+
+.items .rightbox {
+	margin-left: 12px;
+}
+
+.items>.item-complex {
+	align-items: flex-start;
+	padding: 24px 0;
+}
+
 #search_box #search_mode {
 	min-height: 26px;
 }
@@ -419,7 +432,7 @@ code {
 	margin: 32px 0 0 32px;
 }
 
-/* stylesheet for games/*.html and authors/*.html */
+/* stylesheet for games/*.html, authors/*.html and complex version of list (list-*c*.html) */
 
 .game,
 .page_author {
@@ -638,6 +651,10 @@ code {
 	margin-bottom: 20px;
 	padding-bottom: 10px;
 	border-bottom: 1px solid var(--border-color);
+}
+
+.noborder .links {
+	border-bottom: 0;
 }
 
 .author-widget .author-more {
