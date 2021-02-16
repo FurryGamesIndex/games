@@ -3,11 +3,13 @@ name: Ore_no_Animism in Paradiso / おれのアニミズム～天国篇～
 description: |
   This is a mysterious world where Gods and the devils live.
 
-  One day a lot of bills and coins came down from the sky.
-  The money with a strong magical power, two Gods and two devils thought it was an abnormal situation.
+  One day a lot of bills and coins came down from the sky.  
+  The money with a strong magical power, two Gods and two devils thought it was an abnormal situation.  
   They go to the Heaven to resolve the situation.
 
   This is Touhou-like Economy Vertical STG sweeping all things with a large amount of financial resources.
+
+description-format: markdown
 
 tags:
   author:

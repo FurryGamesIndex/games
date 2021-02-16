@@ -1,27 +1,31 @@
 name: Packedrat
 
 description: |
-  Controls (defaults, can be rebinded):
-  Z - Jump
-  X - Attack
-  C - Use sub weapon
-  V - Toggle sub weapon
-  Enter - Menu
+  ##Controls (defaults, can be rebinded):
+
+  Z - Jump  
+  X - Attack  
+  C - Use sub weapon  
+  V - Toggle sub weapon  
+  Enter - Menu  
   arrows - Move
 
   NOTICE: Before posting a bug report for broken graphics, check if clearing your cache solves the issue ( control + f5 in the address bar, the page will refresh.) These issues are normally the result of old texture pages being cached by the browser.
 
-  Nightly (web player):
-  http://nightly.packedrat.net/
+  Nightly (web player):  
+  [http://nightly.packedrat.net/](http://nightly.packedrat.net/)
 
-  Stable (windows download, with audio):
-  http://stable.packedrat.net/Packedrat.zip
+  Stable (windows download, with audio):  
+  [http://stable.packedrat.net/Packedrat.zip](http://stable.packedrat.net/Packedrat.zip)
 
-  Changelog: http://packedrat.net/~packedra/Changelog.txt
+  Changelog:  
+  [http://packedrat.net/~packedra/Changelog.txt](http://packedrat.net/~packedra/Changelog.txt)
 
-  (These lines below are edited by FGI editors)
-  It looks like the author has temporarily suspended the game
-  More infomation: https://www.furaffinity.net/journal/9062468/
+  (These lines below are edited by FGI editors)  
+  It looks like the author has temporarily suspended the game.  
+  More infomation: [https://www.furaffinity.net/journal/9062468/](https://www.furaffinity.net/journal/9062468/)
+
+description-format: markdown
 
 tags:
   author:

@@ -5,6 +5,8 @@ description: |
   A visual novel with short stories with explicit sexual contents.
   Currently being developed at patreon.com/kalchivo
 
+description-format: markdown
+
 tags:
   author:
     - kalchivo

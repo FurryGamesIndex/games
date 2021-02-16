@@ -1,10 +1,12 @@
 name: 'BAD 2 BAD: EXTINCTION'
 
 description: |
-  ◆ Caution
+  ##Caution
+
   Your data will be reset if you change your device or delete the game. Please login on the game and Save the game data before doing so.
 
-  ◆ Features
+  ##Features
+
   - Interesting characters and stories
   - Survival, open-world style
   - A variety of character decorations and gun modifications
@@ -14,29 +16,38 @@ description: |
   - Form and grow your troops
   - Futuristic combats using AI and drones.
 
-  ▶ Bad 2 Bad: Extinction Details
+  #Bad 2 Bad: Extinction Details
+
   Bad 2 Bad: Extinction is a sequel of Bad 2 Bad: Delta, back with more stories and a variety of contents. Extinction covers the story after you defeat Gorat al-Llama's terrorist organization, Al-Qatala, and discover humans behind them. Here, you will engage in a war against the Tailless Legion - humans - as the B2B Delta Team.
 
-  ■ Introducing the 5 forces
+  ##Introducing the 5 forces
+
   In Bad 2 Bad: Extinction, a total of 5 different forces are introduced as your new enemy - zombies called Wilders(WD), Purebloods(PB), Underdogs(UD), Amazoness(AZ), and the Tailless Legion(TL). Each forces have their own characteristics and stories.
 
-  ■ Struggle for Survival
+  ##Struggle for Survival
+
   While searching for your main target in the mission field full of Wilders to proceed with campaigns by force, you can also play the game with more freedom in randomly generated maps and clearing sub missions to collect items and/or get rewards.
 
-  ■ Character and Firearm Customization
+  ##Character and Firearm Customization
+
   You can modify your gun and decorate your character as much as you want. More weapons, equipment, costumes, and more characters are coming soon.
 
-  ■ Form Your Own Special Force
+  ##Form Your Own Special Force
+
   In Extinction, you can organize and grow your own unit. Each enemies have different attack patterns and characteristics. If you get stuck, try upgrading your equipment and changing the tactics.
 
-  ■ Weapon Skills and Proficiency
+  ##Weapon Skills and Proficiency
+
   In order to use weapons other than your main weapon effectively, you must learn the respective weapon skills. Learn the skill and increase the proficiency levels to get buffs such as increased attack power, less durability↓, reload speed up, and headshot accuracy.
 
-  ■ Intensive Converging Fire & Drone Attacks
+  ##Intensive Converging Fire & Drone Attacks
+  
   Use the Converging Fire and Drone(DR-6L) attacks effectively to overcome the crisis. Air Drone(DR-2A) doesn't have an attacking feature, but it will difinitely come in handy.
 
-  ◆ Developer Contact Information: dawinstone@gmail.com
-  ◆ DAWiNSTONE Facebook: https://www.facebook.com/dawinstone
+  - Developer Contact Information: dawinstone@gmail.com
+  - DAWiNSTONE Facebook: [https://www.facebook.com/dawinstone](https://www.facebook.com/dawinstone)
+
+description-format: markdown
 
 tags:
   author:

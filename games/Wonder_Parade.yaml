@@ -2,16 +2,19 @@ name: Wonder Parade / 不可思议乐队
 
 description: |
   On a faraway fantastic planet, there are some cute and kind animals live off with joy from the music they play.
+  
   Come and join their cheerful marching band and search for more friends!
 
-  FEATURES
+  ##FEATURES
 
-  -One-time payment, no more in app purchase. Continued free updates with more features coming soon.
-  -Hand made characters and animations.
-  -Innovative playing style, easy to understand, adjusted for mobile devices.
-  -Original made cheerful soundtracks.
-  -Character and song unlock system.
-  -Basic, Advance, Expert difficulties.
+  - One-time payment, no more in app purchase. Continued free updates with more features coming soon.
+  - Hand made characters and animations.
+  - Innovative playing style, easy to understand, adjusted for mobile devices.
+  - Original made cheerful soundtracks.
+  - Character and song unlock system.
+  - Basic, Advance, Expert difficulties.
+
+description-format: markdown
 
 tags:
   author:

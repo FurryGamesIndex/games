@@ -13,7 +13,9 @@ description: |
 
   This game is not intended for children and may have some content that is inappropriate for children under the age of 13.
 
-  Privacy Policy: https://hyperbeard.com/privacy/
+  Privacy Policy: [https://hyperbeard.com/privacy/](https://hyperbeard.com/privacy/)
+
+description-format: markdown
 
 tags:
   author:

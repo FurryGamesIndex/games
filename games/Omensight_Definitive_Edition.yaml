@@ -2,27 +2,35 @@ name: 'Omensight: Definitive Edition'
 
 description: |
   Omensight is an Action Murder Mystery game and a spiritual successor to the award-winning Stories: The Path of Destinies.
+  
   You are the Harbinger, a mythical warrior who only appears in times of crisis. The land of Urralia is torn by war, and as night falls, you witness its destruction at the hands of a dark God. As the eyes and the sword of Urralia, it is up to you to reverse this fate. All you know is that it started with a mysterious murder.
   
-  KEY FEATURES
-  You are granted the power to relive the final day of Urralia. Lead the investigation as you decide how you spend each day.
-  Appear and fight alongside characters who played a part in the apocalypse.
-  Use your Omensight power to weave a new narrative, influencing characters to change their fate.
-  Through your decisions, your skills and your wits, change the course of the day and, perhaps, pave the way to a brighter future.
-  Featuring the top voice acting talents of Patricia Summersett (Zelda: Breath of the Wild) and Julian Casey (We Happy Few, Stories).
-  And a stellar writing team including Nadim Boukhira (Stories), Genese Davis (The Holder’s Dominion), and Chris Avellone (Planescape: Torment, Pillars of Eternity).
+  ##KEY FEATURES
+
+  - You are granted the power to relive the final day of Urralia. Lead the investigation as you decide how you spend each day.
+  - Appear and fight alongside characters who played a part in the apocalypse.
+  - Use your Omensight power to weave a new narrative, influencing characters to change their fate.
+  - Through your decisions, your skills and your wits, change the course of the day and, perhaps, pave the way to a brighter future.
+  - Featuring the top voice acting talents of Patricia Summersett (Zelda: Breath of the Wild) and Julian Casey (We Happy Few, Stories).
+  - And a stellar writing team including Nadim Boukhira (Stories), Genese Davis (The Holder’s Dominion), and Chris Avellone (Planescape: Torment, Pillars of Eternity).
   
-  MANIPULATE TIME
+  ##MANIPULATE TIME
+
   An innovative narrative experience, seamlessly blending interactive story with action gameplay. Witness the outcome of events from different perspectives, and affect the outcomes through your actions.
   
-  INVESTIGATE A MYSTERY
+  ##INVESTIGATE A MYSTERY
+
   Join a diverse cast of characters with mysterious roles to play in Urralia's story - and each other's.
   
-  CHANGE FATE
+  ##CHANGE FATE
+
   Learn key information about specific characters, then help or hinder them to prevent the end of the world.
   
-  SAVE URRALIA
+  ##SAVE URRALIA
+
   Fight using fluid, stylish combat that combines swordplay, magical abilities and time-manipulation.
+
+description-format: markdown
 
 tags:
   author:

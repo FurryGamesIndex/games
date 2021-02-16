@@ -1,25 +1,29 @@
 name: Changed
 
 description: |
-  Game Synopsis:
-  "Changed" is a difficult, action puzzle game with a lot of chase.
-  The protagonist of the game awakened in a strange room and came to an unfamiliar laboratory building.
-  In the adventure, he will encounter all kinds of unknown creatures, each of which can easily “plunder” his body.
-  He can only make constant explorations and try to walk out of this dangerous building.
-  In this deserted world, who is secretly guiding him to go out? Why is he trapped here? What happened to the outside world?
-  All kinds of mysteries are intricate and the truth will slowly emerge from the interaction and exploration.
+  ##Game Synopsis:
+
+  "Changed" is a difficult, action puzzle game with a lot of chase.  
+  The protagonist of the game awakened in a strange room and came to an unfamiliar laboratory building.  
+  In the adventure, he will encounter all kinds of unknown creatures, each of which can easily “plunder” his body.  
+  He can only make constant explorations and try to walk out of this dangerous building.  
+  In this deserted world, who is secretly guiding him to go out? Why is he trapped here? What happened to the outside world?  
+  All kinds of mysteries are intricate and the truth will slowly emerge from the interaction and exploration.  
   Of course, be careful not to get lost in this building...
   
-  Features Introduction:
-  * The protagonist can only use simple movements and sprints because he is the prey of all creatures.
-  * No props, even tools, all problems must be solved with wisdom and action.
-  * High game difficulty, Japanese fusion RPG and I WANNA games.
-  * 8-bit style music evokes childhood memories in a retro style.
-  * Difficult, suitable for players who are good at watching and daring to try.
-  * Understand the characteristics of creatures in one failure to escape them.
-  * Interactive traps, text eggs, CG plots, many investigable items for exploration.
-  * Multi-line outcomes, triggering different outcome lines based on interactions and investigations.
-  * Approximately six hours of playable length (if possible).
+  ##Features Introduction:
+
+  - The protagonist can only use simple movements and sprints because he is the prey of all creatures.
+  - No props, even tools, all problems must be solved with wisdom and action.
+  - High game difficulty, Japanese fusion RPG and I WANNA games.
+  - 8-bit style music evokes childhood memories in a retro style.
+  - Difficult, suitable for players who are good at watching and daring to try.
+  - Understand the characteristics of creatures in one failure to escape them.
+  - Interactive traps, text eggs, CG plots, many investigable items for exploration.
+  - Multi-line outcomes, triggering different outcome lines based on interactions and investigations.
+  - Approximately six hours of playable length (if possible).
+
+description-format: markdown
 
 tags:
   author:

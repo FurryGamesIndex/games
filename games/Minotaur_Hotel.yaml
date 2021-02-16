@@ -11,6 +11,8 @@ description: |
 
   If you find a bug the quickest, safest way to get back to the game is making a new save file. Do keep in mind the game has a Skip feature which allows you to go over previous content in a minute. Should you find a bug or typo which persists regardless of that, please use our Bug & Typo Report Form: https://forms.gle/9pY7r8jBXWi7Z2Wv9.
 
+description-format: markdown
+
 tags:
   author:
     - 'Minoh Workshop'

@@ -3,32 +3,42 @@ name: Kelipot / 形骸骑士
 description: |
   Kelipot is a story-driven action platformer with rogue-lite elements. Combining classic side-scrolling gameplay, a great variety of powers and a gripping plot from start to finish, immerse yourself in the adventure to come!
 
-  Many Paths Lie Before You
+  ##Many Paths Lie Before You
+
   Time and space intertwined, this journey will bring you across many timelines, into the Celephais of untold parallel worlds. Step through every corner of the fallen town. The tale has yet to be told, discover and unveil the truth buried within!
+  
   At present the game contains several dozen of monsters, 7 unique Bosses that branch into over ten different Boss battles. Depending on your choices and the development of the plot, each Boss fight may just change in unexpected ways!
 
-  Vast Array of Items at Your Disposal
+  ##Vast Array of Items at Your Disposal
+
   With over a hundred items and runes already in-game, pick and choose as you wish. Every item could offer you unique powers for an entire run. Collected runes may strengthen you permanently, choosing to activate a rune will further grant a variety of enhancements. Tired of swinging your sword? No problem, stomp those monsters flat instead!
 
-  Unique Experience of Action and Bullet Hell
+  ##Unique Experience of Action and Bullet Hell
+
   The gameplay blends side-scrolling combat with intricate elements of bullet hell. Sounds a little difficult? Fear not! Your plethora of items and mighty dashes will help you push through every obstacle.
 
-  Hand-Drawn Designs Presented with Style
+  ##Hand-Drawn Designs Presented with Style
+
   Created in an entirely hand-illustrated 2D style, every monster and character brought to life with detailed frame-by-frame animations. Presenting to you the most beautiful surroundings and vibrant characters!
 
-  Features
-  A cast of intriguing, lovable characters!
-  Every new discovery will empower you, be that finding a secret or winning someone’s favor.
-  The story unfolds, piece by piece as you set forth. We hope to bring you a stirring and entertaining experience.
-  Face wave after wave of dazzling barrages. Dash! Jump! Give it your all to take down every adversary standing before you!
-  Stylish staging and epic boss battles. What drove everyone to fall into madness? Only by defeating them will you find the answer.
-  “Are they friend or foe?” The choice is in your hands.
-  Every rune features something unique. Collect and activate them, they will enhance your powers.
-  Accompanied by a cinematic soundtrack.
+  ##Features
+
+  - A cast of intriguing, lovable characters!
+  - Every new discovery will empower you, be that finding a secret or winning someone’s favor.
+  - The story unfolds, piece by piece as you set forth. We hope to bring you a stirring and entertaining experience.
+  - Face wave after wave of dazzling barrages. Dash! Jump! Give it your all to take down every adversary standing before you!
+  - Stylish staging and epic boss battles. What drove everyone to fall into madness? Only by defeating them will you find the answer.
+  - “Are they friend or foe?” The choice is in your hands.
+  - Every rune features something unique. Collect and activate them, they will enhance your powers.
+  - Accompanied by a cinematic soundtrack.
   
-  Story and Setting
+  ##Story and Setting
+
   A mysterious plague befell the ancient town of Celephais without warning. In the hope of saving his brother, in the hope of rescuing all those lost to the madness, Prince Abel must venture alone into the fiend-infested ruins. Traverse countless parallel realms, search for the old friends who have survived, investigate the cause of the plague and uncover the answers behind every questions.
+  
   Time and space intertwined, this journey will bring you across many timelines, into the Celephais of untold parallel worlds. Step through every corner of the fallen town. The tale has yet to be told, discover and unveil the truth buried within! As for what awaits you at the end of the road, that will depend on the choices you make. Have no fear, however, for every run is a new beginning. You can visit any world, seek any number of outcomes as many times you wish. There is bound to be a conclusion to your liking. Kelipot may also satisfy your curiosity, be bold and try every possibility, there may just be some little surprises waiting for you.
+
+description-format: markdown
 
 tags:
   author:

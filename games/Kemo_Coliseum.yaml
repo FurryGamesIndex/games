@@ -7,6 +7,8 @@ description: |
 
   While the goal of the game is to win the tournament, there are many things for you to do before you continue to the next round. Helping people in the town by completing quests, finding rare items and improve your skill by exploring the dungeons, or build relationship with other contestants.
 
+description-format: markdown
+
 tags:
   author:
     - 'Dudedle Studio'

@@ -3,19 +3,25 @@ name: The Flower Collectors
 description: |
   A detective mystery set in the political powder-keg of Barcelona in 1977. You play Jorge, a retired policeman who uses a wheelchair, struggling with a difficult past. Alone on your balcony, you watch the world pass by through binoculars.
   
-  The mystery
+  ##The mystery
+
   One stormy night, you witness a murder. Determined to uncover the truth, you form an unlikely alliance with young ambitious journalist Melinda and start your investigation. 
+  
   Together, you’ll solve a complex mystery by unravelling the secrets of unsuspecting neighbours.
+  
   Inspired by classic crime noir films and games like Campo Santo's Firewatch, The Flower Collectors is a detective story with a whole lot of heart.
 
-  Features
-  Solve a captivating murder mystery with an unusual storyline
-  Meet a host of colourful anthropomorphic characters in a lush, atmospheric world
-  Investigate using your binoculars, camera and transmitter to uncover neighborhood secrets from your balcony
-  Create a crime chronology to figure out whodunnit
-  Interrogate priests, beggars, club singers and nosy old ladies alike
-  Dive into the unique setting of post-Franco Barcelona in the 70ies
-  Emphasizes characters, world building and narrative over skill challenges
+  ##Features
+
+  - Solve a captivating murder mystery with an unusual storyline
+  - Meet a host of colourful anthropomorphic characters in a lush, atmospheric world
+  - Investigate using your binoculars, camera and transmitter to uncover neighborhood secrets from your balcony
+  - Create a crime chronology to figure out whodunnit
+  - Interrogate priests, beggars, club singers and nosy old ladies alike
+  - Dive into the unique setting of post-Franco Barcelona in the 70ies
+  - Emphasizes characters, world building and narrative over skill challenges
+
+description-format: markdown
 
 tags:
   author:

@@ -3,17 +3,23 @@ name: Pervader
 description: |
   Pervader is a plot-heavy kinetic visual novel set on an island-continent which has its own history, myths and secrets. You play the role of Reamus, a young cougar who is thrust into a world of magic, politicking and sinister plots. The main character is joined by two companions whom you can get to know (very) intimately as you travel the world in search of a cure for a strange magical affliction which plagues you.
   
-  Background
+  ##Background
+
   This project is a first for me, and a big undertaking. Pervader has been bouncing in my mind for a few years now. Throughout this time it has undergone several minor, major and complete revisions. At one point it was supposed to be a comic, but the story has grown into a beast with many moving parts which requires a lot of text. Now I feel confident that I can carry this project further into something which other people can experience and enjoy as a (mostly) linear visual novel.
   
-  Project
+  ##Project
+
   As this is a one man team effort where I produce, design, draw, write, script and edit (music gets the royalty free treatment for now), there will likely be many stumbles along the way. Please be patient with me as I learn through managing this project.
+  
   During these first few months all releases will be made public as they are ready, just so we can hit the ground running. In the future, backers will receive 1-month early access to builds during which time I can further refine the update for the public release.
+  
   In addition to all this, backers will receive devlogs and work-in-progress teasers and snippets as they are being developed. Your feedback during this time is appreciated.
 
-  If you would like to support this project, please become a patron: https://www.patreon.com/pervader
+  If you would like to support this project, please become a patron: [https://www.patreon.com/pervader](https://www.patreon.com/pervader)
 
   Thank you and enjoy!
+
+description-format: markdown
 
 tags:
   author:

@@ -1,15 +1,17 @@
 name: With Horokeu Kamui / ホロケウカムイといっしょ
 
 description: |
-  Now that I'm here with you, you'll be a hero! The Summoner!
+  Now that I'm here with you, you'll be a hero! The Summoner!  
   Let's start by getting fit!
 
-  Lifewonders, an LGBT game app brand, presents
-  Produced by "Lifewonders", a publisher of LGBT game apps.
-  "Tokyo After School Summoners" spin-off app!
+  Lifewonders, an LGBT game app brand, presents  
+  Produced by "Lifewonders", a publisher of LGBT game apps.  
+  "Tokyo After School Summoners" spin-off app!  
   Work out with Horokeu Kamui and become a hero!
 
   (Translated from Japanese)
+
+description-format: markdown
 
 tags:
   author:

@@ -3,27 +3,34 @@ name: The Pirate's Fate
 description: |
   Come sail the Pirate's Fate! Experience the twists and turns of Mila's emotional journey as a member of the Dread Pirates. Prepare yourself for an intense visual novel experience featuring mirth, action, romance, philosophy and many transformations, with over three hundred choices within its branching plot paths. Can you protect everyone you care about? Can you collect all the coins, scattered to the ends of the Earth? Can you complete the journey without losing yourself in the process?
 
-  Story
+  ##Story
+
   In The Pirate's Fate, you play as Mila, the newest member of the Dread Pirates. You’ll navigate stormy seas, seedy saloons, and monstrous coves in search of loot. And be warned: you aren’t the only pirates seeking this treasure!  
 
-  Choices matter
+  ##Choices matter
+
   The choices you make alter Mila, the crew, and the story itself. Different plotlines and romances will become available depending on the paths you choose to take. Each plot path changes the relationship dynamics and the composition of your crew, as well as your place within it. Will you become a ruthless, cunning captain, or a diplomatic, peacemaking conciliator? 
 
-  Your actions will transform the crew, literally
+  ##Your actions will transform the crew, literally
+
   The magical treasure that the Dread Pirates seek is a set of coins that can transform whoever holds them; to let them “become what they seek." They might change in age, appearance, gender, personality, and species—and even rewrite their own past! There are over thirty-five unique transformations among the main cast, many of which showcase non-traditional body types and presentations.
 
-  Diverse Relationships
+  ##Diverse Relationships
+
   There are many ways to fall in love in The Pirate’s Fate. You can even fall for the same character in different ways, depending on the choices you’ve made, the way the story unfolds, and the sorts of transformations you’ve experienced. There are over forty different romance paths, representing a variety of relationships, including many across the LGBT spectrum.
 
-  Features
-  Over 300 choices across 8 unique plot lines
-  35+ transformations
-  190+ illustrated sequences
-  45 romances
-  190,000-word script
-  Partial voice acting
-  Soundtrack of 20+ original compositions
-  Unlockable gallery
+  ##Features
+
+  - Over 300 choices across 8 unique plot lines
+  - 35+ transformations
+  - 190+ illustrated sequences
+  - 45 romances
+  - 190,000-word script
+  - Partial voice acting
+  - Soundtrack of 20+ original compositions
+  - Unlockable gallery
+
+description-format: markdown
 
 tags:
   author:
