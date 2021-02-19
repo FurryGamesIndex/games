@@ -1,7 +1,8 @@
 name: The HeartBeat
 
 description: |
-  Description
+  ##Description
+
   Year 2077, New Dunk
 
   Citizens of dunk have forgotten the glory time with Mother God Buho. Instead, they have betrayed their believe by transferred their flesh body to mechanical parts, all senses are replaced by biomechanical signal transmission with the help of Molig, the oligarch of biomechanical technology company. While people enjoying their pleasure time as “the cyber-Ed”, they have no anticipation of the Armageddon of digital virus that comes from nowhere.
@@ -14,15 +15,19 @@ description: |
 
   （This game has multi-ending.）
 
-  Control
+  ##Control
+
   Space——Press the heart! We suggest press it when the slot is fully charged.
 
   WASD or ↑←↓→——Make your decision! Tell your secretary about your last decision for this city.
 
   The key is trying best to keep it alive on the same time dealing with all the files!
 
-  Setup
+  ##Setup
+
   Unzip the file and run TheHeartBeat.exe
+
+description-format: markdown
 
 tags:
   author:

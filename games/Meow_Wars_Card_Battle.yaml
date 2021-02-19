@@ -2,18 +2,26 @@ name: 'Meow Wars: Card Battle'
 
 description: |
   Meow Wars is a cat themed card battle game with easy to learn mechanics and charming hand drawn characters.  Battle your way through each challenger to reach Commander Catrat and free Claw Mountain from his iron fisted grip.  Each stage introduces a new cat and card ability in a compelling feline filled story.  Challenge your friends to a PVP duel or test your might against a global audience.  
-  MULTIPLAYER
+  
+  ##MULTIPLAYER
+
   - Challenge your friends to a PVP card battle!
   - Select from a cast of 8 characters and 7 arenas.
   - Hone your skills by training against our cat bot AI.
-  STORY MODE
+
+  ##STORY MODE
+
   - Extensive training from Lieutenant Luna prepares you for battle.
   - Meet all the cats in their natural habitat and be entertained with cat pun chatter.
-  FEATURES
+
+  ##FEATURES
+
   - Simple mechanics that are easy to learn - even for novices to the card battle genre.
   - 11 languages, including “Meow Meow” cat chatter.  Even your cat can play! 😻
   - 8 wonderfully hand drawn characters brought to life.
   - 8 ability cards that bring excitement to battles, introducing strategy and unpredictability.
+
+description-format: markdown
 
 tags:
   author:

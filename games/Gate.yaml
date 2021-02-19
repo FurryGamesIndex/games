@@ -1,38 +1,50 @@
 name: Gate / 揭谛
 
 description: |
-  [Game Description]
+  ##Game Description
 
   A homoerotic, text-based furry romance game produced independently by individuals.
+
   The game contains a small amount of blood, hunting, dark and homoerotic depictions.
 
-  [Background]
+  ##Background
 
   Around the year 2215, when the "genetic invasion" occurred, furries emerged rapidly in the world occupied by Homo sapiens.
+
   The furries exceeded the intelligence and physical abilities of Homo sapiens, and possessed a level of technology superior to Homo sapiens, who had to make up for their deficiency by transforming their bodies.
+
   By the year 3055, after two major wars, the world has evolved into a triumvirate of "two furries and one Homo sapien". The dozens of kingdoms of the Homo sapiens race unified into the "Homo Sapiens National Union (HSNU)", with an unparalleled culture. Furries who seek peace and common prosperity form the "Republic of Furries (RoF)", a secular state. The rebellious and autonomous furries established the "United Free Furries States (UFFS)" and developed cutting-edge technology.
+  
   On the surface, the three political and economic entities are thriving with frequent exchanges and cooperation, but behind the scenes, they are actually in turmoil and counterbalancing each other.
+  
   In the year 3059, a new civilian technology product is about to be released by UFFS, and the HSNU has also long been informed that the real purpose behind it is to show off and expand its military power.
+  
   Under this threat, a group of hackers hired by HSNU have secretly discovered that the most advanced technology of the furries is actually a set of supercomputing interactive modules "Infinity".
+  
   This is the first time that a team of hackers has been sent to the UFFS in an attempt to crack and master the core of the "Infinity" system.
 
-  [Gameplay]
+  ##Gameplay
 
   General text-based gameplay, with space or mouse for plot and related actions.
-  options are few and far between, with only the beginning (selecting the object of the strategy) and the end (selecting the ending).
+  
+  Options are few and far between, with only the beginning (selecting the object of the strategy) and the end (selecting the ending).
+  
   The title the player enters at the beginning does not affect the protagonist's name or the main course, but is not meaningless.
+  
   The game contains an extra content that will be unlocked after clearing a particular line.
 
-  [Game Features]
+  ##Game Features
 
-  The world of furries, Cyberpunk Worldview, Buddhist Thought and Traditional Chinese Culture
-  Unique narrative method, combination of multiple artistic expressions
+  - The world of furries, Cyberpunk Worldview, Buddhist Thought and Traditional Chinese Culture
+  - Unique narrative method, combination of multiple artistic expressions
 
-  [Thank you for your support]
+  ##Thank you for your support
 
   The game is an independent text-based game, with its own setting, script, copywriting, graphics and music, and is free to publish, although it does take a great deal of effort. The content of the game is not encrypted, if you use the pictures or music, please cite the source, or you can also contact me directly ~ of course, also look forward to comments and suggestions.
 
   (Translated from Chinese)
+
+description-format: markdown
 
 tags:
   author:

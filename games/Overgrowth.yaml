@@ -7,6 +7,8 @@ description: |
 
   After completing the story modes, you can try out all the mods that players have created with the integrated editor! If you want to play as a human character in a city, or try a whole new campaign, or even fly around as a bat, there's probably already a mod that makes that happen.
 
+description-format: markdown
+
 authors:
   - name: Wolfire Games
     role: [ producer ]

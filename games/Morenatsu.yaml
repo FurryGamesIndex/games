@@ -2,9 +2,14 @@ name: Morenatsu / 漏れなつ。
 
 description: |
   The game takes place during summer vacation in Japan.
+
   The protagonist-player, a human, gets a letter from a friend in the village where he spent his childhood, Minasato village (Minasato-mura). He moved away to the city five years ago. His grandparents currently live there, so he decides to return there for the summer.
+  
   At the bus stop in the village, he sees Torahiko, who was one of his childhood friends. Torahiko tells him that later there will be a welcome-back party for him at a restaurant. There the player is greeted by all his childhood friends. Then he must choose who he will sit with.
+  
   The player has one month to gain the affection of one of nine main characters. If the player makes the correct decisions, he and one of the characters will make love and establish a romantic relationship.
+
+description-format: markdown
 
 tags:
   author:

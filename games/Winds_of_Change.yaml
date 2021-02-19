@@ -3,43 +3,53 @@ name: Winds of Change
 description: |
   Winds of Change is a 2D Visual Novel/Point-and-Click Adventure Game set in a living, breathing fantasy world. Embark on the journey of a lifetime! Join The Rebellion, amass an army, and liberate the world! Fully voice acted, with romance options, side quests, and optional content! Inspired by Dragon Age and Mass Effect. A huge amount of dialogue choices let you role play exactly as you want! Huge conversational trees! A game-changing 2D adventure project!
   
-  STORY
+  ##STORY
+
   You are The Seer of Valinorth.
+  
   Blessed by the realm of spirits, you are given visions of the future in order to steer your nation's history down the right path. However, one night, a vision shakes the very foundation of everything you know. Forced to leave your home for good, you are thrust into the larger world of Alestia, and taken in by the arms of The Rebellion. Vying for freedom from the tyrannical rulers of the world – The Triumvirate -- The Rebellion fights for liberation.
+  
   At the center of this conflict is the mysterious “Blade of Exodus”. Once belonging to The Triumvirate themselves, it seems the key to victory may lie in using their own weapon against them. But who can wield an artifact of such immense power? Is victory really within reach, or will The Rebellion fall and be lost to history? The fate of everything rests on your shoulders alone, Seer.
+  
   Choose wisely, and enjoy your adventure...
   
-  FEATURES
-  In-Depth point and click interface!
-  Massive story line set in an incredible fantasy world!
-  Fully voice acted by a stellar cast! 
-  Bond with your comrades!
-  Pursue friendships, and even romances! (not limited by gender)
-  Non-linear story flow! Feel free to stop and explore!
-  Open world atmosphere. Return to past areas at any time!
-  Find hidden objects and books in the environment! Learn about the world!
-  Stop and chat with your party members at any time! 
-  Watch your party members interact with each other in skits! 
-  View parallel scenes taking place all across the world! Multiple stories at play! 
-  Experience side quests and optional stories!
+  ##FEATURES
+
+  - In-Depth point and click interface!
+  - Massive story line set in an incredible fantasy world!
+  - Fully voice acted by a stellar cast! 
+  - Bond with your comrades!
+  - Pursue friendships, and even romances! (not limited by gender)
+  - Non-linear story flow! Feel free to stop and explore!
+  - Open world atmosphere. Return to past areas at any time!
+  - Find hidden objects and books in the environment! Learn about the world!
+  - Stop and chat with your party members at any time! 
+  - Watch your party members interact with each other in skits! 
+  - View parallel scenes taking place all across the world! Multiple stories at play! 
+  - Experience side quests and optional stories!
   
-  ABOUT THE VOICE ACTING
+  ##ABOUT THE VOICE ACTING
+
   Winds of Change features a massive voice cast, featuring top talent from the industry!
+
   Voice actors in Winds of Change are best known for performing in franchises/games such as:
-  The Legend of Zelda
-  Persona 5
-  Fairy Tail
-  Hunter x Hunter
-  Danganronpa
-  Zero Escape
-  Gundam
-  Mob Psycho 100
-  One Punch Man
-  One Piece
-  Secret of Mana
-  Fire Emblem
-  Re:ZERO
-  Dust: An Elysian Tail
+  
+  - The Legend of Zelda
+  - Persona 5
+  - Fairy Tail
+  - Hunter x Hunter
+  - Danganronpa
+  - Zero Escape
+  - Gundam
+  - Mob Psycho 100
+  - One Punch Man
+  - One Piece
+  - Secret of Mana
+  - Fire Emblem
+  - Re:ZERO
+  - Dust: An Elysian Tail
+
+description-format: markdown
 
 tags:
   author:

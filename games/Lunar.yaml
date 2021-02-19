@@ -1,19 +1,23 @@
 name: Lunar
 
 description: |
-  Lunar is an episodic furry visual novel featuring:
-  A compelling story (40k words and counting) of suspense, romance and self-discovery
-  Dynamic dialogue system that you explore at your own pace
-  20 exquisitely rendered locations
-  7 unique musical scores
-  8 yiffable characters with animated interactive sex scenes
-  Select voice lines to draw you further into the drama
-  2 mini games
+  ##Lunar is an episodic furry visual novel featuring:
+
+  - A compelling story (40k words and counting) of suspense, romance and self-discovery
+  - Dynamic dialogue system that you explore at your own pace
+  - 20 exquisitely rendered locations
+  - 7 unique musical scores
+  - 8 yiffable characters with animated interactive sex scenes
+  - Select voice lines to draw you further into the drama
+  - 2 mini games
 
   Thank you for your interest in my little game!
+
   Ever since playing my very first yiffy flash game in the early 2000's, I have been looking for a game which still has 18+ content, but which also tells a story. Like others making visual novels, I want to know about the characters' hopes and fears. I want to help them solve problems, I want to understand their vast and expansive universe. I also want them to have fun while doing it!
 
   Your contributions will help me pay the talented artists, musicians and voice actors who have helped me turn an idea on paper into a living and breathing world. I hope you become as passionate about these characters as I have over the 2 years I have been developing this game!
+
+description-format: markdown
 
 tags:
   author:

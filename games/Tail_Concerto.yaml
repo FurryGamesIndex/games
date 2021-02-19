@@ -3,6 +3,8 @@ name: 'Tail Concerto / テイルコンチェルト'
 description: |
   Dogs and cats inhabit the world of Prairie. The dogs are the dominant group and have denied the cats representation in the government. The Black Cats is formed to get feline representation by any means necessary. Believing that five crystals scattered in Prairie hold the key to a utopia filled with catnip, the Black Cats go after them. If the crystals are gathered, they will awaken the Iron Giant who will destroy Prairie. You take the role of Waffle, who must stop the Black Cats and save the world. Luckily, he is equipped with a robotic suit that can immobilize fleeing cats with the bubble gun, allowing the arms to capture them. After a cat is captured, it is thrown into a teleporter and sent to jail. Will Waffle be able to stop the Black Cats before they find the crystals? Find out by playing Tail Concerto.
 
+description-format: markdown
+
 tags:
   author:
     - CyberConnect2

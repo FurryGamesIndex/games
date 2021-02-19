@@ -1,17 +1,25 @@
 name: DragonBlast
 
 description: |
-  What is DragonBlast?
+  ##What is DragonBlast?
+
   DragonBlast is an unfinished doujin fighting game for the PC that is designed to be simple, with great rewards for hard reads.
+
   Counterhits steal the opponent's meter as well as life, and are accompanied by very visible effects and slowdown whenever they occur. Matches are often very quick, and damage overall is high.
+
   The standard battle mode is a 2v2 tag battle, where if one character gets KO'd, you lose the match.
 
-  Playing Online
+  ##Playing Online
+
   The game has a full "endless mode" style lobby system like SF4, but only for 4 people.
+
   You can also use the IP_Connect option to host and connect to a room.
+
   The default port it uses for hosting is 7500.
 
-  (From: http://www.sf4remix.com/dragonblast/index.php)
+  (From: [http://www.sf4remix.com/dragonblast/index.php](http://www.sf4remix.com/dragonblast/index.php))
+
+description-format: markdown
 
 tags:
   author:

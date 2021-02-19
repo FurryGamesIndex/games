@@ -2,32 +2,43 @@ name: The Crown of Leaves
 
 description: |
   The Crown of Leaves is a hybrid of non-kinetic visual novel and point-n-click adventure, that will tell you a story about mysticism, riddles, constellations, anthro, beasts and ghosts!
+  
   Three chapters are planned for release; The first chapter has already been released - and it's here.
+  
   There are only two people that work on the game (+ a programmer and a composer) and non of them is professional in game development or programming. This is our first game.
 
-  Plot
+  ##Plot
+
   Roui, a resilient city dandy, a half-educated jeweler and the author of scientific magic articles, dealt with a colossal failure and had to return to his homeland: Latori. Science isn't a thing here, and local shoddy mystical beliefs are really irritating and dejecting to Roui. He dreams to return to his old life... But how can it be possible if you have no money? One day, a prosperous local baron commissioned him for a bracelet, a gift for his lovely bride. Roui, in need of the extra coin, graciously accepted the order... But not long afterward he faced a new problem - the Mad Rook, a legendary and mysterious spirit, began to meddle in the lives of the locals, including Roui's. This spirit, an entity that plays tricks on mortals once a year, is possessed with strange magic and a dark sense of humor.
+  
   Despite all the strangeness of the story, everyone can find something parallel to their everyday life and see themselves in one of the characters. This story will capture you and won't let you go until the very end. Turn your mind inside out through a twisted way!
 
-  Setting
+  ##Setting
+  
   Where is it set? The setting is a fictional world called Shang-La, a world of mixed cultures and eras, and home to various strange creatures. This is a place of old magic and new ideas, where science works together with mysticism. You can find glasses and phones, electricity and radio here, but no guns or television. The inhabitants of this world still fight with swords. The continent they live in is surrounded by the boundless ocean. The Sun and the Moon take turns alternating in the sky, and the stars are made of metal and hiding tons of secrets in them.
 
-  Who are the Sahash?
+  ##Who are the Sahash?
+  
   Sahash are the second intelligent race in Shang-La, alongside humans. They are divided into five nations, differing from each other by their physicality, shape of their horns, and muzzles. Every nation has its own unique traditions and culture: ranging from habits, religion, law, and even tastes in fashion and food.
+  
   Despite the complicated relationships between these ethnic groups of Sahash, as a whole they get along with humankind, and even try to emulate them in spite of their more animalistic nature.
 
-  Key features
-  Communicate with multiple characters, forge friendships, and make bitter enemies.
-  Collect and craft items!
-  Explore the world of Shang-La and meet unusual creatures, animals, spirits, and ghosts.
-  Choose who you wish to become - the hero or the villain.
-  Search for hidden clues to learn more about the game characters and plot!
+  ##Key features
 
-  In our game you will find:
-  Animated sprites
-  An original, richly-crafted world with intriguing concepts
-  Atmospheric OST
-  A few episodes of the game
+  - Communicate with multiple characters, forge friendships, and make bitter enemies.
+  - Collect and craft items!
+  - Explore the world of Shang-La and meet unusual creatures, animals, spirits, and ghosts.
+  - Choose who you wish to become - the hero or the villain.
+  - Search for hidden clues to learn more about the game characters and plot!
+
+  ##In our game you will find:
+
+  - Animated sprites
+  - An original, richly-crafted world with intriguing concepts
+  - Atmospheric OST
+  - A few episodes of the game
+
+description-format: markdown
 
 tags:
   author:

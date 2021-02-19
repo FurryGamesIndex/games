@@ -2,11 +2,16 @@ name: 心之符 / Notes of Hearts
 
 description: |
   《Notes of Hearts》 is a video game still in development which will be available both on Windows and Mac OS. The core-gameplay combines elements from the JRPG and Dating Simulator genres. The battle-system is turn-based and allows for party-based 3 vs 3 combat scenarios.
+  
   The story unfolds over the course of 6 chapters. Players will have to make decisive and meaningful decisions throughout the game, and their decisions will ultimately affect the outcome of the story. There will be new characters, new map and new dungeons in every chapter.
+  
   The player assumes the role of the protagonist of the story. At the beginning of the game, players can customize the sex and species of the protagonist. The game supports same sex relationship, which means that the gender of the protagonist won't affect the experience.
+  
   A colorful cast of characters will be recruitable for the protagonist's party, which expands through progression of the story, which allowing for diverse and unique approaches in terms of gameplay and replay value.
+  
   There are 11 dateable characters in total: 3 featured in the main story and 8 in side-stories.
 
+description-format: markdown
 
 tags:
   author:

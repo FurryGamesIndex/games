@@ -5,8 +5,10 @@ description: |
 
   Go to the hot spring, celebrate Christmas.
 
-  Multi-endings (Ending will change by your choices during the game)
-  Bonus function to change clothes
+  - Multi-endings (Ending will change by your choices during the game)
+  - Bonus function to change clothes
+
+description-format: markdown
 
 authors:
   - name: KAIJU-09

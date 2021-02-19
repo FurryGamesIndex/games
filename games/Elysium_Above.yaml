@@ -1,22 +1,33 @@
 name: Elysium Above 履云录
 
 description: |
-  !English Version is COMING SOON!
+  **English Version is COMING SOON**
   
-  About Elysium Above
+  ##About Elysium Above
+
   Elysium Above is a Wargame developed using Unity 3D.
   
-  Game Feature
+  ##Game Feature
+
   In the game, the player acts as a low level councellor in Bo, the small state by the East Sea, defending this newly recovered state against the onslaughts from enemies by excellent deployment and strategy, looking into the needs of every party and lead the story to different finales by your select.
+  
   This is a half-real-time game. Before using up the strategy points, a unit may move and use skills as your wish. But the more points you consume, the later next act will come. Keep your eyes on the Order of Action, and use your strategy to defeat all enemies. 
+  
   By arranging the active skills and passive skills of one character, he will join the battle acting different roles.
+  
   By gaining Complete Victory, joining the activities between battles, finishing side quests, recruiting new teammates and gaining cohesiveness, you may gain all kinds of benefits.
+  
   By travelling through Bo and collecting treasures, you may strengthen your teammates. Besides, some important items may affect the finale!
   
-  The Wanyan World
+  ##The Wanyan World
+  
   On the Wanyan Land, Wanyan, a country of enfeoffment, though having enjoyed a long time peace, is facing the fate of division. Wanyan's authority is declining since 800 years ago, and every feudal state fought each other. The warfare is crushing countless states and killing endless people.
+  
   Lu, a traditional military state, by annexing surrounding states, have already developed into a superpower within Wanyan. The newly born Seven State Alliance is at confrontation against Lu under Hong's leading, and has been integrating more states to join it. Between the two superpower there is the main stage of our story - Bo.
+  
   Bo was destroyed in Lu's sudden attack 11 years ago, and Kui the king ended his life with fire in Wanyang Palace, while older prince Huang Zhu escaped to Hong in the south with third prince. Later Bo was all annexed by Lu. 11 years later, Huang Zhu took the chance when Lu garrison didn't aware, led an army to fight back. Again the threat of warfare and death is hanging over the coast of the East Sea. Besides, many powers are arriving here with each one's own desire. Maybe this war of restoration is simply the beginning of a series of chaos...
+
+description-format: markdown
 
 authors:
   - name: Sweet Potato Studio

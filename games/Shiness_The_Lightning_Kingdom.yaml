@@ -3,18 +3,23 @@ name: 'Shiness: The Lightning Kingdom'
 description: |
   Shiness is an Action-RPG developed by indie development studio Enigami, which will let you travel in a captivating universe doomed to destruction ever since the fragmentation of the planet Mahera...
 
-  MAIN FEATURES
-  Travel through an enthralling and interactive world as Chado and his 4 companions, and develop your characters
-  Hyper-dynamic combat mixing magic with combos, parries, and blocks like a traditional arena fighter
-  Develop 2 types of skills (physical attacks and magic) and unlock new talents and spells 
-  Explore and interact with a vast world made of multiple environments thanks to you and your companions’ special powers and skills
-  Numerous quests and side-quests will give you the opportunity to develop your characters and their reputation
+  ##MAIN FEATURES
 
-  STORY
+  - Travel through an enthralling and interactive world as Chado and his 4 companions, and develop your characters
+  - Hyper-dynamic combat mixing magic with combos, parries, and blocks like a traditional arena fighter
+  - Develop 2 types of skills (physical attacks and magic) and unlock new talents and spells 
+  - Explore and interact with a vast world made of multiple environments thanks to you and your companions’ special powers and skills
+  - Numerous quests and side-quests will give you the opportunity to develop your characters and their reputation
+
+  ##STORY
+
   Play as Chado and his companions, and travel across the Celestial Islands onboard a flying boat.  After a rough landing on hostile territory, you find yourself in the midst of a power struggle between several kingdoms. Chado might be able to resolve this situation thanks to Shiness, a magical spirit that only he can see.
 
-  GAMEPLAY
+  ##GAMEPLAY
+
   Explore a large and captivating world with which you'll be able to interact thanks to the power of your 5 playable characters: crush a big rock using pure strength to enter a secret cave, or use telekinetic powers to activate some mechanisms and discover a back entry…  During your journey, you'll meet dozens of dangerous enemies with whom you'll have to face off during hyper-dynamic fights mixing magic, and traditional fighting game mechanics (hit, block, combos…).  Gain experience during those fights, while progressing in the storyline or by accomplishing numerous side quests.  Evolve your characters, learn new skills and spells, and become the hero who will unify the civilizations of Mahera.
+
+description-format: markdown
 
 tags:
   author:

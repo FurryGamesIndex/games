@@ -7,6 +7,8 @@ description: |
 
   NIGHT IN THE WOODS is an adventure game focused on exploration, story, and character, featuring dozens of characters to meet and lots to do across a lush, vibrant world. After a successful Kickstarter it's being made by Infinite Fall, a teamup of Alec Holowka (Aquaria), Scott Benson (Late Night Work Club), and Bethany Hockenberry.
 
+description-format: markdown
+
 tags:
   author:
     - 'Infinite Fall'

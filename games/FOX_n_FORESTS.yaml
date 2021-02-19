@@ -3,20 +3,27 @@ name: FOX n FORESTS
 description: |
   FOX n FORESTS is a 2D action platformer with RPG elements inspired by the glorious days of 16-bit! Switch between various seasons on the fly, shoot and slash with your magic melee crossbow and snatch valuable loot to unveil the mystery of the 5th seasons. A thrilling pixel art fable with rewarding super secrets, screen filling bosses and thriving exploration. This is 16-bit how you remember it!
   
-  5 SEASONS!
+  ##5 SEASONS!
+
   Switch between various seasons to explore new areas, outfox enemies and uncover amazing secrets.
   
-  MAGIC MELEE CROSSBOW!
+  ##MAGIC MELEE CROSSBOW!
+
   Wield a weapon like no other to shoot, slash, slide and switch seasons.
   
-  FOXTASTIC FABLE!
+  ##FOXTASTIC FABLE!
+
   Help Rick the Fox uncover the mystery of the 5th season and bring back justice to the forests and its inhabitants.
   
-  RETROTAINMENT!
+  ##RETROTAINMENT!
+
   16-bit how you remember it with gorgeous pixel art and a catchy chiptunes soundtrack.
   
-  ACTION PLATFORMER!
+  ##ACTION PLATFORMER!
+
   A thrilling adventure with engaging RPG elements, clever puzzles and pixel perfect platforming.
+
+description-format: markdown
 
 tags:
   author:

@@ -3,52 +3,76 @@ name: Chicken Police
 description: |
   Chicken Police - Paint it RED! is a narrative-driven noir adventure with a complex interrogation system and mystery-solving detective gameplay. 
   
-  KEY FEATURES:
-  A thrilling, rich storyline with a classic film-noir twist
-  Professional voiceover with more than 8 hours of spoken dialogue!
-  A carefully crafted, unique and "colorful" world
-  A complex interrogation system
-  30 fully voiced characters
-  A cinematic film-noir experience with more than 20 cutscenes!
-  Lots of clues, information, and collectibles to find
-  And a beautiful original soundtrack
+  ##KEY FEATURES:
 
-  STORY
-  A mysterious Dame...
-  A strange case...
-  and the wildest cops of the Wilderness!
+  - A thrilling, rich storyline with a classic film-noir twist
+  - Professional voiceover with more than 8 hours of spoken dialogue!
+  - A carefully crafted, unique and "colorful" world
+  - A complex interrogation system
+  - 30 fully voiced characters
+  - A cinematic film-noir experience with more than 20 cutscenes!
+  - Lots of clues, information, and collectibles to find
+  - And a beautiful original soundtrack
+
+  ##STORY
+
+  - A mysterious Dame...
+  - A strange case...
+  - and the wildest cops of the Wilderness!
   
-  MEET THE CHICKEN POLICE
+  ##MEET THE CHICKEN POLICE
+  
   Sonny Featherland and Marty MacChicken were once a legendary detective-duo, the Chicken Police. But that was almost a decade ago, and time had passed them by... Now, Sonny is just a semi-alcoholic wreck of a bird on his paid leave, while Marty still hides behind the facade of a star-detective. 
+  
   During their last case, they nearly killed each other, and they haven't spoken ever since... 
+  
   Now Sonny and Marty are forced to work together on a case that's weirder and wilder than anything they've ever encountered before!
   
-  FEATURES
-  NARRATIVE-DRIVEN, DETECTIVE GAMEPLAY
+  #FEATURES
+
+  ##NARRATIVE-DRIVEN, DETECTIVE GAMEPLAY
+
   Chicken Police is a story-rich, dialogue-heavy adventure, combining elements of the visual novels and classic adventure games. 
+
   The game has more than 30 characters to talk to, with some having to be seriously interrogated. 
+
   Collect tons of clues, evidence, and highly sensitive personal information from the shady characters of Clawville to use ruthlessly against them!
   
-  EXPLORE THE CITY OF CLAWVILLE (again, and again...)
+  ##EXPLORE THE CITY OF CLAWVILLE (again, and again...)
+
   There are more than 30 places to visit and some of them will change several times during the story. 
+
   You can return to previous locations on several occasions to find hidden secrets, meet new characters, or gather information about the world and its inhabitants.
   
-  A CINEMATIC EXPERIENCE
+  ##A CINEMATIC EXPERIENCE
+
   Chicken Police has a weirdly-stunning visual style made with the usage of real photos and photo-realistic 3D backgrounds, inspired by classic film-noir movies like The Big Sleep, Double Indemnity or Gilda and games like Grim Fandango, Policenauts, Snatcher, L.A.Noire, Aviary Attorney or the Tex Murphy series. The game was also heavily influenced by animated features like Porco Rosso, Fantastic Mr. Fox, and the series: BoJack Horseman. 
+  
   The noir mood is enhanced by an original musical score, backed up by professional voice acting from the studio that brought you the voices of The Wolf Among Us, Horizon Zero Dawn and Warhammer: End Times - Vermintide 2. 
+  
   The game is 100% voice-acted with more than 8+ hours of spoken dialogue!
   
-  CLAWVILLE NEVER SLEEPS
+  ##CLAWVILLE NEVER SLEEPS
+
   "This city never sleeps - they say. 
+
   Maybe that's why it is so cranky all the time." 
+
   The city of Clawville was built as an Edenic place, where predators and prey can live in peace. But the dream remained just a dream while Clawville slowly became the darkest corner of all the Wilderness.
+
   Chicken Police is a satire, which recalls the mood and atmosphere of the 40's film-noir classics, and as the best noirs and hardboiled detective stories, it's so gritty and hopeless, that it can only be served with a lot of cynical humor...
   
-  QUOTES ABOUT US
+  ##QUOTES ABOUT US
+
   FORBES: "It's also clear from the trailer that its dark story will be pretty funny, with plenty of scope to establish it as one of the more unique releases in its genre. Needless to say, there'll be absolutely nothing like it released during 2020, and hopefully, it'll be as brilliant as it is different."
+  
   DESCTRUCTOID: "I know I mostly cover animal-based games, but few have ever stopped me dead in my tracks like this one. I mean, did you hear that song in the trailer? That's original music, baby! I'm a sucker for games with quirky themes and original music, so of course, I took notice to this one straight away. Mix that with the animals-as-people motif and spot-on detective visuals, and yeah I didn't really stand a chance."
+  
   ROCK PAPER SHOTGUN: "Fortunately I’m batting my jet-lagged eyes at Chicken Police, an upcoming noir detective adventure with grizzled chickens and a very good raccoon. It’s a point and clicker, which means I’ll almost certainly never play it. But I’d still like you to revel in this trailer with me. It’s a cinematographic masterpiece."
+  
   ALPHA BETA GAMER: "It really nails the film noir vibe it’s going for. Meanwhile, the voice acting is excellent throughout, the story is interesting and the writing is very witty, packed full of cynical humor and animal-based puns. A ridiculous and riveting hardboiled detective adventure that will give you a clucking good time."
+
+description-format: markdown
 
 tags:
   author:

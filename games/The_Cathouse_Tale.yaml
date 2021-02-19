@@ -11,6 +11,8 @@ description: |
 
   Story progression and exploration - The Cathouse is a large place, and you start out at the bottom rung, with access to only one area. As you prove yourself, new areas of the building will be unlocked, and secrets will be revealed. Eventually, you will prove yourself worthy of the Owner, and become the Cathouse's elite international agent and the heir to the Owner.
 
+description-format: markdown
+
 tags:
   author:
     - 'The Cathouse Tale Team'

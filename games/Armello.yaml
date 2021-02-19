@@ -7,6 +7,8 @@ description: |
 
   Armello is League of Geeks’ attempt to revolutionise digital board and card games, whilst providing players a rich world within which they can craft their own stories of epic adventure. The aim was to create a rich game full of backstabbing, close shaves, shattered alliances, ruses and empty promises - a perfect game to play online with your friends.
 
+description-format: markdown
+
 tags:
   author:
     - 'League of Geeks'

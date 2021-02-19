@@ -2,14 +2,36 @@ name: Knights College
 
 description: |
   Knights College is an adult kemono visual novel set in a dormitory where elite knights-in-training live.
+
   In this game, the cards the main character collects as he lives in the dormitory will present all possible choices.
 
-  One day, Argo, a young man who lives in a rural fishing village, receives an admission letter to a place he never expected.
-  It is the Knights Training Organization’s “Knights College”, a place only those of noble blood lines and high status are allowed to enter.
-  Argo, who is just a commoner, was admitted because he has a special ability called “Cardification” sleeping within him.
-  As he lives in the elite knight’s dormitory, Argo will learn to use his ability and eventually become entangled in a certain event.
+  ##STORY
+
+  One day, a young man named Argo, who had been living a carefree life in a rural fishing village, receives a recommendation letter from an unexpected place.
+
+  It was from an elite training institute known as the “Knights College“.
+
+  The reason for the ordinary fisherman’s son’s recommendation is the special “cardification” ability sleeping within him.
+  
+  And so Argo sets off to live at the Knights College as he learns to use his ability.
+
+  ##CHARACTER
+
+  Living in the Knights College are students from the country of Frontail, where Argo is from, as well as students studying abroad from Frontail’s rival country, Harshreich.
+
+  There are many people living at the Knights College, including the professors in charge of lectures and training, as well as the dragon, the guardian deity of the country.
+
+  ##SYSTEM
+
+  The choices Argo may make are represented by all the cards he currently has in his possession.
+
+  The more cards you have, the more places you can go and the more you can communicate.
+
+  ##EXTRA
 
   In order for adult scenes to appear, the R18 patch must be applied. You can find it on the official website.
+
+description-format: markdown
 
 authors:
   - name: KAIJU-09

@@ -2,27 +2,35 @@ name: Salad Fields
 
 description: |
   Salad Fields is a DREAMYQUEER experience.
+
   In this adventure-puzzle game you explore surreal lands and meet strange folks...
 
-  Folks include:
-  -=-  Yippie the gay leather-mouse who bakes doughnuts using vegetables
-  -=-  Kizzy the computer who fears Y2K
-  -=-  Myrtyl the anti-cop queer skater punk
-  -=-  Fancy Andy the ampersand-shaped butler and wannabe beekeeper
-  -=-  3 "dudebirds" (dudebro + bird)
+  ##Folks include:
 
-  Two gameplay modes for flexible playstyles:
-  -=-  "Puzzle mode" provides challenge
-  -=-  "Exploration mode" lets you walk right through the puzzles, making the game's various bizarre worlds accessible to anyone (...anyone weird enough to play this game)
+  - Yippie the gay leather-mouse who bakes doughnuts using vegetables
+  - Kizzy the computer who fears Y2K
+  - Myrtyl the anti-cop queer skater punk
+  - Fancy Andy the ampersand-shaped butler and wannabe beekeeper
+  - 3 "dudebirds" (dudebro + bird)
 
-  *informercial voice* But how big is this game, you ask?! It's pretty goshdarn big. :O
-  -=-  Over 100 (ONE HUNDRED) puzzles!
-  -=-  30 music tracks, or over an hour of music!
-  -=-  A whole bunch'a locations and characters and things!
+  ##Two gameplay modes for flexible playstyles:
 
-  The devs:
+  - "Puzzle mode" provides challenge
+  - "Exploration mode" lets you walk right through the puzzles, making the game's various bizarre worlds accessible to anyone (...anyone weird enough to play this game)
+
+  ##*informercial voice* But how big is this game, you ask?! It's pretty goshdarn big. :O
+
+  - Over 100 (ONE HUNDRED) puzzles!
+  - 30 music tracks, or over an hour of music!
+  - A whole bunch'a locations and characters and things!
+
+  ##The devs:
+
   Resni is the creator of the unofficial cult-classic "Mibibli's Quest", and jars received their MFA and likes puzzles.
+
   We are also queer furries and a couple. Salad Fields might seem very silly (and it is) but we feel it reflects our truths as strange misfits in various ways. We hope that you find something in it you resonate with. :3
+
+description-format: markdown
 
 tags:
   author:

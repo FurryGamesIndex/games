@@ -7,13 +7,16 @@ description: |
 
   Stories: The Path of Destinies now runs on Unreal Engine 4.18 with enhanced graphics and better performance!
 
-  KEY FEATURES
-  Unique choice-based narrative in which players explore many different storylines to find the path to victory
-  Fluid and fast-paced combat blending acrobatic swordplay, grab attacks, special abilities, and more
-  Charming hand-drawn illustrations and a colorful storybook aesthetic
-  A deep skill tree where players can unlock powerful new abilities such as the Hookshot or even Time Mastery
-  An arsenal of magic-infused swords that can be crafted and upgraded
-  An original soundtrack that changes dynamically with every choice
+  ##KEY FEATURES
+
+  - Unique choice-based narrative in which players explore many different storylines to find the path to victory
+  - Fluid and fast-paced combat blending acrobatic swordplay, grab attacks, special abilities, and more
+  - Charming hand-drawn illustrations and a colorful storybook aesthetic
+  - A deep skill tree where players can unlock powerful new abilities such as the Hookshot or even Time Mastery
+  - An arsenal of magic-infused swords that can be crafted and upgraded
+  - An original soundtrack that changes dynamically with every choice
+
+description-format: markdown
 
 tags:
   author:
