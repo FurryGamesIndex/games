@@ -24,6 +24,7 @@ from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
 from fgi.link import uri_to_src
+from fgi.game.game_staging import Game
 
 def parse_description(game, fmt, game_id, mfac):
     if "description" not in game:
@@ -139,7 +140,7 @@ def load_game(dbdir, f, languages):
                 game["tr"][language] = yaml.safe_load(stream)
                 game["tr"][language]["mtime"] = os.path.getmtime(l10n_file)
 
-    return (game, game_id)
+    return (Game(game), game_id)
 
 def sorted_games_name(games):
     return sorted(games, key=lambda t: t.replace("_", "").upper())
