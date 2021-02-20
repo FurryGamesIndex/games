@@ -389,6 +389,15 @@ code {
 	flex: 1 0 auto;
 }
 
+.list-klasses {
+	border-collapse: separate;
+	border-spacing: 0 4px;
+}
+
+.list-klasses span {
+	margin: 2px 6px;
+}
+
 @media screen and (max-width: 940px){
 	.items>.item {
 		flex-flow: column nowrap;

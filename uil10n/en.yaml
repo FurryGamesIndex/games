@@ -129,3 +129,28 @@ author-role-scenographer: Scenographer
 author-role-translator: Translator
 author-role-publisher: Publisher
 author-role-others: Others
+
+list-klass-genre: "Genre:"
+list-klass-genre-all: All
+list-klass-genre-vn-ds: Visual Novel/Dating-sim
+list-klass-genre-action: Action
+list-klass-genre-rpg: Role Playing
+list-klass-genre-adventure: Adventure
+list-klass-genre-fighting: Fighting
+list-klass-genre-shooter: Shooter
+list-klass-genre-puzzle: Puzzle
+list-klass-genre-others: Others
+list-klass-orientation: "Orientation:"
+list-klass-orientation-all: All
+list-klass-orientation-bara: Gay
+list-klass-orientation-yuri: Lesbian
+list-klass-orientation-others: Others
+list-klass-platform: "Platform:"
+list-klass-platform-all: All
+list-klass-platform-desktop: Desktop
+list-klass-platform-mobile: Mobile
+list-klass-platform-console: Console
+list-klass-platform-others: Others
+list-klass-view: "View:"
+list-klass-view-standard: Standard
+list-klass-view-complex: Complex

@@ -1,4 +1,5 @@
 {% include 'header.html' %}
+{% include 'list-chain.html' %}
 <div class="items">
 {% for name, game in games %}
 {% set desc = get(game, lang, 'description') %}
