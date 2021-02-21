@@ -27,8 +27,13 @@ from fgi.image import HTMLImage, Image
 from fgi.utils.webutils import dl
 from fgi.utils import webp
 
-class HTMLMiscellaneousMedia:
+class HTMLBaseMedia:
+    def __init__(self):
+        self.sensitive = False
+
+class HTMLMiscellaneousMedia(HTMLBaseMedia):
     def __init__(self, outerHTML, sensitive):
+        super().__init__()
         self.outerHTML = outerHTML
         self.sensitive = sensitive
 
@@ -39,8 +44,9 @@ class HTMLMiscellaneousMedia:
         else:
             return self.outerHTML
 
-class HTMLImageMedia:
+class HTMLImageMedia(HTMLBaseMedia):
     def __init__(self, hi, sensitive):
+        super().__init__()
         self.hi = hi
         self.sensitive = sensitive
 
@@ -54,8 +60,9 @@ class HTMLImageMedia:
         else:
             return self.hi.with_rr(rr).html(alt=alt)
 
-class HTMLSteamWidgetMedia:
+class HTMLSteamWidgetMedia(HTMLBaseMedia):
     def __init__(self, swid):
+        super().__init__()
         self.id = swid
 
     def dom(self, rr, **kwargs):
