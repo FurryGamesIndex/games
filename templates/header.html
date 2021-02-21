@@ -16,7 +16,7 @@
 	<meta name="keywords" content="{{ ui.base_keywords }}">
 {% endif %}
 	<meta name="description" content="{{ ui.page_description }}">
-{% if noindex is defined %}
+{% if noindex is defined and noindex %}
 	<meta name="robots" content="noindex">
 {% endif %}
 	<link rel="stylesheet" href="{{ res(rr, '/styles/main.css', hc_uquery=os.path.getmtime(os.path.join(webrootdir, 'styles', 'main.css'))|int) }}">

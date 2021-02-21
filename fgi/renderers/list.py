@@ -248,6 +248,7 @@ class RendererList(Renderer):
                     if f.klass is not klass:
                         klassmagics[klass] += f.magic
 
+            context["noindex"] = (magic != "")
             context['klassmagics'] = klassmagics
             context["chain"] = chain
             context["chain_set"] = set(chain)
