@@ -21,3 +21,5 @@ description: |
 links-tr:
   "Get on Taptap": "在Taptap上获取"
   "Steam (Not released)": "Steam商店页面（尚未发布）"
+
+description-format: markdown

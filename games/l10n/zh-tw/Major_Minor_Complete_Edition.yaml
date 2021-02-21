@@ -26,3 +26,5 @@ description: |
   - 控制器支援
   - Steam 成就
   - Steam Link 和 Steam Overlay 支援
+
+description-format: markdown

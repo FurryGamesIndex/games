@@ -12,3 +12,5 @@ description: |
   與月兔一同展開驚喜探險，探索鄉村生活的所有美好。
 
   月兔冒險需要獲得對外部儲存器的讀寫訪問許可權才能將進度儲存在本地裝置上。
+
+description-format: markdown

@@ -10,3 +10,5 @@ description: |
 links-tr:
   "Get on DiGiket": "在 DiGiket 上獲取"
   "Get official English version on DLsite": "在 DLsite 上獲取官方英文版"
+
+description-format: markdown

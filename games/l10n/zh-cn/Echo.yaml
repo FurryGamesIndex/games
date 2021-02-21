@@ -14,3 +14,5 @@ description: |
 links-tr:
   "Unoffical Chinese patch (provided by 北极光汉化组)": "非官方中文补丁（由北极光汉化组提供）"
   "Unoffical Chinese patch (provided by 回音汉化组)": "非官方中文补丁（由回音汉化组提供）"
+
+description-format: markdown
