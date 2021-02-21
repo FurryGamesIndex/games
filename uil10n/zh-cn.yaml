@@ -142,8 +142,8 @@ list-klass-platform: 平台：
 list-klass-platform-all: 全部
 list-klass-platform-desktop: 桌面
 list-klass-platform-mobile: 移动
+list-klass-platform-web: Web
 list-klass-platform-console: 游戏机
-list-klass-platform-others: 其他
 list-klass-view: 视图：
 list-klass-view-standard: 标准
 list-klass-view-complex: 复杂

@@ -149,8 +149,8 @@ list-klass-platform: "Platform:"
 list-klass-platform-all: All
 list-klass-platform-desktop: Desktop
 list-klass-platform-mobile: Mobile
+list-klass-platform-web: Web
 list-klass-platform-console: Console
-list-klass-platform-others: Others
 list-klass-view: "View:"
 list-klass-view-standard: Standard
 list-klass-view-complex: Complex

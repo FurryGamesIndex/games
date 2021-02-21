@@ -173,6 +173,10 @@ class RendererList(Renderer):
             Tag("platform", "android"),
             Tag("platform", "ios"),
         ]))
+        klass_platform.add(ListFilterTag('W', "platform-web", tags=[
+            Tag("platform", "web"),
+            Tag("platform", "shockwave-flash"),
+        ]))
         klass_platform.add(ListFilterTag('C', "platform-console", tags=[
             Tag("platform", "nds"),
             Tag("platform", "2ds"),
@@ -192,7 +196,6 @@ class RendererList(Renderer):
             Tag("platform", "xbox-series-x"),
             Tag("platform", "xbox-series-s"),
         ]))
-        klass_platform.add(ListFilterAllNot('O', "platform-others", inputs=klass_platform.filters[1:].copy()))
 
         self.klasses.append(klass_platform)
 
