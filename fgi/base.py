@@ -19,128 +19,30 @@
 
 import os
 import yaml
-from html import escape
-from bs4 import BeautifulSoup
-from markdown2 import Markdown
 
-from fgi.link import uri_to_src
 from fgi.game.game_staging import Game
-
-def parse_description(game, fmt, game_id, mfac):
-    if "description" not in game:
-        return
-
-    desc = game["description"]
-
-    if fmt == "plain":
-        game["@desc_html"] = escape(desc).replace("\n", "<br>")
-    elif fmt == "markdown":
-        markdowner = Markdown(extras=["strike", "target-blank-links"],
-                inline_image_uri_filter = lambda uri: mfac.uri_to_html_image(uri, game_id).with_rr("../..").src)
-        game["@desc_html"] = markdowner.convert(desc)
-        game["description"] = BeautifulSoup(game["@desc_html"], features="html.parser").get_text()
-    else:
-        raise ValueError(f"description format invaild: {fmt}")
-
-def cook_game_add_auto_medias(game, mfac):
-    # FIXME: link search should be done in link.py after classfied it
-    if "links" in game and game.get("auto-steam-widget", True):
-        for i in game["links"]:
-            if i["name"] == ".steam":
-                if i["uri"].startswith("steam:"):
-                    swid = i["uri"].split(':', 1)[1]
-                    game["media"].append(mfac.create_media({
-                        "type": "steam-widget",
-                        "id": swid,
-                    }, game["id"]))
-                else:
-                    print("[warning] steam widget can not be added while not using the steam: URI.")
-
-def cook_game(game, tagmgr, mfac):
-    gameid = game["id"]
-
-    if "authors" in game:
-        if "author" in game["tags"]:
-            raise ValueError("authors property conflict #/tags/author namespace")
-
-        tmp = { "author": list() }
-        tmp.update(game["tags"])
-        game["tags"] = tmp
-        for i in game["authors"]:
-            if "standalone" not in i:
-                i["standalone"] = False
-            if i["standalone"]:
-                if "avatar" in i:
-                    i["hi_avatar"] = mfac.uri_to_html_image(i["avatar"], gameid)
-                if "link-uri" in i:
-                    i["link_href"] = uri_to_src(i["link-uri"])
-            else:
-                game["tags"]["author"].append(i["name"])
-
-    else:
-        # For games using legecy format or without author infomation,
-        # create a STUB authors property
-        game["authors"] = list()
-        for i in game["tags"].get("author", {}):
-            tmp = dict()
-            tmp["name"] = i
-            tmp["@stub"] = True
-            tmp["standalone"] = False
-            game["authors"].append(tmp)
-
-    tagmgr.check_and_patch(game)
-
-    if "description-format" not in game:
-        game["description-format"] = "plain"
-
-    parse_description(game, game["description-format"], gameid, mfac)
-
-    for ln, game_l10n in game["tr"].items():
-        parse_description(game_l10n, game["description-format"], gameid, mfac)
-
-    if "thumbnail" in game:
-        game["hi_thumbnail"] = mfac.uri_to_html_image(game["thumbnail"], gameid)
-
-    if "sensitive_media" in game:
-        print(f"[warning] game '{gameid}' is using deprecated property 'sensitive_media'. This property will be ignored.")
-        game["sensitive_media"] = False
-
-    game["media"] = list()
-
-    cook_game_add_auto_medias(game, mfac)
-
-    for i in game["screenshots"]:
-        game["media"].append(mfac.create_media(i, gameid))
-        if type(i) is not str and \
-                "sensitive" in i and \
-                i["sensitive"] == True:
-            game["sensitive_media"] = True
 
 def load_game(dbdir, f, languages):
     game = None
     fn = os.path.join(dbdir, f)
 
     if (not os.path.isfile(fn)) or (f[0] == '.'):
-        return (None, None)
+        return None
 
     game_id = os.path.splitext(f)[0]
 
     print("Loading %s" % fn)
     with open(fn) as stream:
-        game = yaml.safe_load(stream)
-        game["id"] = game_id
-        game["tr"] = {}
-        game["mtime"] = os.path.getmtime(fn)
+        game = Game(yaml.safe_load(stream), game_id, os.path.getmtime(fn))
 
     for language in languages:
         l10n_file = os.path.join(dbdir, "l10n", language, f)
         if os.path.isfile(l10n_file):
             print("Loading %s" % l10n_file)
             with open(l10n_file) as stream:
-                game["tr"][language] = yaml.safe_load(stream)
-                game["tr"][language]["mtime"] = os.path.getmtime(l10n_file)
+                game.add_l10n_data(language, yaml.safe_load(stream), os.path.getmtime(l10n_file))
 
-    return (Game(game), game_id)
+    return game
 
 def sorted_games_name(games):
     return sorted(games, key=lambda t: t.replace("_", "").upper())
@@ -158,14 +60,13 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
     games = {}
 
     for f in sorted_games_name(os.listdir(dbdir)):
-        game, game_id = load_game(dbdir, f, languages)
+        game = load_game(dbdir, f, languages)
 
         if game is None:
             continue
 
-        cook_game(game, tagmgr, mfac)
-
-        games[game_id] = game
+        game.realize(tagmgr, mfac)
+        games[game.id] = game
 
         for i in game["authors"]:
             if not i["standalone"]:
