@@ -14,7 +14,7 @@ You need Python 3.7 or later. (If you are using CPython, 3.6 is also acceptable)
 pip3 install --user pyyaml jinja2 requests Pillow beautifulsoup4
 ```
 
-Currently, a patched python-markdown2 (added [image filter supporting](https://github.com/FurryGamesIndex/python-markdown2/commit/51cab36062baa4a46a7a414c7c95bcbd161a1049)) is required to build FGI website.
+Currently, a [patched python-markdown2](https://github.com/FurryGamesIndex/python-markdown2) (added many features needed for FGI) is required to build FGI website.
 
 ```
 pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2

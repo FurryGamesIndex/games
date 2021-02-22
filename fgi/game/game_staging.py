@@ -42,7 +42,11 @@ class GameDescription:
             # FIXME: hardcode `../..` is not good
             #        we should embed a HTMLImage object into markdown
             # FIXME: should not use the src property, webp condation will be dropped.
-            markdowner = Markdown(extras=["strike", "target-blank-links"],
+            markdowner = Markdown(extras={
+                        "strike": None,
+                        "target-blank-links": None,
+                        "x-FGI-min-header-level": 2
+                    },
                     inline_image_uri_filter = lambda uri: mfac.uri_to_html_image(uri, self.game.id).with_rr("../..").src)
             self.html = markdowner.convert(self.text)
             self.text = BeautifulSoup(self.html, features="html.parser").get_text()
