@@ -34,32 +34,32 @@ class SearchDatabase:
         self.db[k] = v
 
     def update(self, game):
-        if 'expunge' in game or \
+        if game.expunge or \
                 self.no_data:
             return
 
-        for ns, tags in game["tags"].items():
+        for ns, tags in game.tags.items():
             for v in tags:
                 tag = ns + ":" + v
                 if tag not in self.db["rtag"]:
                     self.db["rtag"][tag] = []
-                self.db["rtag"][tag].append(game["id"])
+                self.db["rtag"][tag].append(game.id)
 
         data = {}
         data["tr"] = {}
-        data["name"] = game["name"]
-        data["description"] = game["description"]
-        data["thumbnail"] = game["hi_thumbnail"].dict()
-        data["mtime"] = game["mtime"]
+        data["name"] = game.name
+        data["description"] = game.description.text
+        data["thumbnail"] = game.thumbnail.dict()
+        data["mtime"] = game.mtime
 
-        for lang in game["tr"]:
+        for lang in game.tr:
             data["tr"][lang] = {}
-            if "name" in game["tr"][lang]:
-                data["tr"][lang]["name"] = game["tr"][lang]["name"]
-            if "description" in game["tr"][lang]:
-                data["tr"][lang]["description"] = game["tr"][lang]["description"]
+            if game.tr[lang].name:
+                data["tr"][lang]["name"] = game.tr[lang].name
+            if game.tr[lang].description:
+                data["tr"][lang]["description"] = game.tr[lang].description.text
 
-        self.db["data"][game["id"]] = data
+        self.db["data"][game.id] = data
 
     def write_to_file(self, output):
         if not self.no_data:

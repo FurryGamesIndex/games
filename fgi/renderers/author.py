@@ -21,7 +21,6 @@ import os
 import re
 from fgi.base import make_wrapper
 from fgi.renderer import Renderer
-from fgi.i18n import get, get_mtime
 from fgi.link import link_info
 from fgi.seo import keywords
 
@@ -31,7 +30,6 @@ class RendererAuthor(Renderer):
 
         self.basectx = {
             "rr": "../..",
-            "get": get,
             "link_info": make_wrapper(link_info, self.fctx),
         }
 

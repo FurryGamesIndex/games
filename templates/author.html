@@ -3,10 +3,10 @@
 	<div class="leftbox">
 		<div class="items">
 			{% for game in author.games %}
-			{% set desc = get(game, lang, 'description') %}
-			{% set game_name = get(game, lang, 'name') %}
+			{% set desc = game.get_description(lang).html %}
+			{% set game_name = game.get_name(lang) %}
 			<div class="item">
-				{{ game.hi_thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game_name) }}
+				{{ game.thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game_name) }}
 				<div class="content">
 				<div class="name"><a href="{{ rr }}/{{ lang }}/games/{{ game.id }}.html">{{ game_name|e }}</a></div>
 				<div class="description">{{ (desc[:240] + (desc[240:] and '...'))|e }}</div>

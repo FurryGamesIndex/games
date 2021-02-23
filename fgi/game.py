@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # 
-# Copyright (C) 2020 Utopic Panther
+# Copyright (C) 2021 Utopic Panther
 # 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -21,8 +21,17 @@ from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
-from .tag import Tag
 from fgi.link import uri_to_src
+
+class Tag:
+    def __init__(self, ns, value):
+        self.ns = ns
+        self.value = value
+
+    @staticmethod
+    def from_string(string):
+        tmp = string.split(":", 1)
+        return Tag(tmp[0], tmp[1])
 
 class GameDescription:
     def __init__(self, game, data):
@@ -53,33 +62,30 @@ class GameDescription:
         else:
             raise ValueError(f"description format invaild: {fmt}")
 
-class GameL10n(dict):
+class GameL10n:
     def __init__(self, game, data, mtime):
         super().__init__()
-        self.update(data)
 
         self.mtime = mtime
+        self.name = None
         self.description = None
-        self.thumbnail_uri = None
+        self.links_tr = dict()
 
-        self["mtime"] = self.mtime
+        if "name" in data:
+            self.name = data["name"]
 
         if "description" in data:
             self.description = GameDescription(game, data)
 
-class Game(dict):
+        if "links-tr" in data:
+            self.links_tr = data["links-tr"]
+
+class Game:
     def __init__(self, data, gid, mtime):
         super().__init__()
-        self.update(data)
-
         self.tr = dict()
         self.id = gid
         self.mtime = mtime
-
-        # TODO: compat code should be removed in future.
-        self["tr"] = self.tr
-        self["id"] = self.id
-        self["mtime"] = self.mtime
 
         self.tags = data["tags"]
 
@@ -87,7 +93,17 @@ class Game(dict):
         if "authors" in data:
             self.authors = data["authors"]
 
+        self.name = data["name"]
         self.description = GameDescription(self, data)
+
+        self.expunge = False
+        if "expunge" in data and data["expunge"]:
+            self.expunge = True
+
+        self.replaced_by = None
+        self._replaced_by_gid = None
+        if "replaced-by" in data:
+            self._replaced_by_gid = data["replaced-by"]
 
         self.links = list()
         self.screenshots = list()
@@ -103,11 +119,6 @@ class Game(dict):
 
         if "sensitive_media" in data:
             print(f"[warning] game '{self.id}' is using deprecated property 'sensitive_media'. This property will be ignored.")
-            # TODO: compat code should be removed in future.
-            self["sensitive_media"] = False
-
-        # TODO: compat code should be removed in future.
-        self["media"] = self.media
 
         self.sensitive_media = False
         self.auto_steam_widget = data.get("auto-steam-widget", True)
@@ -115,7 +126,10 @@ class Game(dict):
     def add_l10n_data(self, ln, data, mtime):
         self.tr[ln] = GameL10n(self, data, mtime)
 
-    def realize(self, tagmgr, mfac):
+    def realize(self, games, tagmgr, mfac):
+        if self._replaced_by_gid:
+            self.replaced_by = games[self._replaced_by_gid]
+
         if self.authors:
             if "author" in self.tags:
                 raise ValueError("authors property conflict #/tags/author namespace")
@@ -123,7 +137,7 @@ class Game(dict):
             tmp = { "author": list() }
             tmp.update(self.tags)
             self.tags = tmp
-            self["tags"] = tmp
+
             # FIXME: create a GameAuthor class
             for i in self.authors:
                 if "standalone" not in i:
@@ -140,8 +154,7 @@ class Game(dict):
             # For games using legecy format or without author infomation,
             # create a STUB authors property
             self.authors = list()
-            # TODO: compat code should be removed in future.
-            self["authors"] = self.authors
+
             for i in self.tags.get("author", {}):
                 tmp = dict()
                 tmp["name"] = i
@@ -156,17 +169,8 @@ class Game(dict):
             if gl10n.description:
                 gl10n.description.realize(mfac)
 
-                # TODO: compat code should be removed in future.
-                gl10n["@desc_html"] = gl10n.description.html
-                gl10n["description"] = gl10n.description.text
-        self["@desc_html"] = self.description.html
-        self["description"] = self.description.text
-
         if self.thumbnail_uri:
             self.thumbnail = mfac.uri_to_html_image(self.thumbnail_uri, self.id)
-
-            # TODO: compat code should be removed in future.
-            self["hi_thumbnail"] = self.thumbnail
 
         if self.auto_steam_widget:
             for i in self.links:
@@ -186,9 +190,29 @@ class Game(dict):
             if media.sensitive:
                 self.sensitive_media = True
 
-        # TODO: compat code should be removed in future.
-        self["sensitive_media"] = self.sensitive_media
+    def _get(self, ln: str, key: str):
+        if ln in self.tr:
+            l10n_value = getattr(self.tr[ln], key)
+            if l10n_value:
+                return l10n_value
+
+        return getattr(self, key)
+
+    def get_name(self, ln: str) -> str:
+        return self._get(ln, "name")
+
+    def get_description(self, ln: str) -> GameDescription:
+        return self._get(ln, "description")
+
+    def get_mtime(self, ln: str) -> int:
+        if ln in self.tr:
+            return max(self.tr[ln].mtime, self.mtime)
+        else:
+            return self.mtime
+
+    def check_tag(self, ns: str, value: str) -> bool:
+        return ns in self.tags and \
+                value in self.tags[ns]
 
     def has_tag(self, tag: Tag) -> bool:
-        return tag.ns in self["tags"] and \
-                tag.value in self["tags"][tag.ns]
+        return self.check_tag(tag.ns, tag.value)

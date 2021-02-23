@@ -25,7 +25,7 @@ def preprocess_keywords(ui):
         ui["kwd_" + i] = ui["_kwd_" + i] + ui["kwd_" + i]
 
 def game_page_extra_keywords(game, ui):
-    tags = game["tags"]
+    tags = game.tags
     kwds = []
     if "bara" in tags.get("type", {}):
         kwds += ui["kwd_gay"]

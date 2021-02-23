@@ -19,15 +19,13 @@
 
 import os
 import re
+from html import escape
+
 from fgi.base import make_wrapper
 from fgi.renderer import Renderer
-from fgi.i18n import get, get_mtime
 from fgi.link import link_info
 from fgi.seo import keywords
 from fgi.misc.icon import platform_icons
-
-def checktag(game, namespace, value):
-    return value in game["tags"].get(namespace, {})
 
 class RendererGame(Renderer):
     def __init__(self, *args, **kwargs):
@@ -35,9 +33,7 @@ class RendererGame(Renderer):
 
         self.basectx = {
             "rr": "../..",
-            "get": get,
             "link_info": make_wrapper(link_info, self.fctx),
-            "checktag": checktag,
             "platform_icons": platform_icons
         }
 
@@ -55,17 +51,17 @@ class RendererGame(Renderer):
         return self.context.copy()
 
     def author_widget(self, game):
-        name = game["id"]
+        name = game.id
         data = {}
         ga = {}
 
-        for author in game["authors"]:
+        for author in game.authors:
             aname = author["name"]
             if aname in self.authors:
                 tmp = self.authors[aname]["games"]
 
                 for g in tmp:
-                    i = g["id"]
+                    i = g.id
                     if i != name:
                         if i not in ga:
                             ga[i] = set()
@@ -87,29 +83,22 @@ class RendererGame(Renderer):
         context["name"] = gid
         context["author_widget"] = self.author_widget(game)
 
-        if 'expunge' in game:
+        if game.expunge:
             context["noindex"] = True
 
         meta = dict()
-        meta["title"] = get(game, self.language, 'name')
-        desc = get(game, self.language, 'description')[:200].replace('\n', '') + "..."
-        meta["description"] = re.sub(r'<[^<]*>', '', desc)
-        meta["image"] = game["hi_thumbnail"].with_rr(context["rr"]).src
+        meta["title"] = game.get_name(self.language)
+        meta["description"] = escape(game.get_description(self.language).text[:200].replace('\n', '') + "...")
+        meta["image"] = game.thumbnail.with_rr(context["rr"]).src
         meta["extra_keywords"] = keywords.game_page_extra_keywords(game, context["ui"])
         context["meta"] = meta
-
-        if 'replaced-by' in game:
-            rbgame = self.games[game['replaced-by']]
-            context["rbgame"] = rbgame
 
         return self.env.get_template("game.html").render(context)
 
     def render(self):
         for gid, game in self.games.items():
-            nosm = 'expunge' in game
-
-            with self.sm_openw("games", gid + ".html", sm = not nosm,
-                    priority="0.7", lastmod_ts=get_mtime(game, self.language)) as f:
+            with self.sm_openw("games", gid + ".html", sm = not game.expunge,
+                    priority="0.7", lastmod_ts=game.get_mtime(self.language)) as f:
                 f.write(self.render_game(gid, game))
 
 impl = RendererGame

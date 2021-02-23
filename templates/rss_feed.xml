@@ -7,14 +7,14 @@
 <copyright>FurryGamesIndex project. All rights reserved</copyright>
 <ttl>1800</ttl>
 {% for name, game in games %}
-{% set game_name = get(game, lang, 'name') %}
+{% set game_name = game.get_name(lang) %}
 {% set guid = "https://furrygamesindex.github.io/" ~ lang ~ "/games/" ~ name ~ ".html" %}
 {% set www_link = "https://furrygames.top/" ~ lang ~ "/games/" ~ name ~ ".html" %}
 <item>
 <title>{{ game_name|e }}</title>
 <description><![CDATA[
-	{{ game.hi_thumbnail.with_rr(rr).html(use_picture=False) }}<br><br>
-	{{ get(game, lang, 'description')|e|replace('\n', '<br>') }}<br><br>
+	{{ game.thumbnail.with_rr(rr).html(use_picture=False) }}<br><br>
+	{{ game.get_description(lang).text|e|replace('\n', '<br>') }}<br><br>
 	<a href="{{ www_link }}">{{ www_link }}</a>
 ]]></description>
 <link>{{ www_link }}</link>

@@ -56,7 +56,10 @@ def link_info(fctx, link, l10n_data, ui_l10n_data, language):
             icon = icons[name[1:]]
         a["content"] = ui_l10n_data["stock-link-" + name[1:]]
     else:
-        l10n_name = l10n_data.get(language, {}).get("links-tr", {}).get(name)
+        l10n_name = None
+        if language in l10n_data:
+            l10n_name = l10n_data[language].links_tr.get(name)
+
         if l10n_name is not None:
             a["content"] = l10n_name
         else:

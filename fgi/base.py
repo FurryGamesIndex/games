@@ -20,7 +20,7 @@
 import os
 import yaml
 
-from fgi.game.game_staging import Game
+from fgi.game import Game
 
 def load_game(dbdir, f, languages):
     game = None
@@ -51,10 +51,10 @@ def sorted_games(games):
     return dict(sorted(games.items(), key=lambda t: t[0].replace("_", "").upper()))
 
 def sorted_games_by_mtime(games):
-    return dict(sorted(games.items(), key=lambda t: t[1]["mtime"], reverse=True))
+    return dict(sorted(games.items(), key=lambda t: t[1].mtime, reverse=True))
 
 def strip_games_expunge(games):
-    return { k: v for k, v in games.items() if "expunge" not in v }
+    return { k: v for k, v in games.items() if not v.expunge }
 
 def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
     games = {}
@@ -62,13 +62,13 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
     for f in sorted_games_name(os.listdir(dbdir)):
         game = load_game(dbdir, f, languages)
 
-        if game is None:
-            continue
+        if game:
+            games[game.id] = game
 
-        game.realize(tagmgr, mfac)
-        games[game.id] = game
+    for _, game in games.items():
+        game.realize(games, tagmgr, mfac)
 
-        for i in game["authors"]:
+        for i in game.authors:
             if not i["standalone"]:
                 name = i["name"]
                 if name not in authors:

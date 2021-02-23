@@ -1,5 +1,5 @@
 <div class="game_logo">
-	{{ game.hi_thumbnail.with_rr(rr).html(node_class="thumbnail", alt=get(game, lang, 'name')) }}
+	{{ game.thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game.get_name(lang)) }}
 	<div class="platforms">
 	{% if "platform" in game.tags %}{% for i in game.tags.platform %}
 	{% if i in platform_icons %}

@@ -24,9 +24,8 @@ from datetime import datetime, timezone
 import email.utils
 
 from fgi.renderer import Renderer
-from fgi.i18n import get
 from fgi.base import sorted_games_by_mtime, strip_games_expunge, make_wrapper
-from fgi.game.tag import Tag
+from fgi.game import Tag
 from fgi.link import link_info
 from fgi.misc.icon import platform_icons
 
@@ -36,8 +35,8 @@ def ts_to_rfc5322(ts):
 
 def list_games(games, chain):
     for gid, game in games.items():
-        if "replaced-by" in game \
-                or "expunge" in game:
+        if game.expunge or \
+                game.replaced_by:
             continue
 
         ignored_by_filter = False
@@ -111,7 +110,6 @@ class RendererList(Renderer):
         self.basectx = {
             "rr": "..",
             "active_list": "actived",
-            "get": get,
             "ts_to_rfc5322": ts_to_rfc5322,
             "link_info": make_wrapper(link_info, self.fctx),
             "platform_icons": platform_icons,

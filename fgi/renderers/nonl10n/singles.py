@@ -19,7 +19,7 @@
 
 import os
 from fgi.renderer import Renderer
-from fgi.i18n import get, conv_doc_markdown
+from fgi.i18n import conv_doc_markdown
 
 class RendererSingles(Renderer):
     def __init__(self, *args, **kwargs):
@@ -28,7 +28,6 @@ class RendererSingles(Renderer):
         self.basectx = {
             "rr": ".",
             "lang": "en",
-            "get": get
         }
 
     def render(self):

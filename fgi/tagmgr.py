@@ -98,24 +98,24 @@ class TagManager:
             for j in self.tagdep[ns][i]:
                 if ":" in j:
                     nns, j = j.split(":")
-                    if nns not in game["tags"]:
-                        game["tags"] = {}
-                    game["tags"][nns].append(j)
+                    if nns not in game.tags:
+                        game.tags[nns] = dict()
+                    game.tags[nns].append(j)
                 else:
                     v.append(j)
 
     def check_and_patch(self, game):
-        for ns, v in game["tags"].items():
+        for ns, v in game.tags.items():
             if ns in self.tagdep:
                 self._patch_ns(game, ns, v)
 
         for i in ["type", "author", "lang", "platform"]:
-            if i not in game["tags"]:
-                print("[warning] missing %s namespace for game '%s'" % (i, game["id"]))
+            if i not in game.tags:
+                print("[warning] missing %s namespace for game '%s'" % (i, game.id))
 
-        for ns in game["tags"]:
+        for ns in game.tags:
             if ns != "author":
-                v = list(set(game["tags"][ns]))
+                v = list(set(game.tags[ns]))
 
                 def sort_tag(i):
                     if i not in self.tags[ns]:
@@ -124,4 +124,4 @@ class TagManager:
                     return self.tags[ns][i]
 
                 v = sorted(v, key=sort_tag)
-                game["tags"][ns] = v
+                game.tags[ns] = v

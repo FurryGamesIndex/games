@@ -74,20 +74,6 @@ def uil10n_load_language(fctx, l10ndir, base_l10n, language):
     return ui
 
 
-def get(game, language, key):
-    l10n_value = game["tr"].get(language, {}).get(key)
-    if l10n_value is not None:
-        return l10n_value
-    else:
-        return game[key]
-
-def get_mtime(game, language):
-    if language in game["tr"]:
-        return max(game["tr"][language]["mtime"], game["mtime"])
-    else:
-        return game["mtime"]
-
-
 doc_markdowner = Markdown(extras=["tables", "metadata"])
 doc_md_cache = dict()
 

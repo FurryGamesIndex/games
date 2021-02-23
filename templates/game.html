@@ -1,38 +1,38 @@
 {% include 'header.html' %}
 <div class="default topbox">
-{% if checktag(game, "sys", "staging") %}
+{% if game.check_tag("sys", "staging") %}
 	<div class="box warning">{{ ui.warnbox_staging }}</div>
 {% endif %}
-{% if checktag(game, "sys", "tagme") %}
+{% if game.check_tag("sys", "tagme") %}
 	<div class="box notice">{{ ui.noticebox_tagme }}</div>
 {% endif %}
-{% if 'replaced-by' in game %}
-	<div class="box notice">{{ ui.noticebox_replacedby % (rbgame.id + ".html", get(rbgame, lang, 'name')|e) }}</div>
+{% if game.replaced_by %}
+	<div class="box notice">{{ ui.noticebox_replacedby % (game.replaced_by.id + ".html", game.replaced_by.get_name(lang)|e) }}</div>
 {% endif %}
-{% if 'expunge' in game %}
+{% if game.expunge %}
 	<div class="box warning">{{ ui.warnbox_expunge }}</div>
 {% endif %}
 </div>
 <div class="game">
 	<div class="leftbox">
-		<h1>{{ get(game, lang, 'name')|e }}</h1>
+		<h1>{{ game.get_name(lang)|e }}</h1>
 		<div class="onmobile">{% include 'game_logo.html' %}</div>
-		<div class="description">{{ get(game, lang, '@desc_html') }}</div>
+		<div class="description">{{ game.get_description(lang).html }}</div>
 		<div class="onmobile">{% include 'game_links.html' %}</div>
 		{% include 'game_authors.html' %}
 		{% include 'game_tags.html' %}
 		<div class="opts">
 			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml"><i class="fas fa-edit fa-fw"></i><span>{{ ui.game_edit }}</span></a>
-			<a href="https://twitter.com/intent/tweet?&text={{ ui.game_share_twitter_text.format(name=get(game, lang, 'name'))|urlencode }}&url={{ ("https://furrygames.top/" + lang + "/games/" + name + ".html")|urlencode }}&hashtags=furrygamesindex,furry,game&via=UtopicPanther" target="_blank"><i class="fab fa-twitter fa-fw"></i><span>{{ ui.game_share_twitter }}</span></a>
+			<a href="https://twitter.com/intent/tweet?&text={{ ui.game_share_twitter_text.format(name=game.get_name(lang))|urlencode }}&url={{ ("https://furrygames.top/" + lang + "/games/" + name + ".html")|urlencode }}&hashtags=furrygamesindex,furry,game" target="_blank"><i class="fab fa-twitter fa-fw"></i><span>{{ ui.game_share_twitter }}</span></a>
 		</div>
 		<div class="screenshots">
-		{% if "sensitive_media" in game %}
+		{% if game.sensitive_media %}
 			<div class="warning box" id="sensitive_media_warn">
 				{{ ui.game_sensitive_warning % (rr, lang) }}
 			</div>
 		{% endif %}
 		{% for i in game.media %}
-		{{ i.dom(rr, alt=get(game, lang, 'name')) }}
+		{{ i.dom(rr, alt=game.get_name(lang)) }}
 		{% endfor %}
 		</div>
 		<div class="onmobile">{% include 'game_author_widget.html' %}</div>
