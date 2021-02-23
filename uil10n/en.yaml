@@ -151,6 +151,11 @@ list-klass-platform-desktop: Desktop
 list-klass-platform-mobile: Mobile
 list-klass-platform-web: Web
 list-klass-platform-console: Console
+list-klass-status: "Status:"
+list-klass-status-all: All
+list-klass-status-released: Released
+list-klass-status-wip: Ongoing
+list-klass-status-died: Dead
 list-klass-view: "View:"
 list-klass-view-standard: Standard
 list-klass-view-complex: Complex

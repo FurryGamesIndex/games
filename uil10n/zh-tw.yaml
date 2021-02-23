@@ -148,6 +148,11 @@ list-klass-platform-desktop: 桌面裝置
 list-klass-platform-mobile: 移動裝置
 list-klass-platform-web: Web
 list-klass-platform-console: 遊戲機
+list-klass-status: 狀態：
+list-klass-status-all: 全部
+list-klass-status-released: 已釋出
+list-klass-status-wip: 開發中
+list-klass-status-died: 已死亡
 list-klass-view: 檢視：
 list-klass-view-standard: 標準
 list-klass-view-complex: 複雜

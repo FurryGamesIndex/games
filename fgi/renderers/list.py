@@ -55,6 +55,10 @@ class ListKlass:
         self.nameid = nameid
         self.filters = list()
 
+    def insert(self, index, filteR):
+        filteR.set_klass(self)
+        self.filters.insert(index, filteR)
+
     def add(self, filteR):
         filteR.set_klass(self)
         self.filters.append(filteR)
@@ -196,6 +200,18 @@ class RendererList(Renderer):
         ]))
 
         self.klasses.append(klass_platform)
+
+        klass_status = ListKlass("status")
+        klass_status.add(ListFilter('', "status-all"))
+        klass_status.add(ListFilterTag('G', "status-wip", tags=[
+            Tag("misc", "work-in-process")
+        ]))
+        klass_status.add(ListFilterTag('F', "status-died", tags=[
+            Tag("misc", "died")
+        ]))
+        klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=klass_status.filters[1:].copy()))
+
+        self.klasses.append(klass_status)
 
         klass_view = ListKlass("view")
         klass_view.add(ListFilter('', "view-standard", template="list.html"))
