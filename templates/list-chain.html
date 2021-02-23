@@ -1,7 +1,7 @@
 <div class="default"><table class="list-klasses"><tbody>
 {% for klass in klasses %}
 <tr>
-	<td>{{ ui["list-klass-" + klass.nameid] }}</td>
+	<td nowrap>{{ ui["list-klass-" + klass.nameid] }}</td>
 	<td>
 	{% for f in klass.filters %}
 	{% set name = ui["list-klass-" + f.nameid] %}

@@ -395,6 +395,7 @@ code {
 }
 
 .list-klasses span {
+	display: inline-block;
 	margin: 2px 6px;
 }
 
