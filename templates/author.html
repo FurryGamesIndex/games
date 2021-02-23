@@ -3,7 +3,7 @@
 	<div class="leftbox">
 		<div class="items">
 			{% for game in author.games %}
-			{% set desc = game.get_description(lang).html %}
+			{% set desc = game.get_description(lang).text %}
 			{% set game_name = game.get_name(lang) %}
 			<div class="item">
 				{{ game.thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game_name) }}
