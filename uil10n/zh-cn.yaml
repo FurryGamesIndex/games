@@ -1,3 +1,7 @@
+# The uil10n/zh-tw.yaml is converted from uil10n/zh-cn.yaml by OpenCC
+# If there is a converting error, DO NOT edit zh-tw.yaml,
+# use the zh-tw_PRIVATE.yaml file to create overrides.
+
 page_title: 兽人控游戏索引
 page_description: 「兽人控游戏索引」致力于收集和索引 Furry 游戏
 
@@ -140,8 +144,8 @@ list-klass-orientation-yuri: 女同性恋
 list-klass-orientation-others: 其他
 list-klass-platform: 平台：
 list-klass-platform-all: 全部
-list-klass-platform-desktop: 桌面
-list-klass-platform-mobile: 移动
+list-klass-platform-desktop: 桌面设备
+list-klass-platform-mobile: 移动设备
 list-klass-platform-web: Web
 list-klass-platform-console: 游戏机
 list-klass-view: 视图：
