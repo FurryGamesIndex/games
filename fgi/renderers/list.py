@@ -249,12 +249,14 @@ class RendererList(Renderer):
                     if f.klass is not klass:
                         klassmagics[klass] += f.magic
 
-            context["noindex"] = (magic != "")
+            noindex = (magic != "")
+
+            context["noindex"] = noindex
             context['klassmagics'] = klassmagics
             context["chain"] = chain
             context["chain_set"] = set(chain)
             context["games"] = list_games(self.games, chain)
-            with self.sm_openw(f"list{magic}.html", priority="0.6") as f:
+            with self.sm_openw(f"list{magic}.html", sm = not noindex, priority="0.6") as f:
                 f.write(self.env.get_template(template).render(context))
 
         context = self.new_context()
