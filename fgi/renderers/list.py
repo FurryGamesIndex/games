@@ -204,10 +204,11 @@ class RendererList(Renderer):
         klass_status = ListKlass("status")
         klass_status.add(ListFilter('', "status-all"))
         klass_status.add(ListFilterTag('G', "status-wip", tags=[
-            Tag("misc", "work-in-process")
+            Tag("misc", "work-in-process"),
         ]))
-        klass_status.add(ListFilterTag('F', "status-died", tags=[
-            Tag("misc", "died")
+        klass_status.add(ListFilterTag('F', "status-died-or-suspended", tags=[
+            Tag("misc", "died"),
+            Tag("misc", "suspended"),
         ]))
         klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=klass_status.filters[1:].copy()))
 

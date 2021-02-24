@@ -53,6 +53,7 @@ gamewarn_lang_unofficial: 中文語言本地化是由非官方提供的
 gamewarn_ongoing: 該遊戲仍在開發過程中
 gamewarn_unpublished: 該遊戲尚未釋出
 gamewarn_died: 該遊戲未完成並可能已停止開發
+gamewarn_suspended: 該遊戲的開發已暫停
 gamewarn_expired: 遊戲的獲取途徑已經失效
 gamewarn_notonlyfurry: 這個遊戲並非是僅圍繞 Furry 話題的遊戲。這意味著你可能不會喜歡這個遊戲。
 gamewarn_deprecated_shockwave_flash: 依賴 Flash Player 的遊戲
@@ -152,7 +153,7 @@ list-klass-status: 狀態：
 list-klass-status-all: 全部
 list-klass-status-released: 已釋出
 list-klass-status-wip: 開發中
-list-klass-status-died: 已死亡
+list-klass-status-died-or-suspended: 已死亡或已暫停
 list-klass-view: 檢視：
 list-klass-view-standard: 標準
 list-klass-view-complex: 複雜

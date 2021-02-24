@@ -54,6 +54,7 @@ gamewarn_lang_unofficial: English language localization is provided by a third p
 gamewarn_ongoing: This game is an ongoing project
 gamewarn_unpublished: This game has NOT been released yet
 gamewarn_died: This game is probably dead before completion
+gamewarn_suspended: Development of this game is suspended
 gamewarn_expired: Access to the game is no longer available
 gamewarn_notonlyfurry: This game is not just about Furry topics. This means you may not like this game.
 gamewarn_deprecated_shockwave_flash: Flash Player required
@@ -155,7 +156,7 @@ list-klass-status: "Status:"
 list-klass-status-all: All
 list-klass-status-released: Released
 list-klass-status-wip: Ongoing
-list-klass-status-died: Dead
+list-klass-status-died-or-suspended: Dead/Suspended
 list-klass-view: "View:"
 list-klass-view-standard: Standard
 list-klass-view-complex: Complex

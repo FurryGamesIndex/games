@@ -25,6 +25,9 @@
 {% if "died" in game.tags.misc %}
 <div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_died }}</span></div>
 {% endif %}
+{% if game.check_tag("misc", "suspended") %}
+<div class="iconline"><i class="fas fa-exclamation-circle fa-fw"></i><span>{{ ui.gamewarn_suspended }}</span></div>
+{% endif %}
 {% if "expired" in game.tags.misc %}
 <div class="iconline"><i class="far fa-trash-alt fa-fw"></i><span>{{ ui.gamewarn_expired }}</span></div>
 {% endif %}
