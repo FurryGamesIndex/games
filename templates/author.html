@@ -19,10 +19,10 @@
 	</div>
 	<div class="rightbox">
 		<div class="flexline widget">
-			{{ author.hi_avatar.with_rr(rr).html(node_class='authoravatar', alt=author.name) }}
+			{{ author.avatar.with_rr(rr).html(node_class='authoravatar', alt=author.name) }}
 			<h1>{{ author.name }}</h1>
 		</div>
-		{% if "aliases" in author %}
+		{% if author.aliases %}
 		<div class="aliases">
 			<div class="iconline"><i class="fas fa-at fa-fw"></i><span>{{ author.name }}</span></div>
 			{% for i in author.aliases %}

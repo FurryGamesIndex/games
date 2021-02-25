@@ -2,10 +2,9 @@
 {% for i in game.authors %}{% if "@stub" not in i %}
 	{% if not i["standalone"] %}
 		{% set author = authors[i.name] %}
-		{% if "@stub" in author %}{% set author = None %}{% endif %}
 	{% endif %}
 	<div class="author">
-		{% if author %} {{ author.hi_avatar.with_rr(rr).html(node_class='authoravatar', alt=i.name) }}
+		{% if author %} {{ author.avatar.with_rr(rr).html(node_class='authoravatar', alt=i.name) }}
 		{% elif i["standalone"] and "hi_avatar" in i %} {{ i.hi_avatar.with_rr(rr).html(node_class='authoravatar', alt=i.name) }}
 		{% else %} <div class="authoravatar alt"><i class="fas fa-paw"></i></div> {% endif %}
 		<div class="authorinfo">

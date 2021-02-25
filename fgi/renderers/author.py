@@ -46,15 +46,10 @@ class RendererAuthor(Renderer):
         return self.context.copy()
 
     def render_author(self, author):
-        print("  => %s" % author["name"])
+        print("  => %s" % author.name)
 
         context = self.new_author_context()
         context["author"] = author
-
-        meta = dict()
-        meta["title"] = author["name"]
-        meta["image"] = author["hi_avatar"].with_rr(context["rr"]).src
-        context["meta"] = meta
 
         return self.env.get_template("author.html").render(context)
 
@@ -62,10 +57,7 @@ class RendererAuthor(Renderer):
         os.mkdir(self.getpath("authors"))
 
         for _, author in self.authors.items():
-            if "@stub" in author:
-                continue
-
-            with self.sm_openw("authors", author["id"] + ".html", priority="0.7") as f:
+            with self.sm_openw("authors", author.id + ".html", priority="0.7") as f:
                 f.write(self.render_author(author))
 
 impl = RendererAuthor

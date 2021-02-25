@@ -21,6 +21,7 @@ import os
 import yaml
 
 from fgi.game import Game
+from fgi.author import Author
 
 def load_game(dbdir, f, languages):
     game = None
@@ -56,7 +57,7 @@ def sorted_games_by_mtime(games):
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if not v.expunge }
 
-def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
+def load_game_all(dbdir, sdb, tagmgr, languages, mfac, author_game_map):
     games = {}
 
     for f in sorted_games_name(os.listdir(dbdir)):
@@ -71,18 +72,16 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac, authors):
         for i in game.authors:
             if not i["standalone"]:
                 name = i["name"]
-                if name not in authors:
-                    authors[name] = dict()
-                    authors[name]["@stub"] = True
-                    authors[name]["games"] = list()
 
-                authors[name]["games"].append(game)
+                if name not in author_game_map:
+                    author_game_map[name] = list()
+                author_game_map[name].append(game)
 
         sdb.update(game)
 
     return games
 
-def load_author(dbdir, f, mfac):
+def load_author(dbdir, f):
     fn = os.path.join(dbdir, f)
 
     if (not os.path.isfile(fn)) or (f[0] == '.'):
@@ -92,25 +91,19 @@ def load_author(dbdir, f, mfac):
 
     print("Loading %s" % fn)
     with open(fn) as stream:
-        author = yaml.safe_load(stream)
-        author["id"] = author_id
-        author["games"] = list()
-
-    if "avatar" in author:
-        author["hi_avatar"] = mfac.uri_to_html_image(author["avatar"], "_avatar")
+        author = Author(yaml.safe_load(stream), author_id)
 
     return author
 
-def load_author_all(dbdir, mfac):
+def load_author_all(dbdir, mfac, author_game_map):
     authors = dict()
 
     for f in os.listdir(dbdir):
-        author = load_author(dbdir, f, mfac)
+        author = load_author(dbdir, f)
 
-        if author is None:
-            continue
-
-        authors[author["name"]] = author
+        if author:
+            author.realize(mfac, author_game_map)
+            authors[author.name] = author
 
     return authors
 

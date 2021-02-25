@@ -39,6 +39,7 @@ class RendererGame(Renderer):
 
         self.games = self.lctx["games"]
         self.authors = self.lctx["authors"]
+        self.author_game_map = self.lctx["author_game_map"]
         self.context = self.new_context()
 
         lang_without_region = self.language
@@ -51,18 +52,16 @@ class RendererGame(Renderer):
         return self.context.copy()
 
     def author_widget(self, game):
-        name = game.id
+        gid = game.id
         data = {}
         ga = {}
 
         for author in game.authors:
             aname = author["name"]
-            if aname in self.authors:
-                tmp = self.authors[aname]["games"]
-
-                for g in tmp:
+            if aname in self.author_game_map:
+                for g in self.author_game_map[aname]:
                     i = g.id
-                    if i != name:
+                    if i != gid:
                         if i not in ga:
                             ga[i] = set()
                         ga[i].add(aname)
