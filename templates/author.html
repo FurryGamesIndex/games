@@ -32,7 +32,7 @@
 		{% endif %}
 		<div class="links links-group">
 		{% for i in author.links %}
-			{{ i.html(ui, lang, "iconline", "_blank") }}
+			{{ i.html(ui, lang, node_class="iconline", target="_blank") }}
 		{% endfor %}
 		</div>
 		<div class="hideonmobile">{% include 'copying.html' %}</div>
