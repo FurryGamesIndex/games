@@ -57,4 +57,6 @@ link_icons = {
     'playstation-store': '<i class="fab fa-playstation fa-fw"></i>'
 }
 
-__all__ = [ 'platform_icons', 'link_icons' ]
+link_fallback_icon = '<i class="fas fa-external-link-alt fa-fw"></i>'
+
+__all__ = [ 'platform_icons', 'link_icons', 'link_fallback_icon' ]

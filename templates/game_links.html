@@ -44,7 +44,6 @@
 </div>
 <div class="links links-group">
 {% for i in game.links %}
-	{% set li = link_info(i, game.tr, ui, lang) %}
-	<a class="iconline" href="{{ li.href }}" target="_blank"{% if "rel" in li %} rel="{{ li.rel }}"{% endif %}>{{ li.content }}</a>
+	{{ i.html(ui, lang, node_class="iconline", target="_blank") }}
 {% endfor %}
 </div>

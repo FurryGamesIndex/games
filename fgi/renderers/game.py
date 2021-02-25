@@ -23,7 +23,6 @@ from html import escape
 
 from fgi.base import make_wrapper
 from fgi.renderer import Renderer
-from fgi.link import link_info
 from fgi.seo import keywords
 from fgi.misc.icon import platform_icons
 
@@ -33,7 +32,6 @@ class RendererGame(Renderer):
 
         self.basectx = {
             "rr": "../..",
-            "link_info": make_wrapper(link_info, self.fctx),
             "platform_icons": platform_icons
         }
 

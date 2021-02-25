@@ -17,7 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
-from fgi.misc.icon import link_icons as icons
+from fgi.misc.icon import link_icons as icons, link_fallback_icon
 
 def uri_to_src(uri):
     res = uri.split(':', 1)
@@ -42,35 +42,63 @@ def uri_to_src(uri):
     else:
         return uri
 
-def link_info(fctx, link, l10n_data, ui_l10n_data, language):
-    name = link["name"]
-    a = {}
+class Link:
+    def __init__(self, data):
+        self.stock = False
+        self.icon = link_fallback_icon
+        self.html_attrs = dict()
+        self.l10n_names = dict()
 
-    link["uri"] = fctx.pmgr.invoke_plugins("link_pre_uri_convert", link["uri"], link, l10n_data, ui_l10n_data, language)
-    a["href"] = uri_to_src(link["uri"])
+        name = data["name"]
+        if name[0] == '.':
+            name = name[1:]
+            self.stock = True
+            self.set_icon(name)
 
-    icon = '<i class="fas fa-external-link-alt fa-fw"></i>'
+        self.name = name
 
-    if name[0] == '.':
-        if name[1:] in icons:
-            icon = icons[name[1:]]
-        a["content"] = ui_l10n_data["stock-link-" + name[1:]]
-    else:
-        l10n_name = None
-        if language in l10n_data:
-            l10n_name = l10n_data[language].links_tr.get(name)
+        if "icon" in data:
+            self.set_icon(data["icon"])
 
-        if l10n_name is not None:
-            a["content"] = l10n_name
-        else:
-            a["content"] = name
+        if "rel" in data:
+            self.add_html_attr("rel", data["rel"])
 
-    if "icon" in link:
-        icon = icons[link["icon"]]
-    a["content"] = icon + "<span>" + a["content"] + "</span>"
+        self.uri = data["uri"]
+        self.href = uri_to_src(self.uri)
 
-    if "rel" in link:
-        a["rel"] = link["rel"]
+    def set_icon(self, name):
+        if name in icons:
+            self.icon = icons[name]
 
-    fctx.pmgr.invoke_plugins("link_post_process", a, link, l10n_data, ui_l10n_data, language)
-    return a
+    def add_html_attr(self, name, value):
+        self.html_attrs[name] = value
+
+    def add_l10n_name_from_trdata(self, ln, trdata):
+        if self.stock:
+            return
+
+        if self.name in trdata:
+            self.l10n_names[ln] = trdata[self.name]
+
+    def html(self, uil10n, ln, node_class=None, target=None):
+        name = self.name
+
+        if self.stock:
+            name = uil10n["stock-link-" + name]
+        elif ln in self.l10n_names:
+            name = self.l10n_names[ln]
+
+        content = self.icon + "<span>" + name + "</span>"
+
+        outer = '<a href="' + self.href + '"'
+        if node_class:
+            outer = outer + ' class="' + node_class + '"'
+        if target:
+            outer = outer + ' target="' + target + '"'
+
+        if self.html_attrs:
+            for k, v in self.html_attrs.items():
+                outer = f'{outer} {k}="{v}"'
+
+        outer = outer + ">" + content + "</a>"
+        return outer

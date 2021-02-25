@@ -21,7 +21,7 @@ from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
-from fgi.link import uri_to_src
+from fgi.link import Link
 
 class Author:
     def __init__(self, data, aid):
@@ -50,7 +50,8 @@ class Author:
             self.avatar_uri = data["avatar"]
 
         if "links" in data:
-            self.links = data["links"]
+            for i in data["links"]:
+                self.links.append(Link(i))
 
     def realize(self, mfac, author_game_map):
         self.games = list()

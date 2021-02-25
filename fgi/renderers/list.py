@@ -26,7 +26,6 @@ import email.utils
 from fgi.renderer import Renderer
 from fgi.base import sorted_games_by_mtime, strip_games_expunge, make_wrapper
 from fgi.game import Tag
-from fgi.link import link_info
 from fgi.misc.icon import platform_icons
 
 def ts_to_rfc5322(ts):
@@ -115,7 +114,6 @@ class RendererList(Renderer):
             "rr": "..",
             "active_list": "actived",
             "ts_to_rfc5322": ts_to_rfc5322,
-            "link_info": make_wrapper(link_info, self.fctx),
             "platform_icons": platform_icons,
             "sorted_magic": sorted_magic,
         }

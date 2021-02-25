@@ -21,7 +21,7 @@ from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
-from fgi.link import uri_to_src
+from fgi.link import Link, uri_to_src
 
 class Tag:
     def __init__(self, ns, value):
@@ -110,7 +110,9 @@ class Game:
         self.media = list()
 
         if "links" in data:
-            self.links = data["links"]
+            for i in data["links"]:
+                self.links.append(Link(i))
+
         if "screenshots" in data:
             self.screenshots = data["screenshots"]
 
@@ -172,11 +174,15 @@ class Game:
         if self.thumbnail_uri:
             self.thumbnail = mfac.uri_to_html_image(self.thumbnail_uri, self.id)
 
+        for i in self.links:
+            for ln, ldata in self.tr.items():
+                i.add_l10n_name_from_trdata(ln, ldata.links_tr)
+
         if self.auto_steam_widget:
             for i in self.links:
-                if i["name"] == ".steam":
-                    if i["uri"].startswith("steam:"):
-                        swid = i["uri"].split(':', 1)[1]
+                if i.stock and i.name == "steam":
+                    if i.uri.startswith("steam:"):
+                        swid = i.uri.split(':', 1)[1]
                         self.media.append(mfac.create_media({
                             "type": "steam-widget",
                             "id": swid,
