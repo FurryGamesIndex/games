@@ -23,12 +23,12 @@ from fgi.i18n import conv_doc_markdown
 
 class RendererSingles(Renderer):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs, nonl10n=True)
-
         self.basectx = {
             "rr": ".",
             "lang": "en",
         }
+
+        super().__init__(*args, **kwargs, nonl10n=True)
 
     def render(self):
         context = self.new_context()

@@ -25,20 +25,13 @@ from fgi.seo import keywords
 
 class RendererAuthor(Renderer):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
         self.basectx = {
             "rr": "../..",
         }
 
+        super().__init__(*args, **kwargs)
+
         self.authors = self.lctx["authors"]
-        self.context = self.new_context()
-
-        lang_without_region = self.language
-        if '-' in lang_without_region:
-            lang_without_region = lang_without_region.split('-')[0]
-
-        self.context["lang_without_region"] = lang_without_region
 
     def new_author_context(self):
         return self.context.copy()
@@ -46,7 +39,7 @@ class RendererAuthor(Renderer):
     def render_author(self, author):
         print("  => %s" % author.name)
 
-        context = self.new_author_context()
+        context = self.new_context()
         context["author"] = author
 
         return self.env.get_template("author.html").render(context)

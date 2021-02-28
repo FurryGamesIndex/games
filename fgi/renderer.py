@@ -22,7 +22,6 @@ import os
 class Renderer:
     def __init__(self, fctx, lctx, nonl10n = False):
         self.fctx = fctx
-        self.basectx = None
         self.nonl10n = nonl10n
 
         self.env = fctx.env
@@ -30,6 +29,9 @@ class Renderer:
 
         if not nonl10n:
             self.language = lctx["lang"]
+            self.lang_without_region = self.language.split('-', 1)[0]
+
+            self.basectx["lang_without_region"] = self.lang_without_region
 
     def new_context(self):
         context = self.basectx.copy()

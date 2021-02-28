@@ -25,12 +25,12 @@ from fgi.i18n import conv_doc_markdown
 
 class RendererMisc(Renderer):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
         self.basectx = {
             "rr": "..",
             "datetime": datetime,
         }
+
+        super().__init__(*args, **kwargs)
 
     def render(self):
         env = self.env

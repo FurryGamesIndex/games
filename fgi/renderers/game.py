@@ -28,23 +28,17 @@ from fgi.misc.icon import platform_icons
 
 class RendererGame(Renderer):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
         self.basectx = {
             "rr": "../..",
             "platform_icons": platform_icons
         }
 
+        super().__init__(*args, **kwargs)
+
         self.games = self.lctx["games"]
         self.authors = self.lctx["authors"]
         self.author_game_map = self.lctx["author_game_map"]
         self.context = self.new_context()
-
-        lang_without_region = self.language
-        if '-' in lang_without_region:
-            lang_without_region = lang_without_region.split('-')[0]
-
-        self.context["lang_without_region"] = lang_without_region
 
     def new_game_context(self):
         return self.context.copy()

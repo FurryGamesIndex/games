@@ -108,8 +108,6 @@ def sorted_magic(magic):
 
 class RendererList(Renderer):
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-
         self.basectx = {
             "rr": "..",
             "active_list": "actived",
@@ -117,6 +115,8 @@ class RendererList(Renderer):
             "platform_icons": platform_icons,
             "sorted_magic": sorted_magic,
         }
+
+        super().__init__(*args, **kwargs)
 
         self.games = self.lctx["games"]
 
@@ -222,12 +222,6 @@ class RendererList(Renderer):
     def render(self):
         context = self.new_context()
         context["klasses"] = self.klasses
-
-        lang_without_region = self.language
-        if '-' in lang_without_region:
-            lang_without_region = lang_without_region.split('-')[0]
-
-        context["lang_without_region"] = lang_without_region
 
         chains = list()
         for klass in self.klasses:
