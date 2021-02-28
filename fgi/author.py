@@ -22,6 +22,8 @@ from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
 from fgi.link import Link
+from fgi.media import MediaFactory
+from fgi.icon import IconFactory
 
 class Author:
     def __init__(self, data, aid):
@@ -34,6 +36,7 @@ class Author:
         self.l10n_names = dict()
         self.avatar_uri = None
         self.avatar = None
+        self.links_prepare = list()
         self.links = list()
 
         if "aliases" in data:
@@ -50,12 +53,16 @@ class Author:
             self.avatar_uri = data["avatar"]
 
         if "links" in data:
-            for i in data["links"]:
-                self.links.append(Link(i))
+            self.links_prepare = data["links"]
 
-    def realize(self, mfac, author_game_map):
+    def realize(self, mfac: MediaFactory, ifac: IconFactory, author_game_map):
         self.games = list()
         author_game_map[self.name] = self.games
 
         if self.avatar_uri:
             self.avatar = mfac.uri_to_html_image(self.avatar_uri, "_avatar")
+
+        for i in self.links_prepare:
+            self.links.append(Link(i, ifac))
+
+        self.links_prepare = None

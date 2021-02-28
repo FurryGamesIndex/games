@@ -17,7 +17,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 # 
 
-from fgi.misc.icon import link_icons as icons, link_fallback_icon
+from fgi.icon import IconFactory
 
 def uri_to_src(uri):
     res = uri.split(':', 1)
@@ -43,9 +43,8 @@ def uri_to_src(uri):
         return uri
 
 class Link:
-    def __init__(self, data):
+    def __init__(self, data, ifac: IconFactory):
         self.stock = False
-        self.icon = link_fallback_icon
         self.html_attrs = dict()
         self.l10n_names = dict()
 
@@ -53,22 +52,21 @@ class Link:
         if name[0] == '.':
             name = name[1:]
             self.stock = True
-            self.set_icon(name)
-
-        self.name = name
 
         if "icon" in data:
-            self.set_icon(data["icon"])
+            self.icon = ifac.site_icon(data["icon"])
+        elif self.stock:
+            self.icon = ifac.site_icon(name)
+        else:
+            self.icon = ifac.site_icon("fallback")
+
+        self.name = name
 
         if "rel" in data:
             self.add_html_attr("rel", data["rel"])
 
         self.uri = data["uri"]
         self.href = uri_to_src(self.uri)
-
-    def set_icon(self, name):
-        if name in icons:
-            self.icon = icons[name]
 
     def add_html_attr(self, name, value):
         self.html_attrs[name] = value

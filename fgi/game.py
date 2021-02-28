@@ -105,13 +105,13 @@ class Game:
         if "replaced-by" in data:
             self._replaced_by_gid = data["replaced-by"]
 
+        self.links_prepare = list()
         self.links = list()
         self.screenshots = list()
         self.media = list()
 
         if "links" in data:
-            for i in data["links"]:
-                self.links.append(Link(i))
+            self.links_prepare = data["links"]
 
         if "screenshots" in data:
             self.screenshots = data["screenshots"]
@@ -128,7 +128,7 @@ class Game:
     def add_l10n_data(self, ln, data, mtime):
         self.tr[ln] = GameL10n(self, data, mtime)
 
-    def realize(self, games, tagmgr, mfac):
+    def realize(self, games, tagmgr, mfac, ifac):
         if self._replaced_by_gid:
             self.replaced_by = games[self._replaced_by_gid]
 
@@ -174,9 +174,14 @@ class Game:
         if self.thumbnail_uri:
             self.thumbnail = mfac.uri_to_html_image(self.thumbnail_uri, self.id)
 
-        for i in self.links:
+        for i in self.links_prepare:
+            l = Link(i, ifac)
             for ln, ldata in self.tr.items():
-                i.add_l10n_name_from_trdata(ln, ldata.links_tr)
+                l.add_l10n_name_from_trdata(ln, ldata.links_tr)
+
+            self.links.append(l)
+
+        self.links_prepare = None
 
         if self.auto_steam_widget:
             for i in self.links:

@@ -20,8 +20,10 @@
 import os
 import re
 from datetime import datetime
+
 from fgi.renderer import Renderer
 from fgi.i18n import conv_doc_markdown
+from fgi.link import Link
 
 class RendererMisc(Renderer):
     def __init__(self, *args, **kwargs):
@@ -63,7 +65,8 @@ class RendererMisc(Renderer):
         def _add_search_icon_link(m):
             c = m.group(1)
             if not c.endswith(":"):
-                return f"`{c}` <a target='_blank' href='search.html?tagx?{c}'><i class='fas fa-search fa-fw'></i></a>"
+                icon = self.fctx.ifac.misc_icon("search")
+                return f"`{c}` <a target='_blank' href='search.html?tagx?{c}'>{icon}</a>"
             else:
                 return f"`{c[:-1]}`"
 

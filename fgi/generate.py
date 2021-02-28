@@ -41,6 +41,7 @@ from fgi.base import load_game_all, load_author_all, list_pymod, local_res_href,
 from fgi.search import SearchDatabase
 from fgi.tagmgr import TagManager
 from fgi.media import MediaFactory
+from fgi.icon import IconFactory
 from fgi.seo.sitemap import Sitemap, SitemapGenerator
 from fgi.i18n import get_languages_list, uil10n_load_base, uil10n_load_language
 from fgi.plugin import PluginManager
@@ -75,6 +76,7 @@ class Generator:
 
         self.webroot_path = os.path.join(self.args.data_dir_prefix, "webroot")
         self.assets_path = os.path.join(self.args.data_dir_prefix, "assets")
+        self.icon_path = os.path.join(self.args.data_dir_prefix, "icons", "build")
 
         self.dir_doc = os.path.join(self.args.data_dir_prefix, "doc")
 
@@ -98,6 +100,10 @@ class Generator:
                 if len(d) >= 2:
                     options = d[1]
                 self.pmgr.load_plugin(name, options)
+
+        with open(os.path.join(self.icon_path, "FGI-icons.json")) as f:
+            icondata = json.load(f)
+        self.ifac = IconFactory(icondata)
 
         self.sitemap = SitemapGenerator()
         if not self.args.no_sitemap:
@@ -123,10 +129,11 @@ class Generator:
             dir_util._path_created = {}
             dir_util.copy_tree(self.webroot_path, self.output)
             dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
+            dir_util.copy_tree(self.icon_path, os.path.join(self.output, "icons"))
 
         self.author_game_map = dict()
-        self.authors = load_author_all(self.dbdir_author, self.mfac, self.author_game_map)
-        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac, self.author_game_map)
+        self.authors = load_author_all(self.dbdir_author, self.mfac, self.ifac, self.author_game_map)
+        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac, self.ifac, self.author_game_map)
 
         self.base_l10n = uil10n_load_base(self, self.dir_uil10n)
 
@@ -139,6 +146,8 @@ class Generator:
             "authors": self.authors,
             "author_game_map": self.author_game_map,
             "webrootdir": self.webroot_path,
+            "icondir": self.icon_path,
+            "ifac": self.ifac,
         }
 
     def run(self):

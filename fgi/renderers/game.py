@@ -24,13 +24,11 @@ from html import escape
 from fgi.base import make_wrapper
 from fgi.renderer import Renderer
 from fgi.seo import keywords
-from fgi.misc.icon import platform_icons
 
 class RendererGame(Renderer):
     def __init__(self, *args, **kwargs):
         self.basectx = {
             "rr": "../..",
-            "platform_icons": platform_icons
         }
 
         super().__init__(*args, **kwargs)

@@ -57,7 +57,7 @@ def sorted_games_by_mtime(games):
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if not v.expunge }
 
-def load_game_all(dbdir, sdb, tagmgr, languages, mfac, author_game_map):
+def load_game_all(dbdir, sdb, tagmgr, languages, mfac, ifac, author_game_map):
     games = {}
 
     for f in sorted_games_name(os.listdir(dbdir)):
@@ -67,7 +67,7 @@ def load_game_all(dbdir, sdb, tagmgr, languages, mfac, author_game_map):
             games[game.id] = game
 
     for _, game in games.items():
-        game.realize(games, tagmgr, mfac)
+        game.realize(games, tagmgr, mfac, ifac)
 
         for i in game.authors:
             if not i["standalone"]:
@@ -95,14 +95,14 @@ def load_author(dbdir, f):
 
     return author
 
-def load_author_all(dbdir, mfac, author_game_map):
+def load_author_all(dbdir, mfac, ifac, author_game_map):
     authors = dict()
 
     for f in os.listdir(dbdir):
         author = load_author(dbdir, f)
 
         if author:
-            author.realize(mfac, author_game_map)
+            author.realize(mfac, ifac, author_game_map)
             authors[author.name] = author
 
     return authors
