@@ -122,95 +122,98 @@ class RendererList(Renderer):
 
         self.klasses = list()
 
-        klass_genre = ListKlass("genre")
-        klass_genre.add(ListFilter('', "genre-all"))
-        klass_genre.add(ListFilterTag('v', "genre-vn-ds", tags=[
-            Tag("type", "visual-novel"),
-            Tag("type", "dating-sim"),
-        ]))
-        klass_genre.add(ListFilterTag('a', "genre-action", tags=[
-            Tag("type", "action"),
-        ]))
-        klass_genre.add(ListFilterTag('r', "genre-rpg", tags=[
-            Tag("type", "role-playing"),
-        ]))
-        klass_genre.add(ListFilterTag('d', "genre-adventure", tags=[
-            Tag("type", "adventure"),
-        ]))
-        klass_genre.add(ListFilterTag('f', "genre-fighting", tags=[
-            Tag("type", "fighting"),
-        ]))
-        klass_genre.add(ListFilterTag('s', "genre-shooter", tags=[
-            Tag("type", "shooter"),
-        ]))
-        klass_genre.add(ListFilterTag('p', "genre-puzzle", tags=[
-            Tag("type", "puzzle"),
-        ]))
-        klass_genre.add(ListFilterAllNot('o', "genre-others", inputs=klass_genre.filters[1:].copy()))
+        sub_lists = not self.fctx.args.no_sub_lists
 
-        self.klasses.append(klass_genre)
+        if sub_lists:
+            klass_genre = ListKlass("genre")
+            klass_genre.add(ListFilter('', "genre-all"))
+            klass_genre.add(ListFilterTag('v', "genre-vn-ds", tags=[
+                Tag("type", "visual-novel"),
+                Tag("type", "dating-sim"),
+            ]))
+            klass_genre.add(ListFilterTag('a', "genre-action", tags=[
+                Tag("type", "action"),
+            ]))
+            klass_genre.add(ListFilterTag('r', "genre-rpg", tags=[
+                Tag("type", "role-playing"),
+            ]))
+            klass_genre.add(ListFilterTag('d', "genre-adventure", tags=[
+                Tag("type", "adventure"),
+            ]))
+            klass_genre.add(ListFilterTag('f', "genre-fighting", tags=[
+                Tag("type", "fighting"),
+            ]))
+            klass_genre.add(ListFilterTag('s', "genre-shooter", tags=[
+                Tag("type", "shooter"),
+            ]))
+            klass_genre.add(ListFilterTag('p', "genre-puzzle", tags=[
+                Tag("type", "puzzle"),
+            ]))
+            klass_genre.add(ListFilterAllNot('o', "genre-others", inputs=klass_genre.filters[1:].copy()))
 
-        klass_orientation = ListKlass("orientation")
-        klass_orientation.add(ListFilter('', "orientation-all"))
-        klass_orientation.add(ListFilterTag('g', "orientation-bara", tags=[
-            Tag("type", "bara"),
-        ]))
-        klass_orientation.add(ListFilterTag('l', "orientation-yuri", tags=[
-            Tag("type", "yuri"),
-        ]))
-        klass_orientation.add(ListFilterAllNot('x', "orientation-others", inputs=klass_orientation.filters[1:].copy()))
+            self.klasses.append(klass_genre)
 
-        self.klasses.append(klass_orientation)
+            klass_orientation = ListKlass("orientation")
+            klass_orientation.add(ListFilter('', "orientation-all"))
+            klass_orientation.add(ListFilterTag('g', "orientation-bara", tags=[
+                Tag("type", "bara"),
+            ]))
+            klass_orientation.add(ListFilterTag('l', "orientation-yuri", tags=[
+                Tag("type", "yuri"),
+            ]))
+            klass_orientation.add(ListFilterAllNot('x', "orientation-others", inputs=klass_orientation.filters[1:].copy()))
 
-        klass_platform = ListKlass("platform")
-        klass_platform.add(ListFilter('', "platform-all"))
-        klass_platform.add(ListFilterTag('D', "platform-desktop", tags=[
-            Tag("platform", "windows"),
-            Tag("platform", "macos"),
-            Tag("platform", "linux"),
-        ]))
-        klass_platform.add(ListFilterTag('M', "platform-mobile", tags=[
-            Tag("platform", "android"),
-            Tag("platform", "ios"),
-        ]))
-        klass_platform.add(ListFilterTag('W', "platform-web", tags=[
-            Tag("platform", "web"),
-            Tag("platform", "shockwave-flash"),
-        ]))
-        klass_platform.add(ListFilterTag('C', "platform-console", tags=[
-            Tag("platform", "nds"),
-            Tag("platform", "2ds"),
-            Tag("platform", "3ds"),
-            Tag("platform", "wii-u"),
-            Tag("platform", "nintendo-switch"),
-            Tag("platform", "playstation"),
-            Tag("platform", "psv"),
-            Tag("platform", "psp"),
-            Tag("platform", "playstation2"),
-            Tag("platform", "playstation3"),
-            Tag("platform", "playstation4"),
-            Tag("platform", "playstation5"),
-            Tag("platform", "xbox"),
-            Tag("platform", "xbox-one"),
-            Tag("platform", "xbox-360"),
-            Tag("platform", "xbox-series-x"),
-            Tag("platform", "xbox-series-s"),
-        ]))
+            self.klasses.append(klass_orientation)
 
-        self.klasses.append(klass_platform)
+            klass_platform = ListKlass("platform")
+            klass_platform.add(ListFilter('', "platform-all"))
+            klass_platform.add(ListFilterTag('D', "platform-desktop", tags=[
+                Tag("platform", "windows"),
+                Tag("platform", "macos"),
+                Tag("platform", "linux"),
+            ]))
+            klass_platform.add(ListFilterTag('M', "platform-mobile", tags=[
+                Tag("platform", "android"),
+                Tag("platform", "ios"),
+            ]))
+            klass_platform.add(ListFilterTag('W', "platform-web", tags=[
+                Tag("platform", "web"),
+                Tag("platform", "shockwave-flash"),
+            ]))
+            klass_platform.add(ListFilterTag('C', "platform-console", tags=[
+                Tag("platform", "nds"),
+                Tag("platform", "2ds"),
+                Tag("platform", "3ds"),
+                Tag("platform", "wii-u"),
+                Tag("platform", "nintendo-switch"),
+                Tag("platform", "playstation"),
+                Tag("platform", "psv"),
+                Tag("platform", "psp"),
+                Tag("platform", "playstation2"),
+                Tag("platform", "playstation3"),
+                Tag("platform", "playstation4"),
+                Tag("platform", "playstation5"),
+                Tag("platform", "xbox"),
+                Tag("platform", "xbox-one"),
+                Tag("platform", "xbox-360"),
+                Tag("platform", "xbox-series-x"),
+                Tag("platform", "xbox-series-s"),
+            ]))
 
-        klass_status = ListKlass("status")
-        klass_status.add(ListFilter('', "status-all"))
-        klass_status.add(ListFilterTag('G', "status-wip", tags=[
-            Tag("misc", "work-in-process"),
-        ]))
-        klass_status.add(ListFilterTag('F', "status-died-or-suspended", tags=[
-            Tag("misc", "died"),
-            Tag("misc", "suspended"),
-        ]))
-        klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=klass_status.filters[1:].copy()))
+            self.klasses.append(klass_platform)
 
-        self.klasses.append(klass_status)
+            klass_status = ListKlass("status")
+            klass_status.add(ListFilter('', "status-all"))
+            klass_status.add(ListFilterTag('G', "status-wip", tags=[
+                Tag("misc", "work-in-process"),
+            ]))
+            klass_status.add(ListFilterTag('F', "status-died-or-suspended", tags=[
+                Tag("misc", "died"),
+                Tag("misc", "suspended"),
+            ]))
+            klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=klass_status.filters[1:].copy()))
+
+            self.klasses.append(klass_status)
 
         klass_view = ListKlass("view")
         klass_view.add(ListFilter('', "view-standard", template="list.html"))

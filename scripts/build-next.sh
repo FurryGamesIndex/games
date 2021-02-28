@@ -70,7 +70,13 @@ infobar: >
   <i class="fas fa-exclamation-circle"></i> 這是 FGI-next，一個 FGI 的實驗性預覽構建，可能包含很多當前不穩定或最終被否決的更改。<a href="https://furrygames.top/">點選此處切換到穩定版本</a>
 EOF
 
-	./generate.py --next --images-candidate-webp --no-sitemap --extra-ui extraui --with-rss --plugin steam-cdn-unite,verbose=1 "$1"
+	./generate.py --next \
+		--no-sub-lists \
+		--images-candidate-webp \
+		--no-sitemap \
+		--extra-ui extraui \
+		--with-rss \
+		--plugin steam-cdn-unite,verbose=1 "$1"
 	cat > "$1/robots.txt" <<EOF
 User-agent: *
 Disallow: /
