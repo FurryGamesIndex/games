@@ -17,6 +17,7 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.sha }}
         fetch-depth: 0
+        submodules: true
 
     - name: install-dep
       run: |
