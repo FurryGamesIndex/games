@@ -22,8 +22,8 @@
 		{% include 'game_authors.html' %}
 		{% include 'game_tags.html' %}
 		<div class="opts">
-			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml"><i class="fas fa-edit fa-fw"></i><span>{{ ui.game_edit }}</span></a>
-			<a href="https://twitter.com/intent/tweet?&text={{ ui.game_share_twitter_text.format(name=game.get_name(lang))|urlencode }}&url={{ ("https://furrygames.top/" + lang + "/games/" + name + ".html")|urlencode }}&hashtags=furrygamesindex,furry,game" target="_blank"><i class="fab fa-twitter fa-fw"></i><span>{{ ui.game_share_twitter }}</span></a>
+			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml">{{ ifac.misc_icon("edit") }}<span>{{ ui.game_edit }}</span></a>
+			<a href="https://twitter.com/intent/tweet?&text={{ ui.game_share_twitter_text.format(name=game.get_name(lang))|urlencode }}&url={{ ("https://furrygames.top/" + lang + "/games/" + name + ".html")|urlencode }}&hashtags=furrygamesindex,furry,game" target="_blank">{{ ifac.site_icon("twitter") }}<span>{{ ui.game_share_twitter }}</span></a>
 		</div>
 		<div class="screenshots">
 		{% if game.sensitive_media %}

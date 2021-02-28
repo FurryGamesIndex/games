@@ -3,7 +3,7 @@
 {% for author, games in author_widget.items() %}
 	<div class="author-more">{{ ui.game_author_widget_more_from % (author) }}</div>
 	{% for game in games %}
-		<a class="iconline" href="{{ game.id }}.html"><i class="fas fa-gamepad fa-fw"></i><span>{{ game.get_name(lang) }}</span></a>
+		<a class="iconline" href="{{ game.id }}.html">{{ ifac.misc_icon("gamepad") }}</i><span>{{ game.get_name(lang) }}</span></a>
 	{% endfor %}
 {% endfor %}
 </div>

@@ -94,7 +94,7 @@ a:focus {
 	outline: 0;
 }
 
-a>span {
+a>span:not(.icon) {
 	margin-left: 4px;
 }
 
@@ -166,7 +166,7 @@ code {
 	flex: 0 0 auto;
 }
 
-.iconline>span {
+.iconline>span:not(.icon) {
 	flex: 0 1 auto;
 	margin-left: 6px;
 }
@@ -219,7 +219,7 @@ code {
 	font-weight: bold;
 }
 
-#navlinks>a>span {
+#navlinks>a>span:not(.icon) {
 	line-height: 1em;
 }
 
@@ -260,7 +260,7 @@ code {
 		margin: 0 0 12px;
 	}
 
-	#navlinks>a:not(.actived)>span {
+	#navlinks>a:not(.actived)>span:not(.icon) {
 		display: none;
 	}
 }

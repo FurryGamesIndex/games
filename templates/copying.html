@@ -1,7 +1,7 @@
 <div class="tip copying_area">
 {{ ui.copying_area_tip }}<br><br>
 
-<a class="iconline" href="{{ rr }}/{{ lang }}/feed.xml"><i class="fas fa-rss fa-fw"></i> {{ ui.copying_rss }}</a>
+<a class="iconline" href="{{ rr }}/{{ lang }}/feed.xml">{{ ifac.misc_icon("rss") }}<span>{{ ui.copying_rss }}</span></a>
 {{ ui.rss_desc }}<br><br>
 
 {{ ui.copying_area_copyright }}<br><br>
@@ -12,13 +12,13 @@
 	{{ ui.game_contact_us }}
 	<div>
 		<a class="iconbtn" href="https://github.com/FurryGamesIndex/games" title="{{ ui.index_link_github }}">
-			<i class="fab fa-github fa-fw"></i>
+			{{ ifac.site_icon("github") }}
 		</a>
 		<a class="iconbtn" href="mailto:webmaster@furrygames.top" title="webmaster@furrygames.top">
-			<i class="far fa-envelope fa-fw"></i>
+			{{ ifac.misc_icon("email") }}
 		</a>
 		<a class="iconbtn" href="https://t.me/FurryGamesIndex" title="{{ ui.index_link_tg }}">
-			<i class="fab fa-telegram-plane fa-fw"></i>
+			{{ ifac.site_icon("telegram") }}
 		</a>
 	</div>
 </div>

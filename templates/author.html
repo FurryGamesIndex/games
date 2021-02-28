@@ -24,9 +24,9 @@
 		</div>
 		{% if author.aliases %}
 		<div class="aliases">
-			<div class="iconline"><i class="fas fa-at fa-fw"></i><span>{{ author.name }}</span></div>
+			<div class="iconline">{{ ifac.misc_icon("at") }}<span>{{ author.name }}</span></div>
 			{% for i in author.aliases %}
-			<div class="iconline"><i class="fas fa-at fa-fw"></i><span>{{ i }}</span></div>
+			<div class="iconline">{{ ifac.misc_icon("at") }}<span>{{ i }}</span></div>
 			{% endfor %}
 		</div>
 		{% endif %}

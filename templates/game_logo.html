@@ -2,9 +2,7 @@
 	{{ game.thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game.get_name(lang)) }}
 	<div class="platforms">
 	{% if "platform" in game.tags %}{% for i in game.tags.platform %}
-	{% if i in platform_icons %}
-		{{ platform_icons[i] }}
-	{% endif %}
+		{{ ifac.os_icon(i, fallback_html=" ") }}
 	{% endfor %}{% endif %}
 	</div>
 </div>

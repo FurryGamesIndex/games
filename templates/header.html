@@ -20,7 +20,7 @@
 	<meta name="robots" content="noindex">
 {% endif %}
 	<link rel="stylesheet" href="{{ res(rr, '/styles/main.css', hc_uquery=os.path.getmtime(os.path.join(webrootdir, 'styles', 'main.css'))|int) }}">
-	<link rel="stylesheet" href="{{ res(rr, '/styles/fa.all.min.css') }}">
+	<link rel="stylesheet" href="{{ res(rr, '/icons/icon.css', hc_uquery=os.path.getmtime(os.path.join(icondir, 'icon.css'))|int) }}">
 {% if extra_styles is defined %}
 	<style>{{ extra_styles }}</style>
 {% endif %}
@@ -30,18 +30,18 @@
 	<div id="infobar">{{ ui.infobar }}</div>
 {% endif %}
 	<div id="infobar_rt" class="flexline hide">
-		<a class="iconbtn _cbtn" href="#!"><i class="far fa-times-circle fa-fw"></i></a>
+		<a class="iconbtn _cbtn" href="#!">{{ ifac.misc_icon("close") }}</a>
 		<div class="_content"></div>
 	</div>
 	<div id="navbar">
 		<div class="title">{{ ui.page_title }}</div>
 		<div id="navlinks">
-		<a href="{{ rr }}/{{ lang }}/index.html" class="{{ active_index }}"><i class="fas fa-home fa-fw"></i><span>{{ ui.nav_index }}</span></a>
-		<a href="{{ rr }}/{{ lang }}/list.html" class="{{ active_list }}"><i class="fas fa-list-ul fa-fw"></i><span>{{ ui.nav_list }}</span></a>
-		<a href="{{ rr }}/{{ lang }}/search.html" class="{{ active_search }}"><i class="fas fa-search fa-fw"></i><span>{{ ui.nav_search }}</span></a>
-		<a href="{{ rr }}/{{ lang }}/faq.html" class="{{ active_faq }}"><i class="far fa-question-circle fa-fw"></i><span>{{ ui.nav_faq }}</span></a>
-		<a href="https://github.com/FurryGamesIndex/games/blob/master/CONTRIBUTORS.md"><i class="fas fa-paw fa-fw"></i><span>{{ ui.nav_contributors }}</span></a>
-		<a href="{{ rr }}/languages.html" class="{{ active_languages }}"><i class="fas fa-globe-americas fa-fw"></i><span>{{ ui.nav_languages }}</span></a>
+		<a href="{{ rr }}/{{ lang }}/index.html" class="{{ active_index }}">{{ ifac.misc_icon("home") }}<span>{{ ui.nav_index }}</span></a>
+		<a href="{{ rr }}/{{ lang }}/list.html" class="{{ active_list }}">{{ ifac.misc_icon("list") }}<span>{{ ui.nav_list }}</span></a>
+		<a href="{{ rr }}/{{ lang }}/search.html" class="{{ active_search }}">{{ ifac.misc_icon("search") }}<span>{{ ui.nav_search }}</span></a>
+		<a href="{{ rr }}/{{ lang }}/faq.html" class="{{ active_faq }}">{{ ifac.misc_icon("question") }}<span>{{ ui.nav_faq }}</span></a>
+		<a href="https://github.com/FurryGamesIndex/games/blob/master/CONTRIBUTORS.md">{{ ifac.misc_icon("paw") }}<span>{{ ui.nav_contributors }}</span></a>
+		<a href="{{ rr }}/languages.html" class="{{ active_languages }}">{{ ifac.misc_icon("language") }}<span>{{ ui.nav_languages }}</span></a>
 		</div>
 	</div>
 	<div id="app">
