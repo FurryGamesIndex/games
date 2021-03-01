@@ -101,7 +101,7 @@ Recommend build arguments:
 
             query = ""
             if hc_uquery is not None:
-                query = f"?hc=uquery&t={hc_uquery}&cors=1&uid=v1/" + quote(path, safe='')
+                query = f"?hc=uquery&t={hc_uquery}&cors=1&uid=v1" + quote(path, safe='')
             else:
                 if path.startswith("styles/"):
                     query = "?hc=always&cors=1"

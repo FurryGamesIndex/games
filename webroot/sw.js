@@ -1,4 +1,4 @@
-const CACHE_NAME = "sw:i:8"
+const CACHE_NAME = "sw:i:9"
 
 self.addEventListener('activate', async e => {
 	e.waitUntil((async () => {
@@ -44,6 +44,7 @@ self.addEventListener('fetch', async e => {
 				} else if (cors) {
 					const cors_uid = url.searchParams.get("cors_uid");
 					if (cors_uid != null) {
+						url.searchParams.delete("cors_uid");
 						name = "/_virtual/_cors/" + cors_uid + url.search;
 					}
 				}
@@ -60,14 +61,14 @@ self.addEventListener('fetch', async e => {
 		let resp = await cache.match(name);
 		if (!resp) {
 			if (uquery) {
-				const oldresp = await cache.matchAll(name, {
-					"ignoreSearch": true
-				});
+				const oldresp = await cache.matchAll(name, {"ignoreSearch": true});
 				if (oldresp != null) {
-					oldresp.forEach((el, index, arr) => {
+					console.log('sw: deleting old cache', name);
+					await cache.delete(name, {"ignoreSearch": true});
+					/*oldresp.forEach((el, index, arr) => {
 						console.log('sw: deleting the response to', el.url);
 						cache.delete(el.url);
-					});
+					});*/
 				}
 			}
 			let req;
