@@ -62,7 +62,7 @@ Recommend build arguments:
         output = kwargs["output_path"]
         shutil.rmtree(os.path.join(output, "assets"))
         shutil.rmtree(os.path.join(output, "styles"))
-        shutil.rmtree(os.path.join(output, "webfonts"))
+        shutil.rmtree(os.path.join(output, "icons"))
         with open(os.path.join(output, "CNAME"), "w") as f:
             f.write("cn.furrygames.top\n")
         with open(os.path.join(output, "robots.txt"), "w") as f:

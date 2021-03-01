@@ -18,6 +18,10 @@ self.addEventListener('fetch', async e => {
 			cors = false,
 			name = e.request;
 
+		if (url.hostname !== self.location.hostname) {
+			cors = true;
+		}
+
 		if (URL.prototype.hasOwnProperty("searchParams")) {
 			hc = url.searchParams.get("hc");
 			if (hc != null) {
@@ -27,27 +31,30 @@ self.addEventListener('fetch', async e => {
 					uquery = true;
 					break;
 				}
-				if (url.searchParams.get("cors")) {
-					cors = true;
+
+				const cors_hint = url.searchParams.get("cors")
+				if (cors_hint != null) {
+					cors = (cors_hint == "1");
 				}
-			}
-			const uid = url.searchParams.get("uid");
-			if (uid != null) {
-				url.searchParams.delete("uid");
-				name = "/_virtual/" + uid + url.search;
+
+				const uid = url.searchParams.get("uid");
+				if (uid != null) {
+					url.searchParams.delete("uid");
+					name = "/_virtual/" + uid + url.search;
+				} else if (cors) {
+					const cors_uid = url.searchParams.get("cors_uid");
+					if (cors_uid != null) {
+						name = "/_virtual/_cors/" + cors_uid + url.search;
+					}
+				}
 			}
 		}
 
 		if (nohint &&
 		    !url.pathname.startsWith("/assets/") &&
 		    !url.pathname.startsWith("/styles/") &&
-		    !url.pathname.startsWith("/webfonts/"))
+		    !url.pathname.startsWith("/icons/"))
 			return fetch(e.request.clone());
-
-		if (url.hostname !== self.location.hostname && !cors) {
-			cors = true;
-			console.warn("sw: cross-domain request should use CORS. Opaque cache avoided. URI:", e.request.url);
-		}
 
 		const cache = await caches.open(CACHE_NAME);
 		let resp = await cache.match(name);
