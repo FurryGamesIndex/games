@@ -15,6 +15,9 @@ tags:
   male:
     - bull
     - otter
+    - lynx
+    - lizard
+    - wolf
   male:
     - fox
   misc:
@@ -23,6 +26,7 @@ tags:
     - engine-renpy
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
@@ -38,6 +42,8 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
+  - name: .unofficial-patch-zh
+    uri: FGI-misc-page:Echo_Route_65-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
