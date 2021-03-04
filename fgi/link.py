@@ -39,6 +39,8 @@ def uri_to_src(uri):
         return "https://www.youtube.com/%s" % res[1]
     elif res[0] == 'facebook':
         return "https://www.facebook.com/%s" % res[1]
+    elif res[0] == 'FGI-misc-page':
+        return f"https://github.com/FurryGamesIndex/games/blob/master/misc-pages/{res[1]}.md"
     else:
         return uri
 
@@ -78,7 +80,7 @@ class Link:
         if self.name in trdata:
             self.l10n_names[ln] = trdata[self.name]
 
-    def html(self, uil10n, ln, node_class=None, target=None):
+    def html(self, uil10n, ln, rr=None, node_class=None, target=None):
         name = self.name
 
         if self.stock:
@@ -88,7 +90,14 @@ class Link:
 
         content = self.icon + "<span>" + name + "</span>"
 
-        outer = '<a href="' + self.href + '"'
+        href = self.href
+        if href.startswith('/'):
+            if not rr:
+                raise ValueError("rr is required for in-site links")
+
+            href = rr + href
+
+        outer = '<a href="' + href + '"'
         if node_class:
             outer = outer + ' class="' + node_class + '"'
         if target:
