@@ -20,6 +20,7 @@
 site_map = {
     "itch.io": "itch-io",
     "demo-version-steam": "steam",
+    "furaffinity": "fur-affinity",
 }
 
 platform_map = {
