@@ -74,7 +74,8 @@ class Generator:
         self.dir_templates = os.path.join(self.args.data_dir_prefix, "templates")
         self.dir_uil10n = os.path.join(self.args.data_dir_prefix, "uil10n")
 
-        self.webroot_path = os.path.join(self.args.data_dir_prefix, "webroot")
+        self.webroot_path = os.path.join(self.args.data_dir_prefix, "webroot", "base")
+        self.styles_path = os.path.join(self.args.data_dir_prefix, "webroot", "styles")
         self.assets_path = os.path.join(self.args.data_dir_prefix, "assets")
         self.icon_path = os.path.join(self.args.data_dir_prefix, "icons", "build")
 
@@ -128,6 +129,7 @@ class Generator:
                 shutil.rmtree(self.output)
             dir_util._path_created = {}
             dir_util.copy_tree(self.webroot_path, self.output)
+            dir_util.copy_tree(self.styles_path, os.path.join(self.output, "styles"))
             dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
             dir_util.copy_tree(self.icon_path, os.path.join(self.output, "icons"))
 
@@ -146,6 +148,7 @@ class Generator:
             "authors": self.authors,
             "author_game_map": self.author_game_map,
             "webrootdir": self.webroot_path,
+            "stylesdir": self.styles_path,
             "icondir": self.icon_path,
             "ifac": self.ifac,
         }
