@@ -10,9 +10,25 @@ properties:
   aliases:
     type: array
     items:
-      type: string
-      description: |
-        Well-known aliases of the author.
+      oneOf:
+        - type: string
+          description: |
+            Well-known aliases of the author.
+        - type: object
+          title: AuthorAliasName
+          properties:
+            name:
+              type: string
+              description: |
+                The name of the author.
+            as-l10n-name-in:
+              type: array
+              items:
+                type: string
+                description:
+                  Locale names without region. like `en`, `zh`, etc.
+                  If set this property, this alias will be used as l10n name in these languages version.
+          required: [ name ]
   type:
     type: string
     description: |

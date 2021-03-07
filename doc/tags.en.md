@@ -226,10 +226,12 @@ Used to describe miscellaneous information related to the game
 - `engine-ue4` The game is developed using Unreal Engine 4
 - `adobe-flash` The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.
 - `multiple-endings` There are multiple different endings in the game
+- `multiple-series` The game is included in a series of connected worldviews or plots
 - `work-in-process` The game is ongoing
     - This tag has these alias(es): `ongoing`
-- `multiple-series` The game is included in a series of connected worldviews or plots
 - `died` When the game is not finished, the author announced to give up (If this tag exists, please destroy the misc:work-in-process tag)
+    - This tag has these alias(es): `dead`
+- `suspended` Game development was suspended. When the suspension lasts more than 2 years, you should consider adding `misc:died` and destroying this tag.
 - `expired` The acquisition method (such as download links) for the game is no longer valid (whether the game was abandoned before completion or not. Not to be confused with misc:died)
 - `unofficial` The game is a unoffical work (such as Morenatsu unoffical ver)
 - `moddable` This game is moddable.

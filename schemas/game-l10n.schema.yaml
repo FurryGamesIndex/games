@@ -11,6 +11,13 @@ properties:
     type: string
     description: |
       The translated description of the game.
+  description-format:
+    type: string
+    enum:
+      - plain
+      - markdown
+    description: |
+      Game description should be `plain` (default) text or will be rendered by `markdown`.
   links-tr:
     type: object
     title: LinkTranslation

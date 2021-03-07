@@ -8,6 +8,7 @@
 | :---------------------------------------------------- | -------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------- |
 | [name](#name)                                         | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-name.md "undefined#/properties/name")                                              |
 | [description](#description)                           | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-description.md "undefined#/properties/description")                                |
+| [description-format](#description-format)             | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-description-format.md "undefined#/properties/description-format")                  |
 | [links-tr](#links-tr)                                 | `object` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-linktranslation.md "undefined#/properties/links-tr")                               |
 | [X-Chinese-Convertor-Hint](#x-chinese-convertor-hint) | `object` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-extensionchineseconvertorhint.md "undefined#/properties/X-Chinese-Convertor-Hint") |
 
@@ -42,6 +43,31 @@ The translated description of the game.
 ### description Type
 
 `string`
+
+## description-format
+
+Game description should be `plain` (default) text or will be rendered by `markdown`.
+
+
+`description-format`
+
+-   is optional
+-   Type: `string`
+-   cannot be null
+-   defined in: [GameL10nEntry](game-l10n-properties-description-format.md "undefined#/properties/description-format")
+
+### description-format Type
+
+`string`
+
+### description-format Constraints
+
+**enum**: the value of this property must be equal to one of the following values:
+
+| Value        | Explanation |
+| :----------- | ----------- |
+| `"plain"`    |             |
+| `"markdown"` |             |
 
 ## links-tr
 

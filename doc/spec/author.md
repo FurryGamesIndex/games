@@ -37,13 +37,13 @@ The name of the author.
 `aliases`
 
 -   is optional
--   Type: `string[]`
+-   Type: an array of merged types ([Details](author-properties-aliases-items.md))
 -   cannot be null
 -   defined in: [AuthorEntry](author-properties-aliases.md "undefined#/properties/aliases")
 
 ### aliases Type
 
-`string[]`
+an array of merged types ([Details](author-properties-aliases-items.md))
 
 ## type
 
