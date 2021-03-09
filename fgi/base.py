@@ -22,6 +22,7 @@ import yaml
 
 from fgi.game import Game
 from fgi.author import Author
+from fgi.utils.uriutils import append_query
 
 def load_game(dbdir, f, languages):
     game = None
@@ -114,30 +115,58 @@ def list_pymod(dirname):
             if os.path.isfile(os.path.join(package_path, dirname, f)) \
                 and f[0] != '.' and f != "__init__.py"]
 
-def local_res_href(pmgr, rr, path, hc_uquery = None):
-    query = ""
-    if hc_uquery:
-        query = f"?hc=uquery&t={hc_uquery}"
+def find_local_file(dirlist, path):
+    for i in dirlist:
+        fn = os.path.join(i, *path)
+        if os.path.exists(fn):
+            return fn
 
-    mod = pmgr.invoke_plugins("html_local_res_href", None, rr=rr, path=path, hc_uquery=hc_uquery)
+    raise ValueError(f"Can not find file '{'/'.join(path)}' in {dirlist}")
+
+def local_res_src(gctx, rr, path,
+        force_hc_uquery = None,
+        force_ignore_file_check = False):
+    t = path[0]
+
+    src = rr + "/" + "/".join(path)
+    query = dict()
+    hc_uquery = None
+
+    if force_hc_uquery:
+        hc_uquery = force_hc_uquery
+    elif force_ignore_file_check:
+        pass
+    elif t == "styles":
+        fn = find_local_file(gctx.styles_path, path[1:])
+        hc_uquery = os.path.getmtime(fn)
+    elif t == "icons":
+        fn = find_local_file([gctx.icon_path], path[1:])
+        hc_uquery = os.path.getmtime(fn)
+    elif t == "scripts":
+        fn = find_local_file(gctx.webroot_path, path)
+        hc_uquery = os.path.getmtime(fn)
+
+    if hc_uquery:
+        query["hc"] = "uquery"
+        query["t"] = str(int(hc_uquery))
+
+    mod = gctx.pmgr.invoke_plugins("html_local_res_src", None, rr=rr, src=src, path=path, query=query)
 
     if mod:
-        mod_value = mod["new_uri"]
+        src = mod["src"]
         if "query_mode" in mod:
             if mod["query_mode"] == "unmanaged":
-                mod_value = mod_value + query
-            elif mod["query_mode"] == "origin-first":
-                if query != "":
-                    mod_value = mod_value + query
-                else:
-                    mod_value = mod_value + mod["query_fb"]
-            elif mod["query_mode"] == "managed":
                 pass
+            elif mod["query_mode"] == "origin-first":
+                if query == "":
+                    query = mod["query"]
+            elif mod["query_mode"] == "managed":
+                query = mod["query"]
             else:
                 raise ValueError(f"unkown query_mode: {mode['query_mode']}")
-        return mod_value
-    else:
-        return rr + path + query
+
+    src = append_query(src, query)
+    return src
 
 def make_wrapper(func, arg):
     def new_func(*args, **kwargs):

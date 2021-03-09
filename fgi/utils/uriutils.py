@@ -20,9 +20,10 @@
 from urllib.parse import urlencode
 
 def append_query(uri, query):
-    qs = urlencode(query)
-    if qs == "":
+    if not query:
         return uri
+
+    qs = urlencode(query)
 
     if "?" in uri:
         return uri + "&" + qs

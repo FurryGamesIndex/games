@@ -12,7 +12,7 @@
 <div class="default">
 {% include 'copying.html' %}
 </div>
-<script src="{{ res(rr, '/scripts/base.js') }}"></script>
+<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
 <script>
 const regexp = new RegExp(window.location.host + "/[a-z\\-]*/($|games/|list|index|search|faq|preferences).*");
 const match = document.referrer.match(regexp)

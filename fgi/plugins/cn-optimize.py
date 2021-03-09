@@ -23,7 +23,7 @@ import shutil
 from urllib.parse import quote
 from fgi.plugin import Plugin
 
-def remove_image_path_rr_parents(path):
+def remove_path_rr_parents(path):
     return re.sub(r'^[./]*', '', path)
 
 class ChinaOptimizePlugin(Plugin):
@@ -79,8 +79,9 @@ Recommend build arguments:
         with open(os.path.join(output, "zh-cn", "sensitive.html"), "w") as f:
             f.write("<html><head><meta charset='utf-8'></head><body>我们非常抱歉，但是此镜像已启用审查，以避免产生法律问题。如果要修改此页面上的首选项，请使用我们的<a href='https://furrygames.top'>主站点（https://furrygames.top）</a>。</body></html>\n")
 
-    def html_local_res_href(self, mod, rr = None, path = None, hc_uquery = None, *args, **kwargs):
+    def html_local_res_src(self, mod, rr = None, src = None, path = None, query = None, *args, **kwargs):
         if not mod:
+            src = "/" + remove_path_rr_parents(src)
 
             # FIXME: dirty hack
             #
@@ -91,21 +92,23 @@ Recommend build arguments:
             # We must specify git rev in the jsdelivr URI. Because jsdelivr
             # may have cache timeliness issues. If it is cached by the
             # service worker when the jsdelivr is not refreshed, it is a fatal.
-            if path == "/scripts/searchdb.json" or \
-                    path == "/scripts/searchdb_offline.js":
+            if src == "/scripts/searchdb.json" or \
+                    src == "/scripts/searchdb_offline.js":
                 return mod
 
             mod = dict()
-            mod["new_uri"] = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@" + self.rev + path
+            mod["src"] = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@" + self.rev + src
             mod["query_mode"] = "managed"
 
-            query = ""
-            if hc_uquery is not None:
-                query = f"?hc=uquery&t={hc_uquery}&cors=1&uid=v1" + quote(path, safe='')
-            else:
-                if path.startswith("styles/"):
-                    query = "?hc=always&cors=1"
-            mod["new_uri"] += query
+            mquery = dict()
+
+            if query and "hc" in query and query["hc"] == "uquery":
+                mquery["hc"] = "uquery"
+                mquery["t"] = query["t"]
+                mquery["cors"] = "1"
+                mquery["uid"] = "v1" + src
+
+            mod["query"] = mquery
 
         return mod
 

@@ -45,7 +45,7 @@
 		{% include 'copying.html' %}
 	</div>
 </div>
-<script src="{{ res(rr, '/scripts/base.js') }}"></script>
+<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
 <script>
 if (localStorage.getItem("show_sensitive") == "true") {
 	$$('script[type="text/x-FGI-sensitive-media"]').forEach(i => {

@@ -19,8 +19,8 @@
 {% if noindex is defined and noindex %}
 	<meta name="robots" content="noindex">
 {% endif %}
-	<link rel="stylesheet" href="{{ res(rr, '/styles/main.css', hc_uquery=os.path.getmtime(os.path.join(stylesdir, 'main.css'))|int) }}">
-	<link rel="stylesheet" href="{{ res(rr, '/icons/icon.css', hc_uquery=os.path.getmtime(os.path.join(icondir, 'icon.css'))|int) }}">
+	<link rel="stylesheet" href="{{ res(rr, [ 'styles', 'main.css' ]) }}">
+	<link rel="stylesheet" href="{{ res(rr, [ 'icons', 'icon.css' ]) }}">
 {% if extra_styles is defined %}
 	<style>{{ extra_styles }}</style>
 {% endif %}

@@ -37,7 +37,7 @@ from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
 from fgi.args import parse
-from fgi.base import load_game_all, load_author_all, list_pymod, local_res_href, make_wrapper
+from fgi.base import load_game_all, load_author_all, list_pymod, local_res_src, make_wrapper
 from fgi.search import SearchDatabase
 from fgi.tagmgr import TagManager
 from fgi.media import MediaFactory
@@ -71,11 +71,11 @@ class Generator:
         self.tagdep_file = os.path.join(self.args.data_dir_prefix, "tag-dependencies.yaml")
         self.tags_file = os.path.join(self.args.data_dir_prefix, "tags.yaml")
 
-        self.dir_templates = os.path.join(self.args.data_dir_prefix, "templates")
+        self.dir_templates = [ os.path.join(self.args.data_dir_prefix, "templates") ]
         self.dir_uil10n = os.path.join(self.args.data_dir_prefix, "uil10n")
 
-        self.webroot_path = os.path.join(self.args.data_dir_prefix, "webroot", "base")
-        self.styles_path = os.path.join(self.args.data_dir_prefix, "webroot", "styles")
+        self.webroot_path = [ os.path.join(self.args.data_dir_prefix, "webroot", "base") ]
+        self.styles_path = [ os.path.join(self.args.data_dir_prefix, "webroot", "styles") ]
         self.assets_path = os.path.join(self.args.data_dir_prefix, "assets")
         self.icon_path = os.path.join(self.args.data_dir_prefix, "icons", "build")
 
@@ -101,6 +101,8 @@ class Generator:
                 if len(d) >= 2:
                     options = d[1]
                 self.pmgr.load_plugin(name, options)
+
+        self.pmgr.invoke_plugins("global_pre_initialization", self)
 
         with open(os.path.join(self.icon_path, "FGI-icons.json")) as f:
             icondata = json.load(f)
@@ -128,8 +130,10 @@ class Generator:
             if os.path.exists(self.output) and not self.args.no_purge_prev_builds:
                 shutil.rmtree(self.output)
             dir_util._path_created = {}
-            dir_util.copy_tree(self.webroot_path, self.output)
-            dir_util.copy_tree(self.styles_path, os.path.join(self.output, "styles"))
+            for i in reversed(self.webroot_path):
+                dir_util.copy_tree(i, self.output)
+            for i in reversed(self.styles_path):
+                dir_util.copy_tree(i, os.path.join(self.output, "styles"))
             dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
             dir_util.copy_tree(self.icon_path, os.path.join(self.output, "icons"))
 
@@ -142,14 +146,11 @@ class Generator:
         self.lctx = {
             "os": os,
             "time": time,
-            "res": make_wrapper(local_res_href, self.pmgr),
+            "res": make_wrapper(local_res_src, self),
             "args": self.args,
             "games": self.games,
             "authors": self.authors,
             "author_game_map": self.author_game_map,
-            "webrootdir": self.webroot_path,
-            "stylesdir": self.styles_path,
-            "icondir": self.icon_path,
             "ifac": self.ifac,
         }
 

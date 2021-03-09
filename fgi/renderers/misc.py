@@ -24,6 +24,7 @@ from datetime import datetime
 from fgi.renderer import Renderer
 from fgi.i18n import conv_doc_markdown
 from fgi.link import Link
+from fgi.base import find_local_file
 
 class RendererMisc(Renderer):
     def __init__(self, *args, **kwargs):
@@ -82,14 +83,14 @@ class RendererMisc(Renderer):
 
         context = self.new_context()
         with self.sm_openw("sensitive.html", priority="0.2",
-                lastmod_file=f"{self.fctx.dir_templates}/sensitive.html") as f:
+                lastmod_file=find_local_file(self.fctx.dir_templates, ['sensitive.html'])) as f:
             f.write(env.get_template("sensitive.html").render(context))
 
         # preferences.html
 
         context = self.new_context()
         with self.sm_openw("preferences.html", priority="0.2",
-                lastmod_file=f"{self.fctx.dir_templates}/preferences.html") as f:
+                lastmod_file=find_local_file(self.fctx.dir_templates, ['preferences.html'])) as f:
             f.write(env.get_template("preferences.html").render(context))
 
 impl = RendererMisc

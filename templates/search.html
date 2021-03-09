@@ -29,10 +29,10 @@
 <div class="default">
 {% include 'copying.html' %}
 </div>
-<script src="{{ res(rr, '/scripts/base.js') }}"></script>
-<script src="{{ res(rr, '/scripts/searchexpr.js') }}"></script>
+<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+<script src="{{ res(rr, [ 'scripts', 'searchexpr.js' ]) }}"></script>
 {% if args.file_uri_workaround %}
-<script src="{{ res(rr, '/scripts/searchdb_offline.js') }}"></script>
+<script src="{{ res(rr, [ 'scripts', 'searchdb_offline.js' ], force_ignore_file_check = True) }}"></script>
 {% endif %}
 <script>
 const items = $('.items');
@@ -52,7 +52,7 @@ let add = (id, game) => {
 	const item = template.cloneNode(true);
 	item.classList.remove("hide");
 
-	const _prefix = "{{ res(rr, '') }}/"
+	const _prefix = "{{ res(rr, ['']) }}/"
 	const thumb = item.querySelector("._thumbnail");
 
 	make_picture(game.thumbnail, _prefix, thumb);
@@ -98,7 +98,7 @@ let onload = async () => {
 
 		let searchdb;
 		if (typeof(_searchdb) === 'undefined') {
-			searchdb = await (await fetch("{{ res(rr, '/scripts/searchdb.json', hc_uquery=time()|int) }}")).json();
+			searchdb = await (await fetch("{{ res(rr, [ 'scripts', 'searchdb.json' ], force_hc_uquery=time()|int) }}")).json();
 		} else {
 			searchdb = _searchdb;
 		}
