@@ -1,4 +1,4 @@
-const CACHE_NAME = "sw:i:9"
+const CACHE_NAME = "sw:i:10"
 
 self.addEventListener('activate', async e => {
 	e.waitUntil((async () => {
@@ -62,7 +62,7 @@ self.addEventListener('fetch', async e => {
 		if (!resp) {
 			if (uquery) {
 				const oldresp = await cache.matchAll(name, {"ignoreSearch": true});
-				if (oldresp != null) {
+				if (oldresp != null && oldresp.length > 0) {
 					console.log('sw: deleting old cache', name);
 					await cache.delete(name, {"ignoreSearch": true});
 					/*oldresp.forEach((el, index, arr) => {

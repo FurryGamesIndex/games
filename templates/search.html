@@ -52,7 +52,7 @@ let add = (id, game) => {
 	const item = template.cloneNode(true);
 	item.classList.remove("hide");
 
-	const _prefix = "{{ res(rr, ['']) }}/"
+	const _prefix = "{{ res(rr, ['']) }}"
 	const thumb = item.querySelector("._thumbnail");
 
 	make_picture(game.thumbnail, _prefix, thumb);
