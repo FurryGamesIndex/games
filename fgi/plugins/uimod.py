@@ -18,9 +18,6 @@
 # 
 
 import os
-import yaml
-
-from jinja2 import FileSystemLoader
 
 from fgi.plugin import Plugin
 
@@ -32,16 +29,10 @@ class UIModPlugin(Plugin):
         print("FGI UI mod loader plugin")
         print(f"Loading mod: {self.mod}")
 
+    def global_pre_initialization(self, gctx):
         if not os.path.isdir(self.mod):
             raise ValueError(f"'{self.mod}' is not a directory")
 
-        with open(os.path.join(self.mod, "ui.yaml")) as f:
-            self.metadata = yaml.safe_load(f)
-
-        if self.metadata["version"] != 1:
-            raise ValueError(f"mod versioning failed")
-
-    def global_pre_initialization(self, gctx):
         dir_templates = os.path.join(self.mod, "templates")
         if os.path.isdir(dir_templates):
             gctx.dir_templates.insert(0, dir_templates)
@@ -49,9 +40,5 @@ class UIModPlugin(Plugin):
         dir_styles = os.path.join(self.mod, "styles")
         if os.path.isdir(dir_styles):
             gctx.styles_path.insert(0, dir_styles)
-
-        if "private-template" in self.metadata:
-            gctx.template_prefixes[self.metadata["private-template"]["prefix"]] = \
-                    FileSystemLoader(os.path.join(self.mod, "private-templates"))
 
 impl = UIModPlugin
