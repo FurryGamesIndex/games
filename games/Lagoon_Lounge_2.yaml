@@ -46,8 +46,8 @@ links:
     uri: https://www.dlsite.com/ecchi-eng/work/=/product_id/RE153061.html
   - name: .twitter
     uri: twitter:oodaru
-  - name: .unofficial-version-zh
-    uri: FGI-misc-page:Lagoon_Lounge_2-unofficial-l10n-zh-redir
+  - name: .unofficial-patch-zh
+    uri: FGI-misc-page:Lagoon_Lounge_2_3-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
