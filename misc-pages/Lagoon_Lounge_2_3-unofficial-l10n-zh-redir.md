@@ -1,8 +1,8 @@
 # Lagoon Lounge 2, 3 的非官方中文本地化资源
 
 [打开 Lagoon Lounge 2 ~ Yaneura no Lagoon / 屋根裏のラグーン 的 FGI 页面](https://furrygames.top/zh-cn/games/Lagoon_Lounge_2.html)
-[打开 Lagoon Lounge 3 ~ Irori no Lagoon / 囲炉裏のラグーン 的 FGI 页面](https://furrygames.top/zh-cn/games/Lagoon_Lounge_3.html)
 
+[打开 Lagoon Lounge 3 ~ Irori no Lagoon / 囲炉裏のラグーン 的 FGI 页面](https://furrygames.top/zh-cn/games/Lagoon_Lounge_3.html)
 
 ## 说明
 

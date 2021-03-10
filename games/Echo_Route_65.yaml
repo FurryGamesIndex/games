@@ -42,7 +42,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: .unofficial-patch-zh
+  - name: .unofficial-version-zh
     uri: FGI-misc-page:Echo_Route_65-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
