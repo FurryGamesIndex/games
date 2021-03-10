@@ -34,7 +34,7 @@ from time import time
 from datetime import datetime
 from pathlib import Path
 from distutils import dir_util
-from jinja2 import Environment, FileSystemLoader
+from jinja2 import Environment, FileSystemLoader, PrefixLoader, ChoiceLoader
 
 from fgi.args import parse
 from fgi.base import load_game_all, load_author_all, list_pymod, local_res_src, make_wrapper
@@ -73,6 +73,8 @@ class Generator:
 
         self.dir_templates = [ os.path.join(self.args.data_dir_prefix, "templates") ]
         self.dir_uil10n = os.path.join(self.args.data_dir_prefix, "uil10n")
+
+        self.template_prefixes = dict()
 
         self.webroot_path = [ os.path.join(self.args.data_dir_prefix, "webroot", "base") ]
         self.styles_path = [ os.path.join(self.args.data_dir_prefix, "webroot", "styles") ]
@@ -124,7 +126,11 @@ class Generator:
 
         self.languages = get_languages_list(self, self.dbdir)
 
-        self.env = Environment(loader = FileSystemLoader(self.dir_templates))
+        jinja2_loader = ChoiceLoader([
+            PrefixLoader(self.template_prefixes),
+            FileSystemLoader(self.dir_templates)
+        ])
+        self.env = Environment(loader = jinja2_loader)
 
         if self.output != "-":
             if os.path.exists(self.output) and not self.args.no_purge_prev_builds:
