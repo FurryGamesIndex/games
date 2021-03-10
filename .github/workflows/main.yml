@@ -105,9 +105,9 @@ jobs:
 
     - name: sync-mirror
       run: |
-        echo -e "Host gitee.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        echo -e "Host gitee.com\n\tStrictHostKeyChecking no\n\tConnectTimeout 5\n" > ~/.ssh/config
         git push git@gitee.com:furrygamesindex/games.git master || true
-        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n\tConnectTimeout 5\n" > ~/.ssh/config
         git push git@gitlab.com:furrygamesindex/games.git master || true
-        echo -e "Host bitbucket.org\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        echo -e "Host bitbucket.org\n\tStrictHostKeyChecking no\n\tConnectTimeout 5\n" > ~/.ssh/config
         git push git@bitbucket.org:furrygamesindex/games.git master || true
