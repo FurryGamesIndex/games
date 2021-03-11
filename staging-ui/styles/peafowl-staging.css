@@ -23,8 +23,8 @@ a {
     color: var(--accent-text-color);
 }
 
-p a {
-    text-decoration: underline;
+p a:hover {
+	text-decoration: underline;
 }
 
 dd a {
@@ -35,6 +35,13 @@ dd a {
 a:hover,
 button:hover {
     color: var(--accent-text-color-alt);
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+	outline: 0;
 }
 
 button {
