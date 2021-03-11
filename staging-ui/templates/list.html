@@ -1,0 +1,21 @@
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+
+<main class="entry">
+{% include 'peafowl-private/list-chain.html' %}
+
+{% for gid, game in games %}
+{% set desc = game.get_description(lang).text %}
+{% set game_name = game.get_name(lang) %}
+	<article>
+		<h4><a href="./games/{{ gid }}.html">{{ game_name|e }}</a></h4>
+		<section class="description subheading">
+			{{ (desc[:480] + (desc[480:] and '...'))|e }}
+		</section>
+		{{ game.thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game_name) }}
+	</article>
+	<hr />
+{% endfor %}
+</main>
+
+{% include 'peafowl-private/footer.html' %}

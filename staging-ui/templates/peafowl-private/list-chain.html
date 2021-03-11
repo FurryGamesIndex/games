@@ -1,0 +1,18 @@
+<ul class="category">
+{% for klass in klasses %}
+<li>
+	{{ ui["list-klass-" + klass.nameid] }}
+	<ul>
+	{% for f in klass.filters %}
+	{% set name = ui["list-klass-" + f.nameid] %}
+	{% if f in chain_set %}
+		<li class="activated">{{ name }}</li>
+	{% else %}
+		{% set magic = sorted_magic(klassmagics[klass] + f.magic) %}
+		<li><a href="list{{ magic }}.html">{{ name }}</a></li>
+	{% endif %}
+	{% endfor %}
+	</ul>
+</li>
+{% endfor %}
+</ul>
