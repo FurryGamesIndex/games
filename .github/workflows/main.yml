@@ -106,7 +106,7 @@ jobs:
         git remote add origin git@github.com:FurryGamesIndex/FurryGamesIndex.github.io
         git add .
         git commit -m 'deploy FGI-next website'
-        git push -f origin next
+        git push -f origin master:next
         cd ..
         rm -rf output-next
         mv _git .git
