@@ -41,7 +41,7 @@ class RendererMisc(Renderer):
         # search.html
 
         context = self.new_context()
-        context["active_search"] = "actived"
+        context["active_search"] = "activated"
         context["noindex"] = True
         with open(self.getpath("search.html"), "w") as f:
             f.write(env.get_template("search.html").render(context))
@@ -49,7 +49,7 @@ class RendererMisc(Renderer):
         # index.html
 
         context = self.new_context()
-        context["active_index"] = "actived"
+        context["active_index"] = "activated"
         with self.sm_openw("index.html", priority="0.6") as f:
             f.write(env.get_template("index.html").render(context))
 
@@ -57,7 +57,7 @@ class RendererMisc(Renderer):
 
         context = self.new_context()
         context["content"] = conv_doc_markdown(self.fctx, "faq", self.language)
-        context["active_faq"] = "actived"
+        context["active_faq"] = "activated"
         with self.sm_openw("faq.html", priority="0.4") as f:
             f.write(env.get_template("simple_md.html").render(context))
 

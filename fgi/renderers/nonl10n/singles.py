@@ -32,7 +32,7 @@ class RendererSingles(Renderer):
 
     def render(self):
         context = self.new_context()
-        context["active_languages"] = "actived"
+        context["active_languages"] = "activated"
         with open(self.getpath("languages.html"), "w") as f:
             f.write(self.env.get_template("languages.html").render(context))
 

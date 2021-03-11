@@ -215,7 +215,7 @@ code {
 	flex: 0 0 auto;
 }
 
-#navlinks>a.actived {
+#navlinks>a.activated {
 	font-weight: bold;
 }
 
@@ -260,7 +260,7 @@ code {
 		margin: 0 0 12px;
 	}
 
-	#navlinks>a:not(.actived)>span:not(.icon) {
+	#navlinks>a:not(.activated)>span:not(.icon) {
 		display: none;
 	}
 }
