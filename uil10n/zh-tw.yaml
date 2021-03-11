@@ -154,8 +154,7 @@ list-klass-platform-console: 遊戲機
 list-klass-status: 狀態：
 list-klass-status-all: 全部
 list-klass-status-released: 已釋出
-list-klass-status-wip: 開發中
-list-klass-status-died-or-suspended: 已死亡或已暫停
+list-klass-status-others: 其他
 list-klass-view: 檢視：
 list-klass-view-standard: 標準
 list-klass-view-complex: 複雜

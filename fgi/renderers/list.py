@@ -109,7 +109,7 @@ class RendererList(Renderer):
     def __init__(self, *args, **kwargs):
         self.basectx = {
             "rr": "..",
-            "active_list": "actived",
+            "active_list": "activated",
             "ts_to_rfc5322": ts_to_rfc5322,
             "sorted_magic": sorted_magic,
         }
@@ -202,10 +202,8 @@ class RendererList(Renderer):
 
             klass_status = ListKlass("status")
             klass_status.add(ListFilter('', "status-all"))
-            klass_status.add(ListFilterTag('G', "status-wip", tags=[
+            klass_status.add(ListFilterTag('F', "status-others", tags=[
                 Tag("misc", "work-in-process"),
-            ]))
-            klass_status.add(ListFilterTag('F', "status-died-or-suspended", tags=[
                 Tag("misc", "died"),
                 Tag("misc", "suspended"),
             ]))

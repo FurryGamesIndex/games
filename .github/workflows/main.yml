@@ -96,12 +96,20 @@ jobs:
 
     - name: next-deploy
       if: ${{ env.FGI_NEXT_DONE == '1' }}
-      uses: dswistowski/surge-sh-action@v1
-      with:
-        domain: 'next-build.furrygames.top'
-        project: './output-next'
-        login: ${{ secrets.surge_login }}
-        token: ${{ secrets.surge_token }}
+      run: |
+        mv .git _git
+        echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+        git config --global user.email "noreply@example.com"
+        git config --global user.name "deploy-bot"
+        cd output-next
+        git init
+        git remote add origin git@github.com:FurryGamesIndex/FurryGamesIndex.github.io
+        git add .
+        git commit -m 'deploy FGI-next website'
+        git push -f origin next
+        cd ..
+        rm -rf output-next
+        mv _git .git
 
     - name: sync-mirror
       run: |
