@@ -59,15 +59,15 @@ build() {
 	mkdir -p extraui
 	cat > extraui/en.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> This is FGI-next, a unstable preview contains many changes that may be finally rejected. <a href="https://furrygames.top/">Click here to switch to the stable version</a>
+  This is FGI-next, experimental preview build of FGI, which may contain many changes that are under testing and may even be broken. <a href="https://furrygames.top/">Switch to stable version</a>
 EOF
 	cat > extraui/zh-cn.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> 这是 FGI-next，一个 FGI 的实验性预览构建，可能包含很多当前不稳定或最终被否决的更改。<a href="https://furrygames.top/">点击此处切换到稳定版本</a>
+  这是 FGI-next，FGI 的实验性预览构建，它可能包含很多正在测试中的改动，甚至可能会影响正常使用。<a href="https://furrygames.top/">切换到稳定版本</a>
 EOF
 	cat > extraui/zh-tw.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> 這是 FGI-next，一個 FGI 的實驗性預覽構建，可能包含很多當前不穩定或最終被否決的更改。<a href="https://furrygames.top/">點選此處切換到穩定版本</a>
+  這是 FGI-next，FGI 的實驗性預覽構建，它可能包含很多正在測試中的改動，甚至可能會影響正常使用。<a href="https://furrygames.top/">切換到穩定版本</a>
 EOF
 
 	./generate.py --next \

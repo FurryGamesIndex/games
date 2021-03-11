@@ -40,14 +40,16 @@ mkdir -p extraui
 dt=$(date -R)
 cat > extraui/en.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> This is a snapshot offline built for FurryGamesIndex (Build datetime: ${dt}). The upstream online version may already have a lot of improvements. <a href="https://furrygames.top/">Click here to switch to the online version</a>
+  This is a snapshot offline built for FurryGamesIndex (Build datetime: ${dt}). The upstream online version may already have a lot of improvements. <a href="https://furrygames.top/">Click here to switch to the online version</a>
 EOF
 cat > extraui/zh-cn.yaml <<EOF
 infobar: >
-  <i class="fas fa-exclamation-circle"></i> 这是一个 FurryGamesIndex 的离线快照构建（构建时间：${dt}）。上游在线版本可能已经有了重大改进。<a href="https://furrygames.top/">点击此处切换到在线版本</a>
+  这是一个 FurryGamesIndex 的离线快照构建（构建时间：${dt}）。上游在线版本可能已经有了重大改进。<a href="https://furrygames.top/">点击此处切换到在线版本</a>
+EOF
+cat > extraui/zh-tw.yaml <<EOF
+infobar: >
+  這是一個 FurryGamesIndex 的離線快照構建（構建時間：${dt}）。上游線上版本可能已經有了重大改進。<a href="https://furrygames.top/">點選此處切換到線上版本</a>
 EOF
 
-./zhconv.py --no-builtin extraui/zh-cn.yaml:extraui/zh-tw.yaml
-#./generate.py --no-sitemap --no-purge-prev-builds --download-external-images --extra-ui extraui "$OUTPUT_DIR"
 ./generate.py --no-sitemap --file-uri-workaround --download-external-images --use-external-images-cache "$CACHE_DIR" --extra-ui extraui "$OUTPUT_DIR"
 test "$FGI_OFFLINE_WEBP" = 1 && ./generate.py --no-sitemap --file-uri-workaround --download-external-images --images-to-webp --use-external-images-cache "$OUTPUT_DIR" --extra-ui extraui "$OUTPUT_DIR_WEBP"
