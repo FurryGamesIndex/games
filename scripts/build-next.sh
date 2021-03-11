@@ -71,7 +71,6 @@ infobar: >
 EOF
 
 	./generate.py --next \
-		--no-sub-lists \
 		--images-candidate-webp \
 		--no-sitemap \
 		--extra-ui extraui \
