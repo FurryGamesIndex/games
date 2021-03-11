@@ -1,0 +1,16 @@
+{% include 'peafowl-private/header.html' %}
+<main class="preface">
+	<hgroup>{{ ui.index_v2_header }}</hgroup>
+	<article class="subheading">
+		{{ ui.index_v2_content }}
+	</article>
+	<nav>
+		<a href="{{ rr }}/{{ lang }}/list.html">{{ ifac.misc_icon("list") }}{{ ui.index_link_games }}</a>
+		<a href="{{ rr }}/{{ lang }}/search.html">{{ ifac.misc_icon("search") }}{{ ui.index_link_search }}</a>
+		<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.{{ lang }}.md">{{ ifac.misc_icon("paw") }}{{ ui.index_link_contribute }}</a>
+		<a href="https://github.com/FurryGamesIndex/games/blob/master/CONTRIBUTORS.md">{{ ifac.misc_icon("paw") }}{{ ui.index_link_contributors }}</a>
+		<a href="https://github.com/FurryGamesIndex/games">{{ ifac.site_icon("github") }}{{ ui.index_link_github }}</a>
+		<a href="https://t.me/FurryGamesIndex">{{ ifac.site_icon("telegram") }}{{ ui.index_link_tg }}</a>
+	</nav>
+</main>
+{% include 'peafowl-private/footer.html' %}

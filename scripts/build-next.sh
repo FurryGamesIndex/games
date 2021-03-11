@@ -76,6 +76,7 @@ EOF
 		--no-sitemap \
 		--extra-ui extraui \
 		--with-rss \
+		--plugin uimod,mod=staging-ui \
 		--plugin steam-cdn-unite,verbose=1 "$1"
 	cat > "$1/robots.txt" <<EOF
 User-agent: *
@@ -92,12 +93,15 @@ init)
 build)
 	build "${2:-output-next}"
 	;;
+clean-tree)
+	;;
 *)
 	cat <<EOF
 usage: build-next.sh <action> [arguments ...]
 
 	init <remote name>
 	build [output path]
+	clean-tree
 EOF
 	;;
 esac

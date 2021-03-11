@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+{% if meta is defined %}
+	<title>{{ meta.title }} - {{ ui.page_title }}</title>
+	<meta name="keywords" content="{{ ui.base_keywords }}{{ meta.extra_keywords }}">
+	<meta property="og:title" content="{{ meta.title }} - {{ ui.page_title }}"/>
+	<meta property="og:description" content="{{ meta.description }}"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:image" content="{{ meta.image }}"/>
+{% else %}
+	<title>{{ ui.page_title }}</title>
+	<meta name="keywords" content="{{ ui.base_keywords }}">
+{% endif %}
+	<meta name="description" content="{{ ui.page_description }}">
+{% if noindex is defined and noindex %}
+	<meta name="robots" content="noindex">
+{% endif %}
+	<link rel="stylesheet" href="{{ res(rr, [ 'styles', 'peafowl-staging.css' ]) }}">
+	<link rel="stylesheet" href="{{ res(rr, [ 'icons', 'icon.css' ]) }}">
+{% if extra_styles is defined %}
+	<style>{{ extra_styles }}</style>
+{% endif %}
+</head>
+<body>
+<aside class="version-warning">
+	<div class="container">
+		{{ ifac.misc_icon("warn") }}
+		<p class="body1">
+			{% if "infobar" in ui %}
+				{{ ui.infobar }}<br>
+			{% endif %}
+			This is Staging new redesigned FGI UI. Version code: peafowl<br>
+			<a href="https://furrygames.top/">FurryGames Classic UI</a>
+		</p>
+	</div>
+</aside>
