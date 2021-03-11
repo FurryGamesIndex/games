@@ -97,29 +97,6 @@ ul {
     background-color: var(--blue-grey-500);
 }
 
-@font-face {
-    font-family: "FGI-Icons";
-    src: url("../resources/FGI-Icons.woff") format("woff");
-}
-
-.icon {
-    font-family: "FGI-Icons";
-    font-weight: normal;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 1;
-    letter-spacing: normal;
-    text-transform: none;
-    display: inline-block;
-    white-space: nowrap;
-    word-wrap: normal;
-    direction: ltr;
-}
-
-.icon::before {
-    content: attr(data-icon);
-}
-
 :lang(en) {
     --display-4-leading: 7rem;
     --display-3-leading: 4rem;
@@ -252,6 +229,10 @@ body > hr {
     margin: 13px 0;
 }
 
+.version-warning .icon {
+	font-size: 1.34rem
+}
+
 header {
     width: calc(100% - 2 * var(--increment));
     max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));
@@ -305,7 +286,8 @@ address {
 
 address a {
     display: inline-flex;
-    padding: 12px;
+    padding: 12px 6px;
+    font-size: 1.34rem
 }
 
 .preface {
