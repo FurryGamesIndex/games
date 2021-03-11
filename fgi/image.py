@@ -122,7 +122,7 @@ class HTMLImage:
         if self.width > 0:
             node += f"width='{self.width}' height='{self.height}' "
 
-        if len(self.sources) > 1 and use_picture:
+        if use_picture:
             code = "<picture>"
             for i in self.sources:
                 code += f"<source srcset='{append_query(i.srcset.get_uri(self.rr), self.query)}' type='{i.type}'>"
