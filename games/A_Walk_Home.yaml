@@ -59,6 +59,7 @@ links:
   - name: Release page (inkbunny)
     uri: https://inkbunny.net/s/1496353
   - name: Release page (furaffinity)
+    icon: fur-affinity
     uri: https://www.furaffinity.net/view/25681711/
 
 thumbnail: thumbnail.jpg
