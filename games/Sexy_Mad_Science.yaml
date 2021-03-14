@@ -1,0 +1,51 @@
+name: Sexy Mad Science
+
+description: |
+  Sexy Mad Science is the story of a lowly intern (you), attempting to become a Sexy Mad Scientist. Basically you mess with your new boss' older brother and earn points.
+
+description-format: markdown
+
+authors:
+  - name: Draite
+    role: [ producer, artist, programmer ]
+  - name: Wolfblade
+    role: [ character-designer, artist ]
+  - name: Eluti
+    role: [ musician ]
+  - name: colson
+    role: [ voice-actor ]
+
+tags:
+  type:
+    - business-sim
+    - bara
+    - yiff
+  male:
+    - dog
+    - humankind
+    - muscle
+    - anal
+    - blowjob
+  misc:
+    - freeware
+  publish:
+    - patreon
+  platform:
+    - web
+    - windows
+
+links:
+  - name: .release-page
+    icon: patreon
+    uri: https://www.patreon.com/posts/sexy-mad-science-12448118
+  - name: .release-page
+    icon: fur-affinity
+    uri: https://www.furaffinity.net/view/24035113/
+  - name: Play on Web
+    uri: http://sms.furry.science/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/8iDPYDc.png
+  - https://i.imgur.com/Gj5SK6M.png
