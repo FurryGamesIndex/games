@@ -1,0 +1,40 @@
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+
+<main class="preferences subheading">
+
+<div class="default preferences">
+	<h1>{{ ui.preferences_h1 }}</h1>
+
+	<article>
+		<h2>{{ ui.preferences_sensitive_h2 }}</h2>
+		<p>{{ ui.preferences_sensitive }}</p>
+	</article>
+	<hr />
+	<article>
+		<h2>{{ ui.preferences_steam_widget_h2 }}</h2>
+		<p>
+			<input type="checkbox" id="steam_widget_switch" class="g_ls_switch" data-lskey="show_steam_widget">
+			<label for="steam_widget_switch">{{ ui.preferences_steam_widget }}</label>
+		</p>
+		<p>{{ ui.preferences_steam_widget_tip }}</p>
+	</article>
+</div>
+
+</main>
+<script>
+function gLocalStorageSwitchChange(e) {
+	e.preventDefault();
+	const cb = e.target;
+	localStorage.setItem(cb.dataset.lskey, cb.checked ? "true" : "false");
+}
+
+$$("input.g_ls_switch").forEach(i => {
+	const k = i.dataset.lskey;
+	i.addEventListener('change', gLocalStorageSwitchChange);
+	if (localStorage.getItem(k) == "true") {
+		i.checked = true;
+	}
+})
+</script>
+{% include 'peafowl-private/footer.html' %}

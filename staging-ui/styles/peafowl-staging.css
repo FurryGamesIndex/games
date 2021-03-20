@@ -600,11 +600,10 @@ article:lang(en) h4 {
 	column-gap: 8px;
 }
 
-/* preference.html */
+/* preferences.html */
 
 .preferences,
-.languages,
-.faq {
+.languages {
 	width: min(calc(100% - 2 * var(--increment)), 100%);
 	max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));
 	display: grid;
@@ -613,7 +612,7 @@ article:lang(en) h4 {
 	margin: var(--main-column-gap) 0;
 }
 
-:lang(zh) .preferences h2 {
+.preferences h2 {
 	font-weight: 700;
 	margin-bottom: 22px;
 }
