@@ -62,6 +62,13 @@ Tags spec editor.
 UI desinger,
 Games submitter and editor.
 
+### 小虎故洞
+
+[Telegram](https://t.me/KumalParker) | [Github](https://github.com/TigerCubDen) | [Furaffinity](https://www.furaffinity.net/user/tiger-jungle/)
+
+Games submitter and editor, 
+Chinese Documents.
+
 ***For new contributors, please add your name and contacts before this line.***
 
 ## Game referrers
