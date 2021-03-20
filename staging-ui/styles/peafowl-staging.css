@@ -1,8 +1,108 @@
 :root {
+	--light-blue-50: #e1f5fe;
+	--light-blue-100: #b3e5fc;
+	--light-blue-200: #81d4fa;
+	--light-blue-300: #4fc3f7;
+	--light-blue-400: #29b6f6;
+	--light-blue-500: #03a9f4;
+	--light-blue-600: #039be5;
+	--light-blue-700: #0288d1;
+	--light-blue-800: #0277bd;
+	--light-blue-900: #01579b;
+	--light-blue-a100: #80d8ff;
+	--light-blue-a200: #40c4ff;
+	--light-blue-a400: #00b0ff;
+	--light-blue-a700: #0091ea;
+	--deep-orange-a400: #ff3d00;
+	--deep-orange-a700: #dd2c00;
+	--blue-grey-50: #eceff1;
+	--blue-grey-100: #cfd8dc;
+	--blue-grey-200: #b0bec5;
+	--blue-grey-300: #90a4ae;
+	--blue-grey-400: #78909c;
+	--blue-grey-500: #607d8b;
+	--blue-grey-600: #546e7a;
+	--blue-grey-700: #455a64;
+	--blue-grey-800: #37474f;
+	--blue-grey-900: #263238;
+	--blue-grey-950: #21272b;
+	--grey-50: #fafafa;
+	--grey-100: #f5f5f5;
+	--grey-200: #eeeeee;
+	--grey-300: #e0e0e0;
+	--grey-400: #bdbdbd;
+	--grey-500: #9e9e9e;
+	--grey-600: #757575;
+	--grey-700: #616161;
+	--grey-800: #424242;
+	--grey-850: #303030;
+	--grey-900: #212121;
+	--grey-950: #121212;
+
 	--increment: 64px;
 	--keyline: 24px;
 	--main-grid-unit: 360px;
 	--main-column-gap: 40px;
+
+	--primary-text-color: rgba(0, 0, 0, 0.87);
+	--secondary-text-color-alt: rgba(0, 0, 0, 0.7);
+	--secondary-text-color: rgba(0, 0, 0, 0.54);
+	--hint-text-color: rgba(0, 0, 0, 0.38);
+	--hint-text-color-alt: rgba(0, 0, 0, 0.2);
+	--divider-color: rgba(0, 0, 0, 0.12);
+	--accent-text-color: var(--light-blue-900);
+	--accent-text-color-alt: var(--light-blue-700);
+	--activated-text-color: var(--light-blue-800);
+	--primary-background-color: var(--grey-50);
+	--secondary-background-color: var(--blue-grey-50);
+	--accent-background-color: var(--blue-grey-50);
+	--warning-text-color: var(--deep-orange-a700);
+
+	--display-4-leading: 7rem;
+	--display-3-leading: 4rem;
+	--display-2-leading: 3rem;
+	--display-1-leading: 2.5rem;
+	--headline-leading: 2rem;
+	--title-leading: 1.75rem;
+	--subheading-leading: 1.5rem;
+	--body-leading: 1.25rem;
+	--caption-leading: 1rem;
+
+	--big-icon-font-size: 1.125rem;
+	--huge-icon-font-size: 1.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primary-text-color: rgba(255, 255, 255, 1);
+		--secondary-text-color-alt: rgba(255, 255, 255, 0.87);
+		--secondary-text-color: rgba(255, 255, 255, 0.7);
+		--hint-text-color: rgba(255, 255, 255, 0.5);
+		--hint-text-color-alt: rgba(255, 255, 255, 0.38);
+		--divider-color: rgba(255, 255, 255, 0.12);
+		--accent-text-color: var(--light-blue-600);
+		--accent-text-color-alt: var(--light-blue-400);
+		--activated-text-color: var(--light-blue-500);
+		--primary-background-color: var(--grey-900);
+		--secondary-background-color: var(--blue-grey-950);
+		--accent-background-color: var(--blue-grey-800);
+		--warning-text-color: var(--deep-orange-a400);
+	}
+}
+
+:lang(ja),
+:lang(zh),
+:lang(zh-cn),
+:lang(zh-tw) {
+	--display-4-leading: 8rem;
+	--display-3-leading: 4.875rem;
+	--display-2-leading: 3.9375rem;
+	--display-1-leading: 3rem;
+	--headline-leading: 2.125rem;
+	--title-leading: 1.875rem;
+	--subheading-leading: 1.625rem;
+	--body-leading: 1.4375rem;
+	--caption-leading: 1.25rem;
 }
 
 body {
@@ -15,7 +115,6 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
 	font-size: 16px;
 	line-height: 1;
-	user-select: none;
 }
 
 /* misc */
@@ -86,11 +185,6 @@ hr {
 	border-color: var(--divider-color);
 }
 
-/*picture {
-	display: flex;
-	flex-direction: column;
-}*/
-
 img {
 	width: 100%;
 	height: auto;
@@ -105,7 +199,6 @@ h5,
 h6 {
 	margin: 0;
 	font-weight: 400;
-	user-select: text;
 }
 
 p {
@@ -163,6 +256,10 @@ body > hr {
 	margin: 13px 0;
 }
 
+.version-warning .icon {
+	font-size: var(--huge-icon-font-size);
+}
+
 /* header */
 
 header {
@@ -203,7 +300,7 @@ header a {
 }
 
 header .icon {
-	font-size: 1.125rem;
+	font-size: var(--big-icon-font-size);
 }
 
 /* footer */
@@ -217,7 +314,7 @@ footer {
 }
 
 footer p .icon {
-	font-size: 1.125rem;
+	font-size: var(--big-icon-font-size);
 	vertical-align: text-top;
 	margin-right: 6px;
 }
@@ -229,7 +326,11 @@ address {
 
 address a {
 	display: inline-flex;
-	padding: 12px;
+	padding: 12px 6px;
+}
+
+address a .icon {
+	font-size: var(--huge-icon-font-size);
 }
 
 /* index.html */
@@ -269,7 +370,6 @@ h2 {
 
 .preface article {
 	grid-column: span 2;
-	user-select: text;
 }
 
 .preface nav {
@@ -389,7 +489,6 @@ article:lang(en) h4 {
 
 .description {
 	grid-column: span 2;
-	user-select: text;
 }
 
 .entry[class~="detailed"] .description {
@@ -569,7 +668,6 @@ article:lang(en) h4 {
 	display: flex;
 	align-items: center;
 	flex-wrap: wrap;
-	user-select: text;
 }
 
 .author .avatar {
@@ -603,7 +701,8 @@ article:lang(en) h4 {
 /* preferences.html */
 
 .preferences,
-.languages {
+.languages,
+.simple_markdown {
 	width: min(calc(100% - 2 * var(--increment)), 100%);
 	max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));
 	display: grid;
@@ -617,14 +716,18 @@ article:lang(en) h4 {
 	margin-bottom: 22px;
 }
 
-/* markdown */
+/* simple_md.html */
 
-.markdown h2 {
+.simple_markdown section:not(:last-of-type) {
+    margin-bottom: 40px;
+}
+
+.simple_markdown h2 {
 	font-weight: 700;
 	margin-bottom: 18px;
 }
 
-.markdown h3 {
+.simple_markdown h3 {
 	font-weight: 700;
 	margin-bottom: 9px;
 }
@@ -886,7 +989,7 @@ article:lang(en) h4 {
 	footer,
 	.preferences,
 	.languages,
-	.faq {
+	.simple_markdown {
 		width: calc(100% - 2 * var(--keyline));
 		max-width: var(--main-grid-unit);
 		padding: 0;
@@ -981,31 +1084,6 @@ article:lang(en) h4 {
 	}
 }
 
-:lang(en) {
-	--display-4-leading: 7rem;
-	--display-3-leading: 4rem;
-	--display-2-leading: 3rem;
-	--display-1-leading: 2.5rem;
-	--headline-leading: 2rem;
-	--title-leading: 1.75rem;
-	--subheading-leading: 1.5rem;
-	--body-leading: 1.25rem;
-	--caption-leading: 1rem;
-}
-
-:lang(zh),
-:lang(ja) {
-	--display-4-leading: 8rem;
-	--display-3-leading: 4.875rem;
-	--display-2-leading: 3.9375rem;
-	--display-1-leading: 3rem;
-	--headline-leading: 2.125rem;
-	--title-leading: 1.875rem;
-	--subheading-leading: 1.625rem;
-	--body-leading: 1.4375rem;
-	--caption-leading: 1.25rem;
-}
-
 .display4 {
 	font-size: 7rem;
 	font-weight: 300;
@@ -1074,82 +1152,4 @@ article:lang(en) h4 {
 	font-weight: 400;
 	letter-spacing: 0.02em;
 	line-height: var(--caption-leading);
-}
-
-:root {
-	--light-blue-50: #e1f5fe;
-	--light-blue-100: #b3e5fc;
-	--light-blue-200: #81d4fa;
-	--light-blue-300: #4fc3f7;
-	--light-blue-400: #29b6f6;
-	--light-blue-500: #03a9f4;
-	--light-blue-600: #039be5;
-	--light-blue-700: #0288d1;
-	--light-blue-800: #0277bd;
-	--light-blue-900: #01579b;
-	--light-blue-a100: #80d8ff;
-	--light-blue-a200: #40c4ff;
-	--light-blue-a400: #00b0ff;
-	--light-blue-a700: #0091ea;
-	--deep-orange-a400: #ff3d00;
-	--deep-orange-a700: #dd2c00;
-	--blue-grey-50: #eceff1;
-	--blue-grey-100: #cfd8dc;
-	--blue-grey-200: #b0bec5;
-	--blue-grey-300: #90a4ae;
-	--blue-grey-400: #78909c;
-	--blue-grey-500: #607d8b;
-	--blue-grey-600: #546e7a;
-	--blue-grey-700: #455a64;
-	--blue-grey-800: #37474f;
-	--blue-grey-900: #263238;
-	--blue-grey-950: #21272b;
-	--grey-50: #fafafa;
-	--grey-100: #f5f5f5;
-	--grey-200: #eeeeee;
-	--grey-300: #e0e0e0;
-	--grey-400: #bdbdbd;
-	--grey-500: #9e9e9e;
-	--grey-600: #757575;
-	--grey-700: #616161;
-	--grey-800: #424242;
-	--grey-850: #303030;
-	--grey-900: #212121;
-	--grey-950: #121212;
-}
-
-@media (prefers-color-scheme: light) {
-	:root {
-		--primary-text-color: rgba(0, 0, 0, 0.87);
-		--secondary-text-color-alt: rgba(0, 0, 0, 0.7);
-		--secondary-text-color: rgba(0, 0, 0, 0.54);
-		--hint-text-color: rgba(0, 0, 0, 0.38);
-		--hint-text-color-alt: rgba(0, 0, 0, 0.2);
-		--divider-color: rgba(0, 0, 0, 0.12);
-		--accent-text-color: var(--light-blue-900);
-		--accent-text-color-alt: var(--light-blue-700);
-		--activated-text-color: var(--light-blue-800);
-		--primary-background-color: var(--grey-50);
-		--secondary-background-color: var(--blue-grey-50);
-		--accent-background-color: var(--blue-grey-50);
-		--warning-text-color: var(--deep-orange-a700);
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--primary-text-color: rgba(255, 255, 255, 1);
-		--secondary-text-color-alt: rgba(255, 255, 255, 0.87);
-		--secondary-text-color: rgba(255, 255, 255, 0.7);
-		--hint-text-color: rgba(255, 255, 255, 0.5);
-		--hint-text-color-alt: rgba(255, 255, 255, 0.38);
-		--divider-color: rgba(255, 255, 255, 0.12);
-		--accent-text-color: var(--light-blue-600);
-		--accent-text-color-alt: var(--light-blue-400);
-		--activated-text-color: var(--light-blue-500);
-		--primary-background-color: var(--grey-900);
-		--secondary-background-color: var(--blue-grey-950);
-		--accent-background-color: var(--blue-grey-800);
-		--warning-text-color: var(--deep-orange-a400);
-	}
 }
