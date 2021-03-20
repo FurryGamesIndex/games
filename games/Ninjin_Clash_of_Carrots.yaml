@@ -1,0 +1,96 @@
+name: 'Ninjin: Clash of Carrots'
+
+description: |
+  Ninjin: Clash of Carrots is an anime-inspired beat-‘em-up with a gaggle of varied enemies, deep customization…and ninjas! Play through side-scrolling worlds consisting of multiple stages and collect carrots stolen by the evil Shogun Moe! Carrots act as currency which can be redeemed in the Corgi Store for new equipment, or the Shady Shop for special weapons, masks and other customization items. Grab a friend to join you in 2-player online or local co-op. 
+  
+  Be a Ninja. 
+  Play as either Ninjin, the charismatic rabbit, or Akai, the ninja fox, and fight
+  across a feudal Japan to defeat the evil Shogun Moe and retrieve the carrots he’s stolen!
+  
+  Engaging Storyline. 
+  Follow a robust Story Mode, meet a diverse cast of characters, and play
+  through multiple stages in a crazy universe.
+  
+  Fast and Furious Combat.
+  Dodge rockets, blast through throngs of incoming enemies and
+  battle bosses in frenzied, fast-paced action!
+  
+  Stylish Visuals. 
+  Play through unique environments with anime-inspired HD pixel art graphics.
+  
+  Deep Customization.
+  Choose from a huge variety of equipment with more than 150 weapons
+  and items, including masks, swords, projectiles, and more. Equip your character to better
+  defeat rivals.
+  
+  Slash, Smash and Bash with Friends!
+  Join your friends in 2-player local or online co-op as
+  you progress through the game’s story.
+  
+  Oni TV Show.
+  Compete in a “Live TV Show” survival mode, solo or with a friend, to see who
+  can get the furthest without dying, as wave after wave of enemies attack from all angles.
+  Rack up special rewards when you successfully finish each challenging stage!
+  
+  Carrot Collecting Co-Op Action!
+  
+  Armory fit for a Ninja!
+  Featuring over 150 weapons, projectiles, upgrades, and more to modify the experience to each player’s preference, Ninjin: Clash of Carrots is an action-packed thrill-fest with a unique and immersive storyline, stylish environments, and exciting and frenetic gameplay! Ninjin also features a unique survival mode called “Oni TV Show” where players will fight endless waves of enemies for rare rewards. This mode also supports local and online co-op.
+
+authors:
+  - name: 'Pocket Trap'
+    role: [ producer ]
+  - name: 'Modus Games'
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+  male:
+    - rabbit
+    - fox
+    - funny-animal
+  misc:
+    - pixel-art
+    - co-op
+    - online
+  lang:
+    - de
+    - en
+    - es
+    - fr
+    - it
+    - pt
+  publish:
+    - steam
+  platform:
+    - windows
+    - nintendo-switch
+    - playstation4
+    - xbox-one
+
+links:
+  - name: .website
+    uri: https://ninjingame.com/
+  - name: .steam
+    uri: steam:809870
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/en_CA/games/detail/ninjin-clash-of-carrots-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-gb/product/EP4908-CUSA12849_00-NINJINBASEGAME01
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-gb/p/ninjin-clash-of-carrots/bpn65mshs43g
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256727315/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256727315/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/809870/ss_13836af8907aff6ed265ca5662884e36e13435bb.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/809870/ss_e9c5038be2a07d1abd138a2302f92cc87ab0c71f.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/809870/ss_1b23291b8d2419aa759bb45aa79c54ca0328a2a6.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/809870/ss_8891aac0fc2cc722daf881060c0d808a8c1b8db9.1920x1080.jpg
