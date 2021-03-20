@@ -203,7 +203,7 @@ header a {
 }
 
 header .icon {
-	font-size: 18px;
+	font-size: 1.125rem;
 }
 
 /* footer */
@@ -217,7 +217,7 @@ footer {
 }
 
 footer p .icon {
-	font-size: 18px;
+	font-size: 1.125rem;
 	vertical-align: text-top;
 	margin-right: 6px;
 }
@@ -641,10 +641,6 @@ article:lang(en) h4 {
 	display: grid;
 	grid-auto-flow: row;
 	row-gap: var(--keyline);
-}
-
-.languages .icon {
-	font-size: 36px;
 }
 
 /* TODO: move to up */
