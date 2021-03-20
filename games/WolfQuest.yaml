@@ -2,7 +2,7 @@ name: WolfQuest
 
 description: |
   ## A game about wolf ecology in Yellowstone National Park
-  You are a young gray wolf. Born in the Northern Range of Yellowstone National Park, you learned the ways of the wolf in your family pack. Now you're are venturing out on your own to explore, hunt, find a mate, establish territory, and raise your own family.
+  You are a young gray wolf. Born in the Northern Range of Yellowstone National Park, you learned the ways of the wolf in your family pack. Now you're venturing out on your own to explore, hunt, find a mate, establish territory, and raise your own family.
 
   ## THE STORY
   Your quest begins on the slopes of Amethyst Mountain. Here you must test your hunting skills against elk, moose, and mule deer. Once you're a skilled hunter, you can seek out another wolf to become your mate.
@@ -19,7 +19,7 @@ description: |
   ## Play WolfQuest alone or with friends!
   In single-player games, learn how to hunt, communicate with other wolves, find a mate, establish a den and territory, raise pups, and embark on a perilous journey to a summering site.
 
-  n multiplayer games, join together as a pack to explore the wilderness, hunt, establish territory, raise pups, and move to the summer rendezvous site together.
+  In multiplayer games, join together as a pack to explore the wilderness, hunt, establish territory, raise pups, and move to the summer rendezvous site together.
 
 description-format: markdown
 
@@ -39,7 +39,6 @@ tags:
     - 3d
     - multiplayer
     - multiple-endings
-    - engine-unity
   lang:
     - en
   publish:
