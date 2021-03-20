@@ -57,6 +57,8 @@ links:
     uri: http://www.wolfquest.org
   - name: .steam
     uri: steam:926990
+  - name: .itch.io
+    uri: https://eduweb.itch.io/wolfquest
   - name: .play-store
     uri: https://play.google.com/store/apps/details?id=com.eduweb.wolfquest
   - name: .apple-appstore
