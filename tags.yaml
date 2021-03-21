@@ -331,6 +331,19 @@ kangaroo:
   namespaces: [ male, female ]
   explanation:
     en: 'Main characters include kangaroo furries'
+    zh-cn: '主要角色包括袋鼠兽人'
+
+hedgehog:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include hedgehog furries'
+    zh-cn: '主要角色包括刺猬兽人'
+
+frog:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include frog furries'
+    zh-cn: '主要角色包括蛙兽人'
 
 ###################################################
 
