@@ -1,0 +1,63 @@
+name: Shelter 2
+
+description: |
+  The beauty of nature goes hand in hand with its unforgiving rawness. That is central in Shelter 2, and one of the reasons we chose to make a game about a Lynx. They are in middle of the food chain, and there are far more vicious things out on the cold tundra.
+
+  The game follows the life of a mother lynx, starting as a pregnant animal, giving birth and continuing in to a journey of parenthood where nurturing her cubs is paramount for survival. Shelter 2 includes more elaborate gameplay features than its predecessor, such as stamina, different types of movements, jumps and a variety of prey to kill. Besides hunting there are several maternal and hunting features, such as calling the cubs closer, smell for prey, making sure they drink water from rivers and lifting and carrying your cubs from harm’s way.
+
+  ## A vast wilderness awaits
+  
+  Environments in Shelter 2 are much bigger than its predecessor and allow a lot more freedom than ever before, allowing players to find favorite spots to return to. This time weather and seasons change, harsh winters and bloomy summers awaits you!
+ 
+  The music is once again presented by Retro Family, awarded for their work on the Pid Soundtrack, and the visuals have been reinvented by adding dense atmosphere and lighting to the patterned graphical art style.
+  
+description-format: markdown
+
+tags:
+  author:
+    - 'Might and Delight'
+  type:
+    - role-playing
+    - adventure
+  male:
+    - lynx
+    - non-anthro    
+  female:
+    - lynx
+    - non-anthro    
+  misc:
+    - 3d
+    - outside-furry-fandom
+  lang:
+    - en
+    - zh
+    - fr
+    - it
+    - de
+    - es
+    - pt
+    - ru
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .website
+    uri: https://mightanddelight.com
+  - name: .steam
+    uri: steam:275100
+  - name: .twitter
+    uri: twitter:MightAndDelight 
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    uri: youtube:Tk-1M1wNVDY
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/275100/ss_0c5b0a731a12b5cb993fd3efff4a872ab6cb568e.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/275100/ss_1d95283f5f4d8bb978a7cfe9af74bff42daf87be.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/275100/ss_88036cac8547c61e3c94e172c9fd871efa2d3a2a.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/275100/ss_ad240fb81d0b44e75c0b488a3cd109df0113a1c6.1920x1080.jpg

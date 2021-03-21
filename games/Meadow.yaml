@@ -1,0 +1,96 @@
+name: Meadow
+
+description: |
+  Heaven is a place called Meadow! Vast, teeming with life, and a unique social experience. Frolic freely in the lush fields of Meadow - a unique multiplayer sandbox.
+  
+  Unlike traditional titles from the Shelter franchise, in Meadow the more time spent embracing the gameplay features in the world, the more you receive. Owning any previous Shelter related title(s) or products will also unlock in-game content. The open landscape also provides ample room for exploration with new patches and additions promised.
+
+  Band together with other animals, form uneasy allies or choose to explore alone. Whatever you decide, the open park life is one you will want to immerse yourself in.
+
+  ## Main features:
+  
+  - Play as any combination of animals on land, water or air in the largest expanse of land ever created for a Shelter game.
+  - Communicate with other animals via specially created emotes, symbols and sounds.
+  - Use senses to discover and track other players in world.
+  - Visit the den to choose from up to 9 different animals, over 60 skins and over 90 expressions and symbols to unlock.
+  - The more Shelter titles and products you own, the more bonuses you unlock.
+  - New original music from Retro Family.
+
+  ## Shelter products in Meadow
+  
+  - Owning any Shelter game will unlock the ability to play as that animal in Meadow (e.g. owning Shelter 2 unlocks the lynx etc.)
+  - Owning all games (no soundtracks or books included) will give you the possibility to play as the adorable bear cub from Paws.
+  - Gain unique sound abilities if you own any combination of soundtracks.
+  - Owning our interactive books will unlock unique 3-dimensional emotes.
+  - For the collector and owner of the entire Shelter catalogue, you unlock the ability to play as a bird.
+  
+description-format: markdown
+
+tags:
+  author:
+    - 'Might and Delight'
+  type:
+    - role-playing
+    - adventure
+    - casual
+  male:
+    - lynx
+    - bear
+    - deer
+    - bird
+    - badger
+    - fox
+    - wolf
+    - hedgehog
+    - frog    
+    - non-anthro    
+  female:
+    - lynx
+    - bear
+    - deer
+    - bird
+    - badger
+    - fox
+    - wolf
+    - hedgehog
+    - frog
+    - non-anthro    
+  misc:
+    - 3d
+    - multiplayer
+    - online
+    - outside-furry-fandom
+  lang:
+    - en
+    - zh
+    - fr
+    - it
+    - de
+    - es
+    - pt
+    - ja
+    - ru
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .website
+    uri: https://mightanddelight.com
+  - name: .steam
+    uri: steam:486310
+  - name: .twitter
+    uri: twitter:MightAndDelight 
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    uri: youtube:kVLoibSwhCQ
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/486310/ss_7ad2d54fe7d2ec5ce9463601b5b6daab8b65eebe.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/486310/ss_396cf84667b52ba2d68e301ed58184788c1e1bc1.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/486310/ss_9af78ee02f6c1eb0e949c2279a9260fd63a4efc9.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/486310/ss_d83f28f5f577a977f7399c06b0cf5ddcd043e53b.1920x1080.jpg
