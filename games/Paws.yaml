@@ -1,0 +1,75 @@
+name: Paws
+
+description: |
+  Paws is a tale of two halves and sees you traverse a vast and harrowing landscape while fending off the threats that hunt you as you make your way home. Journey through the expanded world of Shelter 2 in the standalone adventure!
+
+  "Dark and grime, twist through the vines,
+  Slip through perils with finesse and toil.
+  Be two for strength, be two of mind,
+  Find the way home to familiar soil."
+
+  The game combines all the unique elements from the much loved Shelter series to present a lovingly crafted story about loss, friendship and a search for lost love.
+
+  ## Main features:
+  
+  - A gripping linear experience in a fantasy setting.
+  - For the first time ever in the Shelter world, you play as a young cub accompanied by a companion to help complete puzzles and overcome obstacles in the world.
+  - New game play features include the ability to follow tracks using your sense ability.
+  - A whole new corner of the world to explore with platforming game mechanics at its core.
+  - New original music from Retro Family.
+  
+description-format: markdown
+
+tags:
+  author:
+    - 'Might and Delight'
+  type:
+    - role-playing
+    - adventure
+  male:
+    - lynx
+    - bear
+    - non-anthro    
+  female:
+    - lynx
+    - bear
+    - non-anthro    
+  misc:
+    - 3d
+    - multiple-endings
+    - outside-furry-fandom
+  lang:
+    - en
+    - zh
+    - fr
+    - it
+    - de
+    - es
+    - pt
+    - ru
+    - sv
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .website
+    uri: https://mightanddelight.com
+  - name: .steam
+    uri: steam:434000
+  - name: .twitter
+    uri: twitter:MightAndDelight 
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    uri: youtube:4aQZ8G8eS9c
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/434000/ss_ffc018e5c75156e8f95a27d43032d2f409c6a270.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/434000/ss_91b163d00b122a8fa3050fab82c7e6df5964c452.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/434000/ss_8a12b86875ce897e2d1ede3e402487a87e70521b.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/434000/ss_af221d1d0f1b8a089008fd87c14004dbb2a8b8e8.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/434000/ss_006c8b199242713c9776f2657cb0c50560b02f6e.1920x1080.jpg
