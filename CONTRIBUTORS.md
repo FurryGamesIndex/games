@@ -38,7 +38,7 @@ Chinese Documents.
 
 [Github](https://github.com/BlueJett)
 
-Games submitter and editor
+Games submitter and editor.
 
 ### SouthFox
 
@@ -66,8 +66,7 @@ Games submitter and editor.
 
 [Telegram](https://t.me/KumalParker) | [Github](https://github.com/TigerCubDen) | [Furaffinity](https://www.furaffinity.net/user/tiger-jungle/)
 
-Games submitter and editor, 
-Chinese Documents.
+Games submitter and editor.
 
 ***For new contributors, please add your name and contacts before this line.***
 
