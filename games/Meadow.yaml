@@ -41,6 +41,8 @@ tags:
     - badger
     - fox
     - wolf
+    - hedgehog
+    - frog    
     - non-anthro    
   female:
     - lynx
@@ -50,6 +52,8 @@ tags:
     - badger
     - fox
     - wolf
+    - hedgehog
+    - frog
     - non-anthro    
   misc:
     - 3d
@@ -67,13 +71,6 @@ tags:
     - ja
     - ru
     - sv
-    - nl
-    - fi
-    - da
-    - pl
-    - hu
-    - ar
-    - cs
   publish:
     - steam
   platform:
