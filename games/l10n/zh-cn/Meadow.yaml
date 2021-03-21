@@ -25,3 +25,6 @@ description: |
   - 整个《避难所》目录的收藏者和拥有者可解锁作为小鸟玩游戏的能力。
 
 description-format: markdown
+
+X-Chinese-Convertor-Hint:
+  prefer: ignored

@@ -79,6 +79,8 @@ The following are automatic tags, they are no different from other tags when you
 - `bird` Main characters include bird furries
 - `red-panda` Main characters include red panda furries
 - `kangaroo` Main characters include kangaroo furries
+- `hedgehog` Main characters include hedgehog furries
+- `frog` Main characters include frog furries
 
 ### Biological species: Felidae
 

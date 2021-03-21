@@ -78,7 +78,9 @@
 - `deer` 主要角色包括鹿兽人
 - `bird` 主要角色包括鸟兽人
 - `red-panda` 主要角色包括小熊猫兽人
-- `kangaroo` Main characters include kangaroo furries
+- `kangaroo` 主要角色包括袋鼠兽人
+- `hedgehog` 主要角色包括刺猬兽人
+- `frog` 主要角色包括蛙兽人
 
 ### 物种：猫科
 

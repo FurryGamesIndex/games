@@ -22,3 +22,6 @@ description: |
   在多人游戏中，与大家组成狼群一起探索野外，狩猎，建立领地，养育幼崽，一同前往夏日地点。
 
 description-format: markdown
+
+X-Chinese-Convertor-Hint:
+  prefer: ignored
