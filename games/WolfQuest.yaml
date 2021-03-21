@@ -1,0 +1,76 @@
+name: WolfQuest
+
+description: |
+  ## A game about wolf ecology in Yellowstone National Park
+  You are a young gray wolf. Born in the Northern Range of Yellowstone National Park, you learned the ways of the wolf in your family pack. Now you're venturing out on your own to explore, hunt, find a mate, establish territory, and raise your own family.
+
+  ## THE STORY
+  Your quest begins on the slopes of Amethyst Mountain. Here you must test your hunting skills against elk, moose, and mule deer. Once you're a skilled hunter, you can seek out another wolf to become your mate.
+  
+  Then you'll venture together to Slough Creek, cutting through the mountains north of the Lamar Valley, to establish a territory and den site. Here you will raise a litter of pups: training them, feeding them, defending them against the competition, and finally taking them on a cross-country journey to a summer home.
+
+  Can your little family pack succeed?
+
+  ## Experience Yellowstone
+  Explore WolfQuest's realistic recreation of the Northern Range of Yellowstone National Park — "the Serengeti of North America" — where herds of elk and other ungulates roam the sagebrush steppe grasslands, alpine forests, and magnificent high ridges.
+
+  But watch out for packs of stranger wolves, who patrol their territories and don't look kindly on intruders. The wilderness brims with other dangers too — grizzly bears, cougars, and coyotes — who all vie with you for territory and food.
+
+  ## Play WolfQuest alone or with friends!
+  In single-player games, learn how to hunt, communicate with other wolves, find a mate, establish a den and territory, raise pups, and embark on a perilous journey to a summering site.
+
+  In multiplayer games, join together as a pack to explore the wilderness, hunt, establish territory, raise pups, and move to the summer rendezvous site together.
+
+description-format: markdown
+
+tags:
+  author:
+    - eduweb
+  type:
+    - role-playing
+    - adventure
+  male:
+    - wolf
+    - non-anthro
+  female:
+    - wolf
+    - non-anthro
+  misc:
+    - 3d
+    - multiplayer
+  lang:
+    - en
+  publish:
+    - itchio
+    - steam
+    - google-play
+    - apple-appstore
+  platform:
+    - windows
+    - macos
+    - ios
+    - android
+
+links:
+  - name: .website
+    uri: http://www.wolfquest.org
+  - name: .steam
+    uri: steam:926990
+  - name: .itch.io
+    uri: https://eduweb.itch.io/wolfquest
+  - name: .play-store
+    uri: https://play.google.com/store/apps/details?id=com.eduweb.wolfquest
+  - name: .apple-appstore
+    uri: https://itunes.apple.com/us/app/wolfquest/id733621972?ls=1&mt=8
+  - name: .twitter
+    uri: twitter:WolfQuestGame
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    uri: youtube:2PJF8CMzVUo
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/926990/ss_f430e20912f4adcb010458bb91d304f71ec772bd.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/926990/ss_5eb0a9ad8a842ea65de24c1357a812b3729f0ce9.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/926990/ss_714e9cd53759f4847b86b59b436fc25114ab29e2.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/926990/ss_1ccbe8b51a5ec2d0cfb51f7483be375da693c2cc.1920x1080.jpg
