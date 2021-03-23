@@ -1,0 +1,106 @@
+name: When Stars Fall
+
+description: |
+  When Stars Fall is a gay (semi-linear-leaning-toward-non-linear) furry visual novel dating sim set in the fantasy world of Eamia. The main character, Marcus Carver (customizable) wakes up in an empty field with no memories save for his name. On his journey to find answers, he finds himself enrolled in an academy for adventurers and meets a few different persons of interest who may help or hinder his search for his lost memories. In this tale will Marcus find his answers, make new friends or foes, find love or sorrow? The choices are up to you.
+  
+  As the story progresses Marcus meets four datable characters (with a fifth to join sometime after January) who can be friend or foe depending on the choices made.
+  
+  **Orion Castor**  
+  
+  Orion is a wolf beastman and a second year student in the academy's Fighter major. He's aloof and doesn't say much which often causes people to keep their distance. At night he works part-time as a member of the academy's security team in order to off-set some of the attendance and living costs.
+  
+  **Reth Zuberi**
+  
+  Reth is a hyena beastman and a first year student in the academy's Rogue major. He's rough, abrasive and often finds himself in fights. While a troublemaker, he still performs well in classes and is a student to contend with.
+  
+  **Silas Teigland**  
+  
+  Silas is a fox beastman and first year student in the academy's Mage major. He's the youngest son of the noble Teigland family and much is expected from this young fox. He's well-mannered and outgoing with an idealistic heart.
+  
+  **Qromaztic (Qrom) Caluvarax**
+   
+  Qrom is a dragonkin and the professor of the academy's Guardian major. While his overt flirtations and usual state of drunkeness can get him into trouble, he's still one of the academy's top instructors and an excellent Guardian as well as a supervisor in the male dorms.
+  
+  **Aldric Sinclair**
+  
+  Aldric is a Gerberian Shepsky beastman attending the academy's Holy Arts major. He is a charismatic and friendly guy who seems to be eager to help those in need and cares deeply for those who earn his trust.   
+
+  ## About the Developer
+  
+  Hi, thanks for checking this game out. It's been a pet project of mine for... way too long. I finally sat down several months ago to learn Ren'py and start getting my ideas down on 'paper' and that's when "When Stars Fall" was born. The characters are based loosely on character archetypes that I personally enjoy, especially in dating sims and VNs. My goal is to hopefully create a story and characters that I love and that others will love too. 
+  
+  As I'm new to Ren'py and coding in general there are bound to be errors and elements of gameplay that can be improved. It's also only me on the project (aside from the artists I'm commissioning) so there will likely be typos, spelling errors, etc. If you come across them, please ignore them if you can (they'll be fixed in future updates as I come across them so no need to report them unless you want to. ). However, if you come across any game breaking errors, *please* **let me know about those**. A game is no fun if it's not playable. Anyway, thanks again for checking this out and I hope you enjoy this story as it unfolds. :D
+
+   You can submit errors through this google form:
+  
+   [Error Report](https://forms.gle/4CqZ9Dri4pyFdk4V8)
+  
+  **Dev Notes**
+
+  This game is still a major work in progress. As I am not an artist, all art assets are being commissioned when I have the funds. Also, this is not a main source of income for me, I have a full-time job that takes up most of my time. When I can save up the money, I plan to commission more assets such as backgrounds, additional characters, character poses, character expressions, CGs, etc. In regards to having a full-time job this also means that I don't have *a lot* of time to dedicate to this project so I can't promise updates on a monthly basis, it's just not something my life will allow at the moment. 
+  
+  **For game updates, all I can say at this point is it will be updated when it's updated.** 
+
+  [![Patreon](https://img.itch.zone/aW1nLzQ4Mzc5MzUucG5n/original/GdMC4M.png "Patreon")](https://www.patreon.com/whenstarsfall) [![Game Twitter](https://img.itch.zone/aW1nLzQ4Mzc5NTkucG5n/original/tLKQDi.png "Game Twitter")](https://twitter.com/WhenStarsFallG1) [![Bullstorm Twitter](https://img.itch.zone/aW1nLzQ4MzgxMzEucG5n/original/uHuMyR.png "Bullstorm Twitter")](https://twitter.com/Bullstorm6) [![Furry Paradise & Visual Novels Discord](https://img.itch.zone/aW1nLzU0OTQ1NjIucG5n/original/M%2BJaNt.png "Furry Paradise & Visual Novels Discord")](https://discord.gg/)
+   
+  If you enjoy the game, please consider rating it here on itch or even consider supporting via Patreon. Also, check out the Furry Paradise & Visual Novels (FPVN) discord server. It's filled with lot's of people that love VNs and also many devs of the VNs you may enjoy. When Stars Fall also has it's own channel under the Devs Available section!  
+
+description-format: markdown
+
+authors:
+  - name: mattmalificum
+    role: [ producer ]
+  - name: Bullstorm
+    role: [ artist ]
+    standalone: true
+  # FIXME: Did andehPi participate in this project?
+#  - name: andehPi
+  - name: Jake
+    role: [ artist ]
+    standalone: true
+  - name: fiverr
+    role: [ artist ]
+    standalone: true
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  male:
+    - humankind
+    - wolf
+    - hyena
+    - fox
+    - dragon
+    - dog
+    - muscle
+    - males-only
+  misc:
+    - engine-renpy
+    - freeware
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+  
+links:
+  - name: .itch.io
+    uri: https://mattmalificum.itch.io/when-stars-fall
+  - name: .patreon
+    uri: patreon:whenstarsfall
+  - name: .twitter
+    uri: twitter:WhenStarsFallG1
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvODA0NDk4LzQ1MDcwNDIucG5n/original/dK8R%2FP.png
+  - https://img.itch.zone/aW1hZ2UvODA0NDk4LzQ1MDcwNDAucG5n/original/bL6b%2Bi.png
+  - https://img.itch.zone/aW1hZ2UvODA0NDk4LzQ1MDcwNDMucG5n/original/eE5nkY.png
+  - https://img.itch.zone/aW1hZ2UvODA0NDk4LzQ1MTkwNDUucG5n/original/znhkEC.png
+  - https://img.itch.zone/aW1hZ2UvODA0NDk4LzQ1MDcwNDEucG5n/original/0lxfBL.png
