@@ -36,6 +36,13 @@
 		{% endfor %}
 		</div>
 		<div class="onmobile">{% include 'game_author_widget.html' %}</div>
+		<div>
+			<script data-isso="//comments.furrygames.top/"
+				data-isso-lang="{{ lang_unix_style }}"
+				data-isso-avatar="false"
+				src="//comments.furrygames.top/js/embed.min.js"></script>
+			<section id="isso-thread" data-isso-id="games/{{ name }}/{{ lang_without_region }}"></section>
+		</div>
 		<div class="onmobile">{% include 'copying.html' %}</div>
 	</div>
 	<div class="rightbox">

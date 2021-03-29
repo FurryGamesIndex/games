@@ -4,9 +4,14 @@ Your privacy is extremely important. We firmly believe that user privacy and dat
 
 ## What we collect, store and how we use it
 
-By default, we do NOT collect and store any personal information about you. It is currently a static site. And in the future, you will be able to continue to enjoy services (static site) no less than current without using dynamic functions.
+By default, we do NOT collect and store any personal information about you.
 
-In the future, we may add some enhancements, such as posting comments. When using these enhanced functions, we may collect some necessary information and give you appropriate prompts before using them. The privacy policy will also be updated in the future.
+In some cases, we will collect the necessary information. This is shown in the table below.
+
+| Case | The data we will collect |
+|-|-|
+| Add Comments | Your IP address.<br>Your Browser type, version and language.<br>The time of the request. |
+| The others   | No data will be collected. |
 
 We will NEVER share any personal information collected to third parties.
 
@@ -14,7 +19,7 @@ We will NEVER share any personal information collected to third parties.
 
 We currently do not use cookies. But we are using Cloudflare CDN.
 
-Cloudflare will make a cookie called `__cfduid`. For more infomations, see their [document](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies) and [privacy policy](https://www.cloudflare.com/privacypolicy/).
+Cloudflare may use some cookies such as `__cfduid`. For more infomations, see their [document](https://support.cloudflare.com/hc/en-us/articles/200170156-Understanding-the-Cloudflare-Cookies) and [privacy policy](https://www.cloudflare.com/privacypolicy/).
 
 In the future, we may use cookies. We will remind you before using cookies. The privacy policy will also be updated.
 
