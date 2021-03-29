@@ -29,9 +29,16 @@ class Renderer:
 
         if not nonl10n:
             self.language = lctx["lang"]
-            self.lang_without_region = self.language.split('-', 1)[0]
+            langtag = self.language.split('-')
 
+            self.lang_without_region = langtag[0]
             self.basectx["lang_without_region"] = self.lang_without_region
+
+            lang_unix_style = self.lang_without_region
+            if len(langtag) >= 2:
+                lang_unix_style += "_" + langtag[1].upper()
+
+            self.basectx["lang_unix_style"] = lang_unix_style
 
     def new_context(self):
         context = self.basectx.copy()
