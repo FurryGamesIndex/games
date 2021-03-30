@@ -70,6 +70,8 @@
 
 	--big-icon-font-size: 1.125rem;
 	--huge-icon-font-size: 1.25rem;
+
+	font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -450,7 +452,8 @@ h2 {
 	font-weight: 700;
 }
 
-.entry.introduction h4 {
+.entry h4,
+.introduction h4 {
 	font-size: 2.125rem;
 	letter-spacing: 0em;
 	line-height: var(--display-1-leading);
@@ -460,7 +463,8 @@ h2 {
     margin-bottom: 6px;
 }
 
-.entry.introduction h4 span {
+.entry h4 span,
+.introduction h4 span {
     font-size: 1.5rem;
     letter-spacing: 0em;
     line-height: var(--headline-leading);
@@ -639,7 +643,8 @@ h2 {
 	break-after: column;
 }
 
-.resources.author ul li {
+.resources li,
+.author ul li {
 	display: grid;
 	grid-auto-flow: column;
 	justify-content: start;
@@ -648,8 +653,9 @@ h2 {
 	break-inside: avoid;
 }
 
-/* FIXME: do not use :is() */
-:is(.resources, .author ul, .languages ul) a {
+.resources a,
+.author ul a,
+.languages ul a {
 	display: grid;
 	grid-auto-flow: column;
 	justify-content: start;
@@ -657,8 +663,8 @@ h2 {
 	column-gap: 20px;
 }
 
-/* FIXME: do not use :is() */
-:is(.resources, .author ul) li {
+.resources li,
+.author ul li {
 	padding: 8px 0;
 }
 
