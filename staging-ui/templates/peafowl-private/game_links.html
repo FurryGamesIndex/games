@@ -1,1 +1,48 @@
-<ul>FIXME: game links STUB</ul>
+<ul>
+	{% if "type" in game.tags %}
+	{% if "yiff" in game.tags.type or
+		"gore" in game.tags.type
+	%}
+		<li>{{ ifac.misc_icon("shield") }}<span>{{ ui.gamewarn_yiff }}</span></li>
+	{% endif %}
+	{% endif %}
+
+	{% if "lang" in game.tags %}
+	{% if lang_without_region + "-unofficial" in game.tags.lang %}
+		<li>{{ ifac.misc_icon("warn") }}<span>{{ ui.gamewarn_lang_unofficial }}</span></li>
+	{% elif lang_without_region not in game.tags.lang %}
+		<li>{{ ifac.misc_icon("warn") }}<span>{{ ui.gamewarn_nolang }}</span></li>
+	{% endif %}
+	{% endif %}
+
+	{% if "misc" in game.tags %}
+	{% if "work-in-process" in game.tags.misc %}
+		<li>{{ ifac.misc_icon("warn") }}<span>{{ ui.gamewarn_ongoing }}</span></li>
+	{% endif %}
+	{% if "unpublished" in game.tags.misc %}
+		<li>{{ ifac.misc_icon("warn") }}<span>{{ ui.gamewarn_unpublished }}</span></li>
+	{% endif %}
+	{% if "died" in game.tags.misc %}
+		<li>{{ ifac.misc_icon("warn") }}<span>{{ ui.gamewarn_died }}</span></li>
+	{% endif %}
+	{% if game.check_tag("misc", "suspended") %}
+		<li>{{ ifac.misc_icon("warn") }}<span>{{ ui.gamewarn_suspended }}</span></li>
+	{% endif %}
+	{% if "expired" in game.tags.misc %}
+		<li>{{ ifac.misc_icon("trash") }}<span>{{ ui.gamewarn_expired }}</span></li>
+	{% endif %}
+	{% if "not-only-furry-topic" in game.tags.misc %}
+		<li>{{ ifac.misc_icon("warn-t") }}<span>{{ ui.gamewarn_notonlyfurry }}</span></li>
+	{% endif %}
+	{% endif %}
+
+	{% if "platform" in game.tags %}
+	{% if "shockwave-flash" in game.tags.platform and game.tags.platform|length == 1 %}
+		<li>{{ ifac.misc_icon("heart-broken") }}<span>{{ ui.gamewarn_deprecated_shockwave_flash }}</span></li>
+	{% endif %}
+	{% endif %}
+
+	{% for i in game.links %}
+		<li>{{ i.html(ui, lang, target="_blank") }}</li>
+	{% endfor %}
+</ul>
