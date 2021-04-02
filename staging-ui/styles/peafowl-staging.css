@@ -393,20 +393,8 @@ h2 {
 	column-gap: var(--main-column-gap);
 }
 
-.preface nav a {
-	display: grid;
-	grid-auto-flow: column;
-	justify-content: start;
-	align-items: center;
-	column-gap: 20px;
-}
-
 .preface nav a:not(:last-of-type) {
 	margin-bottom: 20px;
-}
-
-.preface .icon {
-	font-size: 2.25rem;
 }
 
 /* list.html */
@@ -685,10 +673,6 @@ h2 {
 	column-gap: 40px;
 	margin-bottom: 20px;
 	box-sizing: border-box;
-}
-
-.author ul a {
-	column-gap: 8px;
 }
 
 /* preferences.html */
@@ -1015,9 +999,6 @@ h2 {
     }
     .author ul {
         margin-top: 8px;
-    }
-    .author ul a {
-        column-gap: var(--keyline);
     }
     .entry[class~="sifted"] .icon {
         width: var(--increment);
