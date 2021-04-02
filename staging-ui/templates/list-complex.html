@@ -1,0 +1,26 @@
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+
+<main class="entry detailed">
+{% include 'peafowl-private/list-chain.html' %}
+
+{% for gid, game in games %}
+{% set desc = game.get_description(lang).text %}
+{% set game_name = game.get_name(lang) %}
+	<article>
+		<h4><a href="./games/{{ gid }}.html">{{ game_name|e }}</a></h4>
+		<section class="description subheading">{{ desc|e }}</section>
+		<dl class="labels body1" lang="en">
+			FIXME: Tag area STUB
+		</dl>
+		<section class="resources subheading">
+			{{ game.thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game_name) }}
+			<div class="platforms">FIXME: platform icons STUB</div>
+			<ul>FIXME: game links STUB</ul>
+		</section>
+	</article>
+	<hr />
+{% endfor %}
+</main>
+
+{% include 'peafowl-private/footer.html' %}
