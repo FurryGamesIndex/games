@@ -68,9 +68,6 @@
 	--body-leading: 1.25rem;
 	--caption-leading: 1rem;
 
-	--big-icon-font-size: 1.125rem;
-	--huge-icon-font-size: 1.25rem;
-
 	font-size: 16px;
 }
 
@@ -105,6 +102,10 @@
 	--subheading-leading: 1.625rem;
 	--body-leading: 1.4375rem;
 	--caption-leading: 1.25rem;
+}
+
+* {
+	box-sizing: border-box !important;
 }
 
 body {
@@ -260,10 +261,22 @@ body > hr {
 }
 
 .version-warning .icon {
-	font-size: var(--huge-icon-font-size);
+	font-size: 1.25rem;
 }
 
-/* header */
+.iconline {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: start;
+	align-items: center;
+}
+
+.iconline > .icon {
+	font-size: 1.25em;
+	margin-right: 0.5em;
+}
+
+/* header, nav */
 
 header {
 	align-self: stretch;
@@ -304,16 +317,9 @@ header li:not(:last-of-type) {
 	margin-right: var(--keyline);
 }
 
-header a {
-	display: grid;
-	grid-auto-flow: column;
-	justify-content: start;
-	align-items: center;
-	column-gap: 8px;
-}
-
-header .icon {
-	font-size: var(--big-icon-font-size);
+header .iconline > .icon {
+	font-size: 1.125em;
+	margin-right: 8px;
 }
 
 /* footer */
@@ -327,24 +333,18 @@ footer {
 	padding: 0 var(--increment);
 }
 
-footer p .icon {
-	font-size: var(--big-icon-font-size);
-	vertical-align: text-top;
-	margin-right: 6px;
-}
-
 address {
 	font-style: normal;
 	margin-top: 5px;
 }
 
 address a {
-	display: inline-flex;
+	display: inline-block;
 	padding: 12px 6px;
 }
 
 address a .icon {
-	font-size: var(--huge-icon-font-size);
+	font-size: 1.25rem;
 }
 
 /* index.html */
@@ -641,26 +641,6 @@ h2 {
 	padding: 8px 0;
 	margin-top: 8px;
 	break-after: column;
-}
-
-.resources li,
-.author ul li {
-	display: grid;
-	grid-auto-flow: column;
-	justify-content: start;
-	align-items: center;
-	column-gap: 20px;
-	break-inside: avoid;
-}
-
-.resources a,
-.author ul a,
-.languages ul a {
-	display: grid;
-	grid-auto-flow: column;
-	justify-content: start;
-	align-items: center;
-	column-gap: 20px;
 }
 
 .resources li,

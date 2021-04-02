@@ -39,7 +39,7 @@
 				<p>{{ ui.game_author_widget_more_from % (author) }}</p>
 				<ul>
 					{% for game in games %}
-						<li><a href="{{ game.id }}.html">{{ ifac.misc_icon("gamepad") }}{{ game.get_name(lang) }}</a></li>
+						<li><a href="{{ game.id }}.html" class="iconline">{{ ifac.misc_icon("gamepad") }}<span>{{ game.get_name(lang) }}</span></a></li>
 					{% endfor %}
 				</ul>
 			{% endfor %}
