@@ -1,0 +1,33 @@
+<ul class="staff primary">
+{% for i in game.authors %}
+{% if "@stub" not in i %}
+	{% if not i["standalone"] %}
+		{% set author = authors[i.name] %}
+	{% endif %}
+
+	<li>
+		{% if author %}
+			{{ author.avatar.with_rr(rr).html(node_class='avatar', alt=i.name) }}
+		{% elif i["standalone"] and "hi_avatar" in i %}
+			{{ i.hi_avatar.with_rr(rr).html(node_class='avatar', alt=i.name) }}
+		{% else %}
+			<div class="authoravatar alt">{{ ifac.misc_icon("paw") }}</div>
+		{% endif %}
+		<span class="subheading">
+			{% if author %}
+				<a href="{{ rr }}/{{ lang }}/authors/{{ author.id }}.html">{{ i.name }}</a>
+			{% elif i["standalone"] and "link_href" in i %}
+				<a target="_blank" href="{{ i.link_href }}">{{ i.name }}</a>
+			{% else %}
+				<div>{{ i.name }}</div>
+			{% endif %}
+			<span class="body1">
+				{% for i in i.role %}
+					<span>{{ ui["author-role-" + i] }}</span>
+				{% endfor %}
+			</span>
+		</span>
+	</li>
+{% endif %}
+{% endfor %}
+</ul>
