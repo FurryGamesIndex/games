@@ -1,3 +1,10 @@
 <dl class="labels body1">
-FIXME: Tag area STUB
+{% for ns in game.tags %}
+	<div>
+		<dt>{{ ns }}:</dt>
+		{% for tag in game.tags[ns] %}
+			<dd><a href='{{ rr }}/{{ lang }}/search.html?tagx?"{{ ns }}:{{ tag }}"'>{{ tag }}</a></dd>
+		{% endfor %}
+	</div>
+{% endfor %}
 </dl>
