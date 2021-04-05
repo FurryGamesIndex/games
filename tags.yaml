@@ -966,6 +966,11 @@ engine-ue4:
   explanation:
     en: 'The game is developed using Unreal Engine 4'
 
+engine-tyranobuilder:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game is developed using TyranoBuilder'
+
 adobe-flash:
   namespaces: [ misc ]
   explanation:

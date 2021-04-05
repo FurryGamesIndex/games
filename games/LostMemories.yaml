@@ -1,0 +1,82 @@
+name: LostMemories
+
+description: |
+  **WARNING: This game contains adult content. This game is intended for players over the age of 18.**
+  
+  **Part of the story can be emotionally intense, and may not be for everyone. Please consider this before downloading.**
+ 
+  Support this project on Patreon, get game updates up to a month before everyone else, and help us make this VN great!
+  
+  Amidst a terrible storm, a beam of light shines down from the skies. From this light, a human appears in a world dominated by beastmen.  
+  
+  Plunged into an entirely different civilisation, play as yourself (Vincent standard name), as you try to unlock the layers behind your past.
+  
+  Along the way, you will encounter four citizens who will help you...and possibly capture your heart:
+   
+  * **Aaron**, a kind hearted and loyal brown bear.
+  * **Hector**, a bookish and timid polar bear.
+  * **Ryker**, a gregarious and flirtatious tiger. 
+  * **Hunter**, a withdrawn and taciturn wolf.
+  
+  *You can support the project even if you are not a patron by: **Sharing**, **Commenting** and **Rating** the VN!*
+  
+  Game credits:
+  
+  * Developer and Writer: **[Sylos30 Interactive](https://twitter.com/sylos30)**
+  * Editor: **[i.foxglove5](https://twitter.com/impromptu_fox)** 
+  * Sprites: Dark\_Crow (Fiverr) - *No longer working for the project.*
+  * New main characters sprites: **[Sylos30 Interactive](https://twitter.com/sylos30)** (with some help from **[i.foxglove5](https://twitter.com/impromptu_fox)** )
+  * New main artist: **MarshMoon** **[(Twitter)](https://twitter.com/MarshMooon) - [(instagram)](https://instagram.com/marshmoon_art)**
+  
+description-format: markdown
+
+authors:
+  - name: Sylos30
+    role: [ screenwriter, artist, programmer ]
+  - name: i.foxglove5
+    role: [ others ]
+  - name: MarshMoon
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  male:
+    - bear
+    - tiger
+    - wolf
+    - fox
+    - humankind
+    - males-only
+    - muscle
+  misc:
+    - freeware
+    - uncensored
+    - engine-tyranobuilder
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://sylos30.itch.io/lostmemories
+  - name: .patreon
+    uri: patreon:sylos30
+  - name: .discord
+    uri: discord:DdpjCacQpa
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNzUyNDk5LzQyMDIyMDcucG5n/original/xMZB2%2B.png
+  - https://img.itch.zone/aW1hZ2UvNzUyNDk5LzQ2OTgxMjEucG5n/original/Ira64n.png
+  - https://img.itch.zone/aW1hZ2UvNzUyNDk5LzQ2OTgxMjIucG5n/original/8YzC8m.png
+  - https://img.itch.zone/aW1hZ2UvNzUyNDk5LzQ2OTgxMjMucG5n/original/Puzc42.png
