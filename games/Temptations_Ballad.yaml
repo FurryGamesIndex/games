@@ -17,9 +17,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: shirokoi
+    role: [ producer, screenwriter, artist, programmer ]
+
 tags:
-  author:
-    - shirokoi
   type:
     - visual-novel
     - bara
@@ -28,9 +30,15 @@ tags:
     - wolf
     - dog
     - hyena
+    - tiger
     - males-only
+    - muscle
+    - anal
+    - blowjob
+    - nakadashi
   misc:
     - freeware
+    - uncensored
     - engine-renpy
     - work-in-process
   lang:
@@ -49,12 +57,11 @@ links:
     uri: https://shirokoi.itch.io/temptations-ballad
   - name: .patreon
     uri: patreon:shirokoi
-  - name: .twitter
-    uri: twitter:shirokoi
 
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjkwNzE4LzQzMDA1NDQucG5n/original/u8kljr.png
   - https://img.itch.zone/aW1hZ2UvNjkwNzE4LzM4MTE2NjkucG5n/original/WR1358.png
   - https://img.itch.zone/aW1hZ2UvNjkwNzE4LzM4MTE2NzAucG5n/original/kGDjYa.png
   - https://img.itch.zone/aW1hZ2UvNjkwNzE4LzM4MTE2NzEucG5n/original/b0QT%2Fh.png

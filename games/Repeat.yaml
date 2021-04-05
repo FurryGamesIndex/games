@@ -2,14 +2,28 @@ name: Repeat
 
 description: |
   Repeat is a nonlinear romance visual novel about what seems like your average city and a fairly normal school. However, supernatural forces and odd individuals lurk at every corner. Will you be able to uncover their secrets? Or will their inevitable tragedies strike you down first?
-
+  
   There are currently 3 dateable characters in-game, each with their own complex backstory and mystery to unravel. All are heavily WIP, with Sissel's route being closest to completion. Despite its in-progress state, Repeat (Visual Novel) currently contains over 100+ illustrated scenes!
+  
+  **Please note:** Repeat development is currently on hiatus.
+  
+  Updates are uploaded here 14 days after release on Patreon, typically at a schedule of once every month. While the game is completely free, if you enjoy my content and wish to support me, feel free to donate on my Patreon [here](https://www.patreon.com/shirokoi)!
+  
+  I am the sole developer of Repeat (Visual Novel), with all the writing, programming, and art done all by my lonesome. Feel free to follow me on the following social medias if you're interested in my work! ([Twitter](https://twitter.com/shirokoi)) ([Furaffinity](http://www.furaffinity.net/user/shirokoi/)) 
+  
+  Repeat (Visual Novel) has also recently opened a merch store! Shipping is only available in the USA, but check it out if you're interested! ([https://shirokoi.e-junkie.com](https://shirokoi.e-junkie.com/))
+  
+  FAQ: How do I update my game after a new build releases?
+  
+  This varies depending on what platform you're on. If on Android, simply download the new build and install it. It should automatically update the version of the game you have installed. If on Windows/MAC/Linux, simply delete the old Repeat game folder and download the new build. Your saves are stored in your local files, so they should be retained after the update. 
 
 description-format: markdown
 
+authors:
+  - name: shirokoi
+    role: [ producer, screenwriter, artist, programmer ]
+
 tags:
-  author:
-    - 'shirokoi'
   type:
     - visual-novel
     - bara
@@ -30,7 +44,7 @@ tags:
     - uncensored
     - engine-renpy
     - multiple-endings
-    - work-in-process
+    - suspended
   lang:
     - en
     - zh-unofficial
@@ -48,9 +62,7 @@ links:
     uri: https://shirokoi.itch.io/repeat-visual-novel
   - name: .patreon
     uri: patreon:shirokoi
-  - name: .twitter
-    uri: twitter:shirokoi
-  - name: .unofficial-ver-zh-cn
+  - name: .unofficial-version-zh
     uri: https://simone-parker.itch.io/repeatzh
 
 thumbnail: thumbnail.jpg

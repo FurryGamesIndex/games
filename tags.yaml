@@ -639,6 +639,11 @@ animal-on-furry:
     en: 'Sexual activity between a animal/non-anthro and a furry'
     zh-cn: '主要角色中，动物或纯兽（非人形 furry）和兽人发生了性关系'
 
+nakadashi:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'STUB'
+
 ###################################################
 
 exhibitionism:
