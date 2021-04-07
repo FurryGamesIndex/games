@@ -398,7 +398,7 @@ h2 {
 	margin-bottom: 20px;
 }
 
-/* list.html */
+/* list.html, list-*c*.html, game.html */
 
 .entry {
 	display: grid;
@@ -442,7 +442,7 @@ h2 {
 }
 
 .entry h4,
-.introduction h4 {
+.introduction h1 {
 	font-size: 2.125rem;
 	letter-spacing: 0em;
 	line-height: var(--display-1-leading);
@@ -453,7 +453,7 @@ h2 {
 }
 
 .entry h4 span,
-.introduction h4 span {
+.introduction h1 span {
     font-size: 1.5rem;
     letter-spacing: 0em;
     line-height: var(--headline-leading);
@@ -480,7 +480,7 @@ h2 {
 	padding: 0 var(--increment);
 }
 
-.introduction h4 {
+.introduction h1 {
 	font-weight: 700;
 	margin-bottom: 16px;
 }
@@ -504,7 +504,7 @@ h2 {
 	line-height: var(--headline-leading);
 }
 
-.description h5 {
+.description h2 {
 	font-weight: 700;
 	margin-top: 13px;
 	margin-bottom: 7px;
