@@ -39,10 +39,13 @@
 	--grey-900: #212121;
 	--grey-950: #121212;
 
-	--increment: 64px;
-	--keyline: 24px;
 	--main-grid-unit: 360px;
 	--main-column-gap: 40px;
+	--main-row-gap: 20px; /* main-column-gap / 2 */
+	--container-width: 1160px; /* 3 * --main-grid-unit + 2 * main-column-gap */
+
+	--increment: 64px; /* FIXME: deprecated */
+	--keyline: 24px;
 
 	--primary-text-color: rgba(0, 0, 0, 0.87);
 	--secondary-text-color-alt: rgba(0, 0, 0, 0.7);
@@ -185,7 +188,6 @@ dd:not(:last-of-type) {
 
 hr {
 	margin: 0;
-	align-self: stretch;
 	border-color: var(--divider-color);
 }
 
@@ -228,24 +230,12 @@ ul {
 	background-color: var(--blue-grey-500);
 }
 
-body > hr {
-	align-self: center;
-	width: 100%;
-	max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));
-}
-
 .version-warning {
 	align-self: stretch;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	background-color: var(--secondary-background-color);
-	padding: 0 var(--increment);
 }
 
 .version-warning .container {
-	width: 100%;
-	max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));
 	display: grid;
 	grid-template-columns: 40px auto;
 	column-gap: 16px;
@@ -277,6 +267,21 @@ body > hr {
 	margin-right: 0.5em;
 }
 
+/* frame */
+
+body > *,
+.container {
+	width: var(--container-width);
+	max-width: var(--container-width);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body > aside {
+	width: 100%;
+	max-width: 100%;
+}
+
 /* header, nav */
 
 header {
@@ -284,13 +289,12 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 0 var(--increment);
 	margin-top: 16px;
 }
 
 header nav {
 	width: 100%;
-	max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));
+	/*max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));*/
 	min-height: 48px;
 	display: flex;
 	flex-wrap: wrap;
@@ -323,15 +327,12 @@ header .iconline > .icon {
 	margin-right: 8px;
 }
 
-/* footer */
-
 footer {
 	display: grid;
 	grid-template-columns: repeat(3, var(--main-grid-unit));
 	column-gap: var(--main-column-gap);
 	row-gap: 20px;
 	margin: var(--main-column-gap) 0;
-	padding: 0 var(--increment);
 }
 
 address {
@@ -355,7 +356,6 @@ address a .icon {
 	grid-template-columns: repeat(3, var(--main-grid-unit));
 	gap: calc(var(--main-column-gap) / 2) var(--main-column-gap);
 	margin: var(--main-column-gap) 0;
-	padding: 0 var(--increment);
 }
 
 hgroup {
@@ -404,7 +404,6 @@ h2 {
 	display: grid;
 	grid-auto-flow: row;
 	margin: var(--main-column-gap) 0;
-	padding: 0 var(--increment);
 	row-gap: 24px;
 }
 
@@ -477,7 +476,6 @@ h2 {
 	grid-template-rows: repeat(4, max-content) auto;
 	column-gap: var(--main-column-gap);
 	margin: var(--main-column-gap) 0;
-	padding: 0 var(--increment);
 }
 
 .introduction h1 {
@@ -644,6 +642,18 @@ h2 {
 	margin-bottom: 4px;
 }
 
+@media (max-width: 1128px) {
+	.introduction {
+		grid-template-columns: 600px auto;
+	}
+}
+
+@media (max-width: 1068px) {
+	.introduction {
+		grid-template-columns: auto 300px;
+	}
+}
+
 /* author.html */
 
 .author {
@@ -680,11 +690,10 @@ h2 {
 .preferences,
 .languages,
 .simple_markdown {
-	max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));
+	/*max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));*/
 	display: grid;
 	grid-auto-flow: row;
 	row-gap: var(--main-column-gap);
-	padding: 0 var(--increment);
 	margin: var(--main-column-gap) 0;
 }
 
@@ -729,40 +738,7 @@ h2 {
 
 /* FIXME: move these */
 
-@media (max-width: 1288px) {
-    .preface,
-    .introduction,
-    .entry article {
-        grid-template-columns: auto var(--main-grid-unit);
-    }
-    .preface article,
-    .entry h4,
-    .description,
-    .staff,
-    .media,
-    .labels {
-        grid-column: span 1;
-    }
-    body > hr {
-        max-width: calc(100% - 2 * var(--increment));
-    }
-    footer {
-        grid-template-columns: auto var(--main-grid-unit);
-    }
-}
-
-@media (max-width: 1128px) {
-    .introduction {
-        grid-template-columns: 600px auto;
-    }
-}
-
-@media (max-width: 1068px) {
-    .introduction {
-        grid-template-columns: auto 300px;
-    }
-}
-
+/*
 @media (min-width: 949px) {
     .resources {
         grid-column-end: -1;
@@ -1056,6 +1032,7 @@ h2 {
         grid-template-columns: auto;
     }
 }
+*/
 
 .display4 {
     font-size: 7rem;
