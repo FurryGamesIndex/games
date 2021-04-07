@@ -14,7 +14,7 @@
 {% if game.expunge %}
 	<div class="box warning">{{ ui.warnbox_expunge }}</div>
 {% endif %}
-	<h1>{{ game.get_name(lang)|e }}</h1>
+	<h1 class="game_name">{{ game.get_name(lang)|e }}</h1>
 	<section class="description">
 		{{ game.get_description(lang).html }}
 	</section>
@@ -46,5 +46,5 @@
 		{% endif %}
 	</section>
 </main>
-
+<hr />
 {% include 'peafowl-private/footer.html' %}

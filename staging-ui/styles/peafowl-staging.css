@@ -197,7 +197,7 @@ img {
 	object-fit: cover;
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -205,13 +205,10 @@ h5,
 h6 {
 	margin: 0;
 	font-weight: 400;
-}
+}*/
 
 p {
 	margin: 0;
-}
-
-p:not(:last-of-type) {
 	margin-bottom: 7px;
 }
 
@@ -370,24 +367,18 @@ hgroup {
 	grid-column: 1/-1;
 }
 
-h1 {
+.main_index h1 {
 	font-size: 3.5rem;
 	font-weight: 700;
 	letter-spacing: -0.005em;
 	line-height: var(--display-3-leading);
-}
-
-.main_index h1 {
 	margin-bottom: 3px;
 }
 
-h2 {
+.main_index h2 {
 	font-size: 1.5rem;
 	letter-spacing: 0em;
 	line-height: var(--headline-leading);
-}
-
-.main_index h2 {
 	margin-bottom: 3px;
 }
 
@@ -436,6 +427,20 @@ h2 {
 	column-gap: var(--main-column-gap);
 }
 
+.game_name {
+	margin: 0;
+	font-weight: 700;
+	font-size: 2.125rem;
+	letter-spacing: 0em;
+	line-height: var(--display-1-leading);
+}
+
+.game_name span {
+	font-size: 1.5rem;
+	letter-spacing: 0em;
+	line-height: var(--headline-leading);
+}
+
 .main_list article {
 	display: grid;
 	grid-template-columns: repeat(3, var(--main-grid-unit));
@@ -443,27 +448,9 @@ h2 {
 	column-gap: var(--main-column-gap);
 }
 
-.main_list h4 {
+.main_list .game_name {
 	grid-column: span 2;
-	font-weight: 700;
-}
-
-.main_list h4,
-.main_game h1 {
-	font-size: 2.125rem;
-	letter-spacing: 0em;
-	line-height: var(--display-1-leading);
-}
-
-.main_list article > h4 {
-    margin-bottom: 6px;
-}
-
-.main_list h4 span,
-.main_game h1 span {
-    font-size: 1.5rem;
-    letter-spacing: 0em;
-    line-height: var(--headline-leading);
+	margin-bottom: 6px;
 }
 
 .main_list article > picture {
@@ -484,8 +471,7 @@ h2 {
 	margin: var(--main-column-gap) 0;
 }
 
-.main_game h1 {
-	font-weight: 700;
+.main_game .game_name {
 	margin-bottom: 16px;
 }
 
@@ -506,12 +492,6 @@ h2 {
 	font-size: 1.25rem;
 	letter-spacing: 0.005em;
 	line-height: var(--headline-leading);
-}
-
-.description h2 {
-	font-weight: 700;
-	margin-top: 13px;
-	margin-bottom: 7px;
 }
 
 .media {
@@ -719,9 +699,7 @@ h2 {
 
 /* preferences.html */
 
-.main_preferences,
-.languages,
-.main_simple_markdown {
+.main_preferences {
 	display: grid;
 	grid-auto-flow: row;
 	row-gap: var(--main-column-gap);
@@ -735,11 +713,11 @@ h2 {
 
 /* simple_md.html */
 
-.main_simple_markdown section:not(:last-of-type) {
-    margin-bottom: 40px;
+.main_simple_markdown {
+	margin-bottom: 40px;
 }
 
-.main_simple_markdown h2 {
+/*.main_simple_markdown h2 {
 	font-weight: 700;
 	margin-bottom: 18px;
 }
@@ -750,7 +728,7 @@ h2 {
 	line-height: var(--title-leading);
 	font-weight: 700;
 	margin-bottom: 8px;
-}
+}*/
 
 /* language.html */
 
@@ -966,15 +944,10 @@ h2 {
     footer > * {
         max-width: var(--main-grid-unit);
     }
-    .main_preferences,
-    .languages,
-    .faq {
+    .main_preferences {
         max-width: var(--main-grid-unit);
         padding: 0;
         row-gap: 20px;
-    }
-    .faq section:not(:last-of-type) {
-        margin-bottom: 20px;
     }
     .category {
         grid-template-columns: repeat(2, auto);

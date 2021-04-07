@@ -8,7 +8,7 @@
 {% set desc = game.get_description(lang).text %}
 {% set game_name = game.get_name(lang) %}
 	<article>
-		<h4><a href="./games/{{ gid }}.html">{{ game_name|e }}</a></h4>
+		<h2 class="game_name"><a href="./games/{{ gid }}.html">{{ game_name|e }}</a></h2>
 		<section class="description subheading">
 			{{ (desc[:480] + (desc[480:] and '...'))|e }}
 		</section>

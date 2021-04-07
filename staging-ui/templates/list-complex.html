@@ -5,11 +5,10 @@
 {% include 'peafowl-private/list-chain.html' %}
 
 {% for gid, game in games %}
-{% set desc = game.get_description(lang).text %}
 {% set game_name = game.get_name(lang) %}
 	<article>
-		<h4><a href="./games/{{ gid }}.html">{{ game_name|e }}</a></h4>
-		<section class="description subheading">{{ desc|e }}</section>
+		<h2 class="game_name"><a href="./games/{{ gid }}.html">{{ game_name|e }}</a></h2>
+		<section class="description subheading">{{ game.get_description(lang).html }}</section>
 		{% include 'peafowl-private/game_tags.html' %}
 		<section class="resources subheading">
 			{% include 'peafowl-private/game_logo.html' %}
