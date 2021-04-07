@@ -47,7 +47,7 @@ class RendererGame(Renderer):
         ga = {}
 
         for author in game.authors:
-            aname = author["name"]
+            aname = author.name
             if aname in self.author_game_map:
                 for g in self.author_game_map[aname]:
                     i = g.id

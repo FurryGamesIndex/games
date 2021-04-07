@@ -58,27 +58,26 @@ def sorted_games_by_mtime(games):
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if not v.expunge }
 
-def load_game_all(dbdir, sdb, tagmgr, languages, mfac, ifac, author_game_map):
+def load_game_all(dbdir, sdb, tagmgr, languages, mfac, ifac, authors, author_game_map):
     games = {}
 
     for f in sorted_games_name(os.listdir(dbdir)):
         game = load_game(dbdir, f, languages)
 
         if game:
+            game.realize(tagmgr, mfac, ifac, authors)
             games[game.id] = game
 
+            for i in game.authors:
+                if not i.standalone:
+                    if i.name not in author_game_map:
+                        author_game_map[i.name] = list()
+                    author_game_map[i.name].append(game)
+
+            sdb.update(game)
+
     for _, game in games.items():
-        game.realize(games, tagmgr, mfac, ifac)
-
-        for i in game.authors:
-            if not i["standalone"]:
-                name = i["name"]
-
-                if name not in author_game_map:
-                    author_game_map[name] = list()
-                author_game_map[name].append(game)
-
-        sdb.update(game)
+        game.link(games)
 
     return games
 

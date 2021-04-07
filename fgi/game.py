@@ -80,6 +80,61 @@ class GameL10n:
         if "links-tr" in data:
             self.links_tr = data["links-tr"]
 
+class GameAuthor:
+    def __init__(self, stub = False, data = None):
+        self.name = None
+        self.standalone = False
+        self.roles = list()
+
+        self.stub = stub
+        self.avatar = None
+        self.avatar_uri = None
+        self.link_href = None
+
+        self.author = None
+
+        if data:
+            self.name = data["name"]
+
+            if "standalone" in data:
+                self.standalone = True
+                if "avatar" in data:
+                    self.avatar_uri = data["avatar"]
+                if "link-uri" in data:
+                    self.link_href = uri_to_src(data["link-uri"])
+
+            if "role" in data:
+                self.roles = data["role"]
+
+    @staticmethod
+    def make_stub_gameauthor(name):
+        ga = GameAuthor(stub = True)
+        ga.name = name
+        return ga
+
+    def realize(self, authors, mfac):
+        if self.stub:
+            return
+
+        if self.avatar_uri:
+            self.avatar = mfac.uri_to_html_image(self.avatar_uri, self.name)
+            del self.avatar_uri
+
+        if self.name not in authors:
+            print(f"[warning] non-stub author '{self.name}' referenced without defined.")
+            return
+
+        self.author = authors[self.name]
+
+    def get_avatar(self):
+        if self.avatar:
+            return self.avatar
+
+        if self.author and self.author.avatar:
+            return self.author.avatar
+
+        return None
+
 class Game:
     def __init__(self, data, gid, mtime):
         super().__init__()
@@ -89,9 +144,7 @@ class Game:
 
         self.tags = data["tags"]
 
-        self.authors = None
-        if "authors" in data:
-            self.authors = data["authors"]
+        self.authors = list()
 
         self.name = data["name"]
         self.description = GameDescription(self, data)
@@ -104,6 +157,26 @@ class Game:
         self._replaced_by_gid = None
         if "replaced-by" in data:
             self._replaced_by_gid = data["replaced-by"]
+
+        if "authors" in data:
+            if "author" in self.tags:
+                raise ValueError("authors property conflict #/tags/author namespace")
+
+            tmp = { "author": list() }
+            tmp.update(self.tags)
+            self.tags = tmp
+
+            for i in data["authors"]:
+                author = GameAuthor(data = i)
+                self.authors.append(author)
+
+                if not author.standalone:
+                    self.tags["author"].append(author.name)
+        else:
+            # For games using legecy format or without author infomation,
+            # create STUB author properties
+            for i in self.tags.get("author", {}):
+                self.authors.append(GameAuthor.make_stub_gameauthor(i))
 
         self.links_prepare = list()
         self.links = list()
@@ -128,42 +201,11 @@ class Game:
     def add_l10n_data(self, ln, data, mtime):
         self.tr[ln] = GameL10n(self, data, mtime)
 
-    def realize(self, games, tagmgr, mfac, ifac):
+    def link(self, games):
         if self._replaced_by_gid:
             self.replaced_by = games[self._replaced_by_gid]
 
-        if self.authors:
-            if "author" in self.tags:
-                raise ValueError("authors property conflict #/tags/author namespace")
-
-            tmp = { "author": list() }
-            tmp.update(self.tags)
-            self.tags = tmp
-
-            # FIXME: create a GameAuthor class
-            for i in self.authors:
-                if "standalone" not in i:
-                    i["standalone"] = False
-                if i["standalone"]:
-                    if "avatar" in i:
-                        i["hi_avatar"] = mfac.uri_to_html_image(i["avatar"], self.id)
-                    if "link-uri" in i:
-                        i["link_href"] = uri_to_src(i["link-uri"])
-                else:
-                    self.tags["author"].append(i["name"])
-
-        else:
-            # For games using legecy format or without author infomation,
-            # create a STUB authors property
-            self.authors = list()
-
-            for i in self.tags.get("author", {}):
-                tmp = dict()
-                tmp["name"] = i
-                tmp["@stub"] = True
-                tmp["standalone"] = False
-                self.authors.append(tmp)
-
+    def realize(self, tagmgr, mfac, ifac, authors):
         tagmgr.check_and_patch(self)
 
         self.description.realize(mfac)
@@ -173,6 +215,9 @@ class Game:
 
         if self.thumbnail_uri:
             self.thumbnail = mfac.uri_to_html_image(self.thumbnail_uri, self.id)
+
+        for i in self.authors:
+            i.realize(authors, mfac)
 
         for i in self.links_prepare:
             l = Link(i, ifac)

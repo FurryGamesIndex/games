@@ -139,7 +139,7 @@ class Generator:
 
         self.author_game_map = dict()
         self.authors = load_author_all(self.dbdir_author, self.mfac, self.ifac, self.author_game_map)
-        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac, self.ifac, self.author_game_map)
+        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac, self.ifac, self.authors, self.author_game_map)
 
         self.base_l10n = uil10n_load_base(self, self.dir_uil10n)
 
