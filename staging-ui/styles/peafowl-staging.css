@@ -188,7 +188,11 @@ dd:not(:last-of-type) {
 
 hr {
 	margin: 0;
-	border-color: var(--divider-color);
+
+	border-style: none;
+	height: 2px;
+	background-clip: content-box;
+	background-color: var(--divider-color);
 }
 
 img {
