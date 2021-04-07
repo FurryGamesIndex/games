@@ -282,6 +282,15 @@ body > aside {
 	max-width: 100%;
 }
 
+@media (max-width: 1288px) {
+	body > *:not(aside),
+	.container {
+		width: 100%;
+		max-width: 100%;
+		padding: 0 var(--increment);
+	}
+}
+
 /* header, nav */
 
 header {
@@ -294,7 +303,6 @@ header {
 
 header nav {
 	width: 100%;
-	/*max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));*/
 	min-height: 48px;
 	display: flex;
 	flex-wrap: wrap;
@@ -468,8 +476,6 @@ h2 {
 	aspect-ratio: 16/9;
 }
 
-/* game.html */
-
 .main_game {
 	display: grid;
 	grid-template-columns: repeat(3, var(--main-grid-unit));
@@ -491,7 +497,7 @@ h2 {
 	grid-column: span 2;
 }
 
-.main_list[class~="detailed"] .description {
+.main_list.detailed .description {
 	margin-bottom: var(--main-column-gap);
 }
 
@@ -519,9 +525,10 @@ h2 {
 .tags {
 	grid-column: span 2;
 	column-gap: var(--main-column-gap);
+	column-count: 2;
 }
 
-.main_list[class~="detailed"] .tags {
+.main_list.detailed .tags {
 	margin-bottom: 8px;
 }
 
@@ -554,7 +561,7 @@ h2 {
 	flex-basis: 100%;
 }
 
-.staff ul[class~="secondary"] {
+.staff ul.secondary {
 	row-gap: 8px;
 	padding-top: 4px;
 }
@@ -612,10 +619,10 @@ h2 {
 }
 
 .staff li > span > span {
-    margin-top: -1px;
+	margin-top: -1px;
 }
 
-.main_list[class~="detailed"] .resources {
+.main_list.detailed .resources {
 	margin-bottom: 20px;
 }
 
@@ -640,6 +647,31 @@ h2 {
 
 .resources p {
 	margin-bottom: 4px;
+}
+
+
+.resources {
+	grid-column-end: -1;
+	grid-row-start: 1;
+	grid-row-end: -1;
+	align-self: start;
+}
+
+.main_list.detailed .resources {
+	top: var(--keyline);
+}
+
+.main_game .resources {
+	bottom: 0;
+	padding-bottom: var(--keyline);
+}
+
+@supports (position: sticky) {
+	.main_game .resources {
+		min-height: calc(100vh - 2 * var(--keyline));
+		position: sticky;
+		align-self: end;
+	}
 }
 
 @media (max-width: 1128px) {
@@ -690,7 +722,6 @@ h2 {
 .main_preferences,
 .languages,
 .main_simple_markdown {
-	/*max-width: calc(3 * var(--main-grid-unit) + 2 * var(--main-column-gap));*/
 	display: grid;
 	grid-auto-flow: row;
 	row-gap: var(--main-column-gap);
@@ -739,24 +770,6 @@ h2 {
 /* FIXME: move these */
 
 /*
-@media (min-width: 949px) {
-    .resources {
-        grid-column-end: -1;
-        grid-row-start: 1;
-        grid-row-end: -1;
-        position: sticky;
-        align-self: start;
-    }
-    .main_list[class~="detailed"] .resources {
-        top: var(--keyline);
-    }
-    .main_game .resources {
-        bottom: 0;
-        align-self: end;
-        min-height: calc(100vh - 2 * var(--keyline));
-        padding-bottom: var(--keyline);
-    }
-}
 
 @media (max-width: 948px) {
     .main_list[class~="detailed"] article {
@@ -914,9 +927,6 @@ h2 {
 @media (min-width: 473px) {
     .author ul {
         padding-left: calc(var(--increment) + var(--keyline));
-    }
-    .tags {
-        column-count: 2;
     }
 }
 
