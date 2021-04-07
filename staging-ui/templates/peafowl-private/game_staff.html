@@ -8,7 +8,7 @@
 		<div class="authoravatar-alt">{{ ifac.misc_icon("paw") }}</div>
 	{% endif %}
 		<span class="subheading">
-		{% if author %}
+		{% if i.author %}
 			<a href="{{ rr }}/{{ lang }}/authors/{{ i.author.id }}.html">{{ i.name }}</a>
 		{% elif i.link_href %}
 			<a target="_blank" href="{{ i.link_href }}">{{ i.name }}</a>
