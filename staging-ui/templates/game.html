@@ -48,4 +48,26 @@
 </main>
 <hr />
 {% include 'peafowl-private/footer.html' %}
+<script>
+if (localStorage.getItem("show_sensitive") == "true") {
+	$$('script[type="text/x-FGI-sensitive-media"]').forEach(i => {
+		const media = JSON.parse(atob(i.textContent));
+		if (media.type === "image") {
+			const picture = make_picture(media.data, "", null);
+			i.parentNode.insertBefore(picture, i);
+		}
+	});
+	$$('script[type="text/x-FGI-sensitive-media-misc"]').forEach(i => {
+		i.outerHTML = atob(i.textContent);
+	});
+	const warn = $("#sensitive_media_warn");
+	if (warn != null)
+		warn.parentNode.removeChild(warn);
+}
+if (localStorage.getItem("show_steam_widget") == "true") {
+	$$('script[type="text/x-FGI-steam-widget"]').forEach(i => {
+		i.outerHTML = atob(i.textContent);
+	});
+}
+</script>
 {% include 'peafowl-private/end.html' %}
