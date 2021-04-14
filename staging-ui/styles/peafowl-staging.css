@@ -476,6 +476,7 @@ hgroup {
 }
 
 .main_game .game_name {
+	grid-column: span 2;
 	margin-bottom: 16px;
 }
 
@@ -619,7 +620,6 @@ hgroup {
 	margin-bottom: 4px;
 }
 
-
 .resources {
 	grid-column-end: -1;
 	grid-row-start: 1;
@@ -645,10 +645,14 @@ hgroup {
 }
 
 @media (max-width: 1288px) {
+	.main_index,
+	.main_list article,
 	.main_game {
 		grid-template-columns: auto var(--main-grid-unit);
 	}
 
+	.main_list .game_name,
+	.main_game .game_name,
 	.main_index article,
 	.description,
 	.staff,
