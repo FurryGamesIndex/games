@@ -13,9 +13,25 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: The Echo Project
+    role: [ producer ]
+  - name: Howly
+    role: [ screenwriter ]
+  - name: McSkinny
+    role: [ screenwriter ]
+  - name: Hiccupby
+    role: [ artist ]
+  - name: Scratch
+    role: [ artist ]
+  - name: StardustPup
+    role: [ artist ]
+  - name: CivetStranj
+    role: [ artist ]
+  - name: Kardamon
+    role: [ artist ]
+
 tags:
-  author:
-    - 'The Echo Project'
   type:
     - visual-novel
     - bara
@@ -36,7 +52,6 @@ tags:
     - engine-renpy
     - multiple-endings
     - multiple-series
-    - work-in-process
   lang:
     - en
     - zh-unofficial

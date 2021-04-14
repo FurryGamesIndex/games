@@ -17,6 +17,8 @@ description-format: markdown
 authors:
   - name: The Echo Project
     role: [ producer ]
+  - name: Howly
+    role: [ screenwriter ]
   - name: HAPS
     role: [ artist ]
   - name: Black Sun Di
