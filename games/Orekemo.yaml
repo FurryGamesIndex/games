@@ -52,6 +52,7 @@ tags:
     - booth
   platform:
     - windows
+    - android
 
 links:
   - name: .booth
