@@ -48,12 +48,10 @@ links:
     uri: https://twitter.com/hachi_forebodin/status/1180761505165266945
   - name: .twitter
     uri: twitter:kenn_fudo
-  - name: .unofficial-ver-zh-cn
+  - name: .unofficial-version-zh
     uri: https://tieba.baidu.com/p/4807261773
 
 thumbnail: thumbnail.jpg
-
-sensitive_media: true
 
 screenshots:
   - https://images2.imgbox.com/2e/cc/3AWJCjHk_o.png

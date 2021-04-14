@@ -55,7 +55,7 @@ links:
     uri: https://www.microsoft.com/en-us/p/stories-the-path-of-destinies/9nnhzx41p7jv
   - name: .website
     uri: http://www.storiesthepathofdestinies.com/
-  - name: .unofficial-patch-zh-cn
+  - name: .unofficial-patch-zh
     uri: https://keylol.com/t429856-1-1
 
 thumbnail: thumbnail.jpg

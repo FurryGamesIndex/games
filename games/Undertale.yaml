@@ -84,7 +84,7 @@ links:
     uri: twitter:undertale
   - name: .tumblr
     uri: tumblr:undertale
-  - name: .unofficial-patch-zh-cn
+  - name: .unofficial-patch-zh
     uri: https://tieba.baidu.com/p/6177661670
     
 thumbnail: thumbnail.jpg

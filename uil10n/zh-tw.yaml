@@ -112,11 +112,6 @@ stock-link-unofficial-version-zh: 非官方中文版本
 stock-link-demo-version: 獲取演示版本
 stock-link-demo-version-steam: 從 Steam 獲取演示版本
 stock-link-demo-version-gog.com: 從 gog.com 獲取演示版本
-# Deprecated
-stock-link-unofficial-patch-zh-cn: 非官方簡體中文補丁
-stock-link-unofficial-ver-zh-cn: 非官方簡體中文版本
-stock-link-unofficial-patch-zh-tw: 非官方繁體中文補丁
-stock-link-unofficial-ver-zh-tw: 非官方繁體中文版本
 
 author-role-producer: 製作
 author-role-screenwriter: 劇本

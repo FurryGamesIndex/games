@@ -41,7 +41,7 @@ links:
     uri: https://booth.pm/ja/items/526423
   - name: .twitter
     uri: twitter:kenn_fudo
-  - name: .unofficial-patch-zh-tw
+  - name: .unofficial-patch-zh
     uri: https://pan.baidu.com/s/1i4XQIwP
 
 thumbnail: thumbnail.jpg

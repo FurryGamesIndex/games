@@ -51,7 +51,7 @@ links:
     uri: https://apps.apple.com/us/app/dust-an-elysian-tail/id1020962158
   - name: .nintendo-e-shop
     uri: https://www.nintendo.com/games/detail/dust-an-elysian-tail-switch/
-  - name: .unofficial-patch-zh-tw
+  - name: .unofficial-patch-zh
     uri: https://www.codebay.in/2016/06/dustaet-cht-mod.html
 
 thumbnail: thumbnail.jpg

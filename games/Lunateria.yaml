@@ -41,7 +41,7 @@ links:
     uri: patreon:lunateria
   - name: .twitter
     uri: twitter:naruevernett
-  - name: .unofficial-ver-zh-cn
+  - name: .unofficial-version-zh
     icon: itch.io
     uri: https://lupei.itch.io/lunateria-chs
 

@@ -51,7 +51,7 @@ links:
     uri: https://www.artdecademonthly.com/
   - name: .twitter
     uri: twitter:artdecade_draws
-  - name: .unofficial-ver-zh-cn
+  - name: .unofficial-version-zh
     uri: https://www.weibo.com/5778709346/Hs2MixDza
 
 thumbnail: thumbnail.jpg
