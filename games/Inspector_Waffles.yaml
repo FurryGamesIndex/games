@@ -1,0 +1,57 @@
+name: 'Inspector Waffles'
+
+description: |
+  *It’s hard to get the memory of that case out my head... I can’t even think about what my old partner went through without getting a bad taste in my mouth. I guess that’s why I’m sittin' here drinking yet another glass of cold, hard milk.*  
+
+  Inspector Waffles was hoping his worst days were behind him, but the murder of a high-profile industrialist CEO beloved by the citizens of Cat Town raises new questions and fears.  
+
+  Being the best inspector on the CTPD, Waffles has no choice: he's gotta push past the painful memories, don his well-worn overcoat, and prepare to get his paws dirty.  
+
+  A detective story reminiscent of the old school classics, Inspector Waffles provides plenty of peculiar mystery, a story full of intrigue, and a slew of characters to interrogate, all wrapped into beautifully simple pixel-art. Will you be able to sniff out every clue and nab the murderer?  
+
+  ## A REAL TREAT, SEE?
+  *  A brilliant feline detective in a world full of anthropomorphic cats, dogs, and maybe other species. It’s pixel-animal madness, I tell ya.  
+  *  A beautiful jazzy soundtrack, full of notes and music and harmony pleasing to your ears and brain.  
+  *  Chock full of dry humor and puns about cats and dogs. Seriously, I couldn’t think of any more puns to include. The pun supply is exhausted.
+
+description-format: markdown
+
+tags:
+  author:
+    - Goloso Games
+  type:
+    - adventure
+  male:
+    - cat
+    - dog
+  female:
+    - cat
+    - dog
+  misc:
+    - pixel-art
+  lang:
+    - en
+    - fr
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1055850
+  - name: .website
+    uri: http://www.golosogames.com
+  - name: .twitter
+    uri: twitter:golosogames
+  - name: .youtube
+    uri: https://www.youtube.com/channel/UCEAQyMQveI4_jWkXiXbrKYQ/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1055850/ss_964161748c9cd540635199f47f512df0c9a65a45.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1055850/ss_4cee0d5963b513507e9de1f8b80ad7e51d9e8808.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1055850/ss_f481abba0cad5c51ef45b51d02e75a6071066738.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1055850/ss_f9b289c9774a7d9b3d48b0d78a1f3f9c11515995.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1055850/ss_82f4af2adb9373699f0dc710ce971d9ba0b1919b.1920x1080.jpg
