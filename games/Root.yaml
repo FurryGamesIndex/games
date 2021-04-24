@@ -1,0 +1,84 @@
+name: Root
+
+description: |
+  A game of woodland might and right.
+
+  Play the digital adaptation of the beloved tabletop board game. Root is a game of adventure and war where 2 to 4 players battle for control of a vast wilderness.
+
+  The nefarious Marquise de Cat has seized the great woodland, intent on harvesting its riches. Under her rule, the many creatures of the forest have banded together. This Alliance will seek to strengthen its resources and subvert the rule of Cats. In this effort, the Alliance may enlist the help of the wandering Vagabonds who are able to move through the more dangerous woodland paths. Though some may sympathize with the Alliance’s hopes and dreams, these wanderers are old enough to remember the great birds of prey who once controlled the woods.
+
+  Meanwhile, at the edge of the region, the proud, squabbling Eyrie have found a new commander who they hope will lead their faction to resume their ancient birthright.
+
+  The stage is set for a contest that will decide the fate of the great woodland. It is up to the players to decide which group will ultimately take root.
+
+  ## Game Factions
+
+  The most recent conquerors of the forest, the Marquise de Cat plays a game of engine building and logistics while policing the vast wilderness. By collecting Wood they are able to build Workshops, Sawmills, and Recruiters to help her score victory points. Marquise de Cat has the largest army in ROOT, but numbers alone won’t be enough to secure the forest...
+
+  The Marquise de Cat builds a mighty industrial war machine to subdue the forest. Each time the Marquise builds a Workshop, Sawmill, or Recruiter, you score victory points. The more of the same building she has on the map, the more points scored. However, to fuel ongoing construction, the Marquise must maintain and protect a strong, interconnected economy of Wood. While it may be tempting to overwhelm your opponents with sheer numbers, this leaves you at great risk of spreading yourself too thin and ultimately not being able to keep up.
+
+  ## The Eyrie Dynasties
+
+  The Eyrie Dynasties once ruled the wood, before the coming of the Cats. They must retake control by capturing territory and building Roosts before they collapse back into squabbling. The Eyrie are proud and bound to the decrees of their leaders. Each leader brings with them different specialties and advantages. The right leader at the right time could lead you to victory, but the wrong leader could cripple your chances of reclaiming the forest.
+
+  During the Evening, the Eyrie score victory points based on the number of roosts on the map. The greater their presence in the Woodlands, the greater their gains. However, the Eyrie are bound by their Decree, an ever-increasing set of mandated actions promised by their leader. Each turn, they must take all of the actions on their Decree, or else fall into turmoil.
+
+  ## Woodland Alliance
+
+  The Woodland Alliance doesn’t take kindly to despots - old or new. Marquise, Eyrie, they’re all the same. Only through the will of the people can this wood be ruled! The Woodland Alliance are masters of guerrilla warfare, they begin slowly but can build into a late-game powerhouse - but only if they can manage to subvert the other would-be rulers along the way.
+
+  The Woodland Alliance works to gain the sympathy of the various creatures of the forest. Each time the Alliance places a sympathy token, they may score victory points. The more sympathy on the map they have, the more victory points they score. Gaining the sympathy of the people requires supporters. These supporters can also be put toward violent ends, inciting outright rebellion across the forest. When a revolt erupts, the Alliance will establish a base. Bases allow the Alliance to train officers, increasing their military strength and flexibility.
+
+  The Vagabond
+  
+  The Vagabond is an adventurer to some, a trader to others, and thief to more, and an all-around scoundrel. As the Vagabond, you will explore all over the map, beyond just it's clearings, into dense woods to find items and ruins. You can trade and lend aid to the warring factions of the forest to help you complete your own secret quests.
+
+  The Vagabond plays all sides of the conflict while going on quests to increase his renown throughout the wood. Each time the Vagabond improves their relationship with another faction, or removes a warrior belonging to a faction hostile toward them, the Vagabond scores victory points. You can also complete quests to score victory points. To move and act effectively the Vagabond must manage a pack of items, expand your selection by exploring the forest ruins and providing aid to other factions.
+
+description-format: markdown
+
+authors:
+  - name: Dire Wolf
+    role: [ producer ]
+
+tags:
+  type:
+    - strategy
+    - board
+  male:
+    - cat
+    - bird
+  misc:
+    - online
+    - pvp
+    - full-audio
+  lang:
+    - cs
+    - de
+    - en
+    - zh
+    - fr
+    - it
+    - es
+    - ja
+    - pl
+    - ru
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .steam
+    uri: steam:965580
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/965580/ss_fa393ae5d9ecacb8e40ad83fcca855e81cda0fa8.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/965580/ss_f46be88f441d4c1e6560ff2438e03c84899e0c00.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/965580/ss_f0e53bf3df20335f349535cd63f1d007d7474a34.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/965580/ss_b34e50e0c23e2eb0d5c63e96e860a6cbfea71cad.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/965580/ss_1cd24848e5e17aa8a329ab821f4bca93d7602929.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/965580/ss_5243bafa2b10af31449d3428e83734b45054811c.1920x1080.jpg
