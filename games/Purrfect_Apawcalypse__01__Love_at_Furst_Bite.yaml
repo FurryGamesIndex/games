@@ -1,0 +1,45 @@
+name: 'Purrfect Apawcalypse: Love at Furst Bite'
+
+description: |
+  Olive the mutt finds themself trapped in Hachiko High School during the apocalypse! Demons have been slaughtering their classmates and they're certain it's inevitable that they too will meet their untimely end... Which means there's only so many dogs left to spend their last moments with! 
+  Join Olive in their grisly search for a special someone! Will it be Brownie the snack-loving corgi, Sparky the sporty husky or Patches the dalmatian bookworm? It's all up to you!
+  This game contains cartoon gore, bifurcated dogs, headless dogs, generally dogs not having a great time! Play at your own discretion!
+  Purrfect Apawcalypse is a dark comedy interactive fiction about dogs, cats and the apocalypse. The places you go, characters you meet and choices you make will lead you either to death or happiness, so choose wisely!
+
+authors:
+  - name: Denny Truong
+  - name: Andy Schneider
+  - name: 90% Studios
+    role: [ publisher ]
+
+tags:
+  type:
+    - visual-novel
+  male:
+    - cat
+    - dog
+  female:
+    - cat
+    - dog
+  misc:
+    - multiple-series
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .steam
+    uri: steam:1532510
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_becac79e052c487c370b62b74a5c9fbca0034846.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_1d0a6e89531fe59e13f8355cebe1fa9e49f79ed5.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_ff8dbbb16bf6d2e917edba418579f92c6e3281bb.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_85cb0dece29f94de3e71ba5ce7e96d5234298bc2.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_df7ad84a6dc16d7c84c038585c39a0491e2fb036.1920x1080.jpg
