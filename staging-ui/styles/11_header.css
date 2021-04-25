@@ -1,0 +1,41 @@
+header {
+	align-self: stretch;
+	$flex;
+	$flex_column_nowrap;
+	align-items: center;
+	margin-top: 16px;
+}
+
+header nav {
+	width: 100%;
+	min-height: 48px;
+	$flex;
+	$flex_row_wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 16px;
+}
+
+header h3 {
+	margin-right: var(--main-column-gap);
+	margin-bottom: 8px;
+}
+
+header ul {
+	$flex;
+	$flex_row_wrap;
+	margin-bottom: 4px;
+}
+
+header li {
+	margin-bottom: 4px;
+}
+
+header li:not(:last-of-type) {
+	margin-right: var(--keyline);
+}
+
+header .iconline > .icon {
+	font-size: 1.125em;
+	margin-right: 8px;
+}

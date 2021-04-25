@@ -1,0 +1,39 @@
+footer {
+	display: grid;
+	grid-template-columns: repeat(3, var(--main-grid-unit));
+	column-gap: var(--main-column-gap);
+	row-gap: 20px;
+	margin: var(--main-column-gap) 0;
+}
+
+footer address {
+	font-style: normal;
+	margin-top: 5px;
+}
+
+footer address a {
+	display: inline-block;
+	padding: 12px 6px;
+}
+
+footer address a .icon {
+	font-size: 1.25rem;
+}
+
+$screen_small_desktop {
+	footer {
+		grid-template-columns: auto var(--main-grid-unit);
+	}
+}
+
+$screen_tablet_l2 {
+	footer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+$screen_moblie {
+	footer {
+		grid-template-columns: auto;
+	}
+}

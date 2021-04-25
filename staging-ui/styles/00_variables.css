@@ -1,0 +1,68 @@
+:root {
+	--main-grid-unit: 360px;
+	--main-column-gap: 40px;
+	--main-row-gap: 20px; /* main-column-gap / 2 */
+	--container-width: 1160px; /* 3 * --main-grid-unit + 2 * main-column-gap */
+
+	--increment: 64px; /* FIXME: deprecated */
+	--keyline: 24px;
+
+	--primary-text-color: rgba(0, 0, 0, 0.87);
+	--secondary-text-color-alt: rgba(0, 0, 0, 0.7);
+	--secondary-text-color: rgba(0, 0, 0, 0.54);
+	--hint-text-color: rgba(0, 0, 0, 0.38);
+	--hint-text-color-alt: rgba(0, 0, 0, 0.2);
+	--divider-color: rgba(0, 0, 0, 0.12);
+	--accent-text-color: $color-light-blue-900;
+	--accent-text-color-alt: $color-light-blue-700;
+	--activated-text-color: $color-light-blue-800;
+	--primary-background-color: $color-grey-50;
+	--secondary-background-color: $color-blue-grey-50;
+	--accent-background-color: $color-blue-grey-50;
+	--warning-text-color: $color-deep-orange-a700;
+
+	--display-4-leading: 7rem;
+	--display-3-leading: 4rem;
+	--display-2-leading: 3rem;
+	--display-1-leading: 2.5rem;
+	--headline-leading: 2rem;
+	--title-leading: 1.75rem;
+	--subheading-leading: 1.5rem;
+	--body-leading: 1.25rem;
+	--caption-leading: 1rem;
+
+	font-size: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--primary-text-color: rgba(255, 255, 255, 1);
+		--secondary-text-color-alt: rgba(255, 255, 255, 0.87);
+		--secondary-text-color: rgba(255, 255, 255, 0.7);
+		--hint-text-color: rgba(255, 255, 255, 0.5);
+		--hint-text-color-alt: rgba(255, 255, 255, 0.38);
+		--divider-color: rgba(255, 255, 255, 0.12);
+		--accent-text-color: $color-light-blue-600;
+		--accent-text-color-alt: $color-light-blue-400;
+		--activated-text-color: $color-light-blue-500;
+		--primary-background-color: $color-grey-900;
+		--secondary-background-color: $color-blue-grey-950;
+		--accent-background-color: $color-blue-grey-800;
+		--warning-text-color: $color-deep-orange-a400;
+	}
+}
+
+:lang(ja),
+:lang(zh),
+:lang(zh-cn),
+:lang(zh-tw) {
+	--display-4-leading: 8rem;
+	--display-3-leading: 4.875rem;
+	--display-2-leading: 3.9375rem;
+	--display-1-leading: 3rem;
+	--headline-leading: 2.125rem;
+	--title-leading: 1.875rem;
+	--subheading-leading: 1.625rem;
+	--body-leading: 1.4375rem;
+	--caption-leading: 1.25rem;
+}

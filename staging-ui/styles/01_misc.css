@@ -1,0 +1,229 @@
+* {
+	box-sizing: border-box !important;
+	word-break: break-word; /* Bad idea, but it will make Safari happy :-( */
+}
+
+body {
+	$flex;
+	$flex_column_nowrap;
+	align-items: center;
+	margin: 0;
+	color: var(--primary-text-color);
+	background-color: var(--primary-background-color);
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	font-size: 16px;
+	line-height: 1;
+}
+
+a {
+	text-decoration: none;
+	color: var(--accent-text-color);
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+dd a {
+	padding: 0px 4px;
+	border: 1px solid currentColor;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+	outline: 0;
+}
+
+button {
+	appearance: none;
+	border: none;
+	background-color: transparent;
+	color: var(--accent-text-color);
+	cursor: pointer;
+}
+
+a:hover,
+button:hover {
+	color: var(--accent-text-color-alt);
+}
+
+code {
+	padding: 2px 4px;
+	background-color: var(--accent-background-color);
+	border-radius: 2px;
+}
+
+
+dl {
+	margin: 0;
+}
+
+dt {
+	flex-basis: 100%;
+	margin-bottom: 4px;
+}
+
+dd {
+	$flex_inline;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+dd:not(:last-of-type) {
+	margin-right: 4px;
+}
+
+hr {
+	margin: 0;
+
+	border-style: none;
+	height: 2px;
+	background-clip: content-box;
+	background-color: var(--divider-color);
+}
+
+img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+/*h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 400;
+}*/
+
+p {
+	margin: 0;
+	margin-bottom: 7px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.activated {
+	font-weight: 700;
+}
+
+::selection {
+	color: #ffffff;
+	background-color: var(--blue-grey-500);
+}
+
+.version-warning {
+	align-self: stretch;
+	background-color: var(--secondary-background-color);
+}
+
+.version-warning .container {
+	display: grid;
+	grid-template-columns: 40px auto;
+	column-gap: 16px;
+	justify-items: start;
+	align-items: center;
+}
+
+.version-warning span {
+	color: var(--blue-grey-500);
+}
+
+.version-warning p {
+	margin: 13px 0;
+}
+
+.version-warning .icon {
+	font-size: 1.25rem;
+}
+
+.iconline {
+	$flex;
+	$flex_row_nowrap;
+	justify-content: start;
+	align-items: center;
+}
+
+.iconline > .icon {
+	font-size: 1.25em;
+	margin-right: 0.5em;
+}
+
+
+.display4 {
+    font-size: 7rem;
+    font-weight: 300;
+    letter-spacing: -0.01em;
+    line-height: var(--display-4-leading);
+}
+
+.display3 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: -0.005em;
+    line-height: var(--display-3-leading);
+}
+
+.display2 {
+    font-size: 2.8125rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: var(--display-2-leading);
+}
+
+.display1 {
+    font-size: 2.125rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: var(--display-1-leading);
+}
+
+.headline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: var(--headline-leading);
+}
+
+.title {
+    font-size: 1.25rem;
+    letter-spacing: 0.005em;
+    line-height: var(--title-leading);
+}
+
+.subheading {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: var(--subheading-leading);
+}
+
+.body1,
+.body2 {
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+    line-height: var(--body-leading);
+}
+
+.body1 {
+    font-weight: 400;
+}
+
+.body2 {
+    font-weight: 500;
+}
+
+.caption {
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: var(--caption-leading);
+}

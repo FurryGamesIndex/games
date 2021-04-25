@@ -1,0 +1,40 @@
+.main_index {
+	display: grid;
+	grid-template-columns: repeat(3, var(--main-grid-unit));
+	gap: calc(var(--main-column-gap) / 2) var(--main-column-gap);
+	margin: var(--main-column-gap) 0;
+}
+
+.main_index hgroup {
+	grid-column: 1/-1;
+}
+
+.main_index h1 {
+	font-size: 3.5rem;
+	font-weight: 700;
+	letter-spacing: -0.005em;
+	line-height: var(--display-3-leading);
+	margin-bottom: 3px;
+}
+
+.main_index h2 {
+	font-size: 1.5rem;
+	letter-spacing: 0em;
+	line-height: var(--headline-leading);
+	margin-bottom: 3px;
+}
+
+.main_index article {
+	grid-column: span 2;
+}
+
+.main_index nav {
+	font-size: 1.5rem;
+	letter-spacing: 0em;
+	line-height: var(--headline-leading);
+	column-gap: var(--main-column-gap);
+}
+
+.main_index nav a:not(:last-of-type) {
+	margin-bottom: 20px;
+}
