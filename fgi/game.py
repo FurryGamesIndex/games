@@ -120,11 +120,11 @@ class GameAuthor:
             self.avatar = mfac.uri_to_html_image(self.avatar_uri, self.name)
             del self.avatar_uri
 
-        if self.name not in authors:
-            print(f"[warning] non-stub author '{self.name}' referenced without defined.")
-            return
-
-        self.author = authors[self.name]
+        if not self.standalone:
+            if self.name not in authors:
+                print(f"[warning] non-stub author '{self.name}' referenced without defined.")
+            else:
+                self.author = authors[self.name]
 
     def get_avatar(self):
         if self.avatar:
