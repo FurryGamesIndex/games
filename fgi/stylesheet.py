@@ -19,36 +19,62 @@
 
 import os
 import yaml
-from distutils import dir_util
 
-def _make_stylesheet_v1(indir, outdir):
-    print(f"stylesheet_v1: copy {indir}")
-    dir_util.copy_tree(indir, outdir)
+class StyleSheet:
+    def __init__(self, path, mtime, data):
+        self.path = path
+        self.mtime = mtime
+        self.data = data
 
-def _make_stylesheet_v2(indir, config, outdir):
+    def write_to_file(self, dirname):
+        with open(os.path.join(dirname, self.path), "w") as f:
+            f.write(self.data)
+
+def _make_stylesheet_v1(indir):
+    print(f"stylesheet_v1: loading {indir}")
+
+    stylesheets = dict()
+
+    for i in os.listdir(indir):
+        fn = os.path.join(indir, i)
+        with open(fn) as f:
+            stylesheets[i] = StyleSheet(i, int(os.path.getmtime(fn)), f.read())
+
+    return stylesheets
+
+def _make_stylesheet_v2(indir, config):
     macros = config["macros"]
+    stylesheets = dict()
 
     for i in config["stylesheets"]:
         fn = i["output"]
-        print(f"stylesheet_v2: {indir}: create {fn}")
+        mtime = 0
+        print(f"stylesheet_v2: {indir}: creating {fn}")
 
         data = ""
         for infile in i["input"]:
-            with open(os.path.join(indir, infile)) as f:
+            ifn = os.path.join(indir, infile) 
+
+            imtime = int(os.path.getmtime(ifn))
+            if imtime > mtime:
+                mtime = imtime
+
+            with open(ifn) as f:
                 data = data + "\n\n" + f.read()
 
         for name, value in macros.items():
-            data.replace("$" + name, value)
+            data = data.replace("$" + name, value)
 
-        with open(os.path.join(outdir, fn), "w") as of:
-            of.write(data)
+        stylesheets[fn] = StyleSheet(fn, mtime, data)
 
-def make_stylesheet(indir, outdir):
+    return stylesheets
+
+def make_stylesheet(indir):
     v2_fn = os.path.join(indir, "stylesheet_v2.yaml")
     if os.path.exists(v2_fn):
         with open(v2_fn) as f:
-            return _make_stylesheet_v2(indir, yaml.safe_load(f), outdir)
+            return _make_stylesheet_v2(indir, yaml.safe_load(f))
     else:
-        return _make_stylesheet_v1(indir, outdir)
+        return _make_stylesheet_v1(indir)
 
 __all__ = [ "make_stylesheet" ]

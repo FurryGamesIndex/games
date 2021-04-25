@@ -136,8 +136,11 @@ def local_res_src(gctx, rr, path,
     elif force_ignore_file_check:
         pass
     elif t == "styles":
-        fn = find_local_file(gctx.styles_path, path[1:])
-        hc_uquery = os.path.getmtime(fn)
+        fn = "/".join(path[1:])
+        ss = gctx.stylesheets.get(fn, None)
+        if not ss:
+            raise ValueError(f"Can not find stylesheet {fn}")
+        hc_uquery = ss.mtime
     elif t == "icons":
         fn = find_local_file([gctx.icon_path], path[1:])
         hc_uquery = os.path.getmtime(fn)

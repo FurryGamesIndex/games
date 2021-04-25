@@ -86,6 +86,9 @@ class Generator:
         self.base_uri = "https://furrygames.top/"
         self.base_uri_old = "https://furrygamesindex.github.io/"
 
+        self.stylesheets = dict()
+        self.author_game_map = dict()
+
     def prepare_tags(self):
         print("Preparing tags")
         print("[note] tag-dependencies.yaml is deprecated and will be removed in future. use implication instead.")
@@ -128,18 +131,24 @@ class Generator:
 
         self.env = Environment(loader = FileSystemLoader(self.dir_templates))
 
+        for i in reversed(self.styles_path):
+            self.stylesheets.update(make_stylesheet(i))
+
         if self.output != "-":
             if os.path.exists(self.output) and not self.args.no_purge_prev_builds:
                 shutil.rmtree(self.output)
             dir_util._path_created = {}
             for i in reversed(self.webroot_path):
                 dir_util.copy_tree(i, self.output)
-            for i in reversed(self.styles_path):
-                make_stylesheet(i, os.path.join(self.output, "styles"))
+
+            styles_dirname = os.path.join(self.output, "styles")
+            os.mkdir(styles_dirname)
+            for _, ss in self.stylesheets.items():
+                ss.write_to_file(styles_dirname)
+
             dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
             dir_util.copy_tree(self.icon_path, os.path.join(self.output, "icons"))
 
-        self.author_game_map = dict()
         self.authors = load_author_all(self.dbdir_author, self.mfac, self.ifac, self.author_game_map)
         self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac, self.ifac, self.authors, self.author_game_map)
 
