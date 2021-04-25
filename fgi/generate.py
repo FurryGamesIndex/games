@@ -37,14 +37,16 @@ from distutils import dir_util
 from jinja2 import Environment, FileSystemLoader
 
 from fgi.args import parse
-from fgi.base import load_game_all, load_author_all, list_pymod, local_res_src, make_wrapper
 from fgi.search import SearchDatabase
 from fgi.tagmgr import TagManager
 from fgi.media import MediaFactory
 from fgi.icon import IconFactory
 from fgi.seo.sitemap import Sitemap, SitemapGenerator
-from fgi.i18n import get_languages_list, uil10n_load_base, uil10n_load_language
 from fgi.plugin import PluginManager
+
+from fgi.base import load_game_all, load_author_all, list_pymod, local_res_src, make_wrapper
+from fgi.i18n import get_languages_list, uil10n_load_base, uil10n_load_language
+from fgi.stylesheet import make_stylesheet
 
 def run_cmd(cmd, failback=''):
     try:
@@ -133,7 +135,7 @@ class Generator:
             for i in reversed(self.webroot_path):
                 dir_util.copy_tree(i, self.output)
             for i in reversed(self.styles_path):
-                dir_util.copy_tree(i, os.path.join(self.output, "styles"))
+                make_stylesheet(i, os.path.join(self.output, "styles"))
             dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
             dir_util.copy_tree(self.icon_path, os.path.join(self.output, "icons"))
 
