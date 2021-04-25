@@ -1,0 +1,73 @@
+name: Freedom Planet
+
+description: |
+  Freedom Planet is a combat-based platform adventure that pits a spunky dragon girl and her friends against an alien attack force. There's trouble around every turn, from insects to giant robots to sheer explosive destruction, but you'll have a variety of special fighting abilities to blast your way through each stage.
+
+  As Lilac, you can use Dragon powers to whip enemies with your hair, spin like a cyclone, or fly through the air at high speed like a comet.
+
+  As Carol, you can bust through foes with a flurry of punches and kicks or summon motorcycles that let you ride up walls and ceilings.
+
+  Do you have what it takes save Avalice? Try the demo and see for yourself!
+
+  - Dash across the celestial world of Avalice with boosts, bikes and other high-speed gimmicks to achieve the fastest time
+  - Explore at your own pace to find hidden paths and treasures and collect as many crystals as possible
+  - Help Lilac and friends save their world from war in an engaging Adventure mode with fully voiced cutscenes
+  - Zoom through the stages without interruption or dialog with Classic mode
+  - Battle tons of quirky boss enemies including giant robots, towering alien creatures and aggressive rivals
+  - Discover five elemental shields that reflect specific attacks and provide cool benefits
+  - Unlock special bonuses, including mini-games, achievements, artwork and music
+
+description-format: markdown
+
+authors:
+  - name: GalaxyTrail
+    role: [ producer ]
+
+tags:
+  type:
+    - adventure
+    - action
+  male:
+    - funny-animal
+  female:
+    - dragon
+    - cat
+    - dog
+    - funny-animal
+  misc:
+    - pixel-art
+    - full-audio
+  lang:
+    - en
+  publish:
+    - steam
+    - gog
+  platform:
+    - windows
+    - macos
+    - linux
+    - wii-u
+    - playstation4
+
+links:
+  - name: .website
+    uri: https://freedomplanet.galaxytrail.com/
+  - name: .steam
+    uri: steam:248310
+  - name: .gog.com
+    uri: https://www.gog.com/game/freedom_planet
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP0736-CUSA05478_00-FREEDOMPLN000001
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/2029271/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/2029271/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/248310/ss_b78680dccc8129de8c6adb47e33b5f7d58a8be43.600x338.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/248310/ss_acae16752dc625886a2184340adbafe216eaea19.600x338.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/248310/ss_1cd8c1df6b80e86209c33ce0a71babce1d5d96a0.600x338.jpg
