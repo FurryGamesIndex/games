@@ -39,11 +39,16 @@ tags:
     - died
   lang:
     - ja
+    - en-unofficial
     - zh-unofficial
   platform:
     - windows
 
 links:
+  - name: .unofficial-version-en
+    uri: https://www.reddit.com/r/MorenatsuGame/comments/4pm6aw/morenatsu_download_guide/
+  - name: .unofficial-version-zh
+    uri: https://mega.nz/file/yVx2mLDA#cv2JJI6iyLg52WKmMb9RXHu-wAsVuE8fpTSm81Lrud4
   - name: .unofficial-version-zh
     uri: https://tieba.baidu.com/p/3452271872
 
