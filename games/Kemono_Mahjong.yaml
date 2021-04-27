@@ -1,0 +1,81 @@
+name: Kemono Mahjong
+
+description: |
+  No mere tile-matching solitaire game, this is a full implementation of Japanese Mahjong. A fun, strategic variant of the classic Chinese 4-player game!
+
+  Features:
+
+  * Real (4-player) mahjong! (you vs. 3 CPU opponents - or play online with friends!)
+  * Japanese/Riichi style following European Mahjong Association (EMA) rules
+  * Beautiful, easy-to-read tiles (with traditional and simplified tile sets)
+  * Colourful cast of characters
+  * Beautiful music
+  * Multiple languages! (English, Spanish, French, Dutch, German, Polish, Russian, Thai, Chinese Simplified, Korean, Japanese)
+  * Tutorials and in-game help, ideal for new players!
+
+tags:
+  author:
+    - 'Cyberdog Software'
+  type:
+    - casual
+    - board
+  male:
+    - bull
+    - dragon
+    - deer
+    - rabbit
+    - dog
+    - wolf
+    - fox
+    - tiger
+    - snow-leopard
+  misc:
+    - multiplayer
+    - pvp
+    - online
+  lang:
+    - en
+    - de
+    - es
+    - fr
+    - pl
+    - zh
+    - ko
+    - ja
+    - ru
+  publish:
+    - steam
+    - apple-appstore
+    - google-play
+    - website
+  platform:
+    - windows
+    - ios
+    - android
+    - macos
+
+links:
+  - name: .website
+    uri: http://cyberdog.ca/kemono-mahjong/
+  - name: .steam
+    uri: steam:1508430
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/kemono-mahjong/id1207602683
+  - name: .play-store
+    uri: https://play.google.com/store/apps/details?id=com.kemonomahjong.app
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256816527/movie480_vp9.webm
+        mime: video/webm
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1508430/ss_f757478af5e814e0efca00312a82d6d31d56f67d.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1508430/ss_8ea00c7f2388748ef904ffebbef19cd8ae241367.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1508430/ss_aa2fb6f4ab440f9c5b1b0a902f409db046446de8.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1508430/ss_e90e4c9bf82558a99338eccb1eb5422838c8144e.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1508430/ss_eff2e4b36ce8d3966cc8d36f318d905e9bace942.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1508430/ss_414e9a41598507548a64979bb83c0ee63a1fe2a3.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1508430/ss_91422077df74364bf685c3e6324a75dbde08dc13.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1508430/ss_896a311a368f0013c14117ff5d08259ad13b0cc5.1920x1080.jpg
