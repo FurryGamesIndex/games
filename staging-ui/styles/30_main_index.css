@@ -1,17 +1,15 @@
 .main_index {
-	display: grid;
-	grid-template-columns: repeat(3, var(--main-grid-unit));
-	gap: calc(var(--main-column-gap) / 2) var(--main-column-gap);
-	margin: var(--main-column-gap) 0;
-}
-
-.main_index hgroup {
-	grid-column: 1/-1;
+	$flex;
+	$flex_column_nowrap;
+	width: 100%;
+	max-width: $main_max_width;
+	margin: $main_column_gap 0;
 }
 
 .main_index h1 {
 	font-size: 3.5rem;
 	font-weight: 700;
+	margin: 0;
 	letter-spacing: -0.005em;
 	line-height: var(--display-3-leading);
 	margin-bottom: 3px;
@@ -19,22 +17,58 @@
 
 .main_index h2 {
 	font-size: 1.5rem;
+	margin: 0;
 	letter-spacing: 0em;
 	line-height: var(--headline-leading);
 	margin-bottom: 3px;
 }
 
-.main_index article {
-	grid-column: span 2;
+.main_index > .content {
+	margin-top: $main_row_gap;
+
+	$flex;
+	$flex_row_nowrap;
 }
 
-.main_index nav {
+.main_index > .content > article {
+	margin-right: $main_column_gap;
+
+	width: 100%;
+	max-width: $main_grid_unit_2x;
+}
+
+.main_index > .content > nav {
 	font-size: 1.5rem;
 	letter-spacing: 0em;
 	line-height: var(--headline-leading);
-	column-gap: var(--main-column-gap);
+
+	$flex_shrink_off;
 }
 
 .main_index nav a:not(:last-of-type) {
 	margin-bottom: 20px;
+}
+
+$screen_tablet_l2 {
+	.main_index .content {
+		$flex_column_nowrap;
+	}
+
+	.main_index > .content > article {
+		margin-right: 0;
+	}
+
+	.main_index nav {
+		column-count: 2;
+	}
+
+	.main_index nav a:nth-of-type(2) {
+		break-after: column;
+	}
+}
+
+$screen_mobile_l2 {
+	.main_index nav {
+		column-count: auto;
+	}
 }
