@@ -11,14 +11,15 @@ stylesheets:
 macros:
   screen_desktop: "@media (min-width: 1288px)"
 
-  screen_small_desktop: "@media (max-width: 1288px) and (min-width: 948px)"
-  screen_small_desktop_l2: "@media (max-width: 1128px) and (min-width: 1068px)"
-  screen_small_desktop_l3: "@media (max-width: 1068px) and (min-width: 948px)"
+  screen_small_desktop: "@media (max-width: 1288px)"
+  screen_small_desktop_l2: "@media (max-width: 1128px)"
+  screen_small_desktop_l3: "@media (max-width: 1068px)"
 
-  screen_tablet: "@media (max-width: 948px) and (min-width: 768px)"
-  screen_tablet_l2: "@media (max-width: 888px) and (min-width: 768px)"
+  screen_tablet: "@media (max-width: 948px)"
+  screen_tablet_l2: "@media (max-width: 888px)"
 
-  screen_moblie: "@media (max-width: 768px)"
+  screen_mobile: "@media (max-width: 768px)"
+  screen_mobile_l2: "@media (max-width: 648px)"
 
 
   flex: |-
@@ -33,11 +34,28 @@ macros:
     -webkit-flex-flow: row nowrap;
     flex-flow: row nowrap
   flex_column_nowrap: |-
-    -webkit-flex-flow: column nowrap
+    -webkit-flex-flow: column nowrap;
     flex-flow: column nowrap
   flex_row_wrap: |-
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap
+  flex_shrink_off: |-
+    -webkit-flex-shrink: 0;
+    flex-shrink: 0
+  flex_items_center: |-
+    -webkit-align-items: center;
+    align-items: center
+
+
+  main_column_gap: 40px
+  # main_column_gap / 2
+  main_row_gap: 20px
+  main_grid_unit: 360px
+  # 2 * main_grid_unit + main_column_gap
+  main_grid_unit_2x: 760px
+  # 3 * main_grid_unit + 2 * main_column_gap + 2 * 64
+  main_max_width: 1288px
+
 
   color-light-blue-50: "#e1f5fe"
   color-light-blue-100: "#b3e5fc"
