@@ -64,7 +64,7 @@ def _make_stylesheet_v2(indir, config):
                 data = data + "\n\n" + f.read()
 
         for name, value in macros.items():
-            data = re.sub(r"\$" + name + r"([ :;])", value + r"\1", data)
+            data = re.sub(r"\$" + name + r"([ :;\)])", value + r"\1", data)
 
         stylesheets[fn] = StyleSheet(fn, mtime, data)
 
