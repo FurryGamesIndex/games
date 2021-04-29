@@ -4,9 +4,6 @@
 }
 
 body {
-	$flex;
-	$flex_column_nowrap;
-	align-items: center;
 	margin: 0;
 	color: var(--primary-text-color);
 	background-color: var(--primary-background-color);

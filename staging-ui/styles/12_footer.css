@@ -1,9 +1,9 @@
 footer {
 	display: grid;
-	grid-template-columns: repeat(3, var(--main-grid-unit));
-	column-gap: var(--main-column-gap);
+	grid-template-columns: repeat(3, $main_grid_unit);
+	column-gap: $main_column_gap;
 	row-gap: 20px;
-	margin: var(--main-column-gap) 0;
+	margin: $main_column_gap 0;
 }
 
 footer address {
@@ -22,7 +22,7 @@ footer address a .icon {
 
 $screen_small_desktop {
 	footer {
-		grid-template-columns: auto var(--main-grid-unit);
+		grid-template-columns: auto $main_grid_unit;
 	}
 }
 
@@ -32,7 +32,7 @@ $screen_tablet_l2 {
 	}
 }
 
-$screen_moblie {
+$screen_mobile {
 	footer {
 		grid-template-columns: auto;
 	}

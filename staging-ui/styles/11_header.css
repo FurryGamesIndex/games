@@ -2,7 +2,7 @@ header {
 	align-self: stretch;
 	$flex;
 	$flex_column_nowrap;
-	align-items: center;
+	$flex_items_center;
 	margin-top: 16px;
 }
 
@@ -11,7 +11,8 @@ header nav {
 	min-height: 48px;
 	$flex;
 	$flex_row_wrap;
-	align-items: center;
+	$flex_items_center;
+	-webkit-justify-content: space-between;
 	justify-content: space-between;
 	padding-top: 16px;
 }

@@ -1,9 +1,7 @@
-body > *,
-.container {
-	width: var(--container-width);
-	max-width: var(--container-width);
-	margin-left: auto;
-	margin-right: auto;
+body {
+	$flex;
+	$flex_column_nowrap;
+	$flex_items_center;
 }
 
 body > aside {
@@ -11,11 +9,11 @@ body > aside {
 	max-width: 100%;
 }
 
-$screen_small_desktop {
-	body > *:not(aside),
-	.container {
-		width: 100%;
-		max-width: 100%;
-		padding: 0 var(--increment);
-	}
+body > *:not(aside),
+.container {
+	width: 100%;
+	max-width: $main_max_width;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 var(--increment);
 }
