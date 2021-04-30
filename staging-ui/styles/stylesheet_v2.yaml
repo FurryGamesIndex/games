@@ -7,6 +7,7 @@ stylesheets:
       - 11_header.css
       - 12_footer.css
       - 30_main_index.css
+      - 32_main_list.css
 
 macros:
   screen_desktop: "@media (min-width: 1288px)"
@@ -42,9 +43,18 @@ macros:
   flex_shrink_off: |-
     -webkit-flex-shrink: 0;
     flex-shrink: 0
+  flex_grow_1x: |-
+    -webkit-flex-grow: 1
+    flex-grow: 1
   flex_items_center: |-
     -webkit-align-items: center;
     align-items: center
+  flex_self_start: |-
+    -webkit-align-self: flex-start;
+    align-self: flex-start
+  flex_self_center: |-
+    -webkit-align-self: center;
+    align-self: center
 
 
   main_column_gap: 40px

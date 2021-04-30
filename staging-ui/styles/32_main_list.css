@@ -1,0 +1,90 @@
+.main_list > hr {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.item,
+.item_complex {
+	$flex;
+	$flex_row_nowrap;
+}
+
+.item > section,
+.item_complex > .leftbox {
+	$flex_grow_1x;
+
+	margin-right: $main_column_gap;
+}
+
+.item .game_name,
+.item_complex .game_name {
+	margin: 0 0 9px 0;
+
+	font-size: 2.125rem;
+	letter-spacing: 0em;
+	line-height: var(--display-1-leading);
+}
+
+.item > picture {
+	$flex_shrink_off;
+	$flex_self_center;
+}
+
+.item_complex > .rightbox {
+	$flex_shrink_off;
+}
+
+.item > picture > img,
+.item_complex > .rightbox > picture > img {
+	max-width: 100%;
+	width: 360px;
+	height: auto;
+}
+
+.item_complex .description {
+	margin-bottom: $main_column_gap;
+}
+
+.item_complex .tags {
+	margin-bottom: 8px;
+}
+
+$screen_tablet {
+	.item,
+	.item_complex {
+		$flex;
+		$flex_column_nowrap;
+	}
+
+	.item > picture,
+	.item_complex > .rightbox {
+		$flex_self_start;
+
+		-webkit-order: 0;
+		order: 0;
+
+		margin-bottom: 14px;
+	}
+
+	.item > section,
+	.item_complex > .leftbox {
+		-webkit-order: 1;
+		order: 1;
+
+		margin-right: 0;
+	}
+
+	.item_complex .tags {
+		margin-bottom: 20px;
+	}
+
+	.item_complex > .rightbox {
+		column-count: 2;
+	}
+}
+
+$screen_mobile {
+	.item_complex > .rightbox {
+		column-count: auto;
+	}
+}
