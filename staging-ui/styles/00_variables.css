@@ -20,6 +20,8 @@
 	--secondary-background-color: $color-blue-grey-50;
 	--accent-background-color: $color-blue-grey-50;
 	--warning-text-color: $color-deep-orange-a700;
+	--selection-background-color: $color-blue-grey-500;
+	--bar-icon-color: $color-blue-grey-500;
 
 	--display-4-leading: 7rem;
 	--display-3-leading: 4rem;

@@ -81,7 +81,7 @@ hr {
 	background-color: var(--divider-color);
 }
 
-img {
+/*img {
 	width: 100%;
 	height: auto;
 	object-fit: cover;
@@ -114,7 +114,7 @@ ul {
 
 ::selection {
 	color: #ffffff;
-	background-color: var(--blue-grey-500);
+	background-color: var(--selection-background-color);
 }
 
 .version-warning {
@@ -130,8 +130,8 @@ ul {
 	align-items: center;
 }
 
-.version-warning span {
-	color: var(--blue-grey-500);
+.version-warning .icon {
+	color: var(--bar-icon-color);
 }
 
 .version-warning p {
