@@ -70,12 +70,18 @@ infobar: >
   這是 FGI-next，FGI 的實驗性預覽構建，它可能包含很多正在測試中的改動，甚至可能會影響正常使用。<a href="https://furrygames.top/">切換到穩定版本</a>
 EOF
 
+	UIMOD=""
+	if [ -d staging-ui ]; then
+		echo "staging-ui detected, uimod plugin will be loaded."
+		UIMOD="--plugin uimod,mod=staging-ui"
+	fi
+
 	./generate.py --next \
 		--images-candidate-webp \
 		--no-sitemap \
 		--extra-ui extraui \
 		--with-rss \
-		--plugin uimod,mod=staging-ui \
+		$UIMOD \
 		--plugin steam-cdn-unite,verbose=1 "$1"
 	cat > "$1/robots.txt" <<EOF
 User-agent: *
