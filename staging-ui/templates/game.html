@@ -2,49 +2,55 @@
 {% include 'peafowl-private/nav.html' %}
 
 <main class="main_game">
-{% if game.check_tag("sys", "staging") %}
-	<div class="box warning">{{ ui.warnbox_staging }}</div>
-{% endif %}
-{% if game.check_tag("sys", "tagme") %}
-	<div class="box notice">{{ ui.noticebox_tagme }}</div>
-{% endif %}
-{% if game.replaced_by %}
-	<div class="box notice">{{ ui.noticebox_replacedby % (game.replaced_by.id + ".html", game.replaced_by.get_name(lang)|e) }}</div>
-{% endif %}
-{% if game.expunge %}
-	<div class="box warning">{{ ui.warnbox_expunge }}</div>
-{% endif %}
-	<h1 class="game_name">{{ game.get_name(lang)|e }}</h1>
-	<section class="description">
-		{{ game.get_description(lang).html }}
-	</section>
-	{% include 'peafowl-private/game_staff.html' %}
-	{% include 'peafowl-private/game_tags.html' %}
-	<section class="media">
-		{% if game.sensitive_media %}
-			<div class="warning box" id="sensitive_media_warn">
-				{{ ui.game_sensitive_warning % (rr, lang) }}
+	<div class="boxes">
+		{% if game.check_tag("sys", "staging") %}
+			<div class="box warning">{{ ui.warnbox_staging }}</div>
+		{% endif %}
+		{% if game.check_tag("sys", "tagme") %}
+			<div class="box notice">{{ ui.noticebox_tagme }}</div>
+		{% endif %}
+		{% if game.replaced_by %}
+			<div class="box notice">{{ ui.noticebox_replacedby % (game.replaced_by.id + ".html", game.replaced_by.get_name(lang)|e) }}</div>
+		{% endif %}
+		{% if game.expunge %}
+			<div class="box warning">{{ ui.warnbox_expunge }}</div>
+		{% endif %}
+	</div>
+	<div class="game_entry">
+		<div class="leftbox">
+			<h1 class="game_name">{{ game.get_name(lang)|e }}</h1>
+			<div class="sscreen sscreen_logo">
+				{% include 'peafowl-private/game_logo.html' %}
 			</div>
-		{% endif %}
-		{% for i in game.media %}
-			{{ i.dom(rr, alt=game.get_name(lang)) }}
-		{% endfor %}
-	</section>
-	<section class="resources subheading">
-		{% include 'peafowl-private/game_logo.html' %}
-		{% include 'peafowl-private/game_links.html' %}
-		{% if author_widget|length %}
-			<hr />
-			{% for author, games in author_widget.items() %}
-				<p>{{ ui.game_author_widget_more_from % (author) }}</p>
-				<ul>
-					{% for game in games %}
-						<li><a href="{{ game.id }}.html" class="iconline">{{ ifac.misc_icon("gamepad") }}<span>{{ game.get_name(lang) }}</span></a></li>
-					{% endfor %}
-				</ul>
-			{% endfor %}
-		{% endif %}
-	</section>
+			<section class="description">
+				{{ game.get_description(lang).html }}
+			</section>
+			<div class="sscreen fakerb">
+				{% include 'peafowl-private/game_links.html' %}
+				<hr />
+			</div>
+			{% include 'peafowl-private/game_staff.html' %}
+			{% include 'peafowl-private/game_tags.html' %}
+			<section class="media">
+				{% if game.sensitive_media %}
+					<div class="warning box" id="sensitive_media_warn">
+						{{ ui.game_sensitive_warning % (rr, lang) }}
+					</div>
+				{% endif %}
+				{% for i in game.media %}
+					{{ i.dom(rr, alt=game.get_name(lang)) }}
+				{% endfor %}
+			</section>
+			<div class="sscreen fakerb">
+				{% include 'peafowl-private/game_author_links.html' %}
+			</div>
+		</div>
+		<div class="rightbox subheading">
+			{% include 'peafowl-private/game_logo.html' %}
+			{% include 'peafowl-private/game_links.html' %}
+			{% include 'peafowl-private/game_author_links.html' %}
+		</div>
+	</div>
 </main>
 <hr />
 {% include 'peafowl-private/footer.html' %}

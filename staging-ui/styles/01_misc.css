@@ -21,11 +21,6 @@ p a:hover {
 	text-decoration: underline;
 }
 
-dd a {
-	padding: 0px 4px;
-	border: 1px solid currentColor;
-}
-
 a,
 a:hover,
 a:active,
@@ -53,23 +48,9 @@ code {
 }
 
 
-dl {
-	margin: 0;
-}
-
-dt {
-	flex-basis: 100%;
-	margin-bottom: 4px;
-}
-
+dl,
 dd {
-	$flex_inline;
 	margin: 0;
-	margin-bottom: 4px;
-}
-
-dd:not(:last-of-type) {
-	margin-right: 4px;
 }
 
 hr {

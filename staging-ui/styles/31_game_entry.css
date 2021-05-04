@@ -1,0 +1,184 @@
+.game_entry {
+	$flex;
+	$flex_row_nowrap;
+}
+
+.game_entry > .leftbox {
+	$flex_grow_1x;
+}
+
+.game_entry > .rightbox {
+	margin-left: $main_column_gap;
+
+	width: $main_grid_unit;
+	max-width: $main_grid_unit;
+
+	$flex_shrink_off;
+	$flex_self_start;
+}
+
+.game_entry .rightbox li,
+.game_entry .fakerb li {
+	padding: 8px 0;
+}
+
+.game_entry .rightbox p,
+.game_entry .fakerb p {
+	margin-bottom: 4px;
+}
+
+.game_entry img {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+}
+
+.game_entry hr {
+	margin: var(--keyline) 0;
+}
+
+.game_entry .game_name {
+	margin: 0;
+	font-weight: 700;
+	font-size: 2.125rem;
+	letter-spacing: 0em;
+	line-height: var(--display-1-leading);
+}
+
+.game_entry .game_name span {
+	font-size: 1.5rem;
+	letter-spacing: 0em;
+	line-height: var(--headline-leading);
+}
+
+.game_entry .description {
+	margin-bottom: $main_column_gap;
+}
+
+.game_entry .media > * {
+	margin-bottom: 16px;
+}
+
+.game_entry .tags {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-gap: $main_column_gap;
+	-webkit-column-gap: $main_column_gap;
+	column-gap: $main_column_gap;
+}
+
+.game_enrty .tags div {
+	$flex;
+	$flex_row_wrap;
+	$flex_items_start;
+
+	margin-bottom: 8px;
+}
+
+.game_entry .tags dt {
+	-webkit-flex-basis: 100%;
+	flex-basis: 100%;
+	margin-bottom: 4px;
+}
+
+.game_entry .tags dd {
+	$flex_inline;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+.game_entry .tags dd:not(:last-of-type) {
+	margin-right: 4px;
+}
+
+.game_entry .tags dd > a {
+	padding: 0px 4px;
+	border: 1px solid currentColor;
+}
+
+.game_entry .staff {
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	-moz-column-gap: $main_column_gap;
+	-webkit-column-gap: $main_column_gap;
+	column-gap: $main_column_gap;
+
+	margin-bottom: $main_column_gap;
+}
+
+.game_entry .staff li {
+	display: grid;
+	grid-auto-flow: column;
+	justify-content: start;
+	align-items: center;
+	column-gap: 20px;
+	padding: 6.5px 0;
+}
+
+.game_entry .staff .avatar-alt {
+	$flex;
+	$flex_items_center;
+	$flex_justify_center;
+}
+
+.game_entry .staff .avatar {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	overflow: hidden;
+
+	$flex_shrink_off;
+}
+
+.game_entry .staff .roles {
+	$flex;
+	$flex_row_wrap;
+}
+
+.game_entry .staff .roles:not(:last-of-type) {
+	margin-right: 8px;
+}
+
+.game_entry .platforms {
+	$flex;
+	$flex_row_wrap;
+	$flex_items_center;
+	$flex_justify_end;
+
+	padding: 8px 0;
+	margin-top: 8px;
+}
+
+.game_entry .platforms .icon {
+	font-size: 1.25rem;
+	margin-left: 0.2em;
+}
+
+$screen_small_desktop_l2_only {
+	.game_entry .leftbox {
+		width: 600px;
+		max-width: 600px;
+	}
+
+	.game_entry .rightbox {
+		$flex_shrink_on;
+	}
+}
+
+$screen_small_desktop_l3 {
+	.game_entry .rightbox {
+		width: 300px;
+		max-width: 300px;
+	}
+}
+
+$screen_tablet_l2 {
+	.game_entry .rightbox {
+		margin-left: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+}

@@ -1,28 +1,29 @@
 .main_list > hr {
-	margin-top: 24px;
-	margin-bottom: 24px;
+	margin: var(--keyline) 0;
 }
 
-.item,
-.item_complex {
+.item {
 	$flex;
 	$flex_row_nowrap;
 }
 
-.item > section,
-.item_complex > .leftbox {
+.item_complex {
+	$flex;
+	$flex_column_nowrap;
+}
+
+.item > section {
 	$flex_grow_1x;
 
 	margin-right: $main_column_gap;
 }
 
-.item .game_name,
-.item_complex .game_name {
-	margin: 0 0 9px 0;
+.item .game_name {
+	margin-bottom: 9px;
+}
 
-	font-size: 2.125rem;
-	letter-spacing: 0em;
-	line-height: var(--display-1-leading);
+.item_complex .game_name {
+	margin-bottom: $main_row_gap;
 }
 
 .item > picture {
@@ -30,23 +31,23 @@
 	$flex_self_center;
 }
 
-.item_complex > .rightbox {
-	$flex_shrink_off;
-}
-
-.item > picture > img,
-.item_complex > .rightbox > picture > img {
-	max-width: 100%;
+.item > picture > img {
+	max-width: 360px;
 	width: 360px;
 	height: auto;
 }
 
-.item_complex .description {
-	margin-bottom: $main_column_gap;
-}
-
 .item_complex .tags {
 	margin-bottom: 8px;
+}
+
+@supports (position: sticky) {
+	.item_complex .rightbox {
+		position: sticky;
+		top: var(--keyline);
+
+		$flex_self_start;
+	}
 }
 
 $screen_tablet {
@@ -77,14 +78,35 @@ $screen_tablet {
 	.item_complex .tags {
 		margin-bottom: 20px;
 	}
-
-	.item_complex > .rightbox {
-		column-count: 2;
-	}
 }
 
-$screen_mobile {
-	.item_complex > .rightbox {
-		column-count: auto;
+$screen_tablet_l2 {
+	.item_complex .game_entry {
+		$flex_column_nowrap;
+	}
+
+	.item_complex .rightbox {
+		-webkit-order: 0;
+		order: 0;
+
+		margin-bottom: var(--keyline);
+
+		position: static;
+		top: unset;
+	}
+
+	.item_complex .leftbox {
+		-webkit-order: 1;
+		order: 1;
+	}
+
+	.item_complex .rightbox picture {
+		$flex;
+		$flex_justify_center;
+	}
+
+	.item_complex .thumbnail {
+		max-width: 360px;
+		height: auto;
 	}
 }

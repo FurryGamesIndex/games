@@ -1,0 +1,11 @@
+{% if author_widget|length %}
+	<hr />
+	{% for author, games in author_widget.items() %}
+		<p>{{ ui.game_author_widget_more_from % (author) }}</p>
+		<ul>
+			{% for game in games %}
+				<li><a href="{{ game.id }}.html" class="iconline">{{ ifac.misc_icon("gamepad") }}<span>{{ game.get_name(lang) }}</span></a></li>
+			{% endfor %}
+		</ul>
+	{% endfor %}
+{% endif %}

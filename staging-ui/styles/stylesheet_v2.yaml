@@ -7,14 +7,20 @@ stylesheets:
       - 11_header.css
       - 12_footer.css
       - 30_main_index.css
+      - 31_game_entry.css
+      - 32_main_game.css
       - 32_main_list.css
 
 macros:
-  screen_desktop: "@media (min-width: 1288px)"
+  # Media queries
+  screen_desktop_only: "@media (min-width: 1288px)"
 
   screen_small_desktop: "@media (max-width: 1288px)"
+  screen_small_desktop_l1_only: "@media (max-width: 1288px) and (min-width: 1128px)"
   screen_small_desktop_l2: "@media (max-width: 1128px)"
+  screen_small_desktop_l2_only: "@media (max-width: 1128px) and (min-width: 1068px)"
   screen_small_desktop_l3: "@media (max-width: 1068px)"
+  screen_small_desktop_l3_only: "@media (max-width: 1068px) and (min-width: 948px)"
 
   screen_tablet: "@media (max-width: 948px)"
   screen_tablet_l2: "@media (max-width: 888px)"
@@ -23,6 +29,7 @@ macros:
   screen_mobile_l2: "@media (max-width: 648px)"
 
 
+  # Flexbox
   flex: |-
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -31,6 +38,7 @@ macros:
     display: -ms-inline-flexbox;
     display: -webkit-inline-flex;
     display: inline-flex
+
   flex_row_nowrap: |-
     -webkit-flex-flow: row nowrap;
     flex-flow: row nowrap
@@ -40,23 +48,43 @@ macros:
   flex_row_wrap: |-
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap
+
   flex_shrink_off: |-
     -webkit-flex-shrink: 0;
     flex-shrink: 0
+  flex_shrink_on: |-
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1
   flex_grow_1x: |-
     -webkit-flex-grow: 1
     flex-grow: 1
+
+  flex_justify_center: |-
+    -webkit-justify-content: center;
+    justify-content: center
+  flex_justify_end: |-
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end
+
   flex_items_center: |-
     -webkit-align-items: center;
     align-items: center
+  flex_items_start: |-
+    -webkit-align-items: flex-start;
+    align-items: flex-start
+
   flex_self_start: |-
     -webkit-align-self: flex-start;
     align-self: flex-start
   flex_self_center: |-
     -webkit-align-self: center;
     align-self: center
+  flex_self_end: |-
+    -webkit-align-self: flex-end;
+    align-self: flex-end
 
 
+  # Constants
   main_column_gap: 40px
   # main_column_gap / 2
   main_row_gap: 20px
@@ -67,6 +95,7 @@ macros:
   main_max_width: 1288px
 
 
+  # Colors
   color-light-blue-50: "#e1f5fe"
   color-light-blue-100: "#b3e5fc"
   color-light-blue-200: "#81d4fa"

@@ -5,7 +5,7 @@
 	{% if avatar %}
 		{{ avatar.with_rr(rr).html(node_class='avatar', alt=i.name) }}
 	{% else %}
-		<div class="authoravatar-alt">{{ ifac.misc_icon("paw") }}</div>
+		<div class="avatar avatar-alt">{{ ifac.misc_icon("paw") }}</div>
 	{% endif %}
 		<span class="subheading">
 		{% if i.author %}
@@ -15,7 +15,7 @@
 		{% else %}
 			<div>{{ i.name }}</div>
 		{% endif %}
-			<span class="body1">
+			<span class="body1 roles">
 			{% for i in i.roles %}
 				<span>{{ ui["author-role-" + i] }}</span>
 			{% endfor %}

@@ -1,0 +1,63 @@
+.main_game {
+	margin: $main_column_gap 0;
+}
+
+.main_game .game_name {
+	margin-bottom: 16px;
+}
+
+.main_game .description {
+	font-size: 1.25rem;
+	letter-spacing: 0.005em;
+	line-height: var(--headline-leading);
+}
+
+.main_game .tags {
+	margin-bottom: $main_column_gap;
+}
+
+.main_game .rightbox {
+	padding-bottom: var(--keyline);
+}
+
+@supports (position: sticky) {
+	.main_game .rightbox {
+		min-height: calc(100vh - var(--keyline));
+		position: sticky;
+		bottom: 0;
+
+		$flex_self_end;
+	}
+}
+
+.sscreen {
+	display: none;
+}
+
+$screen_tablet_l2 {
+	.main_game {
+		margin: var(--keyline) 0;
+	}
+
+	.main_game .rightbox {
+		display: none;
+	}
+
+	.main_game .sscreen {
+		display: unset;
+	}
+
+	.main_game .sscreen_logo {
+		margin: var(--keyline) 0;
+	}
+
+	.main_game .sscreen_logo picture {
+		$flex;
+		$flex_justify_center;
+	}
+
+	.main_game .sscreen_logo .thumbnail {
+		max-width: 360px;
+		height: auto;
+	}
+}
