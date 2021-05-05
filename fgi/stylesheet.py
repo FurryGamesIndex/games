@@ -66,6 +66,12 @@ def _make_stylesheet_v2(indir, config):
         for name, value in macros.items():
             data = re.sub(r"\$" + name + r"([ :;\)])", value + r"\1", data)
 
+        undefined_macros = re.findall(r"\$([a-zA-Z_-]+)[ :;\)]", data)
+        if undefined_macros:
+            for m in undefined_macros:
+                print(f"[error] {i['output']}: undefined macro: {m}")
+            raise ValueError("Undefined macros")
+
         stylesheets[fn] = StyleSheet(fn, mtime, data)
 
     return stylesheets
