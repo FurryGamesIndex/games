@@ -1,9 +1,4 @@
 :root {
-	--main-grid-unit: 360px;
-	--main-column-gap: 40px;
-	--main-row-gap: 20px; /* main-column-gap / 2 */
-	--container-width: 1160px; /* 3 * --main-grid-unit + 2 * main-column-gap */
-
 	--keyline: 24px;
 
 	--primary-text-color: rgba(0, 0, 0, 0.87);

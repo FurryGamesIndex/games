@@ -18,7 +18,7 @@ header nav {
 }
 
 header h3 {
-	margin-right: var(--main-column-gap);
+	margin-right: $main_column_gap;
 	margin-bottom: 8px;
 }
 
