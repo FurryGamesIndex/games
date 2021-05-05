@@ -7,6 +7,27 @@
 	margin: 1em 0;
 }
 
+.main_simple_markdown table {
+	border: 1px solid var(--accent-text-color);
+	border-collapse: collapse;
+}
+
+.main_simple_markdown table td {
+	padding: 7px var(--keyline);
+}
+
+.main_simple_markdown tbody>tr:nth-child(odd) {
+	background-color: var(--accent-background-color);
+}
+
+.main_simple_markdown code {
+	font-size: .94em;
+	padding: 2px 4px;
+	background-color: var(--accent-background-color);
+	border-radius: 2px;
+}
+
+
 .main_preferences {
 	margin: $main_column_gap 0;
 }
