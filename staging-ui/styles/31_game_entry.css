@@ -109,12 +109,16 @@
 }
 
 .game_entry .staff li {
-	display: grid;
-	grid-auto-flow: column;
-	justify-content: start;
-	align-items: center;
-	column-gap: 20px;
+	$flex;
+	$flex_row_nowrap;
+	$flex_items_center;
+
 	padding: 6.5px 0;
+}
+
+.game_entry .staff li > span {
+	$flex;
+	$flex_column_nowrap;
 }
 
 .game_entry .staff .avatar-alt {
@@ -124,11 +128,11 @@
 }
 
 .game_entry .staff .avatar {
-	position: relative;
 	width: 40px;
 	height: 40px;
 	border-radius: 50%;
 	overflow: hidden;
+	margin-right: $main_row_gap;
 
 	$flex_shrink_off;
 }
