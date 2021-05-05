@@ -84,6 +84,9 @@ macros:
   flex_self_end: |-
     -webkit-align-self: flex-end;
     align-self: flex-end
+  flex_self_stretch: |-
+    -webkit-align-self: stretch;
+    align-self: stretch
 
 
   # Constants

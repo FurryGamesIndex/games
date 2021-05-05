@@ -50,16 +50,16 @@
 	}
 }
 
-$screen_tablet {
+$screen_tablet_l2 {
 	.item,
-	.item_complex {
+	.item_complex .game_entry {
 		$flex;
 		$flex_column_nowrap;
 	}
 
 	.item > picture,
-	.item_complex > .rightbox {
-		$flex_self_start;
+	.item_complex .rightbox {
+		$flex_self_stretch;
 
 		-webkit-order: 0;
 		order: 0;
@@ -67,37 +67,10 @@ $screen_tablet {
 		margin-bottom: 14px;
 	}
 
-	.item > section,
-	.item_complex > .leftbox {
-		-webkit-order: 1;
-		order: 1;
-
-		margin-right: 0;
-	}
-
-	.item_complex .tags {
-		margin-bottom: 20px;
-	}
-}
-
-$screen_tablet_l2 {
-	.item_complex .game_entry {
-		$flex_column_nowrap;
-	}
-
 	.item_complex .rightbox {
-		-webkit-order: 0;
-		order: 0;
-
 		margin-bottom: var(--keyline);
-
 		position: static;
 		top: unset;
-	}
-
-	.item_complex .leftbox {
-		-webkit-order: 1;
-		order: 1;
 	}
 
 	.item_complex .rightbox picture {
@@ -105,8 +78,18 @@ $screen_tablet_l2 {
 		$flex_justify_center;
 	}
 
+	.item > picture > img,
 	.item_complex .thumbnail {
 		max-width: 360px;
+		width: 100%;
 		height: auto;
+	}
+
+	.item > section,
+	.item_complex .leftbox {
+		-webkit-order: 1;
+		order: 1;
+
+		margin-right: 0;
 	}
 }
