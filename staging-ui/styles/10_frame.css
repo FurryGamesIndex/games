@@ -15,5 +15,19 @@ body > *:not(aside),
 	max-width: $main_max_width;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 0 var(--increment);
+	padding: 0 $main_border;
+}
+
+$screen_mobile_l2 {
+	body > *:not(aside),
+	.container {
+		padding: 0 $main_border_small;
+	}
+}
+
+$screen_small_mobile {
+	body > *:not(aside),
+	.container {
+		padding: 0 $main_border_tiny;
+	}
 }

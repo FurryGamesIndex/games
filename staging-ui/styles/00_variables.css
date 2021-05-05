@@ -4,7 +4,6 @@
 	--main-row-gap: 20px; /* main-column-gap / 2 */
 	--container-width: 1160px; /* 3 * --main-grid-unit + 2 * main-column-gap */
 
-	--increment: 64px; /* FIXME: deprecated */
 	--keyline: 24px;
 
 	--primary-text-color: rgba(0, 0, 0, 0.87);

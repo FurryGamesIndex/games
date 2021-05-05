@@ -28,6 +28,8 @@ macros:
   screen_mobile: "@media (max-width: 768px)"
   screen_mobile_l2: "@media (max-width: 648px)"
 
+  screen_small_mobile: "@media (max-width: 392px)"
+
 
   # Flexbox
   flex: |-
@@ -91,7 +93,10 @@ macros:
   main_grid_unit: 360px
   # 2 * main_grid_unit + main_column_gap
   main_grid_unit_2x: 760px
-  # 3 * main_grid_unit + 2 * main_column_gap + 2 * 64
+  main_border: 64px
+  main_border_small: 32px
+  main_border_tiny: 16px
+  # 3 * main_grid_unit + 2 * main_column_gap + 2 * main_border
   main_max_width: 1288px
 
 
