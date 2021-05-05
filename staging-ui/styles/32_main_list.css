@@ -18,12 +18,12 @@
 	margin-right: $main_column_gap;
 }
 
-.item .game_name {
-	margin-bottom: 9px;
-}
-
+.item .game_name,
 .item_complex .game_name {
-	margin-bottom: $main_row_gap;
+	margin: 0 0 9px 0;
+	font-size: 2.125rem;
+	letter-spacing: 0em;
+	line-height: var(--display-1-leading);
 }
 
 .item > picture {
