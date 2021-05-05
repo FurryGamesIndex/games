@@ -10,6 +10,7 @@ stylesheets:
       - 31_game_entry.css
       - 32_main_game.css
       - 32_main_list.css
+      - 39_misc_pages.css
 
 macros:
   # Media queries

@@ -1,0 +1,25 @@
+.main_simple_markdown {
+	margin: $main_column_gap 0;
+	line-height: 1.49
+}
+
+.main_simple_markdown p {
+	margin: 1em 0;
+}
+
+.main_preferences {
+	margin: $main_column_gap 0;
+}
+
+.main_preferences article,
+.main_preferences hr {
+	margin-top: $main_column_gap;
+}
+
+.main_preferences h2 {
+	margin-bottom: $main_column_gap;
+}
+
+.main_preferences .note {
+	margin: $main_row_gap 0 0 26px;
+}
