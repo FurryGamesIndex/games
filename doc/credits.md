@@ -48,13 +48,35 @@ Patched fork: [https://github.com/FurryGamesIndex/python-markdown2](https://gith
 
 [https://github.com/trentm/python-markdown2](https://github.com/trentm/python-markdown2)
 
-## Font Awesome
+## requests
 
-![fontawsome](https://i.imgur.com/9Cwq7hi.png)
+[Apache License 2.0](https://github.com/psf/requests/blob/master/LICENSE)
 
-[Creative Commons Attribution 4.0 International](https://fontawesome.com/license)
+[https://github.com/psf/requests](https://github.com/psf/requests)
 
-[https://fontawesome.com/](https://fontawesome.com/)
+## Pillow
+
+[HPND License](https://github.com/python-pillow/Pillow/blob/master/LICENSE)
+
+[https://python-pillow.org/](https://python-pillow.org/)
+
+## beautifulsoup4
+
+MIT License
+
+[https://www.crummy.com/software/BeautifulSoup/](https://www.crummy.com/software/BeautifulSoup/)
+
+## Icons
+
+FGI uses icon fonts including but not limited to icons created by contributors and icons from third parties such as Font Awesome.
+
+see [https://github.com/FurryGamesIndex/icons/blob/master/ICON_AUTHORS](https://github.com/FurryGamesIndex/icons/blob/master/ICON_AUTHORS) for details.
+
+## FurryGamesIndex-Redesign
+
+FGI has created a new UI based on modifications and simplifications to FGI-Redesign which created by [UTL_1138](https://github.com/967018).
+
+FGI-Redesign: [https://github.com/967018/FurryGamesIndex-Redesign](https://github.com/967018/FurryGamesIndex-Redesign)
 
 ## Nord color palette
 
