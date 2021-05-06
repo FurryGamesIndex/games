@@ -1,8 +1,8 @@
 <ul class="category">
 {% for klass in klasses %}
 <li>
-	{{ ui["list-klass-" + klass.nameid] }}
-	<ul>
+	<div class="cthead">{{ ui["list-klass-" + klass.nameid] }}</div>
+	<ul class="ctbody">
 	{% for f in klass.filters %}
 	{% set name = ui["list-klass-" + f.nameid] %}
 	{% if f in chain_set %}

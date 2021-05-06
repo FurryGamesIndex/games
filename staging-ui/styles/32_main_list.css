@@ -1,5 +1,41 @@
+.main_list {
+	margin-top: $main_column_gap;
+}
+
 .main_list > hr {
 	margin: var(--keyline) 0;
+}
+
+.main_list > hr:last-of-type {
+	margin: $main_column_gap 0 0 0;
+}
+
+.main_list .category {
+	display: table;
+	margin-bottom: $main_row_gap;
+}
+
+.main_list .category > li {
+	display: table-row;
+}
+
+.main_list .category > li > * {
+	display: table-cell;
+	padding: 10px 0;
+}
+
+.main_list .category .cthead {
+	padding-right: 12px;
+	text-align: right;
+}
+
+.main_list .category .ctbody {
+	$flex;
+	$flex_row_wrap;
+}
+
+.main_list .category .ctbody > *:not(:last-of-type) {
+	margin-right: 8px;
 }
 
 .item {
