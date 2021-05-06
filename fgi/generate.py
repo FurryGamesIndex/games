@@ -130,6 +130,8 @@ class Generator:
         self.languages = get_languages_list(self, self.dbdir)
 
         self.env = Environment(loader = FileSystemLoader(self.dir_templates))
+        self.env.trim_blocks = True
+        self.env.lstrip_blocks = True
 
         for i in reversed(self.styles_path):
             self.stylesheets.update(make_stylesheet(i))
