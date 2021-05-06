@@ -78,6 +78,14 @@
 	break-inside: avoid-column;
 }
 
+/* workarouds for Firefox */
+@supports not (break-inside: avoid-column) {
+	.game_entry .tags > div {
+		page-break-inside: avoid;
+		overflow: hidden;
+	}
+}
+
 .game_entry .tags dt {
 	-webkit-flex-basis: 100%;
 	flex-basis: 100%;
