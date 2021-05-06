@@ -68,12 +68,14 @@
 	column-gap: $main_column_gap;
 }
 
-.game_enrty .tags div {
+.game_entry .tags > div {
 	$flex;
 	$flex_row_wrap;
 	$flex_items_start;
 
 	margin-bottom: 8px;
+
+	break-inside: avoid-column;
 }
 
 .game_entry .tags dt {
