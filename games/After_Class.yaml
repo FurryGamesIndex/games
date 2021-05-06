@@ -37,9 +37,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Andy Peng
+    role: [ producer, character-designer ]
+  - name: Vui
+    standalone: true
+    role: [ artist ]
+  - name: Wolgen
+    standalone: true
+    role: [ artist ]
+
 tags:
-  author:
-    - 'Andy Peng'
   type:
     - visual-novel
     - bara
@@ -62,7 +70,6 @@ tags:
     - uncensored
     - engine-renpy
     - multiple-endings
-    - suspended
   lang:
     - en
   publish:
