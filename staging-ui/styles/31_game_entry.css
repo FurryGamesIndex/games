@@ -128,6 +128,16 @@
 	$flex_items_center;
 
 	padding: 6.5px 0;
+
+	break-inside: avoid-column;
+}
+
+/* workarouds for Firefox */
+@supports not (break-inside: avoid-column) {
+	.game_entry .staff li {
+		page-break-inside: avoid;
+		overflow: hidden;
+	}
 }
 
 .game_entry .staff li > span {
@@ -156,7 +166,7 @@
 	$flex_row_wrap;
 }
 
-.game_entry .staff .roles:not(:last-of-type) {
+.game_entry .staff .roles > span:not(:last-of-type) {
 	margin-right: 8px;
 }
 
