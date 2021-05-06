@@ -1,5 +1,5 @@
 <ul class="staff primary">
-{% for i in game.authors %}{% if not i.stub %}
+{%- for i in game.authors -%}{% if not i.stub %}
 	<li>
 	{% set avatar = i.get_avatar() %}
 	{% if avatar %}
@@ -22,5 +22,5 @@
 			</span>
 		</span>
 	</li>
-{% endif %}{% endfor %}
+{% endif %}{%- endfor -%}
 </ul>

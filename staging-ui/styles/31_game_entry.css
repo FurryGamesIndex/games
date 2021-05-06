@@ -107,6 +107,10 @@
 	border: 1px solid currentColor;
 }
 
+.game_entry .staff:empty {
+	display: none;
+}
+
 .game_entry .staff {
 	-moz-column-count: 2;
 	-webkit-column-count: 2;
