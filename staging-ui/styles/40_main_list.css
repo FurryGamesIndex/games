@@ -21,7 +21,7 @@
 
 .main_list .category > li > * {
 	display: table-cell;
-	padding: 10px 0;
+	padding: 4px 0;
 }
 
 .main_list .category .cthead {

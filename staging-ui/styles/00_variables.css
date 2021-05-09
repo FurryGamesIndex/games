@@ -16,18 +16,6 @@
 	--warning-text-color: $color-deep-orange-a700;
 	--selection-background-color: $color-blue-grey-500;
 	--bar-icon-color: $color-blue-grey-500;
-
-	--display-4-leading: 7rem;
-	--display-3-leading: 4rem;
-	--display-2-leading: 3rem;
-	--display-1-leading: 2.5rem;
-	--headline-leading: 2rem;
-	--title-leading: 1.75rem;
-	--subheading-leading: 1.5rem;
-	--body-leading: 1.25rem;
-	--caption-leading: 1rem;
-
-	font-size: 16px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,19 +34,4 @@
 		--accent-background-color: $color-blue-grey-800;
 		--warning-text-color: $color-deep-orange-a400;
 	}
-}
-
-:lang(ja),
-:lang(zh),
-:lang(zh-cn),
-:lang(zh-tw) {
-	--display-4-leading: 8rem;
-	--display-3-leading: 4.875rem;
-	--display-2-leading: 3.9375rem;
-	--display-1-leading: 3rem;
-	--headline-leading: 2.125rem;
-	--title-leading: 1.875rem;
-	--subheading-leading: 1.625rem;
-	--body-leading: 1.4375rem;
-	--caption-leading: 1.25rem;
 }

@@ -5,11 +5,21 @@
 
 body {
 	margin: 0;
+
 	color: var(--primary-text-color);
 	background-color: var(--primary-background-color);
+
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+
 	font-size: 16px;
-	line-height: 1;
+	line-height: 1.5;
+}
+
+body:lang(ja),
+body:lang(zh),
+body:lang(zh-cn),
+body:lang(zh-tw) {
+	line-height: 1.625;
 }
 
 a {
@@ -82,73 +92,7 @@ ul {
 	background-color: var(--selection-background-color);
 }
 
-
-.display4 {
-    font-size: 7rem;
-    font-weight: 300;
-    letter-spacing: -0.01em;
-    line-height: var(--display-4-leading);
-}
-
-.display3 {
-    font-size: 3.5rem;
-    font-weight: 400;
-    letter-spacing: -0.005em;
-    line-height: var(--display-3-leading);
-}
-
-.display2 {
-    font-size: 2.8125rem;
-    font-weight: 400;
-    letter-spacing: 0em;
-    line-height: var(--display-2-leading);
-}
-
-.display1 {
-    font-size: 2.125rem;
-    font-weight: 400;
-    letter-spacing: 0em;
-    line-height: var(--display-1-leading);
-}
-
-.headline {
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 0em;
-    line-height: var(--headline-leading);
-}
-
-.title {
-    font-size: 1.25rem;
-    letter-spacing: 0.005em;
-    line-height: var(--title-leading);
-}
-
-.subheading {
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: 0.01em;
-    line-height: var(--subheading-leading);
-}
-
-.body1,
-.body2 {
-    font-size: 0.875rem;
-    letter-spacing: 0.01em;
-    line-height: var(--body-leading);
-}
-
-.body1 {
-    font-weight: 400;
-}
-
-.body2 {
-    font-weight: 500;
-}
-
-.caption {
-    font-size: 0.75rem;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-    line-height: var(--caption-leading);
+.small {
+	font-size: 0.875rem;
+	letter-spacing: 0.01em;
 }

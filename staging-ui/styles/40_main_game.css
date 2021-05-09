@@ -9,7 +9,6 @@
 .main_game .description {
 	font-size: 1.25rem;
 	letter-spacing: 0.005em;
-	line-height: var(--headline-leading);
 }
 
 .main_game .tags {

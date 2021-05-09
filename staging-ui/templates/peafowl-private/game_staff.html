@@ -1,4 +1,4 @@
-<ul class="staff primary">
+<ul class="staff">
 {%- for i in game.authors -%}{% if not i.stub %}
 	<li>
 	{% set avatar = i.get_avatar() %}
@@ -15,7 +15,7 @@
 		{% else %}
 			<div>{{ i.name }}</div>
 		{% endif %}
-			<span class="body1 roles">
+			<span class="small roles">
 			{% for i in i.roles %}
 				<span>{{ ui["author-role-" + i] }}</span>
 			{% endfor %}

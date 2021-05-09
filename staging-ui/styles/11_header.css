@@ -17,6 +17,11 @@ header nav {
 	padding-top: 16px;
 }
 
+header nav .title {
+	font-size: 1.25rem;
+	letter-spacing: 0.005em;
+}
+
 header h3 {
 	margin-right: $main_column_gap;
 	margin-bottom: 8px;
@@ -25,11 +30,11 @@ header h3 {
 header ul {
 	$flex;
 	$flex_row_wrap;
-	margin-bottom: 4px;
+	$flex_items_center;
 }
 
 header li {
-	margin-bottom: 4px;
+	margin: 4px 0;
 }
 
 header li:not(:last-of-type) {

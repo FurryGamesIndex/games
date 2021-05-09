@@ -1,7 +1,7 @@
 {% include 'peafowl-private/header.html' %}
 {% include 'peafowl-private/nav.html' %}
 
-<main class="main_author main_generic">
+<main class="main_author">
 	<div class="tcframe tcsticky author_entry">
 		<div class="leftbox item_container">
 			{% for game in author.games %}
@@ -24,9 +24,9 @@
 					<li class="iconline">{{ ifac.misc_icon("at") }}<span>{{ i }}</span></li>
 				{% endfor %}
 			</ul>
-			<hr />
 			{% endif %}
 
+			<hr />
 			<ul class="link_container">
 			{% for i in author.links %}
 				<li>{{ i.html(ui, lang, node_class="iconline", target="_blank") }}</li>

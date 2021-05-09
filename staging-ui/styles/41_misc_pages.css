@@ -1,7 +1,6 @@
-.main_generic {
+.main_author {
 	margin-top: $main_column_gap;
 }
-
 
 .main_author hr {
 	margin: var(--keyline) 0;
