@@ -35,3 +35,24 @@
 	font-size: 1.25em;
 	margin-right: 0.5em;
 }
+
+
+.avatar-alt {
+	$flex;
+	$flex_items_center;
+	$flex_justify_center;
+}
+
+.avatar {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+
+.link_container li {
+	padding: 8px 0;
+}
+
+.link_container p {
+	margin-bottom: 4px;
+}

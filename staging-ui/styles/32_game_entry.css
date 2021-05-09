@@ -1,13 +1,3 @@
-.game_entry .rightbox li,
-.game_entry .fakerb li {
-	padding: 8px 0;
-}
-
-.game_entry .rightbox p,
-.game_entry .fakerb p {
-	margin-bottom: 4px;
-}
-
 .game_entry img {
 	width: 100%;
 	max-width: 100%;
@@ -126,17 +116,10 @@
 	$flex_column_nowrap;
 }
 
-.game_entry .staff .avatar-alt {
-	$flex;
-	$flex_items_center;
-	$flex_justify_center;
-}
-
 .game_entry .staff .avatar {
 	width: 40px;
 	height: 40px;
-	border-radius: 50%;
-	overflow: hidden;
+
 	margin-right: $main_row_gap;
 
 	$flex_shrink_off;

@@ -27,9 +27,9 @@
 			<hr />
 			{% endif %}
 
-			<ul>
+			<ul class="link_container">
 			{% for i in author.links %}
-				{{ i.html(ui, lang, node_class="iconline", target="_blank") }}
+				<li>{{ i.html(ui, lang, node_class="iconline", target="_blank") }}</li>
 			{% endfor %}
 			</ul>
 		</div>
