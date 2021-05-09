@@ -8,7 +8,7 @@
 {% set game_name = game.get_name(lang) %}
 	<article class="item_complex">
 		<h2 class="game_name"><a href="./games/{{ gid }}.html">{{ game_name|e }}</a></h2>
-		<div class="game_entry">
+		<div class="tcframe game_entry">
 			<section class="leftbox">
 				<div class="description subheading">{{ game.get_description(lang).html }}</div>
 				{% include 'peafowl-private/game_staff.html' %}

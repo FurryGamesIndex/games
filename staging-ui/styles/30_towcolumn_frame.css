@@ -1,0 +1,71 @@
+.tcframe {
+	$flex;
+	$flex_row_nowrap;
+}
+
+.tcframe > .leftbox {
+	$flex_grow_1x;
+}
+
+.tcframe > .rightbox {
+	margin-left: $main_column_gap;
+
+	width: $main_grid_unit;
+	max-width: $main_grid_unit;
+
+	$flex_shrink_off;
+	$flex_self_start;
+}
+
+@supports (position: sticky) {
+	$screen_NOT_tablet_l2 {
+		.tcframe.tcsticky .rightbox {
+			min-height: calc(100vh - var(--keyline));
+			position: sticky;
+			bottom: 0;
+			padding-bottom: var(--keyline);
+
+			$flex_self_end;
+		}
+	}
+}
+
+$screen_small_desktop_l2_only {
+	.tcframe .leftbox {
+		width: 600px;
+		max-width: 600px;
+	}
+
+	.tcframe .rightbox {
+		$flex_shrink_on;
+	}
+}
+
+$screen_small_desktop_l3 {
+	.tcframe .rightbox {
+		width: 300px;
+		max-width: 300px;
+	}
+}
+
+$screen_tablet_l2 {
+	.tcframe .rightbox {
+		width: 100%;
+		max-width: 100%;
+
+		$flex_self_stretch;
+
+		-webkit-order: 0;
+		order: 0;
+
+		margin-left: 0;
+		margin-bottom: var(--keyline);
+	}
+
+	.tcframe .leftbox {
+		-webkit-order: 1;
+		order: 1;
+
+		margin-right: 0;
+	}
+}

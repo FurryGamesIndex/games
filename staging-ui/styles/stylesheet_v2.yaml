@@ -6,11 +6,12 @@ stylesheets:
       - 10_frame.css
       - 11_header.css
       - 12_footer.css
-      - 30_main_index.css
+      - 30_towcolumn_frame.css
       - 31_game_entry.css
-      - 32_main_game.css
-      - 32_main_list.css
-      - 39_misc_pages.css
+      - 40_main_index.css
+      - 40_main_game.css
+      - 40_main_list.css
+      - 41_misc_pages.css
 
 macros:
   # Media queries
@@ -25,6 +26,7 @@ macros:
 
   screen_tablet: "@media (max-width: 948px)"
   screen_tablet_l2: "@media (max-width: 888px)"
+  screen_NOT_tablet_l2: "@media (min-width: 888px)"
 
   screen_mobile: "@media (max-width: 768px)"
   screen_mobile_l2: "@media (max-width: 648px)"

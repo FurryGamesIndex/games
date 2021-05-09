@@ -93,8 +93,7 @@ $screen_tablet_l2 {
 		$flex_column_nowrap;
 	}
 
-	.item > picture,
-	.item_complex .rightbox {
+	.item > picture {
 		$flex_self_stretch;
 
 		-webkit-order: 0;
@@ -104,7 +103,6 @@ $screen_tablet_l2 {
 	}
 
 	.item_complex .rightbox {
-		margin-bottom: var(--keyline);
 		position: static;
 		top: unset;
 	}
@@ -121,8 +119,7 @@ $screen_tablet_l2 {
 		height: auto;
 	}
 
-	.item > section,
-	.item_complex .leftbox {
+	.item > section {
 		-webkit-order: 1;
 		order: 1;
 

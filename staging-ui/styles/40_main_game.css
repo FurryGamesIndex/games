@@ -16,20 +16,6 @@
 	margin-bottom: $main_column_gap;
 }
 
-.main_game .rightbox {
-	padding-bottom: var(--keyline);
-}
-
-@supports (position: sticky) {
-	.main_game .rightbox {
-		min-height: calc(100vh - var(--keyline));
-		position: sticky;
-		bottom: 0;
-
-		$flex_self_end;
-	}
-}
-
 .sscreen {
 	display: none;
 }

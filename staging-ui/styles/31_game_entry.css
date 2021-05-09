@@ -1,22 +1,3 @@
-.game_entry {
-	$flex;
-	$flex_row_nowrap;
-}
-
-.game_entry > .leftbox {
-	$flex_grow_1x;
-}
-
-.game_entry > .rightbox {
-	margin-left: $main_column_gap;
-
-	width: $main_grid_unit;
-	max-width: $main_grid_unit;
-
-	$flex_shrink_off;
-	$flex_self_start;
-}
-
 .game_entry .rightbox li,
 .game_entry .fakerb li {
 	padding: 8px 0;
@@ -183,30 +164,4 @@
 .game_entry .platforms .icon {
 	font-size: 1.25rem;
 	margin-left: 0.2em;
-}
-
-$screen_small_desktop_l2_only {
-	.game_entry .leftbox {
-		width: 600px;
-		max-width: 600px;
-	}
-
-	.game_entry .rightbox {
-		$flex_shrink_on;
-	}
-}
-
-$screen_small_desktop_l3 {
-	.game_entry .rightbox {
-		width: 300px;
-		max-width: 300px;
-	}
-}
-
-$screen_tablet_l2 {
-	.game_entry .rightbox {
-		margin-left: 0;
-		width: 100%;
-		max-width: 100%;
-	}
 }
