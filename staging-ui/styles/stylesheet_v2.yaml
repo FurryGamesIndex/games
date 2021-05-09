@@ -6,9 +6,10 @@ stylesheets:
       - 10_frame.css
       - 11_header.css
       - 12_footer.css
-      - 30_towcolumn_frame.css
-      - 31_game_entry.css
-      - 32_list_item.css
+      - 30_misc_widgets.css
+      - 31_towcolumn_frame.css
+      - 32_game_entry.css
+      - 33_list_item.css
       - 40_main_index.css
       - 40_main_game.css
       - 40_main_list.css

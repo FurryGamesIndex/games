@@ -82,43 +82,6 @@ ul {
 	background-color: var(--selection-background-color);
 }
 
-.version-warning {
-	align-self: stretch;
-	background-color: var(--secondary-background-color);
-}
-
-.version-warning .container {
-	display: grid;
-	grid-template-columns: 40px auto;
-	column-gap: 16px;
-	justify-items: start;
-	align-items: center;
-}
-
-.version-warning .icon {
-	color: var(--bar-icon-color);
-}
-
-.version-warning p {
-	margin: 13px 0;
-}
-
-.version-warning .icon {
-	font-size: 1.25rem;
-}
-
-.iconline {
-	$flex;
-	$flex_row_nowrap;
-	justify-content: start;
-	align-items: center;
-}
-
-.iconline > .icon {
-	font-size: 1.25em;
-	margin-right: 0.5em;
-}
-
 
 .display4 {
     font-size: 7rem;
