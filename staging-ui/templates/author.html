@@ -1,0 +1,34 @@
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+
+<main class="main_author">
+	<div class="tcframe tcsticky author_entry">
+		<div class="leftbox">
+			{% for game in author.games %}
+				{% include 'peafowl-private/list_item.html' %}
+			{% endfor %}
+		</div>
+		<div class="rightbox subheading">
+			{{ author.avatar.with_rr(rr).html(node_class='authoravatar', alt=author.name) }}
+			<h1>{{ author.name }}</h1>
+
+			{% if author.aliases %}
+			<ul>
+				<li class="iconline">{{ ifac.misc_icon("at") }}<span>{{ author.name }}</span></li>
+				{% for i in author.aliases %}
+					<li class="iconline">{{ ifac.misc_icon("at") }}<span>{{ i }}</span></li>
+				{% endfor %}
+			</ul>
+			<hr />
+			{% endif %}
+
+			<ul>
+			{% for i in author.links %}
+				{{ i.html(ui, lang, node_class="iconline", target="_blank") }}
+			{% endfor %}
+			</ul>
+	</div>
+</main>
+
+{% include 'peafowl-private/footer.html' %}
+{% include 'peafowl-private/end.html' %}
