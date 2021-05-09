@@ -40,7 +40,7 @@
 }
 
 .main_index nav a:not(:last-of-type) {
-	margin-bottom: 20px;
+	margin-bottom: 16px;
 }
 
 $screen_tablet_l2 {
@@ -50,6 +50,7 @@ $screen_tablet_l2 {
 
 	.main_index > .content > article {
 		margin-right: 0;
+		margin-bottom: $main_row_gap;
 	}
 
 	.main_index nav {

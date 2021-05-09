@@ -1,6 +1,5 @@
 {% include 'peafowl-private/header.html' %}
 {% include 'peafowl-private/nav.html' %}
-
 <main class="main_author">
 	<div class="tcframe tcsticky author_entry">
 		<div class="leftbox item_container">
@@ -11,7 +10,7 @@
 				<hr />
 			{% endfor %}
 		</div>
-		<div class="rightbox subheading">
+		<div class="rightbox">
 			<div class="author_head">
 				{{ author.avatar.with_rr(rr).html(node_class='avatar', alt=author.name) }}
 				<h1>{{ author.name }}</h1>
@@ -35,6 +34,5 @@
 		</div>
 	</div>
 </main>
-
 {% include 'peafowl-private/footer.html' %}
 {% include 'peafowl-private/end.html' %}
