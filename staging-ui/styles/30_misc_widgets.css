@@ -1,26 +1,30 @@
+aside.box,
 .version-warning {
-	align-self: stretch;
 	background-color: var(--secondary-background-color);
 }
 
+aside.box,
 .version-warning .container {
-	display: grid;
-	grid-template-columns: 40px auto;
-	column-gap: 16px;
-	justify-items: start;
-	align-items: center;
+	$flex;
+	$flex_row_nowrap;
+	$flex_items_center;
 }
 
+aside.box {
+	padding: 0 16px;
+	margin: $main_row_gap 0;
+}
+
+aside.box .icon,
 .version-warning .icon {
 	color: var(--bar-icon-color);
+	font-size: 1.25rem;
+	margin-right: $main_row_gap;
 }
 
+aside.box p,
 .version-warning p {
 	margin: 13px 0;
-}
-
-.version-warning .icon {
-	font-size: 1.25rem;
 }
 
 

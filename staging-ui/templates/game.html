@@ -3,16 +3,22 @@
 <main class="main_game">
 	<div class="boxes">
 		{% if game.check_tag("sys", "staging") %}
-			<div class="box warning">{{ ui.warnbox_staging }}</div>
-		{% endif %}
-		{% if game.check_tag("sys", "tagme") %}
-			<div class="box notice">{{ ui.noticebox_tagme }}</div>
+			<aside class="box warning">
+				{{ ifac.misc_icon("warn") }}
+				<p>{{ ui.warnbox_staging }}</p>
+			</aside>
 		{% endif %}
 		{% if game.replaced_by %}
-			<div class="box notice">{{ ui.noticebox_replacedby % (game.replaced_by.id + ".html", game.replaced_by.get_name(lang)|e) }}</div>
+			<aside class="box notice">
+				{{ ifac.misc_icon("trash") }}
+				<p>{{ ui.noticebox_replacedby % (game.replaced_by.id + ".html", game.replaced_by.get_name(lang)|e) }}</p>
+			</aside>
 		{% endif %}
 		{% if game.expunge %}
-			<div class="box warning">{{ ui.warnbox_expunge }}</div>
+			<aside class="box warning">
+				{{ ifac.misc_icon("warn-t") }}
+				<p>{{ ui.warnbox_expunge }}</p>
+			</aside>
 		{% endif %}
 	</div>
 	<div class="tcframe tcsticky game_entry">
@@ -32,9 +38,10 @@
 			{% include 'peafowl-private/game_tags.html' %}
 			<section class="media">
 				{% if game.sensitive_media %}
-					<div class="warning box" id="sensitive_media_warn">
-						{{ ui.game_sensitive_warning % (rr, lang) }}
-					</div>
+					<aside class="warning box" id="sensitive_media_warn">
+						{{ ifac.misc_icon("shield") }}
+						<p>{{ ui.game_sensitive_warning % (rr, lang) }}</p>
+					</aside>
 				{% endif %}
 				{% for i in game.media %}
 					{{ i.dom(rr, alt=game.get_name(lang)) }}
