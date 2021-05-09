@@ -3,6 +3,32 @@
 }
 
 
+.main_author hr {
+	margin: var(--keyline) 0;
+}
+
+.main_author .author_head {
+	$flex;
+	$flex_row_nowrap;
+	$flex_items_center;
+}
+
+.main_author .author_head .avatar {
+	margin-right: 20px;
+	width: 48px;
+	height: 48px;
+}
+
+.main_author h1 {
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+.main_author .author_aliases {
+	margin: 6px 0 0 68px;
+}
+
+
 .main_simple_markdown {
 	margin: $main_column_gap 0;
 	line-height: 1.49
