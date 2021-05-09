@@ -106,6 +106,9 @@ macros:
   main_border_tiny: 16px
   # 3 * main_grid_unit + 2 * main_column_gap + 2 * main_border
   main_max_width: 1288px
+  alt_row_gap: 24px
+  thumbnail_max_width: 360px
+  thumbnail_max_width_small: 240px
 
 
   # Colors

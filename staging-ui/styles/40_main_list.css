@@ -3,7 +3,7 @@
 }
 
 .main_list > hr {
-	margin: var(--keyline) 0;
+	margin: $main_row_gap 0;
 }
 
 .main_list > hr:last-of-type {

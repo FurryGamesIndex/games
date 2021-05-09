@@ -10,14 +10,12 @@
 	font-size: 3.5rem;
 	font-weight: 700;
 	margin: 0;
-	letter-spacing: -0.005em;
 	margin-bottom: 3px;
 }
 
 .main_index h2 {
 	font-size: 1.5rem;
 	margin: 0;
-	letter-spacing: 0em;
 	margin-bottom: 3px;
 }
 
@@ -37,7 +35,6 @@
 
 .main_index > .content > nav {
 	font-size: 1.5rem;
-	letter-spacing: 0em;
 
 	$flex_shrink_off;
 }

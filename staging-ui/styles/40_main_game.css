@@ -8,7 +8,6 @@
 
 .main_game .description {
 	font-size: 1.25rem;
-	letter-spacing: 0.005em;
 }
 
 .main_game .tags {
@@ -21,7 +20,7 @@
 
 $screen_tablet_l2 {
 	.main_game {
-		margin: var(--keyline) 0;
+		margin: $alt_row_gap 0;
 	}
 
 	.main_game .rightbox {
@@ -33,12 +32,7 @@ $screen_tablet_l2 {
 	}
 
 	.main_game .sscreen_logo {
-		margin: var(--keyline) 0;
-	}
-
-	.main_game .sscreen_logo picture {
-		$flex;
-		$flex_justify_center;
+		margin: $alt_row_gap 0;
 	}
 
 	.main_game .sscreen_logo .thumbnail {

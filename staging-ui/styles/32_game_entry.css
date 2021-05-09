@@ -1,18 +1,17 @@
 .game_entry img {
 	width: 100%;
-	max-width: 100%;
+	max-width: $thumbnail_max_width;
 	height: auto;
 }
 
 .game_entry hr {
-	margin: var(--keyline) 0;
+	margin: $alt_row_gap 0;
 }
 
 .game_entry .game_name {
 	margin: 0;
 	font-weight: 700;
 	font-size: 2.125rem;
-	letter-spacing: 0em;
 }
 
 .game_entry .description {

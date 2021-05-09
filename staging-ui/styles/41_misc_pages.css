@@ -3,7 +3,7 @@
 }
 
 .main_author hr {
-	margin: var(--keyline) 0;
+	margin: $alt_row_gap 0;
 }
 
 .main_author .author_head {
@@ -43,7 +43,7 @@
 }
 
 .main_simple_markdown table td {
-	padding: 7px var(--keyline);
+	padding: 7px $alt_row_gap;
 }
 
 .main_simple_markdown tbody>tr:nth-child(odd) {

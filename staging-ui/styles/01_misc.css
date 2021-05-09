@@ -83,6 +83,11 @@ ul {
 	list-style-type: none;
 }
 
+picture {
+	$flex;
+	$flex_justify_center;
+}
+
 .activated {
 	font-weight: 700;
 }
@@ -94,5 +99,4 @@ ul {
 
 .small {
 	font-size: 0.875rem;
-	letter-spacing: 0.01em;
 }

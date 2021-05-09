@@ -19,7 +19,6 @@ header nav {
 
 header nav .title {
 	font-size: 1.25rem;
-	letter-spacing: 0.005em;
 }
 
 header h3 {
@@ -38,7 +37,7 @@ header li {
 }
 
 header li:not(:last-of-type) {
-	margin-right: var(--keyline);
+	margin-right: $alt_row_gap;
 }
 
 header .iconline > .icon {

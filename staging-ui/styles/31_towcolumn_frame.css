@@ -20,10 +20,10 @@
 @supports (position: sticky) {
 	$screen_NOT_tablet_l2 {
 		.tcframe.tcsticky .rightbox {
-			min-height: calc(100vh - var(--keyline));
+			min-height: 100vh;
 			position: sticky;
 			bottom: 0;
-			padding-bottom: var(--keyline);
+			padding: $alt_row_gap 0;
 
 			$flex_self_end;
 		}
@@ -64,7 +64,7 @@ $screen_tablet_l2 {
 		order: 0;
 
 		margin-left: 0;
-		margin-bottom: var(--keyline);
+		margin-bottom: $alt_row_gap;
 	}
 
 	.tcframe .leftbox {

@@ -1,5 +1,5 @@
 .item_container > hr {
-	margin: var(--keyline) 0;
+	margin: $alt_row_gap 0;
 }
 
 .item_container > hr:last-of-type {
@@ -26,7 +26,6 @@
 .item_complex .game_name {
 	margin: 0 0 2px 0;
 	font-size: 2.125rem;
-	letter-spacing: 0em;
 }
 
 .item > picture {
@@ -35,14 +34,14 @@
 }
 
 .item > picture > img {
-	max-width: 360px;
-	width: 360px;
+	max-width: $thumbnail_max_width;
+	width: $thumbnail_max_width;
 	height: auto;
 }
 
 .item.inleftbox > picture > img {
-	max-width: 240px;
-	width: 240px;
+	max-width: $thumbnail_max_width_small;
+	width: $thumbnail_max_width_small;
 	height: auto;
 }
 
@@ -53,7 +52,7 @@
 @supports (position: sticky) {
 	.item_complex .rightbox {
 		position: sticky;
-		top: var(--keyline);
+		top: $alt_row_gap;
 
 		$flex_self_start;
 	}
@@ -75,7 +74,7 @@ $screen_small_desktop {
 	}
 
 	.item.inleftbox > picture > img {
-		max-width: 360px;
+		max-width: $thumbnail_max_width;
 		width: 100%;
 		height: auto;
 	}
@@ -108,14 +107,9 @@ $screen_tablet_l2 {
 		top: unset;
 	}
 
-	.item_complex .rightbox picture {
-		$flex;
-		$flex_justify_center;
-	}
-
 	.item > picture > img,
 	.item_complex .thumbnail {
-		max-width: 360px;
+		max-width: $thumbnail_max_width;
 		width: 100%;
 		height: auto;
 	}
