@@ -1,7 +1,7 @@
 {% include 'peafowl-private/header.html' %}
 {% include 'peafowl-private/nav.html' %}
 
-<main class="main_author">
+<main class="main_author main_generic">
 	<div class="tcframe tcsticky author_entry">
 		<div class="leftbox">
 			{% for game in author.games %}
@@ -27,6 +27,7 @@
 				{{ i.html(ui, lang, node_class="iconline", target="_blank") }}
 			{% endfor %}
 			</ul>
+		</div>
 	</div>
 </main>
 

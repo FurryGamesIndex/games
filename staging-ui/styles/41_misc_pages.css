@@ -1,3 +1,8 @@
+.main_generic {
+	margin: $main_column_gap 0;
+}
+
+
 .main_simple_markdown {
 	margin: $main_column_gap 0;
 	line-height: 1.49
