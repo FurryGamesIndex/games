@@ -5,7 +5,10 @@
 	<div class="tcframe tcsticky author_entry">
 		<div class="leftbox item_container">
 			{% for game in author.games %}
-				{% include 'peafowl-private/list_item.html' %}
+				<article class="item inleftbox">
+					{% include 'peafowl-private/list_item.html' %}
+				</article>
+				<hr />
 			{% endfor %}
 		</div>
 		<div class="rightbox subheading">

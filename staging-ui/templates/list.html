@@ -5,7 +5,10 @@
 {% include 'peafowl-private/list-chain.html' %}
 
 {% for gid, game in games %}
-	{% include 'peafowl-private/list_item.html' %}
+	<article class="item">
+		{% include 'peafowl-private/list_item.html' %}
+	</article>
+	<hr />
 {% endfor %}
 </main>
 
