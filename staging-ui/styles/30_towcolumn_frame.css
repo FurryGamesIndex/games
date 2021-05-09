@@ -49,6 +49,11 @@ $screen_small_desktop_l3 {
 }
 
 $screen_tablet_l2 {
+	.tcframe {
+		$flex;
+		$flex_column_nowrap;
+	}
+
 	.tcframe .rightbox {
 		width: 100%;
 		max-width: 100%;

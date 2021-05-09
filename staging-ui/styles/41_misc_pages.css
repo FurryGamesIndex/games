@@ -1,5 +1,5 @@
 .main_generic {
-	margin: $main_column_gap 0;
+	margin-top: $main_column_gap;
 }
 
 

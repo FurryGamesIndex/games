@@ -8,6 +8,7 @@ stylesheets:
       - 12_footer.css
       - 30_towcolumn_frame.css
       - 31_game_entry.css
+      - 32_list_item.css
       - 40_main_index.css
       - 40_main_game.css
       - 40_main_list.css
