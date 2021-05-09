@@ -40,3 +40,9 @@ $screen_tablet_l2 {
 		height: auto;
 	}
 }
+
+$screen_mobile_l3 {
+	.main_game .description {
+		font-size: 1rem;
+	}
+}

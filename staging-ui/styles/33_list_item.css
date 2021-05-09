@@ -121,3 +121,10 @@ $screen_tablet_l2 {
 		margin-right: 0;
 	}
 }
+
+$screen_mobile_l3 {
+	.item .game_name,
+	.item_complex .game_name {
+		font-size: 1.5rem;
+	}
+}

@@ -140,3 +140,9 @@
 	font-size: 1.25rem;
 	margin-left: 0.2em;
 }
+
+$screen_mobile_l3 {
+	.game_entry .game_name {
+		font-size: 1.5rem;
+	}
+}

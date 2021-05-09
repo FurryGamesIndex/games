@@ -32,6 +32,7 @@ macros:
 
   screen_mobile: "@media (max-width: 768px)"
   screen_mobile_l2: "@media (max-width: 648px)"
+  screen_mobile_l3: "@media (max-width: 472px)"
 
   screen_small_mobile: "@media (max-width: 392px)"
 
