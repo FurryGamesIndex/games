@@ -1,4 +1,4 @@
-.game_entry img {
+.game_entry .thumbnail {
 	width: 100%;
 	max-width: $thumbnail_max_width;
 	height: auto;
@@ -18,8 +18,12 @@
 	margin-bottom: $main_column_gap;
 }
 
-.game_entry .media > * {
+.game_entry .media > aside,
+.game_entry .media img {
 	margin-bottom: 16px;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 .game_entry .tags {
