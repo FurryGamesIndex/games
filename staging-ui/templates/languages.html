@@ -1,0 +1,38 @@
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+
+{% include 'peafowl-private/require-javascript.html' %}
+<main class="main_generic">
+	<p class="small" id="lang_tip"></p>
+	<ul class="link_container" id="langs">
+		<li><a class="iconline" href="{{ rr }}/en/">{{ ifac.misc_icon("language") }}<span>English</span></a></li>
+		<li><a class="iconline" href="{{ rr }}/zh-cn/">{{ ifac.misc_icon("language") }}<span>简体中文（Simplified Chinese）</span></a></li>
+		<li><a class="iconline" href="{{ rr }}/zh-tw/">{{ ifac.misc_icon("language") }}<span>繁體中文（Traditional Chinese）</span></a></li>
+	</ul>
+	<aside class="box notice">
+		{{ ifac.misc_icon("paw") }}
+		<p>Please help us translate FurryGamesIndex. If you want to see that your language listed in here, don't hesitate to <a target="_blank" href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.en.md#our-contact-information">contact us</a>.</p>
+	</aside>
+</main>
+{% include 'peafowl-private/footer.html' %}
+<script>
+const regexp = new RegExp(window.location.host + "/[a-z\\-]*/($|games/|list|index|search|faq|preferences).*");
+const match = document.referrer.match(regexp)
+
+if (match !== null && match.length >= 1) {
+	let path = match[0].substring(match[0].indexOf('/') + 1);
+	path = path.substring(path.indexOf('/') + 1);
+	console.log(path);
+
+	$$('#langs a').forEach(a => {
+		a.href = a.href + path;
+	});
+
+	$('#lang_tip').textContent = "Note: you will be redirected to <Language>/" + path;
+} else if (window.location.host === "") {
+	$$('#langs a').forEach(a => {
+		a.href = a.href + "index.html";
+	});
+}
+</script>
+{% include 'peafowl-private/end.html' %}

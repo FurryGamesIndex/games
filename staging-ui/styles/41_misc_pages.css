@@ -74,3 +74,8 @@
 .main_preferences .note {
 	margin: $main_row_gap 0 0 26px;
 }
+
+
+.main_generic {
+	margin: $main_column_gap 0;
+}
