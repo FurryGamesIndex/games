@@ -1,0 +1,23 @@
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+<main class="main_generic">
+	<p>
+		<input type="checkbox" id="sensitive_switch">
+		<label for="sensitive_switch">Show sensitive contents</label>
+	</p>
+	<p>
+		{{ ui.sensitive_page_tip }}
+	</p>
+</main>
+{% include 'peafowl-private/footer.html' %}
+<script>
+$("#sensitive_switch").addEventListener('change', async e => {
+	e.preventDefault();
+	localStorage.setItem("show_sensitive", e.target.checked ? "true" : "false");
+});
+
+if (localStorage.getItem("show_sensitive") == "true") {
+	$("#sensitive_switch").checked = true
+}
+</script>
+{% include 'peafowl-private/end.html' %}
