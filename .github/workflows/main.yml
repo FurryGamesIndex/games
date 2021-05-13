@@ -28,15 +28,32 @@ jobs:
         sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip python3-setuptools python3-pil python3-bs4 webp
         pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2
 
+        python3 --version
+        cwebp -version
+
     - name: fix-mtime
       run: |
         ./scripts/fix-mtime.sh
 
     - name: build
       run: |
-        python3 --version
-        cwebp -version
-        ./generate.py --images-candidate-webp --with-rss --plugin steam-cdn-unite,verbose=1 output
+        ./generate.py \
+            --images-candidate-webp \
+            --with-rss \
+            --plugin steam-cdn-unite,verbose=1 \
+            output
+
+    - name: build-classic-ui
+      run: |
+        ./generate.py \
+            --images-candidate-webp \
+            --with-rss \
+            --plugin steam-cdn-unite,verbose=1 \
+            --plugin uimod,mod=classic-ui/pioneer \
+            --plugin webp-converter-stub \
+            output/classic-ui/ || rm -rf output/classic-ui
+
+        [ -d output/classic-ui/assets ] && rm -rf output/classic-ui/assets && ln -sf ../assets output/classic-ui/assets
 
     - name: ssh-key
       uses: shimataro/ssh-key-action@v2
