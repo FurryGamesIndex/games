@@ -1,6 +1,9 @@
-{% include 'header.html' %}
-<div id="search_box" class="default">
-	<select id="search_mode" >
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+
+{% include 'peafowl-private/require-javascript.html' %}
+<main class="main_search">
+	<select id="search_mode">
 		<option value="title">{{ ui.search_form_mode_title }}</option>
 		<option value="tindes">{{ ui.search_form_mode_tindes }}</option>
 		<option value="tagx">{{ ui.search_form_mode_tag }}</option>
@@ -11,31 +14,25 @@
 		<button id="search_do">{{ ui.search_form_do }}</button>
 	</div>
 	<a href="search_help.html">{{ ui.search_help_link }}</a>
-</div>
-<div id="search_info" class="default">
+	<p id="search_info"></p>
 
-</div>
-<div class="items">
-	<div class="item hide">
-		<picture class="_thumbnail">
-		</picture>
-		<div class="content">
-			<div class="name"><a href="#" class="name_a"></a></div>
+	<article class="item hide">
+		<section>
+			<h2 class="game_name"><a class="name_a" href="#"></a></h2>
 			<div class="description"></div>
-		</div>
+		</section>
+		<picture class="_thumbnail"></picture>
+	</article>
+	<div class="item_container">
 	</div>
-	<div style="height: 20px;"></div>
-</div>
-<div class="default">
-{% include 'copying.html' %}
-</div>
-<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+</main>
+{% include 'peafowl-private/footer.html' %}
 <script src="{{ res(rr, [ 'scripts', 'searchexpr.js' ]) }}"></script>
 {% if args.file_uri_workaround %}
-<script src="{{ res(rr, [ 'scripts', 'searchdb_offline.js' ], force_ignore_file_check = True) }}"></script>
+	<script src="{{ res(rr, [ 'scripts', 'searchdb_offline.js' ], force_ignore_file_check = True) }}"></script>
 {% endif %}
 <script>
-const items = $('.items');
+const items = $('.item_container');
 const template = $('.item');
 
 const query = window.location.search.substring(1);
@@ -68,6 +65,7 @@ let add = (id, game) => {
 	item.querySelector(".description").textContent = desc;
 
 	items.appendChild(item);
+	items.appendChild(document.createElement("hr"));
 }
 
 const searchTagWithoutNamespace = (searchdb, tag) => {
@@ -223,4 +221,4 @@ $('#search_value').addEventListener('keyup', e => {
 
 onload();
 </script>
-{% include 'footer.html' %}
+{% include 'peafowl-private/end.html' %}

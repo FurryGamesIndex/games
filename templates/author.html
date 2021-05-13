@@ -1,42 +1,38 @@
-{% include 'header.html' %}
-<div class="page_author">
-	<div class="leftbox">
-		<div class="items">
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+<main class="main_author">
+	<div class="tcframe tcsticky author_entry">
+		<div class="leftbox item_container">
 			{% for game in author.games %}
-			{% set desc = game.get_description(lang).text %}
-			{% set game_name = game.get_name(lang) %}
-			<div class="item">
-				{{ game.thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game_name) }}
-				<div class="content">
-				<div class="name"><a href="{{ rr }}/{{ lang }}/games/{{ game.id }}.html">{{ game_name|e }}</a></div>
-				<div class="description">{{ (desc[:240] + (desc[240:] and '...'))|e }}</div>
-				</div>
+				<article class="item inleftbox">
+					{% include 'peafowl-private/list_item.html' %}
+				</article>
+				<hr />
+			{% endfor %}
+		</div>
+		<div class="rightbox">
+			<div class="author_head">
+				{{ author.avatar.with_rr(rr).html(node_class='avatar', alt=author.name) }}
+				<h1>{{ author.name }}</h1>
 			</div>
+
+			{% if author.aliases %}
+			<ul class="author_aliases">
+				<li class="iconline">{{ ifac.misc_icon("at") }}<span>{{ author.name }}</span></li>
+				{% for i in author.aliases %}
+					<li class="iconline">{{ ifac.misc_icon("at") }}<span>{{ i }}</span></li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+
+			<hr />
+			<ul class="link_container">
+			{% for i in author.links %}
+				<li>{{ i.html(ui, lang, node_class="iconline", target="_blank") }}</li>
 			{% endfor %}
-			<div style="height: 20px;"></div>
+			</ul>
 		</div>
-		<div class="onmobile">{% include 'copying.html' %}</div>
 	</div>
-	<div class="rightbox">
-		<div class="flexline widget">
-			{{ author.avatar.with_rr(rr).html(node_class='authoravatar', alt=author.name) }}
-			<h1>{{ author.name }}</h1>
-		</div>
-		{% if author.aliases %}
-		<div class="aliases">
-			<div class="iconline">{{ ifac.misc_icon("at") }}<span>{{ author.name }}</span></div>
-			{% for i in author.aliases %}
-			<div class="iconline">{{ ifac.misc_icon("at") }}<span>{{ i }}</span></div>
-			{% endfor %}
-		</div>
-		{% endif %}
-		<div class="links links-group">
-		{% for i in author.links %}
-			{{ i.html(ui, lang, node_class="iconline", target="_blank") }}
-		{% endfor %}
-		</div>
-		<div class="hideonmobile">{% include 'copying.html' %}</div>
-	</div>
-</div>
-<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
-{% include 'footer.html' %}
+</main>
+{% include 'peafowl-private/footer.html' %}
+{% include 'peafowl-private/end.html' %}

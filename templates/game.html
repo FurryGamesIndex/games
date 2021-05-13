@@ -1,52 +1,67 @@
-{% include 'header.html' %}
-<div class="default topbox">
-{% if game.check_tag("sys", "staging") %}
-	<div class="box warning">{{ ui.warnbox_staging }}</div>
-{% endif %}
-{% if game.check_tag("sys", "tagme") %}
-	<div class="box notice">{{ ui.noticebox_tagme }}</div>
-{% endif %}
-{% if game.replaced_by %}
-	<div class="box notice">{{ ui.noticebox_replacedby % (game.replaced_by.id + ".html", game.replaced_by.get_name(lang)|e) }}</div>
-{% endif %}
-{% if game.expunge %}
-	<div class="box warning">{{ ui.warnbox_expunge }}</div>
-{% endif %}
-</div>
-<div class="game">
-	<div class="leftbox">
-		<h1>{{ game.get_name(lang)|e }}</h1>
-		<div class="onmobile">{% include 'game_logo.html' %}</div>
-		<div class="description">{{ game.get_description(lang).html }}</div>
-		<div class="onmobile">{% include 'game_links.html' %}</div>
-		{% include 'game_authors.html' %}
-		{% include 'game_tags.html' %}
-		<div class="opts">
-			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml">{{ ifac.misc_icon("edit") }}<span>{{ ui.game_edit }}</span></a>
-			<a href="https://twitter.com/intent/tweet?&text={{ ui.game_share_twitter_text.format(name=game.get_name(lang))|urlencode }}&url={{ ("https://furrygames.top/" + lang + "/games/" + name + ".html")|urlencode }}&hashtags=furrygamesindex,furry,game" target="_blank">{{ ifac.site_icon("twitter") }}<span>{{ ui.game_share_twitter }}</span></a>
-		</div>
-		<div class="screenshots">
-		{% if game.sensitive_media %}
-			<div class="warning box" id="sensitive_media_warn">
-				{{ ui.game_sensitive_warning % (rr, lang) }}
-			</div>
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+<main class="main_game">
+	<div class="boxes">
+		{% if game.check_tag("sys", "staging") %}
+			<aside class="box warning">
+				{{ ifac.misc_icon("warn") }}
+				<p>{{ ui.warnbox_staging }}</p>
+			</aside>
 		{% endif %}
-		{% for i in game.media %}
-		{{ i.dom(rr, alt=game.get_name(lang)) }}
-		{% endfor %}
+		{% if game.replaced_by %}
+			<aside class="box notice">
+				{{ ifac.misc_icon("trash") }}
+				<p>{{ ui.noticebox_replacedby % (game.replaced_by.id + ".html", game.replaced_by.get_name(lang)|e) }}</p>
+			</aside>
+		{% endif %}
+		{% if game.expunge %}
+			<aside class="box warning">
+				{{ ifac.misc_icon("warn-t") }}
+				<p>{{ ui.warnbox_expunge }}</p>
+			</aside>
+		{% endif %}
+	</div>
+	<div class="tcframe tcsticky game_entry">
+		<div class="leftbox">
+			<h1 class="game_name">{{ game.get_name(lang)|e }}</h1>
+			<div class="sscreen sscreen_logo">
+				{% include 'peafowl-private/game_logo.html' %}
+			</div>
+			<section class="description">
+				{{ game.get_description(lang).html }}
+			</section>
+			<div class="sscreen">
+				{% include 'peafowl-private/game_links.html' %}
+				<hr />
+			</div>
+			{% include 'peafowl-private/game_staff.html' %}
+			{% include 'peafowl-private/game_tags.html' %}
+			<section class="media">
+				{% if game.sensitive_media %}
+					<aside class="warning box" id="sensitive_media_warn">
+						{{ ifac.misc_icon("shield") }}
+						<p>{{ ui.game_sensitive_warning % (rr, lang) }}</p>
+					</aside>
+				{% endif %}
+				{% for i in game.media %}
+					{{ i.dom(rr, alt=game.get_name(lang)) }}
+				{% endfor %}
+			</section>
+			<div class="sscreen">
+				{% include 'peafowl-private/game_author_links.html' %}
+			</div>
+			{% include 'peafowl-private/require-javascript.html' %}
+			<section id="isso-thread" data-isso-id="games/{{ name }}/{{ lang_without_region }}"></section>
 		</div>
-		<div class="onmobile">{% include 'game_author_widget.html' %}</div>
-		<section id="isso-thread" data-isso-id="games/{{ name }}/{{ lang_without_region }}"></section>
-		<div class="onmobile">{% include 'copying.html' %}</div>
+		<div class="rightbox">
+			{% include 'peafowl-private/game_logo.html' %}
+			{% include 'peafowl-private/game_links.html' %}
+			{% include 'peafowl-private/game_author_links.html' %}
+		</div>
 	</div>
-	<div class="rightbox">
-		{% include 'game_logo.html' %}
-		{% include 'game_links.html' %}
-		{% include 'game_author_widget.html' %}
-		{% include 'copying.html' %}
-	</div>
-</div>
-<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+</main>
+<hr />
+{% include 'peafowl-private/footer.html' %}
 <script>
 if (localStorage.getItem("show_sensitive") == "true") {
 	$$('script[type="text/x-FGI-sensitive-media"]').forEach(i => {
@@ -61,7 +76,7 @@ if (localStorage.getItem("show_sensitive") == "true") {
 	});
 	const warn = $("#sensitive_media_warn");
 	if (warn != null)
-		warn.classList.add("hide");
+		warn.parentNode.removeChild(warn);
 }
 if (localStorage.getItem("show_steam_widget") == "true") {
 	$$('script[type="text/x-FGI-steam-widget"]').forEach(i => {
@@ -73,4 +88,4 @@ if (localStorage.getItem("show_steam_widget") == "true") {
 	data-isso-lang="{{ lang_unix_style }}"
 	data-isso-avatar="false"
 	src="//comments.furrygames.top/js/embed.min.js"></script>
-{% include 'footer.html' %}
+{% include 'peafowl-private/end.html' %}

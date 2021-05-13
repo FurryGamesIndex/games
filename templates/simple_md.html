@@ -1,8 +1,8 @@
-{% include 'header.html' %}
-<div class="default doc">
-	<div>{{ content }}</div>
-</div>
-<div class="default">
-{% include 'copying.html' %}
-</div>
-{% include 'footer.html' %}
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+<main class="main_simple_markdown">
+	{{ content }}
+</main>
+<hr />
+{% include 'peafowl-private/footer.html' %}
+{% include 'peafowl-private/end.html' %}

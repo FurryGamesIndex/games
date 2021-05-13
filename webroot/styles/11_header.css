@@ -3,7 +3,6 @@ header {
 	$flex;
 	$flex_column_nowrap;
 	$flex_items_center;
-	margin-top: 16px;
 }
 
 header nav {

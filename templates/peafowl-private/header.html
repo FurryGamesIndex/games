@@ -26,15 +26,13 @@
 {% endif %}
 </head>
 <body>
-<aside class="version-warning">
-	<div class="container">
-		{{ ifac.misc_icon("warn") }}
-		<p class="small">
-			{% if "infobar" in ui %}
+{% if "infobar" in ui %}
+	<aside class="version-warning">
+		<div class="container">
+			{{ ifac.misc_icon("warn") }}
+			<p class="small">
 				{{ ui.infobar }}<br>
-			{% endif %}
-			This is Staging new redesigned FGI UI. Version code: peafowl<br>
-			<a href="https://furrygames.top/">FurryGamesIndex Classic UI</a>
-		</p>
-	</div>
-</aside>
+			</p>
+		</div>
+	</aside>
+{% endif %}

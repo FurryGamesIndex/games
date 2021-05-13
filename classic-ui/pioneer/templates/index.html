@@ -1,0 +1,22 @@
+{% include 'header.html' %}
+<div class="index default">
+	<div class="main">
+		<div class="col-1">
+			{{ ui.index_v2_header }}
+			{{ ui.index_v2_content }}
+		</div>
+		<div class="col-2">
+			<a class="iconline" href="{{ rr }}/{{ lang }}/list.html">{{ ifac.misc_icon("list") }}<span>{{ ui.index_link_games }}</span></a>
+			<a class="iconline" href="{{ rr }}/{{ lang }}/search.html">{{ ifac.misc_icon("search") }}<span>{{ ui.index_link_search }}</span></a>
+			<a class="iconline" href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.{{ lang }}.md">{{ ifac.misc_icon("paw") }}<span>{{ ui.index_link_contribute }}</span></a>
+			<a class="iconline" href="https://github.com/FurryGamesIndex/games/blob/master/CONTRIBUTORS.md">{{ ifac.misc_icon("paw") }}<span>{{ ui.index_link_contributors }}</span></a>
+			<a class="iconline" href="https://github.com/FurryGamesIndex/games">{{ ifac.site_icon("github") }}<span>{{ ui.index_link_github }}</span></a>
+			<a class="iconline" href="https://t.me/FurryGamesIndex">{{ ifac.site_icon("telegram") }}<span>{{ ui.index_link_tg }}</span></a>
+		</div>
+	</div>
+	<div class="blogs">
+	</div>
+{% include 'copying.html' %}
+</div>
+<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+{% include 'footer.html' %}

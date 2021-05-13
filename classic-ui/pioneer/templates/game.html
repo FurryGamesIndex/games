@@ -1,0 +1,76 @@
+{% include 'header.html' %}
+<div class="default topbox">
+{% if game.check_tag("sys", "staging") %}
+	<div class="box warning">{{ ui.warnbox_staging }}</div>
+{% endif %}
+{% if game.check_tag("sys", "tagme") %}
+	<div class="box notice">{{ ui.noticebox_tagme }}</div>
+{% endif %}
+{% if game.replaced_by %}
+	<div class="box notice">{{ ui.noticebox_replacedby % (game.replaced_by.id + ".html", game.replaced_by.get_name(lang)|e) }}</div>
+{% endif %}
+{% if game.expunge %}
+	<div class="box warning">{{ ui.warnbox_expunge }}</div>
+{% endif %}
+</div>
+<div class="game">
+	<div class="leftbox">
+		<h1>{{ game.get_name(lang)|e }}</h1>
+		<div class="onmobile">{% include 'game_logo.html' %}</div>
+		<div class="description">{{ game.get_description(lang).html }}</div>
+		<div class="onmobile">{% include 'game_links.html' %}</div>
+		{% include 'game_authors.html' %}
+		{% include 'game_tags.html' %}
+		<div class="opts">
+			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml">{{ ifac.misc_icon("edit") }}<span>{{ ui.game_edit }}</span></a>
+			<a href="https://twitter.com/intent/tweet?&text={{ ui.game_share_twitter_text.format(name=game.get_name(lang))|urlencode }}&url={{ ("https://furrygames.top/" + lang + "/games/" + name + ".html")|urlencode }}&hashtags=furrygamesindex,furry,game" target="_blank">{{ ifac.site_icon("twitter") }}<span>{{ ui.game_share_twitter }}</span></a>
+		</div>
+		<div class="screenshots">
+		{% if game.sensitive_media %}
+			<div class="warning box" id="sensitive_media_warn">
+				{{ ui.game_sensitive_warning % (rr, lang) }}
+			</div>
+		{% endif %}
+		{% for i in game.media %}
+		{{ i.dom(rr, alt=game.get_name(lang)) }}
+		{% endfor %}
+		</div>
+		<div class="onmobile">{% include 'game_author_widget.html' %}</div>
+		<section id="isso-thread" data-isso-id="games/{{ name }}/{{ lang_without_region }}"></section>
+		<div class="onmobile">{% include 'copying.html' %}</div>
+	</div>
+	<div class="rightbox">
+		{% include 'game_logo.html' %}
+		{% include 'game_links.html' %}
+		{% include 'game_author_widget.html' %}
+		{% include 'copying.html' %}
+	</div>
+</div>
+<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+<script>
+if (localStorage.getItem("show_sensitive") == "true") {
+	$$('script[type="text/x-FGI-sensitive-media"]').forEach(i => {
+		const media = JSON.parse(atob(i.textContent));
+		if (media.type === "image") {
+			const picture = make_picture(media.data, "", null);
+			i.parentNode.insertBefore(picture, i);
+		}
+	});
+	$$('script[type="text/x-FGI-sensitive-media-misc"]').forEach(i => {
+		i.outerHTML = atob(i.textContent);
+	});
+	const warn = $("#sensitive_media_warn");
+	if (warn != null)
+		warn.classList.add("hide");
+}
+if (localStorage.getItem("show_steam_widget") == "true") {
+	$$('script[type="text/x-FGI-steam-widget"]').forEach(i => {
+		i.outerHTML = atob(i.textContent);
+	});
+}
+</script>
+<script data-isso="//comments.furrygames.top/"
+	data-isso-lang="{{ lang_unix_style }}"
+	data-isso-avatar="false"
+	src="//comments.furrygames.top/js/embed.min.js"></script>
+{% include 'footer.html' %}

@@ -1,12 +1,17 @@
-{% include 'header.html' %}
-<div class="default">
-	<input type="checkbox" id="sensitive_switch">
-	<label for="sensitive_switch">Show sensitive contents</label>
-	<div style="margin-top: 18px;">
+{% include 'peafowl-private/header.html' %}
+{% include 'peafowl-private/nav.html' %}
+
+{% include 'peafowl-private/require-javascript.html' %}
+<main class="main_generic">
+	<p>
+		<input type="checkbox" id="sensitive_switch">
+		<label for="sensitive_switch">Show sensitive contents</label>
+	</p>
+	<p>
 		{{ ui.sensitive_page_tip }}
-	</div>
-</div>
-<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+	</p>
+</main>
+{% include 'peafowl-private/footer.html' %}
 <script>
 $("#sensitive_switch").addEventListener('change', async e => {
 	e.preventDefault();
@@ -17,4 +22,4 @@ if (localStorage.getItem("show_sensitive") == "true") {
 	$("#sensitive_switch").checked = true
 }
 </script>
-{% include 'footer.html' %}
+{% include 'peafowl-private/end.html' %}

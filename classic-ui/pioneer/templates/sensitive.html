@@ -1,0 +1,20 @@
+{% include 'header.html' %}
+<div class="default">
+	<input type="checkbox" id="sensitive_switch">
+	<label for="sensitive_switch">Show sensitive contents</label>
+	<div style="margin-top: 18px;">
+		{{ ui.sensitive_page_tip }}
+	</div>
+</div>
+<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+<script>
+$("#sensitive_switch").addEventListener('change', async e => {
+	e.preventDefault();
+	localStorage.setItem("show_sensitive", e.target.checked ? "true" : "false");
+});
+
+if (localStorage.getItem("show_sensitive") == "true") {
+	$("#sensitive_switch").checked = true
+}
+</script>
+{% include 'footer.html' %}

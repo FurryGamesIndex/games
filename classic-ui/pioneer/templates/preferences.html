@@ -1,26 +1,24 @@
-{% include 'peafowl-private/header.html' %}
-{% include 'peafowl-private/nav.html' %}
-
-{% include 'peafowl-private/require-javascript.html' %}
-<main class="main_preferences">
+{% include 'header.html' %}
+<div class="default preferences">
 	<h1>{{ ui.preferences_h1 }}</h1>
 
-	<article>
+	<div class="preferences_entry">
 		<h2>{{ ui.preferences_sensitive_h2 }}</h2>
-		<p>{{ ui.preferences_sensitive }}</p>
-	</article>
-	<hr />
-	<article>
+		<div>{{ ui.preferences_sensitive }}</div>
+	</div>
+
+	<div class="preferences_entry">
 		<h2>{{ ui.preferences_steam_widget_h2 }}</h2>
-		<p>
+		<div>
 			<input type="checkbox" id="steam_widget_switch" class="g_ls_switch" data-lskey="show_steam_widget">
 			<label for="steam_widget_switch">{{ ui.preferences_steam_widget }}</label>
-		</p>
-		<p class="note">{{ ui.preferences_steam_widget_tip }}</p>
-	</article>
-</main>
-<hr />
-{% include 'peafowl-private/footer.html' %}
+		</div>
+		<div class="tip" style="margin-top: 18px;">
+			{{ ui.preferences_steam_widget_tip }}
+		</div>
+	</div>
+</div>
+<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
 <script>
 function gLocalStorageSwitchChange(e) {
 	e.preventDefault();
@@ -36,4 +34,4 @@ $$("input.g_ls_switch").forEach(i => {
 	}
 })
 </script>
-{% include 'peafowl-private/end.html' %}
+{% include 'footer.html' %}

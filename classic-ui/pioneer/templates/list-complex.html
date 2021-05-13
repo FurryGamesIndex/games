@@ -1,0 +1,26 @@
+{% include 'header.html' %}
+{% include 'list-chain.html' %}
+<div class="items items-complex">
+{% for name, game in games %}
+{% set game_name = game.get_name(lang) %}
+	<div class="item item-complex game">
+		<div class="content">
+			<div class="name"><a href="games/{{ name }}.html">{{ game_name|e }}</a></div>
+			<div class="onmobile">{% include 'game_logo.html' %}</div>
+			<div class="description">{{ game.get_description(lang).html }}</div>
+			<div class="onmobile">{% include 'game_links.html' %}</div>
+			<div class="onmobile">{% include 'game_authors.html' %}</div>
+			{% include 'game_tags.html' %}
+		</div>
+		<div class="rightbox noborder">
+			{% include 'game_logo.html' %}
+			{% include 'game_links.html' %}
+			{% include 'game_authors.html' %}
+		</div>
+	</div>
+{% endfor %}
+	<div style="height: 20px;"></div>
+{% include 'copying.html' %}
+</div>
+<script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+{% include 'footer.html' %}
