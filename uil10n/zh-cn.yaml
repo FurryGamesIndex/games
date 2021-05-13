@@ -23,6 +23,8 @@ copying_preferences: 站点首选项
 copying_privacy_policy: 隐私权政策
 copying_oss: 由开源软件提供动力
 
+warnbox_javascript_required: 此页面上的部分或全部功能需要 JavaScript 才能正常工作。
+
 index_v2_header: >
   <h1>兽人控游戏索引</h1>
   <h2>FurryGamesIndex - 发现好玩的兽人游戏</h2>
