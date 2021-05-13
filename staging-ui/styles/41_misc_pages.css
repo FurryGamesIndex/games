@@ -76,6 +76,35 @@
 }
 
 
+.main_search {
+	margin-top: $main_column_gap;
+}
+
+.main_search #search_mode {
+	min-height: 26px;
+}
+
+.main_search #search_wrap {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 8px;
+}
+
+.main_search #search_value {
+	line-height: 1.4;
+	min-height: 26px;
+	max-width: 400px;
+	margin: 5px 6px 0 0;
+	flex: 1 0 auto;
+}
+
+.main_search #search_info {
+	margin: $main_row_gap 0;
+}
+
+
 .main_generic {
 	margin: $main_column_gap 0;
 }

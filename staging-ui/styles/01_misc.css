@@ -38,16 +38,7 @@ a:focus {
 	outline: 0;
 }
 
-button {
-	appearance: none;
-	border: none;
-	background-color: transparent;
-	color: var(--accent-text-color);
-	cursor: pointer;
-}
-
-a:hover,
-button:hover {
+a:hover {
 	color: var(--accent-text-color-alt);
 }
 
@@ -99,4 +90,8 @@ picture {
 
 .small {
 	font-size: 0.875rem;
+}
+
+.hide {
+	display: none !important;
 }
