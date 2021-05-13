@@ -1,5 +1,5 @@
 stylesheets:
-  - output: peafowl-staging.css
+  - output: peafowl.css
     input:
       - 00_variables.css
       - 01_misc.css

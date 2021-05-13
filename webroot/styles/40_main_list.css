@@ -27,6 +27,7 @@
 .main_list .category .cthead {
 	padding-right: 12px;
 	text-align: right;
+	white-space: nowrap;
 }
 
 .main_list .category .ctbody {
