@@ -16,9 +16,7 @@ body {
 }
 
 body:lang(ja),
-body:lang(zh),
-body:lang(zh-cn),
-body:lang(zh-tw) {
+body:lang(zh) {
 	line-height: 1.625;
 }
 
