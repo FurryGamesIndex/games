@@ -150,8 +150,8 @@ $screen_mobile_l3 {
 	}
 	.game_entry .tags,
 	.game_entry .staff {
-		-moz-column-count: 1;
-		-webkit-column-count: 1;
-		column-count: 1;
+		-moz-column-count: auto;
+		-webkit-column-count: auto;
+		column-count: auto;
 	}
 }
