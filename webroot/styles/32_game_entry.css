@@ -148,4 +148,10 @@ $screen_mobile_l3 {
 	.game_entry .game_name {
 		font-size: 1.5rem;
 	}
+	.game_entry .tags,
+	.game_entry .staff {
+		-moz-column-count: auto;
+		-webkit-column-count: auto;
+		column-count: auto;
+	}
 }
