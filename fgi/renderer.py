@@ -35,10 +35,13 @@ class Renderer:
             self.basectx["lang_without_region"] = self.lang_without_region
 
             lang_unix_style = self.lang_without_region
+            lang_bcp47 = self.lang_without_region
             if len(langtag) >= 2:
                 lang_unix_style += "_" + langtag[1].upper()
+                lang_bcp47 += "-" + langtag[1].upper()
 
             self.basectx["lang_unix_style"] = lang_unix_style
+            self.basectx["lang_bcp47"] = lang_bcp47
 
     def new_context(self):
         context = self.basectx.copy()
