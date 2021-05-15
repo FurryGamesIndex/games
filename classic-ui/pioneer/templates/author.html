@@ -1,4 +1,4 @@
-{% include 'header.html' %}
+{% include 'pioneer-private/header.html' %}
 <div class="page_author">
 	<div class="leftbox">
 		<div class="items">
@@ -15,7 +15,7 @@
 			{% endfor %}
 			<div style="height: 20px;"></div>
 		</div>
-		<div class="onmobile">{% include 'copying.html' %}</div>
+		<div class="onmobile">{% include 'pioneer-private/copying.html' %}</div>
 	</div>
 	<div class="rightbox">
 		<div class="flexline widget">
@@ -35,8 +35,8 @@
 			{{ i.html(ui, lang, node_class="iconline", target="_blank") }}
 		{% endfor %}
 		</div>
-		<div class="hideonmobile">{% include 'copying.html' %}</div>
+		<div class="hideonmobile">{% include 'pioneer-private/copying.html' %}</div>
 	</div>
 </div>
 <script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
-{% include 'footer.html' %}
+{% include 'pioneer-private/footer.html' %}

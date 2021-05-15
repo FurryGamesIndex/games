@@ -1,4 +1,4 @@
-{% include 'header.html' %}
+{% include 'pioneer-private/header.html' %}
 <div id="search_box" class="default">
 	<select id="search_mode" >
 		<option value="title">{{ ui.search_form_mode_title }}</option>
@@ -27,7 +27,7 @@
 	<div style="height: 20px;"></div>
 </div>
 <div class="default">
-{% include 'copying.html' %}
+{% include 'pioneer-private/copying.html' %}
 </div>
 <script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
 <script src="{{ res(rr, [ 'scripts', 'searchexpr.js' ]) }}"></script>
@@ -223,4 +223,4 @@ $('#search_value').addEventListener('keyup', e => {
 
 onload();
 </script>
-{% include 'footer.html' %}
+{% include 'pioneer-private/footer.html' %}

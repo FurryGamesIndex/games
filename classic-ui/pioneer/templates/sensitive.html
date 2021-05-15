@@ -1,4 +1,4 @@
-{% include 'header.html' %}
+{% include 'pioneer-private/header.html' %}
 <div class="default">
 	<input type="checkbox" id="sensitive_switch">
 	<label for="sensitive_switch">Show sensitive contents</label>
@@ -17,4 +17,4 @@ if (localStorage.getItem("show_sensitive") == "true") {
 	$("#sensitive_switch").checked = true
 }
 </script>
-{% include 'footer.html' %}
+{% include 'pioneer-private/footer.html' %}

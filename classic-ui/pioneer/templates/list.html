@@ -1,5 +1,5 @@
-{% include 'header.html' %}
-{% include 'list-chain.html' %}
+{% include 'pioneer-private/header.html' %}
+{% include 'pioneer-private/list-chain.html' %}
 <div class="items">
 {% for name, game in games %}
 {% set desc = game.get_description(lang).text %}
@@ -13,7 +13,7 @@
 	</div>
 {% endfor %}
 	<div style="height: 20px;"></div>
-{% include 'copying.html' %}
+{% include 'pioneer-private/copying.html' %}
 </div>
 <script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
-{% include 'footer.html' %}
+{% include 'pioneer-private/footer.html' %}

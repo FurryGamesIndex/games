@@ -1,4 +1,4 @@
-{% include 'header.html' %}
+{% include 'pioneer-private/header.html' %}
 <div class="default topbox">
 {% if game.check_tag("sys", "staging") %}
 	<div class="box warning">{{ ui.warnbox_staging }}</div>
@@ -16,11 +16,11 @@
 <div class="game">
 	<div class="leftbox">
 		<h1>{{ game.get_name(lang)|e }}</h1>
-		<div class="onmobile">{% include 'game_logo.html' %}</div>
+		<div class="onmobile">{% include 'pioneer-private/game_logo.html' %}</div>
 		<div class="description">{{ game.get_description(lang).html }}</div>
-		<div class="onmobile">{% include 'game_links.html' %}</div>
-		{% include 'game_authors.html' %}
-		{% include 'game_tags.html' %}
+		<div class="onmobile">{% include 'pioneer-private/game_links.html' %}</div>
+		{% include 'pioneer-private/game_authors.html' %}
+		{% include 'pioneer-private/game_tags.html' %}
 		<div class="opts">
 			<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{{ name }}.yaml">{{ ifac.misc_icon("edit") }}<span>{{ ui.game_edit }}</span></a>
 			<a href="https://twitter.com/intent/tweet?&text={{ ui.game_share_twitter_text.format(name=game.get_name(lang))|urlencode }}&url={{ ("https://furrygames.top/" + lang + "/games/" + name + ".html")|urlencode }}&hashtags=furrygamesindex,furry,game" target="_blank">{{ ifac.site_icon("twitter") }}<span>{{ ui.game_share_twitter }}</span></a>
@@ -35,15 +35,15 @@
 		{{ i.dom(rr, alt=game.get_name(lang)) }}
 		{% endfor %}
 		</div>
-		<div class="onmobile">{% include 'game_author_widget.html' %}</div>
+		<div class="onmobile">{% include 'pioneer-private/game_author_widget.html' %}</div>
 		<section id="isso-thread" data-isso-id="games/{{ name }}/{{ lang_without_region }}"></section>
-		<div class="onmobile">{% include 'copying.html' %}</div>
+		<div class="onmobile">{% include 'pioneer-private/copying.html' %}</div>
 	</div>
 	<div class="rightbox">
-		{% include 'game_logo.html' %}
-		{% include 'game_links.html' %}
-		{% include 'game_author_widget.html' %}
-		{% include 'copying.html' %}
+		{% include 'pioneer-private/game_logo.html' %}
+		{% include 'pioneer-private/game_links.html' %}
+		{% include 'pioneer-private/game_author_widget.html' %}
+		{% include 'pioneer-private/copying.html' %}
 	</div>
 </div>
 <script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
@@ -73,4 +73,4 @@ if (localStorage.getItem("show_steam_widget") == "true") {
 	data-isso-lang="{{ lang_unix_style }}"
 	data-isso-avatar="false"
 	src="//comments.furrygames.top/js/embed.min.js"></script>
-{% include 'footer.html' %}
+{% include 'pioneer-private/footer.html' %}
