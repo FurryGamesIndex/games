@@ -33,7 +33,7 @@ index_v2_header: >
 index_v2_content: >
   <p>FGI (short for FurryGamesIndex) is a project to collect, organize, classify, tag games which are "furry games" or include furry and/or kemono contents. Also collect third-party localized resource links for these games.</p>
   <p>The motive for creating this project was that Lucky Doge gave up his <a href="https://doge.im/recommend/kemono-games.html">Furry Game Collection</a> project, and Utopic Panther once benefited from the project of Lucky Doge, and trying to rebuild a game collection on the Internet. Lucky Doge <a href="https://github.com/FurryGamesIndex/games/blob/master/luckydoge.txt">generously provided the results that he had made a lot of hard work</a>, making it possible for this project to quickly develop into a practical list.</p>
-  <p>The project pays more attention to maintainability, encourages community participation, provides convenient infrastructure for community participation and improves ease of use (such as tagging and search functions), and may also do voting and discussion in the future.</p>
+  <p>We want you to be part of this project. <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.zh-cn.md">get involved now</a>.</p>
 
 index_link_games: Show all games
 index_link_search: Search games by text or tags

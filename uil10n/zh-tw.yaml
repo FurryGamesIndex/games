@@ -31,7 +31,7 @@ index_v2_header: >
 index_v2_content: >
   <p>FGI (FurryGamesIndex 的縮寫) 是一個致力於收集、組織、分類、標籤“獸人遊戲”或包含 furry、kemono 內容的遊戲的專案。同時也收集這些遊戲的第三方本地化資源連結。</p>
   <p>建立該專案的動機是狗哥（LuckyDoge）放棄了他的<a href="https://doge.im/recommend/kemono-games.html">獸人控遊戲合集</a>專案，Utopic Panther 曾經受益於狗哥的專案，試圖在網際網路上重建一個遊戲合集。<a href="https://github.com/FurryGamesIndex/games/blob/master/luckydoge.txt">狗哥慷慨地提供了他曾經付出大量努力取得的成果</a>，使這個專案快速發展為實用的列表成為了可能。</p>
-  <p>該專案更加註重可維護性，更加鼓勵社群參與，為社群參與提供便利的基礎設施和提高易用性（如標籤及搜尋功能），未來可能還會做評分和討論功能。</p>
+  <p>我們希望你也能來參與這個專案中，<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.zh-tw.md">立即參與其中</a>。</p>
 
 index_link_games: 顯示所有遊戲
 search_found_n_item: 共找到 {0} 項
