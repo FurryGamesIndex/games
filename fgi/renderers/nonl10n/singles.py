@@ -46,4 +46,8 @@ class RendererSingles(Renderer):
         with self.sm_openw("credits.html") as f:
             f.write(self.env.get_template("simple_md.html").render(context))
 
+        context = self.new_context()
+        with self.sm_openw("404.html") as f:
+            f.write(self.env.get_template("404.html").render(context))
+
 impl = RendererSingles
