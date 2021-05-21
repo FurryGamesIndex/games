@@ -1,0 +1,82 @@
+name: Lost End / 遗失的终章
+
+description: |
+  This is a high degree of freedom game that combines text-based romance and nurturing.
+  Players will play the protagonist to experience a youthful college senior year.
+  
+  Game Features
+  You can explore cafes, basketball clubs, hot springs, and other places in the game.
+  You can also raise the main character and write songs, work part-time, perform on the street, etc. 
+  The game also has a large number of characters and storylines, all of which can date.
+  Just visit the characters in the game to send gifts and dates to improve the goodwill level!
+
+  (Translated from Chinese)
+
+authors:
+  - name: 风旅社
+    role: [ producer ]
+  - name: 天蝎帝之魂
+    standalone: true
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 迷路的麋鹿
+    standalone: true
+    role: [ screenwriter ]
+  - name: 陈钟实
+    standalone: true
+    role: [ artist ]
+  - name: Angry灰夜`
+    standalone: true
+    role: [ artist ]
+  - name: 碇饭煲
+    standalone: true
+    role: [ artist ]
+  - name: 蓝天狗
+    standalone: true
+    role: [ artist ]
+  - name: 烤龙堡
+    standalone: true
+    role: [ artist ]
+  - name: 谢尔Milano
+    standalone: true
+    role: [ musician ]
+  - name: 花生酱
+    standalone: true
+    role: [ musician ]
+
+tags:
+  type:
+    - visual-novel
+    - dating-sim
+  male:
+    - dog
+    - bear
+    - dragon
+    - lion
+    - tiger
+    - muscle
+    - males-only
+  misc:
+    - work-in-process
+    - engine-unity
+  lang:
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .demo-version
+    icon: weibo
+    uri: https://weibo.com/6343557679/Kgm9Uknz9
+  - name: .steam
+    uri: steam:1636560
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_fdc59235d73918179ff96a89bd038382a0a1d6d7.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_de5e428fd9c4d81451c51a90c7e41ecf66f09e28.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_e9c492d894833a24cf8c4cd588ea82806ec67414.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_31e2059d56c9661b4bf39d1cd18475a292b0016d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_9e1bc35933a2152e88ae7ace65f8f8489f2dd817.1920x1080.jpg
