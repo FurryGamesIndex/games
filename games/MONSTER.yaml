@@ -1,0 +1,49 @@
+name: MONSTER
+
+description: |
+  Monster is a 2D fighting game released in 2005 and 2006 by 8105graphics. It features a diverse cast of human and anthropomorphic animal characters with a variety of unique fighting styles.
+  
+  Monster features a loose fighting system like other anime fighting games, but with a somewhat slower, more deliberate pace. It also features a Street Fighter Alpha 3 groove-style "shift" system, which allows the player to select one of three different modes to customize gameplay - Monster, Freedom, and Tranquility. Monster reduces attack speed but increases damage for a tankier gameplay style; freedom reduces damage and allows moves to be cancelled into each other for rushdown-oriented play; and tranquility emphasizes defense and improves moves' invincibility properties. When activated, these modes also change other special move properties to allow for further flexibility in gameplay styles.
+  
+  An arcade sequel was announced in 2008, to be published by Examu. It was quietly cancelled after location tests over a few years.
+  Notes
+  This version of the game is a CD released at Comiket. It contains the 1.0 release. The final release was version 1.11B; the included update_mnstprd_111b.exe file will update the game to that version.
+  
+  (From: https://archive.org/details/monster_8105graphics)
+
+authors:
+  - name: 8105graphics
+    role: [ producer ]
+
+tags:
+  type:
+    - fighting
+  male:
+    - lynx
+    - dog
+    - wolf
+    - dragon
+    - humankind
+    - muscle
+  female:
+    - humankind
+  misc:
+    - multiplayer
+    - pvp
+  lang:
+    - ja
+  platform:
+    - windows
+
+links:
+  - name: .unofficial-archived-download
+    icon: internet-archive
+    uri: https://archive.org/details/monster_8105graphics
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/UGsBeH2.png
+  - https://i.imgur.com/ofOMLp0.png
+  - https://i.imgur.com/6gd7XTr.png
+  - https://i.imgur.com/EXcJtMY.png
