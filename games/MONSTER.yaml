@@ -39,6 +39,8 @@ links:
   - name: .unofficial-archived-download
     icon: internet-archive
     uri: https://archive.org/details/monster_8105graphics
+  - name: .unofficial-archived-download
+    uri: https://mega.nz/folder/zu5yCZKC#HJ0qhIFEttSnXhuxkrCzuA
 
 thumbnail: thumbnail.jpg
 
@@ -47,3 +49,4 @@ screenshots:
   - https://i.imgur.com/ofOMLp0.png
   - https://i.imgur.com/6gd7XTr.png
   - https://i.imgur.com/EXcJtMY.png
+  - https://i.imgur.com/8oWVfDK.png
