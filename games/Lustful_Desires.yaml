@@ -95,24 +95,35 @@ tags:
     - visual-novel
     - adventure
     - bara
-    - yuri
     - yiff
   male:
     - dragon
     - bull
     - mouse
+    - horse
     - wolf
     - lizard
+    - red-panda
     - humankind
     - anal
+    - human-on-furry
+    - animal-on-furry
+    - transfur
+    - group
+    - blowjob
+    - frottage
+    - master-slave
   female:
     - humankind
   misc:
     - engine-renpy
+    - uncensored
+    - multiple-endings
     - not-only-furry-topic
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -129,6 +140,9 @@ links:
     uri: patreon:hyao
   - name: .discord
     uri: https://discord.gg/Xe32FDr
+  - name: .unofficial-version-zh
+    icon: telegram
+    uri: https://t.me/ldlocalization
 
 thumbnail: thumbnail.jpg
 
