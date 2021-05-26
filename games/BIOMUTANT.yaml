@@ -1,0 +1,88 @@
+name: BIOMUTANT
+
+description: |
+  BIOMUTANT® is an open-world, post-apocalyptic Kung-Fu fable RPG, with a unique martial arts styled combat system allowing you to mix melee, shooting and mutant ability action.
+
+  A plague is ruining the land and the Tree-of-Life is bleeding death from its roots. The Tribes stand divided. Explore a world in turmoil and define its fate – will you be its saviour or lead it to an even darker destiny?
+
+  ## Key Features:
+  
+  ### A NEW TAKE ON 3rd PERSON COMBAT
+  The martial arts style combat system allows you maximum freedom of movement and agility while mixing shooting, melee and powers from your mutations. Learning new Wung-Fu combat forms through progression and learning from masters you’ll meet, will constantly add to your choices and make sure combat never gets old.
+  
+  ### EVOLVE YOUR GAME-PLAY
+  You’ll be able to re-code your genetic structure to change the way you look and play. This will of course affect your attributes and in addition to this, exposure to bio-contamination in the world will lead to mutations like the Turtleform and Mucus Bubble, while exposure to radioactivity found in bunkers from the old world will affect your mind and unlock psi-mutations like telekinesis, levitation and more.
+
+  ### NEXT LEVEL OF CRAFTING
+  You are totally free when crafting weapons. Mix and match parts to create your own unique 1H or 2H slash and crush weapons. Revolvers, rifles and shotguns and add modifications like cork-screws and battery-powered chainsaw modules to bio-contaminated sludge vials adding to your combat arsenal. There are even characters you’ll meet that’ll craft cool stuff for you, like bionic wings, a jump-pack and even let you modify your Automaton - the scrap-toy sidekick!
+
+  ### GEAR UP FOR ADVENTURE
+  You are totally free when equipping your character. Not only when it comes to choosing weapons you created, but what type of gear you wear. Equip a gas-mask and an oxygen tank for exploring the Dead Zones, thermos-resistant clothes for venturing into cryonic areas or protective gear for taking on bio-contaminated creatures, the choice is up to you.
+
+  ### SURVIVE IN A VIBRANT OPEN WORLD
+  You are free to explore the world and what lies beneath its surface, by foot, mech, jet-ski, air-balloon or area unique mounts. Explore the dying wildland, the tunnels and bunker networks of the underworld, and find your way up the mountains or out in the archipelago. There are lots of discoveries to be made, mysteries to unravel, creatures to confront and weird characters to meet in this vibrant and colorful world.
+
+  ### AN UNUSUAL STORY WITH AN UNUSUAL END
+  Your actions play a major part in the unfolding of a story where End is coming to the New World. A plague is ruining the land and the Tree-of-Life is bleeding death from its roots. The Tribes stand divided, in need of someone strong enough to unite them or bring them all down...
+
+  You are guided through the world by a Storyteller that narrates every step of your journey, but it’s your actions and choices that’ll decide how your story of survival ends.
+
+description-format: markdown
+
+authors:
+  - name: Experiment 101
+    role: [ producer ]
+  - name: THQ Nordic
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+    - role-playing
+  male:
+    - raccoon
+  misc:
+    - 3d
+    - full-audio
+  lang:
+    - ar
+    - de
+    - en
+    - es
+    - fr
+    - it
+    - ja
+    - ko
+    - pl
+    - ru
+    - tr
+    - zh
+  publish:
+    - steam
+    - microsoft-store
+  platform:
+    - windows
+    - playstation4
+    - xbox-one
+
+links:
+  - name: .steam
+    uri: steam:597820
+  - name: .playstation-store
+    uri: https://store.playstation.com/concept/229899
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/en-us/p/biomutant/bsn8bs8f8bbj
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256693352/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256693352/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/597820/ss_c90cb58d38bfbcc79618185427f8790a2af0568b.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/597820/ss_e3529eca99bde58e8ea506c02d5b89ae14f8b43c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/597820/ss_a7a49fd07630a6639248267a91f9825e6722f6ac.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/597820/ss_bd6520370a7e1470c7d7a1d631cfcd75e9b2ff4f.1920x1080.jpg
