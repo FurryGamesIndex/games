@@ -162,6 +162,7 @@ The following are automatic tags, they are no different from other tags when you
 - `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` Sexual activity between a humankind creature and a furry
 - `animal-on-furry` Sexual activity between a animal/non-anthro and a furry
+- `nakadashi` STUB
 - `exhibitionism` 
 - `netorare` 
     - This tag has these alias(es): `ntr`
@@ -226,6 +227,7 @@ Used to describe miscellaneous information related to the game
 - `engine-rpg-maker` The game is developed using RPG Maker engine
 - `engine-godot` The game is developed using GoDot engine
 - `engine-ue4` The game is developed using Unreal Engine 4
+- `engine-tyranobuilder` The game is developed using TyranoBuilder
 - `adobe-flash` The game was developed using Adobe Flash. Not to be confused with `platform:shockwave-flash`, which emphasizes that the user needs a Flash Player installation to run.
 - `multiple-endings` There are multiple different endings in the game
 - `multiple-series` The game is included in a series of connected worldviews or plots
@@ -252,6 +254,8 @@ Used to describe miscellaneous information related to the game
 
 The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 
+- `ar` Arabic supporting provided by offical author
+- `cs` Czech supporting provided by offical author
 - `de` German supporting provided by offical author
 - `en` English supporting provided by offical author
 - `en-unofficial` English supporting provided by unoffical source

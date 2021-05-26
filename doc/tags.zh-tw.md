@@ -162,6 +162,7 @@
 - `paizuri` Main characters may thruste a penis in between breasts
 - `human-on-furry` 主要角色中，人類與獸人發生了性關係
 - `animal-on-furry` 主要角色中，動物或純獸（非人形 furry）和獸人發生了性關係
+- `nakadashi` STUB
 - `exhibitionism` 主要角色出現了在有可能被其他人看見的地方（如戶外）進行自願裸體或性行為
 - `netorare` 另一個角色的配偶/伴侶與某角色發生關係。
     - 此標籤有這些別名：`ntr`
@@ -226,6 +227,7 @@
 - `engine-rpg-maker` 遊戲使用了 RPG Maker 引擎
 - `engine-godot` 遊戲使用了 GoDot 引擎
 - `engine-ue4` The game is developed using Unreal Engine 4
+- `engine-tyranobuilder` The game is developed using TyranoBuilder
 - `adobe-flash` 遊戲使用了 Adobe Flash 開發。不要與 `platform:shockwave-flash` 混淆，後者強調需要使用者單獨安裝 Flash Player 才能執行。
 - `multiple-endings` 遊戲有多種結局
 - `multiple-series` 遊戲包含多個世界觀、劇情有聯絡的系列/版本（提示：如果世界觀具有其特殊性且相近，即使劇情無聯絡，則仍然認為是同一系列（類似於數碼寶貝1, 3）；如果世界觀是一種常見的、樸實的、一般的世界，如“現代日本”，“中世紀歐洲”，則只有當劇情有聯絡時，才認為是同一系列。這個標籤在使用上有時可能會傾向主觀而非客觀，如果有更多問題，請開啟 issue 討論）
@@ -252,6 +254,8 @@
 
 用於說明遊戲的語言（使用 ISO 639-1 Alpha-2 code 標準語言程式碼）
 
+- `ar` Arabic supporting provided by offical author
+- `cs` 遊戲有官方捷克語版本
 - `de` 遊戲有官方德語版本
 - `en` 遊戲有官方英語版本
 - `en-unofficial` 遊戲有非官方英語版本
