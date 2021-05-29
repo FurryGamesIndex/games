@@ -9,9 +9,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: The Echo Project
+    role: [ producer ]
+  - name: Paintfox
+    role: [ artist ]
+  - name: Kardamon
+    role: [ artist ]
+  - name: Moe
+    role: [ artist ]
+  - name: Gumdrop Studios
+    role: [ artist ]
+
 tags:
-  author:
-    - 'The Echo Project'
   type:
     - visual-novel
     - bara
