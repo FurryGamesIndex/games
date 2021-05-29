@@ -1,0 +1,69 @@
+name: Arches
+
+description: |
+  **Arches contains themes of an adult nature - you must be 18 or older to play. Arches can be an emotionally intense experience and may not be for everyone. Themes of drug addiction, mental illness, and feelings of existential horror are explored, along with descriptions and imagery of violence. Please consider your mental well-being before downloading.**
+
+  A couple visit Echo to do some paranormal investigating, the town now abandoned five years after the mass hysteria. Despite this, something evil still lurks in the town, evil enough that it's kept the horrors alive.
+
+  Arches is a standalone story that takes place after the events of Echo.
+
+description-format: markdown
+
+authors:
+  - name: The Echo Project
+    role: [ producer ]
+  - name: Paintfox
+    role: [ artist ]
+  - name: Kardamon
+    role: [ artist ]
+  - name: Moe
+    role: [ artist ]
+  - name: Gumdrop Studios
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - bear
+    - wolf
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://echoproject.itch.io/arches
+  - name: .patreon
+    uri: patreon:EchoGame
+  - name: .twitter
+    uri: twitter:EchoTheVN 
+  - name: .unofficial-patch-zh
+    icon: twitter
+    uri: https://twitter.com/ABLocalization/status/1396757517191966720
+  - name: .unofficial-patch-zh
+    icon: weibo
+    uri: https://weibo.com/7429628292/KgYGxFmH6
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTAwNzAyMC81NzM2MDgyLnBuZw==/original/zra4tt.png
+  - https://img.itch.zone/aW1hZ2UvMTAwNzAyMC81NzM2MDg0LnBuZw==/original/Rs3trx.png
+  - https://img.itch.zone/aW1hZ2UvMTAwNzAyMC81NzM2MDg1LnBuZw==/original/eP3%2FTX.png
