@@ -18,9 +18,10 @@ tags:
     - fox
   misc:
     - freeware
-    - work-in-process
+    - died
   lang:
     - en
+    - zh-unofficial
   platform:
     - windows
     - macos
@@ -31,6 +32,8 @@ links:
     uri: https://harmarist.itch.io/anubis
   - name: .twitter
     uri: twitter:harmarist
+  - name: .unofficial-version-zh
+    uri: https://xblog.evil-octopus.ml/index.php/2020/06/anubis%E6%B1%89%E5%8C%96%E8%A1%A5%E4%B8%81/fish/h-game-localization/
 
 thumbnail: thumbnail.jpg
 
