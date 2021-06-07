@@ -66,6 +66,16 @@ MIT License
 
 [https://www.crummy.com/software/BeautifulSoup/](https://www.crummy.com/software/BeautifulSoup/)
 
+## Isso
+
+MIT License
+
+<https://github.com/posativ/isso>
+
+We use a patched/modified python-markdown2 with our out-of-tree patches
+
+Patched fork: <https://github.com/FurryGamesIndex/isso>
+
 ## Icons
 
 FGI uses icon fonts including but not limited to icons created by contributors and icons from third parties such as Font Awesome.
