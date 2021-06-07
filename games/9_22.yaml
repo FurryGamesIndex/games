@@ -9,12 +9,6 @@ description: |
   
   If you'd like to ask a question, submit a particularly silly typo, or just say hello, please give me a shout on [Twitter](https://twitter.com/its_cockhole).
   
-  Want to support the project? If so, please consider becoming a patron over at [Patreon](https://www.patreon.com/922vn).
-  
-  Update Schedule
-  Public versions are released on the 1st of every month.
-  Additional mid-month versions are released every ten days or so over on [Patreon](https://www.patreon.com/922vn).
-
 description-format: markdown
 
 tags:
@@ -30,7 +24,7 @@ tags:
     - males-only
   misc:
     - freeware
-    - work-in-process
+    - suspended
     - engine-renpy
   lang:
     - en
