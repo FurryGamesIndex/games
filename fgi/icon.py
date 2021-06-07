@@ -20,7 +20,6 @@
 site_map = {
     "itch.io": "itch-io",
     "gog.com": "gog-com",
-    "furaffinity": "fur-affinity",
     "demo-version-steam": "steam",
     "demo-version-gog.com": "gog-com",
 }
