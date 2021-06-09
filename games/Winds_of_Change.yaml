@@ -71,14 +71,18 @@ tags:
     - en
   publish:
     - steam
+    - e-shop
   platform:
     - windows
     - macos
     - linux
+    - nintendo-switch
 
 links:
   - name: .steam
     uri: steam:594130
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/games/detail/winds-of-change-switch/
 
 thumbnail: thumbnail.jpg
 
