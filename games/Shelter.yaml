@@ -22,9 +22,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Raus
+    role: [ producer, screenwriter, artist, musician ]
+
 tags:
-  author:
-    - rausmutt
   type:
     - visual-novel
     - bara
@@ -32,6 +34,7 @@ tags:
   male:
     - dog
     - wolf
+    - humankind
     - muscle
     - males-only
     - masturbation
@@ -41,6 +44,7 @@ tags:
     - uncensored
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -62,6 +66,9 @@ links:
     uri: twitter:Vuffski
   - name: .furaffinity
     uri: furaffinity:raus
+  - name: .unofficial-version-zh
+    icon: telegram
+    uri: https://t.me/ldlocalization/21
 
 thumbnail: thumbnail.jpg
 

@@ -27,11 +27,8 @@ tags:
   misc:
     - pixel-art
     - engine-ue4
-    - work-in-process
     - full-audio
   lang:
-    # FIXME: Currently, demo version has only English subtitles,
-    # the unpublished Full version may contain more languages.
     - en
   publish:
     - steam
@@ -44,6 +41,8 @@ tags:
     - xbox-one
 
 links:
+  - name: .steam
+    uri: steam:865610
   - name: .demo-version-steam
     uri: steam:992310
   - name: .website
@@ -52,9 +51,6 @@ links:
     uri: twitter:backbonegame
   - name: Project on Kickstarter
     uri: https://www.kickstarter.com/projects/106061903/backbone-pixel-art-detective-adventure-inspired-by/description
-  # FIXME: unpublished on steam
-  #- name: .steam
-  #  uri: steam:865610
 
 thumbnail: thumbnail.jpg
 

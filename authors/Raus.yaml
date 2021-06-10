@@ -1,0 +1,21 @@
+name: Raus
+
+aliases:
+  - rausmutt
+  - Raus Vuffski
+
+type: personal
+
+avatar: Raus.jpg
+
+links:
+  - name: Twitter (NSFW)
+    icon: twitter
+    uri: twitter:rausmutt
+  - name: Twitter (SFW)
+    icon: twitter
+    uri: twitter:Vuffski
+  - name: .furaffinity
+    uri: furaffinity:raus
+  - name: .patreon
+    uri: patreon:raus
