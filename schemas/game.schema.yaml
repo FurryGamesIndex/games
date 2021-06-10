@@ -22,6 +22,11 @@ properties:
       - markdown
     description: |
       Game description should be `plain` (default) text or will be rendered by `markdown`.
+  brief-description:
+    type: string
+    description: |
+      A brief description of the game. In English.
+      Not implemented by official FGI rendering tools yet.
   expuged:
     type: boolean
     description: |
