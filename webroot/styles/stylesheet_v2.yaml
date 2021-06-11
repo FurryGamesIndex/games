@@ -64,7 +64,7 @@ macros:
     -webkit-flex-shrink: 1;
     flex-shrink: 1
   flex_grow_1x: |-
-    -webkit-flex-grow: 1
+    -webkit-flex-grow: 1;
     flex-grow: 1
 
   flex_justify_center: |-
