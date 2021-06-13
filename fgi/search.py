@@ -48,7 +48,7 @@ class SearchDatabase:
         data = {}
         data["tr"] = {}
         data["name"] = game.name
-        data["description"] = game.description.text
+        data["brief"] = game.description.brief_html
         data["thumbnail"] = game.thumbnail.dict()
         data["mtime"] = game.mtime
 
@@ -57,7 +57,7 @@ class SearchDatabase:
             if game.tr[lang].name:
                 data["tr"][lang]["name"] = game.tr[lang].name
             if game.tr[lang].description:
-                data["tr"][lang]["description"] = game.tr[lang].description.text
+                data["tr"][lang]["brief"] = game.tr[lang].description.brief_html
 
         self.db["data"][game.id] = data
 

@@ -1,9 +1,8 @@
-{% set desc = game.get_description(lang).text %}
 {% set game_name = game.get_name(lang) %}
 <section>
 	<h2 class="game_name"><a href="{{ rr }}/{{ lang }}/games/{{ game.id }}.html">{{ game_name|e }}</a></h2>
 	<div class="description">
-		{{ (desc[:480] + (desc[480:] and '...'))|e }}
+		{{ game.get_description(lang).brief_html }}
 	</div>
 </section>
 {{ game.thumbnail.with_rr(rr).html(node_class="thumbnail", alt=game_name) }}
