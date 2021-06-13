@@ -36,9 +36,13 @@ class Tag:
 class GameDescription:
     def __init__(self, game, data):
         self.fmt = "plain"
+        self.brief = None
 
         if "description-format" in data:
             self.fmt = data["description-format"]
+
+        if "brief-description" in data:
+            self.brief = data["brief-description"]
 
         self.game = game
         self.text = data["description"]
@@ -61,6 +65,16 @@ class GameDescription:
             self.text = BeautifulSoup(self.html, features="html.parser").get_text()
         else:
             raise ValueError(f"description format invaild: {fmt}")
+
+        if not self.brief:
+            # FIXME: split by words, not characters.
+            self.brief = self.text[:480] + (self.text[480:] and "...")
+            self.brief = self.brief.replace("\n", " ")
+
+        self.brief = self.brief.rstrip(" \n")
+
+        self.brief_sl = self.brief.replace("\n", " ")
+        self.brief_html = escape(self.brief).replace("\n", "<br />")
 
 class GameL10n:
     def __init__(self, game, data, mtime):
