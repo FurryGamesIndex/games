@@ -18,6 +18,13 @@ properties:
       - markdown
     description: |
       Game description should be `plain` (default) text or will be rendered by `markdown`.
+  brief-description:
+    type: string
+    description: |
+      A brief description of the game.
+      brief-description will be used in standard list page.
+      If you do not specify a brief-description, we will use first 480 characters from description.
+      For Chinese, the max size of brief-description is 240 and min size of brief-description is 100. One English character will treadted as 0.5 chinese chinese character.
   links-tr:
     type: object
     title: LinkTranslation
