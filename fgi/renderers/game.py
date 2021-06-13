@@ -77,7 +77,7 @@ class RendererGame(Renderer):
 
         meta = dict()
         meta["title"] = game.get_name(self.language)
-        meta["description"] = escape(game.get_description(self.language).text[:200].replace('\n', '') + "...")
+        meta["description"] = escape(game.get_description(self.language).brief_sl)
         meta["image"] = game.thumbnail.with_rr(context["rr"]).src
         meta["extra_keywords"] = keywords.game_page_extra_keywords(game, context["ui"])
         context["meta"] = meta

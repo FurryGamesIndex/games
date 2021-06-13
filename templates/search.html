@@ -59,10 +59,8 @@ let add = (id, game) => {
 	link.textContent = getL10n(game, "name");
 	link.href = "games/" + id + ".html";
 
-	let desc = getL10n(game, "description");
-	if (desc.length > 480)
-		desc = desc.substr(0, 480) + "...";
-	item.querySelector(".description").textContent = desc;
+	let desc = getL10n(game, "brief");
+	item.querySelector(".description").innerHTML = desc;
 
 	items.appendChild(item);
 	items.appendChild(document.createElement("hr"));
