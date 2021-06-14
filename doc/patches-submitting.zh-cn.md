@@ -14,7 +14,7 @@
 组件或范围: 摘要
 ```
 
-**您可以在 pull request 的提交中使用混乱的提交格式，因为在这种情况下维护者会采用压缩合并，使其变为一条提交，然后维护者会为您编写一个合适的 commits 消息。**这主要是便于那些直接在 Github 网页上编辑的贡献者。但是如果您的一个 pull request 中修改了 FGI 中互不相关的几个部分，当维护者认为难以编写提交消息时，维护者可能要求您整理您的修改并重新发起 pull request。
+**您可以在 pull request 的提交中使用混乱的提交格式，因为在这种情况下维护者会采用压缩合并，使其变为一条提交，然后维护者会为您编写一个合适的 commits 消息。** 这主要是便于那些直接在 Github 网页上编辑的贡献者。但是如果您的一个 pull request 中修改了 FGI 中互不相关的几个部分，当维护者认为难以编写提交消息时，维护者可能要求您整理您的修改并重新发起 pull request。
 
 > 如果 pull request 中每个提交都符合此要求，维护者应该首选采用默认的合并方式（类似于 git 的非快进合并）。以便修改记录尽可能详细。
 
@@ -112,6 +112,8 @@ plugins/steam-cdn-unite: add new akamai CDN URI prefix
 
 例外2：对于渲染器代码（fgi/renderers/...）`组件或范围: ` 中应删除 `fgi/` 前辍，剩余部分遵守文件路径。
 
+> 历史上，`fgi/renderers/` 目录曾经是 `renderers/`，此要求保证了格式与历史消息格式相同。
+
 ```
 renderers/list: initial multi-klass support
 ```
@@ -130,18 +132,24 @@ templates/list: use list_item widget
 templates/peafowl-private/header: fixup opengraph description escape
 ```
 
+样式表文件虽然存放于 `webroot/styles/`，但 `组件或范围: ` 中应删除 `webroot/` 前辍，剩余部分遵守文件路径。
+
 ```
 styles/32_game_entry: add workarounds for Mozilla Firefox
 ```
 
 ### Webroot
 
+例外1: webroot/base/ 下的文件，`组件或范围: ` 中应将 `webroot/base/` 前辍改为 `webroot/`，剩余部分遵守文件路径。
+
+> 历史上，`webroot/base/` 目录曾经是 `webroot/`，此要求保证了格式与历史消息格式相同。
+
 ```
 webroot/robots: disallow /classic-ui
 webroot/scripts/searchexpr: initial @reverse and @lastmod support
 ```
 
-例外1: service worker 文件直接使用 `sw: ` 作为 `组件或范围: `。
+例外2: service worker 文件直接使用 `sw: ` 作为 `组件或范围: `。
 
 ```
 sw: proactive opaque cache avoiding
@@ -181,7 +189,7 @@ classic-ui/pioneer: templates/pioneer-private/header: fixup build
 
 > 这种情况下永不使用 `子组件:`
 
-通过 git 子模块（git submoddule）引入的组件的提交消息是非常形式化的。只有以下两种情况。
+通过 git 子模块（git submodule）引入的组件的提交消息是非常形式化的。只有以下两种情况。
 
 被 FGI 组织正式维护的仓库，使用以下提交消息表明更新到最新版本。
 
@@ -212,7 +220,7 @@ treewide: run zhconv
 
 目前 FGI 只有一种标识，`[DO NOT MERGE]`。
 
-### `[DO NOT MERGE]` 标识`
+### `[DO NOT MERGE]` 标识
 
 `[DO NOT MERGE]` 声明此提交不提交到主分支，且不应该被合并到主分支。
 
