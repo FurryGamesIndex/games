@@ -25,7 +25,8 @@
 }
 
 .game_entry .media > *,
-.game_entry .media img {
+.game_entry .media img,
+.game_entry .description img {
 	margin-bottom: 16px;
 	width: 100%;
 	max-width: 100%;
