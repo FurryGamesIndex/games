@@ -24,7 +24,7 @@
 	list-style-type: initial;
 }
 
-.game_entry .media > *,
+.game_entry .media > *:not(picture),
 .game_entry .media img,
 .game_entry .description img {
 	margin-bottom: 16px;
