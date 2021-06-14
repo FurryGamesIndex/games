@@ -1,0 +1,78 @@
+name: "Anonymous Letter: Prowler / 匿名信：隐匿者"
+
+brief-description: |
+  Anonymous letter puzzle series 2，A novel form of puzzle solving combined with interesting gameplay，It has beautiful pictures and rich plots.Players need to explore puzzles step by step through rigorous scrutiny and logical ability，Puzzle solving enthusiasts are advised to have an in-depth experience!
+
+description: |
+  ## Introduction to the game
+
+  **Anonymous letter: Prowler is the second installment in the anonymous letter adventure puzzle series.**
+
+  The story continues "anonymous letter: the heartbreaker" protagonist fox full found that someone in the school's underground laboratory conducted a secret experiment, mistakenly touched the gas switch. They were taken to hospital, where they recovered to find an anonymous letter directing them to a Chinese restaurant, the chunghwa building. Through a series of explorations, it is discovered that zhonghua building has been transformed by people, and everything seems to come from an abnormal giant tree... What's behind all this?
+
+  This work maintains the original puzzle solving, while the adventure narrative features enhanced 3D scene solving and character interaction.
+
+  The detective's notebook has added features such as character profiling, clue analysis and event recording, which are easy for puzzle solvers and players who like to read stories to expand carefully.
+
+  Furry fans can have a more complete understanding of the worldview of this series through comics and adventure narration. Many Easter eggs are hidden in the works, which need to be carefully searched by players.
+
+  ## Game features
+
+  **Rich and interesting puzzle solving methods**
+
+  Scene interaction solution puzzle, role interaction solution puzzle, logical reasoning solution puzzle, multi-line open solution puzzle and other solutions play integration, not only test the player's memory, logic, but also test the player's insight and creative thinking, players will follow the developer's imagination together rich, explore the fun of solving puzzles.
+
+  **Beautifully painted, the Gospel of Furry enthusiasts**
+
+  As many as 12 characters in the series are anthropomorphic animals. Exquisite drawing, with the scene atmosphere, make the game art unique. It is not only the welfare of puzzle solving enthusiasts, but also the Gospel of Furry enthusiasts.
+
+  **Open plot design, let the player imagination rich**
+
+  Through the collection of clues and the unlocking of events in the notebook, players will have a more profound interpretation of the series of works. The open ending design and the intricate character lines will enrich players' imagination.
+
+  **Chamber of secrets playing method highlights 3D scene features**
+
+  In the game, the advantage of 3D scene is used to create a tense and suspenseful atmosphere, restore the secret room escape gameplay, and give players immersive experience. 
+
+description-format: markdown
+
+tags:
+  author:
+    - 元气工作室
+  type:
+    - adventure
+    - strategy
+    - casual       
+  male:
+    - fox
+    - red-panda
+    - monkey
+  female:
+    - cat
+    - deer
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+    - google-play
+    - apple-appstore
+  platform:
+    - windows
+    - android
+    - ios
+
+links:
+  - name: .steam
+    uri: steam:1216700
+  - name: Get on Taptap
+    uri: https://www.taptap.com/app/171376
+  - name: .apple-appstore
+    uri: https://apps.apple.com/cn/app/id1494994926
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1216700/ss_35c4dadb009554b3ba4d90a5d4c215c62ac1a86e.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1216700/ss_fab7edbc43cdb99d5abac88c1c17c8a512d376de.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1216700/ss_9bafb13ac41fbf40b4f330091afea1b3dfb2d537.1920x1080.jpg
