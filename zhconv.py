@@ -98,6 +98,7 @@ if not args.no_builtin:
     conv(os.path.join(root_dir, "README.%s.md" % origin), os.path.join(root_dir, "README.%s.md" % to), True)
     conv(os.path.join(doc_dir, "Contribute.%s.md" % origin), os.path.join(doc_dir, "Contribute.%s.md" % to), True)
     conv(os.path.join(doc_dir, "Get-Involved.%s.md" % origin), os.path.join(doc_dir, "Get-Involved.%s.md" % to), True)
+    conv(os.path.join(doc_dir, "patches-submitting.%s.md" % origin), os.path.join(doc_dir, "patches-submitting.%s.md" % to), True)
     conv(os.path.join(doc_dir, "zhconv.%s.md" % origin), os.path.join(doc_dir, "zhconv.%s.md" % to), False)
     conv(os.path.join(doc_dir, "faq.%s.md" % origin), os.path.join(doc_dir, "faq.%s.md" % to), True)
     conv(os.path.join(doc_dir, "search_help.%s.md" % origin), os.path.join(doc_dir, "search_help.%s.md" % to), True)
