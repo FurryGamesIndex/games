@@ -1,0 +1,46 @@
+name: "Stayer / 匿名信：失心者"
+
+description: |
+  Anonymous letter: the loss of heart is the beginning of the series of anonymous letter puzzle game, mainly tells about the intern detective man because of receiving an anonymous letter and broke the original quiet, when the letter instructions came to the abandoned 13 high school, found that everything has changed, is the trap? Or the truth? Numerous secrets and once unknown past events gradually emerge to the surface as I step into the campus at that moment to collect all kinds of props and clues, complete the complex puzzle game, and finally uncover the truth please follow this heart, to solve the mystery one by one who is the real heart lost.
+
+  Rich interesting puzzle game scene interactive puzzles, interactive puzzles, logic puzzles, multi-line open puzzles and other puzzles play, not only test the player's memory, logic, more test player's insights and creative thinking, players will follow the developer's imagination, together to explore the puzzle fun exquisite painting, the role of the Furry lovers series of the Gospel of up to 12, all is the personification of animal image painted exquisite, with the scene atmosphere, make the game art is about is not only the welfare of the puzzle enthusiasts, but also the Gospel of Furry lovers The plot design of open mode, let the imagination players through collection and notebook in the event of clues to unlock, would be even more profound interpretation of this series of works, the end of the open design and complicated character line, for players to imaginative chamber of gameplay, highlighting features 3d scenes in the game, taking advantage of the 3d scenes, foil the tense atmosphere of suspense, restore the chamber of secrets escape game, immersive experience to the players.
+
+description-format: markdown
+
+tags:
+  author:
+    - 元气工作室
+  type:
+    - adventure
+    - strategy
+    - casual   
+  male:
+    - fox
+  female:
+    - cat
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+    - google-play
+    - apple-appstore
+  platform:
+    - windows
+    - android
+    - ios
+
+links:
+  - name: .steam
+    uri: steam:1209170
+  - name: Get on Taptap
+    uri: https://www.taptap.com/app/155629
+  - name: .apple-appstore
+    uri: https://apps.apple.com/cn/app/id1464873687
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1209170/ss_54015efedf80bf96505e3a0c9bac9ae3594f38f0.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1209170/ss_fcb6542514acd236fea02603af10c8d1fa1c000c.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1209170/ss_8ac688993c52a66f9b515b05cf930b63783af168.1920x1080.jpg

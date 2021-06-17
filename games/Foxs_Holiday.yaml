@@ -1,0 +1,60 @@
+name: "Fox's Holiday / 狐の假期"
+
+brief-description: |
+  Fox vacation is a lighthearted nostalgia game. In the game, the player arranges all the journey of the fox through the plan, and at the same time, we can find our lost childhood. 32 weeks to complete the content of the week. Let's have a good holiday!
+
+description: |
+  ## Introduction to the game:
+
+  This is a simple casual game. Suit after dinner, review childhood holiday life to have a rest.
+  
+  Our main character is a fox named gigi. He has a "magic" picture book, which can be opened to relive the wonderful time of childhood vacation.
+  
+  You can arrange the fox's travel destination so that he can roam the great rivers and mountains of China.
+  
+  For students born in the 80s and 90s, there will be many memories and pictures in the game.
+
+  ## The game features:
+
+  - Exquisite map of the scenery around, to meet you have not traveled the regret.
+  - Rich tasks, let the protagonist in the process of playing, help do housework.
+  - Invite friends function, let the leading role and other partners play together, grow together.
+  - The age of first love, ignorant love story.
+  - Complete 32 weeks to complete a week, easy fun.
+  - Attribute growth affects character display, height, weight, and even fatigue.
+
+  **Salute the past childhood!**
+
+  **For students born in 80.90!**
+
+description-format: markdown
+
+tags:
+  author:
+    - 元气工作室
+  type:
+    - casual       
+  male:
+    - fox
+    - bear
+    - tiger
+  female:
+    - cat
+  lang:
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1373020
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1373020/ss_84015817b39150f2702a5192a8d63e078d689d7e.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1373020/ss_4bc2e3c58f029f023dbcce906b5b930a63eb0f5e.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1373020/ss_1f741d17248a3b63fd2ada37b1cd51df2816eb40.1920x1080.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1373020/ss_322a622c595ba5f1b7ceb76387023208ee4eb9e3.1920x1080.jpg
