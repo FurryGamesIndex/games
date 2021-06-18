@@ -110,7 +110,7 @@ class GameAuthor:
         if data:
             self.name = data["name"]
 
-            if "standalone" in data:
+            if "standalone" in data and data["standalone"]:
                 self.standalone = True
                 if "avatar" in data:
                     self.avatar_uri = data["avatar"]
