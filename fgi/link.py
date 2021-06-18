@@ -40,7 +40,7 @@ def uri_to_src(uri):
     elif res[0] == 'facebook':
         return "https://www.facebook.com/%s" % res[1]
     elif res[0] == 'FGI-misc-page':
-        return f"https://github.com/FurryGamesIndex/games/blob/master/misc-pages/{res[1]}.md"
+        return f"/misc/{res[1]}.html"
     else:
         return uri
 
