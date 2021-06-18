@@ -27,7 +27,9 @@ class Renderer:
         self.env = fctx.env
         self.lctx = lctx
 
-        if not nonl10n:
+        if nonl10n:
+            self.basectx["lang"] = "en"
+        else:
             self.language = lctx["lang"]
             langtag = self.language.split('-')
 
