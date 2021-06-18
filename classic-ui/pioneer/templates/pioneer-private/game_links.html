@@ -44,6 +44,6 @@
 </div>
 <div class="links links-group">
 {% for i in game.links %}
-	{{ i.html(ui, lang, node_class="iconline", target="_blank") }}
+	{{ i.html(ui, lang, rr=rr, node_class="iconline", target="_blank") }}
 {% endfor %}
 </div>
