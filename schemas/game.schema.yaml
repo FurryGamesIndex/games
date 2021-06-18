@@ -25,7 +25,7 @@ properties:
   brief-description:
     type: string
     description: |
-      A brief description of the game. In English. For English, the max size of brief-description is 480 characters and min size of brief-description is 200.
+      A brief description of the game. For English, the max size of brief-description is 480 characters and min size of brief-description is 200.
       brief-description will be used in standard list page.
       If you do not specify a brief-description, we will use first 480 characters from description.
   expuged:

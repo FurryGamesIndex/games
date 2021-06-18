@@ -9,6 +9,7 @@
 | [name](#name)                                         | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-name.md "undefined#/properties/name")                                              |
 | [description](#description)                           | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-description.md "undefined#/properties/description")                                |
 | [description-format](#description-format)             | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-description-format.md "undefined#/properties/description-format")                  |
+| [brief-description](#brief-description)               | `string` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-brief-description.md "undefined#/properties/brief-description")                    |
 | [links-tr](#links-tr)                                 | `object` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-linktranslation.md "undefined#/properties/links-tr")                               |
 | [X-Chinese-Convertor-Hint](#x-chinese-convertor-hint) | `object` | Optional | cannot be null | [GameL10nEntry](game-l10n-properties-extensionchineseconvertorhint.md "undefined#/properties/X-Chinese-Convertor-Hint") |
 
@@ -68,6 +69,25 @@ Game description should be `plain` (default) text or will be rendered by `markdo
 | :----------- | ----------- |
 | `"plain"`    |             |
 | `"markdown"` |             |
+
+## brief-description
+
+A brief description of the game.
+brief-description will be used in standard list page.
+If you do not specify a brief-description, we will use first 480 characters from description.
+For Chinese, the max size of brief-description is 240 and min size of brief-description is 100. One English character will treadted as 0.5 chinese chinese character.
+
+
+`brief-description`
+
+-   is optional
+-   Type: `string`
+-   cannot be null
+-   defined in: [GameL10nEntry](game-l10n-properties-brief-description.md "undefined#/properties/brief-description")
+
+### brief-description Type
+
+`string`
 
 ## links-tr
 
