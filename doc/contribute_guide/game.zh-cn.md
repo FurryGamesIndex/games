@@ -351,6 +351,8 @@ URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上
 
 ### 缩略图
 
+请参阅「[资源引用](#anchor_resref)」。
+
 ```
 thumbnail: thumbnail.jpg
 ```
