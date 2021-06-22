@@ -281,6 +281,7 @@ FGI 支持的库存链接包括以下几个：
 - `.website`: 官方网站
 - `.release-page`: 发布页面
 - `.steam`: 在 Steam 上获取
+- `.epic`: 在 Epic 上获取
 - `.itch.io`: 在 itch.io 上获取
 - `.booth`: 在 booth 上获取
 - `.digiket`: 在 digiket 上获取
