@@ -83,7 +83,7 @@ links:
     uri: steam:1062090
   - name: .epic
     uri: https://www.epicgames.com/store/en-US/p/timberborn?lang=en-US
-  - name: .gog
+  - name: .gog.com
     uri: https://www.gog.com/game/timberborn
   - name: .twitter
     uri: twitter:Timberborn
