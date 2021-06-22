@@ -40,6 +40,13 @@ properties:
       A game ID who the owner has replaced this game.
 
       If the game is not replaced by another game, do not add this property.
+  old-ids:
+    type: array
+    description: |
+      Old ID(s) used for this game entry.
+      If the ID of the game entry has not changed, do not add this attribute.
+    items:
+      type: string
   authors:
     type: array
     description: |

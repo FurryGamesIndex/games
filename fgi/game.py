@@ -172,6 +172,10 @@ class Game:
         if "replaced-by" in data:
             self._replaced_by_gid = data["replaced-by"]
 
+        self.old_ids = None
+        if "old-ids" in data:
+            self.old_ids = data["old-ids"]
+
         if "authors" in data:
             if "author" in self.tags:
                 raise ValueError("authors property conflict #/tags/author namespace")
@@ -218,6 +222,11 @@ class Game:
     def link(self, games):
         if self._replaced_by_gid:
             self.replaced_by = games[self._replaced_by_gid]
+
+        if self.old_ids:
+            for i in self.old_ids:
+                if i in games:
+                    raise ValueError(f"Old id '{i}' of game {self.id} conflict exist game")
 
     def realize(self, tagmgr, mfac, ifac, authors):
         tagmgr.check_and_patch(self)
