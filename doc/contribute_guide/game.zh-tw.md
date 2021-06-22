@@ -249,6 +249,7 @@ FGI 支援的庫存連結包括以下幾個：
 - `.website`: 官方網站
 - `.release-page`: 釋出頁面
 - `.steam`: 在 Steam 上獲取
+- `.epic`: 在 Epic 上獲取
 - `.itch.io`: 在 itch.io 上獲取
 - `.booth`: 在 booth 上獲取
 - `.digiket`: 在 digiket 上獲取

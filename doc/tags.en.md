@@ -81,6 +81,7 @@ The following are automatic tags, they are no different from other tags when you
 - `kangaroo` Main characters include kangaroo furries
 - `hedgehog` Main characters include hedgehog furries
 - `frog` Main characters include frog furries
+- `beaver` Main characters include beaver furries
 
 ### Biological species: Felidae
 
@@ -278,6 +279,7 @@ The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 Indicate where the game is released
 
 - `steam` Self-pleasuring.
+- `epic` Self-pleasuring.
 - `itchio` Self-pleasuring.
     - This tag has these alias(es): `itch-io`, `itch`
 - `patreon` Self-pleasuring.
