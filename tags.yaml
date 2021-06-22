@@ -1227,6 +1227,12 @@ steam:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 Steam 上有发布'
 
+epic:
+  namespaces: [ publish ]
+  explanation:
+    en: 'Self-pleasuring.'
+    zh-cn: '游戏在 Epic 上有发布'
+
 itchio:
   namespaces: [ publish ]
   alias: [ itch-io, itch ]
