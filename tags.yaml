@@ -345,6 +345,12 @@ frog:
     en: 'Main characters include frog furries'
     zh-cn: '主要角色包括蛙兽人'
 
+beaver:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include beaver furries'
+    zh-cn: '主要角色包括河狸兽人'
+
 ###################################################
 
 '@class:male+female/felidae':
