@@ -38,6 +38,8 @@ FGI 最終呈現給使用者的介面是來自對 “FGI 遊戲資料庫”、�
 
 如果您經常參與資料條目的編輯或貢獻程式碼，我們歡迎您[作為 FGI 的正式成員加入我們](FGI-members.zh-tw.md)。
 
+<a id="anchor_contact">
+
 # 我們的聯絡方式
 
 ## 專案負責人/核心維護者：UtopicPanther

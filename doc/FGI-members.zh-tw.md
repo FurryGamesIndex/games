@@ -30,6 +30,6 @@ FGI 成員可管理一部分 FGI 專案的資源和基礎設施。
 	
 2. 同意 FGI 成員契約。
 	
-3. 和專案負責人聯絡。
+3. [和專案負責人聯絡](Get-Involved.zh-tw.md#anchor_contact)。
 	
 4. 加入 FGI 成員 Telegram 群組（如果您沒有 Telegram 賬戶，請註冊一個）

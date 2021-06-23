@@ -30,6 +30,6 @@ FGI 成员可管理一部分 FGI 项目的资源和基础设施。
 	
 2. 同意 FGI 成员契约。
 	
-3. 和项目负责人联系。
+3. [和项目负责人联系](Get-Involved.zh-cn.md#anchor_contact)。
 	
 4. 加入 FGI 成员 Telegram 群组（如果您没有 Telegram 账户，请注册一个）

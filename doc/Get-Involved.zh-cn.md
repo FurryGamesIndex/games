@@ -38,6 +38,8 @@ FGI 最终呈现给用户的界面是来自对 “FGI 游戏数据库”、“FG
 
 如果您经常参与数据条目的编辑或贡献代码，我们欢迎您[作为 FGI 的正式成员加入我们](FGI-members.zh-cn.md)。
 
+<a id="anchor_contact">
+
 # 我们的联系方式
 
 ## 项目负责人/核心维护者：UtopicPanther

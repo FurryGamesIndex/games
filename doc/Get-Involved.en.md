@@ -34,15 +34,17 @@ We love the Furry culture community and hope to promote the development of Furry
 
 We promise that we will always be a non-profit project and always rooted in the community.
 
+<a id="anchor_contact">
+
 ## Our contact information
 
-## Core maintainer: UtopicPanther
+## Core maintainer/Project leader: UtopicPanther
 
 - Github: via [Issues](https://github.com/FurryGamesIndex/games/issues) or [Discussions](https://github.com/FurryGamesIndex/games/discussions) in this repository
 - Email: upanther@furrygames.top
 - Telegram: https://t.me/UtopicPanther
 
-## Other contributors
+## Other FGI members/External contributors
 
 Read [CONTRIBUTORS.md](./CONTRIBUTORS.md) file to get the contact information of contributors.
 
