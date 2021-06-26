@@ -126,13 +126,13 @@ class GameAuthor:
         ga.name = name
         return ga
 
-    def realize(self, authors, mfac):
+    def realize(self, game, authors, mfac):
         if self.stub:
             return
 
         if self.avatar_uri:
-            self.avatar = mfac.uri_to_html_image(self.avatar_uri, self.name)
-            del self.avatar_uri
+            self.avatar = mfac.uri_to_html_image(self.avatar_uri, game.id)
+        del self.avatar_uri
 
         if not self.standalone:
             if self.name not in authors:
@@ -240,7 +240,7 @@ class Game:
             self.thumbnail = mfac.uri_to_html_image(self.thumbnail_uri, self.id)
 
         for i in self.authors:
-            i.realize(authors, mfac)
+            i.realize(self, authors, mfac)
 
         for i in self.links_prepare:
             l = Link(i, ifac)
