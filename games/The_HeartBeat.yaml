@@ -47,12 +47,15 @@ tags:
     - zh
   publish:
     - itchio
+    - steam
   platform:
     - windows
 
 links:
   - name: .itch.io
     uri: https://pomelouncia.itch.io/the-heartbeat
+  - name: .steam
+    uri: steam:1386710
   - name: .weibo
     uri: https://weibo.com/u/7330852052
 
