@@ -21,7 +21,7 @@ from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
-from fgi.link import Link, uri_to_src
+from fgi.link import Link, uri_to_ua_uri
 
 class Tag:
     def __init__(self, ns, value):
@@ -115,7 +115,7 @@ class GameAuthor:
                 if "avatar" in data:
                     self.avatar_uri = data["avatar"]
                 if "link-uri" in data:
-                    self.link_href = uri_to_src(data["link-uri"])
+                    self.link_href = uri_to_ua_uri(data["link-uri"])
 
             if "role" in data:
                 self.roles = data["role"]
