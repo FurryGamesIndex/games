@@ -13,8 +13,11 @@ compress-avatar)
 	;;
 validate-thumbnail)
 	shift
+	set +e
+
 	echo -n "$1:"
 	r=$(identify -format '%wx%h' "$1")
+	[ "$?" = "0" ] || err "ImageMagick error"
 
 	[ "$r" = "360x168" ] || err "Wrong size: $r"
 
