@@ -72,7 +72,7 @@ MIT License
 
 <https://github.com/posativ/isso>
 
-We use a patched/modified python-markdown2 with our out-of-tree patches
+We use a patched/modified Isso with our out-of-tree patches
 
 Patched fork: <https://github.com/FurryGamesIndex/isso>
 

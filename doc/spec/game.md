@@ -9,6 +9,7 @@
 | [name](#name)                             | `string`  | Required | cannot be null | [GameEntry](game-properties-name.md "undefined#/properties/name")                             |
 | [description](#description)               | `string`  | Required | cannot be null | [GameEntry](game-properties-description.md "undefined#/properties/description")               |
 | [description-format](#description-format) | `string`  | Optional | cannot be null | [GameEntry](game-properties-description-format.md "undefined#/properties/description-format") |
+| [brief-description](#brief-description)   | `string`  | Optional | cannot be null | [GameEntry](game-properties-brief-description.md "undefined#/properties/brief-description")   |
 | [expuged](#expuged)                       | `boolean` | Optional | cannot be null | [GameEntry](game-properties-expuged.md "undefined#/properties/expuged")                       |
 | [replaced-by](#replaced-by)               | `string`  | Optional | cannot be null | [GameEntry](game-properties-replaced-by.md "undefined#/properties/replaced-by")               |
 | [authors](#authors)                       | `array`   | Optional | cannot be null | [GameEntry](game-properties-authors.md "undefined#/properties/authors")                       |
@@ -81,6 +82,24 @@ Game description should be `plain` (default) text or will be rendered by `markdo
 | :----------- | ----------- |
 | `"plain"`    |             |
 | `"markdown"` |             |
+
+## brief-description
+
+A brief description of the game. For English, the max size of brief-description is 480 characters and min size of brief-description is 200.
+brief-description will be used in standard list page.
+If you do not specify a brief-description, we will use first 480 characters from description.
+
+
+`brief-description`
+
+-   is optional
+-   Type: `string`
+-   cannot be null
+-   defined in: [GameEntry](game-properties-brief-description.md "undefined#/properties/brief-description")
+
+### brief-description Type
+
+`string`
 
 ## expuged
 

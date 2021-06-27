@@ -35,6 +35,7 @@ jobs:
         echo "$dfs" | grep '^games/[^/]*$' | while read -r i; do
           echo "Validating '$i'"
           ./scripts/validate.py schemas/game.schema.yaml "$i"
+          ./scripts/imageutils.sh validate-thumbnail $(echo -n "assets/${i}/"; ./scripts/dbutils.sh game-get-property "$i" thumbnail)
         done
         echo "$dfs" | grep '^games/l10n/[^/]*$' | while read -r i; do
           echo "Validating '$i'"

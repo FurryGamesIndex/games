@@ -1,0 +1,3 @@
+## brief-description Type
+
+`string`

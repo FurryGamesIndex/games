@@ -25,7 +25,6 @@ class RendererSingles(Renderer):
     def __init__(self, *args, **kwargs):
         self.basectx = {
             "rr": ".",
-            "lang": "en",
         }
 
         super().__init__(*args, **kwargs, nonl10n=True)

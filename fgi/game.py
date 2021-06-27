@@ -21,7 +21,7 @@ from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
-from fgi.link import Link, uri_to_src
+from fgi.link import Link, uri_to_ua_uri
 
 class Tag:
     def __init__(self, ns, value):
@@ -110,12 +110,12 @@ class GameAuthor:
         if data:
             self.name = data["name"]
 
-            if "standalone" in data:
+            if "standalone" in data and data["standalone"]:
                 self.standalone = True
                 if "avatar" in data:
                     self.avatar_uri = data["avatar"]
                 if "link-uri" in data:
-                    self.link_href = uri_to_src(data["link-uri"])
+                    self.link_href = uri_to_ua_uri(data["link-uri"])
 
             if "role" in data:
                 self.roles = data["role"]
@@ -126,13 +126,13 @@ class GameAuthor:
         ga.name = name
         return ga
 
-    def realize(self, authors, mfac):
+    def realize(self, game, authors, mfac):
         if self.stub:
             return
 
         if self.avatar_uri:
-            self.avatar = mfac.uri_to_html_image(self.avatar_uri, self.name)
-            del self.avatar_uri
+            self.avatar = mfac.uri_to_html_image(self.avatar_uri, game.id)
+        del self.avatar_uri
 
         if not self.standalone:
             if self.name not in authors:
@@ -171,6 +171,10 @@ class Game:
         self._replaced_by_gid = None
         if "replaced-by" in data:
             self._replaced_by_gid = data["replaced-by"]
+
+        self.old_ids = None
+        if "old-ids" in data:
+            self.old_ids = data["old-ids"]
 
         if "authors" in data:
             if "author" in self.tags:
@@ -219,6 +223,11 @@ class Game:
         if self._replaced_by_gid:
             self.replaced_by = games[self._replaced_by_gid]
 
+        if self.old_ids:
+            for i in self.old_ids:
+                if i in games:
+                    raise ValueError(f"Old id '{i}' of game {self.id} conflict exist game")
+
     def realize(self, tagmgr, mfac, ifac, authors):
         tagmgr.check_and_patch(self)
 
@@ -231,7 +240,7 @@ class Game:
             self.thumbnail = mfac.uri_to_html_image(self.thumbnail_uri, self.id)
 
         for i in self.authors:
-            i.realize(authors, mfac)
+            i.realize(self, authors, mfac)
 
         for i in self.links_prepare:
             l = Link(i, ifac)

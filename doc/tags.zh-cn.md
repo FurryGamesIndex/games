@@ -81,6 +81,7 @@
 - `kangaroo` 主要角色包括袋鼠兽人
 - `hedgehog` 主要角色包括刺猬兽人
 - `frog` 主要角色包括蛙兽人
+- `beaver` 主要角色包括河狸兽人
 
 ### 物种：猫科
 
@@ -278,6 +279,7 @@
 用于说明游戏发布在哪里
 
 - `steam` 游戏在 Steam 上有发布
+- `epic` 游戏在 Epic 上有发布
 - `itchio` 游戏在 itch.io 上有发布
     - 此标签有这些别名：`itch-io`, `itch`
 - `patreon` 游戏在 Patreon 上有发布

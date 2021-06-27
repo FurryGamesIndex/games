@@ -43,6 +43,6 @@
 	{% endif %}
 
 	{% for i in game.links %}
-		<li>{{ i.html(ui, lang, node_class="iconline", target="_blank") }}</li>
+		<li>{{ i.html(ui, lang, rr=rr, node_class="iconline", target="_blank") }}</li>
 	{% endfor %}
 </ul>

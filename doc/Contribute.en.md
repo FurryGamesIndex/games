@@ -234,6 +234,7 @@ FGI supported stock links include the following
 - `.website`: Official Website
 - `.release-page`: Release page
 - `.steam`: Get on Steam
+- `.epic`: Get on Epic
 - `.itch.io`: Get on itch.io
 - `.booth`: Get on booth
 - `.play-store`: Get on Google Play

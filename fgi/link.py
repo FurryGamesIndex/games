@@ -19,30 +19,39 @@
 
 from fgi.icon import IconFactory
 
-def uri_to_src(uri):
-    res = uri.split(':', 1)
-    if res[0] == 'steam':
-        return "https://store.steampowered.com/app/%s" % res[1]
-    elif res[0] == 'twitter':
-        return "https://twitter.com/%s/" % res[1]
-    elif res[0] == 'furaffinity':
-        return "https://www.furaffinity.net/user/%s/" % res[1]
-    elif res[0] == 'patreon':
-        return "https://www.patreon.com/%s" % res[1]
-    elif res[0] == 'tumblr':
-        return "https://%s.tumblr.com/" % res[1]
-    elif res[0] == 'pixiv':
-        return "https://www.pixiv.net/users/%s" % res[1]
-    elif res[0] == 'google-play-store':
-        return "https://play.google.com/store/apps/details?id=%s" % res[1]
-    elif res[0] == 'youtube':
-        return "https://www.youtube.com/%s" % res[1]
-    elif res[0] == 'facebook':
-        return "https://www.facebook.com/%s" % res[1]
-    elif res[0] == 'FGI-misc-page':
-        return f"https://github.com/FurryGamesIndex/games/blob/master/misc-pages/{res[1]}.md"
-    else:
+ua_wellknown_uri_set = { "http", "https", "ftp", "mailto" }
+
+simple_uri_scheme_map = {
+    "steam": "https://store.steampowered.com/app/%s",
+    "twitter": "https://twitter.com/%s/",
+    "furaffinity": "https://www.furaffinity.net/user/%s/",
+    "patreon": "https://www.patreon.com/%s",
+    "tumblr": "https://%s.tumblr.com/",
+    "pixiv": "https://www.pixiv.net/users/%s",
+    "google-play-store": "https://play.google.com/store/apps/details?id=%s",
+    "youtube": "https://www.youtube.com/%s",
+    "facebook": "https://www.facebook.com/%s",
+    "discord": "https://discord.gg/%s",
+    "FGI-misc-page": "/misc/%s.html",
+}
+
+def uri_to_ua_uri(uri):
+    if uri[0] == '/':
         return uri
+
+    res = uri.split(':', 1)
+    if len(res) < 2:
+        raise ValueError(f"Invalid URI '{uri}': missing scheme part")
+
+    scheme = res[0]
+
+    if scheme in ua_wellknown_uri_set:
+        return uri
+
+    if scheme not in simple_uri_scheme_map:
+        raise ValueError(f"URI with scheme '{scheme}' is neither UA-wellknown URI nor FGI's simple URI")
+
+    return simple_uri_scheme_map[scheme] % res[1]
 
 class Link:
     def __init__(self, data, ifac: IconFactory):
@@ -68,7 +77,7 @@ class Link:
             self.add_html_attr("rel", data["rel"])
 
         self.uri = data["uri"]
-        self.href = uri_to_src(self.uri)
+        self.href = uri_to_ua_uri(self.uri)
 
     def add_html_attr(self, name, value):
         self.html_attrs[name] = value
