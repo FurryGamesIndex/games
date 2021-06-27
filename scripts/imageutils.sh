@@ -7,6 +7,21 @@ function err() {
 	exit 1
 }
 
+function image_size_validate_small() {
+	w=$(identify -format '%w' "$1")
+	h=$(identify -format '%h' "$1")
+
+	[ "$w" -gt "360" ] && return 1
+	[ "$h" -gt "168" ] && return 1
+
+	lp=$(bc <<< "168*$w")
+	rp=$(bc <<< "360*$h")
+
+	[ "$lp" = "$rp" ] || return 2
+
+	return 0
+}
+
 case "$1" in
 compress-avatar)
 	convert -strip -resize 64x64 -quality 75 "$2" "$3"
@@ -19,7 +34,7 @@ validate-thumbnail)
 	r=$(identify -format '%wx%h' "$1")
 	[ "$?" = "0" ] || err "ImageMagick error"
 
-	[ "$r" = "360x168" ] || err "Wrong size: $r"
+	[ "$r" = "360x168" ] || image_size_validate_small "$1" || err "Wrong size: $r ($?)"
 
 	echo "OK"
 	;;
