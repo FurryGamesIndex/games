@@ -122,6 +122,13 @@ for ns, v in gen.tagmgr.tagdep.items():
         print(f"{ftag:>26}  implicate  {dep}")
 EOF
 	;;
+list-games)
+	cd games
+	ls *.yaml | cut -d . -f 1
+	;;
+game-get-property)
+	yaml2json "games/$2.yaml" | jq -r ".$3"
+	;;
 *)
 	echo Unknown command $1
 	exit 1
