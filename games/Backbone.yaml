@@ -32,6 +32,8 @@ tags:
     - en
   publish:
     - steam
+    - gog
+    - epic
   platform:
     - windows
     - macos
@@ -45,6 +47,10 @@ links:
     uri: steam:865610
   - name: .demo-version-steam
     uri: steam:992310
+  - name: .gog.com
+    uri: https://www.gog.com/game/backbone
+  - name: .epic
+    uri: https://www.epicgames.com/store/en-US/p/backbone
   - name: .website
     uri: https://eggnut.net/
   - name: .twitter
