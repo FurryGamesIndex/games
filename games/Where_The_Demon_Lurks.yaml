@@ -79,9 +79,9 @@ tags:
 
 links:
   - name: .itch.io
-    url: https://bokedaidu.itch.io/where-the-demon-lurks-demo-version
+    uri: https://bokedaidu.itch.io/where-the-demon-lurks-demo-version
   - name: .twitter
-    uri: https://twitter.com/BokeTeam
+    uri: twitter:BokeTeam
   - name: .unofficial-patch-zh
     uri: https://twitter.com/ABLocalization/status/1416046070614814723
 
