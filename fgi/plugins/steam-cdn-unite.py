@@ -47,10 +47,8 @@ class SteamCDNUnitePlugin(Plugin):
 
         return uri
 
-    def image_post_html_image_done(self, hi, *args, **kwargs):
-        for i in hi.sources:
-            img = i.srcset
-            if img.is_remote:
-                img.uri = self._replace_uri(img.uri)
+    def image_pre_html_image_construct(self, image, *args, **kwargs):
+        if image.is_remote:
+            image.uri = self._replace_uri(image.uri)
 
 impl = SteamCDNUnitePlugin
