@@ -52,11 +52,14 @@ tags:
     - business-sim
   male:
     - beaver
+    - non-anthro
   female:
     - beaver
+    - non-anthro
   misc:
     - work-in-process
     - engine-unity
+    - outside-furry-fandom
   lang:
     - en
     - zh
