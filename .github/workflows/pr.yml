@@ -5,7 +5,6 @@ on:
     branches: [ master ]
 
 env:
-  REPO: git@github.com:FurryGamesIndex/_CI_LIVE_BUILD
   ID: ${{ github.event.pull_request.head.label }}
 
 jobs:
@@ -46,4 +45,17 @@ jobs:
     - name: gen
       run: |
         python3 --version
-        ./generate.py --no-searchdb --no-sitemap --plugin steam-cdn-unite,verbose=1 "output/${ID}/"
+        ./generate.py \
+            --no-searchdb \
+            --no-sub-lists \
+            --no-sitemap \
+            --file-uri-workaround \
+            --images-to-webp \
+            --plugin steam-cdn-unite,verbose=1 \
+            output
+
+    - name: upload
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ env.ID }}
+        path: output
