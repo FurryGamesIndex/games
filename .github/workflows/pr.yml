@@ -6,6 +6,7 @@ on:
 
 env:
   ID: ${{ github.event.pull_request.head.label }}
+  SHA_ID: ${{ github.event.pull_request.head.sha }}
 
 jobs:
   build:
@@ -57,5 +58,5 @@ jobs:
     - name: upload
       uses: actions/upload-artifact@v2
       with:
-        name: ${{ env.ID }}
+        name: ${{ env.SHA_ID }}
         path: output
