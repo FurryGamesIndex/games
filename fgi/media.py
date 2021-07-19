@@ -105,6 +105,9 @@ class MediaFactory:
                 image.mtime = os.path.getmtime(image.path)
             image.uri = path
 
+        self.fctx.pmgr.invoke_plugins("image_pre_html_image_construct",
+            image, origin_uri = imageuri, gameid = gameid)
+
         path = image.path
 
         if self.fctx.args.images_to_webp \
