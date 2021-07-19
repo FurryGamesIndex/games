@@ -59,6 +59,7 @@ tags:
     - en
   publish:
     - itchio
+    - steam
   platform:
     - windows
     - macos
@@ -67,6 +68,8 @@ tags:
 links:
   - name: .itch.io
     uri: https://sandramj.itch.io/the-hayseed-knight
+  - name: .steam
+    uri: steam:1332990
   - name: .patreon
     uri: patreon:thehayseedknight
   - name: .twitter
