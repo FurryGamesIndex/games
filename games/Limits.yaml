@@ -30,7 +30,7 @@ description-format: markdown
 tags:
   author:
     - name: Drakes
-      role: [ producer, artist,screenwriter,programmer ]
+      role: [ producer, artist, screenwriter, programmer ]
       
   type:
     - visual-novel
