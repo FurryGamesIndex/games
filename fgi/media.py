@@ -70,6 +70,17 @@ class HTMLSteamWidgetMedia(HTMLBaseMedia):
         data = base64.b64encode(html.encode('utf-8')).decode()
         return f'<script type="text/x-FGI-steam-widget">{data}</script>'
 
+class FGIHBoxMedia(HTMLBaseMedia):
+    def __init__(self, tree):
+        super().__init__()
+        self.tree = tree
+
+    def dom(self, rr, **kwargs):
+        # FIXME: stub
+        data = ""
+        for i in self.tree:
+            data += i.dom(rr, **kwargs)
+        return data
 
 class MediaFactory:
     def __init__(self, fctx):
@@ -181,5 +192,16 @@ class MediaFactory:
         elif mtype == "steam-widget":
             return HTMLSteamWidgetMedia(media["id"])
 
+        elif mtype == "hbox":
+            return FGIHBoxMedia(self.create_multiple_media(media["content"], gameid))
+
         else:
             raise ValueError(f"Unknown media type '{mtype}'")
+
+    def create_multiple_media(self, arr, gameid):
+        r = list()
+
+        for i in arr:
+            r.append(self.create_media(i, gameid))
+
+        return r

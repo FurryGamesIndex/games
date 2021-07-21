@@ -241,6 +241,20 @@ properties:
               description: |
                 The ID of the game in Steam.
           required: [ type, id ]
+        - type: object
+          title: ScreenshotFGIHBox
+          description: |
+            STUB. Horizontal box container.
+          properties:
+            type:
+              type: string
+              const: hbox
+              description: |
+                Must be `hbox`
+            content:
+              type: array
+              description: |
+                Any type of screenshot objects
   X-Created-by:
     type: string
     description: |
