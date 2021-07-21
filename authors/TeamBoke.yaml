@@ -1,0 +1,15 @@
+name: TeamBoke
+
+aliases:
+  - BokeTeam
+  - Bokedaidu
+
+type: small-team
+
+avatar: TeamBoke.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:BokeTeam
+  - name: .itch.io
+    uri: https://bokedaidu.itch.io/where-the-demon-lurks-demo-version
