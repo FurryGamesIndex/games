@@ -47,7 +47,6 @@ jobs:
       run: |
         python3 --version
         ./generate.py \
-            --no-searchdb \
             --no-sub-lists \
             --no-sitemap \
             --file-uri-workaround \
