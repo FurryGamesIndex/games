@@ -1,0 +1,71 @@
+name: Primal Legends
+
+description: |
+  # THE GAME
+  Theria was a peaceful place until the Stones of Power fell from the sky. Chaos spread across the world as the stones began to corrupt every animal they touched. Now it is up to the player to build an army of brave warriors to restore order to the world...
+
+  # KEY FEATURES
+
+  - **INNOVATIVE CORE GAMEPLAY** Easy to learn, but hard to master using a blend of both classic Match-3 and collectible card game mechanics.
+  - **MANY HEROES TO DISCOVER** Meet the latest heroes and learn about their powers!
+  - **EPIC ADVENTURE** Persevere through the trials of Theria in over 200 levels.
+  - **INCREDIBLE DUELS** Challenge players from around the world in real-time PvP modes.
+  - **DECK BUILDING** Adapt your strategy and build the strongest army. Evolve your heroes to unleash their full potential!
+
+description-format: markdown
+
+authors:
+  - name: kobojo
+    role: [ producer ]
+
+tags:
+  type:
+    - strategy
+    - casual
+  male:
+    - bear
+    - dog
+    - tiger
+    - mouse
+    - lion
+    - bird
+    - raccoon
+    - leopard
+    - wolf
+    - bull
+    - fox
+    - red-panda
+    - monkey
+  misc:
+    - centralized
+    - freeware
+  lang:
+    - en
+  publish:
+    - google-play
+    - apple-appstore
+  platform:
+    - android
+    - ios
+
+links:
+  - name: .website
+    uri: http://www.primal-legends.com/
+  - name: .play-store
+    uri: google-play-store:com.kobojo.phoenix
+  - name: .apple-appstore
+    uri: https://apps.apple.com/app/id1031569021
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: youtube
+    id: CciH-kg-kxM
+  - type: hbox
+    content:
+      - https://i.imgur.com/04UYaJa.png
+      - https://i.imgur.com/xso6Tn1.png
+  - type: hbox
+    content:
+      - https://i.imgur.com/Z7zFpgH.png
+      - https://i.imgur.com/RqO8bq3.png
