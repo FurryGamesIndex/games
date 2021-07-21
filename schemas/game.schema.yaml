@@ -244,7 +244,7 @@ properties:
         - type: object
           title: ScreenshotFGIHBox
           description: |
-            STUB. Horizontal box container.
+            Horizontal box container.
           properties:
             type:
               type: string

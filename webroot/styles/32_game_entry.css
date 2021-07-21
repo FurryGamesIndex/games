@@ -32,6 +32,16 @@
 	max-width: 100%;
 }
 
+.game_entry .media > .hbox {
+	$flex;
+	$flex_row_nowrap;
+	$flex_justify_space_between;
+}
+
+.game_entry .media > .hbox > * {
+	$flex_grow_1x;
+}
+
 .game_entry .tags {
 	-moz-column-count: 2;
 	-webkit-column-count: 2;

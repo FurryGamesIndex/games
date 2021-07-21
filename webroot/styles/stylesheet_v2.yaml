@@ -73,6 +73,9 @@ macros:
   flex_justify_end: |-
     -webkit-justify-content: flex-end;
     justify-content: flex-end
+  flex_justify_space_between: |-
+    -webkit-justify-content: space-between;
+    justify-content: space-between
 
   flex_items_center: |-
     -webkit-align-items: center;

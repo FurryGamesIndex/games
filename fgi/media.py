@@ -76,11 +76,10 @@ class FGIHBoxMedia(HTMLBaseMedia):
         self.tree = tree
 
     def dom(self, rr, **kwargs):
-        # FIXME: stub
-        data = ""
+        data = '<div class="hbox">'
         for i in self.tree:
             data += i.dom(rr, **kwargs)
-        return data
+        return data + '</div>'
 
 class MediaFactory:
     def __init__(self, fctx):
