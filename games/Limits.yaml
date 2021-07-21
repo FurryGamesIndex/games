@@ -27,9 +27,11 @@ description: |
   
 description-format: markdown
 
-tags:
-  author:
-    - drakes64
+authors:
+  - name: Drakes
+    role: [ producer, artist, screenwriter, programmer ]
+
+tags: 
   type:
     - visual-novel
     - bara

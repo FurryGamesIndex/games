@@ -37,16 +37,28 @@ authors:
   - name: TeamBoke
     role: [ producer ]
   - name: 0rang3
+    standalone: true
+    avatar: 0rang3.jpg
     role: [ artist ]
   - name: Ryuulabo
+    standalone: true
+    avatar: Ryuulabo.jpg
     role: [ artist ]
   - name: Wattson
+    standalone: true
+    avatar: Wattson.jpg
     role: [ programmer ]
   - name: Rairou
+    standalone: true
+    avatar: Rairou.jpg
     role: [ programmer ]
   - name: Compymono
+    standalone: true
+    avatar: Compymono.jpg
     role: [ screenwriter ]
   - name: Nawah
+    standalone: true
+    avatar: Nawah.jpg
     role: [ screenwriter ]
 
 tags:

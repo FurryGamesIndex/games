@@ -1,0 +1,126 @@
+name: Steadfast
+
+description: |
+  ---
+  
+  **A short story...**
+  
+  ***Steady your heart, my friend.***
+  
+  ---
+  
+  *"The perfect life may not exist in this rotten world."*
+  
+  *"But does that mean we shouldn't try...?"*
+  
+  -F
+  
+  ---
+  
+  *"Like a moth to a flame..."*
+  
+  -W
+  
+  ---
+  
+  **Author's Note:**
+  
+  Steadfast is a short story by my dear friend Drakes and I. 
+  
+  What started as a small project, turned into a story that surpassed my expectations and then some.
+  
+  I've learned a lot during the course of this project, not just with development and writing, but also about perspective on things.
+  
+  With that said, as it is a short story I feel like it is best not to give much away before the start.
+  
+  In essence, it's a romantic story, set in a medieval setting.
+  
+  The world is not always as it seems, and how you view it is not necessarily how someone else sees it.
+  
+  -GruntSteel
+  
+  ---
+  
+  Never knew that creating something with a dear friend can be so much fun!
+  
+  A lot of love and effort has been put into this project, and now it is time to share it with the world.
+  
+  I hope that you'd enjoy reading through this novel!
+  
+  Have a good one everyone, take care...
+  
+  ~~...and know your Limits.~~ ;)
+  
+  -Drakes
+  
+  ---
+  
+  **Credits:**
+  
+  Story by [GruntSteel](https://gruntsteel.itch.io/) and [Drakes](https://drakes64.itch.io/).
+  
+  Writing by [GruntSteel](https://gruntsteel.itch.io/).
+  
+  Character Assets by [Drakes](https://drakes64.itch.io/).
+  
+  Music by Camazule. 
+  
+  Some Background are sourced from [freepik.com](https://www.freepik.com/) - @upklyak, some from [pexels](https://www.pexels.com/).
+  
+  Sound effects sourced from [mixkit.co](https://mixkit.co/) and [zapsplat.com](https://www.zapsplat.com/)
+  
+  ---
+  
+  ***Note:*** *This project took around 2 and a half weeks to finish.*
+  
+  ---
+
+description-format: markdown
+
+authors:
+  - name: GruntSteel
+    role: [ screenwriter, producer, programmer ]
+  - name: Drakes
+    role: [ screenwriter, programmer, programmer, character-designer ]
+  - name: Camazule
+    role: [ musician ]
+
+tags:
+  type:
+    - visual-novel
+    - yiff
+    - bara
+  male:
+    - leopard
+    - wolf
+    - males-only
+  misc:
+    - freeware
+    - engine-renpy
+    - multiple-endings
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://drakes64.itch.io/steadfast
+  - name: .twitter
+    uri: twitter:SirDrakes64
+  - name: .unofficial-version-zh
+    icon: telegram
+    uri: https://t.me/ldlocalization/29
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvOTA1Mjc0LzUxMTIyNTcucG5n/original/KyNOPR.png
+  - https://img.itch.zone/aW1hZ2UvOTA1Mjc0LzUxMTIyNTkucG5n/original/f34R%2Fl.png
+  - https://img.itch.zone/aW1hZ2UvOTA1Mjc0LzUxMTIyNTgucG5n/original/Ad4Tid.png

@@ -1,0 +1,15 @@
+name: Drakes
+
+aliases:
+  - drakes64
+  - SirDrakes64
+
+type: personal
+
+avatar: Drakes.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:SirDrakes64
+  - name: .itch.io
+    uri: https://drakes64.itch.io/
