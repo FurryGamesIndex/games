@@ -67,4 +67,4 @@ properties:
           type: string
           description: |
             The URI of the SNS
-required: [ name, type ]
+required: [ name, type, avatar ]
