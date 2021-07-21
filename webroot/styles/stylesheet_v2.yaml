@@ -66,7 +66,13 @@ macros:
   flex_grow_1x: |-
     -webkit-flex-grow: 1;
     flex-grow: 1
+  flex_grow_off: |-
+    -webkit-flex-grow: 0;
+    flex-grow: 0
 
+  flex_justify_start: |-
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start
   flex_justify_center: |-
     -webkit-justify-content: center;
     justify-content: center
