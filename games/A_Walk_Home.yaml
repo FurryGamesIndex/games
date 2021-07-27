@@ -12,7 +12,6 @@ description: |
 
   This exciting Personal-Computer experience is powered by Unreal Engine 4! Don't miss your chance to experience the thrills of the Rape&Run game you've been waiting for!
 
-
 description-format: markdown
 
 tags:
@@ -58,12 +57,12 @@ sensitive_media: true
 screenshots:
   - https://i.imgur.com/weFF9R0.jpg
   - https://i.imgur.com/HWl1yRW.png
-  - uri: https://images2.imgbox.com/02/8c/b1uoDPSF_o.png
-    sensitive: true
+  - sensitive: true
+    uri: https://images2.imgbox.com/02/8c/b1uoDPSF_o.png
   - https://i.imgur.com/7ukFUpX.png
-  - uri: https://images2.imgbox.com/d5/21/TPFIwW95_o.png
-    sensitive: true
-  - uri: https://images2.imgbox.com/4f/9c/e6DZxjxw_o.png
-    sensitive: true
-  - uri: https://images2.imgbox.com/af/12/os0VpOJV_o.png
-    sensitive: true
+  - sensitive: true
+    uri: https://images2.imgbox.com/d5/21/TPFIwW95_o.png
+  - sensitive: true
+    uri: https://images2.imgbox.com/4f/9c/e6DZxjxw_o.png
+  - sensitive: true
+    uri: https://images2.imgbox.com/af/12/os0VpOJV_o.png
