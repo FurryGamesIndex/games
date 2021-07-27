@@ -256,6 +256,7 @@ properties:
               type: array
               description: |
                 Any type of screenshot objects
+          required: [ type, content ]
   X-Created-by:
     type: string
     description: |
