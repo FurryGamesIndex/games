@@ -1,0 +1,79 @@
+name: 'Fuga: Melodies of Steel / 戦場のフーガ'
+
+description: |
+  "We have to fight! If we don't, everyone we love will be taken away!"
+  
+  One fateful night, a peaceful village is thrown into the flames of war. Determined to save their families, a group of children boards a giant tank and begins an offensive charge!
+  
+  Fuga: Melodies of Steel is an RPG where you place children, each with their own unique characteristics and skills, at different gun turrets in a tank to fight against the enemy.
+  
+  Living inside the tank, the children show emotion and gain affinity amongst each other. Manage these both to change the outcome of their journey!
+  
+  -A mysterious ancient weapon: The Taranis
+  Taranis, the giant tank sheltering the children, conceals many mysteries and somehow seems to have its own will. In situations of crisis, it can release a forbidden weapon, the dreadful Soul Cannon.
+  
+  -Your adventure. Your choices.
+  Will you make sacrifices for victory? Or will you seek another path?
+  In this RPG, many choices have to be made in order to progress... but taking the safest road may not always be the best option.
+  Faced with a desperate situation, what course of action will you choose?
+
+authors:
+  - name: CyberConnect2
+    role: [ producer ]
+
+tags:
+  type:
+    - role-playing
+  male:
+    - dog
+    - cat
+    - shota
+  female:
+    - dog
+    - cat
+    - loli
+  misc:
+    - full-audio
+  lang:
+    - en
+    - ja
+    - zh
+    - fr
+    - it
+    - es
+  publish:
+    - steam
+    - e-shop
+  platform:
+    - windows
+    - nintendo-switch
+    - playstation4
+    - playstation5
+    - xbox-one
+    - xbox-series-x
+    - xbox-series-s
+
+links:
+  - name: .steam
+    uri: steam:1357860
+  - name: .nintendo-e-shop
+    uri: https://store-jp.nintendo.com/list/software/70070000012634.html
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/ja-jp/p/%E6%88%A6%E5%A0%B4%E3%81%AE%E3%83%95%E3%83%BC%E3%82%AC-%E3%83%87%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9%E3%82%A8%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3/9nvbmf0bjbdm?activetab=pivot:overviewtab
+  - name: .website
+    uri: https://www.cc2.co.jp/fuga/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256841478/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256841478/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1357860/ss_654909519bb078591733b0a141dfff3173bd24c0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1357860/ss_45e5cf227a054a2d46c30b32662db0d22e91b9e0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1357860/ss_583e7c221c8c9e74be186d03ee3e8d7081d0b70b.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1357860/ss_4d24b95dd22f281a1ecf5d31e8d40db78a96c817.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1357860/ss_16b73ffbf492c9c0d79f974aa23735b8e3c80e4d.1920x1080.jpg
