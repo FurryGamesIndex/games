@@ -86,6 +86,11 @@ class RendererGame(Renderer):
 
     def render(self):
         for gid, game in self.games.items():
+            if game.old_ids:
+                for i in game.old_ids:
+                    with open(self.getpath("games", i + ".html"), "w") as f:
+                        f.write(self.render_csr_page(f"games/{gid}.html"))
+
             with self.sm_openw("games", gid + ".html", sm = not game.expunge,
                     priority="0.7", lastmod_ts=game.get_mtime(self.language)) as f:
                 f.write(self.render_game(gid, game))

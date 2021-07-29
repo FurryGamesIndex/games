@@ -71,3 +71,11 @@ class Renderer:
 
     def render(self):
         pass
+
+    def render_csr_page(self, redirect_to):
+        langdir = "" if self.nonl10n else f"{self.language}/"
+
+        context = self.new_context()
+        context["redirect_to"] = redirect_to
+        context["redirect_to_uri"] = context["rr"] + "/" + langdir + redirect_to
+        return self.env.get_template("csr.html").render(context)
