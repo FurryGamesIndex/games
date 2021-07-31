@@ -1,0 +1,48 @@
+name: 'BEYOND the HARBOR: r'
+
+description: |
+  Two years ago, Oliver Blanche disappeared.
+
+  A young aspiring detective catches wind of the case, and decides that if nobody else was going to solve this, he would. Little did he know, that he was involving himself with something much bigger.
+
+description-format: markdown
+
+tags:
+  author:
+    - Harmonious
+  type:
+    - visual-novel
+    - bara
+  male:
+    - hyena
+    - cat
+    - lizard
+    - mouse
+  misc:
+    - freeware
+    - multiple-endings
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://harmoyena.itch.io/beyond-the-harbor
+  - name: .twitter
+    uri: twitter:Harmoyena
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzY2Mjc5MDQucG5n/original/4FGzg4.png
+  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzY2Mjc5MDcucG5n/original/nEA3nv.png
+  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzY2Mjc5MDgucG5n/original/8q4Vo8.png
+  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzY2Mjc5MDkucG5n/original/4hAJOA.png

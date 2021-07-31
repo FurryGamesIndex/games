@@ -1,5 +1,7 @@
 name: BEYOND THE HARBOR
 
+replaced-by: BEYOND_the_HARBOR_r
+
 description: |
   BEYOND THE HARBOR is a nonlinear furry visual novel set in the seaside town of Harborton, Virginia. It follows Ollie, a young man who spends a bit too much time in his own head.
 
@@ -26,7 +28,7 @@ tags:
     - freeware
     - multiple-endings
     - engine-renpy
-    - work-in-process
+    - died
   lang:
     - en
   publish:
