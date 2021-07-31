@@ -71,9 +71,9 @@ game_contact_us: 通过以下方式联系“兽人控游戏索引”项目
 game_sensitive_warning: 当前页面可能包含敏感媒体，它们已被隐藏。 <a href="%s/%s/sensitive.html">管理敏感内容设置</a>
 
 warnbox_staging: 这是一个施工中的页面，其内容可能在将来发生破坏性改变。
-noticebox_tagme: 这个页面已知缺少重要标签。请帮忙添加标签。<br><a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md">贡献指南</a> <a href="https://github.com/FurryGamesIndex/games/blob/master/doc/tags.zh-cn.md">标签列表和解释</a>
 warnbox_expunge: 此页面已从列表页面和搜索结果中移除
 noticebox_replacedby: 这个游戏已被 <a href="%s">%s</a> 取代。因此不会显示在列表页面。
+noticebox_wip_game_over_90d: 这个游戏被标记为未完成/已暂停。然而，这个页面已经超过 90 天没有被任何维护者编辑过了，其中的部分内容可能已经过时。<br><a href="https://github.com/FurryGamesIndex/games/issues/new?title=[Game%20{game_id}]%20%E5%9C%A8%E8%BF%99%E9%87%8C%E5%A1%AB%E5%86%99%E9%97%AE%E9%A2%98%E7%9A%84%E6%91%98%E8%A6%81&body=%E6%8F%8F%E8%BF%B0%E9%97%AE%E9%A2%98&labels=games">报告问题</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.zh-cn.md">参与我们</a>
 
 sensitive_page_tip: |
   这将在所有 FGI 页面上启用显示敏感内容。<br>

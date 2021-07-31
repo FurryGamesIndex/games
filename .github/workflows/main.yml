@@ -40,6 +40,7 @@ jobs:
         ./generate.py \
             --images-candidate-webp \
             --with-rss \
+            --mtime-has-fixed \
             --plugin steam-cdn-unite,verbose=1 \
             output
 
@@ -85,6 +86,7 @@ jobs:
             --no-sitemap \
             --images-candidate-webp \
             --with-rss \
+            --mtime-has-fixed \
             --plugin steam-cdn-unite,cdn=china \
             --plugin cn-optimize,rev="$FGI_GITHUB_PAGES_REV" \
             --plugin webp-converter-stub \

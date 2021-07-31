@@ -19,6 +19,7 @@
 
 import os
 import re
+import time
 from html import escape
 
 from fgi.base import make_wrapper
@@ -81,6 +82,15 @@ class RendererGame(Renderer):
         meta["image"] = game.thumbnail.with_rr(context["rr"]).src
         meta["extra_keywords"] = keywords.game_page_extra_keywords(game, context["ui"])
         context["meta"] = meta
+
+        if self.fctx.args.mtime_has_fixed:
+            td = int(time.time()) - game.get_mtime(self.language)
+            if td < 0:
+                raise RuntimeError("The time difference is negative, is the system time correct?")
+            elif td >= 7776000: # 90 days * 24 * 60 * 60
+                if game.check_tag("misc", "work-in-process") or \
+                        game.check_tag("misc", "suspended"):
+                    context["ongoing_game_edited_over_90days"] = True
 
         return self.env.get_template("game.html").render(context)
 
