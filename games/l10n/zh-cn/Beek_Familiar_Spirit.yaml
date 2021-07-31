@@ -1,4 +1,4 @@
-name: Beek - 使魔与毛茸茸 / Beek - Familiar Spirit
+name: Beek - 使魔与毛茸茸
 
 description: |
   一封奇怪的短信打破了你的宁静。看起来有人迷失在了一个未知的森林里，而你是他唯一能够取得联系的人。
@@ -8,3 +8,7 @@ description: |
   主人公 Beek 的命运正等待你的抉择。来帮助他重拾直面黑暗的力量与勇气，带领他找到回家的路。
 
 description-format: markdown
+
+X-Chinese-Convertor-Hint:
+  prefer: ignored
+  

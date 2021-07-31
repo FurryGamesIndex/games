@@ -1,5 +1,8 @@
 name: BIOMUTANT
 
+brief-description: |
+  BIOMUTANT® is an open-world, post-apocalyptic Kung-Fu fable RPG, with a unique martial arts styled combat system allowing you to mix melee, shooting and mutant ability action.
+
 description: |
   BIOMUTANT® is an open-world, post-apocalyptic Kung-Fu fable RPG, with a unique martial arts styled combat system allowing you to mix melee, shooting and mutant ability action.
 
@@ -24,7 +27,6 @@ description: |
 
   ### AN UNUSUAL STORY WITH AN UNUSUAL END
   Your actions play a major part in the unfolding of a story where End is coming to the New World. A plague is ruining the land and the Tree-of-Life is bleeding death from its roots. The Tribes stand divided, in need of someone strong enough to unite them or bring them all down...
-
   You are guided through the world by a Storyteller that narrates every step of your journey, but it’s your actions and choices that’ll decide how your story of survival ends.
 
 description-format: markdown

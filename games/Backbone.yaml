@@ -1,13 +1,40 @@
 name: Backbone
 
+brief-description: |
+  Backbone is a post-noir narrative adventure. Become raccoon private eye Howard Lotor and explore dystopian Vancouver inhabited by animals as you uncover a deeply personal story of change and transformation.
+
 description: |
-  Backbone is a noir roleplaying detective adventure. Step into the shoes of anthropomorphic raccoon and private eye, Howard Lotor, and explore the beautifully rendered 2.5D pixel art environments of dystopian Vancouver. 
+  You’re not special. You’re not a hero. Thrust into unfortunate circumstances, you find yourself with no other option than to unravel what might be your biggest case yet.
 
-  Howard Lotor is smart, self-assured and set in his ways. Caught in the tedium of day-to-day life, he’s resigned to the abuses of the authoritative regime in power and compliant with the systemic inequality that permeates society. But a string of cases that grow progressively more outlandish will put his worldview to the test. 
+  There is no choice. We change, but we change nothing. Get to work, detective.
 
-  Backbone's gameplay is a new take on point-and-click adventure, featuring stealth, exploration, and extensive branching dialogues inspired by classic CRPGs. As Howard, you must traverse the diverse districts of a now walled-off Vancouver, sniff out clues, collect evidence, interrogate witnesses, and choose which leads to follow. 
+  ##ABOUT BACKBONE
 
-  Inspired by film noir, Backbone will submerge you into its dark dystopian atmosphere. Every animation in the game is handcrafted frame by frame, and environments are modeled after real streets of Vancouver, BC. The breathtaking combination of high resolution pixel art and 3D effects like dynamic lighting, pouring rain, volumetric fog and neon lights bring the sprawling city to life. Original doom jazz soundtrack will keep you on the edge with the enveloping veil of bebop and cinematic soundscapes, where every sound tells a story.
+  Backbone is a post-noir narrative adventure. Become raccoon private eye Howard Lotor and explore dystopian Vancouver inhabited by animals as you uncover a deeply personal story of change and transformation.
+
+  Backbone is inspired by film noir, weird sci-fi, post-soviet aesthetics, modern political regimes, the works of Lynch and Kaufman, and existential philosophy of Sartre. It is a linear, cinematic narrative experience that subverts genre and challenges your perception of what it means to be a person.
+
+  ##GAMEPLAY
+
+  Backbone’s gameplay is focused on storytelling and emotional expression, featuring rich and elaborate dialogues inspired by old school CRPGs, as well as exploration of the lush environments. The end of all things is inevitable, but defining which version of Howard Lotor reaches the conclusion is up to you.
+
+  As Howard, you will:
+  - Make meaningful connections with a diverse cast of characters in pursuit of truth
+  - Shape and express your identity through dialogue choices - decide what kind of person you want to be
+  - Explore and experience both downtrodden and flourishing districts of a strange, yet familiar version of Vancouver
+  - Come to terms with the universal pain of existence and loss
+  - Be a raccoon
+
+  ##FEATURES
+
+  ###Post-noir dystopia
+  Backbone’s Vancouver is a dangerous place, bleak and dreary, but not entirely without hope. It’s a tale of a cold and uncaring world, interspersed with genuine connections and a bruised but undying drive to make a difference. Everyone wants to change the world, but not always for the better.
+
+  ###Stunning visuals
+  The breathtaking combination of high-resolution pixel art and 3D effects like dynamic lighting, pouring rain, volumetric fog and neon lights bring the sprawling City to life. Visit iconic Vancouver locations like Gastown, Granville and Fairmont Hotel, reimagined in a world now inhabited by anthropomorphic animals.
+
+  ###Evocative and unforgettable soundtrack
+  Original doom jazz soundtrack by Danshin and Arooj Aftab features an innovative combination of classic jazz and electronic music. Backbone’s OST is expertly crafted to create a cinematic, atmospheric, and simply jaw-dropping soundscape that serves and enhances storytelling.
 
 description-format: markdown
 

@@ -2,8 +2,8 @@ name: Badtime Stories
 
 description: |
   Meet new anthro guys with new stories every month.
+
   A visual novel with short stories with explicit sexual contents.
-  Currently being developed at patreon.com/kalchivo
 
 description-format: markdown
 
@@ -27,7 +27,7 @@ tags:
   misc:
     - uncensored
     - multiple-endings
-    - work-in-process
+    - suspended
   lang:
     - en
   publish:

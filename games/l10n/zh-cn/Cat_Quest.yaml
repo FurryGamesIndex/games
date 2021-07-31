@@ -1,7 +1,10 @@
-name: 喵咪斗恶龙 / Cat Quest
+name: 喵咪斗恶龙
+
+brief-description: |
+  喵咪斗恶龙游戏是一款背景设定在奇喵猫世界的开放性RPG游戏！ 为了找寻被绑架的猫妹，您将闯入 Felingard 大陆——一个以往昔主地图形式呈现的充满各种猫类角色、故事和俏皮话的世界。
 
 description: |
-  喵咪斗恶龙游戏是一款背景设定在奇喵猫世界的开放性 RPG游戏！
+  喵咪斗恶龙游戏是一款背景设定在奇喵猫世界的开放性RPG游戏！
 
   您将踏上一次大冒险旅程，找寻邪恶的德拉柯斯和被绑架的妹妹！ 
 
@@ -28,6 +31,9 @@ description: |
   
   ##游戏原声
 
-  聆听灵感来自经典 RPG 手游音乐的动听管弦乐。 由 zminusone
+  聆听灵感来自经典 RPG 手游音乐的动听管弦乐。 
 
 description-format: markdown
+
+X-Chinese-Convertor-Hint:
+  prefer: ignored

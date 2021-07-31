@@ -1,8 +1,7 @@
-name: Changed
+brief-description: |
+  你被困于一个研究所，要想尽办法使你还仍然是“你自己”，坚持下去，活下去。
 
 description: |
-  ##游戏梗概：
-
   Changed是一款颇有难度、拥有大量追逐战与初见杀的动作解谜游戏。  
   你在一个陌生的房间中苏醒，发觉自己被绑架到了一个神秘的研究所。  
   冒险中，你会遇到形形色色的未知生物，每一种都可以轻易“掠夺”你的躯体。  
@@ -30,3 +29,6 @@ links-tr:
   "Author's weibo (噬子有一层糯米外皮)": "作者微博（噬子有一层糯米外皮）"
 
 description-format: markdown
+
+X-Chinese-Convertor-Hint:
+  prefer: ignored

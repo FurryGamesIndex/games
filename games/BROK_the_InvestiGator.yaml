@@ -1,31 +1,34 @@
 name: BROK the InvestiGator
 
+brief-description: |
+  BROK is a hybrid traditional adventure and side-scrolling beat 'em up with a Saturday morning cartoon style and character-driven storyline. In a grim world where animals have replaced mankind, what kind of detective will you be?
+
 description: |
-  The first "Classic Adventure" mixed with Beat'em Up and RPG, inspired by cartoons from the 80's/early 90's. What kind of detective will you be?
-  
-  Narrative-driven adventure game that blends action and investigation in never-before-seen ways. Will you use your brain... or your brawn?
-  
-  In a futuristic "light cyberpunk" world where animals have replaced humans, privileged citizens live under a dome protected from the ambient pollution while others struggle to make a living outside.
-  
-  Brok, a private detective and former boxer, lives with Graff, the son of his deceased wife. Although he could never elucidate her accident, recent events may shed some light on an even more tragic outcome... one that may be linked to their own existence.
-  
+  "Brok" is a narrative-driven game that blends action, puzzles and investigation in never-before-seen ways. Will you use your brain... or your brawn?
+
+  In a futuristic "light cyberpunk" world where animals have replaced humans, privileged citizens live under a protective dome from the ambient air pollution while others struggle to make a living on the outside.
+
+  Brok, private detective and former boxer, lives with Graff, the son of his deceased wife. Although he could never elucidate the nature behind her accident, recent events may shed some light on an even more tragic outcome... one that may be linked to their own existence.
+
   Will they be able to withstand the threats of this corrupted world and face their own destiny?
-  
+
   ##FEATURES
-  
-  - A deep and emotional narrative-rich experience filled with characters reminiscent of classic 80s/90s cartoons. The first game to combine a "Classic Adventure" with "Beat'em up" and RPG elements!
+
+  A deep and emotional narrative-rich experience filled with characters reminiscent of classic 80s/90s cartoons.
+
+  The first game to combine a "Classic Adventure" with "Beat'em up" and RPG elements!
+
   - Solve puzzles with your wits... or muscles!
   - Make choices impacting gameplay and/or story
   - Easy mode for pure "Point & Click" gameplay (fights can be skipped)
   - Level up to beat enemies and bosses
   - Combine clues to uncover the truth!
   - In-game hints
-  - All controls supported (mouse, keyboard or controller)
   - Two playable characters, switch at any time
   - 15 to 20 hours long on first playthrough
   - Multiple distinct endings to unlock
-  - Text fully translated into 10 languages
   - Full english voice acting (23,000 lines)
+  - All controls supported (mouse, keyboard or controller)
 
 description-format: markdown
 

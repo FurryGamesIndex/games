@@ -50,7 +50,15 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://i.imgur.com/KdMhLUV.png
-  - https://i.imgur.com/GR7Kz6O.png
-  - https://i.imgur.com/ll1TXDw.png
-
+  - type: hbox
+    content:
+      - https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/1c/2d/63/1c2d6341-491b-81bd-fc0d-614515ac5ecc/pr_source.png/600x0w.png
+      - https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/25/af/db/25afdb1b-42af-724a-8079-8a14199f8afc/pr_source.png/600x0w.png
+  - type: hbox
+    content:
+      - https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/be/9a/02/be9a027e-c67c-b239-63b0-e6a6995db62a/pr_source.png/600x0w.png
+      - https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/a3/f4/8e/a3f48ebb-e363-bb05-86f9-2ea5a7f587d3/pr_source.png/600x0w.png
+  - type: hbox
+    content:
+      - https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/5e/5d/8c/5e5d8c1b-40cf-8cb6-8d3a-d39dd7ed3d87/pr_source.png/600x0w.png
+      - https://is4-ssl.mzstatic.com/image/thumb/Purple114/v4/f3/5b/1e/f35b1ef4-2eeb-2925-9ee5-ee7da1bc74bb/pr_source.png/600x0w.png
