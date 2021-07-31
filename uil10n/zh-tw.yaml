@@ -73,6 +73,7 @@ game_sensitive_warning: 當前頁面可能包含敏感媒體，它們已被隱�
 warnbox_staging: 這是一個施工中的頁面，其內容可能在將來發生破壞性改變。
 warnbox_expunge: 此頁面已從列表頁面和搜尋結果中移除
 noticebox_replacedby: 這個遊戲已被 <a href="%s">%s</a> 取代。因此不會顯示在列表頁面。
+noticebox_wip_game_over_90d: 這個遊戲被標記為未完成/已暫停。然而，這個頁面已經超過 90 天沒有被任何維護者編輯過了，其中的部分內容可能已經過時。<br><a href="https://github.com/FurryGamesIndex/games/issues/new?title=[Game%20{game_id}]%20%E5%9C%A8%E8%BF%99%E9%87%8C%E5%A1%AB%E5%86%99%E9%97%AE%E9%A2%98%E7%9A%84%E6%91%98%E8%A6%81&body=%E6%8F%8F%E8%BF%B0%E9%97%AE%E9%A2%98&labels=games">報告問題</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.zh-tw.md">參與我們</a>
 
 sensitive_page_tip: |
   這將在所有 FGI 頁面上啟用顯示敏感內容。<br>
