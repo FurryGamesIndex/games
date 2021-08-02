@@ -1,15 +1,14 @@
 name: Echo
 
-description: |
-  **Echo contains themes of an adult nature, including violence, torture, drug usage, and harsh language - you must be 18 or older to play. Echo can be an emotionally intense experience and may not be for everyone. Please put your mental well-being first and take this into consideration before downloading!**
+brief-description: |
+  During spring break, Chase, a young otter who grew up in Echo, is back for a school project aimed at documenting an event in the 1870's that may have lead to the town's current state. He's joined by five friends, who grew up with him in Echo, taking the chance to have a little reunion. Unfortunately, Chase begins to realize that their memories of Echo may have been a bit rose-tinted. Being back in the town digs up old and painful memories; secrets that lead to rifts in the group that have been boiling under the surface for years.
 
-  Echo is a horror visual novel about a small, isolated, desert town located somewhere in the Southwest.
+description: |
+  Echo is a horror visual novel about a small, isolated, desert town located somewhere in the southwestern states.
 
   During spring break, Chase, a young otter who grew up in Echo, is back for a school project aimed at documenting an event in the 1870's that may have lead to the town's current state. He's joined by five friends, who grew up with him in Echo, taking the chance to have a little reunion. Unfortunately, Chase begins to realize that their memories of Echo may have been a bit rose-tinted. Being back in the town digs up old and painful memories; secrets that lead to rifts in the group that have been boiling under the surface for years. On top of that, Chase begins to realize that Echo itself may have its own secrets. Odd and unexplained memories that he always blamed on an overactive childhood imagination may not have been imagined at all.
   
   Finally, an event is triggered that turns these fears into something much more tangible and dangerous. Chase is now forced into a situation in which he must help his friends either face, or escape their demons. Either way, Echo is not keen on letting them go...
-
-  If you enjoy this and would like to support us on Patreon, you can do that [HERE](https://www.patreon.com/EchoGame)!
 
 description-format: markdown
 
@@ -85,8 +84,9 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzMwMjcyNjAucG5n/original/do8b07.png
-  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzIxNjgyNTMucG5n/original/o%2FnTj9.png
   - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzMwMjcyNTEucG5n/original/4dU6Tc.png
+  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzQ4ODIxNjYucG5n/original/mDM1VX.png
   - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzMwMjcyNzEucG5n/original/tN253o.png
+  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzQ4Mzk2NjIucG5n/original/8WBZmp.png
   - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzIxNjgyNTQucG5n/original/frrpiX.png
-
+  - https://img.itch.zone/aW1hZ2UvNDMyODQ5LzQ4Mzk2OTQucG5n/original/Q3aDWp.png

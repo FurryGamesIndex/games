@@ -1,5 +1,8 @@
 name: 'Dust: An Elysian Tail'
 
+brief-description: |
+  Immerse yourself in a gorgeous hand-painted world on a search for your true identity. As the mysterious warrior, Dust, your action-packed journey will take you from peaceful glades to snowy mountaintops and beyond.
+
 description: |
   Immerse yourself in a gorgeous hand-painted world on a search for your true identity. As the mysterious warrior, Dust, your action-packed journey will take you from peaceful glades to snowy mountaintops and beyond. At your disposal is the mythical Blade of Ahrah, capable of turning its wielder into an unstoppable force of nature, and the blade's diminutive guardian, Fidget. Battle dozens of enemies at once with an easy-to-learn, difficult-to-master combat system, take on a variety of quests from friendly villagers, discover ancient secrets and powerful upgrades hidden throughout the massive, open world, and uncover the story of an ancient civilization on the brink of extinction as you fight to uncover your own past.
 
@@ -57,4 +60,13 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://steamcdn-a.akamaihd.net/steam/apps/236090/ss_bb0bb104d025d7078000cfdbc1da13d0f9140488.1920x1080.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/2028717/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/2028717/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/236090/ss_bb0bb104d025d7078000cfdbc1da13d0f9140488.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/236090/ss_72f03d88618737bd69f674c95b197029a645a062.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/236090/ss_bbb015ac3c9419ef891e717e6488c11710518633.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/236090/ss_afb025e35a8a0d1fdb718503291883fbb62d11b9.1920x1080.jpg

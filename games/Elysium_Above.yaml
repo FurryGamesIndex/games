@@ -1,31 +1,36 @@
-name: Elysium Above 履云录
+name: Elysium Above
+
+brief-description: |
+  In SRPG Elysium Above, you will be a Commander of state Bo to direct the heroes to fight against enemies, and defend the newly restored land that has been annexed for 11 years! Wit the era of chaos and excitement with eight heroes!
 
 description: |
-  **English Version is COMING SOON**
-  
-  ##About Elysium Above
-
   Elysium Above is a Wargame developed using Unity 3D.
   
   ##Game Feature
 
-  In the game, the player acts as a low level councellor in Bo, the small state by the East Sea, defending this newly recovered state against the onslaughts from enemies by excellent deployment and strategy, looking into the needs of every party and lead the story to different finales by your select.
+  In the game, the player acts as a low-level counsellor of Bo, the small state by the East Sea, defending this newly recovered state against the onslaughts from enemies by your excellent deployment and strategy, looking into the needs of every party and lead the story to different finales by your select.
   
-  This is a half-real-time game. Before using up the strategy points, a unit may move and use skills as your wish. But the more points you consume, the later next act will come. Keep your eyes on the Order of Action, and use your strategy to defeat all enemies. 
+  - This is a half-real-time game. Before using up the strategy points, a unit may move and use skills as your wish. But the more points you consume, the later next act will come. Keep your eyes on the Order of Action, and use your strategy to defeat all enemies.
+  - If you arrange a character’s active skills and passive skills differently, he will join the battle in different roles.
+  - By gaining Complete Victory, joining the activities between battles, finishing side quests, recruiting new teammates and gaining cohesiveness, you may acquire all kinds of benefits.
+  - By travelling through Bo and collecting treasures(there are tens of treasures available), you may strengthen your teammates. Besides, some important items may affect the finale!
   
-  By arranging the active skills and passive skills of one character, he will join the battle acting different roles.
+  ##About Wanyan World
   
-  By gaining Complete Victory, joining the activities between battles, finishing side quests, recruiting new teammates and gaining cohesiveness, you may gain all kinds of benefits.
+  This is the Continent of Wanyan.
+  Wanyan, an enfeoffment kingdom lasted for thousands of years, though having enjoyed a long time of peace, is now at the brink of division. Its authority as a suzerain is declining, and its vassals are fighting against each other. Thousands of war is crushing numerous states and killing countless people.
   
-  By travelling through Bo and collecting treasures, you may strengthen your teammates. Besides, some important items may affect the finale!
-  
-  ##The Wanyan World
-  
-  On the Wanyan Land, Wanyan, a country of enfeoffment, though having enjoyed a long time peace, is facing the fate of division. Wanyan's authority is declining since 800 years ago, and every feudal state fought each other. The warfare is crushing countless states and killing endless people.
-  
-  Lu, a traditional military state, by annexing surrounding states, have already developed into a superpower within Wanyan. The newly born Seven State Alliance is at confrontation against Lu under Hong's leading, and has been integrating more states to join it. Between the two superpower there is the main stage of our story - Bo.
-  
-  Bo was destroyed in Lu's sudden attack 11 years ago, and Kui the king ended his life with fire in Wanyang Palace, while older prince Huang Zhu escaped to Hong in the south with third prince. Later Bo was all annexed by Lu. 11 years later, Huang Zhu took the chance when Lu garrison didn't aware, led an army to fight back. Again the threat of warfare and death is hanging over the coast of the East Sea. Besides, many powers are arriving here with each one's own desire. Maybe this war of restoration is simply the beginning of a series of chaos...
+  Lu, a traditional military state, has developed into a first-tier power by annexing surrounding states.
+
+  The newly born Seven State Alliance under State Hong's leading is at the confrontation against Lu. Meanwhile, it is appealing to more states to join it.
+
+  Between the two superpowers, there is the main stage of our story - Bo.
+  Bo was crushed by Lu's sudden attack eleven years ago. Facing the irretrievable fate, King Kui chose to be a martyr for the fallen state, and the older prince Huang Zhu escaped to Hong in the south with the third prince. Since then, Bo's land is under the control of Lu.
+
+  Eleven years later, to restore the state, Huang Zhu led an army to fight back by the chance when Lu garrison was not aware.
+  But since then, the threat of war and death is hanging over the coast of the East Sea.
+
+  This battle attracted all sorts of factions with each one's purpose. Maybe this war of restoration is simply the beginning of a series of chaos...
 
 description-format: markdown
 
@@ -72,9 +77,9 @@ screenshots:
   - type: video
     src:
       - mime: video/webm
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256816655/movie480_vp9.webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822288/movie480_vp9.webm
       - mime: video/mp4
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256816655/movie480.mp4
-  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_26d96a2e849ebef289f9aa03e409324389b11979.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_8a615e89a04709ff89e439ef7e82a473db02ad1a.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_a87291739781f01b35e9df30946b7fc55fd0c01d.1920x1080.jpg
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822288/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1509450/ss_26d96a2e849ebef289f9aa03e409324389b11979.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1509450/ss_8a615e89a04709ff89e439ef7e82a473db02ad1a.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1509450/ss_bfcd7d1aa3968479a959e19e54234eea40f397b2.1920x1080.jpg
