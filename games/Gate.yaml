@@ -57,8 +57,8 @@ screenshots:
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822487/movie480_vp9.webm
       - mime: video/mp4
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822487/movie480.mp4
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_67aad9dde85e0556fbe6dc642426fb3d64a6f8d2.1920x1080.jpg?t=1614759337
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_3375fd3d9294bcd8138cb97fefff351d6fe562ac.1920x1080.jpg?t=1614759337
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_699f9ad7811c0e81b9718acc28072c9fec901712.1920x1080.jpg?t=1614759337
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_cfdcc3adda9b1599a84a7c0876deb9c5e5d0b778.1920x1080.jpg?t=1614759337
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_8b3ffa7b7338c350e31f8efde8967ff854244fdf.1920x1080.jpg?t=1614759337
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_67aad9dde85e0556fbe6dc642426fb3d64a6f8d2.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_3375fd3d9294bcd8138cb97fefff351d6fe562ac.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_699f9ad7811c0e81b9718acc28072c9fec901712.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_cfdcc3adda9b1599a84a7c0876deb9c5e5d0b778.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_8b3ffa7b7338c350e31f8efde8967ff854244fdf.1920x1080.jpg
