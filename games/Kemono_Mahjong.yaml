@@ -1,17 +1,22 @@
 name: Kemono Mahjong
 
+brief-description: |
+  Riichi Mahjong - A fun, strategic variant of the classic multiplayer game!
+
 description: |
   No mere tile-matching solitaire game, this is a full implementation of Japanese Mahjong. A fun, strategic variant of the classic Chinese 4-player game!
 
   Features:
 
-  * Real (4-player) mahjong! (you vs. 3 CPU opponents - or play online with friends!)
-  * Japanese/Riichi style following European Mahjong Association (EMA) rules
-  * Beautiful, easy-to-read tiles (with traditional and simplified tile sets)
-  * Colourful cast of characters
-  * Beautiful music
-  * Multiple languages! (English, Spanish, French, Dutch, German, Polish, Russian, Thai, Chinese Simplified, Korean, Japanese)
-  * Tutorials and in-game help, ideal for new players!
+  - Real (4-player) mahjong! (you vs. 3 CPU opponents - or play online with friends!)
+  - Japanese/Riichi style following European Mahjong Association (EMA) rules
+  - Beautiful, easy-to-read tiles (with traditional and simplified tile sets)
+  - Colourful cast of characters
+  - Beautiful music
+  - Multiple languages! (English, Spanish, French, Dutch, German, Polish, Russian, Thai, Chinese Simplified, Korean, Japanese)
+  - Tutorials and in-game help, ideal for new players!
+
+description-format: markdown
 
 tags:
   author:

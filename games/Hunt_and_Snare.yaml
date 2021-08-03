@@ -1,12 +1,9 @@
 name: Hunt and Snare
 
-description: |
-  System requirements:
-  * 64 bit operating system
-  * Quadcore, 2.8Ghz
-  * 4 GB RAM
-  * Nvidia 1060 or AMD equivalent
+brief-description: |
+  Explore the beautiful archipelago of Skiir; Sail its open seas, roam its deep woods, and sexplore its exotic species. Hunt and Snare to your heart's content.
 
+description: |
   Hunt and Snare is a Furry Third Person Shooter with a strong focus on sexual themes and character interaction. Travel between islands on a ship with your trusted ship crew, hunt rare species with a tranquilizer rifle or capture with bare paws,and sell to the highest bidder after rigorous sampling of the prey. Will your crew grow to love you as an equal ship commander, or will they idolize you as a renowned hunter?
   
   Hunt for rare and unique species of all genders and races: Using your trusty tranquilizer long rifle, or go feral and capture with your bare paws!
@@ -23,7 +20,7 @@ description: |
   
   Showroom: Select from a large selection of various positions you have discovered or play out full acts in various locations and environments.
 
-  # Features Under Development
+  ## Features Under Development
   World of Skir: Discover and hunt on Skiia, the northern island named after the sibling of the great god-dragon Skir, visit the magnificent island state of Harakeen, the jewel of Skir, explore the wild and dangerous wilds of Kizan.
   
   Customizable tranquilizer long rifle: Personalize and upgrade your rifle to no only hunt more difficult prey, but to do it in style.
@@ -34,7 +31,7 @@ description: |
   
   More unique species: In addition to the fairly tame catkin of Fain, the loyal dogkin of Davh, the wild and dangerous dragonkin of Kizan, and the cute and cuddly foxkin of Ful are still in development each with their own different skin styles and color combinations.
 
-  # Rewards and Tiers
+  ## Rewards and Tiers
   All tiers have access to developer posts, ability to vote on Patron only polls, and a corresponding Discord role, in addition to various basic benefits: 
   
   Iron Cohort: Early access to public releases of older Patreon builds.
@@ -48,25 +45,6 @@ description: |
   Emerald Cohort: Above rewards. An extra supporter tier. Show your ultimate appreciation of our work <3
 
   Note: To have your name added to Guild of Wild Hunters' guestbook, or Wall of Fame you must send us a message on Patreon or Discord and give us exact name you wish to be added with! 
-
-  # Development
-  You can see the more indepth information about the current development focus on our public Trello board: https://trello.com/b/whud7kIk/hunt-n-snare
-
-  # About us
-  Ruffleneck - Programming / Art / Design - [FA](https://www.furaffinity.net/user/ruffleneck/)/[Twitter](https://twitter.com/ruffleneck) - That's me! I have 9 years of professional experience as artist, designer, and gameplay programmer. Late 2016 I started working on the Hunt and Snare prototype and hanging around in the adult game developer community. Oh boy! I enjoy it a lot more than the "normal" game developer community. Hunt and Snare is my little baby dragon and I hope you enjoy it too! <3
-  
-  Hareress - Animation / Skin Designer / Map Builder - [FA](https://www.furaffinity.net/user/hareress)/[Twitter](https://twitter.com/hareress) - Hareress is a 2D artist, also my little bunny and my owner, who is sharing the content workload with me. Their primary focus is on animations, skin designing, and map building.
-  
-  Drathek - Programming - [Twitter](https://twitter.com/Drathek) - Drathek is a blazingly awesome red and black dragon who does a fantastic job easing my burdens by handling majority of the programming tasks. Drathek is effectively the lead programmer of Hunt and Snare, or senior, or greater dragon programmer, not sure what describes their role the best :3
-  
-  Nullbunny - Programming - [FA](https://www.furaffinity.net/user/nullbunny/) / [Twitter](https://twitter.com/nullbunny) - Nullbunny is a brilliant and fun bunny who joined us as the second programmer, both helping Drathek, and helping us, together, to realize my wildest dreams for Hunt and Snare, and help bring features in faster :3
-
-  # The Final Words
-  Whether or not you decide to support us and Hunt and Snare, thank you very much for your attention. I hope you still enjoy the splendor of the public build! If you chose to support us, wow! That's the biggest vote of confidence one can give!
-
-  Thank you so very much! ^^ 
-
-  ~Ruffleneck
 
 description-format: markdown
 

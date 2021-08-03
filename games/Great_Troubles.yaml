@@ -5,17 +5,6 @@ description: |
 
   School days promised to be interesting and fun, but something went wrong...
 
-  ##Authors:
-
-  - [https://www.furaffinity.net/user/fumiko](https://www.furaffinity.net/user/fumiko)
-  - [https://www.furaffinity.net/user/rokito](https://www.furaffinity.net/user/rokito)
-    - [https://rokitou.tumblr.com/](https://rokitou.tumblr.com/)
-  - [https://www.furaffinity.net/user/rikitoka](https://www.furaffinity.net/user/rikitoka)
-    - [https://rikitoka.tumblr.com/](https://rikitoka.tumblr.com/)
-  - [https://www.furaffinity.net/user/nibinoylin](https://www.furaffinity.net/user/nibinoylin)
-
-  Expired website: [http://hazukashii.ru/](http://hazukashii.ru/)
-
 description-format: markdown
 
 tags:
@@ -55,6 +44,9 @@ tags:
 links:
   - name: .tumblr
     uri: https://hazukashiiteam.tumblr.com/
+  - name: Official Website (expired)
+    rel: nofollow
+    uri: http://hazukashii.ru/
   - name: .unofficial-archived-download
     uri: https://drive.google.com/file/d/0B-mhLFlW2ZOGOU5SN0RkbllwV1k/view
 

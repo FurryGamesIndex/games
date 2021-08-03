@@ -1,50 +1,20 @@
 name: Identity
 
+brief-description: |
+  Identity is a non-linear, horror/mystery visual novel with a plot based around the premise of self-rediscovery. You take on the role of Yarin Nyrok, a scalie fellow who wakes up with no recollection of himself or anything else. Fortunately, you meet some odd people who are willing to help you, apparently old friends and some new acquaintances. Try to find out who you were, whatever caused you to wake up blank, and form new bonds and memories meanwhile. And if you can't uncover your old self, you may still form your own, new Identity!
+
 description: |
-  # Identity
-  #
   Identity is a non-linear, horror/mystery visual novel with a plot based around the premise of self-rediscovery. You take on the role of Yarin Nyrok, a scalie fellow who wakes up with no recollection of himself or anything else. Fortunately, you meet some odd people who are willing to help you, apparently old friends and some new acquaintances. Try to find out who you were, whatever caused you to wake up blank, and form new bonds and memories meanwhile. And if you can't uncover your old self, you may still form your own, new Identity!
 
   The game features a diverse cast of dragons, lizards and other furry/scaly species. You will learn about their personalities, tastes and quirks while uncovering the mystery of your memory loss and the strange plot brewing in and around the Heaven's Peak Resort.
 
-  # Is it NSFW?
+  ## Is it NSFW?
   
   Yes. Identity will feature lots of optional erotic content. You'll be able to hang out with the characters you meet during "free time" events, to develop your relationship with them on a romantic or purely platonic level and, as you may expect, to get it on with most of them. We intend to give some freedom here regarding whether you top or bottom. We aim for at least a couple of sex scenes per character.
 
   This game will be mostly M/M and queer oriented, with few straight scenes and female characters. Uncommon kinks and fetishes (such as BDSM) will also be featured, as well as strong language, allusions to drugs, alcohol, violence and mild horror.
   
-  Identity is an adult game which features explicit imagery. Make sure you meet the legal age requirements before playing it.
-
-  # How you can support us
-  
-  We are an independent team working on this project in our free time. Any donation, no matter how small, gives us a bit more stability and funds to develop this story about juicy, manly drakes and their precarious circumstances.
-
-  We are using Patreon as our main fundraising campaign. Through Patreon, you can get special perks such as early access to the latest builds of the game. We keep public builds one version behind patron ones, however that might change as the game grows. You will also gain access to our Discord server and more, depending on your pledge tier.
-
-  Of course, you can also support us on Itch.io directly by making a donation when you download Identity. However, we only post the public game versions to Itch.io, so the only way to access those perks is through Patreon.
-
-  # Meet the team
-  
-  - [Rriik](https://www.furaffinity.net/user/rriikthedeinon) - Programmer, PR
-  - [Lone_Wanderer](https://www.furaffinity.net/user/deadlyillusion) - Writer, Creative Lead
-  - [Asbeoth (Vinickus)](https://www.furaffinity.net/user/asbeoth) - Writer
-  - [Folsky](https://twitter.com/arffolsky) - Sprite Artist
-  - [Weißer Rauch](https://www.furaffinity.net/user/weisserrauch/) - Background & Concept Artist
-  - [Sampling Kid](https://www.youtube.com/user/xLightningWolFx) - Musician
-  - [Lumix Fey](https://www.furaffinity.net/user/lumixdragonfey/) - CG Illustrator
-  
-  You can also find us on...
-  
-  - Patreon: [patreon.com/Identity](https://www.patreon.com/Identity)
-  - Twitter: [@Identity_VN](https://twitter.com/Identity_VN)
-  - FurAffinity: [furaffinity.net/user/identitygame](https://www.furaffinity.net/user/identitygame/)
-  - YouTube: [Juicy Drake Studios](https://www.youtube.com/channel/UCOkyMybEJknn70phTo9QksQ)
-  - Email: [juicydrakestudios@gmail.com](mailto:juicydrakestudios@gmail.com)
-
-  # Technical issues?
-  Should you find any bugs or typos, let us know in the comments or by emailing [juicydrakestudios@gmail.com](mailto:juicydrakestudios@gmail.com). Attaching a screenshot of the scene, dialogue prior to the issue and/or error messages would greatly help us fix the problem.
-
-  We'd like to thank everyone for supporting the work we do. Without you, this project would never have gotten this far.
+  **Identity is an adult game which features explicit imagery. Make sure you meet the legal age requirements before playing it.**
 
 description-format: markdown
 
@@ -93,7 +63,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvNTE2ODYxLzMzMDU0MDkuanBn/original/zGXIkC.jpg
-  - https://img.itch.zone/aW1hZ2UvNTE2ODYxLzMzMDU0MTMuanBn/original/avmptu.jpg
+  - https://img.itch.zone/aW1hZ2UvNTE2ODYxLzY1ODkzMDYuanBn/original/44iyHL.jpg
   - https://img.itch.zone/aW1hZ2UvNTE2ODYxLzMzMDU0MTAuanBn/original/T9E%2FY4.jpg
   - https://img.itch.zone/aW1hZ2UvNTE2ODYxLzMzMDU0MDguanBn/original/iw%2Bjar.jpg
   - https://img.itch.zone/aW1hZ2UvNTE2ODYxLzMzMDU0MTIuanBn/original/W4zU8F.jpg

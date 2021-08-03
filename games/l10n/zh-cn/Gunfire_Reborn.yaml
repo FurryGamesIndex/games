@@ -1,4 +1,7 @@
-name: 枪火重生 / Gunfire Reborn
+name: 枪火重生
+
+brief-description: |
+  《枪火重生》是一款融合了第一人称射击、Roguelite随机要素和RPG策略选择的冒险闯关游戏。玩家在游戏里可以操纵不同能力的英雄组建多种Build玩法，使用随机掉落的武器在随机性关卡中进行冒险挑战。可以单人畅玩，也可以最多四人组队挑战。
 
 description: |
   《枪火重生》是一款融合了第一人称射击、Roguelite随机元素和RPG策略选择的冒险闯关游戏。玩家在游戏里可以操纵不同能力的英雄组建多种Build玩法，使用随机掉落的武器在随机性关卡中进行冒险挑战。可以单人畅玩，也可以最多四人组队挑战。
@@ -20,3 +23,6 @@ links-tr:
   "Release page for China": "中国版发布页面"
 
 description-format: markdown
+
+X-Chinese-Convertor-Hint:
+  prefer: ignored

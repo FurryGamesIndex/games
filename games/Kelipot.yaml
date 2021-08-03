@@ -1,4 +1,7 @@
-name: Kelipot / 形骸骑士
+name: Kelipot
+
+brief-description: |
+  A mysterious plague befell ancient Celephais. What choices await the twins lost in the chaos? The Roguelite action-platformer Kelipot is here! With a rich story experience, frame-by-frame animations and hand-illustrated 2D visuals. Explore and uncover the truth beneath this twisted world!
 
 description: |
   Kelipot is a story-driven action platformer with rogue-lite elements. Combining classic side-scrolling gameplay, a great variety of powers and a gripping plot from start to finish, immerse yourself in the adventure to come!
@@ -74,6 +77,12 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256759230/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256759230/movie480.mp4
   - https://steamcdn-a.akamaihd.net/steam/apps/1090440/ss_426e8be50bd7a5e02755a55fe73aa461db610661.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/1090440/ss_e22dc35cdaedd0bc1a0f1cbece47c6fb3c7d622a.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/1090440/ss_60079ed73a6811a70decb9109a9daea04ce4175c.1920x1080.jpg

@@ -1,48 +1,19 @@
 name: Gate / 揭谛
 
+brief-description: |
+  GATE is a text-based furry homo romance game developed by NVL maker, in which the player will play the role of the protagonist to "break the system" as an opportunity to establish a relationship with the furries and find a way to achieve peace between races.
+
 description: |
-  ##Game Description
+  GATE is a text-based furry homo romance game developed by NVL maker, in which the player will play the role of the protagonist to "break the system" as an opportunity to establish a relationship with the furries and find a way to achieve peace between races.
 
-  A homoerotic, text-based furry romance game produced independently by individuals.
+  Plot summary:
+  In the year 3059, the furries are about to release new civilian technology products, and the Homo sapiens alliance has already obtained information about the military power they are flaunting and expanding behind. Under this threat, the hacker group hired by the Homo Sapiens Alliance secretly investigated that the highest technology of the furries was a set of super computing interactive modules [Empty Infinity]. The hacker group's crack team also went to the free countries at this time, attempting to crack and master the core of the system of the [Empty Infinity].
 
-  The game contains a small amount of blood, hunting, dark and homoerotic depictions.
-
-  ##Background
-
-  Around the year 2215, when the "genetic invasion" occurred, furries emerged rapidly in the world occupied by Homo sapiens.
-
-  The furries exceeded the intelligence and physical abilities of Homo sapiens, and possessed a level of technology superior to Homo sapiens, who had to make up for their deficiency by transforming their bodies.
-
-  By the year 3055, after two major wars, the world has evolved into a triumvirate of "two furries and one Homo sapien". The dozens of kingdoms of the Homo sapiens race unified into the "Homo Sapiens National Union (HSNU)", with an unparalleled culture. Furries who seek peace and common prosperity form the "Republic of Furries (RoF)", a secular state. The rebellious and autonomous furries established the "United Free Furries States (UFFS)" and developed cutting-edge technology.
-  
-  On the surface, the three political and economic entities are thriving with frequent exchanges and cooperation, but behind the scenes, they are actually in turmoil and counterbalancing each other.
-  
-  In the year 3059, a new civilian technology product is about to be released by UFFS, and the HSNU has also long been informed that the real purpose behind it is to show off and expand its military power.
-  
-  Under this threat, a group of hackers hired by HSNU have secretly discovered that the most advanced technology of the furries is actually a set of supercomputing interactive modules "Infinity".
-  
-  This is the first time that a team of hackers has been sent to the UFFS in an attempt to crack and master the core of the "Infinity" system.
-
-  ##Gameplay
-
-  General text-based gameplay, with space or mouse for plot and related actions.
-  
-  Options are few and far between, with only the beginning (selecting the object of the strategy) and the end (selecting the ending).
-  
-  The title the player enters at the beginning does not affect the protagonist's name or the main course, but is not meaningless.
-  
-  The game contains an extra content that will be unlocked after clearing a particular line.
-
-  ##Game Features
-
-  - The world of furries, Cyberpunk Worldview, Buddhist Thought and Traditional Chinese Culture
-  - Unique narrative method, combination of multiple artistic expressions
-
-  ##Thank you for your support
-
-  The game is an independent text-based game, with its own setting, script, copywriting, graphics and music, and is free to publish, although it does take a great deal of effort. The content of the game is not encrypted, if you use the pictures or music, please cite the source, or you can also contact me directly ~ of course, also look forward to comments and suggestions.
-
-  (Translated from Chinese)
+  Game features:
+  - The game setting and plot are not "real", but "virtual, real, dreamlike";
+  - There are many kinds of art forms and comprehensive expression of emotion, scenery, sound and painting in the game;
+  - In the game, the renaming system does not affect the name of the protagonist, but has certain significance;
+  - The game contains an "additional content", which will be unlocked after a certain plot line is cleared.
 
 description-format: markdown
 
@@ -64,10 +35,14 @@ tags:
     - multiple-endings
   lang:
     - zh
+  publish:
+    - steam
   platform:
     - windows
 
 links:
+  - name: .steam
+    uri: steam:1543330
   - name: Get on indienova
     uri: https://indienova.com/g/gate-2
   - name: .weibo
@@ -76,7 +51,14 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://i.imgur.com/jZYodTj.png
-  - https://i.imgur.com/kFiSGHj.png
-  - https://i.imgur.com/9cKT6p1.png
-  - https://i.imgur.com/3lm5pBz.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822487/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822487/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_67aad9dde85e0556fbe6dc642426fb3d64a6f8d2.1920x1080.jpg?t=1614759337
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_3375fd3d9294bcd8138cb97fefff351d6fe562ac.1920x1080.jpg?t=1614759337
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_699f9ad7811c0e81b9718acc28072c9fec901712.1920x1080.jpg?t=1614759337
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_cfdcc3adda9b1599a84a7c0876deb9c5e5d0b778.1920x1080.jpg?t=1614759337
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1543330/ss_8b3ffa7b7338c350e31f8efde8967ff854244fdf.1920x1080.jpg?t=1614759337

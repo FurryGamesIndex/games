@@ -1,5 +1,8 @@
 name: 'Furries & Scalies: Super Scary Halloween Spooky Times'
 
+brief-description: |
+  Manage a Halloween store. Don't kill your co-workers. Don't sell out to corporate. Don't lose your sanity. November is just around the corner.
+
 description: |
   The East Arden Mall has seen better days. The 24/7 Halloween shop, Super Scary Halloween Spooky Times, has seen its heyday come and go. But the various mallrats and workers of the mall are fighting back against their Corporate Overlords! 
   
@@ -9,7 +12,9 @@ description: |
   
   ##Features
 
-  Manage your teams skills and personal issues Multiple anthro personas all based on Shakespeare characters Try to make your store so profitable it will become the #1 Halloween superstore in Arden! Maybe.
+  - Manage your teams skills and personal issues
+  - Multiple anthro personas all based on Shakespeare characters
+  - Try to make your store so profitable it will become the #1 Halloween superstore in Arden! Maybe.
   
   ##Charity Info
 

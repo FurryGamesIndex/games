@@ -1,72 +1,18 @@
 name: Homecoming ~Morenatsu Revisited~
 
-description: |
-  "It's been five years since I've seen my hometown. What if they don't remember me? What if everyone's moved on?"
+brief-description: |
+  In Homecoming, you take on the role of a young Japanese snow fox named Hiroyuki Nishimura. After moving away from your hometown Minasato to Osaka five years ago, you receive an unexpected letter from an old friend inviting you back for one last summer vacation before completing your senior year of high school. What complicates things is how you've neglected to contact any of your friends over the years. Although nervous, you accept the invitation.
 
-  In Homecoming, you take on the role of a young Japanese snow fox named Hiroyuki Nishimura. After moving away from your hometown Minasato to Osaka five years ago, you receive an unexpected letter from an old friend inviting you back for one last summer vacation before starting your senior year of high school. What complicates things is how you've neglected to contact any of your friends over the years. Although nervous, you accept the invitation.
+description: |
+  **"It's been five years since I've seen my hometown. What if they don't remember me? What if everyone's moved on?"**
+
+  In Homecoming, you take on the role of a young Japanese snow fox named Hiroyuki Nishimura. After moving away from your hometown Minasato to Osaka five years ago, you receive an unexpected letter from an old friend inviting you back for one last summer vacation before completing your senior year of high school. What complicates things is how you've neglected to contact any of your friends over the years. Although nervous, you accept the invitation.
 
   What awaits you back in Minasato? Will you be welcomed with open arms, or has it been so long that everyone has forgotten about you? Will this be yet another wasted summer, or will you finally have the chance to experience what makes life worth living?
 
   =====
 
   Homecoming is a visual novel about nostalgia, romance, living life to the fullest, reconnecting with old friends, and learning to face your demons, all wrapped up in the cute Japanese kemono aesthetic. The game Homecoming is based on, Morenatsu, is considered to be one of the classic entries in furry culture. Although it was cancelled in 2015, dedicated fans have continued to keep its legacy alive through fanworks such as this. While rough around the edges, the original game captured many hearts, including the members of the Stormsinger Studios development team. We aim to create the best visual novel we can make, doing justice to the source material that has inspired so many like us.
-
-  =====
-
-  NSFW Warning!
-  The game is intended for mature audiences! Explicit scenes and images featuring same-sex romances can be found throughout the game. Please do not download if you are under the age of 18!
-
-  =====
-
-  Our Public Discord Channel!
-  https://discord.gg/WTjM3S5
-
-  =====
-
-  Disclaimers!
-  Stormsinger Studios is not affiliated with Morenatsu Team. This is a fan remake and is not meant to be seen as a replacement for the original game. If you are interested in seeing the original, consider checking out the Revival team's [Ren'py port](https://www.furaffinity.net/view/26153752/).
-
-  Homecoming is a work in progress. All content within is subject to change and is not necessarily representative of the final product.
-
-  Some updates may require starting a new game to avoid game crashing bugs. Please understand this is a part of the development process and is something you agree to deal with when playing an early access product.
-
-  =====
-
-  The Stormsinger Studios Team
-  Official Team Pages:
-  [FA](https://www.furaffinity.net/user/dzahndragon/)
-  [Twitter](https://twitter.com/stormsingerdev)
-  [Blog](https://stormsingerstudios.tumblr.com/)
-
-  DzahnDragon - Studio Director
-  [FA](https://www.furaffinity.net/user/zanderwolfie/)
-  [Twitter](https://twitter.com/ZanderWolfie)
-
-  Devilizer - Art Director
-  [FA](https://www.furaffinity.net/user/devilizer/)
-
-  Lesli-Chu!? - Composer
-  [FA](https://www.furaffinity.net/user/leslichu/)
-  [Soundcloud](https://soundcloud.com/user-141917326)
-  [YouTube](https://www.youtube.com/channel/UCLjQbwdUtaxNekKAPzMx3Aw)
-
-  Frostclaw - Homecoming Director
-  [FA](https://www.furaffinity.net/user/grompyryokin/)
-  [Website](https://www.the-gcn.com/)
-  [Twitter](https://twitter.com/GCNOfficial)
-
-  HypoNova - Staff Artist and Musician
-  [Twitter](https://twitter.com/HyperSketch_Boi)
-
-  Homecoming is being developed using the Ren'Py engine.
-
-  Project Development Status
-  Homecoming is a work in progress. Since we're a team of volunteers, work proceeds when we have the available time to spare. Because of this, it is unwise to commit to a rigid schedule. We will try to release an update at least once every two months, though with our rough schedules the periods can vary wildly. We thank you for your patience while we develop Homecoming!
-
-  You can check the progress of the routes on this spreadsheet, that way you know ahead of time how far along your favorite character is in terms of development:
-  https://docs.google.com/spreadsheets/d/1XEauCEKAuuzjbp2C3RSwzJKrkcCYmi-Elvu6qYbeRug/edit?usp=sharing
-
-  We hope you enjoy your stay in Minasato!
 
 description-format: markdown
 
@@ -122,7 +68,13 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzI3NTE0MjMuanBn/original/rA8Z4C.jpg
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzI3NTE0MjQuanBn/original/TCEZle.jpg
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzI3NTE0MjYuanBn/original/pjj6LJ.jpg
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzI3NTE0MjcuanBn/original/dGGs0O.jpg
+  - type: youtube
+    uri: youtube:6LzGlWgeHr4
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzM4ODcwMTguanBn/original/moK443.jpg
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODYuanBn/original/Q9we0I.jpg
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxNzkucG5n/original/QwdIOP.png
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODAucG5n/original/e6ZJLp.png
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODEucG5n/original/V8s1nB.png
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODMucG5n/original/6oUgEQ.png
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODQucG5n/original/MhaJNw.png
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODIucG5n/original/h%2F0uCa.png

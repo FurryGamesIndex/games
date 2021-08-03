@@ -1,4 +1,5 @@
-name: 偽裝 / Disguise
+name: 偽裝
+
 brief-description: |
   故事觀點落在一名生活光鮮亮麗的中年黑豹身上，了解他在成功人士的表面下、無人知曉的另一種生活。當繁忙的工作隨著日落而放低，真正纏繞心頭的困惑才剛開始在孤寂的黑夜中綻放。也許，所有人都生活在一種偽裝之下。這遊戲帶著你了解的那個男人，哪一面才是他的偽裝呢？
 
@@ -14,6 +15,8 @@ description: |
 links-tr:
   "Get demo": "體驗版下載"
   "Official Plurk": "官方噗浪"
+
+description-format: markdown
 
 X-Chinese-Convertor-Hint:
   prefer: TW

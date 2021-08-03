@@ -1,5 +1,8 @@
 name: Fight of Animals
 
+brief-description: |
+  Animal memes such as Power Hook Dog, Mighty Fox, Magic Squirrel and more are now become Fighters!! Simple Controls & Funny Animals & Exciting Battles!!! Choose your favorite animal and join the fight!! Players are able to fight through arcade mode become the King of Animals!
+
 description: |
   ##MOST ADORABLE FIGHTING GAME!
   
@@ -69,5 +72,11 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256783039/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256783039/movie480.mp4
   - https://steamcdn-a.akamaihd.net/steam/apps/1160330/ss_f6604e63a9521fa6f178490b564e6423386386c6.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/1160330/ss_6875441f4c7309a191abd63ed0d5c2900b050a09.1920x1080.jpg

@@ -1,5 +1,8 @@
 name: Just, Bearly
 
+brief-description: |
+  An honest comedy about anxiety and feeling awkward, played through painfully relatable mini games.
+
 description: |
   A comedic story game played in vignettes, about feeling anxious as a bear in inner city Melbourne, Australia, and trying to connect to people none the less. 
 
@@ -42,6 +45,14 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://steamcdn-a.akamaihd.net/steam/apps/792030/ss_d79dd8650eb30d5ed35175a2a5621ed54660e6a8.1920x1080.jpg
-  - https://steamcdn-a.akamaihd.net/steam/apps/792030/ss_300f98899e01430b1c670810cc22e5bcb2b2a3c6.1920x1080.jpg
-  - https://steamcdn-a.akamaihd.net/steam/apps/792030/ss_2f4866e3527bcbd01a56134c3ed656269cd21ff4.1920x1080.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256738271/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256738271/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/792030/ss_d79dd8650eb30d5ed35175a2a5621ed54660e6a8.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/792030/ss_7ff6870d7db4a655b8254b081f50d3b89d63175a.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/792030/ss_300f98899e01430b1c670810cc22e5bcb2b2a3c6.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/792030/ss_2f4866e3527bcbd01a56134c3ed656269cd21ff4.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/792030/ss_70141fe5c8b6a43ada23bb398c22b17fb843513c.1920x1080.jpg

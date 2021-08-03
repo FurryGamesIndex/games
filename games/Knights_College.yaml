@@ -1,5 +1,8 @@
 name: Knights College
 
+brief-description: |
+  Knights College is an adult kemono visual novel set in a dormitory where elite knights-in-training live. In this game, the cards the main character collects as he lives in the dormitory will present all possible choices.
+
 description: |
   Knights College is an adult kemono visual novel set in a dormitory where elite knights-in-training live.
 
@@ -89,13 +92,14 @@ links:
 
 thumbnail: thumbnail.jpg
 
-sensitive_media: true
-
 screenshots:
-  - https://images2.imgbox.com/ad/90/rhG7DLnD_o.jpg
-  - https://images2.imgbox.com/f1/57/oN5KU9qI_o.jpg
-  - https://images2.imgbox.com/2b/ec/hWipoHWc_o.jpg
-  - sensitive: true
-    uri: https://images2.imgbox.com/91/5b/wKIRdJoo_o.jpg
-  - https://images2.imgbox.com/b0/3e/pAI6tcxQ_o.jpg
-
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256817988/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256817988/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1510030/ss_345e42a78eb650475cf62d9901b60633d5b72417.1920x1080.jpg?t=1626822775
+  - https://cdn.akamai.steamstatic.com/steam/apps/1510030/ss_150fd453731b80cb582c2910f2a83e196d47e3b6.1920x1080.jpg?t=1626822775
+  - https://cdn.akamai.steamstatic.com/steam/apps/1510030/ss_3675cf45b76567014143dfa8e47ca84c012f26c7.1920x1080.jpg?t=1626822775
+  - https://cdn.akamai.steamstatic.com/steam/apps/1510030/ss_728fb664732973c6b79214d90d4165613676c1ad.1920x1080.jpg?t=1626822775
