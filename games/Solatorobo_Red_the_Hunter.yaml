@@ -7,10 +7,13 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: CyberConnect2
+    role: [ producer ]
+  - name: Bandai Namco Entertainment Inc
+    role: [ publisher ]
+
 tags:
-  author:
-    - CyberConnect2
-    - 'Bandai Namco Entertainment Inc.'
   type:
     - action
     - role-playing

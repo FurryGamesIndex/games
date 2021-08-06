@@ -5,9 +5,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: CyberConnect2
+    role: [ producer ]
+
 tags:
-  author:
-    - CyberConnect2
   type:
     - role-playing
     - action
