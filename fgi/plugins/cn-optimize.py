@@ -58,8 +58,7 @@ Recommend build arguments:
     def i18n_post_ll_done(self, ll, *args, **kwargs):
         return ["zh-cn"]
 
-    def post_build(self, _, *args, **kwargs):
-        output = kwargs["output_path"]
+    def post_build(self, buildinfo_file, output, *args, **kwargs):
         shutil.rmtree(os.path.join(output, "assets"))
         shutil.rmtree(os.path.join(output, "styles"))
         shutil.rmtree(os.path.join(output, "icons"))
@@ -78,6 +77,8 @@ Recommend build arguments:
             f.write("  skip_processing = true\n")
         with open(os.path.join(output, "zh-cn", "sensitive.html"), "w") as f:
             f.write("<html><head><meta charset='utf-8'></head><body>我们非常抱歉，但是此镜像已启用审查，以避免产生法律问题。如果要修改此页面上的首选项，请使用我们的<a href='https://furrygames.top'>主站点（https://furrygames.top）</a>。</body></html>\n")
+
+        buildinfo_file.write(f"cn-optimize: gh pages repo hash is {self.rev}\n")
 
     def html_local_res_src(self, mod, rr = None, src = None, path = None, query = None, *args, **kwargs):
         if not mod:
