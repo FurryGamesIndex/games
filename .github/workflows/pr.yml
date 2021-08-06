@@ -25,7 +25,7 @@ jobs:
         sudo apt -y install git python3 python3-yaml python3-jinja2 python3-pip python3-setuptools python3-pil python3-bs4 python3-jsonschema webp
         pip3 install --user git+https://github.com/FurryGamesIndex/python-markdown2
 
-    - name: validate
+    - name: lint
       env:
         BASE_REF: ${{ github.event.pull_request.base.sha }}
       run: |
@@ -33,14 +33,10 @@ jobs:
         dfs="$(git diff --name-only --diff-filter=AMR "$BASE_REF")"
 
         echo "$dfs" | grep '^games/[^/]*$' | while read -r i; do
-          echo "Validating '$i'"
-          ./scripts/validate.py schemas/game.schema.yaml "$i"
-          gid=$(echo "$i" | cut -d / -f 2 | cut -d . -f 1)
-          ./scripts/imageutils.sh validate-thumbnail $(echo -n "assets/${gid}/"; ./scripts/dbutils.sh game-get-property "$gid" thumbnail)
+          ./scripts/lint.sh game "$i"
         done
         echo "$dfs" | grep '^games/l10n/[^/]*$' | while read -r i; do
-          echo "Validating '$i'"
-          ./scripts/validate.py schemas/game-l10n.schema.yaml "$i"
+          ./scripts/lint.sh game-l10n "$i"
         done
 
     - name: gen

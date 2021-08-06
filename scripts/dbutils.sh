@@ -126,8 +126,17 @@ list-games)
 	cd games
 	ls *.yaml | cut -d . -f 1
 	;;
+list-game-files)
+	ls games/*.yaml
+	;;
+list-game-l10n-files)
+	ls games/l10n/*/*.yaml
+	;;
 game-get-property)
 	yaml2json "games/$2.yaml" | jq -r ".$3"
+	;;
+game-has-property)
+	yaml2json "games/$2.yaml" | jq -r -e ".$3" > /dev/null 2>&1
 	;;
 *)
 	echo Unknown command $1

@@ -35,6 +35,13 @@ jobs:
       run: |
         ./scripts/fix-mtime.sh
 
+    - name: lint
+      env:
+        LINT_OLD_FILES_EXEMPTION: true
+      run: |
+        ./scripts/dbutils.sh list-game-files | xargs -I{} ./scripts/lint.sh game {}
+        ./scripts/dbutils.sh list-game-l10n-files | xargs -I{} ./scripts/lint.sh game-l10n {}
+
     - name: build
       run: |
         ./generate.py \
@@ -43,18 +50,6 @@ jobs:
             --mtime-has-fixed \
             --plugin steam-cdn-unite,verbose=1 \
             output
-
-    - name: build-classic-ui
-      run: |
-        ./generate.py \
-            --images-candidate-webp \
-            --with-rss \
-            --plugin steam-cdn-unite,verbose=1 \
-            --plugin uimod,mod=classic-ui/pioneer \
-            --plugin webp-converter-stub \
-            output/classic-ui/ || rm -rf output/classic-ui
-
-        [ -d output/classic-ui/assets ] && rm -rf output/classic-ui/assets && ln -sf ../assets output/classic-ui/assets
 
     - name: ssh-key
       uses: shimataro/ssh-key-action@v2
