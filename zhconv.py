@@ -93,7 +93,8 @@ def convgamesl10n(cn, tw):
 
 
 if not args.no_builtin:
-    convgamesl10n(os.path.join(games_dir, origin), os.path.join(games_dir, to))
+    #deprecated, use fgi/plugins/zhconv.py instead.
+    #convgamesl10n(os.path.join(games_dir, origin), os.path.join(games_dir, to))
     conv(os.path.join(uil10n_dir, origin + ".yaml"), os.path.join(uil10n_dir, to + ".yaml"), True)
     conv(os.path.join(root_dir, "README.%s.md" % origin), os.path.join(root_dir, "README.%s.md" % to), True)
 

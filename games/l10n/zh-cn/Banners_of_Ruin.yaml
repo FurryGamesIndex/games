@@ -21,6 +21,3 @@ description: |
   - 大侠请重新来过？每次游戏结束都将给与一定金币用以解锁新卡和被动技能，以帮助你取得胜利。
 
 description-format: markdown
-
-X-Chinese-Convertor-Hint:
-  prefer: ignored
