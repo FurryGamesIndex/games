@@ -44,7 +44,10 @@ from fgi.icon import IconFactory
 from fgi.seo.sitemap import Sitemap, SitemapGenerator
 from fgi.plugin import PluginManager
 
-from fgi.base import load_game_all, load_author_all, list_pymod, local_res_src, make_wrapper
+from fgi.game import Game
+from fgi.author import Author
+
+from fgi.base import sorted_games_name, list_pymod, local_res_src, make_wrapper
 from fgi.i18n import get_languages_list, uil10n_load_base, uil10n_load_language
 from fgi.stylesheet import make_stylesheet
 
@@ -88,6 +91,79 @@ class Generator:
 
         self.stylesheets = dict()
         self.author_game_map = dict()
+
+    def load_game(self, f):
+        game = None
+        fn = os.path.join(self.dbdir, f)
+
+        if (not os.path.isfile(fn)) or (f[0] == '.'):
+            return None
+
+        game_id = os.path.splitext(f)[0]
+
+        print("Loading %s" % fn)
+        with open(fn) as stream:
+            game = Game(yaml.safe_load(stream), game_id, os.path.getmtime(fn))
+
+        for language in self.languages:
+            l10n_file = os.path.join(self.dbdir, "l10n", language, f)
+            if os.path.isfile(l10n_file):
+                print("Loading %s" % l10n_file)
+                with open(l10n_file) as stream:
+                    game.add_l10n_data(language, yaml.safe_load(stream), os.path.getmtime(l10n_file))
+
+        return game
+
+    def load_game_all(self):
+        games = {}
+
+        for f in sorted_games_name(os.listdir(self.dbdir)):
+            game = self.load_game(f)
+
+            if game:
+                self.pmgr.invoke_plugins("loader_pre_game_realize", self, game)
+
+                game.realize(self.tagmgr, self.mfac, self.ifac, self.authors)
+                games[game.id] = game
+
+                for i in game.authors:
+                    if not i.standalone:
+                        if i.name not in self.author_game_map:
+                            self.author_game_map[i.name] = list()
+                        self.author_game_map[i.name].append(game)
+
+                self.sdb.update(game)
+
+        for _, game in games.items():
+            game.link(games)
+
+        return games
+
+    def load_author(self, f):
+        fn = os.path.join(self.dbdir_author, f)
+
+        if (not os.path.isfile(fn)) or (f[0] == '.'):
+            return None
+
+        author_id = os.path.splitext(f)[0]
+
+        print("Loading %s" % fn)
+        with open(fn) as stream:
+            author = Author(yaml.safe_load(stream), author_id)
+
+        return author
+
+    def load_author_all(self):
+        authors = dict()
+
+        for f in os.listdir(self.dbdir_author):
+            author = self.load_author(f)
+
+            if author:
+                author.realize(self.mfac, self.ifac, self.author_game_map)
+                authors[author.name] = author
+
+        return authors
 
     def prepare_tags(self):
         print("Preparing tags")
@@ -151,8 +227,8 @@ class Generator:
             dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
             dir_util.copy_tree(self.icon_path, os.path.join(self.output, "icons"))
 
-        self.authors = load_author_all(self.dbdir_author, self.mfac, self.ifac, self.author_game_map)
-        self.games = load_game_all(self.dbdir, self.sdb, self.tagmgr, self.languages, self.mfac, self.ifac, self.authors, self.author_game_map)
+        self.authors = self.load_author_all()
+        self.games = self.load_game_all()
 
         self.base_l10n = uil10n_load_base(self, self.dir_uil10n)
 
@@ -213,9 +289,11 @@ class Generator:
             if os.path.exists(".patches_info"):
                 with open(".patches_info") as pi:
                     f.write(pi.read())
-            f.write("# FGI BUILD INFO END\n")
 
-        self.pmgr.invoke_plugins("post_build", None, output_path = self.output)
+            f.write("# PLUGINS INFOMATION\n")
+            self.pmgr.invoke_plugins("post_build", f, self.output)
+
+            f.write("# FGI BUILD INFO END\n")
 
 def main(argv):
     gen = Generator(argv[1:])

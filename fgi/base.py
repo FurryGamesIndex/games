@@ -20,31 +20,8 @@
 import os
 import yaml
 
-from fgi.game import Game
-from fgi.author import Author
 from fgi.utils.uriutils import append_query
 
-def load_game(dbdir, f, languages):
-    game = None
-    fn = os.path.join(dbdir, f)
-
-    if (not os.path.isfile(fn)) or (f[0] == '.'):
-        return None
-
-    game_id = os.path.splitext(f)[0]
-
-    print("Loading %s" % fn)
-    with open(fn) as stream:
-        game = Game(yaml.safe_load(stream), game_id, os.path.getmtime(fn))
-
-    for language in languages:
-        l10n_file = os.path.join(dbdir, "l10n", language, f)
-        if os.path.isfile(l10n_file):
-            print("Loading %s" % l10n_file)
-            with open(l10n_file) as stream:
-                game.add_l10n_data(language, yaml.safe_load(stream), os.path.getmtime(l10n_file))
-
-    return game
 
 def sorted_games_name(games):
     return sorted(games, key=lambda t: t.replace("_", "").upper())
@@ -57,55 +34,6 @@ def sorted_games_by_mtime(games):
 
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if not v.expunge }
-
-def load_game_all(dbdir, sdb, tagmgr, languages, mfac, ifac, authors, author_game_map):
-    games = {}
-
-    for f in sorted_games_name(os.listdir(dbdir)):
-        game = load_game(dbdir, f, languages)
-
-        if game:
-            game.realize(tagmgr, mfac, ifac, authors)
-            games[game.id] = game
-
-            for i in game.authors:
-                if not i.standalone:
-                    if i.name not in author_game_map:
-                        author_game_map[i.name] = list()
-                    author_game_map[i.name].append(game)
-
-            sdb.update(game)
-
-    for _, game in games.items():
-        game.link(games)
-
-    return games
-
-def load_author(dbdir, f):
-    fn = os.path.join(dbdir, f)
-
-    if (not os.path.isfile(fn)) or (f[0] == '.'):
-        return None
-
-    author_id = os.path.splitext(f)[0]
-
-    print("Loading %s" % fn)
-    with open(fn) as stream:
-        author = Author(yaml.safe_load(stream), author_id)
-
-    return author
-
-def load_author_all(dbdir, mfac, ifac, author_game_map):
-    authors = dict()
-
-    for f in os.listdir(dbdir):
-        author = load_author(dbdir, f)
-
-        if author:
-            author.realize(mfac, ifac, author_game_map)
-            authors[author.name] = author
-
-    return authors
 
 def list_pymod(dirname):
     package_path = os.path.dirname(__file__)
