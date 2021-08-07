@@ -26,10 +26,21 @@ from fgi.game import GameL10n
 
 class ChineseConvertorPlugin(Plugin):
     def __init__(self, options):
+        self.critical = False
+
         super().__init__(options)
 
-        self.s2tw = opencc.OpenCC('s2twp.json')
-        self.tw2s = opencc.OpenCC('tw2sp.json')
+        try:
+            import opencc
+
+            self.s2tw = opencc.OpenCC('s2twp.json')
+            self.tw2s = opencc.OpenCC('tw2sp.json')
+        except Exception as e:
+            if self.critical:
+                raise e
+            else:
+                print("[warning] zhconv: opencc load failed, zhconv disabled")
+                self._bypass_hook_chain = True
 
     def _conv(self, gctx, game, f, t, cc):
         with open(os.path.join(gctx.dbdir, "l10n", f, game.id + ".yaml")) as stream:

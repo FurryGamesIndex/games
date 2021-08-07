@@ -82,6 +82,7 @@ EOF
 		--extra-ui extraui \
 		--with-rss \
 		$UIMOD \
+		--plugin zhconv \
 		--plugin steam-cdn-unite,verbose=1 "$1"
 	cat > "$1/robots.txt" <<EOF
 User-agent: *
