@@ -13,7 +13,7 @@ function info() {
 
 function die() {
 	echo "[lint] $@" >&2
-	exit 1
+	exit 255
 }
 
 function on_error() {
