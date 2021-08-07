@@ -14,9 +14,11 @@ description: |
 
 description-format: markdown
 
+authors:
+    - name: Kemonokun
+      role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Kemonokun
   type:
     - action
     - adventure
@@ -35,6 +37,7 @@ tags:
   misc:
     - 3d
     - freeware
+    - engine-ue4
     - uncensored
   lang:
     - en
