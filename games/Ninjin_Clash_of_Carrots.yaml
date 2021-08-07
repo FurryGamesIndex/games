@@ -1,41 +1,48 @@
 name: 'Ninjin: Clash of Carrots'
 
+brief-description: |
+  Ninjin: Clash of Carrots is an anime-inspired beat-em-up with varied enemies and deep customization. Play as the rabbit Ninjin, or Akai, the ninja fox, and fight to retrieve the carrots stolen by Shogun Moe! Redeem carrots for weapons, upgrades and more! Supports 2-player online or local co-op.
+
 description: |
-  Ninjin: Clash of Carrots is an anime-inspired beat-‘em-up with a gaggle of varied enemies, deep customization…and ninjas! Play through side-scrolling worlds consisting of multiple stages and collect carrots stolen by the evil Shogun Moe! Carrots act as currency which can be redeemed in the Corgi Store for new equipment, or the Shady Shop for special weapons, masks and other customization items. Grab a friend to join you in 2-player online or local co-op. 
-  
-  Be a Ninja. 
+  Ninjin: Clash of Carrots is an anime-inspired beat-‘em-up with a gaggle of varied enemies, deep customization…and ninjas! Play through side-scrolling worlds consisting of multiple stages and collect carrots stolen by the evil Shogun Moe! Carrots act as currency which can be redeemed in the Corgi Store for new equipment, or the Shady Shop for special weapons, masks and other customization items. Grab a friend to join you in 2-player online or local co-op.
+
+  ##KEY FEATURES
+
+  ###Be a Ninja. 
   Play as either Ninjin, the charismatic rabbit, or Akai, the ninja fox, and fight
   across a feudal Japan to defeat the evil Shogun Moe and retrieve the carrots he’s stolen!
   
-  Engaging Storyline. 
+  ###Engaging Storyline. 
   Follow a robust Story Mode, meet a diverse cast of characters, and play
   through multiple stages in a crazy universe.
   
-  Fast and Furious Combat.
+  ###Fast and Furious Combat.
   Dodge rockets, blast through throngs of incoming enemies and
   battle bosses in frenzied, fast-paced action!
   
-  Stylish Visuals. 
+  ###Stylish Visuals. 
   Play through unique environments with anime-inspired HD pixel art graphics.
   
-  Deep Customization.
+  ###Deep Customization.
   Choose from a huge variety of equipment with more than 150 weapons
   and items, including masks, swords, projectiles, and more. Equip your character to better
   defeat rivals.
   
-  Slash, Smash and Bash with Friends!
+  ###Slash, Smash and Bash with Friends!
   Join your friends in 2-player local or online co-op as
   you progress through the game’s story.
   
-  Oni TV Show.
+  ###Oni TV Show.
   Compete in a “Live TV Show” survival mode, solo or with a friend, to see who
   can get the furthest without dying, as wave after wave of enemies attack from all angles.
   Rack up special rewards when you successfully finish each challenging stage!
   
-  Carrot Collecting Co-Op Action!
+  ###Carrot Collecting Co-Op Action!
   
-  Armory fit for a Ninja!
+  ###Armory fit for a Ninja!
   Featuring over 150 weapons, projectiles, upgrades, and more to modify the experience to each player’s preference, Ninjin: Clash of Carrots is an action-packed thrill-fest with a unique and immersive storyline, stylish environments, and exciting and frenetic gameplay! Ninjin also features a unique survival mode called “Oni TV Show” where players will fight endless waves of enemies for rare rewards. This mode also supports local and online co-op.
+
+description-format: markdown
 
 authors:
   - name: 'Pocket Trap'

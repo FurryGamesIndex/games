@@ -1,31 +1,27 @@
 name: The HeartBeat
 
+brief-description: |
+  The Heartbeat is a lightweight political simulation game that incorporates rhythmic, text-oriented options. All the player has to do in the game is keep himself and the city alive as much as possible.
+
 description: |
-  ##Description
-
-  Year 2077, New Dunk
-
+  ##Year 2077, New Dunk
   Citizens of dunk have forgotten the glory time with Mother God Buho. Instead, they have betrayed their believe by transferred their flesh body to mechanical parts, all senses are replaced by biomechanical signal transmission with the help of Molig, the oligarch of biomechanical technology company. While people enjoying their pleasure time as “the cyber-Ed”, they have no anticipation of the Armageddon of digital virus that comes from nowhere.
 
-  And you are the Mayor of this city.
+  And You Are the Mayor Of This City.
 
   After ten days of work, your exhausted heart had finally bursted.
 
   Your secretary arrived on time to bridged a mechanical heart for you to avoid you from endless darkness. Hold your heart tight, extend your life and the fate of this city until your last breathe.
 
-  （This game has multi-ending.）
+  ##Maintain life
+  At the time of life and death, you need to listen to the rhythm of the music, observe the prompts on the screen, and press your heart regularly, so that you can survive the world.
 
-  ##Control
+  ##Publication policy
+  The city is looking forward to your voice and you must make a choice. Is it going against universal morality to seek stability, or is it to pray for empathy in this indifferent age?
+  In view of your inconvenience, your rigorous and serious secretary will read the contents of the file for you.
 
-  Space——Press the heart! We suggest press it when the slot is fully charged.
-
-  WASD or ↑←↓→——Make your decision! Tell your secretary about your last decision for this city.
-
-  The key is trying best to keep it alive on the same time dealing with all the files!
-
-  ##Setup
-
-  Unzip the file and run TheHeartBeat.exe
+  ##Make a decision
+  Not everything can be predicted by a neural network. Your response to every voice may affect the future of you and the city.
 
 description-format: markdown
 
@@ -62,6 +58,15 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://static.jam.vg/raw/73a/f2/z/2f530.jpg
-  - https://static.jam.vg/raw/73a/f2/z/2f535.jpg
-  - https://static.jam.vg/raw/73a/f2/z/31ce3.png
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256800704/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256800704/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1386710/ss_de83798146e29f5e4281cf29c8ba95dab52788f2.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1386710/ss_ef2a1460939f5754db112e777f41f93b3432a71a.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1386710/ss_7c53fe27755d3a8a5374c1442c5fea20e0cf0cba.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1386710/ss_df3e5c8b390269e425f360262e8893579c234ce5.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1386710/ss_ecd9e9f8d8f6f3c3e8541dd9208a9158e1f67315.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1386710/ss_b0308966bb542aa40ad523bd2256e5ea1f68b04a.1920x1080.jpg

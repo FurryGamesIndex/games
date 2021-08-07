@@ -1,9 +1,10 @@
-name: 蛮荒兽族
+name: The Beast in the Wild
+
+old-ids:
+  - ManHuangShouZu
 
 description: |
   It all began in the hustle and bustle of that summer.
-
-  (Translated from Chinese)
 
 description-format: markdown
 
@@ -19,7 +20,6 @@ tags:
     - humankind
   misc:
     - freeware
-    - expired
     - centralized
   lang:
     - zh

@@ -1,19 +1,14 @@
 name: Tennis Ace
 
+brief-description: |
+  Tennis Ace is a visual novel following in the more traditional Japanese VN mold, with a lengthier prologue, a higher focus on characterization and anime-esque art.
+
 description: |
   Tennis Ace is a visual novel following in the more traditional Japanese VN mold, with a lengthier prologue, a higher focus on characterization and anime-esque art.
 
   In the game, you follow the life of an 18-year old boy who aspire to become a professional tennis player at the end of his senior year in high school.
 
   The game has three dateable characters, all of them being part of the protagonist's inner circle of friends.
-
-  Updates will be posted here 14 days after they have been posted on Patreon, with updates coming out monthly.
-
-  If you like the art in my project, consider checking out my artist's DeviantArt [here](http://nyaruh.deviantart.com/)!
-
-  And if you'd like to support me on Patreon, you can find my project's page right [here](https://www.patreon.com/tennisace)!
-
-  If you would like to contact me to ask me a question or anything like that, send me an email at [tennisacevn@outlook.com](mailto:tennisacevn@outlook.com) and I'll get back to you as soon as I can. And if you have an error or typo to report, click [here](https://docs.google.com/document/d/1Sd6XDq9YXE8UpIaqBmP0Z8JRfjiCApPcN65KmMbFJHo/edit#heading=h.416oelyijx2y) to contribute to the typo log!
 
 description-format: markdown
 
@@ -52,6 +47,7 @@ tags:
     - engine-renpy
     - uncensored
     - multiple-endings
+    - work-in-process
   lang:
     - en
   publish:

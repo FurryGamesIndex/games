@@ -1,5 +1,8 @@
 name: The Cathouse Tale
 
+brief-description: |
+  Cathouse Tale is an adult game project featuring anthropomorphic characters. We are currently working on expanding our character customizer and adding loads of new animations, as well as getting started on the actual sex scene gameplay. Our long-term goal is to make something that sets a new standard for x-rated fantasy game content.
+
 description: |
   Cathouse Tale is an adult game project featuring anthropomorphic characters. We are currently working on expanding our character customizer and adding loads of new animations, as well as getting started on the actual sex scene gameplay. Our long-term goal is to make something that sets a new standard for x-rated fantasy game content.
 
@@ -72,8 +75,6 @@ links:
     uri: patreon:thecathousetale
 
 thumbnail: thumbnail.jpg
-
-sensitive_media: true
 
 screenshots:
   - https://i.imgur.com/mIIhmtW.png

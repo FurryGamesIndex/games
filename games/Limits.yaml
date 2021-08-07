@@ -1,29 +1,9 @@
 name: Limits
 
 description: |
-  Limits is an interactive M/M visual novel. What happens within is for you to find out.
+  Limits is an interactive M/M visual novel. What happens within is for you to find out. 
 
   Interested?
-
-  Disclaimer: Intended for mature audiences, contains mild language and mentions of substance.
-
-  ### Will there be NSFW content?
-
-  In the future. :)
-
-  ### Creator's Note:
-
-  This is just a passion project that I do as a hobby. Apologies for any literature mistakes and etc. English is not exactly my first language but I speak it so frequently and for majority of my life that it might as well be lol. My writing could use some work though... Anyway, thanks for visiting and have a good day.  
-
-  ### Credits:
-  
-  Character assets were created by me, the backgrounds and some sfx were taken from the internet and mildly edited (Could eventually be replaced), Musics were taken from: <https://mixkit.co>.
-  
-  SFX (Most) : <https://www.zapsplat.com>
-  
-  It has been confirmed that the **Mac** build does work... But no promises.*
-  
-  Last but not least, stay safe and thanks for visiting!
   
 description-format: markdown
 
@@ -73,9 +53,12 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyODkucG5n/original/4BTu5w.png
-  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQ1MDc3MTMucG5n/original/UEyubX.png
-  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyOTQucG5n/original/cid%2BVo.png
-  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyOTEucG5n/original/qnyAOK.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzY0MDAwMTMucG5n/original/l2zxMC.png
   - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyOTIucG5n/original/XXUPKq.png
-  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzQzMDAyOTAucG5n/original/V2wXXS.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzY0MDAwMTUucG5n/original/2WJuoa.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzY0MDAwMTQucG5n/original/GcnWcJ.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzY0MDAwMTYucG5n/original/p7ceAC.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzY0MDAwMTIucG5n/original/YeiGmV.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzY0MDAwMTEucG5n/original/A8X73u.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzY0MDAwMTAucG5n/original/HrteUP.png
+  - https://img.itch.zone/aW1hZ2UvNzAxMzc3LzY0MDAwMDcucG5n/original/4EXirb.png

@@ -43,8 +43,6 @@ links:
 
 thumbnail: thumbnail.jpg
 
-sensitive_media: true
-
 screenshots:
   - https://i.imgur.com/jONgVxv.png
   - sensitive: true

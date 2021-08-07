@@ -3,10 +3,6 @@ name: Lagoon Lounge ~ Himitsuri no Lagoon / 秘密裏のラグーン
 description: |
   The story of protagonist Kuugo, visitor to a village afflicted by a strange phenomenon, where there is a poison in the fountain.
 
-  LAGOON LOUNGE is the full English translated version of 2012's HIMITSURI NO LAGOON.
-  
-  Please enjoy this carefree digital novel with minimal branching paths.
-
 description-format: markdown
 
 authors:
@@ -52,8 +48,6 @@ links:
     uri: twitter:oodaru
 
 thumbnail: thumbnail.jpg
-
-sensitive_media: true
 
 screenshots:
   - https://img.digiket.net/cg/68/ITM0068095_s1.jpg

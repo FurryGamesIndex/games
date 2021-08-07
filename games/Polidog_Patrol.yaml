@@ -1,19 +1,7 @@
 name: Polidog Patrol / ポリドッグパトロール
 
 description: |
-  The latest work from the team *Untendo* that created the [Benki Wars](BENKI_WARS.html).
-  It is a full-fledged action game that was completed after two and a half years of development.
-
-  # Game Description
-  The game is a side-view action RPG in which you control a rookie cop, Shibakuro, and solve a variety of cases. Battles take place seamlessly as you explore a vast field and fight against an evil organization with senior police officers.
-
-  # Play time
-  About 20 hours (varies depending on the style of play)
-
-  # Trial Version
-  As this game is very heavy, we have attached a load test version of the game in the trial version section. It is possible to actually operate the game, so it can also function as a trial version. Please use it before purchasing.
-
-  (Translated from Japanese)
+  A new UNTENDO game from the makers of BENKI WARS. After two and a half years of development, our action game is finally complete! This game is a side-scrolling action RPG where you play as newbie police officer Shibakuro to solve various cases. Through seamless battles and exploring the expansive environment, you will fight the Gangs with your fellow senior officers.
 
 description-format: markdown
 
@@ -30,6 +18,7 @@ tags:
   lang:
     - ja
     - en
+    - zh-unofficial
   publish:
     - digiket
   platform:
@@ -53,10 +42,15 @@ links:
     uri: https://www.untendo.com/
   - name: .twitter
     uri: twitter:kajimaru_0507
+  - name: .unofficial-patch-zh
+    uri: https://www.gamemale.com/thread-79616-1-1.html
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://i.imgur.com/jOi0m6a.png
-  - https://i.imgur.com/ppNaC9f.png
-  - https://i.imgur.com/6l202fQ.png
+  - https://img.digiket.net/cg/209/ITM0209502_s1.jpg
+  - https://img.digiket.net/cg/209/ITM0209502_s2.jpg
+  - https://img.digiket.net/cg/209/ITM0209502_s3.jpg
+  - https://img.digiket.net/cg/209/ITM0209502_s4.jpg
+  - https://img.digiket.net/cg/209/ITM0209502_s5.jpg
+  - https://img.digiket.net/cg/209/ITM0209502_s6.jpg

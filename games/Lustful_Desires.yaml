@@ -1,18 +1,12 @@
 name: Lustful Desires
 
+brief-description: |
+  During your adventure you are going to meet a lot of people and you will face many different situations. Have in mind that the way you deal with the problem may have consequences later. Do you want to be a hero everyone respect or maybe you prefer to give all the pleasure to everyone interested?
+
 description: |
-  # Warning!
-
-  ## This game contains adult themes of both hetero and homosexual nature (with a stronger focus on male content)
-
-  See the summary below for more details.
-
-  # What is Lustful Desires?
+  ## What is Lustful Desires?
 
   It’s an adult text-based game with rpg mechanics, inspired by titles like “Flexible Survival” or “Trials in Tainted Space".
-
-  For those who want to support the project: [Patreon](https://www.patreon.com/hyao)
-  You can also join the Discord channel: [Discord](https://discord.gg/Xe32FDr)
 
   ## Can you tell me something about the world?
 
@@ -27,8 +21,8 @@ description: |
   The graphic is only a helping touch. At this point everything in this area is a Work In Progress – background, interface. In the future I hope I will be able to add graphics of creatures and beasts you can encounter.
 
   ## What do I have to do?
-  #
-   During your adventure you are going to meet a lot of people and you will face many different situations. Have in mind that the way you deal with the problem may have consequences later. Do you want to be a hero everyone respect or maybe you prefer to give all the pleasure to everyone interested?
+
+  During your adventure you are going to meet a lot of people and you will face many different situations. Have in mind that the way you deal with the problem may have consequences later. Do you want to be a hero everyone respect or maybe you prefer to give all the pleasure to everyone interested?
 
   During the talks you will have the options to pick the way you want your character to behave. This may look similar to narrative in a visual novels and like in those some scenes gonna look different depend on what route you took.
 
@@ -55,30 +49,6 @@ description: |
     - Better quest system.
     - Improving the look of the interface.
     - Graphics for NPCs and creatures you may encounter.
-
-  ## Who are you again?
-
-  Beginning writer and coder.
-
-  English is not my first language, so I apologies in advance for any mistakes I make.
-
-  My route to become a programmer started recently. For now I’m using Ren’Py as it gives me opportunity to focus on the content without thinking much about the whole interface stuff. Yet I already reached a point where the program is actually stopping me from doing things, so there is a chance I will switch to a different method at some point.
-
-  I’m trying my best to improve both in programming and writing sides, so expect a lot of changes in the future.
-
-  # Contact information:
-  
-    - [Email](mailto:arti.dogo@gmail.com)
-    - [Twitter](https://twitter.com/hyaoberus)
-    - [FurAffinity](https://www.furaffinity.net/user/kruczek/)
-
-  In case you find bugs you can report them in private message on twitter, send them via mail or just post the comment here on itchio.
-
-  # Credits:
-
-  Characters artwork made by Zoroj: [Patreon](https://www.patreon.com/zoroj), [FurAffinity](https://www.furaffinity.net/user/zoroj/), [Twitter](https://twitter.com/ZoroJart)
-
-  Background artwork made by Gavel: [Twitter](https://twitter.com/Gavelly), [FurAffinity](https://www.furaffinity.net/user/Gavel)
 
 description-format: markdown
 
@@ -147,11 +117,11 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzMwNDQ0ODguanBn/original/DsD3La.jpg
-  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzMwNDQ0OTAuanBn/original/H5ulFm.jpg
-  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzMwNDQ0ODUuanBn/original/Y5F2cS.jpg
-  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzMwNDQ0ODkuanBn/original/q0qq%2F2.jpg
+  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzU4MTg5NzYuanBn/original/1%2FFLCI.jpg
+  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzU4MTg5ODIuanBn/original/oS0hcl.jpg
+  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzU4MTg5OTUuanBn/original/XMuFEq.jpg
+  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzU4MTg5OTcuanBn/original/p676v%2F.jpg
   - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzMwNDQ0ODMuanBn/original/UrN1w8.jpg
-  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzMwNDQ0ODYuanBn/original/TJm0nX.jpg
-  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzMwNDQ0ODQuanBn/original/tjGZ4f.jpg
-  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzMwNDQ0ODcuanBn/original/O1vhGF.jpg
+  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzU4MTkwMDQuanBn/original/F2m7Su.jpg
+  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzU4MTkwNjEuanBn/original/dtveos.jpg
+  - https://img.itch.zone/aW1hZ2UvMzA1NjIwLzU4MTkwNjIuanBn/original/CfSEf0.jpg

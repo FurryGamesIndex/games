@@ -1,5 +1,8 @@
 name: 'Lagoon Lounge : The Poisonous Fountain'
 
+brief-description: |
+  This is a visual novel containing furry characters and homosexual themes. You take on the role of a furry who has moved to a seaside village and become involved in the lives of its residents.
+
 description: |
   ##Story
 
@@ -59,4 +62,15 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://steamcdn-a.akamaihd.net/steam/apps/857690/ss_16da5557f52a53034138c418d5dd61a163ebcb4f.1920x1080.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256716359/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256716359/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/857690/ss_16da5557f52a53034138c418d5dd61a163ebcb4f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/857690/ss_29b1c2d39b3a9a10e40611c90efee452c503488d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/857690/ss_90c5a40ba3e65447fbde0a38d8ad148901f9b7e3.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/857690/ss_6513d33407f4fb84960573b75cff957e57be1194.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/857690/ss_d0a63e0399a82e0e936d96f6266fd9c53359871c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/857690/ss_0f0419290954de00ae5b7ab31bd268840f47717b.1920x1080.jpg

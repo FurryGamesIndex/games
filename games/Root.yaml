@@ -1,5 +1,8 @@
 name: Root
 
+brief-description: |
+  Might makes right in the wild wood! The award-winning board game of asymmetrical woodland warfare comes to cross-platform digital play! Combine subtle strategy and bold daring to guide your forest faction to victory!
+
 description: |
   A game of woodland might and right.
 
@@ -29,7 +32,7 @@ description: |
 
   The Woodland Alliance works to gain the sympathy of the various creatures of the forest. Each time the Alliance places a sympathy token, they may score victory points. The more sympathy on the map they have, the more victory points they score. Gaining the sympathy of the people requires supporters. These supporters can also be put toward violent ends, inciting outright rebellion across the forest. When a revolt erupts, the Alliance will establish a base. Bases allow the Alliance to train officers, increasing their military strength and flexibility.
 
-  The Vagabond
+  ## The Vagabond
   
   The Vagabond is an adventurer to some, a trader to others, and thief to more, and an all-around scoundrel. As the Vagabond, you will explore all over the map, beyond just it's clearings, into dense woods to find items and ruins. You can trade and lend aid to the warring factions of the forest to help you complete your own secret quests.
 

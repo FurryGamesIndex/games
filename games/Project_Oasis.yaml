@@ -1,29 +1,63 @@
 name: Project Oasis
 
+brief-description: |
+  RPG game with a warming story. Seek the star, the hope and you.
+
 description: |
-  "Behind this door, is it the end or the new beginning?"
+  ##Background
+  The story takes place in a distant galaxy, its name is Promie, this name comes from the Greece myth of the God who brought fire to the earth-Prometheus.
+  In this Galaxy, there is a planet called Bluestar; She's rich, beautiful, she's transformed into a Wonderful Life form.
+  There is an ancient legend circulating on this planet. Every 3000 years, a comet called "Star of Hope" will visit this world. It will choose the bravest and kindest child among all living beings and give him a **Star of Hope**.
+  And this is the origin of the **son of the stars**.
+  The "Son of the Stars" will not age or get sick.
+  The "son of the star" does not ask for anything in return.
+  The sons of the stars are the Guardians of the Promie Galaxy favored by the stars of hope.
+  Every 3000 years, the old son of the star sublimates, the new son of the star is born, and continues to sow hope.
+  It's a good bedtime story that is often told to children, but rarely taken seriously.
+  Until that day, the planet stopped spinning ...
 
-  Project O has specially designed window feedback. The window information will interact with players from time to time. Please pay attention
+  ##Main
 
-  Interactive to the fluffy puzzle game, guide the protagonist ace through the crisis oasis shelter, behind the final door, what is it?
+  ASTELL wakes up and finds himself in an underground city, but more than 3000 years have passed.
+  He invites players who participate in the story to find their lost companions and partners, Garfield.
+  Before you left the house, you met the most deadly BOSS in this story, and after the attack, ASTELL came to a corridor, where he got a star, and became the son of the stars of this era.
+  Newly awakened from dormancy, ASTELL had no idea what a Son of the Stars was, and decided to explore the gaps in his memory through clues in the underground city.
+  ASTELL also learned from the message on the board that to restore the rotation of the Blue Star, a special reactor is needed to inject energy into the core of the Blue Star.
+  In the process, he was lucky to get to know Mizi, another protagonist of this work.
+  Mizi never met his own kind, from childhood is by artificial intelligence "Yun" raised and educated.
+  ASTELL and mizi unlocked the archives and got the blueprints.
+  But ASTELL refused to let Miko take the risk, citing the danger outside, and as one of the underground city's designers, he decided to go find the first part himself.
+  In the course of his exploration, ASTELL encountered many different shadow creatures, and would he choose to defend himself or interact with them? It depends on the player's choice.
+  After solving a series of puzzles, ASTELL arrived at the location of the first part, but unfortunately, the previous BOSS had been waiting for a long time.
+  After a struggle, he got rid of the BOSS and successfully brought back the parts.
+  Mizi found ASTELL wounded, and begged him to go together.
+  Before the second adventure, Mizi made a pair of glasses for ASTELL which will have some interesting effects.
+  On the way to adventure, they learned through the information left behind, in order to be able to accompany ASTELL as long as possible, Garfield upload his own consciousness to the computer; In fact, **GARD AI**, who has been talking to them, is his incarnation.
+  The two persuaded GARD AI to open the door in front of him, only to take the wrong fork and enter danger again.
+  After a Chase, the two escaped the BOSS's clutches again and found two parts.
+  Who knows, someone's got a head start, and what should they do?
+  Bargainnnnnnn!
+  After a few days 'rest, the two set off again, this time targeting the core of the mainframe.
+  It is not difficult to solve puzzles, but it still requires some observation. It's not ASTELL or Mizi's act
+  In a series of rooms, ASTELL and Mizi learn about the past of the son of the star and the real use of the reactor built by Garfield. They extract the "hope" that the son of the star can heal all the wounds, and revitalize the cooled core of the Bluestar.
+  Ironically, the last part is on the mainframe that hosts Garfield's consciousness.
+  He was pleased to see ASTELL again, and confirmed that Mizi was a qualified partner.
+  But he also told the two that dismantling the parts would activate the defense, and he would try to fight the mainframe.
+  You've suffered a lot, but you've won a terrible victory.
+  At the deepest level of the building, you place all the parts, and you stand on the platform that's already ready for you.
+  Make a choice.
 
-  Look for three stones of light, synthesize the key of oasis, and untie the arkash curse over the oasis
+  ##Epilogue/B
 
-  Break out of the normal chase, the shield system allows more mistakes, friendly hands
-
-  As many as 10 blessings (increasing continuously), let you become a mystery solving  leader [/ i], part of the operation is simplified to text description, and avoid the pain of running pictures
-
-  You can choose the standard mode of easy and pleasant, or you can choose the arkash mode of difficult burst in two weeks
-
-  Cross - Archive character memory, make your journey no longer monotonous and boring
-
-  ##Features: 
-
-  - The optimized light source system makes the scene more immersive 
-  - Carefully designed eggs, woops! 
-  - Achievement system access is completed, challenge all achievements! 
-  - It's a close story. No doll! 
-  - More CG is in production, please wait!
+  No matter what choice, no matter what hope, it is the same destination by different routes.
+  You unwittingly achieve happiness for all, and feel sorry for the rationality of all this.
+  But there's still a lot of unanswered questions, isn't there?
+  Who's the Yun?
+  Why did ASTELL sleep for 3000 years?
+  Who's that mysterious man?
+  Why did BOSS want you dead?
+  Will there be a possibility that there will be a truly happy ending for all?
+  Let's look for hope and answers in the second run.
 
 description-format: markdown
 
@@ -56,6 +90,13 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1168840/ss_6969cda1178e191306b25005ea864395b5296452.1920x1080.jpg
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1168840/ss_bd34254532fa742798d83f2c97e18e6a4e358114.1920x1080.jpg
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1168840/ss_874a1a1b310fe20fd65ec543cd5400aa6b0d4980.1920x1080.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256844322/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256844322/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1168840/ss_3bb673ca546da36aa01a4c3e822b6ec27e1016ce.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1168840/ss_2f66299d37130bfd16d41c9ba8cc438f9238e076.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1168840/ss_36d2f8809c0cf40ac0feb042cf2e93202f743796.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1168840/ss_52373c09bca57807fb9d2802ff37a48350c02b37.1920x1080.jpg
