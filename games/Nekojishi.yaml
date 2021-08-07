@@ -69,7 +69,7 @@ screenshots:
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256700252/movie480.webm
       - mime: video/mp4
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256700252/movie480.mp4
- - type: video
+  - type: video
     src:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256700253/movie480.webm

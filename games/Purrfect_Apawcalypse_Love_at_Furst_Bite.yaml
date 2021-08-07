@@ -17,7 +17,9 @@ description: |
 
 authors:
   - name: Denny Truong
+    role: [ producer ]
   - name: Andy Schneider
+    role: [ producer ]
   - name: 90% Studios
     role: [ publisher ]
 
