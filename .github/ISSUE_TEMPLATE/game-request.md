@@ -12,6 +12,15 @@ assignees: ''
 Paste the name here.
 在这里填写名称。
 
+**Status**
+**状态**
+Select one of the following
+选择下面的一项
+Released
+WIP / Public demo
+Private
+Dead / Suspended
+
 **Links**
 **链接**
 Paste links of this game here.
