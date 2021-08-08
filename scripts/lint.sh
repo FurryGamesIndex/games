@@ -28,7 +28,7 @@ game)
 
 	if [ "$LINT_OLD_FILES_EXEMPTION" = "true" ]; then
 		mtime=$(stat -c %Y "$2")
-		if test "$mtime" -lt 1628268005; then
+		if test "$mtime" -lt 1628425073; then
 			info "game exempted"
 			exit 0
 		fi
