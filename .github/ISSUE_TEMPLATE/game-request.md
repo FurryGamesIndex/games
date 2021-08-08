@@ -1,7 +1,7 @@
 ---
 name: Game request
 about: Suggest an new game for this project
-title: ''
+title: "[Game request] Game name 游戏名称"
 labels: new-games
 assignees: ''
 
