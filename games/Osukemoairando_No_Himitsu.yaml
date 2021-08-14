@@ -15,7 +15,7 @@ authors:
     role: [ producer,scenographer, others  ]
   - name: とか
     standalone: true
-    role: [ screenwritter, others ]
+    role: [ screenwriter, others ]
   - name: まなびこ
     standalone: true
     role: [ character-designer, artist ]
