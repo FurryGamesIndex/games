@@ -10,9 +10,41 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: とりあえず
+    role: [ producer,scenographer, others  ]
+  - name: とか
+    standalone: true
+    role: [ screenwritter, others ]
+  - name: まなびこ
+    standalone: true
+    role: [ character-designer, artist ]
+  - name: せいけー
+    standalone: true
+    link-uri: twitter:seikeikei2015
+    role: [ character-designer, artist ]
+  - name: ちさ
+    standalone: true
+    link-uri: twitter:chisa_sa
+    role: [ character-designer, artist ]
+  - name: クロマ
+    standalone: true
+    role: [ character-designer, artist ]
+  - name: のこ
+    standalone: true
+    link-uri: twitter:noko_illust
+    role: [ character-designer, artist ]
+  - name: 蠧魚
+    standalone: true
+    link-uri: twitter:sunspotfish
+    role: [ character-designer, artist ]
+  - name: とか
+    standalone: true
+    link-uri: twitter:aotokagen
+    role: [ artist ]
+
+
 tags:
-  author:
-    - とりあえず
   type:
     - visual-novel
     - bara
@@ -34,11 +66,12 @@ tags:
     - windows
 
 links:
-  - name: Buy on dlsite
+  - name: .dlsite
     uri: https://www.dlsite.com/bl/work/=/product_id/RJ210651.html
-  - name: Author's twitter (とりあえず)
-    icon: twitter
-    uri: twitter:toriaezu13
+  - name: .digiket
+    uri: https://www.digiket.com/work/show/_data/ID=ITM0161724/
+  - name: .unofficial-patch-zh
+    uri: https://t.me/Furry_PrPr/88
 
 thumbnail: thumbnail.jpg
 
