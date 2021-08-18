@@ -86,9 +86,9 @@ tags:
 
 links:
   - name: .website
-    url: https://www.thelongestroadonearth.com
+    uri: https://www.thelongestroadonearth.com
   - name: .twitter
-    url: twitter:roadonearth
+    uri: twitter:roadonearth
   - name: .steam
     uri: steam:1295790
   - name: .epic
