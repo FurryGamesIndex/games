@@ -50,7 +50,7 @@ tags:
     - bird
     - deer
     - crocodile
-  female
+  female:
     - mouse
   misc:
     - pixel-art
