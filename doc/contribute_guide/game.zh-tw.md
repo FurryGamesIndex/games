@@ -438,10 +438,10 @@ HTML 影片嵌入元素可以提供多種型別以兼顧相容性和效能
 screenshots:
   - type: video
     src:
-      - uri: https://example.com/1.webm
-	mime: video/webm
-      - uri: https://example.com/1.mp4
-	mime: video/mp4
+      - mime: video/webm
+        uri: https://example.com/1.webm
+      - mime: video/mp4
+        uri: https://example.com/1.mp4
   - ...
   - ...
 ```
