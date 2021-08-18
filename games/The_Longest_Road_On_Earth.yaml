@@ -104,10 +104,12 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: video
-    src: https://cdn.akamai.steamstatic.com/steam/apps/256834380/movie_max_vp9.webm
+    src: 
+      - uri: https://cdn.akamai.steamstatic.com/steam/apps/256834380/movie_max_vp9.webm
     mime: video/webm
   - type: video
-    src: https://cdn.akamai.steamstatic.com/steam/apps/256827615/movie_max_vp9.webm
+    src: 
+      - uri: https://cdn.akamai.steamstatic.com/steam/apps/256827615/movie_max_vp9.webm
     mime: video/webm
   - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_ad1e3ac7a36d469725f21037e473890d75a444f8.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_88201461db0e1a9447e47156675b3dd0bc866392.jpg
