@@ -1,0 +1,119 @@
+name: The Longest Road On Earth
+
+description: |
+  **Play in a song.**
+  
+  The Longest Road on Earth is a deeply personal and meditative narrative title. Play in the songs of four short stories featuring stripped down mechanics and no words. Each story is up for interpretation – what story lives inside you for each character and the world around them?
+  
+  Be swept away by the haunting and sentimental lyrics of over twenty-four original, emotionally charged songs, sung by one of the developers.
+  
+  Walking down The Longest Road on Earth will only take you two hours, and it’s worth every step.
+  
+  ##THE SONGS OF LIFE
+  
+  ![typewriter](https://cdn.cloudflare.steamstatic.com/steam/apps/1295790/extras/juke.gif)
+  
+  An original, intimate soundtrack with themes and lyrics that seek the serenity and simplicity of life is included in each ticket to ride on The Longest Road on Earth. Feelings, emotions, situations, and perceptions that aren't extraordinary yet define us as human beings, our stories, and how we share our lives with each other.
+  
+  ##EVOKE MEMORIES
+  
+  ![ski](https://media.st.dl.pinyuncloud.com/steam/apps/1295790/extras/SleddingGif.gif)
+  
+  Play through four chapters that capture the essence of everyday life and skip through the snapshots of moments both meaningful and mundane — All set to a nostalgic soundtrack. No dialogue or text means that you can share moments of time with the characters and create your interpretations. Though the experience is short (under 3 hours) The Longest Road on Earth allows you to wrap yourself like a cozy blanket in the beauty of small joys like blowing dandelion seeds, collecting seashells, sledding on the first day of winter, and riding a bike on a summer day.
+  
+  ##THE QUIET, SIMPLE MOMENTS
+  
+  ![Cycling](https://media.st.dl.pinyuncloud.com/steam/apps/1295790/extras/cycle.gif)
+  
+  In The Longest Road on Earth, there are no challenges to tarnish the experience, no fail-states to punish you. Players of all ages, levels of ability, known language, or backgrounds can participate with simple controls and a relaxed pace.
+
+description-format: markdown
+
+authors:
+  - name: TLR Games
+    role: [ producer ]
+  - name: Brainwash Gang
+    role: [ producer ]
+  - name: Raw Fury
+    role: [ publisher ]
+  - name: Beicoli
+    role: [ musician ]
+
+tags:
+  type:
+    - adventure
+    - casual
+    - visual-novel
+  male:
+    - fox
+    - bear
+    - bird
+    - deer
+    - crocodile
+    - shota
+  female
+    - mouse
+  misc:
+    - pixel-art
+    - engine-unity
+    - grayscale
+  lang:
+    - ar
+    - cs
+    - de
+    - en
+    - es
+    - fr
+    - hu
+    - it
+    - ja
+    - ko
+    - pl
+    - pt
+    - ru
+    - tr
+    - zh
+  publish:
+    - steam
+    - epic
+    - google-play
+    - apple-appstore
+    - gog
+  platform:
+    - windows
+    - macos
+    - android
+    - ios
+
+links:
+  - name: .website
+    url: http://www.thelongestroadonearth.com/
+  - name: .twitter
+    url: twitter:roadonearth
+  - name: .steam
+    uri: steam:1295790
+  - name: .epic
+    uri: https://www.epicgames.com/store/zh-Hant/p/the-longest-road-on-earth
+  - name: .gog.com
+    uri: https://www.gog.com/game/the_longest_road_on_earth
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/the-longest-road-on-earth/id1538591290
+  - name: .play-store
+    uri: google-play-store:com.rawfury.tlroe
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src: https://cdn.akamai.steamstatic.com/steam/apps/256834380/movie_max_vp9.webm
+    mime: video/webm
+  - type: video
+    src: https://cdn.akamai.steamstatic.com/steam/apps/256827615/movie_max_vp9.webm
+    mime: video/webm
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_ad1e3ac7a36d469725f21037e473890d75a444f8.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_88201461db0e1a9447e47156675b3dd0bc866392.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_4599754154b9cc8d9f39b868d0bdf85c8c6066c5.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_a0f7a7503981e3386908333f8cf2031cd6dd1a32.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_64503f0cecc2ae363e8ecc29b889daaedeb797e1.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_8c60cf3e9344048f4bbf649f0bd157c991ad900c.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_64c8c193751d4d9831d0611d822ef034e84dae7a.jpg
