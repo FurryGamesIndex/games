@@ -340,14 +340,17 @@ In the screenshot section of the game, you can insert other media related to the
 
 	HTML video embedded elements can provide multiple types to balance compatibility and performance
 
-	```
-	  - type: video
-	    src:
-	      - uri: https://example.com/1.webm
-		mime: video/webm
-	      - uri: https://example.com/1.mp4
-		mime: video/mp4
-	```
+```
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://example.com/1.webm
+      - mime: video/mp4
+        uri: https://example.com/1.mp4
+  - ...
+  - ...
+```
 
 ## Step 5: Translate key information
 
