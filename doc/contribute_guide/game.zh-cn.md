@@ -203,6 +203,7 @@ authors:
 - `screenwriter`: 剧本
 - `programmer`: 程序
 - `artist`: 艺术家
+- `animation`: 动画师
 - `musician`: 音乐家
 - `voice-actor`: 配音演员
 - `character-designer`: 角色设计
