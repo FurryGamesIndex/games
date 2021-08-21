@@ -43,9 +43,34 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Lingrimm
+    role: [ producer, artist ]
+  - name: The Broken Horn
+    role: [ publisher ]
+  - name: Maria M
+    standalone: true
+    role: [ screenwriter ]
+  - name: Dizir
+    standalone: true
+    role: [ programmer ]
+  - name: mold.FF
+    standalone: true
+    role: [ programmer ]
+  - name: '_Blacksmith_'
+    standalone: true
+    role: [ musician ]
+  - name: Lada Z.
+    standalone: true
+    role: [ translator ]
+  - name: Natalie De Corsair
+    standalone: true
+    role: [ translator ]
+  - name: Fjorge
+    standalone: true
+    role: [ animation ]
+
 tags:
-  author:
-    - 'The Broken Horn'
   type:
     - visual-novel
   male:
@@ -59,6 +84,7 @@ tags:
     - multiple-endings
   lang:
     - en
+    - zh-unofficial
   publish:
     - steam
     - patreon
