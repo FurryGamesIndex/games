@@ -70,7 +70,7 @@ links:
   - name: .twitter
     uri: twitter:regalbuster
   - name: .discord
-    uri: discord.gg/65B8y7TpdA
+    uri: https://discord.gg/65B8y7TpdA
 
 thumbnail: thumbnail.png
 
