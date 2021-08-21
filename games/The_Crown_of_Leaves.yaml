@@ -74,6 +74,8 @@ links:
     uri: https://the-broken-horn.itch.io/the-crown-of-leaves
   - name: .patreon
     uri: patreon:lingrimm
+  - name: .unofficial-version-zh
+    uri: https://www.bilibili.com/read/cv11682766
 
 thumbnail: thumbnail.jpg
 
