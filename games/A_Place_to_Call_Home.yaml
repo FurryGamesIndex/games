@@ -12,9 +12,11 @@ description: |
 
 description-format: markdown
 
+author:
+  - name: HugeCookie
+    role: [ producer ]    
+    
 tags:
-  author:
-    - HugeCookie
   type:
     - visual-novel
     - bara
