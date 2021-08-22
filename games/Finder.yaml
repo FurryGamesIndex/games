@@ -1,0 +1,47 @@
+name: Finder
+
+brief-description: |
+  A game that triggers a variety of triggers by using color palette to make different colors.
+
+description: |
+  A game that triggers a variety of triggers by using color palette to make different colors.
+
+  ## Features
+
+  Emphasize the style of painting due to a lot of artworks.
+
+  Look at a lovely cat wagging his tail if you get stuck at level of game.
+
+description-format: markdown
+
+authors:
+  - name: 海底捞摸鱼组
+    role: [ producer ]
+
+tags:
+  type:
+    - music
+  male:
+    - canine
+  female:
+    - canine
+  misc:
+    - died
+  lang:
+    - zh
+  platform:
+    - ios
+    - android
+
+links:
+  - name: Get on Taptap
+    uri: https://www.taptap.com/app/195729
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.tapimg.com/market/images/608cc9db9179e3b3cabf2531f8899aea.png
+  - https://img.tapimg.com/market/images/05d3430e66589be71289c5ef69635d3e.png
+  - https://img.tapimg.com/market/images/562c74e2557ca8140186e0e1d05e6dba.png
+  - https://img.tapimg.com/market/images/169cf596a9a0fef02c15056b80580bca.png
+  - https://img.tapimg.com/market/images/78b1b8d326c189711872718c0b579ed1.png
