@@ -30,6 +30,13 @@ tags:
     - centralized
   lang:
     - en
+    - es
+    - fr
+    - it
+    - pt
+    - ru
+    - zh
+    - ja
   publish:
     - website
   platform:
