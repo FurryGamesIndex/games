@@ -33,6 +33,7 @@ tags:
     - multiple-endings
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -45,6 +46,9 @@ tags:
 links:
   - name: .itch.io
     uri: https://drakes64.itch.io/limits
+  - name: .unofficial-version-zh
+    icon: telegram
+    uri: https://t.me/ldlocalization/82
   - name: .patreon
     uri: patreon:drakes64
   - name: .discord
