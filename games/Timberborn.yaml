@@ -60,9 +60,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Mechanistry
+    role: [ producer ]
+
 tags:
-  author:
-    - Mechanistry
   type:
     - strategy
     - business-sim
