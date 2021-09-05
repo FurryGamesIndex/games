@@ -1,0 +1,70 @@
+name: The Mystery of Caketropolis
+
+brief-description: |
+  A bakery falls to arson and a city falls to chaos. With the harmony between human and dragon crumbling, can Rimentus solve the Mystery of Caketropolis before his kind face exile?
+
+description: |
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1062090/extras/Timberborn-8-MapEditor.gif)
+
+  The city of Stalagshire exists as a haven to both humans and dragons alike. To Rimentus, a young dragon hatched within the city, it is the only home he has ever known. Beneath its peaceful facade however, simmering unrest has slowly begun to boil over.
+
+  When Stalagshire's Festival of Peace is interrupted by arson and the destruction of Caketropolis - the city's first interspecies cafe - all pretenses are dropped. Amidst rising tensions, the resulting chaos may see the dragons of Stalagshire exiled for good.
+
+  Someone's to blame for burning down Caketropolis, and Rimentus is certain his kin are not responsible. But can he solve the Mystery of Caketropolis before time runs out?  
+  
+  ## Key Features:
+
+  - A unique story-driven adventure-mystery experience
+  - Investigate the Mystery of Caketropolis through the eyes of a dragon
+  - Discover a world that responds to your choices by examining, licking, smelling, and booping everything in sight
+  - Custom assets and over 40 hand-drawn cutscenes bring the world to life
+  - Flavorful and entirely original soundtrack
+  - Created mostly by one person
+
+description-format: markdown
+
+authors:
+  - name: Afiq Suradi
+    role: [ producer, publisher ]
+  - name: Rimentus
+    role: [ producer ]
+
+tags:
+  type:
+    - adventure
+    - puzzle
+    - role-playing
+  male:
+    - dragon
+    - humankind 
+  female:
+    - humankind
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .website
+    uri: https://rimentus.com/
+  - name: .steam
+    uri: steam:1606940
+  - name: furaffinity
+    uri: furaffinity:rimentus
+  - name: .twitter
+    uri: twitter:derpmentus
+  - name: .youtube
+    uri: https://www.youtube.com/channel/UCWfSFP41kV7w_gaW9FPMndg
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    uri: youtube:cFJpQhYUDrk
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1606940/ss_4c53d60b8ad5d156140408a27df74d199200c241.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1606940/ss_f4aa33ec5fabea415e72346f4bd607e01b7115aa.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1606940/ss_28b8e948ade95eb4a1d0473811402dc2b7dac72d.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1606940/ss_c1948623742c683f3c262f88d8a4addb4b8da28a.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1606940/ss_cb8bc11ce4ad0383df05190e797b768dcb66d166.jpg
