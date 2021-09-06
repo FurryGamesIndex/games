@@ -51,7 +51,7 @@ links:
     uri: https://rimentus.com/
   - name: .steam
     uri: steam:1606940
-  - name: furaffinity
+  - name: .furaffinity
     uri: furaffinity:rimentus
   - name: .twitter
     uri: twitter:derpmentus
