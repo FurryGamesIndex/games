@@ -26,10 +26,13 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: DragonSnow
+    role: [ producer, artist, programmer ]
+  - name: 噬子有一层糯米外皮
+    role: [ musician ]
+
 tags:
-  author:
-    - 'DragonSnow'
-    - '噬子有一层糯米外皮'
   type:
     - adventure
     - puzzle
@@ -42,12 +45,15 @@ tags:
     - snow-leopard
     - transfur
     - humankind
-    - anal
     - blowjob
-    - human-on-furry
+    - tentacles
+    - parasite
+    - absorption
+    - mind-control
   misc:
     - uncensored
     - multiple-endings
+    - engine-rpg-maker
   lang:
     - en
     - ja
