@@ -62,6 +62,9 @@ tags:
 links:
   - name: .itch.io
     uri: https://jerichowo.itch.io/remember-the-flowers
+  - name: .unofficial-version-zh
+    icon: telegram
+    uri: https://t.me/Furry_PrPr_T/10877
   - name: .patreon
     uri: patreon:RememberTheFlowers
   - name: .twitter
