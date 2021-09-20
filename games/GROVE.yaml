@@ -54,6 +54,9 @@ tags:
     - en
     - fr
     - zh-unofficial
+  publish:
+    - itchio
+    - website
   platform:
     - windows
     - macos
@@ -63,6 +66,8 @@ links:
   - name: .release-page
     icon: furaffinity
     uri: https://www.furaffinity.net/view/43181625/
+  - name: .itch.io
+    uri: https://grovedev.itch.io/groverpgnsfw
   - name: .unofficial-version-zh
     uri: https://www.gamemale.com/forum.php?mod=viewthread&tid=80950
   - name: .furaffinity

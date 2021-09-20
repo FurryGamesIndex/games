@@ -1,0 +1,81 @@
+name: Remember the Flowers
+
+description: |
+  **(Remember the flowers contains themes of an adult nature - you must be 18 or older to play.)**
+  
+  Remember the Flowers follows the tale of an amnesiac man.
+
+  With memories fleeting,  he wakes up in what seems to be a new world.
+  
+  The only thing he's certain of is his desire to return home.
+  
+  The only question is: what has become of it?
+  
+  #Links:
+  
+  **Twitter:** https://twitter.com/RtFVN
+  
+  **Discord:** https://discord.gg/kssdrgpMgE
+  
+  **Patreon:** https://www.patreon.com/RememberTheFlowers
+  
+  **Cooper CG credit:** https://twitter.com/Hackfurs
+
+description-format: markdown
+
+authors:
+  - name: Jericho
+    role: [ producer, screenwriter, programmer, artist, scenographer ]
+  - name: Azzy
+    role: [ screenwriter ]
+  - name: Red Radical Panda
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - tiger
+    - wolf
+    - humankind
+  female:
+    - sheep
+    - humankind
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://jerichowo.itch.io/remember-the-flowers
+  - name: .patreon
+    uri: patreon:RememberTheFlowers
+  - name: .twitter
+    uri: twitter:RtFVN
+  - name: .twitter
+    uri: twitter:Hackfurs
+  - name: .twitter
+    uri: twitter:Azzy_Lionblood
+  - name: .discord
+    uri: https://discord.com/invite/kssdrgpMgE
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTA2NDUyOC82MTE5NjcyLnBuZw==/original/3QDMVR.png
+  - https://img.itch.zone/aW1hZ2UvMTA2NDUyOC82MDk0MzI1LnBuZw==/original/OOVl%2Fa.png
+  - https://img.itch.zone/aW1hZ2UvMTA2NDUyOC82MDk0MzI2LnBuZw==/original/Gm2S6c.png
