@@ -1,0 +1,71 @@
+name: Interea
+
+brief-description: |
+  A companion visual novel to Adastra...
+
+description: |
+  A companion visual novel to Adastra.
+
+  The original production title was Adastra: Cities.
+
+  This game will center around the player character's tour of the moon with Amicus, the events of which took place off-screen near the end of Adastra. This is something I've considered doing for a while as I've tended to agree with the audience's concern that Amicus and his human didn't have enough time to really spend together amidst the fast-paced nature of the story. I also feel that there was a lot more to say about the culture and history of Adastra that wasn't explored in the original VN. There will certainly still be an overarching narrative involving some tension and conflict, but I think many of you will enjoy seeing these characters in situations in which there is room to breathe and relax, though not completely (especially with Alex and Cassius along for the ride).
+
+authors:
+  - name: The Echo Project
+    role: [ producer ]
+  - name: HAPS
+    role: [ artist ]
+  - name: Anthemics
+    role: [ musician ]
+
+tags:
+  type:
+    - visual novel
+    - bara
+    - yiff
+  male:
+    - dragon
+    - bear
+    - cat
+    - wolf
+    - humankind
+    - muscle
+#    - human-on-furry
+  female:
+    - wolf
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - linux
+    - macos
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://echoproject.itch.io/interea
+  - name: .patreon
+    uri: patreon:EchoGame
+  - name: .twitter
+    uri: twitter:EchoTheVN
+  - name: .unofficial-version-zh
+    icon: weibo
+    uri: https://weibo.com/7429628292/KneSjEnX4
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.loli.net/2021/10/01/q8ivjeXmn96D4gF.png
+  - https://i.loli.net/2021/10/01/Mu6H5SAfWUdF8ic.png
+  - https://i.loli.net/2021/10/01/recMPF9ngsqZldY.png
+  - https://i.loli.net/2021/10/01/7JzBnHtjCc4xokl.png
+  - https://i.loli.net/2021/10/01/1wQPGbhtBJuFIUf.png
