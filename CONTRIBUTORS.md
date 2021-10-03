@@ -9,6 +9,8 @@ making it possible for this project to quickly grow up into a practical list.
 
 ### Utopic Panther
 
+*Current FGI Leader*
+
 [Telegram](https://t.me/UtopicPanther) | [Github](https://github.com/UtopicPanther) | [Twitter](https://twitter.com/UtopicPanther)
 
 Designed and developed the FGI softwares, 
@@ -19,12 +21,32 @@ Chinese Documents.
 
 ### HuaJi2333DaDa
 
+*FGI Member*
+
 [Telegram](https://t.me/HuaJi2333dada) | [Twitter](https://twitter.com/HuaJi2333dada) | [Github](https://github.com/HuaJi2333DaDa)
 	
 Games submitter and editor, 
 Tags spec editor, 
 Code contributor/Developer, 
 Chinese Documents.
+
+### 小虎故洞
+
+*FGI Member*
+
+[Telegram](https://t.me/KumalParker) | [Github](https://github.com/TigerCubDen) | [Furaffinity](https://www.furaffinity.net/user/tiger-jungle/)
+
+Games submitter and editor.
+
+### UTL_1138
+
+*FGI Member*
+
+[Github](https://github.com/967018) | [Behance](https://www.behance.net/utl1138)
+
+Games submitter and editor,
+Original FGI UI Theme designer,
+Icon svgs contributor.
 
 ### xiaoxiaohaoa
 
@@ -55,18 +77,9 @@ Code contributor/Developer.
 Games submitter and editor, 
 Tags spec editor.
 
-### UTL_1138
+### Matsuuura Keita
 
-[Github](https://github.com/967018) | [Behance](https://www.behance.net/utl1138)
-
-UI desinger,
-Games submitter and editor.
-
-### 小虎故洞
-
-[Telegram](https://t.me/KumalParker) | [Github](https://github.com/TigerCubDen) | [Furaffinity](https://www.furaffinity.net/user/tiger-jungle/)
-
-Games submitter and editor.
+Games editor.
 
 ***For new contributors, please add your name and contacts before this line.***
 
