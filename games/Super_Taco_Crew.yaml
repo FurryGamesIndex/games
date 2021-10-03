@@ -10,9 +10,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Decker the Wolf'
+    role: [ producer ]
+
 tags:
-  author:
-    - 'Decker the Wolf'
   type:
     - visual-novel
     - bara
@@ -25,7 +27,6 @@ tags:
     - males-only
     - muscle
   misc:
-    - work-in-process
     - engine-renpy
   lang:
     - en
