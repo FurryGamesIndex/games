@@ -12,12 +12,11 @@ description-format: markdown
 
 authors:
   - name: とりあえず
-    role: [ producer,scenographer, others  ]
+    role: [ producer, scenographer, others  ]
   - name: とか
     standalone: true
     role: [ screenwriter, others ]
   - name: まなびこ
-    standalone: true
     role: [ character-designer, artist ]
   - name: せいけー
     standalone: true
