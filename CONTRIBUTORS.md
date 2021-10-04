@@ -45,7 +45,7 @@ Games submitter and editor.
 [Github](https://github.com/967018) | [Behance](https://www.behance.net/utl1138)
 
 Games submitter and editor,
-Original FGI UI Theme designer,
+Original designer of current FGI UI Theme "Peafowl",
 Icon svgs contributor.
 
 ### xiaoxiaohaoa
@@ -77,7 +77,9 @@ Code contributor/Developer.
 Games submitter and editor, 
 Tags spec editor.
 
-### Matsuuura Keita
+### Matsuura Keita
+
+[Twitter](https://twitter.com/Keita_Matsuura_)
 
 Games editor.
 
