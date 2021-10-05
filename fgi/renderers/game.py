@@ -73,7 +73,7 @@ class RendererGame(Renderer):
         context["name"] = gid
         context["author_widget"] = self.author_widget(game)
 
-        if game.expunge:
+        if game.expunge or game.check_tag("sys", "staging"):
             context["noindex"] = True
 
         meta = dict()

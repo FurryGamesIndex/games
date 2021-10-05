@@ -5,7 +5,7 @@
 		{% if game.check_tag("sys", "staging") %}
 			<aside class="box warning">
 				{{ ifac.misc_icon("warn") }}
-				<p>{{ ui.warnbox_staging }}</p>
+				<p>{{ ui.warnbox_staging.format(game_id=game.id) }}</p>
 			</aside>
 		{% endif %}
 		{% if game.replaced_by %}
