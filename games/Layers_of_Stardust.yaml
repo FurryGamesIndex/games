@@ -1,0 +1,50 @@
+name: Layers of Stardust
+
+brief-description: |
+  This is a tri-story of epic proportions. Where One murder will lead to reveal a huge planetary conspiracy. Once entry in a ancient data pad to the finding of forgotten gateways into the unknown. One broken mug to the discovery of a long lost spaceship. 
+
+description: |
+  In this story you put yourself in the shoes of Jonathan Hope, The first human ambassador and representative on Aeora, the homeworld of the Deara'kir Imperium. Something nobody would have even dreamed about a decade ago.  Not you. Yet here you are. Called by many The Best and Brightest of what humanity has to offer. Maybe until recently, you could have agreed to a degree, but right now? With a severe depression and highly medicated.
+
+  Trying to build a new home among the stars, a thousand light-years from Earth, surrounded by aliens who are overly eager to meet you, some will support you, others will treat you like a hero, while others will think you are no more than a bald space monkey from a backwater planet.
+
+  This is a tri-story of epic proportions. Where One murder will lead to reveal a huge planetary conspiracy. Once entry in a ancient data pad to the finding of forgotten gateways into the unknown. One broken mug to the discovery of a long lost spaceship. 
+
+  All this with shadows and dangers hiding in the corners. 
+
+description-format: markdown
+
+author:
+  - name: Spaceguybob
+    role: [ producer, screenwriter, programmer, artist ]
+
+tags:
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://spaceguybob.itch.io/layers-of-stardust
+  - name: .patreon
+    uri: patreon:Spaceguybob
+  - name: .twitter
+    uri: twitter:spaceguybob 
+  - name: .discord
+    uri: discord:WWT7Qqfyhb
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvODgxNDExLzUzNTAyODguanBn/original/0RvHcr.jpg
+  - https://img.itch.zone/aW1hZ2UvODgxNDExLzUzNTAyODkuanBn/original/GG7mAB.jpg
+  - https://img.itch.zone/aW1hZ2UvODgxNDExLzUzNTAyOTIucG5n/original/hmun4U.png
+  - https://img.itch.zone/aW1hZ2UvODgxNDExLzUzNTAyOTEucG5n/original/XEhj6w.png
+  - https://img.itch.zone/aW1hZ2UvODgxNDExLzUzNTAyOTAucG5n/original/UjuTLP.png
