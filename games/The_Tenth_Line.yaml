@@ -1,0 +1,72 @@
+name: The Tenth Line
+
+brief-description: |
+  A console-style RPG featuring a colorful cast of characters, unique battle and level-up systems, quick 2D platforming action, and an original, fantastical story about friendship, faith, and finding your place in the world.
+
+description: |
+  ##ABOUT
+
+  The Tenth Line is the first commercial game project from Sungazer Software. During your adventure, you'll guide the princess of the tiny nation of Easania, far from home and desperate to escape the clutches of a mysterious cult in hot pursuit. Along with her unusual but reliable companions, you'll explore a vibrant world of humans, beasts, and dragons, all struggling to coexist in the tension following the assassination of the king of the nation of Skyweather. Troubled times are ahead, indeed - the long-prophesied end of the world is fast approaching, and with only her wits, her blade, and her royal upbringing to guide her, can she make it home to her family before the end of days?
+
+  ##GAMEPLAY
+
+  Gameplay involves adventuring through distinct areas using traditional 2D platforming mechanics, but with a twist: each character is controlled separately, and can move, attack, and interact with the world in unique ways. You'll also visit the occasional village or safe haven, and have an opportunity to take on new quests, play cards, and chat with the locals. Enemies roam the wilds, meanwhile, and can be engaged or ambushed by your heroes, thrusting your party into battle.
+
+  Battles are turn-based with an active timing element: you'll decide on commands for each character, then carry those attacks out using careful timing and targeting. Then, it's the enemy's turn to retaliate, giving your party an opportunity to defend. And, with up to twelve enemies on the offense at one time, survival is not always a safe bet. Fortunately, eliminating large numbers of foes at once will leave fewer attackers behind to retaliate, and will also grant your party more momentum, allowing for even more powerful skills to be used during the next attack!
+
+  Progression is handled solely by finding and applying items to your characters. Items are plentiful, and have multiple uses, so smart distribution of your treasures is key to survival. Characters can use items for training, powering up their skills and their defensive abilities, or use them to empower their "specialties" and gain a personal, tactical edge in combat. Your party members can also gain "power levels" by winning battles, completing quests, and collecting power fragments in the world. Power levels can be spent on the "Power Flow" board by playing a puzzle-like minigame to increase stats and unlock new skills. It is a challenging, refreshing method of "leveling up" that rewards careful planning and smart decisions.
+
+  A standard dual-analog gamepad is highly recommended, though the keyboard is supported.
+
+  ##FEATURES
+
+  - A completely original, unique RPG experience that takes inspiration from the 32-bit era of gaming.
+  - Explore the world through fast-paced 2D platforming by controlling three separate characters, each with unique movement mechanics and ways of interacting with the world.
+  - Take on dozens of foes at one time through turn-based RPG battles with an active timing element.
+  - High quality background and sprite artwork, a grand, varied soundtrack, and voice acting for each major character during battles.
+  - Unique progression and leveling mechanics for your characters.
+  - Multiple hours of gameplay, plus post-game challenges and a New Game Plus mode.
+  - Optional story-focused mode available that removes all enemy encounters and simplifies story-based battles.
+  - Play "Quad Pro Quo" (an in-universe collectible card game) against multiple characters and inhabitants of the world to win unique prizes and complete your collection!
+
+description-format: markdown
+
+author:
+  - name: Sungazer Software
+    role: [ producer ]
+
+tags:
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .steam
+    uri: steam:575940
+  - name: .website
+    uri: https://www.sungazersoftware.com/
+  - name: .discord
+    uri: discord:vF5A2ed
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256680855/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256680855/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/575940/ss_c24f65cb0a16a2507efe0d0fed7f2dbf611561eb.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/575940/ss_4533577fdc04d021dcec6565469501771102d922.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/575940/ss_e2c16bec647c2548fdebea61ccb62803809fc3ae.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/575940/ss_357b84ca09f19d3689ca15258a10557af002fd3f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/575940/ss_02ba991a5a8856fde9a88a8a150dc88ff7202ad7.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/575940/ss_acd42f14d31d2943df139c54406d6c6f54bceff8.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/575940/ss_4ec8a63b448443380cf1f4d5b6eb3cc675607b1e.1920x1080.jpg
