@@ -1,0 +1,47 @@
+name: LYRE
+
+description: |
+  Lyre is a romance furry visual novel story where you travel to  a strange kingdom as a human ambassador, surrounded by diverse characters. Your only weakness is that you have no idea what their motives are. They're all deceiving each other and every one of them is better at it than you. You find yourself only able to trust the most unlikely individual as a terrible plot unfolds around you.
+
+description-format: markdown
+
+authors:
+  - name: Atmac
+    role: [ producer, artist, screenwriter ]
+  - name: Augustovich
+    role: [ musician ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://atmac.itch.io/lyre
+  - name: .patreon
+    uri: patreon:atmac
+  - name: .discord
+    uri: discord:skmSH5C2bC
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvOTY2NzQ3LzY0NDcwNzkucG5n/original/Y7%2B4xV.png
+  - https://img.itch.zone/aW1hZ2UvOTY2NzQ3LzY5Mzc4NjEucG5n/original/Pvwgez.png
+  - https://img.itch.zone/aW1hZ2UvOTY2NzQ3LzY0NDcwODEucG5n/original/T1eiYe.png
+  - https://img.itch.zone/aW1hZ2UvOTY2NzQ3LzY0NDcwODIucG5n/original/erxMMC.png
