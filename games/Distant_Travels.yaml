@@ -1,0 +1,57 @@
+name: Distant Travels
+
+description: |
+  Distant Travels is a sci-fi visual novel focused on the theme of Quantum Entanglement, and the question - can feelings be entangled?
+
+  With scars of the past, and recurring dreams that seem as they're about someone you know. And the looming threat of the Endless White consuming the world..
+
+  But wait. You're just you. A network tech working a job with little prospects of moving on... Until, there's a job opportunity.
+
+  Will this job lead you to a better life or just lead you to feel the same failure you once felt?
+
+description-format: markdown
+
+authors:
+  - name: GruntSteel
+    role: [ producer, screenwriter ]
+  - name: Strawberry Cheetah
+    role: [ artist ]
+  - name: Drakes
+    role: [ screenwriter, character-designer ]
+  - name: Camazule
+    role: [ musician ]
+  - name: Ven
+    role: [ others ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://gruntsteel.itch.io/distant-travels
+  - name: .discord
+    uri: discord:yPnRPhntPt 
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvODAyMjU2LzU5NjMxOTAucG5n/original/wZvV%2FH.png
+  - https://img.itch.zone/aW1hZ2UvODAyMjU2LzU5NjMxODkucG5n/original/6KBn4F.png
+  - https://img.itch.zone/aW1hZ2UvODAyMjU2LzU5NjMxOTIucG5n/original/p6SUou.png
+  - https://img.itch.zone/aW1hZ2UvODAyMjU2LzU5NjMxOTEucG5n/original/AxLi7l.png
+  - https://img.itch.zone/aW1hZ2UvODAyMjU2LzU5NjMxOTMucG5n/original/wsIU2q.png
