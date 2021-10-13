@@ -1,0 +1,89 @@
+name: "F.I.S.T.: Forged In Shadow Torch"
+
+brief-description: |
+  F.I.S.T.: Forged In Shadow Torch is a Metroidvania action game featuring exploration, intense combat and challenging platforming.
+
+description: |
+  Six years ago, the Machine Legion invaded and colonized the Torch City, which was originally inhabited by animals. Rayton, the former soldier in the resistance war, has been living in seclusion since then. After his friend is forcibly arrested, Rayton reclaims his mechanical fist and steps to his journey fighting back. And he never expects that he has been involved in a bigger scheme between the mafia, the rebellion, and the legion.
+
+  ## Sophisticated and Interconnected Game Map with Countless Secrets
+
+  Exploring the Metroidvania game world with a dozen of areas with distinguishing vision themes and level designs. Earning the rewards by conquering the challenges of combats, puzzles and platformers in countless chambers, tunnels and shortcuts.
+
+  Interconnected and automatically loading game map makes the detailed Torch City more convincing and beautiful.
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/extras/gif01.png)
+
+  ## Arcade-styled Combat System with Three Unique Weapons
+
+  Mastering the Fist, the Drill and the Whip, depending on the situation of the battlefield, switch your advantages between the long hits, the high damage and the wide range, taking every enemy standing in front of you down.
+
+  Dozens of enemies wielding their unique weapons challenge you with exquisite cooperation tactics, and various bosses with totally different combat patterns provides you never repeated experience.
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/extras/gif02.png)
+
+  ## Unique Dieselpunk Aesthetic Powered by Unreal Engine 4
+
+  The combining of the dieselpunk aesthetics and the oriental-style architecture constructs the core visual style of Torch City, exposing the world with the intense conflict between the furry animals and the mechanical army from their appearance to the nature.
+
+  Powered by Unreal Engine 4 with physically based rendering and extremely detailed textures, presenting a gorgeous 3D visual performance and pushing the genre to a whole new level.
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/extras/gif03.png)
+
+description-format: markdown
+
+authors:
+  - name: TiGames
+    role: [ producer ]
+  - name: Antiidelay
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+  male:
+    - rabbit 
+  misc:
+    - full-audio
+    - engine-ue4
+  lang:
+    - en
+    - zh
+    - ja
+    - fr
+    - es
+    - ru
+    - pt
+  publish:
+    - steam
+  platform:
+    - windows
+    - playstation4
+    - playstation5
+
+links:
+  - name: .steam
+    uri: steam:1330470
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/concept/10002960/
+  - name: .twitter
+    uri: twitter:FISTthegame 
+  - name: .youtube
+    uri: https://www.youtube.com/channel/UCB69DzTU0cuqPZMNfSc7VEA/
+  - name: .weibo
+    uri: https://weibo.com/u/7465087285
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://media.st.dl.pinyuncloud.com/steam/apps/256853301/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://media.st.dl.pinyuncloud.com/steam/apps/256853301/movie480.mp4
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_7df6a4834d21faef268c54e82b228c4442c33ea8.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_d859bc7d1eeb92ba0b863820a3f5b8d2aeaa626b.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_e1d32451f4ad62c603c2778ad4075fd11d0dbc16.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_5c9aeb1bf6210a6798289fbb1c7aa2fa5c28a117.jpg
+  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_4c547ce08bb7a08fd4167b18219f58d5667abe85.jpg
