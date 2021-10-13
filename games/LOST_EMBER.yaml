@@ -14,9 +14,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: TiGames
+    role: [ producer, publisher ]
+
 tags:
-  author:
-    - 'Mooneye Studios'
   type:
     - adventure
     - action

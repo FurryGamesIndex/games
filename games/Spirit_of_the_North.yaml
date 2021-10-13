@@ -24,9 +24,13 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: TiGames
+    role: [ producer ]
+  - name: Merge Games
+    role: [ publisher ]
+
 tags:
-  author:
-    - Infuse Studio
   type:
     - adventure
     - casual
