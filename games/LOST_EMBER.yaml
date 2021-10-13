@@ -24,8 +24,10 @@ tags:
     - action
     - role-playing
   male:
+    - wolf
     - non-anthro
   female:
+    - wolf
     - non-anthro
   misc:
     - 3d

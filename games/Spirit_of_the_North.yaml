@@ -72,6 +72,12 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://media.st.dl.pinyuncloud.com/steam/apps/256783649/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://media.st.dl.pinyuncloud.com/steam/apps/256783649/movie480.mp4
   - https://media.st.dl.pinyuncloud.com/steam/apps/1213700/ss_0b4d8358c5605e7322cd5f3697bbbd2b909401c5.1920x1080.jpg
   - https://media.st.dl.pinyuncloud.com/steam/apps/1213700/ss_3b585c6f6771436a73fcfc72a9012fb83c20beb3.1920x1080.jpg
   - https://media.st.dl.pinyuncloud.com/steam/apps/1213700/ss_5f049501bdaa03e7bfb173e4b4e5a7373cf6736d.1920x1080.jpg
