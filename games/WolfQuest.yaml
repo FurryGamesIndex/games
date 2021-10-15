@@ -30,9 +30,11 @@ description: |
 
 description-format: markdown
 
+author:
+  - name: eduweb
+    role: [ producer, publisher ]
+
 tags:
-  author:
-    - eduweb
   type:
     - role-playing
     - adventure

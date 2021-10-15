@@ -29,9 +29,11 @@ description: |
   
 description-format: markdown
 
+author:
+  - name: Might and Delight
+    role: [ producer, publisher ]
+
 tags:
-  author:
-    - 'Might and Delight'
   type:
     - role-playing
     - adventure
@@ -62,6 +64,7 @@ tags:
     - 3d
     - multiplayer
     - online
+    - centralized
     - outside-furry-fandom
   lang:
     - en
