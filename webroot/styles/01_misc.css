@@ -45,6 +45,10 @@ a:hover {
 	color: var(--accent-text-color-alt);
 }
 
+pre {
+	overflow-x: auto;
+}
+
 code {
 	padding: 2px 4px;
 	background-color: var(--accent-background-color);

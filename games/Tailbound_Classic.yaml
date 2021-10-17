@@ -40,7 +40,7 @@ tags:
   platform:
     - windows
   
-#replaced-by: Tailbound
+replaced-by: Tailbound
 
 links:
   - name: .itch.io
