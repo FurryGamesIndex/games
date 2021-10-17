@@ -1,0 +1,54 @@
+name: Lands of Fire
+
+brief-description: |
+  Lands of Fire is a gay furry VN based on the cultures and oral traditions of pre-colonial Australia.
+
+description: |
+  Lands of Fire is a gay furry VN based on the cultures and oral traditions of pre-colonial Australia. It is rated R (or whatever equivalent you have) for sex and violence (and we do mean explicit sex and scenes with described gore, or both considering penile subincision is a thing).
+
+  Kubbadang, a Yuin thylacine, is tasked by his elders to bring warriors from Budj Bim in order to fight off the hordes of monsters sent by the Sun Woman, who seeks to devour all of humanity. Along for the ride are his sister Guddity, his childhood friends Winyu (a rakali) and Dhurra (a platypus), the Gamilaraay warrior Bangalaa (a sea eagle), the Arrernte kurdaitcha Perrurle (a kangaroo) and the mysterious medicine woman Bina (a goanna).
+
+description-format: markdown
+
+authors:
+  - name: mullerornis
+    role: [ producer ]
+  - name: Saintbull
+    role: [ artist ]
+  - name: Jasper
+    role: [ artist ]
+  - name: Oriont
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://mullerornis.itch.io/lands-of-fire
+  - name: .patreon
+    uri: patreon:Carliro
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvOTI1Mjk4LzUzOTUxNjAucG5n/original/kakbm1.png
+  - https://img.itch.zone/aW1hZ2UvOTI1Mjk4LzUzOTUxNTkucG5n/original/x7MJvS.png
+  - https://img.itch.zone/aW1hZ2UvOTI1Mjk4LzUzOTUxNjEucG5n/original/3XwYag.png
+  - https://img.itch.zone/aW1hZ2UvOTI1Mjk4LzU0ODg5MDkucG5n/original/8P23mH.png
+  - https://img.itch.zone/aW1hZ2UvOTI1Mjk4LzU0ODg5MTMucG5n/original/3uwJ43.png
