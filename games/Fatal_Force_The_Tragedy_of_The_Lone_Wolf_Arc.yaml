@@ -1,0 +1,59 @@
+name: 'Fatal Force: The Tragedy of The Lone Wolf Arc'
+
+description: |
+  A student who was attacked by a wild werewolf was saved by another werewolf who is a werewolf's slayer. But, unfortunately, the student had been bitten, and they must find out the werewolf's identity who bitten the student before the full moon rises. In search of identity, they counter many weird things and lead them to the unexpected truth.
+
+description-format: markdown
+
+authors:
+  - name: DarkDragon563
+    role: [ producer, screenwriter, artist, musician ]
+  - name: Arglin
+    role: [ screenwriter ]
+  - name: Padacos
+    role: [ screenwriter ]
+  - name: Zentrix
+    role: [ artist ]
+  - name: Furloid7
+    role: [ musician ]
+  - name: Arglin
+    role: [ musician ]
+  - name: SketchHunterP
+    role: [ musician ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+    - zh
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://darkdragon563.itch.io/fatal-force-the-tragedy-of-the-lone-wolf-arc
+  - name: .patreon
+    uri: patreon:DarkDragon563
+  - name: .discord
+    uri: discord:nuQAccgkDW
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvOTM2MDE5LzY5OTk3MDcucG5n/original/0uJCLE.png
+  - https://img.itch.zone/aW1hZ2UvOTM2MDE5LzY5OTk3MTYucG5n/original/Nbvn9z.png
+  - https://img.itch.zone/aW1hZ2UvOTM2MDE5LzY5OTk3MjgucG5n/original/uuDzKf.png
+  - https://img.itch.zone/aW1hZ2UvOTM2MDE5LzY5OTk3MjEucG5n/original/OAmGaQ.png
+  - https://img.itch.zone/aW1hZ2UvOTM2MDE5LzY5OTk3MzMucG5n/original/dxjZ8d.png
+  - https://img.itch.zone/aW1hZ2UvOTM2MDE5LzY5OTk3NDEucG5n/original/xiG4Mi.png
