@@ -1,0 +1,57 @@
+name: Pocket Rain Files
+
+brief-description: |
+  Pocket Rain Files is a furry visual novel, gay NSFW, that is focused on the personal relationships between the characters, with a much larger background plot that will be discovered as the story progresses. Decisions will be key in determining who and how you will end the story.
+
+description: |
+  Emeka is a beastman cheetah who moves to the city of Verna to study. He's always been a homely and hasn't had too many friends, partly his fault and a little for living with a mother protective  than usual.
+
+  His mother rents him an apartment for himself since he does not know anyone from the place, and on his first day, he will meet a lot of people who will make hisr life more interesting. Some will be very kind, maybe even too much in some way, and strangely they all seem react with an unusual show of surprise the first time they see him.
+
+  As he gets to know them little by little, something in his mind begins to not quite add up, and doubts about himself and his whole life will begin to arise, and he will discover that what was assumeded, it was not, and the foundations on which his world was built will begin to crack.
+  
+  So what happens when our origin reaches us and hits us in the face?
+  What happens when our apparent normality turns out to be a lie?
+  What do you do when in search of your destiny you end up trapped in your past?
+
+description-format: markdown
+
+authors:
+  - name: Levtai-Howl
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+    - es
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://levtai-howl.itch.io/pocket-rain-files
+  - name: .patreon
+    uri: patreon:LevtaiHowl
+  - name: .twitter
+    uri: twitter:LevtaiH
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvODQ0MjE5LzQ3MzY5NjEucG5n/original/of8em4.png
+  - https://img.itch.zone/aW1hZ2UvODQ0MjE5LzU3MjAxOTYuanBn/original/%2BNJTg5.jpg
+  - https://img.itch.zone/aW1hZ2UvODQ0MjE5LzY1MzM0MjcucG5n/original/9jmL%2Fj.png
+  - https://img.itch.zone/aW1hZ2UvODQ0MjE5LzYyNzIxOTIucG5n/original/LvKX5m.png
+  - https://img.itch.zone/aW1hZ2UvODQ0MjE5LzYyNzIyNzMucG5n/original/yAM5pQ.png
