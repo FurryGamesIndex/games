@@ -5,7 +5,7 @@
 [打开 Lagoon Lounge 3 ~ Irori no Lagoon / 囲炉裏のラグーン 的 FGI 页面](https://furrygames.top/zh-cn/games/Lagoon_Lounge_3.html)
 
 ## 说明
-~~~
+```
 《秘密的黑礁2》《秘密的黑礁3》 简中汉化最终版
 ———————————————————————
 翻译：不知名剧本大神、Cyan
@@ -13,7 +13,7 @@
 UI：Cyan、Pdan
 技术支持：TigerCub
 校对：缘烬空、橙子、時印、Cyan
-~~~
+```
 
 ## 汉化组的原始发布
 

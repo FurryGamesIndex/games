@@ -3,7 +3,7 @@
 [打开 Echo Route 65 的 FGI 页面](https://furrygames.top/zh-cn/games/Echo_Route_65.html)
 
 ## 说明
-~~~
+```
 《Echo: Route 65》汉化正式版
 ——Staff——
 原游戏文件：Echo Project
@@ -14,7 +14,7 @@
 ——说明——
 两版UI，同时还有新立绘可在语言选项中选择
 如果遇上残影问题，请关闭应用重开
-~~~
+```
 
 ## 汉化组的原始发布
 
