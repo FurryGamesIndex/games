@@ -1,0 +1,55 @@
+name: Eden's Reach
+
+description: |
+  Eden's Reach is a sci-fi romance Visual Novel focused on the main character's (Default name: Adrian) adventures in Bayline City, a bustling, futuristic seaside city filled with an equally compelling set of eccentric and intriguing faces. What kind of life awaits anyone who comes to this city? Only time will tell...
+
+description-format: markdown
+
+authors:
+  - name: AzzyFord
+    role: [ producer, screenwriter ]
+  - name: DarkMega24
+    role: [ screenwriter ]
+  - name: Wild Tapioca
+    role: [ artist ]
+  - name: TheBlindOri
+    role: [ artist ]
+  - name: FoxxCop
+    role: [ musician ]
+  - name: NiimaaVA
+    role: [ musician ]
+  - name: Marcy
+    role: [ programmer ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://azzyford.itch.io/edensreach
+  - name: .discord
+    uri: discord:n75mvEruC2
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzU1ODMyNTQucG5n/original/a91JkV.png
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzU1ODMzNjgucG5n/original/nO9lg3.png
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzU1ODMzNjkucG5n/original/N3itMD.png
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzY1ODQ1NjgucG5n/original/EWkGLt.png
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzY1ODQ2MDIucG5n/original/08Ek7k.png
