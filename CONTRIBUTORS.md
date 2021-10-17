@@ -19,11 +19,11 @@ Games submitter and editor,
 Tags spec editor, 
 Chinese Documents.
 
-### HuaJi2333DaDa
+### 滑稽HuaJi2333
 
 *FGI Member*
 
-[Telegram](https://t.me/HuaJi2333dada) | [Twitter](https://twitter.com/HuaJi2333dada) | [Github](https://github.com/HuaJi2333DaDa)
+[Telegram](https://t.me/HuaJi2333dada) | [Github](https://github.com/HuaJi2333DaDa)
 	
 Games submitter and editor, 
 Tags spec editor, 

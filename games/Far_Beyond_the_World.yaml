@@ -14,9 +14,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Kael Tiger
+    role: [ producer, screenwriter, artist ]
+
 tags:
-  author:
-    - 'Kael Tiger'
   type:
     - visual-novel
     - bara
@@ -30,6 +32,7 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -44,6 +47,8 @@ links:
     uri: https://echoesofarcane.itch.io/farbeyondtheworld
   - name: .patreon
     uri: patreon:kaeltiger
+  - name: .unofficial-patch-zh
+    uri: FGI-misc-page:Far_Beyond_the_World-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
