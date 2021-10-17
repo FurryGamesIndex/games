@@ -1,0 +1,56 @@
+name: That One Celestial Night
+
+brief-description: |
+  Join and follow the story of Vaniel Ranos as he lives his everyday life in his senior year of high school together with his friends. Have fun and endure hardships with them as you build up the club you joined with them together. Tears might fall, secrets may come out, inner demons might reveal themselves for everything and everyone doesn't seem to be what they actually are. 
+
+description: |
+  Fate and destiny, do these two things actually exist?
+  The future may seem uncertain, but is it actually predetermined?
+  Dreams of vivid color have been plaguing your mind lately
+  And all you can think about is what happened in that one celestial night
+
+  Things can always go great, but sometimes they get awry
+  Your choices and decisions might not always seem like its what it is
+  You can always do your best, but it's just not possible to make everyone happy
+  So what will you do to shape the future you want to achieve?
+
+  Join and follow the story of Vaniel Ranos as he lives his everyday life in his senior year of high school together with his friends. Have fun and endure hardships with them as you build up the club you joined with them together. Tears might fall, secrets may come out, inner demons might reveal themselves for everything and everyone doesn't seem to be what they actually are. 
+
+  How would you react? What decisions will you make? Will you be able to endure the pain and suffering that is to come? But maybe, just maybe, you will be able to read the lines and save them?
+
+description-format: markdown
+
+authors:
+  - name: LeiNavI
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://leinavi78.itch.io/that-one-celestial-night
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTE2ODE2Mi82Nzk4MDczLnBuZw==/original/wNHiYn.png
+  - https://img.itch.zone/aW1hZ2UvMTE2ODE2Mi82Nzk4MDcxLnBuZw==/original/hH4YbT.png
+  - https://img.itch.zone/aW1hZ2UvMTE2ODE2Mi82Nzk4MDcyLnBuZw==/original/GMyecn.png
+  - https://img.itch.zone/aW1hZ2UvMTE2ODE2Mi82Nzk4MDQyLnBuZw==/original/LthnVf.png
+  - https://img.itch.zone/aW1hZ2UvMTE2ODE2Mi82Nzk4MDQ0LnBuZw==/original/SXi7GC.png
