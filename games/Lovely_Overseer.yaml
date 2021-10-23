@@ -1,0 +1,65 @@
+name: Lovely Overseer
+
+brief-description: |
+  Lovely Overseer is an animated romantic dating simulator in the furry style. You are a young lieutenant overseeing the correction of magically talented individuals in the closed and isolated complex of the military Academy. Your main task is to maintain order and train recruits.
+
+description: |
+  This game is an animated romantic dating simulator in the furry style. You are a young lieutenant overseeing the correction of magically talented individuals in the closed and isolated complex of the military Academy. Your main task is to maintain order and train recruits under the supervision of your mistress, Neoma. Will you have time for privacy and romance, or will you blindly obey the witch?
+
+  Subordinate recruits to you have outstanding magical abilities that exceed your own potential, so you must be extremely careful with them - in moments of stress they completely lose control of their magic.
+
+  ##Features
+
+  - 4 girls with unique personalities that you can form a romantic bond with, each with their own background and storyline
+  - Fully animated characters and cut-scenes (Full HD)
+  - Manage your day wisely and be careful to balance your work and personal life
+  - Dive into the atmosphere of the game thanks to the great music and beautiful backgrounds
+
+  “You must help them to control their talents at will, using different methods to pass the final test. Recruits who will not be able to suppress their talents at their will will be isolated from society as extremely dangerous individuals. Don't be afraid to be too harsh with them – they're not in any position to complain, we're already spending a huge amount of money on training battle mages. Any form of protest and resistance must be brutally suppressed, use your squad if necessary. For further briefing, lieutenant, I'm waiting for you in my office, Neoma.“
+
+  Be wary of the Witch Neoma, she is extremely authoritarian and slightly... insane. In general, you do not approve of her methods of leadership, but you do not always have the spirit to contradict her directly. She gets sadistic pleasure in punishing the guilty, and if you do not do your duties, her punishment awaits you. You feel sympathy for your recruits, but the only thing you can do is do your job well.
+
+  In your free time, you can try to have a romantic relationship with one of your peers, or if you are bold enough to take the risk maybe you can be lucky enough to invite your mistress on a date?
+
+description-format: markdown
+
+author:
+  - name: Furry Tale
+    role: [ producer ]
+  - name: Rinra
+    role: [ artist ]
+
+tags:
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+  sys:
+    - staging
+
+links:
+  - name: .steam
+    uri: steam:1219620
+  - name: .patreon
+    uri: patreon:rinra
+  - name: .twitter
+    uri: twitter:RinraFurry 
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256784173/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256784173/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1219620/ss_5efd8ec9b452c439102acf54df0429d0a8d7b6f5.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1219620/ss_915cf17e9f163baa505c69570a7592a7f9eb0790.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1219620/ss_b5e19e285fbec6c6a7d78bdda9164b0958b5c492.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1219620/ss_2b5033bbd3170dc9257c1f581f933098221b0cdf.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1219620/ss_2882073a78b87f0ed5d3f0804d9fda11ad1401a6.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1219620/ss_fba38622b81eadb1d00d8436765163fb553d36a6.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1219620/ss_0313ff8495bae34a6d4e5c3c0fdde462b9a3647d.1920x1080.jpg
