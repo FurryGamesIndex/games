@@ -15,10 +15,13 @@ tags:
     - visual-novel
     - bara
   male:
-    - canine
-    - felidae
     - wolf
     - cat
+    - dog
+    - bear
+    - bull
+    - rabbit
+    - mouse
     - humankind
     - muscle
     - males-only
@@ -45,6 +48,8 @@ links:
     uri: patreon:leonthelionel
   - name: .twitter
     uri: twitter:@leonthelionel
+  - name: .discord
+    uri: https://discord.gg/GUA32HnaUt
 
 thumbnail: thumbnail.jpg
 
