@@ -6,20 +6,25 @@ description: |
   Which one can help you solve the struggles of your human heart?
   This game is a SAFE FOR WORK, furry visual novel. 
 
+authors:
+  - name: Leo
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Leo'
   type:
     - visual-novel
     - bara
-    - sfw
   male:
-    - canine
-    - felidae
     - wolf
     - cat
+    - dog
+    - bear
+    - bull
+    - rabbit
+    - mouse
     - humankind
     - muscle
+    - males-only
   misc:
     - freeware
     - uncensored
@@ -43,6 +48,8 @@ links:
     uri: patreon:leonthelionel
   - name: .twitter
     uri: twitter:@leonthelionel
+  - name: .discord
+    uri: https://discord.gg/GUA32HnaUt
 
 thumbnail: thumbnail.jpg
 
