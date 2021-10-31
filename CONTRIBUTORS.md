@@ -87,6 +87,8 @@ Games editor.
 
 [Discord](https://discordapp.com/users/MaxWhite#3249)
 
+Games editor.
+
 ***For new contributors, please add your name and contacts before this line.***
 
 ## Game referrers
