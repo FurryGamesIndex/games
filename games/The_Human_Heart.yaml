@@ -6,9 +6,11 @@ description: |
   Which one can help you solve the struggles of your human heart?
   This game is a SAFE FOR WORK, furry visual novel. 
 
+authors:
+  - name: Leo
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Leo'
   type:
     - visual-novel
     - bara
