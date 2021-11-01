@@ -2,10 +2,6 @@
 
 If you want to add new tags, welcome to create issues for discussion.
 
-## Namespace author
-
-Indicate the full name of the author, the official English name of the author is preferred.
-
 
 ## Namespace type
 

@@ -5,9 +5,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: DyneWulf
+    role: [ producer, screenwriter, programmer ]
+  - name: CaptainGerBear
+    role: [ artist ]
+  - name: Gavel
+    role: [ scenographer ]
+
 tags:
-  author:
-    - DyneWulf
   type:
     - visual-novel
     - bara
@@ -26,8 +32,10 @@ tags:
   misc:
     - work-in-process
     - engine-renpy
+    - homophobia
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -45,6 +53,8 @@ links:
     uri: twitter:dynewulf
   - name: .furaffinity
     uri: https://www.furaffinity.net/user/dynewulf/
+  - name: .unofficial-version-zh
+    uri: https://t.me/Furry_PrPr_T/683
   - name: .website
     uri: https://www.wolfbiteinteractive.com/
 

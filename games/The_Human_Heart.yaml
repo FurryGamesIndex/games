@@ -2,9 +2,14 @@ name: The Human Heart
 
 description: |
   You are a human, with a heart longing for a partner.  Will you find your love amongst the mammals in this new yet familiar world?
+  
   There are seven lads to choose from; Cade, Dylan, Rorik, Ace, Tyler, Sidney, and Lars!
+  
   Which one can help you solve the struggles of your human heart?
-  This game is a SAFE FOR WORK, furry visual novel. 
+  
+  This game is a *SAFE FOR WORK*, furry visual novel.
+
+description-format: markdown
 
 authors:
   - name: Leo
