@@ -1,0 +1,36 @@
+name: The Contract
+
+description: |
+  The Contract is a furry interactive story that has three different endings which depend on the progress and selection which you have made. The stories of the characters are revealed as you continue to collect the required and hidden items. And if you make the "right" choices, you may even reach the "best" and "cutest" ending... 
+
+description-format: markdown
+
+authors:
+  - name: RyuShinN
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - multiple-endings
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://ryushinn.itch.io/the-contract
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1nLzQ4ODU0MjcucG5n/original/JJuPmI.png
+  - https://img.itch.zone/aW1nLzQ4ODU0OTgucG5n/original/6Uh9wR.png
