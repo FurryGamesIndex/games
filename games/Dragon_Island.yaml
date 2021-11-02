@@ -1,9 +1,33 @@
-name: Dragon Island / 灵龙岛
+name: Dragon Island
 
-expunge: true
+brief-description: |
+  Henry Heimlich, a shark dragon lifesaver suddenly received a ticket to Dragon Island, the famous resort. Follow Henry to the island, and create some unique memory on the long shore with 6 other dragons!
 
 description: |
-  Create unforgettable memories with your favorite male dragon on Dragon Island!
+  Dragon Island is a relaxing ADV in which you will follow Henry Heimlich as he creates unforgettable memories with six other dragons on Dragon Island. You can make a lot of choices and reach different endings!
+
+  ##STORY
+  Henry Heimlich, an ordinary lifeguard, suddenly received a letter of employment from Dragon Island. Together with six other dragons, he got on a cruise ship to the island. But until they boarded the island, they had no idea what they were about to face...
+
+  ##CHARACTER
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1554470/extras/亨利_en.png)
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1554470/extras/拿破仑_en.png)
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1554470/extras/布莱克_en.png)
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1554470/extras/莫泽_en.png)
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1554470/extras/章晖_en.png)
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1554470/extras/良秀_en.png)
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1554470/extras/梁_en.png)
+
+  ##GAMEPLAY
+  In the game, use different maps to move freely throughout the island, hanging out with everyone and chat with them.
+
+  Don't forget to check your phone, it will be updated as you explore the island!
+
+  Every evening, everyone will gather together for some intense and exciting activities, such as debating, do remember to attend!
+
+  During free exploration, you will also encounter some unexpected small tasks. Completing them will help you earn more friendships from the dragons!
+
+description-format: markdown
 
 authors:
   - name: 'Studio SelfCropping'
@@ -58,7 +82,15 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://i.imgur.com/q2pcqr9.png
-  - https://i.imgur.com/AcXABHW.png
-  - https://i.imgur.com/PpSeJ5R.png
-  - https://i.imgur.com/2QKVzZa.png
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256836538/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256836538/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1554470/ss_cd056ed719104bec22263012b57d330d22d3431d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1554470/ss_46b408b2050e77cf73a40f5bb37b469c3fc15461.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1554470/ss_fee87d6880e608a7d5a9c1d184c0b606fb1bfd82.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1554470/ss_83a4b8e9eea98a80f247c867886cefc09dcd2c97.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1554470/ss_a7227b102d32bb3b02e6b0312a28905f23c5fee9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1554470/ss_44ec9e457a1da2d4b63fbd6310c9fdb43d49eb2d.1920x1080.jpg
