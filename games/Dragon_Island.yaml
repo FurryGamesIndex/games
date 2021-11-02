@@ -72,6 +72,8 @@ tags:
     - staging
     
 links:
+  - name: .steam
+    uri: steam:1554470
   - name: .weibo
     uri: https://www.weibo.com/ROMANSCHRISTMAS
   - name: .weibo
