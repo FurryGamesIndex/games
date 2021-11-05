@@ -1,0 +1,57 @@
+name: SNC Counselor
+
+description: |
+  
+authors:
+  - name: 熊八
+    role: [ producer, screenwriter, artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - bear
+    - shark
+    - tiger
+    - lion
+    - humankind
+    - muscle
+  female:
+    - humankind
+  misc:
+    - uncensored
+    - multiple-endings
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - steam
+    - website
+  platform:
+    - windows
+  sys:
+    - staging
+
+links:
+  - name: .demo-version
+    uri: https://www.plurk.com/p/ok9xkb
+  - name: .twitter
+    uri: twitter:oCUiThu3mCcQfMm
+  - name: .facebook
+    uri: https://www.facebook.com/sncgame/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    id: afaofvvYG54
+  - https://images.plurk.com/HtqyCzmkIWAYp647LhU1b.jpg
+  - https://images.plurk.com/5z3HAv6xJFRSVmiRcoGW2Y.jpg
+  - https://images.plurk.com/439WOB1gp1neuRmGgYNslc.jpg
+  - https://images.plurk.com/z40CGm83dQtJXANAyLLWw.jpg
+  - https://images.plurk.com/4i4gD92mJGbTumvLj2GgeZ.jpg
+  - https://images.plurk.com/5iQMtNc6uSPe1wMNeQTXcg.jpg
+  - https://images.plurk.com/6LiMZq4MVJhmw4weNubkBN.jpg
+
