@@ -8,7 +8,7 @@ FurryGamesIndex (下文中可能簡稱 FGI) 是一個年輕的開放型社群專
 
 維護者和貢獻者的人數不多，而且在自己的業餘時間推進 FurryGamesIndex 專案的發展。因此我們可能遺漏一些很棒的遊戲，或在某些遊戲或作者條目中留下錯誤，這絕對不是因為我們對它們有偏見。如果您發現我們缺少遊戲或任何錯誤，請聯絡我們，我們將感激不盡。
 
-如果您願意註冊 Github 帳號並在本倉庫的 [Issues](https://github.com/FurryGamesIndex/games/issues) 或 [討論區](https://github.com/FurryGamesIndex/games/discussions) 開啟討論執行緒，那就再好不過了，但是我們也十分歡迎透過電子郵件或 Telegram 的報告。具體請轉到下方的聯絡方式區域。
+如果您願意註冊 Github 帳號並在本倉庫的 [Issues](https://github.com/FurryGamesIndex/games/issues) 開啟討論執行緒，那就再好不過了，但是我們也十分歡迎透過電子郵件或 Telegram 的報告。具體請轉到下方的聯絡方式區域。
 
 ### 直接參與 FGI 遊戲和作者條目的編輯
 
@@ -44,7 +44,7 @@ FGI 最終呈現給使用者的介面是來自對 “FGI 遊戲資料庫”、�
 
 ## 專案負責人/核心維護者：UtopicPanther
 
-- Github: 透過本倉庫的 [Issues](https://github.com/FurryGamesIndex/games/issues) 或 [討論區](https://github.com/FurryGamesIndex/games/discussions)
+- Github: 透過本倉庫的 [Issues](https://github.com/FurryGamesIndex/games/issues)
 - Email: upanther@furrygames.top
 - Telegram: https://t.me/UtopicPanther
 
@@ -54,6 +54,6 @@ FGI 最終呈現給使用者的介面是來自對 “FGI 遊戲資料庫”、�
 
 ## 專案
 
-- Github: 透過本倉庫的 [Issues](https://github.com/FurryGamesIndex/games/issues) 或 [討論區](https://github.com/FurryGamesIndex/games/discussions)
+- Github: 透過本倉庫的 [Issues](https://github.com/FurryGamesIndex/games/issues)
 - Telegram 頻道和討論組: https://t.me/FurryGamesIndex （用於公告、專案討論、民意調查和一般討論）
 - Email: webmaster@furrygames.top （用於處理和專案有關的非技術性問題，通常情況下您更可能應該聯絡維護者）

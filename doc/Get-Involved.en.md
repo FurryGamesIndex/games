@@ -8,7 +8,7 @@ How can I help the project?
 
 The number of maintainers and contributors is small and advances the FurryGamesIndex project in their own spare time. Therefore we may miss some great games or leave errors in some games or author entries. This is definitely not because we are biased against them. If you find us missing games or any errors, please contact us, we would appreciate it.
 
-If you would like to sign up for a Github account and open a discussion thread on this repository at [Issues](https://github.com/FurryGamesIndex/games/issues) or [Discussions](https://github.com/FurryGamesIndex/games/discussions), that would be great, but reports via Email or Telegram are also very welcome. Please go to the contact area below for details.
+If you would like to sign up for a Github account and open a discussion thread on this repository at [Issues](https://github.com/FurryGamesIndex/games/issues), that would be great, but reports via Email or Telegram are also very welcome. Please go to the contact area below for details.
 
 ## Direct participation in editing FGI games and author entries
 
@@ -40,7 +40,7 @@ We promise that we will always be a non-profit project and always rooted in the 
 
 ## Core maintainer/Project leader: UtopicPanther
 
-- Github: via [Issues](https://github.com/FurryGamesIndex/games/issues) or [Discussions](https://github.com/FurryGamesIndex/games/discussions) in this repository
+- Github: via [Issues](https://github.com/FurryGamesIndex/games/issues) in this repository
 - Email: upanther@furrygames.top
 - Telegram: https://t.me/UtopicPanther
 
@@ -50,7 +50,6 @@ Read [CONTRIBUTORS.md](./CONTRIBUTORS.md) file to get the contact information of
 
 ## Projects
 
-- Github: Access this repository via [Issues](https://github.com/FurryGamesIndex/games/issues) or [Discussions](https://github.com/FurryGamesIndex/games/discussions)
+- Github: Access this repository via [Issues](https://github.com/FurryGamesIndex/games/issues)
 - Telegram channels and discussion groups: https://t.me/FurryGamesIndex (for announcements, project discussions, polls and general discussions)
 - Email: webmaster@furrygames.top (for non-technical questions related to the project, you should usually contact the maintainer more than likely)
-
