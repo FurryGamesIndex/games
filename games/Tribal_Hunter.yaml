@@ -22,9 +22,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Melonsoda Soft
+    role: [ producer ]
+
 tags:
-  author:
-    - 'Melonsoda Soft'
   type:
     - casual
     - adventure
@@ -57,6 +59,8 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh
+    - ja
   publish:
     - steam
     - itchio
@@ -75,9 +79,22 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NzAucG5n/original/93U6Fx.png
-  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NzEucG5n/original/Jr0rCV.png
-  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDM4MTkucG5n/original/t73QA%2F.png
-  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NjAuZ2lm/original/hA58Ae.gif
-  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NjIuZ2lm/original/d5vVI1.gif
-  - https://img.itch.zone/aW1hZ2UvNDU4NjMzLzIzNDI2NjguZ2lm/original/5t3SeS.gif
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256793847/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256793847/movie480.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256793857/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256793857/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1379870/ss_eb2b04111118effd376d9036d983639cf1b94330.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1379870/ss_ad42001d5cf997b1618017b2e00fd725cfe176b9.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1379870/ss_e5ac5f5881983017eb82fd6dfbc4e64e043e0dd6.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1379870/ss_95d9d75a4d9d73bd7fa81dceb5ae51f291f2d083.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1379870/ss_c0193f4bc10558823a80596ca26ba53d472d0e81.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1379870/ss_6dae9c2a6649a2bb489928300472ecc5d9d1e60c.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1379870/ss_9f59f724fba6a2857cec2c998de6af8528c20568.1920x1080.jpg
