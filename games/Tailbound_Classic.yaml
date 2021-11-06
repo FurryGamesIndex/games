@@ -45,16 +45,6 @@ replaced-by: Tailbound
 links:
   - name: .itch.io
     uri: https://carpetwurm.itch.io/tailbound
-  - name: .twitter
-    uri: twitter:carpetwurm
-  - name: .twitter
-    uri: twitter:FannHorse
-  - name: .furaffinity
-    uri: furaffinity:carpetwurm
-  - name: .patreon
-    uri: patreon:carpetwurm
-  - name: .website
-    uri: https://carpetwurm.carrd.co/
 
 thumbnail: thumbnail.jpg
 
