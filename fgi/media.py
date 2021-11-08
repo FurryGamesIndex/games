@@ -85,6 +85,8 @@ class MediaFactory:
     def __init__(self, fctx):
         self.fctx = fctx
 
+        self.hi_fallback_thumbnail = self.uri_to_html_image("thumbnail-fallback.png", "_prelude")
+
     def uri_to_html_image(self, imageuri, gameid):
         image = Image(imageuri)
 

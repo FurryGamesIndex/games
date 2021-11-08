@@ -200,6 +200,8 @@ class Game:
         self.links = list()
         self.screenshots = list()
         self.media = list()
+        self.thumbnail_uri = None
+        self.thumbnail = None
 
         if "links" in data:
             self.links_prepare = data["links"]
@@ -238,6 +240,10 @@ class Game:
 
         if self.thumbnail_uri:
             self.thumbnail = mfac.uri_to_html_image(self.thumbnail_uri, self.id)
+        else:
+            self.thumbnail = mfac.hi_fallback_thumbnail
+
+        del self.thumbnail_uri
 
         for i in self.authors:
             i.realize(self, authors, mfac)
