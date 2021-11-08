@@ -279,4 +279,4 @@ properties:
       Allow `name` or `name <email address>`
     contains:
       type: string
-required: [ name, description, tags, links, thumbnail, screenshots ]
+required: [ name, description, tags, links, screenshots ]
