@@ -14,9 +14,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Xevvy
+    role: [ producer ]
+
 tags:
-  author:
-    - Xevvy
   type:
     - visual-novel
     - bara
@@ -58,20 +60,26 @@ links:
   - name: .itch.io
     uri: https://xevvy.itch.io/sileo
   - name: .patreon
-    uri: patreon:werecat
+    uri: patreon:xevvy
   - name: .twitter
-    uri: twitter:WerecatEnt
+    uri: twitter:talesofanewdawn
+  - name: .discord
+    uri: discord:5EzwVhqXde
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzM1OTE1NTcuanBn/original/76Lsf0.jpg
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzM5Nzc2MDEucG5n/original/6lvur2.png
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzM5Nzc2MDIucG5n/original/t48H74.png
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzQzMjQ5OTMucG5n/original/gXfES9.png
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzM5Nzc2NjYucG5n/original/3O9i9j.png
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzQzMjQ5ODQucG5n/original/gNI04J.png
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzQ1MzEwNzcucG5n/original/KXpzkH.png
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzQzMjUwMDQucG5n/original/vBNmUt.png
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzQ1MzEwNzgucG5n/original/FTMgr4.png
-  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzQzMjQ5ODUucG5n/original/W8MXFz.png
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzA4MzUuanBn/original/ix3Ya%2B.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwMzIuanBn/original/g93Utr.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwNDEuanBn/original/3u2hHB.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwNDYuanBn/original/yS8DtE.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwNDQuanBn/original/Klkeyc.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwNDUuanBn/original/PVgxg5.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzY2NzM0NTUuanBn/original/BOu5kc.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwNDkuanBn/original/fuJVG9.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwNTAuanBn/original/wLh4rf.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwNDIuanBn/original/SFKI3W.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzU1MzEwNDMuanBn/original/qpwjLo.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzY2MjgwMDEuanBn/original/Mx2Yj1.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzY3MTQ1MTguanBn/original/v8iCFF.jpg
+  - https://img.itch.zone/aW1hZ2UvNjYxNDA3LzY3MTQ1MTcuanBn/original/zCsGfz.jpg
