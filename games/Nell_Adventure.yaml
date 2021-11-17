@@ -1,0 +1,37 @@
+name: Nell Adventure
+
+description: |
+  在2XXX年，一只名为Nell的狐狸受够了在令人窒息的“后现代”社会给上层阶级做牛做马，为了逃避这一切她抛弃了自己的过去来到了一个荒岛上去追求原始主义生活，却不想这看似无人的小岛上藏着一支神秘的反抗军……导致Nell在不经意间，参与了一系列波澜壮阔的冒险！
+
+  《Nell大冒险》是一个以平台跳跃为核心，但每一个大的区域游戏类型都不同的独立游戏，目前的第一区域是类Iwnana主题。但是其他的区域里游戏类型可能会发生巨大变化，比如变成类魔城、类洛克人、挖矿类纵向探险、随机生成闯关甚至回合制rpg……
+
+description-format: markdown
+
+authors:
+  - name: Leo studio
+    role: [ producer ]
+  - name: Leo Volcano
+    role: [ artist, screenwriter, musician ]
+  - name: 兽屋之龙
+    role: [ screenwriter ]
+  - name: Nellfox
+    role: [ programmer, screenwriter ]
+
+tags:
+  type:
+    - action
+  misc:
+    - freeware
+    - engine-unity
+  lang:
+    - zh
+  platform:
+    - windows
+  sys:
+    - staging
+
+links:
+  - name: .demo-version
+    uri: https://space.bilibili.com/304710891
+
+thumbnail: thumbnail.jpg
