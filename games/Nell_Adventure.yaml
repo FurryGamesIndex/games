@@ -23,6 +23,8 @@ tags:
   misc:
     - freeware
     - engine-unity
+    - pixel-art
+    - work-in-process
   lang:
     - zh
   platform:
@@ -35,3 +37,6 @@ links:
     uri: https://space.bilibili.com/304710891
 
 thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i.imgur.com/bMAF9KX.png
