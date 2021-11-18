@@ -1,0 +1,45 @@
+name: Rotten Utopia
+
+brief-description: |
+  This is a part of the world that is undetectable by others. As a child born here, you will need to go past the darkness and terror surrounding to reach the truth.
+
+description: |
+  In one line, Rotten Utopia is a story driven horror game with combat and puzzle elements.The game is story rich. Every character has their own story to tell and your actions will alter and lead them to new endings.
+
+  Like most horror games, be prepared for the incoming attacks and monsters. You will have some items at hand to help fend yourself from the danger.
+
+description-format: markdown
+
+authors:
+  - name: Team Yume
+    role: [ producer ]
+
+tags:
+  type:
+    - action
+    - adventure
+    - role-playing
+  misc:
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+  sys:
+    - staging
+
+links:
+  - name: .demo-version
+    uri: steam:1225890
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.akamai.steamstatic.com/steam/apps/1225890/ss_08e264629765a21d442efe5e6fa61e35bcc89817.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1225890/ss_dbe1c7d92f8420f93b8f6a19a8fa535409b2354b.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1225890/ss_b0f94fd4ab5db6c9abcbb49a7b2874b46f008c23.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1225890/ss_f40a762ec20cf7207850b75ada6240c203a18d70.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1225890/ss_6a77376d23790aa7fd74cbad01681d851793d821.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1225890/ss_20219dbbb701e475e9e72e2d3c41119d4e00d5fa.1920x1080.jpg
