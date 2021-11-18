@@ -1,0 +1,81 @@
+name: "Them's Fightin' Herds"
+
+brief-description: |
+  Them’s Fightin’ Herds is an indie fighting game featuring a cast of adorable animals designed by acclaimed cartoon producer Lauren Faust. Beneath the cute and cuddly surface, a serious fighter awaits!
+
+description: |
+  ##Overview
+
+  Them’s Fightin’ Herds is an indie fighting game featuring a cast of adorable animals designed by acclaimed cartoon producer Lauren Faust. Beneath the cute and cuddly surface, a serious fighter awaits!
+
+  ##Combat Features
+
+  - 4-Button Fighting - A (Light), B (Medium), C (Heavy), D (Magic).
+  - Magic System - Emphasize your character’s special abilities through a dedicated button and unique resource.
+  - Enhanced Super Attack - Spend an additional bar of meter during your super for a bonus utility effect.
+  - Juggle Decay - An infinite-prevention system that increases a character's gravity the longer they stay in a combo, managing combo length without imposing hard limits.
+  - Dynamic Music System - Rockin’ character themes adapt in the heat of the battle to make every fight feel like a clash of champions.
+  - Rollback Netcode - Battle across the globe with little to no input delay with the power of GGPO.
+
+  ##Game Modes
+
+  - Local Versus and Online Matchmaking - Play at home or fight worthy opponents on-demand.
+  - Tutorial and Training Modes - Learn the ropes with guided tutorials, or practice on your own with a fully-featured, data-rich training room.
+  - Sharable Combo Trials - Test your skills with premade combo trials or create your own challenges and share with friends!
+  - Replay System - Record your matches then review every detail frame-by-frame!
+  - Pixel Lobby - Join our visual lobby system which lets players freely explore and interact in a top-down themed environment with nostalgic style. Customize your avatar with cosmetic items earned through play!
+  - Salt Mines - Hidden within each Pixel Lobby, a contest that pits players against waves of NPC predators and each other, combining dungeon crawl with fighting game.
+  - Story Mode - An episodic adventure filled with exploration, combat challenges, minigames, and boss fights! Each chapter follows one character's personal quest to recover a magical, legendary key that will save the world from the return of vicious predators, banished in an age past. Chapter 1 (starring Arizona) is available now, with subsequent chapters to be released in the months following, free of charge.
+
+description-format: markdown
+
+authors:
+  - name: Mane6
+    role: [ producer ]
+  - name: Mane6
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+  misc:
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+  sys:
+    - staging
+
+links:
+  - name: .website
+    uri: https://www.mane6.com
+  - name: .steam
+    uri: steam:574980
+  - name: Get on Humble Bundle
+    uri: https://www.humblebundle.com/store/thems-fightin-herds
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256783834/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256783834/movie480.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256773690/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256773690/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_17550fef5c0461fb60c210507900cc16a196cd1d.1920x1080.jpg?t=1635377504
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_196b511a6272f48f64ace0a0176327adc60a033b.1920x1080.jpg?t=1635377504
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_88c5328e78b1d72f3be3f6d575b436f3d301b6c3.1920x1080.jpg?t=1635377504
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_b5cd6861ce6ac73a7a2204bdfc6730e2a77462f9.1920x1080.jpg?t=1635377504
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_cc49e72089ca00872e0c3a546dac345c30822f31.1920x1080.jpg?t=1635377504
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_1b22c02745d40432b9c150de15d6b97f706e4199.1920x1080.jpg?t=1635377504
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_30cd3d2ef803756ad35b0a53d0193e3296ad6c63.1920x1080.jpg?t=1635377504
