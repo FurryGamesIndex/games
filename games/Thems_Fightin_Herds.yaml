@@ -52,6 +52,8 @@ tags:
 links:
   - name: .website
     uri: https://www.mane6.com
+  - name: .twitter
+    uri: https://twitter.com/mane6dev
   - name: .steam
     uri: steam:574980
   - name: Get on Humble Bundle
@@ -72,10 +74,10 @@ screenshots:
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256773690/movie480.webm
       - mime: video/mp4
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256773690/movie480.mp4
-  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_17550fef5c0461fb60c210507900cc16a196cd1d.1920x1080.jpg?t=1635377504
-  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_196b511a6272f48f64ace0a0176327adc60a033b.1920x1080.jpg?t=1635377504
-  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_88c5328e78b1d72f3be3f6d575b436f3d301b6c3.1920x1080.jpg?t=1635377504
-  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_b5cd6861ce6ac73a7a2204bdfc6730e2a77462f9.1920x1080.jpg?t=1635377504
-  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_cc49e72089ca00872e0c3a546dac345c30822f31.1920x1080.jpg?t=1635377504
-  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_1b22c02745d40432b9c150de15d6b97f706e4199.1920x1080.jpg?t=1635377504
-  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_30cd3d2ef803756ad35b0a53d0193e3296ad6c63.1920x1080.jpg?t=1635377504
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_17550fef5c0461fb60c210507900cc16a196cd1d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_196b511a6272f48f64ace0a0176327adc60a033b.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_88c5328e78b1d72f3be3f6d575b436f3d301b6c3.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_b5cd6861ce6ac73a7a2204bdfc6730e2a77462f9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_cc49e72089ca00872e0c3a546dac345c30822f31.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_1b22c02745d40432b9c150de15d6b97f706e4199.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/574980/ss_30cd3d2ef803756ad35b0a53d0193e3296ad6c63.1920x1080.jpg
