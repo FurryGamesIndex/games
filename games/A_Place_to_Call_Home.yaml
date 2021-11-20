@@ -32,6 +32,7 @@ tags:
     - engine-renpy
   lang:
     - en
+ ​   - ​zh-unofficial
   publish:
     - itchio
   platform:
@@ -45,6 +46,8 @@ links:
     uri: https://hugecookie.itch.io/a-place-to-call-home
   - name: .patreon
     uri: patreon:HugeCookie
+  - name: .unofficial-version-zh
+    uri: https://www.gamemale.com/thread-83059-1-1.html
 
 thumbnail: thumbnail.jpg
 
