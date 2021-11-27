@@ -17,6 +17,8 @@ Bilibili：<https://t.bilibili.com/560593158837196475>
 
 Twitter：<https://twitter.com/TirnanT>
 
+Discord：<https://discord.gg/rjVdfcDJYV>
+
 QQ 群：733211792
 
 _要访问此群，您可能需要使用 Tencent QQ_
