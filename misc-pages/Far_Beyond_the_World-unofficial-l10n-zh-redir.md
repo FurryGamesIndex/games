@@ -19,6 +19,8 @@ Twitter：<https://twitter.com/TirnanT>
 
 Discord：<https://discord.gg/rjVdfcDJYV>
 
+Telegram 频道：<https://t.me/TirnanCamp>
+
 QQ 群：733211792
 
 _要访问此群，您可能需要使用 Tencent QQ_
