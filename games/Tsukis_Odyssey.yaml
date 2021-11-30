@@ -1,0 +1,53 @@
+name: Tsuki's Odyssey
+
+description: |
+  Tsuki’s Odyssey is a passive adventure game that immerses you into the world of Tsuki and the oddball characters of Mushroom Village.
+
+  Decorate your home, make friends, catch all kinds of fish and so much more!
+
+  It is important to note that Tsuki is not your pet, but a free spirit who will move and interact with the world as they please. But if you check in often, you just might catch something new and exciting happening in the town!
+
+description-format: markdown
+
+authors:
+  - name: HyperBeard
+    role: [ producer ]
+
+tags:
+  type:
+    - casual
+    - adventure
+  misc:
+    - freeware
+    - online
+    - outside-furry-fandom
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - google-play
+    - apple-appstore
+  platform:
+    - android
+    - ios
+  sys:
+    - staging
+
+links:
+  - name: .website
+    uri: https://hyperbeard.com/game/tsukisodyssey/
+  - name: .play-store
+    uri: google-play-store:com.hyperbeard.odyssey
+  - name: .apple-appstore
+    uri: https://apps.apple.com/by/app/tsukis-odyssey/id1564146071
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    uri: youtube:Neou_P0jOK0
+  - https://i.imgur.com/NXofwfB.png
+  - https://i.imgur.com/O3mtjnA.png
+  - https://i.imgur.com/SWw6RQv.png
+  - https://i.imgur.com/tBmGILH.png
