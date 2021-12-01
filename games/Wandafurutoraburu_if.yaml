@@ -8,9 +8,11 @@ description: |
 
 description-format: markdown
 
+author:
+  - name: C.I.L. café
+    role: [ producer ]
+
 tags:
-  author:
-    - 'C.I.L. café'
   type:
     - visual-novel
     - bara
@@ -27,6 +29,7 @@ tags:
     - group
   lang:
     - ja
+    - zh-unofficial
   publish:
     - booth
   platform:
@@ -39,6 +42,8 @@ links:
     uri: http://www.cilcafe.com/
   - name: .twitter
     uri: twitter:orekemo
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Wandafurutoraburu_if-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

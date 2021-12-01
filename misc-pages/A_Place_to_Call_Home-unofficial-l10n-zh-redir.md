@@ -15,4 +15,4 @@ A Place to Call Home 的 FGI 页面评论区：<https://furrygames.top/zh-cn/gam
 
 相关文件也发布于 GameMale 的「和谐游戏板块」：<https://www.gamemale.com/forum.php?mod=viewthread&tid=83059>
 
-_要访问此帖子，您可能需要注册 GameMale 账号，并且需要将您的 GameMale 账号的用户组提升到 Level 2_
+_要访问此帖子，您可能需要注册 GameMale 账号，并且需要将您的 GameMale 账号的用户组提升到 Level 2 或者更高_
