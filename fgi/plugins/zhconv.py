@@ -19,7 +19,6 @@
 
 import os
 import yaml
-import opencc
 
 from fgi.plugin import Plugin
 from fgi.game import GameL10n
@@ -30,17 +29,29 @@ class ChineseConvertorPlugin(Plugin):
 
         super().__init__(options)
 
+        self.drop_zh = False
+        self.opencc_version = "N/A"
+
         try:
             import opencc
 
             self.s2tw = opencc.OpenCC('s2twp.json')
             self.tw2s = opencc.OpenCC('tw2sp.json')
+
+            self.opencc_version = opencc.__version__
         except Exception as e:
             if self.critical:
                 raise e
             else:
                 print("[warning] zhconv: opencc load failed, zhconv disabled")
-                self._bypass_hook_chain = True
+                print("[warning] zhconv: disabling zh-cn, zh-tw build")
+                self.drop_zh = True
+
+    def i18n_post_ll_done(self, ll, *args, **kwargs):
+        if self.drop_zh:
+            return [ l for l in ll if l != "zh-cn" and l != "zh-tw" ]
+        else:
+            return ll
 
     def _conv(self, gctx, game, f, t, cc):
         with open(os.path.join(gctx.dbdir, "l10n", f, game.id + ".yaml")) as stream:
@@ -58,6 +69,6 @@ class ChineseConvertorPlugin(Plugin):
             self._conv(gctx, game, "zh-tw", "zh-cn", self.tw2s)
 
     def post_build(self, buildinfo_file, *args, **kwargs):
-        buildinfo_file.write(f"zhconv: OpenCC version: {opencc.__version__}\n")
+        buildinfo_file.write(f"zhconv: OpenCC version: {self.opencc_version}\n")
 
 impl = ChineseConvertorPlugin
