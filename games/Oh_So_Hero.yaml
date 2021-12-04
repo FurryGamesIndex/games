@@ -7,14 +7,10 @@ description-format: markdown
 
 tags:
   author:
-    - 'Full Frontal Frog'
+    - "Full Frontal Frog"
   type:
     - action
     - adventure
-    - bara
-    - yiff
-  type:
-    - action
     - bara
     - yiff
   male:
