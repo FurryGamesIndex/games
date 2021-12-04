@@ -7,9 +7,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Xarishro
+    role: [producer]
+
 tags:
-  author:
-    - Xarishro
   type:
     - visual-novel
     - bara
