@@ -83,12 +83,6 @@ authors:
   - name: Erin Lillis
     standalone: true
     role: [ voice-actor ]
-  - name: Michael Kovach
-    standalone: true
-    role: [ voice-actor ]
-  - name: Michael Kovach
-    standalone: true
-    role: [ voice-actor ]
   - name: Matthew Simmons
     standalone: true
     role: [ voice-actor ]
@@ -108,9 +102,6 @@ authors:
     standalone: true
     role: [ voice-actor ]
   - name: Anthony Ray Morales
-    standalone: true
-    role: [ voice-actor ]
-  - name: Philip Sacramento
     standalone: true
     role: [ voice-actor ]
 
