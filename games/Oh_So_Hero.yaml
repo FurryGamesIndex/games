@@ -5,16 +5,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: "Full Frontal Frog"
+    role: [producer]
+
 tags:
-  author:
-    - 'Full Frontal Frog'
   type:
     - action
     - adventure
-    - bara
-    - yiff
-  type:
-    - action
     - bara
     - yiff
   male:
