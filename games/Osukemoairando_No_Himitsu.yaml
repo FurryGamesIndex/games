@@ -15,7 +15,8 @@ authors:
     role: [ producer, scenographer, others  ]
   - name: とか
     standalone: true
-    role: [ screenwriter, others ]
+    link-uri: twitter:aotokagen
+    role: [ screenwriter, artist, others ]
   - name: まなびこ
     role: [ character-designer, artist ]
   - name: せいけー
@@ -37,10 +38,6 @@ authors:
     standalone: true
     link-uri: twitter:sunspotfish
     role: [ character-designer, artist ]
-  - name: とか
-    standalone: true
-    link-uri: twitter:aotokagen
-    role: [ artist ]
 
 
 tags:
