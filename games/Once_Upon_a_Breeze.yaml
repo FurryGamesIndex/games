@@ -1,0 +1,64 @@
+name: Once Upon a Breeze
+
+old-ids:
+  - XuFengXinJian
+
+brief-description: |
+  《煦风新笺-Once Upon a Breeze》是一款以毛茸茸世界繁华与传统并盛的岛城『风本市』里，一所颇为特立独行的私立学校『风本学院』为主舞台的兽人题材的视觉小说。同时它又不止于小说，包括个人界面、摸摸乐等更多内置小游戏都在不断更新开发中。作为一款偏向群像的游戏，您将以包括小老虎浦昼在内的众多角色的角度来感受毛茸茸世界的学园生活，以及更多丰富绚烂的故事！已有十五位并仍在不断增加的、诸多种族的学生和教师们正在风本学院校门的另一侧等待着迎接你们！从今天开始入学吧！
+
+description: |
+  我们的故事将从小老虎浦昼转校到风本学院的那一天开始。那天，他因为种种原因而在报到截止的最后一分钟赶到。迎接他的白虎教师语出惊人，后续的发展更是令他意想不到——而他奇妙多彩的学院新生活，也就在此时，『欢快地』拉开了序幕。
+
+  《煦风新笺-Once Upon a Breeze》是一款以毛茸茸世界繁华与传统并盛的岛城『风本市』里，一所颇为特立独行的私立学校『风本学院』为主舞台的兽人题材的视觉小说。同时它又不止于小说，包括个人界面、摸摸乐等更多内置小游戏都在不断更新开发中。作为一款偏向群像的游戏，您将以包括小老虎浦昼在内的众多角色的角度来感受毛茸茸世界的学园生活，以及更多丰富绚烂的故事！已有十五位并仍在不断增加的、诸多种族的学生和教师们正在风本学院校门的另一侧等待着迎接你们！从今天开始入学吧！
+
+description-format: markdown
+
+authors:
+  - name: 煦风社
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  male:
+    - dog
+    - wolf
+    - lion
+    - tiger
+    - bull
+    - cat
+    - males-only
+  misc:
+    - freeware
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - website
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .demo-version
+    icon: weibo
+    uri: https://weibo.com/5857154820/JkK8D1Z3e
+  - name: .website
+    uri: https://www.xufengxinjian.com/
+  - name: .steam
+    uri: steam:1431900
+  - name: .weibo
+    uri: https://weibo.com/u/5857154820
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1431900/ss_0c0996e705139a6769bf340c91ed4c4c1ecfa743.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1431900/ss_484636e5f937d31f5e937e3278bb57ccbdf635ea.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1431900/ss_b0f19cfe48fb4373b590fd37a0ca4a51adab6b58.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1431900/ss_723b7c147e83030fd8e172cbddab889990b30b9b.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1431900/ss_834f006b2803e063ec8a4f09c0f75e00b2700b2a.1920x1080.jpg
