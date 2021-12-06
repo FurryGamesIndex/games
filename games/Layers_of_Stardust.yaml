@@ -16,19 +16,30 @@ description-format: markdown
 
 author:
   - name: Spaceguybob
-    role: [ producer, screenwriter, programmer, artist ]
+    role: [ producer ]
 
 tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - wolf
+    - tiger
+    - lizard
+    - humankind
+    - muscle
+    - human-on-furry
   misc:
     - freeware
     - engine-renpy
+    - uncensored
+    - work-in-process
   lang:
     - en
   publish:
     - itchio
     - patreon
-  sys:
-    - staging
 
 links:
   - name: .itch.io
