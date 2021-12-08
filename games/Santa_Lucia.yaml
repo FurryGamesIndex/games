@@ -44,9 +44,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Stormsinger Studios
+    role: [ producer ]
+
 tags:
-  author:
-    - 'Stormsinger Studios'
   type:
     - visual-novel
     - bara
@@ -92,10 +94,7 @@ thumbnail: thumbnail.jpg
 screenshots:
   - type: youtube
     uri: youtube:Qbsw4U24k4Q
-  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzI1NDE4ODguanBn/original/Zit9EG.jpg
-  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzM5Nzg4NjAuanBn/original/%2BSAsCW.jpg
-  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzM5Nzg4NTcuanBn/original/WgnCWn.jpg
+  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzUzMjcyMDAuanBn/original/25dzU%2F.jpg
+  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzUzMjcyMDEuanBn/original/9bLrAT.jpg
+  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzUzMjcyMDMuanBn/original/tqu8e9.jpg
   - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzI1NDQ0MjIuanBn/original/SmcKZn.jpg
-  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzM5Nzg4NTguanBn/original/ZhT8a9.jpg
-  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzM5Nzg4NTYuanBn/original/XzbA1w.jpg
-  - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzI1NDczMTkuanBn/original/AwjJTe.jpg
