@@ -14,9 +14,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: roddorod
+    role: [ producer ]
+
 tags:
-  author:
-    - roddorod
   type:
     - visual-novel
     - bara
@@ -47,10 +49,14 @@ links:
     uri: https://roddorod.itch.io/nerus
   - name: .twitter
     uri: twitter:nerusvn
+  - name: .patreon
+    uri: patreon:nerusvn
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzM5MjM4MzgucG5n/original/cV3CEr.png
-  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzM5MjM4MzkucG5n/original/npIPOZ.png
-  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzM5MjM4NDAucG5n/original/hsN%2FVX.png
+  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzczODAwODUucG5n/original/iX8STM.png
+  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzczODAwODYucG5n/original/o3M%2FvZ.png
+  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzczODAwODQucG5n/original/8RrwEI.png
+  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzczODAwODcucG5n/original/cTQr%2FJ.png
+  - https://img.itch.zone/aW1hZ2UvNTE2MTA0LzczODAwODgucG5n/original/tEZL9y.png
