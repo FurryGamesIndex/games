@@ -10,12 +10,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Keo
+    role: [ screenwriter, musician ]
+  - name: hq
+    role: [ artist, character-designer ]
+  - name: Roborak
+    role: [ artist ]
+  - name: Bakemonoy
+    role: [ artist ]
+  - name: Tintiai
+    role: [ artist ]
+  - name: White Leonard
+    role: [ artist ]
+
 tags:
-  author:
-    - Keo
-    - hq
-    - Roborak
-    - Tintiai
   type:
     - visual-novel
     - bara
@@ -46,15 +55,20 @@ tags:
 links:
   - name: .itch.io
     uri: https://dawn-chorus.itch.io/dawn-chorus
+  - name: .twitter
+    uri: twitter:DawnChorusVN 
+  - name: Official Telegram channel
+    icon: telegram
+    uri: https://t.me/dawnchorusvn
   - name: .patreon
     uri: patreon:DawnChorusVN
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzQxMDk5MTMucG5n/original/NzlJzc.png
-  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzYzNzM1MzIucG5n/original/JHRMST.png
-  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzYzNzM1MzQucG5n/original/qxDDGK.png
-  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzQxMDMwNzIucG5n/original/7VrnEH.png
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzY2NjMxODcucG5n/original/rEJu7J.png
   - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzYzNzM1MzMucG5n/original/yedB1U.png
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzYzNzM1MzIucG5n/original/JHRMST.png
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzY2NjI5NTQucG5n/original/uIB4pn.png
+  - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzY2NjI5NTMucG5n/original/q%2BSuWs.png
   - https://img.itch.zone/aW1hZ2UvNzA4NTg5LzQ4ODY3OTAucG5n/original/A%2B%2BYU%2B.png
