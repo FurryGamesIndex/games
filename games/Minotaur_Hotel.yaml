@@ -12,9 +12,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Minoh Workshop
+    role: [ producer ]
+
 tags:
-  author:
-    - 'Minoh Workshop'
   type:
     - visual-novel
     - dating-sim
@@ -54,9 +56,15 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - type: youtube
+    uri: youtube:iIWwcsleGec
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUzNTQucG5n/original/KWhuzs.png
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUyODkucG5n/original/BpF20R.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NjAucG5n/original/9CEN0i.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NzAucG5n/original/4BURq%2B.png
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0Nzk4OTAucG5n/original/J4M%2BIX.png
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUyOTEucG5n/original/4t%2Bdjf.png
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUyOTIucG5n/original/Nbt8sB.png
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUzMjEucG5n/original/%2B1XqSP.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NjUucG5n/original/XOQInV.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NjYucG5n/original/mt77LE.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NzIucG5n/original/9IREH2.png
