@@ -1,15 +1,54 @@
 name: Run, Kitty!
 
-description: |
-  Once upon a cat named Simon, who decided to skip classes at the university, alone with nature - in other words, take a walk through the forest. Knowing this forest like the back of his hand, he never expected that he would be able to get lost there... Yes, and even find himself pursued by an unknown predator, in the forest, where they have never lived...
+brief-description: |
+  A cute little romantic story about rescue and love. Once upon a cat named Simon, decided to skip classes to wander. Before he knew it, he got lost in the deep forest – chased by an unknown predator. Will he be able to get out by his own means?
 
-  Can he get out of the forest on his own?..
+description: |
+  ##Concept
+  Powerful males will take over the world. In the good sense of those words.
+  We produce sexual Visual Novels in the bara and furry genres.
+
+  In our games, you will find romance, tenderness, love and big furry males who give unforgettable moments of fun – we hope so.
+
+  The opportunity to develop romantic relationships with big males is a trademark of our games. What could be better than strong warm cuddles of these gorgeous males – who will never make you feel lonely. Trust us, you will see their strength and assertiveness in all its glory.
+
+  If you’ve never paid attention to furry bodybuilders, try it out! The romantic scenes involving your beloved character will make you melt with joy.
+
+  We happily invite you to try these males not only by touching them but also by tasting them. There’s enough love for everyone! Don't overdo it though…
+
+  ##Story
+  Once upon a cat named Simon who decided to skip classes at the university to walk through the forest – alone with nature. Before he knew it, he got lost in the deep forest – chased by an unknown predator. Will he be able to get out of the forest by his own means?
+
+  ##Characters
+  ###Simon
+  A black cat with green eyes, calm, quiet, and discreet. He prefers to walk in nature and be alone, doesn't mix with his fellow students. Due to his cowardice, he gets into trouble in the face of danger, therefore, chooses to avoid them whenever possible.
+  Secretly in love with Richard, Simon desiresto get closer, yet doesn't dare to make the first move. Despite his shyness and lack of self-confidence, he is capable of calmly carrying on a conversation whenever he wants to.
+
+  ###Simon
+  A brown dog with blue eyes, kind, courteous, and talented. His strength is impressive as shown by how people look at him, including Simon. Besides his musculature, he is an excellent class leader. Due to his sense of responsibility and his ease of helping and never giving up. He could easily demonstrate his point of view to others.
+  When problems occur, he is willing to solve them at the root except for his own.
+  Richard gets a bad time keeping the stress inside. lt sometimes happens when his rage takes over. He tends to show his leadership qualities with vigor. Otherwise, he wouldn't even hurt a fly.
+  All these characteristics make him what he is a gentleman with his own limits.
+
+  ##Features
+  - A Romantic story rooted in the deep forest – Who will be your savior and future lover?
+  - Three distinct endings: Normal, Good, and Happy – Finish them all three and unlock the bonus scenes!
+  - Homosexual content – Enhance your time with your favorite muscular male!
+
+  The game includes:
+
+  - Approximately two hours of game content
+  - A world composed of five unique locations
+  - Up to six artworks including two artworks of sexual nature
+  - The ability to form a relationship with the huge dog
 
 description-format: markdown
 
+authors:
+  - name: Strong & Furry
+    role: [ producer ]
+
 tags:
-  author:
-    - 'Strong & Furry'
   type:
     - visual-novel
     - bara
@@ -18,14 +57,14 @@ tags:
     - dog
     - muscle
   misc:
-    - work-in-process
     - engine-renpy
   lang:
     - en
+    - ru
   publish:
     - itchio
     - patreon
-    - google-play
+    - steam
   platform:
     - windows
     - macos
@@ -33,18 +72,27 @@ tags:
     - android
 
 links:
+  - name: .steam
+    uri: steam:1630630
   - name: .itch.io
     uri: https://strongandfurry.itch.io/kitty
   - name: .patreon
     uri: patreon:strongandfurry
-  - name: .play-store
-    uri: google-play-store:com.strongandfurry.kitty.trial
   - name: .twitter
     uri: twitter:strongandfurry
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNTY3NDkwLzI5ODE2NzUuanBn/original/nzvVVE.jpg
-  - https://img.itch.zone/aW1hZ2UvNTY3NDkwLzI5ODE2NzYuanBn/original/P4mc%2BT.jpg
-  - https://img.itch.zone/aW1hZ2UvNTY3NDkwLzI5ODE2NzkuanBn/original/bbNIX%2F.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256854065/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256854065/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1630630/ss_a953ab7963c892a354bfd3056062659bbacdb6c3.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1630630/ss_183c7ed8dff2ca10f98a265572e81510ee707c24.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1630630/ss_524ddbd19ddac440389e3a039f68076d525751c0.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1630630/ss_a6bfc705962b10be24ed6ddb75ccbbb4f6480c71.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1630630/ss_a6ece54b618bab09493c0e5be0c6acbaf4542330.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1630630/ss_b1b162ba359ea4b8d070c71a35c114b14c297203.1920x1080.jpg
