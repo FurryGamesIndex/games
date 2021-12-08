@@ -10,15 +10,25 @@ description: |
 
   What awaits you back in Minasato? Will you be welcomed with open arms, or has it been so long that everyone has forgotten about you? Will this be yet another wasted summer, or will you finally have the chance to experience what makes life worth living?
 
-  =====
-
   Homecoming is a visual novel about nostalgia, romance, living life to the fullest, reconnecting with old friends, and learning to face your demons, all wrapped up in the cute Japanese kemono aesthetic. The game Homecoming is based on, Morenatsu, is considered to be one of the classic entries in furry culture. Although it was cancelled in 2015, dedicated fans have continued to keep its legacy alive through fanworks such as this. While rough around the edges, the original game captured many hearts, including the members of the Stormsinger Studios development team. We aim to create the best visual novel we can make, doing justice to the source material that has inspired so many like us.
 
 description-format: markdown
 
+authors:
+  - name: Stormsinger Studios
+    role: [ producer ]
+  - name: DzahnDragon 
+    role: [ producer ]
+  - name: Devilizer
+    role: [ artist ]
+  - name: Lesli-Chu!?
+    role: [ musician ]
+  - name: Tintiai 
+    role: [ producer ]
+  - name: Frostclaw
+    role: [ artist, musician ]
+
 tags:
-  author:
-    - 'Stormsinger Studios'
   type:
     - visual-novel
     - bara
@@ -58,23 +68,21 @@ links:
     uri: https://stormsingerstudios.itch.io/homecoming-morenatsu-revisited
   - name: .apple-appstore
     uri: https://apps.apple.com/us/app/homecoming-morenatsu-revisited/id1516216067
-  - name: .furaffinity
-    uri: furaffinity:dzahndragon
   - name: .twitter
     uri: twitter:stormsingerdev
   - name: .tumblr
     uri: tumblr:stormsingerstudios
+  - name: .discord
+    uri: discord:WTjM3S5 
 
 thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
     uri: youtube:6LzGlWgeHr4
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzM4ODcwMTguanBn/original/moK443.jpg
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODYuanBn/original/Q9we0I.jpg
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxNzkucG5n/original/QwdIOP.png
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODAucG5n/original/e6ZJLp.png
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODEucG5n/original/V8s1nB.png
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODMucG5n/original/6oUgEQ.png
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODQucG5n/original/MhaJNw.png
-  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzYwNDgxODIucG5n/original/h%2F0uCa.png
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzcyMTg5MzUuanBn/original/4q8vDL.jpg
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzcyMTg5MzcuanBn/original/XuxWR1.jpg
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzcyMTkwMzUuanBn/original/v3G58A.jpg
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzcyMTg5NDAuanBn/original/NpzHR5.jpg
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzY3Nzg3OTAuanBn/original/bV%2B%2Fg2.jpg
+  - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzY3Nzg3OTQuanBn/original/sptGiG.jpg
