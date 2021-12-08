@@ -9,9 +9,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Dudedle Studio
+    role: [ producer ]
+
 tags:
-  author:
-    - 'Dudedle Studio'
   type:
     - puzzle
     - visual-novel
@@ -48,12 +50,16 @@ tags:
     - macos
 
 links:
+  - name: .itch.io
+    uri: https://dudedlestudio.itch.io/kemo-coliseum-patrons/patreon-access
+  - name: .demo-version
+    uri: https://www.patreon.com/posts/kemo-coliseum-0-14878888
+  - name: .website
+    uri: http://www.dudedlestudio.com/
   - name: .twitter
     uri: twitter:dudedlestudio
   - name: .patreon
     uri: patreon:kemocoliseum
-  - name: .website
-    uri: http://www.dudedlestudio.com/
 
 thumbnail: thumbnail.jpg
 
@@ -61,4 +67,5 @@ screenshots:
   - https://img.itch.zone/aW1hZ2UvMjY2MzM4LzE2MTg3ODIuanBn/original/6dSBAY.jpg
   - https://img.itch.zone/aW1hZ2UvMjY2MzM4LzE2MTg3ODMuanBn/original/KdKgy6.jpg
   - https://img.itch.zone/aW1hZ2UvMjY2MzM4LzE2MTg3ODQuanBn/original/%2Famdng.jpg
-  - https://img.itch.zone/aW1hZ2UvMjY2MzM4LzE2MTg3ODUuanBn/original/LpCw8h.jpg
+  - https://i.imgur.com/mqJAVj4.jpg
+  - https://i.imgur.com/KkDRnkV.jpg
