@@ -1,0 +1,56 @@
+name: Next Step
+
+description: |
+  **A visual novel about the origin of Wallace and Deacon's relationship.**
+  
+  With only one day left before he moves for college, Wallace must make the most of his last day with Deacon at the big graduation party called Next Step. The only problem is he hasn't told him that he's leaving just yet. Can Wallace muster up the courage to tell his best friend about the move? And maybe tell him about something else?
+  
+  Written and Illustrated by [JoshTywater](https://twitter.com/TywaterJosh)
+  
+  If you enjoyed the VN, consider supporting me over on [Ko-fi](https://ko-fi.com/joshtywater). Any help is appreciated!
+
+description-format: markdown
+
+authors:
+  - name: JoshTywater
+    role: [ producer, artist, screenwriter, programmer ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  male:
+    - pig
+    - raccoon
+    - otter
+    - cat
+    - fox
+    - males-only
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://joshtywater.itch.io/next-step
+  - name: .twitter
+    uri: twitter:TywaterJosh
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Next_Step-unofficial-l10n-zh-redir
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvOTg1NDY2LzU3NjczMDIucG5n/original/K8SKPL.png
+  - https://img.itch.zone/aW1hZ2UvOTg1NDY2LzU3NjczMDEucG5n/original/7WFwzK.png
+  - https://img.itch.zone/aW1hZ2UvOTg1NDY2LzYwMzg1MDQucG5n/original/qLvcDQ.png
