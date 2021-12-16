@@ -1,0 +1,59 @@
+name: Stranded
+
+description: |
+  ***A survival story set on an unknown island!***
+  
+  A holiday vacation goes completely wrong after your plane crashes onto an unknown island. You play as the protagonist of the story who manages to survive the crash along with a few survivors. Secrets lie uncovered on the  unassuming looking island, which will be intertwined with the struggle for survival and the fates of your newly found companions.
+  
+  Stranded is a visual novel that presents a number of choices which will decide the future of  your own existance along with that of the group. Story progression is placed completely in the players hands- You will need to contend with both uncovering the secrets of the island and forging favourable relationships with the rest of the cast in order to achieve a perfect ending.  
+  
+  Warning: This game contains blood, violence, profanity, graphic descriptions of deaths, aspects of psychological horror, and features same-sex romance between mature furry adults. Viewer discretion is advised.
+
+description-format: markdown
+
+authors:
+  - name: The Stray Project
+    role: [ producer ]
+  - name: Flunky
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - dog
+    - fox
+    - bear
+    - otter
+  female:
+    - rabbit
+  misc:
+    - freeware
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://thestrayproject.itch.io/stranded
+  - name: .twitter
+    uri: twitter:TheStrayProject
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Stranded-unofficial-l10n-zh-redir
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNzk2MzMzLzYzNTYwNjYucG5n/original/7Ax2%2F2.png
+  - https://img.itch.zone/aW1hZ2UvNzk2MzMzLzYzNTYwNjcucG5n/original/d9xt6P.png
+  - https://img.itch.zone/aW1hZ2UvNzk2MzMzLzYzNTYwNjgucG5n/original/dG%2BfPG.png
