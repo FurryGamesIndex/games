@@ -1,0 +1,66 @@
+name: No More Future
+
+brief-description: |
+  NMF is a linear Furry Sci-Fi Visual Novel: explore a high-tech futuristic world as an android, meet all sorts of new people and reconnect with some old faces, find the truth behind your existence and your purpose in this new world.
+
+description: |
+  Anything can begin, and end, at a moment's notice...
+
+  You're a young adult yuuman (homo anthropomorphis), living in a futuristic America in the late 22nd century. Though you had a life, dreams, and aspirations once, it all got swept away once you were diagnosed with incurable late-stage brain cancer; now you're stuck in a hospital, living the last few weeks of your life in existential agony, incapable of processing what you did wrong to deserve this fate.
+
+  Everything changes when, one day, you're approached by a scientist from the world's largest mega-corporation, who offers you a chance to escape your dying body and have your mind transplanted onto an android synth vessel; the only catch being, nobody knows whether the process works or not, whether you'll survive the transition or ultimately perish. With little holding you back, you eventually accept...
+
+  ...You awaken in your new body, feeling quite different from how you were before. Nobody can tell whether it's truly you inside the machine, or an AI pretending, believing that it's you. Not even you can tell. In a world where technology's constantly evolving, advanced AIs are viewed with fear and suspicion and few things are certain, you have to rebuild your old life from scratch, convince those who abandoned you on your deathbed that you're still here, and ultimately figure out whether you truly are who you claim to be.
+
+description-format: markdown
+
+authors:
+  - name: Sedge
+    role: [ screenwriter, programmer ]
+  - name: Nik Rouz
+    role: [ artist ]
+  - name: Gator Tots
+    role: [ musician ]
+  - name: Eymon
+    role: [ musician ]
+  - name: Hop-Skip & The Chewtoys
+    role: [ musician ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://sedgelord.itch.io/nomorefuture
+  - name: .twitter
+    uri: twitter:Sedge_Lord
+  - name: .discord
+    uri: discord:5WeQC49JcA
+  - name: .patreon
+    uri: patreon:Sedgelord
+  - name: Ko-Fi
+    uri: https://ko-fi.com/sedge
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvOTUwOTY1LzU1MTM3MTUuanBn/original/iuds8B.jpg
+  - https://img.itch.zone/aW1hZ2UvOTUwOTY1LzU1MTM3MTYuanBn/original/wpvYE%2B.jpg
+  - https://img.itch.zone/aW1hZ2UvOTUwOTY1Lzc2Mzk3NTguanBn/original/PpZIZy.jpg
+  - https://img.itch.zone/aW1hZ2UvOTUwOTY1LzYyNTE4OTEuanBn/original/6l9r4o.jpg
