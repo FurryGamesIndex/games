@@ -1,0 +1,72 @@
+name: Chasing Tail
+
+brief-description: |
+  A peaceful fantasy of creatures big and small in all shapes and sizes. But a quiet danger threatens the tranquility of life, and could potentially throw the balance into chaos. Who will stick by your side? What bonds will hold true to the end? Will love help you prevail or will hate end us all?
+
+description: |
+  ##Welcome to Chasing Tail!
+
+  A fantasy of creatures big and small in all shapes and sizes peacefully living among one another. But a quiet danger threatens the tranquility of life, and could potentially throw the balance into chaos. Who will stick by your side? What bonds will hold true to the end? Will love help you prevail or will hate end us all?
+
+  ##So what’s in this game?
+
+  This game contains a full adventure! One main overarching story and 10 main characters to date and possibly romance with. Each main character contains their own story with different branches and scenes to see depending on your actions. Your actions and answers to questions will affect who you spend time with, and each character's affection towards you. Based on your decisions things may turn out great for you and others, or maybe not. There are multiple side characters to meet on your adventure as you play through the game's main story and even some additional bonus scenes and romance options!
+
+description-format: markdown
+
+authors:
+  - name: Scylez
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-unity
+  lang:
+    - en
+  publish:
+    - itchio
+    - steam
+  platform:
+    - web
+    - windows
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .steam
+    uri: steam:1446230
+  - name: .itch.io
+    uri: https://scylez.itch.io/chasing-tail
+  - name: .website
+    uri: http://scylez.com/
+  - name: .twitter
+    uri: twitter:ScylezStudios
+  - name: Official Telegram channel
+    icon: telegram
+    uri: https://t.me/joinchat/EB-9gFM98uMMiQtFwWZp_A
+  - name: .discord
+    uri: discord:PPsg9z46sE
+  - name: .furaffinity
+    uri: furaffinity:scylez
+  - name: .patreon
+    uri: patreon:scylez
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256804174/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256804174/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1446230/ss_93dda676513daf19773e1a868de4cd103acc227e.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1446230/ss_19025709b78e8fd06a01b72b139dc34d8f15cf68.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1446230/ss_e7af26e811a40645206c86c7e358f56a5d762d0b.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1446230/ss_a25310aa660d24dc268e9f65c592a370776ff3dc.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1446230/ss_dd77b53042e3f4375d41f93b5302453f31cb35c0.1920x1080.jpg
