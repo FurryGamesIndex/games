@@ -1,0 +1,56 @@
+name: Super-Nova
+
+brief-description: |
+  Super-Nova is a superhero-themed visual novel set in the fictional city of Nova. The story follows Nick, a college junior who unexpectedly finds himself drawn into a world of superpowered heroes and villains. After joining a superhero team, the raccoon will be able to choose a mentor to guide him as they tackle all that Nova City has to offer.
+
+description: |
+  Super-Nova is a superhero-themed visual novel set in the fictional city of Nova. The story follows Nick, a college junior who unexpectedly finds himself drawn into a world of superpowered heroes and villains. After joining a superhero team, the raccoon will be able to choose a mentor to guide him as they tackle all that Nova City has to offer.
+
+  The visual novel will branch into three routes based on the choice of mentor: the friendly yet mysterious fox Mnesis; the cheerful, enthusiastic tiger Superfang; and the prickly, brash Baron-in-Black. Each route will explore a different facet of the story and world as you forge a stronger bond with your chosen superhero and uncover more of what lies beneath their masks.
+
+  As such, apart from all the juicy superhero action, the visual novel will also feature elements of romance.
+
+description-format: markdown
+
+authors:
+  - name: Rotshild
+    role: [ screenwriter, programmer ]
+  - name: Swaggy Tamago
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://rotshild.itch.io/super-nova
+  - name: .twitter
+    uri: twitter:SuperNovaVN
+  - name: .discord
+    uri: discord:sz2RkxNfPv
+  - name: .patreon
+    uri: patreon:SuperNovaVN
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTIxMzc5My83MjU2MzE4LmpwZw==/original/UX6E1V.jpg
+  - https://img.itch.zone/aW1hZ2UvMTIxMzc5My83MjU2MzE5LmpwZw==/original/VgcC0D.jpg
+  - https://img.itch.zone/aW1hZ2UvMTIxMzc5My83MjU2MzIxLmpwZw==/original/rIR25d.jpg
+  - https://img.itch.zone/aW1hZ2UvMTIxMzc5My83MjU2MzI0LmpwZw==/original/nY0RQk.jpg
