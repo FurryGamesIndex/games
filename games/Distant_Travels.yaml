@@ -46,6 +46,8 @@ links:
     uri: https://gruntsteel.itch.io/distant-travels
   - name: .discord
     uri: discord:yPnRPhntPt 
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Distant_Travels-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
