@@ -26,11 +26,28 @@ authors:
 tags:
   type:
     - visual-novel
+    - bara
+    - yiff
+  male:
+    - dragon
+    - monkey
+    - bear
+    - pig
+    - tiger
+    - dog
+    - crocodile
+    - badger
+    - humankind
+    - muscle
   misc:
     - freeware
     - engine-renpy
+    - uncensored
+    - multiple-endings
+    - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
@@ -38,8 +55,6 @@ tags:
     - macos
     - linux
     - android
-  sys:
-    - staging
 
 links:
   - name: .itch.io
