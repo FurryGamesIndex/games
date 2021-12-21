@@ -1,0 +1,85 @@
+name: Astatos
+
+brief-description: |
+  Leave your influence in your wake as you bring together a broken land in a card-battling adventure filled with gods, heroes, and the instability of yourself and those around you. Play the story, or go online with fellow Crown Mages for tabletop card action.
+
+description: |
+  Astatos is a card-battling adventure filled with gods, heroes, and the instability of yourself and those around you. A unique blend of engaging narrative and tabletop-inspired card action about the influence you have on others.
+
+  ##THE TRIAL BEGINS
+
+  Play online in chaotic co-op action for up to eight players, or face-off in strategic one-on-one card-battles. Match cards, cast spells, summon heroes, and turn the opposing team over to your side to come out victorious!
+
+  ##CALL FORTH YOUR HEROES
+
+  Summon a wide range of heroes to win the Trials ahead! Each with stunning artwork and unique abilities that lead to endless combinations. Just be sure your opponent doesn’t turn them against you!
+
+  ##THE FUTURE OF THE CROWN MAGES
+
+  As rebels approach, Vitus and Volesus must flee the academy and leave their order behind. Unleashing an ancient god and devil, the two adventure to uncover their past, influence the land around them, and find a place to call home.
+
+  ##FREEDOM OR ORDER
+
+  With the country in chaos, everyone has their own thoughts to share. Meet a wide range of characters who each have their own morals and desires. Make decisions and convince others to follow your lead, no matter the consequences.
+
+  ##TIME TO TAKE A BREAK
+
+  Collect mementos of your adventure and head to the bathhouse. Interludes between chapters let you spend mementos and get closer to your companions, which may in turn, influence later events.
+
+description-format: markdown
+
+authors:
+  - name: Studio Klondike
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+    - strategy
+    - board
+  misc:
+    - multiplayer
+    - co-op
+    - work-in-process
+    - online
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .steam
+    uri: steam:1430970
+  - name: .website
+    uri: https://www.klondike.studio/astatos
+  - name: .twitter
+    uri: twitter:StudioKlondike
+  - name: .discord
+    uri: discord:nekojishi
+  - name: .youtube
+    uri: https://www.youtube.com/channel/UCvpWsJMg7XmfBA8ZtF6DRCw/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256862437/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256862437/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_8ab33c5b94f335851518802d94aacf57eacb771e.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_4997da4e5fa2c86e1f6f4fcd13952c53ac43ddb8.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_c24fb030a9dd81a9a54b94cd1a0e58031ff0541b.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_7887182edc45bf637c7f7c0e3444bce15b09c73e.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_f4cbc5b99679c8b4e6168fe68ebe480b7c4e8dc4.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_b3cc99acdffb1adabf443a385ee8dfbeb8a8de51.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_7ccd7e7bf399415a517a3d74f6847ddc7e2edee1.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_795d761ee39c4327f264074ae356890b8f33f563.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1430970/ss_79825a374da9a31227487fc98b4f701d2c69d5a8.1920x1080.jpg
