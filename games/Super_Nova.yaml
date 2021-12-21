@@ -21,21 +21,33 @@ authors:
 tags:
   type:
     - visual-novel
+    - bara
+    - yiff
+  male:
+    - raccoon
+    - tiger
+    - wolf
+    - fox
+    - badger
+    - muscle
+  female:
+    - bear
   misc:
     - freeware
     - engine-renpy
+    - multiple-endings
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
+    - patreon
   platform:
     - windows
     - macos
     - linux
     - android
-  sys:
-    - staging
 
 links:
   - name: .itch.io
@@ -46,6 +58,9 @@ links:
     uri: discord:sz2RkxNfPv
   - name: .patreon
     uri: patreon:SuperNovaVN
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Super_Nova-unofficial-l10n-zh-redir
+
 
 thumbnail: thumbnail.jpg
 
