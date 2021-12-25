@@ -12,9 +12,20 @@ authors:
 tags:
   type:
     - visual-novel
+    - bara
+    - yiff
+    - gore
+  male:
+    - dog
+    - fox
+    - males-only
+    - muscle
+    - exhibitionism
   misc:
     - freeware
+    - uncensored
     - engine-unity
+    - multiple-endings
     - work-in-process
   lang:
     - zh
@@ -22,12 +33,9 @@ tags:
     - website
   platform:
     - windows
-  sys:
-    - staging
 
 links:
   - name: .demo-version
-    icon: weibo
     uri: https://www.dogbloods.com/
   - name: .website
     uri: https://www.dogbloods.com/
@@ -39,6 +47,8 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - type: youtube
+    id: qXh9UaJ3vJI
   - https://i.imgur.com/4EImokd.png
   - https://i.imgur.com/YX8CLuJ.png
   - https://i.imgur.com/BFLOTIW.png
