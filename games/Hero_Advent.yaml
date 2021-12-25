@@ -12,9 +12,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Platier
+    role: [ producer ]
+
 tags:
-  author:
-    - Platier
   type:
     - visual-novel
     - bara
@@ -36,6 +38,7 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -51,6 +54,10 @@ links:
     uri: patreon:Platier
   - name: .twitter
     uri: twitter:HeroAdvent
+  - name: .discord
+    uri: discord:ebn7h6g
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Hero_Advent-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
