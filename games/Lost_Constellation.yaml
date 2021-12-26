@@ -1,0 +1,44 @@
+name: Lost Constellation
+
+description: |
+  Lost Constellation is a Night In The Woods ghost story. Travel into the frozen woods in a folktale from the world of Night In The Woods.
+
+description-format: markdown
+
+authors:
+  - name: Finji
+    role: [ producer ]
+
+tags:
+  type:
+    - adventure
+  misc:
+    - freeware
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - linux
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://finji.itch.io/lost-constellation
+  - name: .website
+    uri: https://finji.co/
+  - name: .twitter
+    uri: twitter:FinjiCo
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTYxMDYvNTg5MDEucG5n/original/LKIaJ%2B.png
+  - https://img.itch.zone/aW1hZ2UvMTYxMDYvNTg4OTYuZ2lm/original/vhi8b6.gif
+  - https://img.itch.zone/aW1hZ2UvMTYxMDYvNTg4OTUuZ2lm/original/9dOyfP.gif
+  - https://img.itch.zone/aW1hZ2UvMTYxMDYvNTg5MDAucG5n/original/gnttpg.png
+  - https://img.itch.zone/aW1hZ2UvMTYxMDYvNTg4OTkucG5n/original/c1DdEX.png
+  - https://img.itch.zone/aW1hZ2UvMTYxMDYvNTg4OTcuZ2lm/original/8h9x%2BX.gif
