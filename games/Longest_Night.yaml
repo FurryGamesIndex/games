@@ -1,0 +1,42 @@
+name: Longest Night
+
+description: |
+  Longest Night is a Night In The Woods story. Gather round the campfire and trace the constellations in Longest Night- now with lots of new and different dialogue!
+
+description-format: markdown
+
+authors:
+  - name: Finji
+    role: [ producer ]
+
+tags:
+  type:
+    - puzzle
+  misc:
+    - freeware
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - linux
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://finji.itch.io/longest-night
+  - name: .website
+    uri: https://finji.co/
+  - name: .twitter
+    uri: twitter:FinjiCo
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNDg2MzMvMjEyNTUwLmpwZw==/original/dX7KOD.jpg
+  - https://img.itch.zone/aW1hZ2UvNDg2MzMvMjEyNTUzLmdpZg==/original/pxZ50y.gif
+  - https://img.itch.zone/aW1hZ2UvNDg2MzMvMjEyNTUyLmpwZw==/original/g1OPet.jpg
+  - https://img.itch.zone/aW1hZ2UvNDg2MzMvMjEyNTU0LmdpZg==/original/RY8YP2.gif
