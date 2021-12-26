@@ -1,0 +1,69 @@
+name: "Inherit the Earth: Quest for the Orb"
+
+brief-description: |
+  The Orb of Storms has been stolen and Rif is accused. You have only days to help Rif get to the bottom of the mystery of the missing Orb.
+
+description: |
+  Join Rif the Fox and his companions Okk and Eeah on the adventure of your life! Inherit the Earth will transport you to a world of beauty and intrigue... Earth! The Orb of Storms has been stolen and Rif is accused. You have only days to help Rif get to the bottom of the mystery of the missing Orb. Your journey takes you to the Wild Lands, through hostile territories and ultimately to the ancient ruins of the legendary Humans.
+
+  - Scores of Interactive Conversations.
+  - Multiple 3-D Scrolling Maps.
+  - Dozens of Challenging Puzzles.
+  - Simple Point and Click Interface.
+  - Cinematic Full Screen Animation.
+  - Terrific Musical Scores and Sound Effects.
+
+description-format: markdown
+
+authors:
+  - name: The Dreamers Guild
+    role: [ producer ]
+  - name: Nightdive Studios
+    role: [ publisher ]
+
+tags:
+  type:
+    - casual
+    - adventure
+  misc:
+    - pixel-art
+  lang:
+    - de
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - linux
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .steam
+    uri: steam:257260
+  - name: .website
+    uri: http://www.wyrmkeep.com/ite/
+  - name: .twitter
+    uri: twitter:Wyrmkeep
+  - name: .facebook
+    uri: facebook:wyrmkeep
+  - name: .patreon
+    uri: patreon:wyrmkeep
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/2035865/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/2035865/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/257260/ss_4d7f34b41bc10beff819a214d24060ebfca941e9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/257260/ss_2068173863d7c3504dcde5197234b7050c13837d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/257260/ss_f9180cc797934ab058b73571a46e472b3d2dc0fe.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/257260/ss_89234e383c950ffd942471dda259aad50195522a.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/257260/ss_2282e160551ecefbe7641784f807d32aef86b730.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/257260/ss_2597b2caf1531aaacef7751d927fb8bd2440a52e.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/257260/ss_43b737bb4659f1e228d1a97e9f362c4a903b4165.1920x1080.jpg
