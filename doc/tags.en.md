@@ -59,8 +59,9 @@ The following are automatic tags, they are no different from other tags when you
 - `mouse` Main characters include mouse furries
     - This tag has these alias(es): `misc`, `rat`
 - `monkey` Main characters include monkey furries
-- `bull` Main characters include monkey furries (only in namespace male)
-- `cow` Main characters include monkey furries (only in namespace female)
+- `bull` Main characters include bull furries (only in namespace male)
+- `cow` Main characters include cow furries (only in namespace female)
+- `rhino` Main characters include rhino furries
 - `sheep` Main characters include sheep furries
 - `horse` Main characters include horse furries
 - `rabbit` Main characters include rabbit furries
