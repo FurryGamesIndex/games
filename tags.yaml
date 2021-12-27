@@ -245,13 +245,13 @@ monkey:
 bull:
   namespaces: [ male ]
   explanation:
-    en: 'Main characters include monkey furries (only in namespace male)'
+    en: 'Main characters include bull furries (only in namespace male)'
     zh-cn: '主要角色包括牛兽人（只出现在 male 命名空间）'
 
 cow:
   namespaces: [ female ]
   explanation:
-    en: 'Main characters include monkey furries (only in namespace female)'
+    en: 'Main characters include cow furries (only in namespace female)'
     zh-cn: '主要角色包括牛兽人（只出现在 female 命名空间）'
 
 sheep:
@@ -350,6 +350,12 @@ beaver:
   explanation:
     en: 'Main characters include beaver furries'
     zh-cn: '主要角色包括河狸兽人'
+
+rhino:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include rhino furries'
+    zh-cn: '主要角色包括犀牛兽人'
 
 ###################################################
 

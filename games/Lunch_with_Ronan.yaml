@@ -1,0 +1,46 @@
+name: Lunch with Ronan
+
+description: |
+  A short NSFW side story of Notes of Hearts, where you take on the role of Ronan's co-worker, PC and Mac versions
+
+authors:
+  - name: Kul
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  male:
+    - rhino
+    - males-only
+    - muscle
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-series
+  lang:
+    - en
+    - zh
+  publish:
+    - website
+  platform:
+    - windows
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .release-page
+    uri: https://kulplant.gumroad.com/l/cruSK
+  - name: .twitter
+    uri: twitter:KulPlant
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://s2.loli.net/2021/12/27/cmUpGkvBE9n8TPH.png
+  - https://s2.loli.net/2021/12/27/R45IDo8PSj6JMAm.png
+  - https://s2.loli.net/2021/12/27/DmIxidNoyh41vuY.png
