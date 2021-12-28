@@ -1,7 +1,5 @@
 name: Dragon Island
 
-expunge: true
-
 brief-description: |
   Henry Heimlich, a shark dragon lifesaver suddenly received a ticket to Dragon Island, the famous resort. Follow Henry to the island, and create some unique memory on the long shore with 6 other dragons!
 
@@ -60,14 +58,17 @@ tags:
     - shark
     - bull
     - sheep
+    - muscle
   misc:
     - engine-renpy
-    - unpublished
+    - work-in-process
+    - multiple-endings
   lang:
     - en
     - zh
   publish:
     - steam
+    - itchio
   platform:
     - windows
   sys:
@@ -76,6 +77,8 @@ tags:
 links:
   - name: .steam
     uri: steam:1554470
+  - name: .itch.io
+    uri: https://kulplant.itch.io/dragon-island
   - name: .weibo
     uri: https://www.weibo.com/ROMANSCHRISTMAS
   - name: .weibo
