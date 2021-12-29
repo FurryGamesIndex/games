@@ -1,6 +1,8 @@
 name: Eden's Reach
 
 description: |
+  **Eden's Reach is an 18+ Visual Novel.**
+  
   Eden's Reach is a sci-fi romance Visual Novel focused on the main character's (Default name: Adrian) adventures in Bayline City, a bustling, futuristic seaside city filled with an equally compelling set of eccentric and intriguing faces. What kind of life awaits anyone who comes to this city? Only time will tell...
 
 description-format: markdown
@@ -24,11 +26,27 @@ authors:
 tags:
   type:
     - visual-novel
+    - bara
+    - yiff
+  male:
+    - raccoon
+    - kangaroo
+    - tiger
+    - dog
+    - wolf
+    - muscle
+  female:
+    - tiger
+    - cat
   misc:
     - freeware
     - engine-renpy
+    - uncensored
+    - multiple-endings
+    - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
@@ -36,14 +54,14 @@ tags:
     - macos
     - linux
     - android
-  sys:
-    - staging
 
 links:
   - name: .itch.io
     uri: https://azzyford.itch.io/edensreach
   - name: .discord
     uri: discord:n75mvEruC2
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Edens_Reach-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
