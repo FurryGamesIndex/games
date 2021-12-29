@@ -28,17 +28,23 @@ tags:
     - muscle
   misc:
     - engine-renpy
+    - uncensored
+    - multiple-endings
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
+    - steam
   platform:
     - windows
 
 links:
   - name: .itch.io
     uri: https://deckerwolf.itch.io/super-taco-crew
+  - name: .steam
+    uri: steam:1754440
   - name: .patreon
     uri: patreon:deckerwolf
   - name: .twitter
