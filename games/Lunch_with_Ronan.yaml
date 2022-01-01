@@ -29,8 +29,6 @@ tags:
   platform:
     - windows
     - macos
-  sys:
-    - staging
 
 links:
   - name: .release-page
