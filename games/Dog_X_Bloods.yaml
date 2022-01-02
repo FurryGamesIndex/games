@@ -30,13 +30,13 @@ tags:
   lang:
     - zh
   publish:
-    - website
+    - itchio
   platform:
     - windows
 
 links:
-  - name: .demo-version
-    uri: https://www.dogbloods.com/
+  - name: .itch.io
+    uri: https://wetdogs.itch.io/dog-x-bloods
   - name: .website
     uri: https://www.dogbloods.com/
   - name: .twitter
@@ -48,7 +48,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    id: qXh9UaJ3vJI
+    id: U33F_81hU40
   - https://i.imgur.com/4EImokd.png
   - https://i.imgur.com/YX8CLuJ.png
   - https://i.imgur.com/BFLOTIW.png
