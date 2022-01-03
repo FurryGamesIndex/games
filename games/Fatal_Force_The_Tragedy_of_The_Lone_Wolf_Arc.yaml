@@ -22,21 +22,35 @@ authors:
 tags:
   type:
     - visual-novel
+    - bara
+    - yiff
+    - gore
+  male:
+    - wolf
+    - humankind
+    - transfur
+    - muscle
+    - shota
+    - guro
+  female:
+    - humankind
   misc:
     - freeware
     - engine-renpy
+    - work-in-process
   lang:
     - en
     - zh
+    - zh-unofficial
+    - ja
   publish:
     - itchio
+    - patreon
   platform:
     - windows
     - macos
     - linux
     - android
-  sys:
-    - staging
 
 links:
   - name: .itch.io
