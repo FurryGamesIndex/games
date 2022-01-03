@@ -21,6 +21,14 @@ authors:
 tags:
   type:
     - visual-novel
+    - yiff
+    - bara
+  male:
+    - wolf
+    - fox
+    - bear
+    - males-only
+    - masturbation
   misc:
     - freeware
     - engine-renpy
@@ -35,8 +43,6 @@ tags:
     - android
     - windows
     - macos
-  sys:
-    - staging
 
 links:
   - name: .itch.io
