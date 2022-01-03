@@ -1,0 +1,51 @@
+name: Burrows
+
+brief-description: |
+  Explore various locations throughout time such as 1960s New York, 1980s Los Angeles ect. and strengthen your bonds with friends new and old.  Many choices will lie before you and the results will have high stakes. Virgil's game is a gamble and you're his bet. Will you play into his hand, try to return to your old life or forge a new future?
+
+description: |
+  After leaving behind his former life in 1920's New Orleans, a jaded possum named Grey finds himself thrown into an unending nightmare by the enigmatic bartender, Virgil.  Lost in a churning sea of souls, Grey comes across a group of men somehow connected to his former home, a plantation replete with it's own dark history.  Just as quickly as they find each other they're suddenly taken away, leaving Grey only one option: Dive into their memories and find out what caused this in the first place.
+
+  Explore various locations throughout time such as 1960s New York, 1980s Los Angeles ect. and strengthen your bonds with friends new and old.  Many choices will lie before you and the results will have high stakes. Virgil's game is a gamble and you're his bet. Will you play into his hand, try to return to your old life or forge a new future?
+
+description-format: markdown
+
+authors:
+  - name: Nikko
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+    - yiff
+    - gore
+  misc:
+    - freeware
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - android
+    - windows
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://nikkonator5000.itch.io/burrows
+  - name: .twitter
+    uri: twitter:Burrows_VN
+  - name: .patreon
+    uri: patreon:burrowsvn
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83Mjg1OTQxLnBuZw==/original/7YdnAf.png
+  - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83NTQyNjY3LnBuZw==/original/rUysrX.png
+  - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83Mjg1OTQzLnBuZw==/original/038SG3.png
+  - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83NTQyNjYwLnBuZw==/original/EpKH2l.png
