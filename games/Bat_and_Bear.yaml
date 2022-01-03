@@ -1,0 +1,48 @@
+name: Bat and Bear
+
+brief-description: |
+  A queer visual novel about mental health and healthy relationships.
+
+description: |
+  Crittersong and the smell of microwaved leftover pizza filled a comfortable living room.
+
+  A slow start of a lazy afternoon.
+
+  "Bat and Bear" is a queer visual novel about mental health and healthy relationships.
+
+  Being an hour and 30 minute long VN, it's a story about healing and coping, and I hope you all enjoy it!
+
+description-format: markdown
+
+authors:
+  - name: yonkbonkers
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://yonkbonkers.itch.io/bat-and-bear
+  - name: .twitter
+    uri: twitter:yonkbonkers
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTI2MDkxMi83MzQ3OTkzLnBuZw==/original/kYMhqo.png
+  - https://img.itch.zone/aW1hZ2UvMTI2MDkxMi83MzQ3OTk0LnBuZw==/original/OC%2BKZj.png
+  - https://img.itch.zone/aW1hZ2UvMTI2MDkxMi83MzQ3OTkyLnBuZw==/original/ql3uZx.png
