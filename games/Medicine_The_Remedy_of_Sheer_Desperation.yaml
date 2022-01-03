@@ -1,0 +1,51 @@
+name: "Medicine: The Remedy of Sheer Desperation"
+
+brief-description: |
+  This is a story that explores loneliness, despair and love. When the imminent death is like a spreading tide rushing in, you, and he, and what choice will make?
+
+description: |
+  This is a story that explores loneliness, despair and love.
+
+  The story takes place in the year 20XX in A city. The protagonist is a working programmer who graduated about a year ago, a desert wolf named Solitus (default name). Unlike others, he has been suffering from a strange disease since he was a child, making him suffer from severe headaches all the time, and needs to take daily medication to stabilize his headache. At  the end of April, when spring arrived, his primary care physician told him that his headaches were worsening and that he needed to adjust his lifestyle and exercise properly or risk his life. So he began to think about how to balance work, exercise and rest so that he would have enough money to buy the medication that was rising in price every week, and at the same time be able to alleviate his illness and avoid death - or maybe he was so tired of living with such a difficult life that one morning he would get tired of living with a headache and climb out of the 22nd floor window and cut off his pain. But the choice to live or die is yours. You may want to save him, but can you manage that balance?
+
+  Outside of work and medication, even though he no longer has the right to live in a normal mental state, he still longs for love. He tries to communicate with the unsociable but badminton loving white bear, expresses his love for his favorite painter online, and works together with the project director - in any case, before the game ends, maybe all these loves will come to a happy ending, but is what you see really what they really are?
+
+  When the imminent death is like a spreading tide rushing in, you, and he, and what choice will make?
+
+description-format: markdown
+
+authors:
+  - name: Yuxiu
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  misc:
+    - freeware
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - zh
+  publish:
+    - itchio
+  platform:
+    - android
+    - windows
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://yuxiu.itch.io/medicine
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTI1MzYyMS83NDIyOTYyLmpwZw==/original/adk7Jg.jpg
+  - https://img.itch.zone/aW1hZ2UvMTI1MzYyMS83NDIyOTY0LmpwZw==/original/S2X2iD.jpg
+  - https://img.itch.zone/aW1hZ2UvMTI1MzYyMS83NDIyOTYwLmpwZw==/original/nXzPGM.jpg
+  - https://img.itch.zone/aW1hZ2UvMTI1MzYyMS83NDIyOTYzLmpwZw==/original/JxifNV.jpg
