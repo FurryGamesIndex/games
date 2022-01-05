@@ -1,0 +1,118 @@
+name: Smoke Room Christmas
+
+description: |
+  Hey folks. George here. Happy Holidays!  Have a surprise build as a holiday gift from us to you!
+  
+  This is an AU version of the smoke room in the modern day. Hope y'all have as much fun reading it as we did writing it. 
+
+  
+  
+  And now: a poem from Nick:
+  
+  Twas the night before Christmas and all through the house,
+  
+  Not a creature was stirring (on account they were soused),
+  
+  The stockings were scattered through rooms here and there,
+  
+  As our Christmas Eve clients need more hurry than care
+  
+  We harlots were nestled all snug in our beds
+  
+  As visions of †̷͒˙̶̅´̴͊µ̶̓ danced in our heads
+  
+  And Cyn in her bonnet and I in my cap,
+  
+  Had settled our heads for a long winter’s nap
+  
+  When out on the porch there arose such a clatter
+  
+  I fell out of bed, “what the fuck is the matter?”
+  
+  To the window I shuffled, feeling like trash,
+  
+  If ‘twere drunk Reed again, to give him a smash.
+  
+  And the moon on cold dirt, appearing like snow,
+  
+  Gave a luster like midday to all things below
+  
+  When what into my hungover eyes did then spring,
+  
+  But a miniature sleigh and eight tiny ducklings.
+  
+  With the brawniest driver, so lively and thick
+  
+  I knew in a moment it must be St. Nik! 
+  
+  “Now, Donald! Now, Daisy! Now Daffy and Huey!
+  
+  Now, Aflac! Now, Launchpad! Now Howard and Louie!”
+
+authors:
+  - name: The Echo Project
+    role: [ producer ]
+  - name: George Squares
+    role: [ screenwriter, programmer ]
+  - name: Redd
+    role: [ programmer, screenwriter ]
+  - name: Nick
+    role: [ programmer, screenwriter ]
+  - name: Shtarfish
+    role: [ animation, artist ]
+  - name: 9klipse
+    role: [ artist ]
+  - name: Werewhiskey
+    role: [ artist ]
+  - name: Ruby
+    role: [ artist ]
+  - name: Ruler
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  male:
+    - lion
+    - dog
+    - fox
+    - badger
+    - weasel
+    - muscle
+  misc:
+    - freeware
+    - engine-renpy
+    - multiple-series
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .release-page
+    icon: patreon
+    uri: https://www.patreon.com/posts/60308549
+  - name: .twitter
+    uri: twitter:EchoTheVN
+  - name: .patreon
+    uri: patreon:EchoGame
+  - name: .unofficial-version-zh
+    icon: twitter
+    uri: https://twitter.com/ABLocalization/status/1476838888425484288
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://s2.loli.net/2022/01/06/Fp8derAz5VnbEWG.gif
+  - https://s2.loli.net/2022/01/06/iuxrGzJHAZygCQ4.png
+  - https://s2.loli.net/2022/01/06/BlLEPJgijabqCyf.png
+  - https://s2.loli.net/2022/01/06/uKdhoemgQb9L4Jf.png
+  - https://s2.loli.net/2022/01/06/PMepqd4BASagGuE.png
+  - https://s2.loli.net/2022/01/06/L7FI5JrMiyfEV12.png
