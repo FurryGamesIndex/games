@@ -1,0 +1,117 @@
+name: Magic Sword for Kamonegi-go
+
+old-ids:
+  - Kamonegigo_ga_maho_ken_de_ippai_ni_naru
+
+brief-description: |
+  This is adventure to enjoy with ship's mate on a flying ship.All Ship's mate are furry.
+
+description: |
+  This game is currently only supported in Japanese.
+  I welcome translators who can translate one million characters. -Musashi Kazui
+
+  ##Magic sword for Kamonegi-go
+  A Different world from here. A Story when many Magic swords were still born.
+
+  ##Opening
+  You woke up, in the world of magic swords.
+  You don't know anything about the catastrophe five years ago in This world.
+  You'll be working as a radio operator, and you'll be attacked by a black magic sword.
+  Who is the "Messenger", who knows the terrible power of a black magic sword, the identity of a magic sword, and everything?
+  Your choices determine the fate of this world.
+
+  ##Ship's mate
+
+  Captain: Aaron
+  Captain of the ship who hired you as a radio operator. He enjoys everything.
+
+  Navigator: Brendan
+  Navigator who performs all the office work on the ship. He is hiding something.
+
+  Searcher: Chase
+  Adventurers looking for magic swords. Her get on a ship looking for miracle magic sword.
+
+  Magic Swordsman: Dion
+  Legitimate successor of the venerable magic swordsman clan. He get on the ship to learn about the magic sword.
+
+  ##Outline of game
+  You will use the radio as the radio operator’s job and ask the "Messenger" for the location of the magic sword.
+  You rely on advice to find a magic sword with your ship mate.
+  Then tell "Messenger", what you found answer.
+
+  Playing time: about 3-5 hours.
+  Ending: 1 (with some changes)
+  Bad end: about 10
+  Event Still: Basic 50
+  Adult event: 4 characters x 4 about 10 others
+  (* Don't even remember the producer)
+
+  ##Explore in the ship
+  Ship's mate live freely in the ship.
+  Go wherever you want to talk and work.
+
+  ##Easy mode
+  This game has an Easy mode.
+  Many choices, the one that progresses in the story will be colored Green.
+  Red for bad ends and Pink for Adult events.
+  In addition, In Very easy mode chooses Green over time.
+  It's game will proceed simply by turning the mouse wheel.
+
+description-format: markdown
+
+authors:
+  - name: 数井ムサシ
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+    - adventure
+    - bara
+    - yiff
+  male:
+    - wolf
+    - dog
+    - muscle
+    - anal
+    - blowjob
+    - paizuri
+    - muscle-growth
+    - inflation
+  female:
+    - bird
+    - dog
+    - paizuri
+  misc:
+    - multiple-endings
+  lang:
+    - ja
+  publish:
+    - digiket
+  platform:
+    - windows
+
+links:
+  - name: .digiket
+    uri: https://www.digiket.com/work/show/_data/ID=ITM0198506/
+  - name: .steam
+    uri: steam:1270230
+  - name: .website
+    uri: https://kagiz.x.fc2.com/index.html
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256778314/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256778314/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1270230/ss_2be270bda3c68780126b651493ab2e014d4c62e0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1270230/ss_af0430987502ce15b16b9b732e8f9bae0f7efdab.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1270230/ss_ca6ddd86e4246fee8b6411408ae48f4562582578.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1270230/ss_880a12fd425a81ee0a296c0da26ce51f3030e9ad.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1270230/ss_bfab1bca0a2c0ec4bed8026b1e362e7e725f357f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1270230/ss_507cca227a5a488881a3a44a01e41c255b86d0de.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1270230/ss_423380c0f60838fa85ea84a815663c4c9aa0e942.1920x1080.jpg
