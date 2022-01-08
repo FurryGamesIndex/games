@@ -24,6 +24,7 @@ ua_wellknown_uri_set = { "http", "https", "ftp", "mailto" }
 simple_uri_scheme_map = {
     "steam": "https://store.steampowered.com/app/%s",
     "twitter": "https://twitter.com/%s/",
+    "deviantart": "https://www.deviantart.com/%s",
     "furaffinity": "https://www.furaffinity.net/user/%s/",
     "patreon": "https://www.patreon.com/%s",
     "tumblr": "https://%s.tumblr.com/",
