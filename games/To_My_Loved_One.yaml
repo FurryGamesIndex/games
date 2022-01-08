@@ -19,11 +19,11 @@ description: |
 
   (Translated from japaness description)
 
-description-format: markdown
+authors:
+  - name: KENN
+    role: [ producer ]
 
 tags:
-  author:
-    - KENN
   type:
     - visual-novel
     - bara
