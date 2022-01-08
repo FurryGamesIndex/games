@@ -463,6 +463,12 @@ weasel:
     en: 'Main characters include weasel furries'
     zh-cn: '主要角色包括鼬兽人'
 
+ferret:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include ferret furries'
+    zh-cn: '主要角色包括雪貂兽人'
+
 ###################################################
 
 '@class:male+female/reptilia':

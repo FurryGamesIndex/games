@@ -4,7 +4,7 @@ brief-description: |
   Cor is a furry gay VN where you play as Robert, a 22-year-old ferret, who's going to spend two weeks at his hometown, Cor. With his group of friends, he'll re-discover how the town has changed without him, learn new things about his friends and, who knows... Maybe he'll remember how to move forward. After all, life is not easy sometimes.
 
 description: |
-  > Robert... Remember Cor? Our hometown? ... Yeah. Would you like to go on a vacation there? ... Yeah, the others said that they're coming too... This might be exactly what we need right now. What do you say?
+  >Robert... Remember Cor? Our hometown? ... Yeah. Would you like to go on a vacation there? ... Yeah, the others said that they're coming too... This might be exactly what we need right now. What do you say?
 
   Cor is a furry gay VN where you play as Robert, a 22-year-old ferret, who's going to spend two weeks at his hometown, Cor. With his group of friends, he'll re-discover how the town has changed without him, learn new things about his friends and, who knows... Maybe he'll remember how to move forward. After all, life is not easy sometimes.
 
@@ -12,31 +12,36 @@ description: |
 
   Things you can expect from this experience are: characters with their own motivations and pasts that influences them as people, different branches and scenes depending on your choices, a small town to explore with friends and, overall, a positive story about self-discovery, learning what you want in life, and how to share that with your loved ones.
 
-  > ...You know what? Let's do this. Let's go to Cor, together.
+  >...You know what? Let's do this. Let's go to Cor, together.
 
 description-format: markdown
 
+authors:
+  - name: Team Ether
+    role: [ producer ]
+
 tags:
-  author:
-    - 'Team Ether'
   type:
     - visual-novel
     - bara
     - yiff
   male:
-    - dog
+    - ferret
     - mouse
-    - lizard
-    - bear
+    - crocodile
+    - weasel
     - lion
     - sheep
     - males-only
+    - masturbation
   misc:
     - freeware
     - work-in-process
+    - multiple-endings
     - engine-renpy
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
@@ -52,6 +57,8 @@ links:
     uri: patreon:CorVN
   - name: .twitter
     uri: twitter:CorOfficialVN
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Cor-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

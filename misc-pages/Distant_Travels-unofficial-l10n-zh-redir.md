@@ -1,6 +1,6 @@
 # Distant Travels 的非官方中文本地化资源
 
-[打开 Distant_Travels 的 FGI 页面](https://furrygames.top/zh-cn/games/Distant_Travels.html)
+[打开 Distant Travels 的 FGI 页面](https://furrygames.top/zh-cn/games/Distant_Travels.html)
 
 ## 说明
     文件后缀名改为zip等常见格式，其余格式是防止和谐，请更改格式后再解压
