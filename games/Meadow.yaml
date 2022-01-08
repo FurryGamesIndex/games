@@ -47,8 +47,8 @@ tags:
     - fox
     - wolf
     - hedgehog
-    - frog    
-    - non-anthro    
+    - frog
+    - non-anthro
   female:
     - lynx
     - bear
@@ -59,7 +59,7 @@ tags:
     - wolf
     - hedgehog
     - frog
-    - non-anthro    
+    - non-anthro
   misc:
     - 3d
     - multiplayer
