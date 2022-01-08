@@ -32,6 +32,8 @@ tags:
     - windows
     - macos
     - android
+  sys:
+    - staging
 
 links:
   - name: .website
