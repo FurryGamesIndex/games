@@ -301,6 +301,7 @@ FGI 支持的库存链接包括以下几个：
 - `.microsoft-store`: 在 Microsoft Store 上获取
 - `.twitter`: 官方 Twitter
 - `.furaffinity`: 官方 FurAffinity
+- `.deviantart`: 官方 DeviantART
 - `.patreon`: 官方 Patreon
 - `.weibo`: 官方微博
 - `.tumblr`: 官方 Tumblr
@@ -340,6 +341,7 @@ URI 部分可能是一个网址或 URL，比如上面的“在 itch.io 平台上
 - Tumblr: `tumblr:用户名` 比如 `tumblr:xxx`，相当于 `https://xxx.tumblr.com/`
 - pixiv: `pixiv:用户ID` 比如 `pixiv:123456`，相当于 `https://www.pixiv.net/users/123456`
 - Furaffinity: `furaffinity:用户名`, 相当于 `https://www.furaffinity.net/user/用户名/`
+- DeviantART: `deviantart:用户名`, 相当于 `https://www.deviantart.com/用户名`
 - Google Play Store: `google-play-store:package_id` 相当于 `https://play.google.com/store/apps/details?id=package_id`
 - FGI misc page: `FGI-misc-page:name` 相当于 `<相对路径引用网站根目录>/misc/name.html`，这些页面是由 FGI 仓库中的 [`misc-pages`](https://github.com/FurryGamesIndex/games/tree/master/misc-pages) 子目录下的文件生成的。
 
