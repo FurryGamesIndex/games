@@ -1,0 +1,52 @@
+name: DracoFighter
+
+brief-description: |
+  Over the coming weeks, join calico (c)athlete Lucky as she explores Doodle Champion Island: a world filled with seven sport mini-games, legendary opponents, dozens of daring side quests, and a few new (and old ;)) friends. Her ultimate goal? Defeat each sport Champion to collect all seven sacred scrolls—and complete extra hidden challenges across Champion Island in the purrr-ocess.
+
+description: |
+  WELCOME TO DRACOFIGHTER
+
+  Draco is the most powerful dragon on Earth, but some challengers have stepped up as contenders... 
+
+  Play as a dragon and fight others with the incredibly simple control scheme! Experience the complexity of fighting games without the complex inputs! Compatible on Desktop and Android!
+
+authors:
+  - name: Vecderg
+    role: [ producer ]
+
+tags:
+  type:
+    - fighting
+  male:
+    - dragon
+  female:
+    - dragon
+  misc:
+    - multiplayer
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - android
+
+links:
+  - name: .website
+    uri: https://www.vecderg.com/
+  - name: .itch.io
+    uri: https://vecderg.itch.io/dracofighter
+  - name: .demo-version
+    uri: https://vecderg.itch.io/dracofighter-demo
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    id: bZyOuhZ6Aqk
+  - https://img.itch.zone/aW1hZ2UvOTYzNzIxLzcyMTE3MTUucG5n/original/R%2BCcYO.png
+  - https://img.itch.zone/aW1hZ2UvOTYzNzIxLzY5NjExNzkucG5n/original/tzfuPk.png
+  - https://img.itch.zone/aW1hZ2UvOTYzNzIxLzcwMDExMTMucG5n/original/DFRJW%2F.png
+  - https://img.itch.zone/aW1hZ2UvOTYzNzIxLzcwMDEwODUucG5n/original/W5iyXD.png
