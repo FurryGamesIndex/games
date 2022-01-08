@@ -117,6 +117,8 @@ The following are automatic tags, they are no different from other tags when you
     - This tag implicate (depend on) these tags: `mustelidae`
 - `weasel` Main characters include weasel furries
     - This tag implicate (depend on) these tags: `mustelidae`
+- `ferret` Main characters include ferret furries
+    - This tag implicate (depend on) these tags: `mustelidae`
 
 ### Biological species: Reptilia
 
