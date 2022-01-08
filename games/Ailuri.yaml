@@ -1,0 +1,67 @@
+name: Ailuri
+
+brief-description: |
+  A hand-drawn, 2D platformer following the breathtaking story of an endangered red panda, named Ailuri. Climb, explore and survive the intricate levels while trying to defeat enemies to restore balance of life in the world.
+
+description: |
+  Ailuri is a 2D platformer, level based game with hand drawn art.
+
+  Explore levels at your own pace, survive against the dangers of the world and rescue other creatures in this heartbreaking story.
+
+  ##Features
+  - Level based gameplay, full of puzzles, difficult obstacles and hidden secrets for players of all types to encounter.
+  - Play alone or with a companion in couch co-op.
+  - Travel through unique World Maps, explore vast Levels and defeat destructive Bosses.
+  - Grapple, Climb, Swing, Throw - Ailuri is equipped with mystical abilities, use everything you can!
+
+description-format: markdown
+
+authors:
+  - name: Vivink Studios
+    role: [ producer ]
+
+tags:
+  type:
+    - adventure
+  misc:
+    - engine-unity
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+    - steam
+  platform:
+    - linux
+    - windows
+    - macos
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://vivinkstudios.itch.io/ailuri-demo
+  - name: .steam
+    uri: steam:1208690
+  - name: .website
+    uri: https://www.vivinkstudios.com/
+  - name: .twitter
+    uri: twitter:VivinkStudios
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256769255/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256769255/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1208690/ss_b0b05c33dc4c83d4e4eab8b1f592ba129a91d2c3.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1208690/ss_b2da256f706d19e418da5a4f2026fb511d8cc104.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1208690/ss_cccfd73321dc6fa6531fa981c2742d7429fe2b29.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1208690/ss_cd74c7a0f0dbad9089e7cb26bcf79c8ec82046c3.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1208690/ss_af0372e9606fbd50b75ad36632604bcd77433e5e.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1208690/ss_f810a91c8f3be16a6102b03807625fa470634838.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1208690/ss_067c6b2a607260096211a17c4737f7c65f3baf6c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1208690/ss_527c5bf32749b73a0457b87d020710a90e23527d.1920x1080.jpg
