@@ -1,4 +1,4 @@
-name: OKAMI HD / 大神 絶景版
+name: OKAMI HD
 
 brief-description: |
   Experience the critically acclaimed masterpiece with its renowned Sumi-e ink art style in breathtaking high resolution.
@@ -8,11 +8,11 @@ description: |
 
   Players will be able to choose between modern widescreen format or the original release’s 4:3 ratio. Interactive loading game screens from the original game are also included.
 
-description-format: markdown
+authors:
+  - name: CAPCOM
+    role: [ producer ]
 
 tags:
-  author:
-    - CAPCOM
   type:
     - role-playing
     - adventure

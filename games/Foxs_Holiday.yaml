@@ -1,4 +1,4 @@
-name: "Fox's Holiday / 狐の假期"
+name: "Fox's Holiday"
 
 brief-description: |
   Fox vacation is a lighthearted nostalgia game. In the game, the player arranges all the journey of the fox through the plan, and at the same time, we can find our lost childhood. 32 weeks to complete the content of the week. Let's have a good holiday!
@@ -29,9 +29,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 元气工作室
+    role: [ producer ]
+
 tags:
-  author:
-    - 元气工作室
   type:
     - casual       
   male:

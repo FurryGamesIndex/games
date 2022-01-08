@@ -1,13 +1,13 @@
-name: Polidog Patrol / ポリドッグパトロール
+name: Polidog Patrol
 
 description: |
   A new UNTENDO game from the makers of BENKI WARS. After two and a half years of development, our action game is finally complete! This game is a side-scrolling action RPG where you play as newbie police officer Shibakuro to solve various cases. Through seamless battles and exploring the expansive environment, you will fight the Gangs with your fellow senior officers.
 
-description-format: markdown
+authors:
+  - name: Untendo
+    role: [ producer ]
 
 tags:
-  author:
-    - Untendo
   type:
     - role-playing
     - action

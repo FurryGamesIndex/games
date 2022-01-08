@@ -1,4 +1,4 @@
-name: "Anonymous Letter: Prowler / 匿名信：隐匿者"
+name: "Anonymous Letter: Prowler"
 
 brief-description: |
   Anonymous letter puzzle series 2，A novel form of puzzle solving combined with interesting gameplay，It has beautiful pictures and rich plots.Players need to explore puzzles step by step through rigorous scrutiny and logical ability，Puzzle solving enthusiasts are advised to have an in-depth experience!
@@ -36,9 +36,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 元气工作室
+    role: [ producer ]
+
 tags:
-  author:
-    - 元气工作室
   type:
     - adventure
     - strategy

@@ -1,4 +1,4 @@
-name: Gate / 揭谛
+name: Gate
 
 brief-description: |
   GATE is a text-based furry homo romance game developed by NVL maker, in which the player will play the role of the protagonist to "break the system" as an opportunity to establish a relationship with the furries and find a way to achieve peace between races.
@@ -17,9 +17,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 团购规划局
+    role: [ producer ]
+
 tags:
-  author:
-    - '团购规划局'
   type:
     - visual-novel
     - bara
