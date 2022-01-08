@@ -1,0 +1,14 @@
+name: 戴拉克斯
+
+aliases:
+  - DelaX
+
+type: personal
+
+avatar: DelaX.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:DelaXQuill
+  - name: .weibo
+    uri: https://weibo.com/u/6041376807
