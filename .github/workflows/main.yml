@@ -77,33 +77,33 @@ jobs:
         rm -rf output
         mv _git .git
 
-    - name: cn-build
-      run: |
-        ./generate.py \
-            --no-sitemap \
-            --images-candidate-webp \
-            --with-rss \
-            --mtime-has-fixed \
-            --plugin steam-cdn-unite,cdn=china \
-            --plugin cn-optimize,rev="$FGI_GITHUB_PAGES_REV" \
-            --plugin webp-converter-stub \
-            output-cn
-
-    - name: cn-deploy
-      run: | 
-        mv .git _git
-        echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
-        git config --global user.email "noreply@example.com"
-        git config --global user.name "deploy-bot"
-        cd output-cn
-        git init
-        git remote add origin git@gitlab.com:furrygamesindex/cn-netlify-build.git
-        git add .
-        git commit -m 'deploy cn website'
-        git push -f origin master
-        cd ..
-        rm -rf output-cn
-        mv _git .git
+#   - name: cn-build
+#     run: |
+#       ./generate.py \
+#           --no-sitemap \
+#           --images-candidate-webp \
+#           --with-rss \
+#           --mtime-has-fixed \
+#           --plugin steam-cdn-unite,cdn=china \
+#           --plugin cn-optimize,rev="$FGI_GITHUB_PAGES_REV" \
+#           --plugin webp-converter-stub \
+#           output-cn
+#
+#   - name: cn-deploy
+#     run: | 
+#       mv .git _git
+#       echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+#       git config --global user.email "noreply@example.com"
+#       git config --global user.name "deploy-bot"
+#       cd output-cn
+#       git init
+#       git remote add origin git@gitlab.com:furrygamesindex/cn-netlify-build.git
+#       git add .
+#       git commit -m 'deploy cn website'
+#       git push -f origin master
+#       cd ..
+#       rm -rf output-cn
+#       mv _git .git
 
     - name: next-build
       run: |
