@@ -81,6 +81,8 @@ description: |
   
   WINDOWS: https://drive.google.com/file/d/15y_Bpv3kZFaryuhgZ6ResvCvUZBVifvH
 
+description-format: markdown
+
 authors:
   - name: GroveDev
     role: [ producer ]
@@ -144,7 +146,7 @@ tags:
 
 links:
   - name: .itch.io
-    uri: https://grovedev.itch.io/groverpgnsfw
+    uri: https://grovedevelopment.itch.io/groverpgnsfw
   - name: .unofficial-version-zh
     icon: telegram
     uri: https://t.me/ldlocalization/115
