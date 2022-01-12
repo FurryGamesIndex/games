@@ -66,13 +66,14 @@ links:
   - name: .itch.io
     uri: https://grovedev.itch.io/groverpgnsfw
   - name: .unofficial-version-zh
-    uri: https://www.gamemale.com/forum.php?mod=viewthread&tid=80950
+    icon: telegram
+    uri: https://t.me/ldlocalization/115
   - name: .furaffinity
     uri: furaffinity:grovedev
   - name: .twitter
     uri: twitter:regalbuster
   - name: .discord
-    uri: https://discord.gg/65B8y7TpdA
+    uri: https://discord.gg/TfHstyJYCB
 
 thumbnail: thumbnail.png
 
