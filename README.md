@@ -6,7 +6,7 @@ The motive for creating this project was that Lucky Doge gave up his Furry Game 
 
 Select languages:
 
-- [English](#about-this-project)
+- [English](#English)
 - [简体中文](#Simplified_Chinese)
 - [繁體中文](#Traditional_Chinese)
 
