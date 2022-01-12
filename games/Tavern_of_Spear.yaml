@@ -1,20 +1,13 @@
 name: Tavern of Spear
 
-brief-description: |
-  The story revolves around a small tavern. You play as "Eyvind", a young wolf warrior from The Lost Spear Tribe who has come of age. Following a tribal tradition, Eyvind leaves home and sets out on a journey.
-
 description: |
-  The story revolves around a small tavern. You play as "Eyvind", a young wolf warrior from The Lost Spear Tribe who has come of age. Following a tribal tradition, Eyvind leaves home and sets out on a journey.
+  You are the young adventurer from the Lost Spear Tribe who’s come of age and ready to prove himself as an adventurer. 
 
-  Everyone just sits there and you can click and talk to them, someone can have sex after a talk,or finish their quest.
+  But adventure leads you to a strange tavern tucked in a foggy forest. 
 
-  "You can get closer to the other characters by doing quests for them and getting to know them. They have their own personalities and information regarding other characters and what might be going on in the story.
+  Despite the threat outside, the beer is great, and the company is fun to be with.
 
-  I add some stats check just like DND and Fallout 1, 2. You can assign your stats points at the start of the game. The stats also contain “corruption” and “libido”As the stats increases, more scenes can be unlocked
-
-  During conversations, skill checks will occasionally appear. Whether you pass or fail depends on your stats."
-
-description-format: markdown
+  Follow along this journey to escape the foggy forest and make some company along the way.
 
 authors:
   - name: Caro
@@ -23,6 +16,11 @@ authors:
     standalone: true
     avatar: Librarion.jpg
     link-uri: twitter:bokedaidu
+    role: [ screenwriter ]
+  - name: RabidRabbit
+    standalone: true
+    avatar: RabidRabbit.jpg
+    link-uri: twitter:RabidRbbit
     role: [ screenwriter ]
   - name: HelloAnonMyOldFriend
     standalone: true
@@ -40,17 +38,24 @@ tags:
     - bull
     - shark
     - dragon
+    - lung
     - hyena
     - wolf
     - lizard
+    - snake
     - males-only
     - muscle
     - anal
+    - frottage
     - blowjob
+    - handjob
+    - masturbation
     - mind-control
     - tentacles
     - body-modification
+    - conjoined
     - petrification
+    - master-slave
   misc:
     - freeware
     - uncensored
@@ -72,14 +77,14 @@ tags:
 links:
   - name: .itch.io
     uri: https://fd-caro.itch.io/tavern-of-spear
-  - name: .patreon
-    uri: patreon:CaroZalt
+  - name: Buy on Hiccears
+    uri: https://www.hiccears.com/p/tavern-of-spear
   - name: .twitter
     uri: twitter:Tavern_of_Spear
-  - name: Buy on Hiccears
-    uri: https://www.hiccears.com/artist-profile.php?apid=46597
+  - name: .patreon
+    uri: patreon:CaroZalt
   - name: .discord
-    uri: https://discord.com/invite/WFm49ap
+    uri: discord:5xgWGdv7Vw
 
 thumbnail: thumbnail.jpg
 
