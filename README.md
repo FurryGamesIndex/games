@@ -38,7 +38,7 @@ Select languages:
 
 1. [游戏数据文件](doc/contribute_guide/game.zh-cn.md)
    - [标签](doc/tags.zh-cn.md)
-2. 作者数据文件
+2. [作者数据文件](doc/contribute_guide/author.zh-cn.md)
 3. [提交补丁的注意事项](doc/contribute_guide/patches-submitting.zh-cn.md)
 
 <a id="Traditional_Chinese">
