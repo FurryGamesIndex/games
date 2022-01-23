@@ -54,5 +54,5 @@ Select languages:
 
 1. [遊戲資料檔案](doc/contribute_guide/game.zh-tw.md)
    - [標籤](doc/tags.zh-tw.md)
-2. 作者資料檔案
+2. [作者資料檔案](doc/contribute_guide/author.zh-tw.md)
 3. [提交補丁的注意事項](doc/contribute_guide/patches-submitting.zh-tw.md)
