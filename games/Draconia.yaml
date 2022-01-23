@@ -1,0 +1,128 @@
+name: Draconia
+
+brief-description: |
+  Create your dragon, customize it, level it. Explore the world of Draconia and unravel its story. Draconia is an MORPG where YOU play as the dragon!
+
+description: |
+  ## What is Draconia?
+
+  Draconia is an open-world dragon survival game with RPG elements being made in Unreal Engine 4.
+
+  Play as one of six different dragon species and take over the sky or the land.Follow the path of Taruk and uncover the story behind Draconia through quests, secret locations and various characters in singleplayer and multiplayer mode.
+
+  If you don't want to play alone, join others in a multiplayer game or invite your friends to join your group or clan and level your characters together.
+
+  ![Draconia](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2021/01/altuisprev1.gif)
+
+  ## The Dragons
+
+  Each dragon has its own element and special ability that helps the player to survive or supports them and their friends in combat.
+
+  ![The European Dragon](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2020/05/BoneAccessorySet800.png)
+
+  *The European Dragon* aka “Vodros” is the all-rounder among the main characters. Unlike other dragons, it doesn’t have any major weaknesses or strengths, which make it easier to play for beginners. However, due to its balanced stats, it needs to consume a higher amount of food and water.
+  
+  Its base element is the shadow element.
+
+  ![The Wyvern](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2021/05/wyvern-render-1024x283.jpg)
+
+  *The Wyvern* aka “Fyrrwin” is a skilled flyer which lives on the floating islands and prefers to stay high up in the sky. It has low health and defense stats, but fights back with strong fire attacks.
+
+  ![The Eastern Dragon](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2020/09/Eastern_Dragon_Pattern.jpg)
+
+  The Eastern Dragon aka “Yamati” is less of a fighter, but more of a support class which has a variety of healing skills.
+  
+  It represents the water element and can therefor often be found close to rivers and lakes.
+
+  ![The Lindworm](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2020/05/Lindworm800.png)
+
+  *The Lindworm* aka “Yggaron” is a flightless dragon, which prefers dense forests and caves, where it hides from flying enemies.
+
+  Even though it appears to be weak due to its unusual anatomy, it will fight back with strong poison attacks.
+
+  ![The Behemoth](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2021/05/behe-render.jpg)
+
+  *The Behemoth* aka “Gaulung” is another flightless dragon, which lives in rocky areas and large caves. It doesn’t fear attackers from above due to its high health and defense stats.
+
+  The base element of the Behemoth is earth.
+
+  ![The Quetzalcoatl](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2021/05/quetzrender.jpg)
+
+  *The Quetzalcoatl* aka “Tecatl” is, like the Wyvern, a dragon which prefers to live in higher places, closer to the sun. It has a large amount of mana and energy, which allow it to stay in the air for a very long time.
+
+  Its base element is the light element.
+
+  ## Features
+
+  *Existing Features*
+
+  - Character Customization: Give your character a custom name, change its pattern, colors and body parts, such as horns or tail tips or choose from pre-made textures.
+  - Basic Needs: Hunt to feed yourself and find water sources to drink from to survive.
+  - Scent: Use the scent system to find nearby water and food sources.
+  - Carrying: Carry items or low level players across the map.
+  - Gathering & Inventory System: Gather different resources to fill your hoard or to turn them into useful items.
+  - Character Leveling: Complete tasks and quests to grow your character and make it stronger.
+  - Crafting: Build a hoard to hide all your treasures in, create objects which improve your dragons stats or add temporary buffs.
+  - Questing: Find and complete one-time and daily quests to gain experience.
+  - Interactive Environment: Interact with objects in your environment to gain useful buffs or to uncover more parts of the story.
+  - Optional PvP: Play on servers without being afraid of being attacked by other players. Simply disable PvP in your character profile and enable it if you want to have a battle with someone else.
+
+  *Planned Features*
+  - Nesting: Build a nest and raise your own dragon hatchling.
+  - Dragon Dens: Earn yourself a place you can call home. Unlock and upgrade your own den to live a more comfortable dragon life.
+  - Talent Points: Spend talent points to increase your dragon's traits.
+  - Group and Clan System: Go on your journey and bring your friends with you by inviting them to your group or creating your own clan, which allows you to announce events and keep track of your members progress.
+  - and much more...
+
+description-format: markdown
+
+authors:
+  - name: 'Draconia Dev Team'
+    role: [ producer, publisher]
+   
+tags:
+  type:
+    - role-playing
+  male:
+    - dragon
+  female:
+    - dragon
+  misc:
+    - work-in-process
+    - 3d
+    - online
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+    - linux
+  sys:
+    - staging
+    
+links:
+  - name: .steam
+    uri: steam:1295900
+  - name: .website
+    uri: https://kulplant.itch.io/dragon-island
+  - name: .youtube
+    uri: https://www.youtube.com/draconiagame
+  - name: .twitter
+    uri: twitter:draconia_game
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256866823/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256866823/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295900/ss_90d33cba7d6af4ce4216cee3e0e98b5f13adfb56.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295900/ss_747822120403ea9da9d327846d6bc50e58a91318.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295900/ss_d6744b5f96df6ee9bd5ac2215c477d2f54bad8cc.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295900/ss_a7b8de3e67f19c8551dc98ec24f1fb32ed529468.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295900/ss_cd7de65e4a929485e7e5753fb49e2aa64e35b5ee.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1295900/ss_403685ca9e39a6fd3fb5e9b893e76236e80f8e2b.jpg
