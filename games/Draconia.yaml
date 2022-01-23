@@ -12,41 +12,41 @@ description: |
 
   If you don't want to play alone, join others in a multiplayer game or invite your friends to join your group or clan and level your characters together.
 
-  ![Draconia](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2021/01/altuisprev1.gif)
+  ![Draconia](https://s2.loli.net/2022/01/23/yD3tC2S9VwYrxBM.gif)
 
   ## The Dragons
 
   Each dragon has its own element and special ability that helps the player to survive or supports them and their friends in combat.
 
-  ![The European Dragon](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2020/05/BoneAccessorySet800.png)
+  ![The European Dragon](https://s2.loli.net/2022/01/23/upPU72qyiG4CheE.png)
 
   *The European Dragon* aka “Vodros” is the all-rounder among the main characters. Unlike other dragons, it doesn’t have any major weaknesses or strengths, which make it easier to play for beginners. However, due to its balanced stats, it needs to consume a higher amount of food and water.
   
   Its base element is the shadow element.
 
-  ![The Wyvern](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2021/05/wyvern-render-1024x283.jpg)
+  ![The Wyvern](https://s2.loli.net/2022/01/23/79Wa5xZvyBGYCKq.jpg)
 
   *The Wyvern* aka “Fyrrwin” is a skilled flyer which lives on the floating islands and prefers to stay high up in the sky. It has low health and defense stats, but fights back with strong fire attacks.
 
-  ![The Eastern Dragon](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2020/09/Eastern_Dragon_Pattern.jpg)
+  ![The Eastern Dragon](https://s2.loli.net/2022/01/23/7ZGlrjSvWK3421f.jpg)
 
   The Eastern Dragon aka “Yamati” is less of a fighter, but more of a support class which has a variety of healing skills.
   
   It represents the water element and can therefor often be found close to rivers and lakes.
 
-  ![The Lindworm](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2020/05/Lindworm800.png)
+  ![The Lindworm](https://s2.loli.net/2022/01/23/arcHEKZbo6CgNSz.png)
 
   *The Lindworm* aka “Yggaron” is a flightless dragon, which prefers dense forests and caves, where it hides from flying enemies.
 
   Even though it appears to be weak due to its unusual anatomy, it will fight back with strong poison attacks.
 
-  ![The Behemoth](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2021/05/behe-render.jpg)
+  ![The Behemoth](https://s2.loli.net/2022/01/23/6M3tbWPeU7D2ziB.jpg)
 
   *The Behemoth* aka “Gaulung” is another flightless dragon, which lives in rocky areas and large caves. It doesn’t fear attackers from above due to its high health and defense stats.
 
   The base element of the Behemoth is earth.
 
-  ![The Quetzalcoatl](http://draconiagame.bjsolutions.co/wordpress/wp-content/uploads/2021/05/quetzrender.jpg)
+  ![The Quetzalcoatl](https://s2.loli.net/2022/01/23/aEYwZ3jz8oDGuIq.jpg)
 
   *The Quetzalcoatl* aka “Tecatl” is, like the Wyvern, a dragon which prefers to live in higher places, closer to the sun. It has a large amount of mana and energy, which allow it to stay in the air for a very long time.
 
@@ -105,11 +105,13 @@ links:
   - name: .steam
     uri: steam:1295900
   - name: .website
-    uri: https://kulplant.itch.io/dragon-island
+    uri: http://draconiagame.bjsolutions.co/wordpress/
   - name: .youtube
     uri: https://www.youtube.com/draconiagame
   - name: .twitter
     uri: twitter:draconia_game
+  - name: .discord
+    uri: https://discord.com/invite/draconiagame
 
 thumbnail: thumbnail.jpg
 
