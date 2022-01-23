@@ -4,9 +4,19 @@ brief-description: |
   Moving to another country for studies is a huge step, but also a chance for a new beginning. Two months into the first semester, you are about to take part in a science camp in a remote guesthouse above the Arctic Circle. There, you will meet a wide cast of characters, each with their own story.
 
 description: |
-  Dawn Chorus is a wholesome, non-linear romance furry visual novel set in the cold and snow-clad Norway. 
-
+  ![1](https://img.itch.zone/aW1nLzY2NjE3NjEucG5n/original/HQCXTS.png)
+  
+  **Dawn Chorus** is a wholesome, non-linear romance furry visual novel set in the cold and snow-clad Norway. 
+  
   Moving to another country for studies is a huge step, but also a chance for a new beginning. Two months into the first semester, you are about to take part in a science camp in a remote guesthouse above the Arctic Circle. There, you will meet a wide cast of characters, each with their own story. Will you choose to rekindle old friendships, deepen the bond with your acquaintances, or meet someone new? Will you uncover what secrets your friends might be hiding? And will those friendships blossom into something more?
+  
+  The game contains adult content and it meant to be played by adults only.
+  
+  ---
+  
+  The game is currently in development, with updates released monthly, near the end of the month, with each update first being available on Patreon and released publicly here a month later.
+  
+  If you would like to support the development of Dawn Chorus and gain access to the new updates on release, together with other benefits like sneak peeks or concept arts, check out our Patreon [here](https://www.patreon.com/DawnChorusVN).
 
 description-format: markdown
 
@@ -43,6 +53,7 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -62,6 +73,8 @@ links:
     uri: https://t.me/dawnchorusvn
   - name: .patreon
     uri: patreon:DawnChorusVN
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Dawn_Chorus-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
