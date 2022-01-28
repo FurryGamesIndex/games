@@ -356,6 +356,12 @@ rhino:
   explanation:
     en: 'Main characters include rhino furries'
     zh-cn: '主要角色包括犀牛兽人'
+    
+panda:
+  namespaces: [ male, female ]
+  explanation:
+    en: 'Main characters include panda furries'
+    zh-cn: '主要角色包括大熊貓兽人'
 
 ###################################################
 
