@@ -56,9 +56,9 @@ Games submitter and editor,
 Tags spec editor, 
 Chinese Documents.
 
-### BlueJett
+### 青木信史
 
-[Github](https://github.com/BlueJett)
+[Telegram](https://t.me/Aoki_Shinshi) | [Github](https://github.com/Aoki-Shinshi)
 
 Games submitter and editor.
 
