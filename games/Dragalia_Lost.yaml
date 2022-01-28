@@ -1,0 +1,104 @@
+name: Dragalia Lost
+
+brief-description: |
+  An action RPG forged by humans and dragons.
+  Conquer your enemies using an array of powerful attacks and special skills and even by transforming into a dragon yourself!
+
+description: |
+  ![1](https://dragalialost.com/app/wp-content/uploads/2021/02/baf7507ebf7ada7daff2f698fd17267e.jpg)
+  
+  Dragalia Lost is a swipe-controlled action RPG about the bonds shared between humans and dragons. Conquer your enemies using an array of powerful attacks and special skills and even by transforming into a dragon yourself!
+  
+  ---
+  
+  "Oh great dragon of fthe forest! If you can hear my voice, then heed my call. Grant me the pactstone's power!"
+
+  Alberia... A kingdom where dragons rule over nature. The Alberian royal family possesses the power of shapeshifting. By forming a pact with a dragon, they can borrow its form and wield its immense strength.
+
+  One day, the kingdom is met with a strange and most froubling occurrence. The power of the Sacred Shard that protects the city begins to weaken. In order to protect his people, the seventh prince of Alberia, not yet pactbound with a dragon, sets out on what's known as the Dragon Choosing.
+  
+  While he seeks a dragon to form a pact with, he' ll meet new companions-including a mysterious girl from another time-and face a sudden and inexplicable change in his own father, the king.
+  
+  Such are the chronicles of the bonds and battles that await the Dragonblood Prince.
+
+
+description-format: markdown
+
+authors:
+  - name: Cygame
+    role: [ producer ]
+  - name: Nintendo
+    role: [ publisher ]
+  - name: DAOKO
+    role: [ musician ]
+    
+tags:
+  type:
+    - visual-novel
+    - adventure
+    - action
+    - role-playing
+    - non-indie
+  male:
+    - humankind
+    - dragon
+    - lung
+    - bear
+    - panda
+    - bird
+    - wolf
+    - non-anthro
+  female:
+    - humankind
+    - dragon
+    - cat
+    - bear
+    - bird
+    - non-anthro
+  misc:
+    - freeware
+    - multiplayer
+    - co-op
+    - outside-furry-fandom
+    - not-only-furry-topic
+    - online
+    - centralized
+    - full-audio
+  lang:
+    - en
+    - zh
+    - ja
+  publish:
+    - google-play
+    - apple-appstore 
+  platform:
+    - android
+    - ios
+    
+links:
+  - name: .website
+    uri: https://dragalialost.com
+  - name: .twitter
+    uri: https://twitter.com/dragalialostapp
+  - name: .youtube
+    uri: https://www.youtube.com/channel/UC5eGagNBgJYiH2DCVbxTSIA/videos
+  - name: .play-store
+    uri: https://play.google.com/store/apps/details?id=com.nintendo.zaga
+  - name: .apple-appstore
+    uri: https://apps.apple.com/app/id1352230941
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://image.winudf.com/v2/image1/Y29tLm5pbnRlbmRvLnphZ2Ffc2NyZWVuXzBfMTYyMjA5MDU1NF8wMDU/screen-0.jpg?fakeurl=1&type=.jpg
+  - https://image.winudf.com/v2/image1/Y29tLm5pbnRlbmRvLnphZ2Ffc2NyZWVuXzFfMTYxNDIyNjg4NV8wNzQ/screen-1.jpg?fakeurl=1&type=.jpg
+  - https://image.winudf.com/v2/image1/Y29tLm5pbnRlbmRvLnphZ2Ffc2NyZWVuXzRfMTYwMjQ4Nzg1M18wMzU/screen-5.jpg?fakeurl=1&type=.jpg
+  - https://image.winudf.com/v2/image1/Y29tLm5pbnRlbmRvLnphZ2Ffc2NyZWVuXzVfMTYwMjQ4Nzg1NF8wOTE/screen-6.jpg?fakeurl=1&type=.jpg
+  - https://dragalialost.com/app/wp-content/uploads/2021/06/9fbe7b1b46b044ebb5461879a83be2a6.jpg
+  
+  - type: youtube
+    id: 9Cc2ol9m2wg
+  - type: youtube
+    id: F4l7kUmCcMA
+  - type: youtube
+    id: _UYbVnKX4Kg
