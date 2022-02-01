@@ -19,7 +19,7 @@
 ]]></description>
 <link>{{ www_link }}</link>
 <guid>{{ guid }}</guid>
-<pubDate>{{ ts_to_rfc5322(game.mtime) }}</pubDate>
+<pubDate>{{ ts_to_rfc5322(game.btime if game.btime else game.get_mtime(lang)) }}</pubDate>
 </item>
 {% endfor %}
 </channel>
