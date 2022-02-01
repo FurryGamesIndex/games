@@ -269,6 +269,9 @@ class RendererList(Renderer):
 
         context = self.new_context()
         if self.fctx.args.with_rss:
+            if not self.fctx.args.btime_file and \
+                    not self.fctx.args.mtime_has_fixed:
+                raise ValueError("--with-rss need --btime-file or --mtime-has-fixed")
             context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(self.games)).items(), 30)
             with open(self.getpath("feed.xml"), "w") as f:
                 f.write(self.env.get_template("rss_feed.xml").render(context))
