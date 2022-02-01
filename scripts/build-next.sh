@@ -45,6 +45,11 @@ init() {
 }
 
 build() {
+	local output="$1"
+	shift
+
+	echo "extra options: $*"
+
 	git branch --list "next-*" | while read -r branch ; do
 		git log --pretty='format:%H  %s' "..$branch" --reverse >> .patches_info
 		echo '' >> .patches_info
@@ -80,10 +85,9 @@ EOF
 		--images-candidate-webp \
 		--no-sitemap \
 		--extra-ui extraui \
-		--with-rss \
 		$UIMOD \
 		--plugin zhconv \
-		--plugin steam-cdn-unite,verbose=1 "$1"
+		--plugin steam-cdn-unite,verbose=1 "$@" "$output"
 	cat > "$1/robots.txt" <<EOF
 User-agent: *
 Disallow: /
@@ -97,7 +101,9 @@ init)
 	init "${2}"
 	;;
 build)
-	build "${2:-output-next}"
+	output="${2:-output-next}"
+	shift 2
+	build "$output" "$@"
 	;;
 clean-tree)
 	;;

@@ -62,6 +62,7 @@ jobs:
             --images-candidate-webp \
             --with-rss \
             --mtime-has-fixed \
+            --btime-file .cache/btime.json \
             --plugin steam-cdn-unite,verbose=1 \
             --plugin zhconv,critical \
             output

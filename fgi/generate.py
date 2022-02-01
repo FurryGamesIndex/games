@@ -229,14 +229,14 @@ class Generator:
             dir_util.copy_tree(self.assets_path, os.path.join(self.output, "assets"))
             dir_util.copy_tree(self.icon_path, os.path.join(self.output, "icons"))
 
+        if self.args.btime_file:
+            with open(self.args.btime_file) as f:
+                self.btime_data = json.load(f)
+
         self.authors = self.load_author_all()
         self.games = self.load_game_all()
 
         self.base_l10n = uil10n_load_base(self, self.dir_uil10n)
-
-        if self.args.btime_file:
-            with open(self.args.btime_file) as f:
-                self.btime_data = json.load(f)
 
         self.lctx = {
             "os": os,

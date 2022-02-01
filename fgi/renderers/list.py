@@ -24,7 +24,7 @@ from datetime import datetime, timezone
 import email.utils
 
 from fgi.renderer import Renderer
-from fgi.base import sorted_games_by_mtime, strip_games_expunge, make_wrapper
+from fgi.base import sorted_games_by_bmtime_g, strip_games_expunge_g, make_wrapper
 from fgi.game import Tag
 
 def ts_to_rfc5322(ts):
@@ -272,7 +272,12 @@ class RendererList(Renderer):
             if not self.fctx.args.btime_file and \
                     not self.fctx.args.mtime_has_fixed:
                 raise ValueError("--with-rss need --btime-file or --mtime-has-fixed")
-            context["games"] = islice(strip_games_expunge(sorted_games_by_mtime(self.games)).items(), 30)
+
+            use_btime = False
+            if self.fctx.args.btime_file:
+                use_btime = True
+
+            context["games"] = islice(strip_games_expunge_g(sorted_games_by_bmtime_g(self.games.items() ,use_btime, self.language)), 30)
             with open(self.getpath("feed.xml"), "w") as f:
                 f.write(self.env.get_template("rss_feed.xml").render(context))
 

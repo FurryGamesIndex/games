@@ -32,6 +32,17 @@ def sorted_games(games):
 def sorted_games_by_mtime(games):
     return dict(sorted(games.items(), key=lambda t: t[1].mtime, reverse=True))
 
+def sorted_games_by_bmtime_g(games, use_btime, ln):
+    if use_btime:
+        yield from sorted(games, key=lambda t: t[1].btime, reverse=True)
+    else:
+        yield from sorted(games, key=lambda t: t[1].get_mtime(ln), reverse=True)
+
+def strip_games_expunge_g(games):
+    for k, v in games:
+        if not v.expunge:
+            yield k, v
+
 def strip_games_expunge(games):
     return { k: v for k, v in games.items() if not v.expunge }
 
