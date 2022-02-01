@@ -92,6 +92,8 @@ class Generator:
         self.stylesheets = dict()
         self.author_game_map = dict()
 
+        self.btime_data = None
+
     def load_game(self, f):
         game = None
         fn = os.path.join(self.dbdir, f)
@@ -123,7 +125,7 @@ class Generator:
             if game:
                 self.pmgr.invoke_plugins("loader_pre_game_realize", self, game)
 
-                game.realize(self.tagmgr, self.mfac, self.ifac, self.authors)
+                game.realize(self.tagmgr, self.mfac, self.ifac, self.authors, self.btime_data)
                 games[game.id] = game
 
                 for i in game.authors:
@@ -231,6 +233,10 @@ class Generator:
         self.games = self.load_game_all()
 
         self.base_l10n = uil10n_load_base(self, self.dir_uil10n)
+
+        if self.args.btime_file:
+            with open(self.args.btime_file) as f:
+                self.btime_data = json.load(f)
 
         self.lctx = {
             "os": os,

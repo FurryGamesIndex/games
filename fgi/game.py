@@ -155,6 +155,7 @@ class Game:
         self.tr = dict()
         self.id = gid
         self.mtime = mtime
+        self.btime = None
 
         self.tags = data["tags"]
 
@@ -230,7 +231,7 @@ class Game:
                 if i in games:
                     raise ValueError(f"Old id '{i}' of game {self.id} conflict exist game")
 
-    def realize(self, tagmgr, mfac, ifac, authors):
+    def realize(self, tagmgr, mfac, ifac, authors, btime_data):
         tagmgr.check_and_patch(self)
 
         self.description.realize(mfac)
@@ -274,6 +275,12 @@ class Game:
             self.media.append(media)
             if media.sensitive:
                 self.sensitive_media = True
+
+        if btime_data:
+            if self.id not in btime_data:
+                raise ValueError(f"Birth time of {self.id} is missing, consider rebuilding")
+
+            self.btime = btime_data[self.id]
 
     def _get(self, ln: str, key: str):
         if ln in self.tr:
