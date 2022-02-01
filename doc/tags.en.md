@@ -2,6 +2,10 @@
 
 If you want to add new tags, welcome to create issues for discussion.
 
+## Namespace author
+
+Indicate the full name of the author, the official English name of the author is preferred.
+
 
 ## Namespace type
 
@@ -32,7 +36,7 @@ Used to describe the type of game
 - `tragedy` STUB
 - `horror` STUB
 
-## Namespace male/female
+## Namespace species
 
 Describe kinds and feature of furries and humans
 
@@ -61,7 +65,6 @@ The following are automatic tags, they are no different from other tags when you
 - `monkey` Main characters include monkey furries
 - `bull` Main characters include bull furries (only in namespace male)
 - `cow` Main characters include cow furries (only in namespace female)
-- `rhino` Main characters include rhino furries
 - `sheep` Main characters include sheep furries
 - `horse` Main characters include horse furries
 - `rabbit` Main characters include rabbit furries
@@ -79,6 +82,8 @@ The following are automatic tags, they are no different from other tags when you
 - `hedgehog` Main characters include hedgehog furries
 - `frog` Main characters include frog furries
 - `beaver` Main characters include beaver furries
+- `rhino` Main characters include rhino furries
+- `panda` Main characters include panda furries
 
 ### Biological species: Felidae
 
@@ -118,7 +123,6 @@ The following are automatic tags, they are no different from other tags when you
 - `weasel` Main characters include weasel furries
     - This tag implicate (depend on) these tags: `mustelidae`
 - `ferret` Main characters include ferret furries
-    - This tag implicate (depend on) these tags: `mustelidae`
 
 ### Biological species: Reptilia
 
@@ -136,7 +140,9 @@ The following are automatic tags, they are no different from other tags when you
 - `non-anthro` Main characters include non-anthro furries
 - `funny-animal` STUB
 
-### Non species
+## Namespace fetish
+
+Fetish
 
 - `futanari` Main characters include futanari (usually set into namespace female)
 - `males-only` Main characters are all males (only in namespace male)
