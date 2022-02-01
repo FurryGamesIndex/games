@@ -3,3 +3,4 @@ output
 output-*
 extraui
 .*.swp
+.cache

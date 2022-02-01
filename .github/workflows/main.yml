@@ -32,9 +32,22 @@ jobs:
         python3 --version
         cwebp -version
 
+        mkdir -p .cache
+
+    - name: cache
+      uses: actions/cache@v2
+      with:
+        path: |
+          .cache
+        key: FGI-main-cache
+
     - name: fix-mtime
       run: |
         ./scripts/fix-mtime.sh
+
+    - name: update-btime
+      run: |
+        ./scripts/update-btime.py games .cache/btime.json
 
     - name: lint
       env:
@@ -52,6 +65,8 @@ jobs:
             --plugin steam-cdn-unite,verbose=1 \
             --plugin zhconv,critical \
             output
+        mkdir -p output/_internal
+        cp .cache/btime.json output/_internal/btime.json
 
     - name: ssh-key
       uses: shimataro/ssh-key-action@v2
