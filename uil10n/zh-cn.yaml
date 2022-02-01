@@ -88,7 +88,7 @@ preferences_steam_widget_h2: Steam 商店小部件（Steam Store Widget）
 preferences_steam_widget: 显示 Steam Store Widget
 preferences_steam_widget_tip: 如果可能的话，将在游戏页面上显示 Steam Store Widget。这可能便于您直接在 FGI 上查看游戏在 Steam 的当前售价，但请注意，Steam Store Widget 可能会使用第三方 Cookies 跟踪你。<a target="_blank" href="https://store.steampowered.com/privacy_agreement/">Valve 隐私政策协议</a>。
 
-rss_desc: RSS Feed 将以时间顺序推送最近添加或编辑的 30 个游戏界面
+rss_desc: RSS Feed 将以时间顺序推送最近添加到 FGI 的 50 个游戏条目。
 
 stock-link-website: 官方网站
 stock-link-release-page: 发布页面

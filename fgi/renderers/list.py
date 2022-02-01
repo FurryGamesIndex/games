@@ -277,7 +277,7 @@ class RendererList(Renderer):
             if self.fctx.args.btime_file:
                 use_btime = True
 
-            context["games"] = islice(strip_games_expunge_g(sorted_games_by_bmtime_g(self.games.items() ,use_btime, self.language)), 30)
+            context["games"] = islice(strip_games_expunge_g(sorted_games_by_bmtime_g(self.games.items() ,use_btime, self.language)), 50)
             with open(self.getpath("feed.xml"), "w") as f:
                 f.write(self.env.get_template("rss_feed.xml").render(context))
 

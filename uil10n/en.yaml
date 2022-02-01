@@ -89,7 +89,7 @@ preferences_steam_widget_h2: Steam Store Widget
 preferences_steam_widget: Show Steam Store Widget
 preferences_steam_widget_tip: If possible, the Steam Store Widget will be displayed on the game page. This may make it easier for you to see the current price of the game sell on Steam directly on FGI, but please note that the Steam Store Widget may use third-party cookies to track you. <a target="_blank" href="https://store.steampowered.com/privacy_agreement/">Valve Privacy Policy Agreement</a>.
 
-rss_desc: RSS Feed will push the last 30 game pages added or edited in chronological order.
+rss_desc: RSS Feed will push the 50 most recent game entries added to FGI in chronological order.
 
 stock-link-website: Official Website
 stock-link-release-page: Release page
