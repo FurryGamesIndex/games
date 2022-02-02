@@ -85,22 +85,31 @@ properties:
               - others
       required: [ name, role ]
   tags:
-    type: object
-    title: TagDict
-    description: |
-      The tags of the game.
-    patternProperties:
-      "":
-        type: array
-        title: NamespaceTagArray
+    oneOf:
+      - type: array
+        title: TagArray
         description: |
-          The key is the namespace name. Must be defined in `tags.yaml`.
-
-          The value is a array of tags in the namespace.
+          New Tag List, namespaces will be added automatically.
         items:
           type: string
           description: |
             The tags name. Must be defined in `tags.yaml`.
+      - type: object
+        title: TagDict
+        description: |
+          The tags of the game.
+        patternProperties:
+          "":
+            type: array
+            title: NamespaceTagArray
+            description: |
+              The key is the namespace name. Must be defined in `tags.yaml`.
+
+              The value is a array of tags in the namespace.
+            items:
+              type: string
+              description: |
+                The tags name. Must be defined in `tags.yaml`.
   links:
     type: array
     items:
