@@ -9,6 +9,12 @@ os.environ["LANG"] = "C.UTF-8"
 os.environ["LANGUAGE"] = ""
 os.environ["LC_ALL"] = ""
 
+# should make git as traceable as possible, try not to use this dirty hack
+freezed_fixes = {
+    "Magic_Sword_for_Kamonegigo": 1591094877,
+    "Once_Upon_a_Breeze": 1592026205,
+}
+
 def get_btime_from_git(fn):
     cmd = [ "git", "log", "--diff-filter=A", "--follow", "--format=%ct", "-1", "--", fn ]
     btime_str = subprocess.check_output(cmd).decode('utf-8').rstrip()
@@ -38,7 +44,10 @@ for f in os.listdir(dirname):
     fn = os.path.join(dirname, f)
     if os.path.isfile(fn) and f.endswith(".yaml"):
         game_id = os.path.splitext(f)[0]
-        if game_id not in data:
+        if game_id in freezed_fixes:
+            print(f"[warning] Use freezed data for '{game_id}'")
+            data[game_id] = freezed_fixes[game_id]
+        elif game_id not in data:
             print(f"=> {game_id}")
             data[game_id] = get_btime_from_git(fn)
 
