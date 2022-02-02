@@ -163,6 +163,9 @@ list-klass-status: "Status:"
 list-klass-status-all: All
 list-klass-status-released: Released
 list-klass-status-others: Others
+list-klass-order: "Order:"
+list-klass-order-alpha: Alphabetical
+list-klass-order-btime: Latest posted first
 list-klass-view: "View:"
 list-klass-view-standard: Standard
 list-klass-view-complex: Complex

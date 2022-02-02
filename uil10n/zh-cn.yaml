@@ -158,6 +158,9 @@ list-klass-status: 状态：
 list-klass-status-all: 全部
 list-klass-status-released: 已发布
 list-klass-status-others: 其他
+list-klass-order: 排序：
+list-klass-order-alpha: 字母顺序
+list-klass-order-btime: 最近加入
 list-klass-view: 视图：
 list-klass-view-standard: 标准
 list-klass-view-complex: 复杂
