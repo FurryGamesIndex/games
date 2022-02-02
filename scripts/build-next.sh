@@ -55,7 +55,7 @@ build() {
 		echo '' >> .patches_info
 	done
 
-	cat .patches_info | while read -r i ; do
+	awk '!seen[$0]++' .patches_info | while read -r i ; do
 		echo "Applying patch $i"
 		i="${i%% *}"
 		git diff-tree -p --binary "$i" | git apply
@@ -88,7 +88,7 @@ EOF
 		$UIMOD \
 		--plugin zhconv \
 		--plugin steam-cdn-unite,verbose=1 "$@" "$output"
-	cat > "$1/robots.txt" <<EOF
+	cat > "$output/robots.txt" <<EOF
 User-agent: *
 Disallow: /
 EOF
