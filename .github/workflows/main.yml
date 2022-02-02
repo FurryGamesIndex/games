@@ -124,7 +124,7 @@ jobs:
     - name: next-build
       run: |
         ./scripts/build-next.sh init origin
-        ./scripts/build-next.sh build output-next && echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}" || true
+        ./scripts/build-next.sh build output-next --btime-file .cache/btime.json --mtime-has-fixed --with-rss && echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}" || true
 
     - name: next-deploy
       if: ${{ env.FGI_NEXT_DONE == '1' }}
