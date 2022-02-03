@@ -5,7 +5,7 @@
 <main class="main_search">
 	<select id="search_mode">
 		<option value="title">{{ ui.search_form_mode_title }}</option>
-		<option value="tindes">{{ ui.search_form_mode_tindes }}</option>
+		<!--<option value="tindes">{{ ui.search_form_mode_tindes }}</option>-->
 		<option value="tagx">{{ ui.search_form_mode_tag }}</option>
 		<option style="display: none;" value="tag">STAG (LEGACY)</option>
 	</select>
@@ -121,6 +121,15 @@ let onload = async () => {
 					switch (args.sortedBy) {
 					case "lastmod":
 						return searchdb.data[args.secondElm].mtime - searchdb.data[args.firstElm].mtime;
+						break;
+					case "lastpost": {
+							const fbt = searchdb.data[args.firstElm].btime,
+								sbt = searchdb.data[args.secondElm].btime;
+							if (!fbt || !sbt) {
+								throw "lastpost order need FGI built with --btime-file option.";
+							}
+							return sbt - fbt;
+						}
 						break;
 					default:
 						throw "unknown sortedBy arg: " + args.sortedBy;

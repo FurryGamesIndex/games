@@ -135,6 +135,7 @@ const interpreter = (tokens, pos, callback) => {
 			return new Set([...s].reverse());
 			break;
 		case "lastmod":
+        case "lastpost":
 			return new Set([...s].sort((fe, se) => {
 				return callback("$sortcmpr", {
 					sortedBy: cmd,
