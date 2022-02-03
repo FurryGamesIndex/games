@@ -51,6 +51,7 @@ class SearchDatabase:
         data["brief"] = game.description.brief_html
         data["thumbnail"] = game.thumbnail.dict()
         data["mtime"] = game.mtime
+        data["btime"] = game.btime
 
         for lang in game.tr:
             data["tr"][lang] = {}
