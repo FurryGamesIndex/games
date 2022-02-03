@@ -213,8 +213,15 @@ class RendererList(Renderer):
                 Tag("misc", "died"),
                 Tag("misc", "suspended"),
             ]))
-            """
             klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=klass_status.filters[1:].copy()))
+            """
+            klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=[
+                ListFilterTag('F', "status-others", tags=[
+                    Tag("misc", "work-in-process"),
+                    Tag("misc", "died"),
+                    Tag("misc", "suspended"),
+                ])
+            ]))
 
             self.klasses.append(klass_status)
 
