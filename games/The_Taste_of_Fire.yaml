@@ -3,8 +3,6 @@ name: The Taste of Fire
 description: |
   You play Sam (name can be modified), a young man who is yearning for a better life.  As he sets out on a journey to change his life he is saved by none other than a dragon, who shares his ambitions as he embarks on a journey to change his life too. With this new found acquaintanceship, are these plans still set?
 
-description-format: markdown
-
 author:
   - name: Rotshild
     role: [ screenwriter ]
@@ -22,11 +20,17 @@ tags:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - humankind
+    - rhino
     - dragon
     - bull
+    - fox
+  fetish:
+    - males-only
     - muscle
+    - blowjob
+    - netorare
   misc:
     - freeware
     - uncensored
