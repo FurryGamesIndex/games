@@ -24,7 +24,7 @@ authors:
     role: [ screenwriter ]
   - name: HelloAnonMyOldFriend
     standalone: true
-    avatar: HelloAnonMyOldFriend.jpg
+    avatar: HelloAnonMyOldFriend.png
     link-uri: twitter:HelloAnonMOF
     role: [ musician ]
 
@@ -34,7 +34,7 @@ tags:
     - adventure
     - bara
     - yiff
-  male:
+  species:
     - bull
     - shark
     - dragon
@@ -43,6 +43,11 @@ tags:
     - wolf
     - lizard
     - snake
+    - deer
+    - horse
+    - dog
+    - lion
+  fetish:
     - males-only
     - muscle
     - anal
