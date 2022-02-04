@@ -24,15 +24,15 @@ from datetime import datetime, timezone
 import email.utils
 
 from fgi.renderer import Renderer
-from fgi.base import sorted_games_by_bmtime_g, strip_games_expunge_g, make_wrapper
+from fgi.base import games_g, sorted_games_by_bmtime_g, strip_games_expunge_g, sorted_games_by_btime_g, make_wrapper
 from fgi.game import Tag
 
 def ts_to_rfc5322(ts):
     dt = datetime.fromtimestamp(ts, tz=timezone.utc)
     return email.utils.format_datetime(dt)
 
-def list_games(games, chain):
-    for gid, game in games.items():
+def list_games(games, chain, lowlevel_gen):
+    for gid, game in lowlevel_gen(games.items()):
         if game.expunge or \
                 game.replaced_by:
             continue
@@ -62,10 +62,11 @@ class ListKlass:
         self.filters.append(filteR)
 
 class ListFilter:
-    def __init__(self, magic, nameid, template = None):
+    def __init__(self, magic, nameid, template = None, sort = None):
         self.magic = magic
         self.nameid = nameid
         self.template = template
+        self.sort = sort
 
     def __call__(self, game):
         return True
@@ -144,13 +145,16 @@ class RendererList(Renderer):
             klass_genre.add(ListFilterTag('s', "genre-shooter", tags=[
                 Tag("type", "shooter"),
             ]))
+            """
             klass_genre.add(ListFilterTag('p', "genre-puzzle", tags=[
                 Tag("type", "puzzle"),
             ]))
+            """
             klass_genre.add(ListFilterAllNot('o', "genre-others", inputs=klass_genre.filters[1:].copy()))
 
             self.klasses.append(klass_genre)
 
+            """
             klass_orientation = ListKlass("orientation")
             klass_orientation.add(ListFilter('', "orientation-all"))
             klass_orientation.add(ListFilterTag('g', "orientation-bara", tags=[
@@ -199,17 +203,33 @@ class RendererList(Renderer):
             ]))
 
             self.klasses.append(klass_platform)
+            """
 
             klass_status = ListKlass("status")
             klass_status.add(ListFilter('', "status-all"))
+            """
             klass_status.add(ListFilterTag('F', "status-others", tags=[
                 Tag("misc", "work-in-process"),
                 Tag("misc", "died"),
                 Tag("misc", "suspended"),
             ]))
             klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=klass_status.filters[1:].copy()))
+            """
+            klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=[
+                ListFilterTag('F', "status-others", tags=[
+                    Tag("misc", "work-in-process"),
+                    Tag("misc", "died"),
+                    Tag("misc", "suspended"),
+                ])
+            ]))
 
             self.klasses.append(klass_status)
+
+        klass_order = ListKlass("order")
+        klass_order.add(ListFilter('', "order-alpha"))
+        if self.fctx.args.btime_file:
+            klass_order.add(ListFilter('b', "order-btime", sort=sorted_games_by_btime_g))
+        self.klasses.append(klass_order)
 
         klass_view = ListKlass("view")
         klass_view.add(ListFilter('', "view-standard", template="list.html"))
@@ -239,11 +259,14 @@ class RendererList(Renderer):
 
         for chain in chains:
             template = None
+            sort = games_g
             magic = ""
 
             for f in chain:
                 if f.template:
                     template = f.template
+                if f.sort:
+                    sort = f.sort
 
                 magic = magic + f.magic
 
@@ -263,7 +286,7 @@ class RendererList(Renderer):
             context['klassmagics'] = klassmagics
             context["chain"] = chain
             context["chain_set"] = set(chain)
-            context["games"] = list_games(self.games, chain)
+            context["games"] = list_games(self.games, chain, sort)
             with self.sm_openw(f"list{magic}.html", sm = not noindex, priority="0.6") as f:
                 f.write(self.env.get_template(template).render(context))
 

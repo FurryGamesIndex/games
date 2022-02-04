@@ -23,6 +23,9 @@ import yaml
 from fgi.utils.uriutils import append_query
 
 
+def games_g(games):
+    yield from games
+
 def sorted_games_name(games):
     return sorted(games, key=lambda t: t.replace("_", "").upper())
 
@@ -31,6 +34,9 @@ def sorted_games(games):
 
 def sorted_games_by_mtime(games):
     return dict(sorted(games.items(), key=lambda t: t[1].mtime, reverse=True))
+
+def sorted_games_by_btime_g(games):
+    yield from sorted(games, key=lambda t: t[1].btime, reverse=True)
 
 def sorted_games_by_bmtime_g(games, use_btime, ln):
     if use_btime:
