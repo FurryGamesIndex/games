@@ -332,11 +332,13 @@ In the screenshot section of the game, you can insert other media related to the
 - Embed YouTube videos
 
 	```
+	screenshots:
 	  - type: youtube
-	    uri: youtube:<ID>
+	    id: <ID>
 	```
-
 	The ID is the video ID, which can be obtained from the video link: `https://www.youtube.com/watch?v=<ID>` or `https://youtu.be/<ID>`
+	
+	> You may have seen some description files using `uri: youtube:<ID>` as formating, this is a old syntax which shouldn't be used in new edited description file.
 
 - Embed HTML video embedded elements
 
