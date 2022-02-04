@@ -94,15 +94,15 @@ stock-link-website: 官方网站
 stock-link-release-page: 发布页面
 stock-link-play-on-web: 在 Web 浏览器中游玩
 stock-link-steam: 在 Steam 上获取
-stock-link-epic: 在 Epic 上获取
+stock-link-epic: 在 Epic Games Store 上获取
 stock-link-itch.io: 在 itch.io 上获取
-stock-link-booth: 在 booth 上获取
-stock-link-digiket: 在 Digiket 上获取
+stock-link-booth: 在 BOOTH 上获取
+stock-link-digiket: 在 DiGiket 上获取
 stock-link-dlsite: 在 DLsite 上获取
 stock-link-play-store: 在 Google Play 上获取
-stock-link-apple-appstore: 在 Apple appstore 上获取
-stock-link-nintendo-e-shop: 在 Nintendo E-Shop 上获取
-stock-link-gog.com: 在 gog.com 上获取
+stock-link-apple-appstore: 在 App Store 上获取
+stock-link-nintendo-e-shop: 在 Nintendo eShop 上获取
+stock-link-gog.com: 在 GOG.com 上获取
 stock-link-microsoft-store: 在 Microsoft Store 上获取
 stock-link-twitter: 官方 Twitter
 stock-link-furaffinity: 官方 FurAffinity
@@ -117,7 +117,7 @@ stock-link-unofficial-patch-zh: 非官方中文补丁
 stock-link-unofficial-version-zh: 非官方中文版本
 stock-link-demo-version: 获取演示版本
 stock-link-demo-version-steam: 从 Steam 获取演示版本
-stock-link-demo-version-gog.com: 从 gog.com 获取演示版本
+stock-link-demo-version-gog.com: 从 GOG.com 获取演示版本
 stock-link-unofficial-archived-download: 下载（非官方存档）
 
 author-role-producer: 制作

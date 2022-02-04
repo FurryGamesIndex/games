@@ -289,15 +289,15 @@ FGI 支持的库存链接包括以下几个：
 - `.website`: 官方网站
 - `.release-page`: 发布页面
 - `.steam`: 在 Steam 上获取
-- `.epic`: 在 Epic 上获取
+- `.epic`: 在 Epic Games Store 上获取
 - `.itch.io`: 在 itch.io 上获取
-- `.booth`: 在 booth 上获取
-- `.digiket`: 在 digiket 上获取
+- `.booth`: 在 BOOTH 上获取
+- `.digiket`: 在 DiGiket 上获取
 - `.play-store`: 在 Google Play 上获取
-- `.apple-appstore`: 在 Apple appstore 上获取
-- `.nintendo-e-shop`: 在 Nintendo E-Shop 上获取
-- `.playstation-store`: Playstation
-- `.gog.com`: 在 gog.com 上获取
+- `.apple-appstore`: 在 App Store 上获取
+- `.nintendo-e-shop`: 在 Nintendo eShop 上获取
+- `.playstation-store`: 在 PlayStation Store 上获取
+- `.gog.com`: 在 GOG.com 上获取
 - `.microsoft-store`: 在 Microsoft Store 上获取
 - `.twitter`: 官方 Twitter
 - `.furaffinity`: 官方 FurAffinity
@@ -315,7 +315,7 @@ FGI 支持的库存链接包括以下几个：
 - `.unofficial-version-zh`: 非官方中文版本
 - `.demo-version`: 获取演示版本
 - `.demo-version-steam`: 从 Steam 获取演示版本
-- `.demo-version-gog.com`: 从 gog.com 获取演示版本
+- `.demo-version-gog.com`: 从 GOG.com 获取演示版本
 - `.unofficial-archived-download`: 下载（非官方存档）
 
 当你使用库存链接时，你就无需写这么一段长字，而且无需为每种语言写一份，因为库存链接是固定的，每种语言都可以自动处理。

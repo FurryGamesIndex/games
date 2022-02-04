@@ -284,20 +284,20 @@ Fetish
 用于说明游戏发布在哪里
 
 - `steam` 游戏在 Steam 上有发布
-- `epic` 游戏在 Epic 上有发布
+- `epic` 游戏在 Epic Games Store 上有发布
 - `itchio` 游戏在 itch.io 上有发布
     - 此标签有这些别名：`itch-io`, `itch`
 - `patreon` 游戏在 Patreon 上有发布
 - `booth` 游戏在 BOOTH 上有发布
 - `digiket` 游戏在 DiGiket 上有发布
 - `website` 游戏在其网站上有发布
-- `google-play` 游戏在 Google Play 商店上有发布
-- `apple-appstore` 游戏在 Apple appstore 上有发布
-- `e-shop` 游戏在 Nintendo E-Shop 上有发布
+- `google-play` 游戏在 Google Play 上有发布
+- `apple-appstore` 游戏在 App Store 上有发布
+- `e-shop` 游戏在 Nintendo eShop 上有发布
     - 此标签有这些别名：`nintendo-e-shop`
-- `gog` 游戏在 gog.com 商店上有发布
+- `gog` 游戏在 GOG.com 上有发布
     - 此标签有这些别名：`gog-com`
-- `microsoft-store` 游戏在 Microsoft Store 商店上有发布
+- `microsoft-store` 游戏在 Microsoft Store 上有发布
 
 ## platform 命名空间
 

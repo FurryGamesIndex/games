@@ -1244,7 +1244,7 @@ epic:
   namespaces: [ publish ]
   explanation:
     en: 'Self-pleasuring.'
-    zh-cn: '游戏在 Epic 上有发布'
+    zh-cn: '游戏在 Epic Games Store 上有发布'
 
 itchio:
   namespaces: [ publish ]
@@ -1281,33 +1281,33 @@ google-play:
   namespaces: [ publish ]
   explanation:
     en: 'Self-pleasuring.'
-    zh-cn: '游戏在 Google Play 商店上有发布'
+    zh-cn: '游戏在 Google Play 上有发布'
 
 apple-appstore:
   namespaces: [ publish ]
   explanation:
     en: 'Self-pleasuring.'
-    zh-cn: '游戏在 Apple appstore 上有发布'
+    zh-cn: '游戏在 App Store 上有发布'
 
 e-shop:
   namespaces: [ publish ]
   alias: [ nintendo-e-shop ]
   explanation:
     en: 'Self-pleasuring.'
-    zh-cn: '游戏在 Nintendo E-Shop 上有发布'
+    zh-cn: '游戏在 Nintendo eShop 上有发布'
 
 gog:
   namespaces: [ publish ]
   alias: [ gog-com ]
   explanation:
     en: 'Self-pleasuring.'
-    zh-cn: '游戏在 gog.com 商店上有发布'
+    zh-cn: '游戏在 GOG.com 上有发布'
 
 microsoft-store:
   namespaces: [ publish ]
   explanation:
     en: 'Self-pleasuring.'
-    zh-cn: '游戏在 Microsoft Store 商店上有发布'
+    zh-cn: '游戏在 Microsoft Store 上有发布'
 
 
 ###################################################

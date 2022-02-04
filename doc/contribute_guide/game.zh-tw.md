@@ -289,15 +289,15 @@ FGI 支援的庫存連結包括以下幾個：
 - `.website`: 官方網站
 - `.release-page`: 釋出頁面
 - `.steam`: 在 Steam 上獲取
-- `.epic`: 在 Epic 上獲取
+- `.epic`: 在 Epic Games Store 上獲取
 - `.itch.io`: 在 itch.io 上獲取
-- `.booth`: 在 booth 上獲取
-- `.digiket`: 在 digiket 上獲取
+- `.booth`: 在 BOOTH 上獲取
+- `.digiket`: 在 DiGiket 上獲取
 - `.play-store`: 在 Google Play 上獲取
-- `.apple-appstore`: 在 Apple appstore 上獲取
-- `.nintendo-e-shop`: 在 Nintendo E-Shop 上獲取
-- `.playstation-store`: Playstation
-- `.gog.com`: 在 gog.com 上獲取
+- `.apple-appstore`: 在 App Store 上獲取
+- `.nintendo-e-shop`: 在 Nintendo eShop 上獲取
+- `.playstation-store`: 在 PlayStation Store 上獲取
+- `.gog.com`: 在 GOG.com 上獲取
 - `.microsoft-store`: 在 Microsoft Store 上獲取
 - `.twitter`: 官方 Twitter
 - `.furaffinity`: 官方 FurAffinity
@@ -315,7 +315,7 @@ FGI 支援的庫存連結包括以下幾個：
 - `.unofficial-version-zh`: 非官方中文版本
 - `.demo-version`: 獲取演示版本
 - `.demo-version-steam`: 從 Steam 獲取演示版本
-- `.demo-version-gog.com`: 從 gog.com 獲取演示版本
+- `.demo-version-gog.com`: 從 GOG.com 獲取演示版本
 - `.unofficial-archived-download`: 下載（非官方存檔）
 
 當你使用庫存連結時，你就無需寫這麼一段長字，而且無需為每種語言寫一份，因為庫存連結是固定的，每種語言都可以自動處理。

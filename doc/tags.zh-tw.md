@@ -284,20 +284,20 @@ Fetish
 用於說明遊戲釋出在哪裡
 
 - `steam` 遊戲在 Steam 上有釋出
-- `epic` 遊戲在 Epic 上有釋出
+- `epic` 遊戲在 Epic Games Store 上有釋出
 - `itchio` 遊戲在 itch.io 上有釋出
     - 此標籤有這些別名：`itch-io`, `itch`
 - `patreon` 遊戲在 Patreon 上有釋出
 - `booth` 遊戲在 BOOTH 上有釋出
 - `digiket` 遊戲在 DiGiket 上有釋出
 - `website` 遊戲在其網站上有釋出
-- `google-play` 遊戲在 Google Play 商店上有釋出
-- `apple-appstore` 遊戲在 Apple appstore 上有釋出
-- `e-shop` 遊戲在 Nintendo E-Shop 上有釋出
+- `google-play` 遊戲在 Google Play 上有釋出
+- `apple-appstore` 遊戲在 App Store 上有釋出
+- `e-shop` 遊戲在 Nintendo eShop 上有釋出
     - 此標籤有這些別名：`nintendo-e-shop`
-- `gog` 遊戲在 gog.com 商店上有釋出
+- `gog` 遊戲在 GOG.com 上有釋出
     - 此標籤有這些別名：`gog-com`
-- `microsoft-store` 遊戲在 Microsoft Store 商店上有釋出
+- `microsoft-store` 遊戲在 Microsoft Store 上有釋出
 
 ## platform 名稱空間
 

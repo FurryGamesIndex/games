@@ -95,16 +95,16 @@ stock-link-website: Official Website
 stock-link-release-page: Release page
 stock-link-play-on-web: Play on Web
 stock-link-steam: Get on Steam
-stock-link-epic: Get on Epic
+stock-link-epic: Get on Epic Games Store
 stock-link-itch.io: Get on itch.io
-stock-link-booth: Get on booth
-stock-link-digiket: Get on Digiket
+stock-link-booth: Get on BOOTH
+stock-link-digiket: Get on DiGiket
 stock-link-dlsite: Get on DLsite
 stock-link-play-store: Get on Google Play
-stock-link-apple-appstore: Get on Apple Appstore
-stock-link-nintendo-e-shop: Get on Nintendo E-Shop
-stock-link-playstation-store: Playstation
-stock-link-gog.com: Get on gog.com
+stock-link-apple-appstore: Get on App Store
+stock-link-nintendo-e-shop: Get on Nintendo eShop
+stock-link-playstation-store: Get on PlayStation Store
+stock-link-gog.com: Get on GOG.com
 stock-link-microsoft-store: Get on Microsoft Store
 stock-link-twitter: Official Twitter
 stock-link-furaffinity: Official FurAffinity
@@ -122,7 +122,7 @@ stock-link-unofficial-patch-zh: Unofficial Chinese patch
 stock-link-unofficial-version-zh: Unofficial Chinese version
 stock-link-demo-version: Get Demo version
 stock-link-demo-version-steam: Get Demo version from Steam
-stock-link-demo-version-gog.com: Get Demo version from gog.com
+stock-link-demo-version-gog.com: Get Demo version from GOG.com
 stock-link-unofficial-archived-download: Download (Unofficial archive)
 
 author-role-producer: Producer
