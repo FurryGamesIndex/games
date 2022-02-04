@@ -1,0 +1,94 @@
+name: Monster Quest Seven Sins / Aola Star Global
+
+brief-description: |
+  Ultimate Monster RPG!
+  Catch monsters and battle across the Dimensions!
+  
+description: |
+  ![1](https://res.cloudinary.com/mephistostudio/image/upload/v1609481039/Info/Dec%2023%20Update/Screenshot_20201224-132509_Monster_Quest_Seven_Sins_khjjvt.jpg)
+  
+  Thousands of years ago, a huge force detonated the universe, and the Original Hero King left the only relic-the Emperor's Tome Shard, which sealed the power of creation and destruction.
+
+  The legendary fated one will come to Aurora Planet and experience the dynamic story surrounding the relic. Begin your adventure with ultimate monsters in Aurora Planet！
+  
+  ![1](http://img4.a0bi.com/upload/articleResource/20180930/1538310094018.jpg)
+  
+description-format: markdown
+
+authors:
+  - name: BAIOO Family
+    role: [ producer ]
+    
+tags:
+  type:
+    - strategy
+    - role-playing
+    - adventure
+    - non-indie
+  species:
+    - humankind
+    - non-anthro
+    - dragon
+    - lung
+    - wolf
+    - cat
+    - dog
+    - tiger
+  misc:
+    - 3d
+    - freeware
+    - multiplayer
+    - pvp
+    - co-op
+    - outside-furry-fandom
+    - not-only-furry-topic
+    - geographical
+    - online
+    - centralized
+    - full-audio
+  lang:
+    - zh
+  publish:
+    - google-play
+    - apple-appstore 
+  platform:
+    - android
+    - ios
+    
+links:
+  - name: .facebook
+    uri: https://www.facebook.com/MQSS2020
+  - name: .play-store
+    uri: https://play.google.com/store/apps/details?id=com.ubj.alx.gp
+  - name: .apple-appstore
+    uri: https://apps.apple.com/app/id1504375800
+    
+
+  - name: Official Website (China)
+    icon: website
+    uri: http://www.100bt.com/alx/main.html
+  - name: Official Bilibili (China)
+    uri: https://space.bilibili.com/513243821/
+  - name: Get on TapTap (China)
+    uri: https://www.taptap.io/app/84327
+  - name: Get on App Store(China)
+    icon: apple-appstore
+    uri: https://apps.apple.com/cn/app/id1437356983
+    
+  
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://image.winudf.com/v2/image1/Y29tLnVnYW1lLmFseF9zY3JlZW5fMF8xNTkwMTQ0MTkxXzA4Mg/screen-0.jpg?fakeurl=1&type=.jpg
+  - https://image.winudf.com/v2/image1/Y29tLnVnYW1lLmFseF9zY3JlZW5fMV8xNTkwMTQ0MTkzXzA0OA/screen-1.jpg?fakeurl=1&type=.jpg
+  - https://image.winudf.com/v2/image1/Y29tLnVnYW1lLmFseF9zY3JlZW5fMl8xNTkwMTQ0MTk0XzA1Mg/screen-2.jpg?fakeurl=1&type=.jpg
+  - https://image.winudf.com/v2/image1/Y29tLnVnYW1lLmFseF9zY3JlZW5fM18xNTkwMTQ0MTk2XzA0OQ/screen-3.jpg?fakeurl=1&type=.jpg
+  - https://image.winudf.com/v2/image1/Y29tLnVnYW1lLmFseF9zY3JlZW5fNF8xNTkwMTQ0MTk3XzA3Ng/screen-4.jpg?fakeurl=1&type=.jpg
+  - https://image.winudf.com/v2/image1/Y29tLnVnYW1lLmFseF9zY3JlZW5fNV8xNTkwMTQ0MTk4XzA4OQ/screen-5.jpg?fakeurl=1&type=.jpg
+  
+  - type: youtube
+    id: ke-1q7LxhDo
+  - type: youtube
+    id: FuAN6Mu12gE
+  - type: youtube
+    id: CZ7cTRIEtQc
