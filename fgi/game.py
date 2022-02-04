@@ -157,12 +157,13 @@ class Game:
         self.mtime = mtime
         self.btime = None
 
-        self.tags = data["tags"]
+        self.orig_tags = data["tags"]
 
         self.authors = list()
 
         self.name = data["name"]
         self.description = GameDescription(self, data)
+
 
         self.expunge = False
         if "expunge" in data and data["expunge"]:
@@ -177,25 +178,9 @@ class Game:
         if "old-ids" in data:
             self.old_ids = data["old-ids"]
 
-        if "authors" in data:
-            if "author" in self.tags:
-                raise ValueError("authors property conflict #/tags/author namespace")
-
-            tmp = { "author": list() }
-            tmp.update(self.tags)
-            self.tags = tmp
-
-            for i in data["authors"]:
-                author = GameAuthor(data = i)
-                self.authors.append(author)
-
-                if not author.standalone:
-                    self.tags["author"].append(author.name)
-        else:
-            # For games using legecy format or without author infomation,
-            # create STUB author properties
-            for i in self.tags.get("author", {}):
-                self.authors.append(GameAuthor.make_stub_gameauthor(i))
+        for i in data.get("authors", []):
+            author = GameAuthor(data = i)
+            self.authors.append(author)
 
         self.links_prepare = list()
         self.links = list()
@@ -232,7 +217,25 @@ class Game:
                     raise ValueError(f"Old id '{i}' of game {self.id} conflict exist game")
 
     def realize(self, tagmgr, mfac, ifac, authors, btime_data):
-        tagmgr.check_and_patch(self)
+        self.tags = tagmgr.check_and_patch(self.orig_tags, self.id)
+        del self.orig_tags
+
+        if self.authors:
+            if "author" in self.tags:
+                raise ValueError("authors property conflict #/tags/author namespace")
+
+            for author in self.authors:
+                if not author.standalone:
+                    if "author" not in self.tags:
+                        self.tags["author"] = list()
+                    self.tags["author"].append(author.name)
+        else:
+            # For games using legecy format or without author infomation,
+            # create STUB author properties
+            for i in self.tags.get("author", {}):
+                self.authors.append(GameAuthor.make_stub_gameauthor(i))
+
+        self.tags = dict(sorted(self.tags.items(), key=lambda x : x[0]))
 
         self.description.realize(mfac)
         for ln, gl10n in self.tr.items():

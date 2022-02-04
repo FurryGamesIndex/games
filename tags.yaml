@@ -157,8 +157,8 @@ horror:
 ###################################################
 ###################################################
 
-'@namespace:male+female':
-  name: 'male/female'
+'@namespace:species':
+  name: 'species'
   content:
     - en: 'Describe kinds and feature of furries and humans'
       zh-cn: '用于说明游戏中兽人和人类的类型和特点'
@@ -167,7 +167,7 @@ horror:
 
 ###################################################
 
-'@class:male+female/auto':
+'@class:species/auto':
   title:
     en: 'Automatic tags'
     zh-cn: '自动标签'
@@ -184,724 +184,724 @@ horror:
         （如您添加 `male:cat` 标签，该游戏将自动继承 `male:felidae` 标签）
 
 feline:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   alias: [ felidae ]
   explanation:
     en: 'Main characters include feline furries'
     zh-cn: '主要角色包括猫科兽人'
 
 canine:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   alias: [ canidae ]
   explanation:
     en: 'Main characters include canine furries'
     zh-cn: '主要角色包括犬科兽人'
 
 mustelidae:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include mustelidae furries'
     zh-cn: '主要角色包括鼬科兽人'
 
 reptilia:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include reptilia furries'
     zh-cn: '主要角色包括爬行纲兽人'
 
 ###################################################
 
-'@class:male+female/misc':
+'@class:species/misc':
   title:
     en: 'Biological species: Miscellaneous'
     zh-cn: '物种：杂类'
 
 dragon:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include dragon furries (western cultures dragon only)'
     zh-cn: '主要角色包括龙兽人（仅西方龙）'
 
 lung:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   alias: [ long, chinese-dragon ]
   explanation:
     en: 'Main characters include lung (Chinese dragon) furries'
     zh-cn: '主要角色包括东方龙兽人'
 
 mouse:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   alias: [ misc, rat ]
   explanation:
     en: 'Main characters include mouse furries'
     zh-cn: '主要角色包括鼠兽人'
 
 monkey:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include monkey furries'
     zh-cn: '主要角色包括猴子兽人'
 
 bull:
-  namespaces: [ male ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include bull furries (only in namespace male)'
     zh-cn: '主要角色包括牛兽人（只出现在 male 命名空间）'
 
 cow:
-  namespaces: [ female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include cow furries (only in namespace female)'
     zh-cn: '主要角色包括牛兽人（只出现在 female 命名空间）'
 
 sheep:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include sheep furries'
     zh-cn: '主要角色包括羊兽人'
 
 horse:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include horse furries'
     zh-cn: '主要角色包括马兽人'
 
 rabbit:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   alias: [ hare, leporids ]
   explanation:
     en: 'Main characters include rabbit furries'
     zh-cn: '主要角色包括兔兽人'
 
 bear:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include bear furries'
     zh-cn: '主要角色包括熊兽人'
 
 pig:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include pig furries'
     zh-cn: '主要角色包括猪兽人'
 
 hyena:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include hyena furries'
     zh-cn: '主要角色包括鬣狗兽人'
 
 raccoon:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include raccoon furries'
     zh-cn: '主要角色包括浣熊兽人'
 
 shark:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include shark furries'
     zh-cn: '主要角色包括鲨鱼兽人'
 
 dolphin:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include dolphin furries'
     zh-cn: '主要角色包括海豚兽人'
 
 deer:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include deer furries'
     zh-cn: '主要角色包括鹿兽人'
 
 bird:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include bird furries'
     zh-cn: '主要角色包括鸟兽人'
 
 red-panda:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include red panda furries'
     zh-cn: '主要角色包括小熊猫兽人'
 
 kangaroo:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include kangaroo furries'
     zh-cn: '主要角色包括袋鼠兽人'
 
 hedgehog:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include hedgehog furries'
     zh-cn: '主要角色包括刺猬兽人'
 
 frog:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include frog furries'
     zh-cn: '主要角色包括蛙兽人'
 
 beaver:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include beaver furries'
     zh-cn: '主要角色包括河狸兽人'
 
 rhino:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include rhino furries'
     zh-cn: '主要角色包括犀牛兽人'
     
 panda:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include panda furries'
     zh-cn: '主要角色包括大熊貓兽人'
 
 ###################################################
 
-'@class:male+female/felidae':
+'@class:species/felidae':
   title:
     en: 'Biological species: Felidae'
     zh-cn: '物种：猫科'
 
 cat:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include cat furries'
     zh-cn: '主要角色包括猫兽人'
 
 tiger:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include tiger furries'
     zh-cn: '主要角色包括虎兽人'
 
 lion:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include lion furries'
     zh-cn: '主要角色包括狮兽人'
 
 leopard:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include leopard furries'
     zh-cn: '主要角色包括豹兽人'
 
 snow-leopard:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include snow leopard furries'
     zh-cn: '主要角色包括雪豹兽人'
 
 cheetah:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include cheetah furries'
     zh-cn: '主要角色包括猎豹兽人'
 
 lynx:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include lynx furries'
     zh-cn: '主要角色包括猞猁兽人'
 
 ###################################################
 
-'@class:male+female/canine':
+'@class:species/canine':
   title:
     en: 'Biological species: Canine'
     zh-cn: '物种：犬科'
 
 dog:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   alias: [ shibainu, husky ]
   explanation:
     en: 'Main characters include dog furries'
     zh-cn: '主要角色包括犬兽人'
 
 wolf:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include wolf furries'
     zh-cn: '主要角色包括狼兽人'
 
 fox:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include fox furries'
     zh-cn: '主要角色包括狐兽人'
 
 raccoon-dog:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include raccoon furries'
     zh-cn: '主要角色包括貉兽人'
 
 ###################################################
 
-'@class:male+female/mustelidae':
+'@class:species/mustelidae':
   title:
     en: 'Biological species: Mustelidae'
     zh-cn: '物种：鼬科'
 
 otter:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include otter furries'
     zh-cn: '主要角色包括水獭兽人'
 
 badger:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include badger furries'
     zh-cn: '主要角色包括獾兽人'
 
 weasel:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include weasel furries'
     zh-cn: '主要角色包括鼬兽人'
 
 ferret:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include ferret furries'
     zh-cn: '主要角色包括雪貂兽人'
 
 ###################################################
 
-'@class:male+female/reptilia':
+'@class:species/reptilia':
   title:
     en: 'Biological species: Reptilia'
     zh-cn: '物种：爬行纲'
 
 lizard:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include lizard furries'
     zh-cn: '主要角色包括蜥蜴兽人'
 
 crocodile:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include crocodile furries'
     zh-cn: '主要角色包括鳄鱼兽人'
 
 snake:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include snake furries'
     zh-cn: '主要角色包括蛇兽人'
 
 ###################################################
 
-'@class:male+female/special':
+'@class:species/special':
   title:
     en: 'Biological species: Special'
     zh-cn: '物种：特殊'
 
 mixed:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include mixed furries (tiger-shark, lion-dog and many more)'
     zh-cn: '主要角色包括混合兽人（如虎鲨，狮狗等等）'
 
 humankind:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include humankind creatures'
     zh-cn: '主要角色包括人类或智人'
 
 non-anthro:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'Main characters include non-anthro furries'
     zh-cn: '主要角色包括非人形 furry（纯兽）（动物形态，但通常具有高级智慧）'
 
 funny-animal:
-  namespaces: [ male, female ]
+  namespaces: [ species ]
   explanation:
     en: 'STUB'
     zh-cn: 'STUB'
 
 ###################################################
 
-'@class:male+female/non-species':
-  title:
-    en: 'Non species'
-    zh-cn: '非物种'
+'@namespace:fetish':
+  name: 'fetish'
+  content:
+    - en: 'Fetish'
 
 futanari:
-  namespaces: [ female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters include futanari (usually set into namespace female)'
     zh-cn: '主要角色包括扶她（通常放置于 female 命名空间）'
 
 males-only:
-  namespaces: [ male ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters are all males (only in namespace male)'
     zh-cn: '主要角色只有雄性（只出现于 male 命名空间）'
 
 females-only:
-  namespaces: [ female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters are all females (only in namespace female)'
     zh-cn: '主要角色只有雌性（只出现于 female 命名空间）'
 
 shota:
-  namespaces: [ male ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters include childlike males (only in namespace male)'
     zh-cn: '主要角色包括像孩子一样的男性（只出现于 male 命名空间）'
 
 loli:
-  namespaces: [ female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters include childlike females (only in namespace female)'
     zh-cn: '主要角色包括像孩子一样的女性（只出现于 female 命名空间）'
 
 muscle:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters include muscle characters'
     zh-cn: '主要角色中包括肌肉丰满的角色'
 
 transform:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   alias: [ transformation ]
   explanation:
     en: 'Main characters may transform'
 
 transfur:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may transfur'
     zh-cn: '主要角色中可能出现兽化现象'
 
 anal:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may do a anal sex'
     zh-cn: '主要角色之间包括肛交性行为'
 
 group:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'More than two main characters may engage in sex simultaneously.'
     zh-cn: '主要角色之间包括群 P 行为'
 
 blowjob:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may do a blowjob'
     zh-cn: '主要角色之间包括口交性行为'
 
 face-fucking:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Face-fucking may occur between main characters, not to be confused with `blowjob`.'
 
 frottage:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: "Main characters' penises against one another"
     zh-cn: '主要角色之间包括阴茎摩擦行为'
 
 cockslapping:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '主要角色之间包括用阴茎打人'
 
 masturbation:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '主要角色中出现手淫行为'
 
 handjob:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may masturbate another participant'
     zh-cn: '主要角色之间出现手淫另一角色的阴茎'
 
 rimjob:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may orally stimulating anuses'
     zh-cn: '主要角色之间出现用舌头在另一角色的肛门边缘上的性行为'
 
 footjob:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   implication: [ paw-fetish ]
   explanation:
     en: 'Main characters may use feet to sexually stimulate another participant'
     zh-cn: '主要角色之间出现用脚对另一角色进行性刺激'
 
 paizuri:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may thruste a penis in between breasts'
 
 human-on-furry:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Sexual activity between a humankind creature and a furry'
     zh-cn: '主要角色中，人类与兽人发生了性关系'
 
 animal-on-furry:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Sexual activity between a animal/non-anthro and a furry'
     zh-cn: '主要角色中，动物或纯兽（非人形 furry）和兽人发生了性关系'
 
 nakadashi:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 ###################################################
 
 exhibitionism:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色出现了在有可能被其他人看见的地方（如户外）进行自愿裸体或性行为'
 
 netorare:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   alias: [ ntr ]
   explanation:
     en: ''
     zh-cn: '另一个角色的配偶/伴侣与某角色发生关系。'
 
 rape:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
     zh-cn: 'STUB'
 
 mind-break:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '通过长时间或严格的性刺激来训练/使某人在心理上成为性奴隶（洗脑）'
 
 mind-control:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   alias: [ hypnosis ]
   explanation:
     en: ''
     zh-cn: '强迫参与者（违背自己的意愿）自己做某事（催眠）'
 
 corruption:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中用魔法或其他超自然力量强硬地腐化某人的头脑，抢夺他们的纯洁'
 
 parasite:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了寄生或被寄生'
 
 drugs:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色之间使用鼓动滥交或快感的药物'
 
 body-swap:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色之间出现了灵魂互换'
 
 time-stop:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色之间出现了时间停止行为'
 
 guro:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了肢解行为'
 
 tentacles:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了被触手侵犯'
 
 body-modification:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了以人工方式替换身体的某些部位'
 
 conjoined:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中有两个或更多的头分享同一个身体的角色'
 
 muscle-growth:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了肌肉产生或变大'
 
 inflation:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了腹部向外膨胀得像个气球'
 
 absorption:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了吸收某人或某物'
 
 petrification:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中成为雕像/岩石般的形象'
 
 stomach-deformation:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色中出现了固体从腹内向外推压，并出现一个可见突起'
 
 brain-fuck:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色之间包括涉及大脑的性行为'
 
 vore:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may swallow or be swallowed whole via the mouth.'
     zh-cn: '主要角色可能（从嘴）吞入某个角色或被某个角色吞人'
 
 slit-vore:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may swallow or be swallowed whole via the genital slit.'
 
 cock-vore:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Main characters may swallow or be swallowed whole via the penis.'
 
 fisting:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色可能出现拳交'
 
 bondage:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Bondage (BDSM), see <https://en.wikipedia.org/wiki/Bondage_(BDSM)>'
     zh-cn: '主要角色可能出现绑缚（BDSM），请查看：<https://en.wikipedia.org/wiki/Bondage_(BDSM)>'
 
 master-slave:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Master/slave (BDSM), see <https://en.wikipedia.org/wiki/Master/slave_(BDSM)>'
     zh-cn: '主要角色之间可能出现主人与奴隶 (BDSM), 请查看：<https://en.wikipedia.org/wiki/Master/slave_(BDSM)>'
 
 dominance-submission:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'Dominance/submission (BDSM), see <https://en.wikipedia.org/wiki/Dominance_and_submission>'
     zh-cn: '主要角色之间可能出现支配与臣服 (BDSM), 请查看：<https://en.wikipedia.org/wiki/Dominance_and_submission>'
 
 public-use:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: ''
     zh-cn: '主要角色可能成为肉便器'
 
 micro-macro:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   alias: [ macro-micro ]
   explanation:
     en: 'STUB'
 
 mawplay:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 cock-worship:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 chastity-cage:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 belly-riding:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 living-condom:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 living-toy:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 paw-fetish:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 quishing:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 stomping:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 gynomorph:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   alias: [ dickgirl ]
   explanation:
     en: 'STUB'
 
 cuntboy:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
 violent-penetration:
-  namespaces: [ male, female ]
+  namespaces: [ fetish ]
   explanation:
     en: 'STUB'
 
