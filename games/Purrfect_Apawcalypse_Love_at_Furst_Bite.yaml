@@ -19,13 +19,14 @@ authors:
   - name: Denny Truong
     role: [ producer ]
   - name: Andy Schneider
-    role: [ producer ]
+    role: [ producer, programmer ]
   - name: 90% Studios
     role: [ publisher ]
 
 tags:
   type:
     - visual-novel
+    - gore
   male:
     - cat
     - dog
@@ -34,17 +35,24 @@ tags:
     - dog
   misc:
     - multiple-series
+    - multiple-endings
+    - engine-renpy
   lang:
     - en
+    - pt
   publish:
     - steam
+    - itchio
   platform:
     - windows
     - macos
+    - linux
 
 links:
   - name: .steam
     uri: steam:1532510
+  - name: .itch.io
+    uri: https://90percentstudios.itch.io/purrfect-apawcalypse-love-at-furst-bite
 
 thumbnail: thumbnail.jpg
 
