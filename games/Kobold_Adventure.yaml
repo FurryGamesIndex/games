@@ -56,10 +56,10 @@ links:
   - name: .patreon
     uri: https://www.patreon.com/TinkeringTurian
 
-thumbnail: logo.png
+thumbnail: thumbnail.png
 
 screenshots:
-  - Screenshot.png
+  - https://s2.loli.net/2022/02/06/3O5syQ4GDdmAofL.png
   - sensitive: true
     uri: https://koboldadventure.com/scenes/Enslavement/DayTwo/SlaveAfternoonTwo/img/bathy-sucky-full.png
   - sensitive: true
