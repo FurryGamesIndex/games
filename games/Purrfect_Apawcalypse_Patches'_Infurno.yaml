@@ -1,0 +1,58 @@
+name: 'Purrfect Apawcalypse: Patches' Infurno'
+
+brief-description: |
+  Patches is dragged to school for the first ever cat-and-dog school day! All he needs to do is get this damn collar off and wreck some havoc! Will he prove cats and dogs can get along, or will he make this the Purrfect Apawcalypse? 
+
+description: |
+  Patches is dragged to school for the first ever cat-and-dog school day! With Coco and Brownie distracted with home ec class, Olive and Angel busy with literature, and Sparky and Ginger occupied by gym, Patches has free reign over the school... Almost.
+
+  All he needs to do is get this damn collar off and wreck some havoc! Will he prove cats and dogs can get along, or will he make this the Purrfect Apawcalypse?
+
+
+authors:
+  - name: Denny Truong
+    role: [ producer ]
+  - name: Andy Schneider
+    role: [ producer, programmer ]
+  - name: 90% Studios
+    role: [ publisher ]
+
+tags:
+  type:
+    - visual-novel
+    - gore
+  male:
+    - cat
+    - dog
+  female:
+    - cat
+    - dog
+  misc:
+    - multiple-series
+    - multiple-endings
+    - engine-renpy
+  lang:
+    - en
+    - pt
+    - ru
+  publish:
+    - steam
+    - itchio
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .steam
+    uri: steam:1599470
+  - name: .itch.io
+    uri: https://90percentstudios.itch.io/purrfect-apawcalypse-3
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1599470/ss_d4f145c7237b0a82ab92ba2ef7ea2e7695526829.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1599470/ss_e188eaf46212fa10472d11e9184bea0d33733fc1.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1599470/ss_e188eaf46212fa10472d11e9184bea0d33733fc1.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1599470/ss_e188eaf46212fa10472d11e9184bea0d33733fc1.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1599470/ss_e188eaf46212fa10472d11e9184bea0d33733fc1.1920x1080.jpg
