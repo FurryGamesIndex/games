@@ -38,7 +38,7 @@ tags:
     - casual
     - yiff
     - yuri
-  female:
+  species:
     - mixed # Uncertainty about the species of Yu and Marionette
     # Lacking species options: bat, snail, robot
   fetish:
@@ -78,7 +78,7 @@ thumbnail: thumbnail.png
 
 screenshots:
   - sensitive: true
-    https://img.itch.zone/aW1hZ2UvNTYyMTE3LzMxMjg4ODUuZ2lm/original/2lsXQo.gif
+    uri: https://img.itch.zone/aW1hZ2UvNTYyMTE3LzMxMjg4ODUuZ2lm/original/2lsXQo.gif
   - https://img.itch.zone/aW1hZ2UvNTYyMTE3LzMwMTc2ODMucG5n/original/fzROfk.png
   - https://img.itch.zone/aW1hZ2UvNTYyMTE3LzMwMzM5OTQucG5n/original/x75iDa.png
   - https://img.itch.zone/aW1hZ2UvNTYyMTE3LzMwMzQwMDAucG5n/original/4uxQC7.png
