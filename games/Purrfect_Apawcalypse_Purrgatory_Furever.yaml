@@ -47,7 +47,14 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_becac79e052c487c370b62b74a5c9fbca0034846.1920x1080.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256826378/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256826378/movie480.mp4
+  - sensitive: true
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_becac79e052c487c370b62b74a5c9fbca0034846.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_1d0a6e89531fe59e13f8355cebe1fa9e49f79ed5.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_ff8dbbb16bf6d2e917edba418579f92c6e3281bb.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_85cb0dece29f94de3e71ba5ce7e96d5234298bc2.1920x1080.jpg
