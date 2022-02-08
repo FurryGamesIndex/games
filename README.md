@@ -26,7 +26,7 @@ Select languages:
 1. [Game Description File](doc/contribute_guide/game.en.md)
    - [Tags](doc/tags.en.md)
 2. [Author Description File](doc/contribute_guide/author.en.md)
-3. [note on committing](doc/contribute_guide/patches-submitting.en.md)
+3. [Note on Submitting](doc/contribute_guide/patches-submitting.en.md)
 4. [FGI Members/Contributors](CONTRIBUTORS.md)
 
 <a id="Simplified_Chinese">
