@@ -3,7 +3,7 @@ name: Kobold Adventure
 description: |
   Kobold Adventure is an adult, text-based choose your own adventure game. You will assume the role of a kobold, and try to survive in a hostile medieval fantasy world. You will face many trials and tribulations before the end, and your life will not be an easy one. Can you make it out alive, or will you fall prey to the many dangers of this world? 
 
-author:
+authors:
   - name: TinkeringTurian
     role: [ screenwriter, programmer ]
   - name: QuiteTricky
@@ -56,7 +56,7 @@ links:
   - name: .patreon
     uri: https://www.patreon.com/TinkeringTurian
 
-thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 
 screenshots:
   - https://s2.loli.net/2022/02/06/3O5syQ4GDdmAofL.png
