@@ -1,6 +1,6 @@
 # Note on Patches Submitting
 
-When you submit Patch(es) through Pull Request on GitHub, it recommended making a pull request smaller and narrower if possible. For example, a pull request with a modification of game description file(s) should not contain the modification of document, template, style and code(it's tolerant to modify the tags defined file). And should not add multiple completely unrelated games when adding game description file.
+When you submit Patch(es) through Pull Request on GitHub, it recommended making a pull request smaller and narrower if possible. For example, a pull request with a modification of game description file(s) should not contain the modification of document, template, style and code (it's tolerant to modify the tags defined file). And should not add multiple completely unrelated games when adding game description file.
 
 We require the **FINAL** recorded commits on git content the following format.
 
@@ -76,7 +76,7 @@ games: update author info for 3 games from Echo Project
 games: remove deprecated property sensitive_media for all entities
 ```
 
-Update translation file of the item Adastra (no variant reflection)：
+Update translation file of the item Adastra (no variant reflection):
 
 ```
 games/l10n/zh: Adastra: update translation for description
@@ -176,7 +176,7 @@ uil10n/zh-tw: PRIVATE: add hotfix for list-klass-platform-mobile
 doc/search_help: add more exampless
 ```
 
-### staging-ui 和 classic-ui
+### staging-ui and classic-ui
 
 if you modified the file that in directory `staging-ui` and `classic-ui`, you should use `staging-ui: ` or `classic-ui/UI包代号: ` as `Mod or Range: `, Meanwhile, use the remaining filename as `Sub Mod`.
 
