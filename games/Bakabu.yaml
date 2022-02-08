@@ -12,19 +12,24 @@ description: |
   
   What does the protagonist think about as he spends his days in a club whose purpose is to entertain everyone by making a fool of himself?
 
-description-format: markdown
+authors:
+  - name: skyjunction
+    role: [ producer ]
+  - name: KENN
+    role: [ artist ]
 
 tags:
-  author:
-    - KENN
   type:
     - visual-novel
-  male:
+    - bara
+    - yiff
+  species:
     - dog
     - lion
     - tiger
     - wolf
     - humankind
+  fetish:
     - muscle
     - anal
     - blowjob

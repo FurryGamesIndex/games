@@ -1,0 +1,61 @@
+name: 'Purrfect Apawcalypse: Purrgatory Furever'
+
+brief-description: |
+  One thousand zombies from the massacre of Hachiko High are crashing Olive's birthday party! Trapped in the Grimalkin Estate they'll have to unravel the mystery behind the zombies, all while making sure their friends are having the Purrfect Apawcalypse!
+
+description: |
+  One thousand students from the massacre of Hachiko High School have risen from the dead to crash Olive's Birthday party! Trapped in the Grimalkin Estate, Olive and their friends must figure out just how these dogs turned into zombies, why Sparky's acting so strange and why Angel's corpse is out to get them!
+
+  Just remember that even though survival is paramount, that doesn't mean you can't make all your pals happy and make this the Purrfect Apawcalypse!
+
+authors:
+  - name: Denny Truong
+    role: [ producer ]
+  - name: Andy Schneider
+    role: [ producer, programmer ]
+  - name: 90% Studios
+    role: [ publisher ]
+
+tags:
+  type:
+    - visual-novel
+    - gore
+  species:
+    - cat
+    - dog
+  misc:
+    - multiple-series
+    - multiple-endings
+    - engine-renpy
+  lang:
+    - en
+    - pt
+    - ru
+  publish:
+    - steam
+    - itchio
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .steam
+    uri: steam:1559430
+  - name: .itch.io
+    uri: https://90percentstudios.itch.io/purrfect-apawcalypse-2
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256826378/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256826378/movie480.mp4
+  - sensitive: true
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_becac79e052c487c370b62b74a5c9fbca0034846.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_1d0a6e89531fe59e13f8355cebe1fa9e49f79ed5.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_ff8dbbb16bf6d2e917edba418579f92c6e3281bb.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_85cb0dece29f94de3e71ba5ce7e96d5234298bc2.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1559430/ss_df7ad84a6dc16d7c84c038585c39a0491e2fb036.1920x1080.jpg
