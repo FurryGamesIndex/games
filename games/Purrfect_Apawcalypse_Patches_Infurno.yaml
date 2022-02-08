@@ -8,7 +8,6 @@ description: |
 
   All he needs to do is get this damn collar off and wreck some havoc! Will he prove cats and dogs can get along, or will he make this the Purrfect Apawcalypse?
 
-
 authors:
   - name: Denny Truong
     role: [ producer ]
@@ -21,10 +20,7 @@ tags:
   type:
     - visual-novel
     - gore
-  male:
-    - cat
-    - dog
-  female:
+  species:
     - cat
     - dog
   misc:
