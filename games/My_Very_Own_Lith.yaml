@@ -1,4 +1,4 @@
-name: 'My Very Own Lith'
+name: My Very Own Lith
 
 description: |
   In My Very Own Lith, you meet a shy, black-furred feline that you can befriend, seduce, dominate, or be dominated by, and build a relationship with him or her. After that, things get strange as you finally turn to look outward, and inward…
@@ -11,14 +11,7 @@ tags:
   type:
     - dating-sim
     - yiff
-  male:
-    - humankind
-    - wolf
-    - dragon
-    - horse
-    - cat
-    - fox
-  female:
+  species:
     - humankind
     - wolf
     - dragon
@@ -54,7 +47,7 @@ links:
   - name: .patreon
     uri: https://www.patreon.com/Lithier
 
-thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 
 screenshots:
   - https://i2.wp.com/lithier.com/w/wp-content/uploads/2021/03/Wiggle-Pattern.gif
