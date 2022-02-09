@@ -1,6 +1,6 @@
 # 貢獻指南 - 遊戲
 
-這是一篇介紹如何向 FurryGamesIndex（下文簡稱 FGI）新增或編輯遊戲的快速指南，目前處於草案試行階段。
+這是一篇介紹如何向 FurryGamesIndex（下文簡稱 FGI）新增或編輯遊戲的快速指南。
 
 在學習本指南的同時，可以檢視 [`games`](https://github.com/FurryGamesIndex/games/tree/master/games) 目錄下已有的資料檔案加深理解，或在修改、新增資料檔案的時候參考。
 
