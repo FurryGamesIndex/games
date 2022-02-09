@@ -136,6 +136,23 @@ English description should be written here. We will introduce the internationali
 >
 > Note: Even if you use other formats, you still need to start each line of the description with two spaces.
 
+### Brief Description (optional)
+
+```
+brief-description: |
+  The first line brief description
+  The second line brief description
+  ...
+```
+
+Brief Description is used to insert summary description in standard view and metadata.
+
+In usual, the brief description should be shorter than full description, but for the full description itself is short is an exception. The length of the brief description should not exceed 400 English characters (including numbers, spaces, and underscores), and we recommend its length is 200 to 400 English characters. 1 Chinese character is equivalent to 2 English characters.
+
+This is an optional part. For a game without this part, FGI will automatically use and shorten its standard description.
+
+You can insert newline in brief description, but the rich text such as Markdown is not supported.
+
 ### Authors
 
 ```
@@ -334,6 +351,12 @@ Use an optional option `icon` property to set icons for non-stock links. Current
 ### Thumbnail
 
 The thumbnail is the brand icon of the game. Thumbnails have a fixed ratio of 15:7 and is not recommended to exceed 360x168 pixels. Prepare a jpeg or png picture. We use `thumbnail: file name` to indicate the thumbnail.
+
+For performance, under the condition that no significant distortion comparing with the 100% quality original image, the size of file can not exceed 100KiB. And priority upload less sized file if its quality is similar to the original image.
+
+Place the picture need be referred into the directory of assets/game ID/, then type the filename on the referring.
+
+For example, if the game ID is Adastra, place thumbnail.jpg into assets/Adastra/, Then referring this picture in Adastra.yaml, such as:
 
 ```
 thumbnail: thumbnail.jpg
