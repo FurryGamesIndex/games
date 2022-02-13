@@ -20,9 +20,13 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Pixile
+    role: [ producer ]
+  - name: Modus Games
+    role: [ publisher ]
+
 tags:
-  author:
-    - Pixile
   type:
     - action
     - casual
@@ -49,7 +53,6 @@ tags:
     - freeware
     - online
     - centralized
-    - work-in-process
     - multiplayer
   lang:
     - en
