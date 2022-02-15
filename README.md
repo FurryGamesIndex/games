@@ -21,9 +21,13 @@ Select languages:
 
 ## [Get Involved](doc/Get-Involved.en.md)
 
-1. [Contribution Guide](doc/Contribute.en.md)
+### [Contributing Guide](doc/Contribute.en.md)
+
+1. [Game Description File](doc/contribute_guide/game.en.md)
    - [Tags](doc/tags.en.md)
-2. [FGI Members/Contributors](CONTRIBUTORS.md)
+2. [Author Description File](doc/contribute_guide/author.en.md)
+3. [Note on Submitting](doc/contribute_guide/patches-submitting.en.md)
+4. [FGI Members/Contributors](CONTRIBUTORS.md)
 
 <a id="Simplified_Chinese">
 
