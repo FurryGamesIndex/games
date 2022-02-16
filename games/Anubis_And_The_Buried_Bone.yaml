@@ -11,13 +11,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: harmarist
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - harmarist
   type:
     - adventure 
     - action
-  male:
+  species:
     - wolf
     - fox
   misc:

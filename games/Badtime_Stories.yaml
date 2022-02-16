@@ -7,14 +7,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: kalchivo
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - kalchivo
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - bull
     - tiger
@@ -22,6 +24,7 @@ tags:
     - lung
     - humankind
     - human-on-furry
+  fetish:
     - anal
     - masturbation
   misc:
