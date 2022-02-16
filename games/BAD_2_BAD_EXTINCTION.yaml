@@ -37,12 +37,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: DAWINSTONE
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - DAWINSTONE
   type:
     - role-playing
-  male:
+  species:
     - bird
     - bear
     - wolf

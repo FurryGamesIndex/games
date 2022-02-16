@@ -28,20 +28,22 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Pendulo Studios
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: YS Interactive
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Microids
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
   type:
     - adventure
     - puzzle
-  author:
-    - 'Pendulo Studios'
-    - 'YS Interactive'
-    - 'Microids'
-  male:
+  species:
     - cat
     - bull
     - wolf
-  female:
-    - cat
   misc:
     - 3d
   lang:

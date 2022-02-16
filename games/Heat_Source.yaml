@@ -1,0 +1,73 @@
+name: Heat Source
+
+description: |
+  Hewoo guys!
+  
+  Here's the build 0.5 of my first Visual Novel!
+  
+  This files are supposed to be for **MATURE AUDIENCE!**  n.n'
+  
+  Next Build 0.6 is already available on  https://www.patreon.com/AriHernandez ;D   You can support and check out early the new  build!
+  
+  I'll have been publishing about the last week of each month and I hope to keep up this working rythm!
+
+  I hope you like it!! uwu
+  
+  Remember you can contact me faster on twitter! ;D   https://twitter.com/Ari_Guardian
+  
+  here's a Discord Server with tons of Furry VN content!   https://discord.gg/fpvn go check em out! uwu
+
+description-format: markdown
+
+authors:
+  - name: Ari Guardian
+    role: [ producer, screenwriter, programmer, artist ]
+
+tags:
+  type:
+    - visual-novel
+    - yiff
+    - bara
+  species:
+    - bear
+    - dog
+    - otter
+  fetish:
+    - males-only
+    - muscle
+    - anal
+    - blowjob
+    - masturbation
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - android
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .itch.io
+    uri: https://ari-guardian.itch.io/heat-source
+  - name: .patreon
+    uri: patreon:AriHernandez
+  - name: .twitter
+    uri: twitter:Ari_Guardian
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Heat_Source-unofficial-l10n-zh-redir
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTIwNjE3NC83OTA1OTUzLnBuZw==/original/T7Hj%2B6.png
+  - https://img.itch.zone/aW1hZ2UvMTIwNjE3NC83OTA1OTY3LnBuZw==/original/5B9p4s.png
+  - https://img.itch.zone/aW1hZ2UvMTIwNjE3NC83OTA1OTY1LnBuZw==/original/4hHo0V.png

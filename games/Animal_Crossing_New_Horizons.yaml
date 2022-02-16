@@ -15,13 +15,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Nintendo
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Nintendo
   type:
     - casual
     - business-sim
-  male:
+  species:
     - dog
     - cat
     - wolf
@@ -32,23 +34,6 @@ tags:
     - lion
     - mouse
     - bull
-    - bear
-    - lizard
-    - sheep
-    - rabbit
-    - tiger
-    - monkey
-  female:
-    - dog
-    - cat
-    - wolf
-    - bird
-    - pig
-    - horse
-    - deer
-    - lion
-    - mouse
-    - cow
     - bear
     - lizard
     - sheep

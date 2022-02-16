@@ -5,14 +5,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Bane
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Bane
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - cat
     - dog
     - pig
@@ -23,6 +25,7 @@ tags:
     - horse
     - mixed
     - humankind
+  fetish:
     - anal
     - blowjob
     - handjob

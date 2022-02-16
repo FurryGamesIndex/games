@@ -32,20 +32,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Radical Phi
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Radical Phi'
   type:
     - visual-novel
     - dating-sim
     - bara
-  male:
+  species:
     - dragon
     - non-anthro
     - humankind
-  female:
-    - dragon
-    - non-anthro
   misc:
     - engine-renpy
     - multiple-endings

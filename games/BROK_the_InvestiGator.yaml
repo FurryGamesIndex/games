@@ -109,12 +109,11 @@ tags:
   type:
     - role-playing
     - puzzle
-  male:
+  species:
     - crocodile
     - cat
     - kangaroo
     - mouse
-  female:
     - bird
   misc:
     - work-in-process

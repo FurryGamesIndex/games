@@ -13,12 +13,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Untendo
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Untendo
   type:
     - shooter
-  male:
+  species:
     - tiger
     - bear
     - dog

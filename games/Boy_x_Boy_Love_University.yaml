@@ -36,14 +36,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: NNaosuke Team
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
   type:
     - visual-novel
     - bara
     - yiff
-  author:
-    - 'NNaosuke Team'
-  male:
+  species:
     - wolf
     - dog
     - tiger

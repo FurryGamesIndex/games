@@ -10,16 +10,19 @@ description: |
   
 description-format: markdown
 
+authors:
+  - name: Cockhole
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Cockhole
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - dog
     - cat
     - deer
+  fetish:
     - males-only
   misc:
     - freeware

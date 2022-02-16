@@ -7,13 +7,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Harmonious
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Harmonious
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - hyena
     - cat
     - lizard

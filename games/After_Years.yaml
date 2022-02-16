@@ -12,18 +12,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Tyrving
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Tyrving
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - wolf
     - leopard
     - lion
+  fetish:
     - males-only
     - muscle
   misc:
