@@ -26,14 +26,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'The Gentlebros'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'PQube Limited'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'The Gentlebros'
-    - 'PQube Limited'
   type:
     - role-playing
     - action
-  male:
+  species:
     - cat
     - dog
     - dragon

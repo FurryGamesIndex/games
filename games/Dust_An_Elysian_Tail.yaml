@@ -18,15 +18,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Humble Hearts LLC'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Xbox Game Studios'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Limited Run Games'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Humble Hearts LLC'
-    - 'Xbox Game Studios'
-    - 'Limited Run Games'
   type:
     - action
     - role-playing
-  male:
+  species:
     - mixed
   lang:
     - en

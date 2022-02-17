@@ -10,18 +10,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Kho
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Kho
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - cheetah
     - tiger
     - lion
+  fetish:
     - muscle
     - anal
     - blowjob

@@ -39,21 +39,15 @@ tags:
     - action
     - role-playing
     - non-indie
-  male:
+  species:
     - humankind
     - dragon
     - lung
+    - cat
     - bear
     - panda
     - bird
     - wolf
-    - non-anthro
-  female:
-    - humankind
-    - dragon
-    - cat
-    - bear
-    - bird
     - non-anthro
   misc:
     - freeware

@@ -17,9 +17,7 @@ authors:
 tags:
   type:
     - fighting
-  male:
-    - dragon
-  female:
+  species:
     - dragon
   misc:
     - multiplayer

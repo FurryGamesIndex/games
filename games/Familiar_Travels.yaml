@@ -33,24 +33,25 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Halftone Studios'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Halftone Studios'
   type:
     - visual-novel
     - dating-sim
     - bara
     - yiff
-  male:
+  species:
     - dragon
     - dog
     - fox
     - wolf
     - sheep
-    - rimjob
-  female:
-    - dog
     - bird
+  fetish:
+    - rimjob
   misc:
     - uncensored
     - multiple-series

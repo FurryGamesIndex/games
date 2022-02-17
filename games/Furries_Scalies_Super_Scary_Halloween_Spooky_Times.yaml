@@ -22,14 +22,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Stegalosaurus Game Development'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Stegalosaurus Game Development'
   type:
     - business-sim
     - dating-sim
     - yiff
-  male:
+  species:
     - dragon
     - tiger
     - hyena

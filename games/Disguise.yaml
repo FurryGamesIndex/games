@@ -14,17 +14,20 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Roar Howl Night Studio'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Roar Howl Night Studio'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - wolf
     - dog
     - leopard
+  fetish:
     - muscle
     - males-only
     - masturbation
