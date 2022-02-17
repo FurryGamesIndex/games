@@ -17,20 +17,23 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Cotton
+     role: [ producer, screenwriter, programmer, artist ] 
+
 tags:
-  author:
-    - Cotton
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - tiger
     - rabbit
     - fox
     - monkey
     - mixed
+  fetish:
     - muscle
     - males-only
   misc:

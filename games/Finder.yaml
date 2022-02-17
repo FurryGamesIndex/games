@@ -21,9 +21,7 @@ authors:
 tags:
   type:
     - music
-  male:
-    - canine
-  female:
+  species:
     - canine
   misc:
     - died

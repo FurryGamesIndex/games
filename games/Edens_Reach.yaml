@@ -31,13 +31,12 @@ tags:
   male:
     - raccoon
     - kangaroo
+    - cat
     - tiger
     - dog
     - wolf
+  fetish:
     - muscle
-  female:
-    - tiger
-    - cat
   misc:
     - freeware
     - engine-renpy

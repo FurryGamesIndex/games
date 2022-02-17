@@ -14,25 +14,24 @@ description: |
   
 description-format: markdown
 
+authors:
+  - name: Drowsy Drake
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Drowsy Drake
   type:
     - visual-novel
     - bara
     - yuri
-  male:
+  species:
     - bird
     - dragon
     - cat
-    - non-anthro
-    - humankind
-    - muscle
-  female:
-    - bird
     - monkey
     - non-anthro
     - humankind
+  fetish:
+    - muscle
   misc:
     - engine-renpy
     - work-in-process

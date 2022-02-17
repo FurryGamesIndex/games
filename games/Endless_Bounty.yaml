@@ -12,18 +12,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: DyneWulf
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - DyneWulf
   type:
     - adventure
     - bara
     - yiff
-  male:
+  species:
     - dragon
     - wolf
     - fox
     - humankind
+  fetish:
     - human-on-furry
     - males-only
     - anal

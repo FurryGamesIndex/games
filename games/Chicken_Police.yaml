@@ -54,14 +54,18 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'The Wild Gentlemen'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: HandyGames
+    role: [ producer, screenwriter, programmer, artist ]
+
+
 tags:
-  author:
-    - 'The Wild Gentlemen'
-    - HandyGames
   type:
     - adventure
     - visual-novel
-  male:
+  species:
     - bird
     - rabbit
     - sheep
@@ -70,10 +74,8 @@ tags:
     - dog
     - lizard
     - raccoon
-  female:
     - deer
     - cat
-    - bird
   misc:
     - engine-unity
     - grayscale

@@ -5,17 +5,20 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Zoharwolf
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Zoharwolf
   type:
     - visual-novel
     - adventure
     - bara
     - yiff
     - tragedy 
-  male:
+  species:
     - wolf
+  fetish:
     - males-only
   misc:
     - freeware

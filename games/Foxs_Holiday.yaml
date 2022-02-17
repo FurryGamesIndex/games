@@ -36,11 +36,10 @@ authors:
 tags:
   type:
     - casual       
-  male:
+  species:
     - fox
     - bear
     - tiger
-  female:
     - cat
   lang:
     - zh

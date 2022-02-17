@@ -25,16 +25,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Likely Games
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Likely Games
   type:
     - adventure
     - casual
-  male:
-    - rabbit
-    - funny-animal
-  female:
+  species:
     - rabbit
     - otter
     - funny-animal
