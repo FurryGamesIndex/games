@@ -19,7 +19,7 @@ description-format: markdown
 
 authors:
   - name: Cotton
-     role: [ producer, screenwriter, programmer, artist ] 
+    role: [ producer, screenwriter, programmer, artist ] 
 
 tags:
   type:
