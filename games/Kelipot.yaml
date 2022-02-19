@@ -43,15 +43,18 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Gamera Game'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Unlimited Fly Games'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Gamera Game'
-    - 'Unlimited Fly Games'
   type:
     - action
     - adventure
     - roguelike
-  male:
+  species:
     - tiger
     - wolf
     - cat

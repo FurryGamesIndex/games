@@ -9,17 +9,20 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Zoharwolf
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Zoharwolf
   type:
     - bara
     - yiff
-  male:
+  species:
     - tiger
     - wolf
     - shark
     - humankind
+  fetish:
     - muscle
     - males-only
     - anal

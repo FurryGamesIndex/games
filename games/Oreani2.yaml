@@ -11,21 +11,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Rodori
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Rodori
   type:
     - shooter
-  male:
+  species:
     - lung
     - dragon
     - shark
     - dog
     - hyena
     - bird
-  female:
     - lion
-    - dog
     - mouse
     - cat
   misc:

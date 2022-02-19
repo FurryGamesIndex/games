@@ -17,14 +17,18 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: KAIKO
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Neon Studios'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'THQ Nordic'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - KAIKO
-    - 'Neon Studios'
-    - 'THQ Nordic'
   type:
     - role-playing
-  male:
+  species:
     - tiger
     - rabbit
     - bear

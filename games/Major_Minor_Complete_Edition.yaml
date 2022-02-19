@@ -27,13 +27,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Klace
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Tall Tail Studios'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Klace
-    - 'Tall Tail Studios'
   type:
     - visual-novel
-  male:
+  species:
     - dog
     - wolf
     - fox
@@ -48,9 +51,6 @@ tags:
     - horse
     - rabbit
     - bear
-  female:
-    - dog
-    - fox
   lang:
     - en
   publish:

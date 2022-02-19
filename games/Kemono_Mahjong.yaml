@@ -18,13 +18,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Cyberdog Software'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Cyberdog Software'
   type:
     - casual
     - board
-  male:
+  species:
     - bull
     - dragon
     - deer

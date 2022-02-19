@@ -5,19 +5,22 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: NaruEver
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - NaruEver
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - raccoon
     - tiger
     - leopard
     - dog
     - wolf
+  fetish:
     - males-only
     - muscle
     - anal

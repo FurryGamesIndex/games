@@ -10,21 +10,24 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Eddio
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Eddio
   type:
     - dating-sim
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - wolf
     - bull
     - lizard
     - dragon
     - mouse
     - non-anthro
+  fetish:
     - males-only
   misc:
     - freeware

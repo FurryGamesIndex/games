@@ -22,14 +22,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Game Atelier'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'FDG Entertainment'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Game Atelier'
-    - 'FDG Entertainment'
   type:
     - action
     - adventure
-  male:
+  species:
     - dragon
     - pig
     - lion

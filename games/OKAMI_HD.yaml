@@ -16,13 +16,11 @@ tags:
   type:
     - role-playing
     - adventure
-  male:
+  species:
     - dog
     - lung
     - humankind
     - non-anthro
-  female:
-    - humankind
   misc:
     - centralized
   lang:
