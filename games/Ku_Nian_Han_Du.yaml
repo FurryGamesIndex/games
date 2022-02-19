@@ -19,8 +19,7 @@ description: |
 
 description-format: markdown
 
-tags:
-  authors:
+authors:
   - name: KCN杏仁
     role: [ producer, screenwriter, programmer, artist ]
   - name: Zoharwolf
@@ -31,6 +30,8 @@ tags:
     role: [ producer, screenwriter, programmer, artist ]
   - name: 毛绒虎爪
     role: [ producer, screenwriter, programmer, artist ]
+
+tags:
   type:
     - visual-novel
     - bara
