@@ -5,24 +5,25 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Fenrir Lunaris'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Fenrir Lunaris'
   type:
     - role-playing
     - yuri
     - yiff
-  male:
-    - wolf
-    - humankind
-    - muscle
-    - anal
-    - cockslapping
-  female:
+  species:
     - wolf
     - fox
     - dog
     - otter
+    - humankind
+  fetish:
+    - muscle
+    - anal
+    - cockslapping
   misc:
     - pixel-art
     - freeware

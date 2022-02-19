@@ -38,18 +38,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Spearhead Games'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Spearhead Games'
   type:
     - role-playing
     - action
     - adventure
-  male:
+  species:
     - bird
     - bear
     - wolf
-  female:
     - lynx
     - mouse
     - humankind

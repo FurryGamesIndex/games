@@ -21,12 +21,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Dan Fornace'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Dan Fornace'
   type:
     - visual-novel
-  male:
+  species:
     - lion
     - hyena
     - wolf

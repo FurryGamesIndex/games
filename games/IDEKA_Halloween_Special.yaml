@@ -38,21 +38,23 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: DyneWulf
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - DyneWulf
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - wolf
+    - humankind
     - bull
+  fetish:
     - blowjob
     - group
     - tentacles
-  female:
-    - humankind
   misc:
     - freeware
     - multiple-series

@@ -13,19 +13,23 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Orange Juice Dog'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Studio Klondike'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Orange Juice Dog'
-    - 'Studio Klondike'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - cat
     - leopard
     - tiger
     - humankind
+  fetish:
     - males-only
     - muscle
     - anal

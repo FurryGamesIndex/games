@@ -48,15 +48,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Ruffleneck
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Ruffleneck
   type:
     - shooter
     - bara
     - yuri
     - yiff
-  male:
+  species:
     - cat
     - lynx
     - leopard
@@ -64,20 +66,11 @@ tags:
     - fox
     - wolf
     - dog
+  fetish:
     - anal
     - blowjob
     - exhibitionism
-  female:
-    - cat
-    - lynx
-    - leopard
-    - snow-leopard
-    - fox
-    - wolf
-    - dog
     - futanari
-    - blowjob
-    - exhibitionism
   misc:
     - 3d
     - engine-unity

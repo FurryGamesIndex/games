@@ -12,13 +12,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Infinite Fall'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Finji
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Infinite Fall'
-    - Finji
   type:
     - adventure
-  male:
+  species:
     - bird
     - cat
     - lizard

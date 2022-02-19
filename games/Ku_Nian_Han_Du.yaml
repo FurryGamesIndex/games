@@ -20,21 +20,27 @@ description: |
 description-format: markdown
 
 tags:
-  author:
-    - KCN杏仁
-    - Zoharwolf
-    - 薄荷
-    - 水饺猫
-    - 毛绒虎爪
+  authors:
+  - name: KCN杏仁
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Zoharwolf
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 薄荷
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 水饺猫
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 毛绒虎爪
+    role: [ producer, screenwriter, programmer, artist ]
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - fox
     - wolf
     - lion
+  fetish:
     - males-only
   misc:
     - freeware

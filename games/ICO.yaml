@@ -12,16 +12,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Cetus
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Cetus
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - otter
     - dog
     - mouse
+  fetish:
     - males-only
   misc:
     - freeware

@@ -28,15 +28,18 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: デュードルスタジオ
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - デュードルスタジオ
   type:
     - casual
     - bara
     - yiff
-  male:
+  species:
     - leopard
+  fetish:
     - muscle
     - handjob
   misc:

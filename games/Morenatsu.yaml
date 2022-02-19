@@ -11,14 +11,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Morenatsu Team'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Morenatsu Team'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - bear
     - tiger
     - wolf
@@ -29,6 +31,7 @@ tags:
     - lion
     - raccoon-dog
     - humankind
+  fetish:
     - muscle
     - anal
     - blowjob

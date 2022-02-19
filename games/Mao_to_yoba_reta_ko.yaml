@@ -20,21 +20,20 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: HTN
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - HTN
   type:
     - role-playing
-  male:
+  species:
     - dragon
     - lion
     - wolf
-    - bear
-  female:
     - cat
-    - wolf
     - dog
-    - lion
+    - bear
   misc:
     - multiple-endings
     - engine-rpg-maker

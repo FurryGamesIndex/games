@@ -15,7 +15,7 @@ tags:
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - tiger
     - dragon
     - lion
@@ -23,6 +23,7 @@ tags:
     - wolf
     - fox
     - bear
+  fetish:
     - muscle
   female:
     - fox
