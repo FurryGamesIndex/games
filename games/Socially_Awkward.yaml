@@ -7,19 +7,22 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Monchi Mutt'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Monchi Mutt'
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - lung
     - dragon
     - dog
     - cat
     - lion
     - wolf
+  fetish:
     - muscle
     - males-only
   misc:

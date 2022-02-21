@@ -16,16 +16,18 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'The Cathouse Tale Team'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'The Cathouse Tale Team'
   type:
     - role-playing
     - business-sim
     - bara
     - yuri
     - yiff
-  male:
+  species:
     - wolf
     - bird
     - fox
@@ -37,21 +39,9 @@ tags:
     - rabbit
     - shark
     - tiger
+  fetish:
     - muscle
     - anal
-    - blowjob
-  female:
-    - wolf
-    - bird
-    - fox
-    - deer
-    - horse
-    - lion
-    - mouse
-    - otter
-    - rabbit
-    - shark
-    - muscle
     - blowjob
   misc:
     - 3d

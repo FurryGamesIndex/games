@@ -23,15 +23,15 @@ tags:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - raccoon
     - tiger
     - wolf
     - fox
-    - badger
-    - muscle
-  female:
     - bear
+    - badger
+  fetish:
+    - muscle
   misc:
     - freeware
     - engine-renpy

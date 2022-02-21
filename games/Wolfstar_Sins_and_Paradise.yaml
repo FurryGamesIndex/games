@@ -28,7 +28,7 @@ tags:
     - role-playing
     - bara
     - yiff
-  male:
+  species:
     - mouse
     - lion
     - wolf
@@ -36,13 +36,11 @@ tags:
     - fox
     - humankind
     - non-anthro
+  fetish:
     - muscle
     - anal
     - handjob
     - blowjob
-  female:
-    - lion
-    - humankind
   misc:
     - freeware
     - engine-renpy

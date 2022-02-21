@@ -20,18 +20,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: dorurung
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - dorurung
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - dragon
     - cat
     - lion
     - lizard
     - dog
+  fetish:
     - males-only
     - muscle
   misc:

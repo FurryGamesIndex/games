@@ -10,13 +10,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Grim-Meow'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Grim-Meow'
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - lung
     - bear
     - dog
@@ -27,8 +29,6 @@ tags:
     - wolf
     - fox
     - non-anthro
-  female:
-    - fox
   misc:
     - work-in-process
     - engine-renpy

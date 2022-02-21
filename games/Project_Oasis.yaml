@@ -69,8 +69,9 @@ tags:
   type:
     - adventure
     - puzzle
-  male:
+  species:
     - dog
+  fetish:
     - males-only
   misc:
     - freeware

@@ -47,13 +47,12 @@ tags:
     - adventure
     - casual
     - visual-novel
-  male:
+  species:
     - fox
     - bear
     - bird
     - deer
     - crocodile
-  female:
     - mouse
   misc:
     - pixel-art

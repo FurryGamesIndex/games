@@ -20,7 +20,7 @@ authors:
 tags:
   type:
     - visual-novel
-  male:
+  species:
     - fox
     - wolf
     - dog
@@ -28,11 +28,9 @@ tags:
     - cat
     - lung
     - sheep
-    - shota
-  female:
-    - dog
     - pig
-    - fox
+  fetish:
+    - shota
   misc:
     - freeware
     - work-in-process

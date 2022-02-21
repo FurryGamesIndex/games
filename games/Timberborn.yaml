@@ -68,10 +68,7 @@ tags:
   type:
     - strategy
     - business-sim
-  male:
-    - beaver
-    - non-anthro
-  female:
+  species:
     - beaver
     - non-anthro
   misc:

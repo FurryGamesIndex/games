@@ -45,11 +45,10 @@ tags:
     - adventure
     - strategy
     - casual       
-  male:
+  species:
     - fox
     - red-panda
     - monkey
-  female:
     - cat
     - deer
   lang:

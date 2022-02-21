@@ -28,23 +28,24 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Thunder Lotus'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Thunder Lotus'
   type:
     - casual
     - adventure
     - business-sim
-  male:
-    - bird
-    - shark
-  female:
+  species:
     - deer
     - snake
     - lynx
     - weasel
     - humankind
     - non-anthro
+    - bird
+    - shark
   misc:
     - multiplayer
     - engine-unity

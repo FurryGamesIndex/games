@@ -11,19 +11,22 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Bara-Diction
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Bara-Diction
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - tiger
     - lion
     - dog
     - dragon
     - bear
+  fetish:
     - males-only
     - anal
     - blowjob

@@ -48,7 +48,7 @@ tags:
   type:
     - strategy
     - board
-  male:
+  species:
     - cat
     - bird
   misc:

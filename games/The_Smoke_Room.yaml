@@ -10,19 +10,22 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'The Echo Project'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'The Echo Project'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - lion
     - dog
     - fox
     - badger
     - weasel
+  fetish:
     - muscle
   misc:
     - freeware

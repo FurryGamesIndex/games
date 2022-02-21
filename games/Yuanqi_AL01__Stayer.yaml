@@ -10,16 +10,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 元气工作室
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 元气工作室
   type:
     - adventure
     - strategy
     - casual   
-  male:
+  species:
     - fox
-  female:
     - cat
   lang:
     - en

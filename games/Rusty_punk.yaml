@@ -16,7 +16,7 @@ tags:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - hyena
     - bull
@@ -24,6 +24,7 @@ tags:
     - fox
     - tiger
     - monkey
+  fetish:
     - muscle
   misc:
     - freeware

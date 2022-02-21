@@ -19,23 +19,26 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Puzzling Dream'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Ultimate Games S.A.'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Art Games Studio S.A.'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Puzzling Dream'
-    - 'Ultimate Games S.A.'
-    - 'Art Games Studio S.A.'
   type:
     - adventure
     - role-playing
-  male:
+  species:
     - lizard
     - bird
     - wolf
-    - mixed
-    - humankind
-  female:
     - fox
     - rabbit
+    - mixed
+    - humankind
   misc:
     - pixel-art
     - work-in-process

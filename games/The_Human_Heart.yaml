@@ -19,7 +19,7 @@ tags:
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - wolf
     - cat
     - dog
@@ -28,6 +28,7 @@ tags:
     - rabbit
     - mouse
     - humankind
+  fetish:
     - muscle
     - males-only
   misc:

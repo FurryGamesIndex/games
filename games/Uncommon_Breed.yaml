@@ -21,15 +21,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: FoxBytez
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - FoxBytez
   type:
     - dating-sim
     - role-playing
     - bara
     - yiff
-  male:
+  species:
     - lion
     - bear
     - wolf

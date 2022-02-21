@@ -22,12 +22,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Pocketwatch Games'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Pocketwatch Games'
   type:
     - real-time-strategy
-  male:
+  species:
     - mouse
     - lizard
     - bird

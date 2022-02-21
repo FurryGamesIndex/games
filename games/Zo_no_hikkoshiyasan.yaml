@@ -15,16 +15,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: nikubo
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - nikubo
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - raccoon
     - dog
+  fetish:
     - males-only
     - anal
     - blowjob

@@ -73,12 +73,10 @@ authors:
 tags:
   type:
     - visual-novel
-  male:
+  species:
     - lynx
     - wolf
     - mixed
-  female:
-    - wolf
   misc:
     - engine-renpy
     - multiple-endings

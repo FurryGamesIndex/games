@@ -46,7 +46,7 @@ tags:
   type:
     - puzzle
     - visual-novel
-  male:
+  species:
     - bull
     - rabbit
     - hyena
@@ -55,10 +55,10 @@ tags:
     - lynx
     - sheep
     - shark
-    - muscle
-  female:
     - cat
     - tiger
+  fetish:
+    - muscle
   misc:
     - multiple-endings
   lang:

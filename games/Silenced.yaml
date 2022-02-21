@@ -33,15 +33,17 @@ description: |
 
 expunge: true
 
+authosr:
+  - name: 'DragonSnow'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'DragonSnow'
   type:
     - adventure
     - puzzle
     - bara
     - yiff
-  male:
+  species:
     - wolf
     - fox
   misc:
