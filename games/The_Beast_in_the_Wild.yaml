@@ -8,14 +8,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 沉迷卖萌的爪子
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 沉迷卖萌的爪子
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - tiger
     - humankind
   misc:

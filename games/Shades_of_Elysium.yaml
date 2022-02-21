@@ -12,26 +12,28 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Khralzar'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Valderic Blackstag'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Kadisurmik'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Khralzar'
-    - 'Valderic Blackstag'
-    - 'Kadisurmik'
   type:
     - role-playing
     - bara
     - yuri
     - yiff
-  male:
+  species:
     - tiger
-    - wolf
-    - dragon
-    - muscle
-  female:
-    - wolf
     - fox
-    - dragon
     - cat
+    - wolf
+    - dragon
+  fetish:
+    - muscle
   misc:
     - 3d
     - uncensored

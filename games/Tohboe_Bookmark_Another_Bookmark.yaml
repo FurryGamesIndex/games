@@ -17,16 +17,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Paul.D.Uchiha
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Paul.D.Uchiha
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - wolf
     - dog
-  female:
     - cat
   misc:
     - freeware

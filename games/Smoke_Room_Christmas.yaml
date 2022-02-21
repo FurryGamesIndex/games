@@ -73,12 +73,13 @@ tags:
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - lion
     - dog
     - fox
     - badger
     - weasel
+  fetish:
     - muscle
   misc:
     - freeware

@@ -27,10 +27,7 @@ tags:
   type:
     - visual-novel
     - gore
-  male:
-    - cat
-    - dog
-  female:
+  species:
     - cat
     - dog
   misc:

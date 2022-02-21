@@ -28,13 +28,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Kemono Games'
+    role: [ producer, artist, musician, programmer ]
+  - name: 'Ravenscourt'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Kemono Games'
-    - 'Ravenscourt'
   type:
     - shooter
-  male:
+  species:
     - cat
     - dog
     - non-anthro

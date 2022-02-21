@@ -25,27 +25,29 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Toby Fox'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Temmie Chang'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Tim'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Toby Fox'
-    - 'Temmie Chang'
-    - 'Tim'
   type:
     - role-playing
     - adventure
     - puzzle
     - shooter
-  male:
+  species:
     - dog
     - sheep
     - deer
-    - humankind
-    - muscle
-  female:
-    - dog
     - cat
-    - sheep
     - rabbit
+    - humankind
+  fetish:
+    - muscle
   misc:
     - pixel-art
     - uncensored

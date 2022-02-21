@@ -41,14 +41,13 @@ tags:
   type:
     - action
     - adventure
-  male:
+  species:
     - tiger
     - monkey
     - bird
     - cat
     - bear
     - mouse
-  female:
     - dog
   lang:
     - en

@@ -37,7 +37,7 @@ tags:
   type:
     - strategy
     - casual
-  male:
+  species:
     - bear
     - dog
     - tiger

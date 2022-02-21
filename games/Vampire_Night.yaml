@@ -5,12 +5,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: '遗忘之雾ing'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - '遗忘之雾ing'
   type:
     - role-playing
-  male:
+  species:
     - wolf
     - dog
     - tiger

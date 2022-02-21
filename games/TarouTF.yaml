@@ -21,20 +21,23 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 飛んでいって
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 飛んでいって
   type:
     - role-playing
     - bara
     - yiff
-  male:
+  species:
     - wolf
     - tiger
     - cat
     - dragon
     - non-anthro
     - humankind
+  fetish:
     - muscle
     - transfur
     - masturbation

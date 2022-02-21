@@ -12,15 +12,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: WOTB
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - WOTB
   type:
     - visual-novel
     - dating-sim
     - bara
     - yiff
-  male:
+  species:
     - dog
     - wolf
     - tiger
@@ -34,14 +36,10 @@ tags:
     - lion
     - fox
     - bear
+  fetish:
     - muscle
     - anal
     - blowjob
-  female:
-    - fox
-    - dog
-    - wolf
-    - rabbit
   misc:
     - freeware
     - engine-renpy

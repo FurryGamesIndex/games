@@ -34,10 +34,8 @@ tags:
     - adventure
     - puzzle
     - role-playing
-  male:
+  species:
     - dragon
-    - humankind 
-  female:
     - humankind
   lang:
     - en

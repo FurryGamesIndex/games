@@ -15,12 +15,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: hyperbeard
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - hyperbeard
   type:
     - casual
-  male:
+  species:
     - rabbit
     - deer
     - fox

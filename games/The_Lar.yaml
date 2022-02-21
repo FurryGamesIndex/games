@@ -21,21 +21,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Team Yume'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Team Yume'
   type:
     - role-playing
-  male:
-    - dog
-    - wolf
-    - snow-leopard
-    - humankind
-    - transfur
-  female:
+  species:
     - dog
     - cat
     - wolf
+    - snow-leopard
+    - humankind
+  fetish:
+    - transfur
   misc:
     - freeware
     - pixel-art

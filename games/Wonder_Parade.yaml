@@ -21,13 +21,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: studioQuare
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Nanjing AQUATRAX'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - studioQuare
-    - 'Nanjing AQUATRAX'
   type:
     - music
-  male:
+  species:
     - bear
     - dog
   misc:

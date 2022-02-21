@@ -38,10 +38,7 @@ tags:
   type:
     - role-playing
     - adventure
-  male:
-    - wolf
-    - non-anthro
-  female:
+  species:
     - wolf
     - non-anthro
   misc:

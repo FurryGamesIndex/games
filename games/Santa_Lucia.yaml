@@ -53,7 +53,7 @@ tags:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - cat
     - dog
     - lion
@@ -63,8 +63,6 @@ tags:
     - leopard
     - shark
     - lizard
-  female:
-    - fox
   misc:
     - freeware
     - work-in-process

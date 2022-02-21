@@ -5,9 +5,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Zoharwolf
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Zoharwolf
   type:
     - visual-novel
     - adventure
@@ -15,7 +17,7 @@ tags:
     - bara
     - gore
     - tragedy
-  male:
+  species:
     - wolf
     - tiger
     - humankind

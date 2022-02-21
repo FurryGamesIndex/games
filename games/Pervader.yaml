@@ -5,13 +5,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: GigaSaddle
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - GigaSaddle
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - leopard
     - bear
     - wolf
