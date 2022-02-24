@@ -70,19 +70,19 @@ tags:
     - android
 
 links:
-  - name: .itch.io
-    uri: https://andehp.itch.io/afterclass
   - name: .patreon
     uri: patreon:andehP
   - name: .twitter
     uri: twitter:afcl_tbd
+  - name: .itch.io
+    uri: https://andehp.itch.io/afterclass
 
 thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
     uri: youtube:dSb2LSmDg0Q
-  - https://img.itch.zone/aW1nLzI2OTA0MTQucG5n/original/m2mKgY.png
-  - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzQzNjk5MjQucG5n/original/1fqEbW.png
-  - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzQzNjk5MjYucG5n/original/y3EgGy.png
-
+  - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzU4NzIxMjcucG5n/original/ClGiM3.png
+  - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzU4NzIxMzAucG5n/original/2S3rbK.png
+  - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzU4NzIxNDEucG5n/original/uOl6G5.png
+  - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzU4NzIxNDIucG5n/original/Lug9%2Fh.png
