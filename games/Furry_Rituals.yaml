@@ -1,0 +1,51 @@
+name: '外兽祭·兽人们的冒险酒馆'
+
+brief-description: |
+  以Furry为角色的传统的日式RPG。 操作犬兽人“托姆”在剑与魔法与科技（？）的世界中体验邂逅同伴、冒险与奇遇的故事。
+
+description: |
+  《外兽祭·兽人们的冒险酒馆》是由兽祭制作组制作的长篇RPG游戏，是《兽祭》系列的第二部作品，第一部外传。
+
+  在遥远的岛国之上，名为托姆的少年心怀着对冒险家的憧憬与哥哥一起经营着冒险酒馆。在一日的傍晚一位异乡来客为托姆的生活带来了转机。“这不是天赐的好机会吗！”少年怀着这样的想法踏上了冒险的旅途。 与此同时在暗地里命运的齿轮与阴谋已缓缓开始转动。
+
+authors:
+  - name: 兽祭制作组
+    role: [ producer ] 
+
+tags:
+  type:
+    - role-playing
+    - adventure
+  misc:
+    - work-in-process
+    - engine-rpg-maker
+  lang:
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+  sys:
+    - staging
+
+links:
+  - name: .weibo
+    uri: https://weibo.com/u/7459643726
+  - name: .steam
+    uri: steam:1590570
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256841072/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256841072/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1590570/ss_c831d5764dba66c3cd03011ea63e966ac54acf83.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1590570/ss_bfa5a8c71bc53c717bb446821f16eb0a3339f657.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1590570/ss_e2d93c61ca4fccc9a8a72ee7afb882c387839d2c.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1590570/ss_1b0614c08ad01c392538af609234e4807db743cd.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1590570/ss_c0949d225c09d704bce776a93d4e377bca80dde0.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1590570/ss_fcc8f7e590f2b8398688dd16e9de33064fd45207.1920x1080.jpg
