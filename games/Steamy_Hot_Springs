@@ -74,6 +74,8 @@ links:
     uri: twitter:jking1200
   - name: .itch.io
     uri: https://jking1200.itch.io/steamy-hot-springs
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Steamy_Hot_Springs-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
