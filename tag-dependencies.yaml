@@ -7,7 +7,7 @@
 #
 # To see all tag dependencies, please use `./scripts/dbutils.sh show-tagdep`
 
-_mf: &mf
+species:
   cat: [ 'feline' ]
   tiger: [ 'feline' ]
   lion: [ 'feline' ]
@@ -30,11 +30,6 @@ _mf: &mf
   snake: [ 'reptilia' ]
 
   transfur: [ 'transform' ]
-
-male:
-  <<: *mf
-female:
-  <<: *mf
 
 misc:
   co-op: [ 'multiplayer' ]
