@@ -1,0 +1,57 @@
+name: Under the Bridge
+
+brief-description: |
+  Under the Bridge is an dating simulator / visual novel with added minigames and overworld exploration. Players meet male and female romance options in a relatable world.
+
+description: |
+    Welcome to Bridge City, the shipping town where you were born and raised. You're only here for a summer, so you'll need to make the most of it.
+
+    You'll run into friends that you've grown up with. You'll see how they've changed, or how they haven't. Hear their stories, have an adventure, and maybe even fall in love!
+
+description-format: markdown
+
+authors:
+  - name: Joseph O. Possum
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Ash Bricky
+    role: [ musician ]
+  - name: Kachi
+    role: [ musician ]
+  - name: Micx
+    role: [ musician ]
+  - name: Marnus Strydom
+    role: [ artist ]
+
+tags:
+  type:
+    - dating-sim
+    - visual-novel
+  species:
+    - opossum
+    - mouse
+    - dog
+    - raccoon
+    - cat
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - android
+  misc:
+    - freeware
+    - engine-unity
+    - work-in-process
+
+links:
+  - name: .itch.io
+    uri: https://josephopossum.itch.io/under-the-bridge
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvODY5Njk0LzY3NTkzMTIuanBn/original/e1K9GU.jpg
+  - https://img.itch.zone/aW1hZ2UvODY5Njk0LzY3MTMxNDcucG5n/original/BePIbY.png
+  - https://img.itch.zone/aW1hZ2UvODY5Njk0LzY3MTMxNjMucG5n/original/0oUZwz.png
