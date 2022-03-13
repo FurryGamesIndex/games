@@ -62,6 +62,7 @@
     - 此標籤有這些別名：`long`, `chinese-dragon`
 - `mouse` 主要角色包括鼠獸人
     - 此標籤有這些別名：`misc`, `rat`
+- `opossum` 主要角色包括負鼠獸人
 - `monkey` 主要角色包括猴子獸人
 - `bull` 主要角色包括牛獸人（只出現在 male 名稱空間）
 - `cow` 主要角色包括牛獸人（只出現在 female 名稱空間）
