@@ -62,6 +62,7 @@ The following are automatic tags, they are no different from other tags when you
     - This tag has these alias(es): `long`, `chinese-dragon`
 - `mouse` Main characters include mouse furries
     - This tag has these alias(es): `misc`, `rat`
+- `opossum` Main characters include opossum furries
 - `monkey` Main characters include monkey furries
 - `bull` Main characters include bull furries (only in namespace male)
 - `cow` Main characters include cow furries (only in namespace female)

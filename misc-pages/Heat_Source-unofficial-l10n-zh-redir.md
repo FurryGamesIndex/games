@@ -15,16 +15,16 @@
     
     NSFW
     
-    2022年2月13日首发公布于gamemale和fumankong，其余网址非本人授权发帖均为盗转，仅供学习交流使用，禁止使用于任何商业用途，转载、实况、直播等行为都是可以的，但请附上帖子链接，谢谢你。
+    2022年3月6日首发公布于gamemale和fumankong，其余网址非本人授权发帖均为盗转，仅供学习交流使用，禁止使用于任何商业用途，转载、实况、直播等行为都是可以的，但请附上帖子链接，谢谢你。
 
     游戏开始前请在设置界面将语言设置成中文，否则汉化不全
     
-    基于作者在itch上发布的公开版0.5汉化
+    基于作者在itch上发布的公开版0.6.1汉化
     
     作者itch界面：https://ari-guardian.itch.io/heat-source
 
 ## 汉化组的原始发布
 
-GameMale 的「和谐游戏板块」：<https://www.gamemale.com/thread-85949-1-1.html>
+GameMale 的「和谐游戏板块」：<https://www.gamemale.com/thread-86666-1-1.html>
 
 _要访问此帖子，您可能需要注册 GameMale 账号，并且需要将您的 GameMale 账号的用户组提升到 Level 2 或者更高_

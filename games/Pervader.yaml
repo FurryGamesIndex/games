@@ -3,8 +3,6 @@ name: Pervader
 description: |
   Pervader is a plot-heavy kinetic visual novel set on an island-continent which has its own history, myths and secrets. You play the role of Reamus, a young cougar who is thrust into a world of magic, politicking and sinister plots. The main character is joined by two companions whom you can get to know (very) intimately as you travel the world in search of a cure for a strange magical affliction which plagues you.
 
-description-format: markdown
-
 authors:
   - name: GigaSaddle
     role: [ producer, screenwriter, programmer, artist ]
@@ -13,18 +11,30 @@ tags:
   type:
     - visual-novel
     - bara
+    - yiff
   species:
+    - lion
     - leopard
     - bear
     - wolf
+    - dog
+    - pig
+    - dragon
+  fetish:
+    - males-only
+    - anal
+    - blowjob
   misc:
     - freeware
+    - uncensored
     - engine-renpy
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
+    - patreon
   platform:
     - windows
     - macos
@@ -38,6 +48,8 @@ links:
     uri: patreon:GigaSaddle
   - name: .twitter
     uri: twitter:GigaSaddle
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Pervader-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

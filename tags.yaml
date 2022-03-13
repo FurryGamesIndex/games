@@ -236,6 +236,12 @@ mouse:
     en: 'Main characters include mouse furries'
     zh-cn: '主要角色包括鼠兽人'
 
+opossum:
+  namespaces: [ species ]
+  explanation:
+    en: 'Main characters include opossum furries'
+    zh-cn: '主要角色包括负鼠兽人'
+
 monkey:
   namespaces: [ species ]
   explanation:
