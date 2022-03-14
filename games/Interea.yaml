@@ -56,9 +56,9 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN
-  - name: .unofficial-version-zh
-    icon: weibo
-    uri: https://weibo.com/7429628292/KneSjEnX4
+  - name: .unofficial-patch-zh
+    icon: telegram
+    uri: https://t.me/AuroraBorealisCN
 
 thumbnail: thumbnail.jpg
 
