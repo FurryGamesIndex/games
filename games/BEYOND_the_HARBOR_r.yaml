@@ -5,11 +5,9 @@ description: |
 
   A young aspiring detective catches wind of the case, and decides that if nobody else was going to solve this, he would. Little did he know, that he was involving himself with something much bigger.
 
-description-format: markdown
-
 authors:
   - name: Harmonious
-    role: [ producer, screenwriter, programmer, artist ]
+    role: [ producer ]
 
 tags:
   type:
@@ -36,15 +34,17 @@ tags:
     - android
 
 links:
-  - name: .itch.io
-    uri: https://harmoyena.itch.io/beyond-the-harbor
   - name: .twitter
     uri: twitter:Harmoyena
+  - name: .itch.io
+    uri: https://harmoyena.itch.io/beyond-the-harbor
+  - name: .patreon
+    uri: patreon:Harmoyena
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzY2Mjc5MDQucG5n/original/4FGzg4.png
-  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzY2Mjc5MDcucG5n/original/nEA3nv.png
-  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzY2Mjc5MDgucG5n/original/8q4Vo8.png
-  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzY2Mjc5MDkucG5n/original/4hAJOA.png
+  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzc3NjE5MjAucG5n/original/4ClwMc.png
+  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzc3NjE5MTcucG5n/original/camqYL.png
+  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzcxOTc1ODQucG5n/original/C5O10b.png
+  - https://img.itch.zone/aW1hZ2UvNTUxNDIxLzc3MTQ1MDYucG5n/original/AYDGLo.png
