@@ -12,8 +12,6 @@ description: |
 
   ...You awaken in your new body, feeling quite different from how you were before. Nobody can tell whether it's truly you inside the machine, or an AI pretending, believing that it's you. Not even you can tell. In a world where technology's constantly evolving, advanced AIs are viewed with fear and suspicion and few things are certain, you have to rebuild your old life from scratch, convince those who abandoned you on your deathbed that you're still here, and ultimately figure out whether you truly are who you claim to be.
 
-description-format: markdown
-
 authors:
   - name: Sedge
     role: [ screenwriter, programmer ]
@@ -60,7 +58,8 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvOTUwOTY1LzU1MTM3MTUuanBn/original/iuds8B.jpg
-  - https://img.itch.zone/aW1hZ2UvOTUwOTY1LzU1MTM3MTYuanBn/original/wpvYE%2B.jpg
-  - https://img.itch.zone/aW1hZ2UvOTUwOTY1Lzc2Mzk3NTguanBn/original/PpZIZy.jpg
+  - https://img.itch.zone/aW1hZ2UvOTUwOTY1Lzc3MjA1MzMucG5n/original/qz%2BWC9.png
+  - https://img.itch.zone/aW1hZ2UvOTUwOTY1Lzc3MjA1MzQucG5n/original/%2FjZveU.png
+  - https://img.itch.zone/aW1hZ2UvOTUwOTY1Lzc3MjA1MzUucG5n/original/7uFUSH.png
   - https://img.itch.zone/aW1hZ2UvOTUwOTY1LzYyNTE4OTEuanBn/original/6l9r4o.jpg
+  - https://img.itch.zone/aW1hZ2UvOTUwOTY1Lzc3MjA1MzYucG5n/original/8edFeE.png
