@@ -55,10 +55,14 @@ tags:
     - android
 
 links:
-  - name: .itch.io
-    uri: https://azzyford.itch.io/edensreach
+  - name: .twitter
+    uri: twitter:edensreachvn
   - name: .discord
     uri: discord:n75mvEruC2
+  - name: .itch.io
+    uri: https://azzyford.itch.io/edensreach
+  - name: Ko-Fi
+    uri: https://ko-fi.com/azzyford
   - name: .unofficial-version-zh
     uri: FGI-misc-page:Edens_Reach-unofficial-l10n-zh-redir
 
@@ -66,7 +70,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzU1ODMyNTQucG5n/original/a91JkV.png
-  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzU1ODMzNjgucG5n/original/nO9lg3.png
-  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzU1ODMzNjkucG5n/original/N3itMD.png
-  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzY1ODQ1NjgucG5n/original/EWkGLt.png
-  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzY1ODQ2MDIucG5n/original/08Ek7k.png
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzc3NDY4ODUucG5n/original/QnW054.png
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzc3NDY4ODQucG5n/original/sTKk%2Bb.png
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzc3NDY4ODYucG5n/original/ZUmo%2F7.png
+  - https://img.itch.zone/aW1hZ2UvOTgyMTgzLzc3NDY4OTYucG5n/original/GIb02T.png
