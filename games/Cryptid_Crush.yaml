@@ -1,26 +1,20 @@
 name: Cryptid Crush
 
-brief-description: |
-  As a newcomer to the seaside town of Longhope, you find yourself surrounded by monsters of urban myth. Haunted by the cat specter Taro, your journey begins alongside the wingless Jersey Devil Jamie and the pint-sized Mothman Atlas.
-
 description: |
-  ![](https://img.itch.zone/aW1nLzQ4MjAxODcucG5n/original/qfVEPD.png)
-  
-  **Cryptid Crush is a TTRPG inspired Monster Visual Novel with eldritch elements!**
-  
-  *As a newcomer to the seaside town of Longhope, you find yourself surrounded by monsters of urban myth. Haunted by the cat specter Taro, your journey begins alongside the wingless Jersey Devil Jamie and the pint-sized Mothman Atlas.*
-  
-  Cryptid Crush will feature at *least* FOUR monster singles, this demo highlights the dynamics between two of them. 
-  
-description-format: markdown
+  Cryptid Crush is a TTRPG inspired  Monster Visual Novel with eldritch elements!
+
+  As a newcomer to the seaside town of Longhope, you find yourself surrounded by monsters of urban myth. Haunted by the cat specter Taro, your journey begins alongside the wingless Jersey Devil  Jamie and the pint-sized Mothman Atlas.
+
+  Cryptid Crush will feature at least FIVE monster singles, and will receive updates with new content every few months!
 
 authors:
   - name: Drowsy Drake
-    role: [ producer, screenwriter, programmer, artist ]
+    role: [ producer ]
 
 tags:
   type:
     - visual-novel
+    - role-playing
     - bara
     - yuri
   species:
@@ -46,15 +40,23 @@ tags:
     - android
 
 links:
+  - name: .website
+    uri: https://cryptidcrush.com/
+  - name: .twitter
+    uri: twitter:CryptidCrush
   - name: .itch.io
     uri: https://cryptid-keep.itch.io/cryptid-crush
-  - name: .twitter
-    uri: twitter:DrakeDrowsy
+  - name: .patreon
+    uri: patreon:DrowsyDrake
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzQ1NzI4OTEucG5n/original/p%2F7oMG.png
-  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzQ1NzI4OTIucG5n/original/%2FEzQXn.png
-  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzQ1NzI4OTAucG5n/original/%2Bg07Qa.png
-  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzQ1NzI4ODYucG5n/original/4OX1iZ.png
+  - type: youtube
+    id: zJ44uQcjuA0
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyODgucG5n/original/Sv8I4w.png
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyODcucG5n/original/C6%2B16o.png
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyOTIucG5n/original/aXDc36.png
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyODkucG5n/original/HL7%2F2R.png
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyOTAucG5n/original/IwZoVV.png
+  - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyOTEucG5n/original/8sb48q.png
