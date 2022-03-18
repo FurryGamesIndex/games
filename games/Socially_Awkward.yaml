@@ -5,11 +5,9 @@ description: |
 
   You are Jayce (Name can be replaced). An insecure half breed cat who just started his college life. Follow his day to day  to uncover each characters' past to get to know them as well as figuring out the world around him.
 
-description-format: markdown
-
 authors:
-  - name: 'Monchi Mutt'
-    role: [ producer, screenwriter, programmer, artist ]
+  - name: Monchi Mutt
+    role: [ producer ]
 
 tags:
   type:
@@ -41,17 +39,20 @@ tags:
     - android
 
 links:
+  - name: .discord
+    uri: discord:XCqxY3M
   - name: .itch.io
     uri: https://monchimutt.itch.io/socially-awkward
   - name: .patreon
     uri: patreon:sociallyawkwardcat
-  - name: .discord
-    uri: discord:XCqxY3M
+  - name: Ko-Fi
+    uri: https://ko-fi.com/S6S3ASCM
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzQ2NzkxMjkucG5n/original/D2%2FQV9.png
-  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzQ2NzkxMzAucG5n/original/OS6vIm.png
-  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzQ2NzkxMzEucG5n/original/muMfaU.png
   - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzQ2NzkxMzUucG5n/original/4a7mS3.png
+  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzcyOTE3MTYucG5n/original/q3OBfK.png
+  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzcyOTE3MTkucG5n/original/pw0wgh.png
+  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzcyOTE3MTgucG5n/original/Z%2BwvOy.png
+  - https://img.itch.zone/aW1hZ2UvNTIzMzE4LzcyOTE3MjAucG5n/original/tU5vJt.png
