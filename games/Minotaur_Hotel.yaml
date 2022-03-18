@@ -1,16 +1,14 @@
 name: Minotaur Hotel
 
 brief-description: |
-  Minotaur Hotel is a gay romance visual novel set in a magical hotel. You will become its new manager and meet the keeper — Asterion, the minotaur from the Greek legend, sentenced by the gods to spend eternity there.
+  Minotaur Hotel is an award-winning gay romance story where you'll meet and grow close with Asterion, the Minotaur of Greek legend, and manage a magical hotel staffed by a cast of mythological beings.
 
 description: |
-  Minotaur Hotel is a gay romance visual novel set in a magical hotel. You will become its new manager and meet the keeper — Asterion, the minotaur from the Greek legend, sentenced by the gods to spend eternity there.
+  Minotaur Hotel is an award-winning gay romance story where you'll meet and grow close with Asterion, the Minotaur of Greek legend, and manage a magical hotel staffed by a cast of mythological beings.
 
-  In your mandate as Master of the hotel you will be faced with many choices — treating the minotaur humanely or not, dealing with the hotel’s magical workings and entities, and managing a growing cast of fantastical employees. By sending out teams to explore the valley below the hotel you will find ancient artifacts and mementos, which will reveal more about Asterion’s past and the realm’s history.
+  In your mandate as owner you will be faced with many choices — treating the Minotaur humanely or not, dealing with the hotel’s magical workings and entities and getting to know a growing cast of fantastical employees. By sending out teams to explore the valley below the hotel you will find ancient artifacts and mementos, which will reveal more about Asterion’s past and the realm’s history, and by assigning them to Research & Development you will unlock improvements to the hotel.
 
-  The way you treat Asterion and manage the hotel will affect the story, leading to a replayable experience where each playthrough reacts to your play style and reveals different parts of the story. The game has over 150.000 words and will provide you with hours of playtime.
-
-description-format: markdown
+  The way you treat the Minotaur and manage the hotel will affect the story, leading to a replayable experience where each playthrough reacts to your choices and reveals different parts of the story. As of Version 0.5, the game has about 500,000 words and will provide you with hours of playtime.
 
 authors:
   - name: Minoh Workshop
@@ -59,13 +57,15 @@ thumbnail: thumbnail.jpg
 screenshots:
   - type: youtube
     uri: youtube:iIWwcsleGec
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUzNTQucG5n/original/KWhuzs.png
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NjAucG5n/original/9CEN0i.png
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NzAucG5n/original/4BURq%2B.png
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0Nzk4OTAucG5n/original/J4M%2BIX.png
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUyOTEucG5n/original/4t%2Bdjf.png
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUyOTIucG5n/original/Nbt8sB.png
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUzMjEucG5n/original/%2B1XqSP.png
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NjUucG5n/original/XOQInV.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzgwOTQ4NzUucG5n/original/u%2FL80I.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzgxODUzNDQucG5n/original/mXofow.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzgwOTQ4ODIucG5n/original/QgUrUz.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzgxODUzNTAucG5n/original/dOKsD5.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzgxODUzNTEucG5n/original/d0QeEs.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzgxODUzNDYucG5n/original/85P1gd.png
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NjYucG5n/original/mt77LE.png
-  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NzIucG5n/original/9IREH2.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0Nzk4OTAucG5n/original/J4M%2BIX.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUyOTIucG5n/original/Nbt8sB.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NjUucG5n/original/XOQInV.png
+  - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzM0NzUzMjEucG5n/original/%2B1XqSP.png
