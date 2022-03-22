@@ -45,8 +45,6 @@ links:
     uri: twitter:mosinott
   - name: .patreon
     uri: patreon:mosinott
-  - name: .unofficial-version-zh
-    uri: FGI-misc-page:Perfect_Touch-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
