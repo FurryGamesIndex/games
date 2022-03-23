@@ -97,8 +97,6 @@ tags:
   platform:
     - windows
     - linux
-  sys:
-    - staging
     
 links:
   - name: .steam
