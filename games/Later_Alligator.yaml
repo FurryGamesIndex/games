@@ -1,0 +1,68 @@
+name: Later Alligator
+
+brief-description: |
+  Pat the alligator, a (mostly) harmless and (probably) innocent reptile is at the center of a conspiracy that could bring down the biggest, scariest family in Alligator New York City: his own! Explore the city, meet the Family, and try to save Pat before the clock runs out.
+
+description: |
+  Later Alligator tells the story of Pat the alligator, a (mostly) harmless and (probably) innocent reptile at the center of a conspiracy that could bring down the biggest, scariest family in Alligator New York City: his own! Explore the city, meet the Family, and try to save Pat before the clock runs out.
+
+  Alligator New York City comes to life with the classic hand drawn animation style of SmallBu Animation, featuring densely animated areas to explore, 30 goofy minigames, and over 100 alligator residents to investigate. With multiple endings and a fully-animated cartoon finale, Later Alligator is a funny urban adventure you can play again and again.
+
+  - Classic 2D animation from an award winning studio
+  - Over 100 alligators and at least 3 ghosts
+  - Funny and family friendly, perfect for all ages
+  - 30 joke-filled minigames and challenges
+  - Multiple endings and a secret surprise
+  - Original soundtrack by 2 Mello
+
+description-format: markdown
+
+authors:
+  - name: SmallBü
+    role: [ producer, publisher ]
+  - name: Pillow Fight
+    role: [ producer, publisher ]
+
+tags:
+  type:
+    - role-playing
+  species:
+    - crocodile
+  misc:
+    - multiple-endings
+  lang:
+    - en
+  publish:
+    - itchio
+    - steam
+  platform:
+    - windows
+    - macos
+    - linux
+    - nintendo-switch
+
+links:
+  - name: .website
+    uri: https://www.lateralligatorgame.com/
+  - name: .steam
+    uri: steam:966320
+  - name: .itch.io
+    uri: https://pillowfight.itch.io/later-alligator
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/later-alligator-switch/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256762049/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256762049/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/966320/ss_7fb90a8b867cf913f5e5ed6ab51dd238b2ce812a.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/966320/ss_bf8fb175f0b99b208507136bb6b13b817ef3a6a5.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/966320/ss_c90eea63e8c352e850b54d73289502eb7d6f56c9.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/966320/ss_0c8805535f1fb49772df1d2ac0a9a141506ccf7f.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/966320/ss_0fe50629cbd71366d616b6c3cb64eab4e0c3f739.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/966320/ss_80437d2253ae5d05a77ab8ac68a75d9359f8b3cd.1920x1080.jpg
