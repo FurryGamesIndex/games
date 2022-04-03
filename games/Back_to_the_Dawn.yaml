@@ -1,0 +1,79 @@
+name: Back to the Dawn
+
+brief-description: |
+  An exciting RPG set in a maximum-security prison populated by animals of every shape and size. Survive, explore, and escape! Along the way, you’ll interact with a motley crew of interesting and unique characters. Be strong and be smart! It's not just yourself you're saving, it's the whole city!
+
+description: |
+  ![Hardcore Story](https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/extras/final-改-硬汉式剧情-EN.gif)
+
+  ![Immersive Simulation](https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/extras/final-改-浸入式体验-EN.gif)
+
+  ![Personalized Characters](https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/extras/改-NPC交互-英.gif.gif)
+
+  ![Free and Open Growth System](https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/extras/0124-4成长系统ー英.jpg)
+
+  ![Mind-blowing Breakout Routes](https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/extras/越狱路线-英.gif)
+
+description-format: markdown
+
+authors:
+  - name: Metal Head Games
+    role: [ producer, publisher ]
+
+tags:
+  type:
+    - adventure
+    - role-playing
+    - strategy
+  misc:
+    - pixel-art
+    - work-in-process
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+  sys:
+    - staging
+
+links:
+  - name: .twitter
+    uri: twitter:bttd_official
+  - name: .weibo
+    uri: https://weibo.com/u/7714075312
+  - name: Bilibili
+    uri: https://space.bilibili.com/1344619699
+  - name: .youtube
+    uri: youtube:UCVjhBMEeic_pf1LSrUglNQA
+  - name: .discord
+    uri: discord:zmDgFyG5
+  - name: .demo-version-steam
+    uri: steam:1735700
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256878261/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256878261/movie480.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256861210/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256861210/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_0a78e7486f61265c3f49010c38c855f499efca67.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_f6603bad835d3f3c68c04b2e8bb835ffc565826a.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_3c9e1a296b5d1562788517b649b109710535b859.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_9368af3a2bfc09d28135a311a4951915db80bfcb.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_cc3cd16f0ddedcfcf455d5f73ca3e5b3512a6c70.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_7c8b99d784b7a674dea8f53318b3a598716ef64e.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_569ffffb7eadb461a40819e3275246c641d5120c.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_13bb325b794aa2915f07c863f2b1beedfa300701.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1735700/ss_50d7d49a1522373efa6be52cbb8886d7f76bee06.1920x1080.jpg
