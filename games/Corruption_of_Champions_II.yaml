@@ -86,8 +86,11 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - sensitive: true
-    uri: https://cdn.akamai.steamstatic.com/steam/apps/256793796/movie_max_vp9.webm
+  - type: video
+    src:
+      - mime: video/webm
+        sensitive: true
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256793796/movie_max_vp9.webm
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1292690/ss_8c1cd067f2be9178896992ec79991e88f2c9a176.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1292690/ss_fcfb54c3b67b78bad82757d3f163a6006121c376.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1292690/ss_6f84c99dbe2c0ab7a442ec98cc86576aec025a18.1920x1080.jpg
