@@ -1,0 +1,125 @@
+name: TUNIC
+
+brief-description: |
+  Explore a land filled with lost legends, ancient powers, and ferocious monsters in TUNIC, an isometric action game about a small fox on a big adventure.
+
+description: |
+  #ABOUT THIS GAME
+  ---
+  Explore a land filled with lost legends, ancient powers, and ferocious monsters in TUNIC, an isometric action game about a small fox on a big adventure. Stranded in a ruined land, and armed with only your own curiosity, you will confront colossal beasts, collect strange and powerful items, and unravel long-lost secrets.
+  
+  **BECOME A LEGEND**
+  
+  Stories say that a great treasure is hidden somewhere in this land. Perhaps it lies beyond the golden door? Or somewhere deep beneath the earth? Some tales tell of a palace high above the clouds, and of ancient beings with incredible power. What will you find?
+  
+  **REBUILD A SACRED BOOK**
+  
+  During your travels, you’ll reconstruct the game’s Instruction Manual. Page by page, you’ll reveal maps, tips, special techniques, and the deepest of secrets. If you find every last one, maybe something good will happen...
+  
+  **BE COURAGEOUS, LITTLE ONE!**
+  
+  Dive into varied, technical combat. Dodge, block, parry, and strike! Learn how to conquer a wide cast of monsters, big and small — and discover useful new items to help you on your way.
+  
+  * Explore a hostile and intricately-connected world of shady forests, sprawling ruins, and labyrinthine catacombs
+  
+  * Fight mighty bosses deep beneath the earth, high above the clouds, and in places stranger still
+  
+  * Collect the missing manual pages, bursting with hints and original full-color illustrations
+  
+  * Discover hidden treasures to help you on your way
+  
+  * Unearth secret relics, secret techniques, secret puzzles, and… listen, there’s a lot of secrets!
+  
+  * Featuring sound design by **Power Up Audio**
+  
+  * And an original soundtrack by **Lifeformed (Terence Lee and Janice Kwan)**
+  
+  Keep your wits about you and be brave, little fox!
+
+description-format: markdown
+
+authors:
+  - name: dicey
+    role: [ producer ]
+  - name: TUNIC Team
+    role: [ producer ]
+  - name: Finji
+    role: [ publisher ]
+  - name: Lifeformed
+    role: [ musician ]
+
+tags:
+  type:
+    - adventure
+    - action
+    - puzzle
+    - role-playing
+  species:
+    - fox
+  misc:
+    - 3d
+    - engine-unity
+    - multiple-endings
+    - outside-furry-fandom
+  lang:
+    - ar
+    - cs
+    - de
+    - en
+    - es
+    - fr
+    - hu
+    - it
+    - ja
+    - ko
+    - pl
+    - pt
+    - ru
+    - tr
+    - zh
+  publish:
+    - steam
+    - epic
+    - itchio
+    - gog
+    - website
+  platform:
+    - windows
+    - macos
+    - xbox-one
+    - xbox-series-x
+    - xbox-series-s
+
+links:
+  - name: .steam
+    uri: steam:553420
+  - name: .itch.io
+    uri: https://finji.itch.io/tunic
+  - name: .epic
+    uri: https://store.epicgames.com/p/tunic
+  - name: .gog.com
+    uri: https://www.gog.com/en/game/tunic
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/store/r/9nlrt31z4rwm
+  - name: .website
+    uri: https://tunicgame.com/
+  - name: .twitter
+    uri: twitter:TUNICGame
+  - name: .discord
+    uri: http://discord.gg/finji
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    id: HJUWoCopVaQ
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_9c0184ba83022786f74f4a70ebae5c47d2a3c35c.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_5fc49d3c5fa34b0d0e6b6a5621f9062bec7ac4d7.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_04ac7db623d3e88751134eb87f5c465c392fa108.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_cce46eba03270e47fab2f955ec148c43f71fdb49.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_a19c43feb20d7c6aeda4e0bf6abb6e9ca10c3974.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_37434cb739e8b0690f939840bf6a0167141e2929.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_260662fe9276ed7ffdd95c07891fb4dc0e6a0b6b.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_1ff04f3863a782037ca39d5d416459fbaeefd3a4.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_2eab1d16fcfd0a253d8531a6ec8c7ce36cac9ce4.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_23f0a5af9c71cb3c407d1d12a889fbe184318b31.jpg
