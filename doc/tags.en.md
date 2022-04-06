@@ -137,11 +137,11 @@ The following are automatic tags, they are no different from other tags when you
 
 Fetish
 
-- `futanari` Main characters include futanari (usually set into namespace female)
-- `males-only` Main characters are all males (only in namespace male)
-- `females-only` Main characters are all females (only in namespace female)
-- `shota` Main characters include childlike males (only in namespace male)
-- `loli` Main characters include childlike females (only in namespace female)
+- `futanari` Main characters include futanari
+- `males-only` Main characters are all males
+- `females-only` Main characters are all females
+- `shota` Main characters include childlike males
+- `loli` Main characters include childlike females
 - `muscle` Main characters include muscle characters
 - `transform` Main characters may transform
     - This tag has these alias(es): `transformation`

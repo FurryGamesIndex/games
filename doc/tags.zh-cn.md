@@ -137,11 +137,11 @@
 
 Fetish
 
-- `futanari` 主要角色包括扶她（通常放置于 female 命名空间）
-- `males-only` 主要角色只有雄性（只出现于 male 命名空间）
-- `females-only` 主要角色只有雌性（只出现于 female 命名空间）
-- `shota` 主要角色包括像孩子一样的男性（只出现于 male 命名空间）
-- `loli` 主要角色包括像孩子一样的女性（只出现于 female 命名空间）
+- `futanari` 主要角色包括扶她
+- `males-only` 主要角色只有雄性
+- `females-only` 主要角色只有雌性
+- `shota` 主要角色包括像孩子一样的男性
+- `loli` 主要角色包括像孩子一样的女性
 - `muscle` 主要角色中包括肌肉丰满的角色
 - `transform` Main characters may transform
     - 此标签有这些别名：`transformation`
