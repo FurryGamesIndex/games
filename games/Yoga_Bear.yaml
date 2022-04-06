@@ -1,0 +1,67 @@
+name: Yoga Bear
+
+brief-description: |
+  What happens when a struggling artist falls in love with a complete stranger? 🌈✨
+
+description: |
+  *What happens when a struggling artist falls in love with a complete stranger? 🌈✨*
+  
+  Android users go [>>>>HERE<<<<](https://high-tea.itch.io/yogabearweb) for the web version.
+  
+  [>>SEQUEL HERE<<](https://high-tea.itch.io/bear-care)
+  
+  A short visual novel for NanoReno 2021. 
+  
+  Contains anxiety and mature language.
+  
+  Comments are appreciated and Let's Plays are welcome.
+  
+  CREDITS
+  
+  Proofreading - [cygni](https://cygni.itch.io/)
+
+description-format: markdown
+
+authors:
+  - name: high-tea
+    role: [ producer ]
+  - name: cygni
+    role: [ others ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yuri
+  species:
+    - bear
+    - deer
+  fetish:
+    - males-only
+  misc:
+    - freeware
+    - engine-renpy
+    - multiple-series
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+  platform:
+    - web
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .itch.io
+    uri: https://high-tea.itch.io/yoga-bear
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:yoga_bear-unofficial-l10n-zh-redir
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvOTY2MDU4LzU1MTYwODEucG5n/original/QQXG2Y.png
+  - https://img.itch.zone/aW1hZ2UvOTY2MDU4LzU1MjE2MTIucG5n/original/td8uQP.png
+  - https://img.itch.zone/aW1hZ2UvOTY2MDU4LzU1MTYwODMucG5n/original/gDCknd.png
