@@ -1,0 +1,93 @@
+name: DELTARUNE
+
+description: |
+  ## The next adventure in the **UNDERTALE** series has appeared!
+  
+  Fight (or spare) alongside new characters in **UNDERTALE**'s parallel story, **DELTARUNE**...!
+  
+  ## Featuring
+  
+  - A massive soundtrack and story written by Toby Fox!
+  - Meet new and endearing main characters, as well as familiar faces like Toriel, Sans, as more. Huh? Papyrus? No, he's busy. Sorry
+  - Smooth and expressive pixel-animation by Temmie. She also has a new hat (in-game)
+  - A linear, chapter-based system that you can pick up from anywhere.
+  - Creative bullet-dodging based battles inspired by games like Touhou and Chrono Trigger.
+  - Jevilishly difficult hidden bosses.
+  - And...
+  - ...
+  - ... only 1 ending...?
+
+  ## Try Chapter 1 and 2 for free now!
+  
+  Chapters 3-5 are now in development and will someday be available as a paid release.
+  
+  ## FAQ
+  
+  - Can you pet dogs in the first 2 chapters?
+  
+  *(crying)* This FAQ is over!
+
+description-format: markdown
+
+authors:
+  - name: Toby Fox
+    role: [ producer, programmer, musician ]
+  - name: Temmie Chang
+    role: [ artist, animation ]
+  - name: Kanotynes
+    role: [ artist ]
+
+tags:
+  type:
+    - role-playing
+    - adventure
+  species:
+    - deer
+    - bird
+    - cat
+    - crocodile
+    - lizard
+    - mixed
+    - humankind
+    - sheep
+  misc:
+    - pixel-art
+    - multiple-series
+    - work-in-process
+    - outside-furry-fandom
+  lang:
+    - en
+    - ja
+  publish:
+    - steam
+    - itchio
+    - e-shop
+  platform:
+    - windows
+    - macos
+    - nintendo-switch
+    - playstation4
+
+links:
+  - name: .website
+    uri: https://deltarune.com/
+  - name: .steam
+    uri: steam:1671210
+  - name: .itch.io
+    uri: https://tobyfox.itch.io/deltarune
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/deltarune-chapter-1-and-2-switch/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256849454/movie_max_vp9.webm
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_b19eda9efcabf0fe27741eb126427048541780f0.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_3fb0a253a8fa2f08a49f982d8c1e93c283e27f6d.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_0d6b9f18eb6af166ae23a2c6b3148865eedb362d.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_373f7aa9cd0f38423fadc4de77dece8e488bb7b1.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_ba1b1cd502e6a7f8aa5b9d5a39485ff32b84dc23.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_a8ec5f242a7c453fa4937e00c8d73fd0ab20328c.jpg
