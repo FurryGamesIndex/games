@@ -42,8 +42,8 @@ links:
     uri: https://booth.pm/ja/items/1575759
   - name: .twitter
     uri: twitter:orekemo
-  - name: Unoffical chinese patch
-    uri: https://srk.im/thread-43-1-1.html
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Orekemo-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
