@@ -28,6 +28,6 @@
 
 ## 汉化组的原始发布
 
-GameMale的「和谐游戏板块」：<https://wwwgamemale.com/thread-88098-1-1.html>
+GameMale的「和谐游戏板块」：<https://www.gamemale.com/thread-88098-1-1.html>
 
 _访问此帖子，可能需要注册 GameMale 账号，并且将您的 GameMale 账号的用户要组提升到 2 级或更高_
