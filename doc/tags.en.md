@@ -63,6 +63,7 @@ The following are automatic tags, they are no different from other tags when you
 - `rabbit` Main characters include rabbit furries
     - This tag has these alias(es): `hare`, `leporids`
 - `bear` Main characters include bear furries
+- `bat` Main characters include bat furries
 - `pig` Main characters include pig furries
 - `hyena` Main characters include hyena furries
 - `raccoon` Main characters include raccoon furries
@@ -116,6 +117,7 @@ The following are automatic tags, they are no different from other tags when you
 - `weasel` Main characters include weasel furries
     - This tag implicate (depend on) these tags: `mustelidae`
 - `ferret` Main characters include ferret furries
+    - This tag implicate (depend on) these tags: `mustelidae`
 
 ### Biological species: Reptilia
 
@@ -124,6 +126,8 @@ The following are automatic tags, they are no different from other tags when you
 - `crocodile` Main characters include crocodile furries
     - This tag implicate (depend on) these tags: `reptilia`
 - `snake` Main characters include snake furries
+    - This tag implicate (depend on) these tags: `reptilia`
+- `turtle` Main characters include snake furries
     - This tag implicate (depend on) these tags: `reptilia`
 
 ### Biological species: Special
