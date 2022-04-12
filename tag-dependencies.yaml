@@ -28,6 +28,7 @@ species:
   lizard: [ 'reptilia' ]
   crocodile: [ 'reptilia' ]
   snake: [ 'reptilia' ]
+  turtle: [ 'reptilia' ]
 
   transfur: [ 'transform' ]
 
