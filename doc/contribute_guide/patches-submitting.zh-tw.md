@@ -54,7 +54,7 @@ authors/The_Echo_Project: new author
 games/Adastra: update tags and links
 ```
 
-更新 Adastra 遊戲額中文字地化補丁連結：
+更新 Adastra 遊戲的中文字地化補丁連結：
 
 ```
 games/Adastra: update link of chinese l10n patch
