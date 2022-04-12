@@ -285,6 +285,12 @@ bear:
     en: 'Main characters include bear furries'
     zh-cn: '主要角色包括熊兽人'
 
+bat:
+  namespaces: [ species ]
+  explanation:
+    en: 'Main characters include bat furries'
+    zh-cn: '主要角色包括蝙蝠兽人'
+
 pig:
   namespaces: [ species ]
   explanation:
@@ -505,6 +511,12 @@ snake:
   explanation:
     en: 'Main characters include snake furries'
     zh-cn: '主要角色包括蛇兽人'
+
+turtle:
+  namespaces: [ species ]
+  explanation:
+    en: 'Main characters include turtle furries'
+    zh-cn: '主要角色包括龟兽人'
 
 ###################################################
 
