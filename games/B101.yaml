@@ -18,7 +18,7 @@ tags:
     - visual-novel
     - adventure
     - bara
-  male:
+  species:
     - dog
     - wolf
     - fox
@@ -27,6 +27,7 @@ tags:
     - deer
     - hyena
     - humankind
+  fetish:
     - males-only
   misc:
     - freeware

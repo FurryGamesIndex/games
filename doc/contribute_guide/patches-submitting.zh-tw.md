@@ -1,6 +1,6 @@
 # 提交補丁的注意事項
 
-當透過 Github Pull request 提交補丁時，建議儘可能得使一個 pull requst 儘可能的小，涉及面儘可能窄。例如編輯遊戲資料檔案的 pull request 中不應該修改文件、模板、樣式表或程式碼（修改標籤定義檔案是可以容忍的），新增遊戲資料檔案時也不要同時新增多個完全不相關的遊戲。
+當透過 Github Pull request 提交補丁時，建議儘可能得使一個 pull request 儘可能的小，涉及面儘可能窄。例如編輯遊戲資料檔案的 pull request 中不應該修改文件、模板、樣式表或程式碼（修改標籤定義檔案是可以容忍的），新增遊戲資料檔案時也不要同時新增多個完全不相關的遊戲。
 
 我們要求在 git 中**最終**記錄的 commits 訊息符合以下格式。
 
@@ -54,7 +54,7 @@ authors/The_Echo_Project: new author
 games/Adastra: update tags and links
 ```
 
-更新 Adastra 遊戲額中文字地化補丁連結：
+更新 Adastra 遊戲的中文字地化補丁連結：
 
 ```
 games/Adastra: update link of chinese l10n patch

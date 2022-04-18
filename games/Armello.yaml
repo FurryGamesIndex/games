@@ -12,13 +12,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: League of Geeks
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'League of Geeks'
   type:
     - strategy
     - board
-  male:
+  species:
     - wolf
     - bear
     - rabbit

@@ -146,11 +146,9 @@ let onload = async () => {
 
 				switch (ns) {
 				case 'malex':
-					ns = 'male';
-					break;
 				case 'femalex':
-					ns = 'female';
-					break;
+				case 'male':
+				case 'female':
 				case '':
 					return searchTagWithoutNamespace(searchdb, v);
 					break;

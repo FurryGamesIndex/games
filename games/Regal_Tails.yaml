@@ -27,23 +27,22 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Nemean Lion Studio'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Nemean Lion Studio'
   type:
     - visual-novel
     - yiff
-  male:
+  species:
     - bird
     - cat
     - lion
     - bear
-    - bull
-    - wolf
-  female:
-    - lion
     - tiger
     - snow-leopard
+    - bull
     - wolf
   misc:
     - uncensored

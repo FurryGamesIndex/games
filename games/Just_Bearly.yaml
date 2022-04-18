@@ -19,12 +19,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Daniel J Roberts'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Daniel J Roberts'
   type:
     - casual
-  male:
+  species:
     - bear
     - rabbit
     - lion

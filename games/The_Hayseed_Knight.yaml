@@ -26,17 +26,18 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: SandraMJ
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - SandraMJ
   type:
     - visual-novel
-  male:
+  species:
     - deer
     - mixed
     - bull
     - humankind
-  female:
     - cow
     - rabbit
     - sheep

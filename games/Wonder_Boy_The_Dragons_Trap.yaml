@@ -24,20 +24,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Lizardcube
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Dotemu
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Lizardcube
-    - Dotemu
   type:
     - action
     - adventure
-  male:
+  species:
     - dragon
     - lion
     - bird
     - mouse
-    - humankind
-  female:
     - humankind
   misc:
     - pixel-art

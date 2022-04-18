@@ -12,19 +12,18 @@ description: |
 
   You had one life already… there might not be a third.
 
-description-format: markdown
-
 authors:
   - name: Kael Tiger
-    role: [ producer, screenwriter, artist ]
+    role: [ producer ]
 
 tags:
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - wolf
+  fetish:
     - muscle
   misc:
     - freeware
@@ -43,18 +42,24 @@ tags:
     - android
 
 links:
+  - name: .twitter
+    uri: twitter:Kael_Tiger
+  - name: .discord
+    uri: discord:syy77QN
   - name: .itch.io
     uri: https://echoesofarcane.itch.io/farbeyondtheworld
   - name: .patreon
     uri: patreon:kaeltiger
+  - name: Ko-Fi
+    uri: https://ko-fi.com/kaeltiger
   - name: .unofficial-patch-zh
     uri: FGI-misc-page:Far_Beyond_the_World-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzQwNzM5NTAucG5n/original/0bTmSh.png
-  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzQwNzM5NTEucG5n/original/S5yWME.png
-  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzQwNzM5NTIucG5n/original/E1Xa%2BW.png
-  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzQwNzM5NTgucG5n/original/vZKTX%2F.png
-  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzQwNzM5NTQucG5n/original/7dqBNd.png
+  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzY3MjEwMzUucG5n/original/ZyRBw%2B.png
+  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzY3MjEwNDQucG5n/original/eR0LSh.png
+  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzY3MjEwNDYucG5n/original/uYJTIn.png
+  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzY3MjEwNTAucG5n/original/wFa4ZW.png
+  - https://img.itch.zone/aW1hZ2UvNzMyNDIwLzY3MjEwNDkucG5n/original/yBBlzX.png

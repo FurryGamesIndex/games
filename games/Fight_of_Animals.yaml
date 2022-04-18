@@ -28,13 +28,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Digital Crafter'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Digital Crafter'
   type:
     - fighting
     - casual
-  male:
+  species:
     - dog
     - shark
     - fox

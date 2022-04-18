@@ -9,16 +9,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'C.I.L. café'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'C.I.L. café'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - tiger
+  fetish:
     - anal
     - blowjob
     - masturbation
@@ -39,8 +42,8 @@ links:
     uri: https://booth.pm/ja/items/1575759
   - name: .twitter
     uri: twitter:orekemo
-  - name: Unoffical chinese patch
-    uri: https://srk.im/thread-43-1-1.html
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Orekemo-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

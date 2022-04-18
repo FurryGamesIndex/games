@@ -28,15 +28,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Bonus Level Entertainment'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Independent Arts Software GmbH'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'EuroVideo Medien'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Bonus Level Entertainment'
-    - 'Independent Arts Software GmbH'
-    - 'EuroVideo Medien'
   type:
     - action
     - adventure
-  male:
+  species:
     - fox
   misc:
     - pixel-art

@@ -7,15 +7,17 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Bara-Diction
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Bara-Diction
   type:
     - dating-sim
     - role-playing
     - bara
     - yiff
-  male:
+  species:
     - wolf
     - bull
     - lion
@@ -26,6 +28,7 @@ tags:
     - tiger
     - cat
     - humankind
+  fetish:
     - males-only
     - shota
   misc:

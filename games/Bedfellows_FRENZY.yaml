@@ -26,21 +26,20 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Krispy Animation
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Krispy Animation'
   type:
     - action
     - casual
     - yiff
-  male:
+  species:
     - cat
     - bird
     - mixed
-    - vore
-  female:
-    - bird
-    - mixed
+  fetish:
     - futanari
     - vore
   misc:

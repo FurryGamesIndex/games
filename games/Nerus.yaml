@@ -22,13 +22,11 @@ tags:
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - lizard
     - dog
     - leopard
     - wolf
-    - humankind
-  female:
     - humankind
   misc:
     - freeware

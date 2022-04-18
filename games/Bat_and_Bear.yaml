@@ -10,7 +10,7 @@ description: |
 
   "Bat and Bear" is a queer visual novel about mental health and healthy relationships.
 
-  Being an hour and 30 minute long VN, it's a story about healing and coping, and I hope you all enjoy it!
+  ***Being an hour and 30 minute long VN, it's a story about healing and coping, and I hope you all enjoy it!***
 
 description-format: markdown
 
@@ -21,24 +21,36 @@ authors:
 tags:
   type:
     - visual-novel
+    - bara
+    - gore
+  species:
+    - bear
+    - bat
+    - turtle
+  fetish:
+    - males-only
   misc:
     - freeware
     - engine-renpy
+    - multiple-endings
+    - grayscale
+    - homophobia
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
     - windows
     - macos
-  sys:
-    - staging
 
 links:
   - name: .itch.io
     uri: https://yonkbonkers.itch.io/bat-and-bear
   - name: .twitter
     uri: twitter:yonkbonkers
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Bat_and_Bear-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

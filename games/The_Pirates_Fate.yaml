@@ -35,31 +35,33 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'T.F. Wright'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Volkenfox'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'FoxWright Productions'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'T.F. Wright'
-    - 'Volkenfox'
-    - 'FoxWright Productions'
   type:
     - visual-novel
     - bara
     - yuri
     - yiff
-  male:
+  species:
     - cat
     - bull
     - dragon
     - bird
     - bear
-    - dog
-    - rabbit
-    - deer
-  female:
     - pig
     - snake
-    - cat
+    - dog
     - shark
     - leopard
+    - rabbit
+    - deer
   misc:
     - multiple-endings
     - uncensored

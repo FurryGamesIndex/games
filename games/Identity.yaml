@@ -18,22 +18,23 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Juicy Drake Studios'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Juicy Drake Studios'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dragon
     - lung
     - shark
     - snake
+  fetish:
     - muscle
     - blowjob
-  female:
-    - dragon
   misc:
     - work-in-process
     - multiple-endings

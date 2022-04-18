@@ -7,9 +7,10 @@ description: |
   Awoo, traveler! Welcome to Shelter!
 
   It's a furry visual novel about a bunch of those medieval fantasy dogs and a human who made their home at a mysterious, gigantic metal structure filled with futuristic technology in the middle of fantasy Siberia.
+
   The game takes place during the preparations for their version of fireworks night, by using a life-force fueled turret of mass destruction. I swear it makes sense in context!
 
-  It's nsfw and I think it'll satisfy dog-lovers. eyebrow wiggles
+  It's nsfw and I think it'll satisfy dog-lovers. *eyebrow wiggles*
 
 description-format: markdown
 
@@ -22,10 +23,11 @@ tags:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - wolf
     - humankind
+  fetish:
     - muscle
     - males-only
     - masturbation
@@ -43,12 +45,9 @@ tags:
     - windows
     - macos
     - android
+    - linux
 
 links:
-  - name: .itch.io
-    uri: https://rausmutt.itch.io/sheltervn
-  - name: .patreon
-    uri: patreon:raus
   - name: Twitter (NSFW)
     icon: twitter
     uri: twitter:rausmutt
@@ -57,14 +56,18 @@ links:
     uri: twitter:Vuffski
   - name: .furaffinity
     uri: furaffinity:raus
+  - name: .itch.io
+    uri: https://rausmutt.itch.io/sheltervn
   - name: .unofficial-version-zh
     icon: telegram
     uri: https://t.me/ldlocalization/21
+  - name: .patreon
+    uri: patreon:raus
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNTg4Njk5LzM0MTEzMTYuanBn/original/tA%2FE%2FA.jpg
-  - https://img.itch.zone/aW1hZ2UvNTg4Njk5LzM0MTEzMjQuanBn/original/SJOdGv.jpg
-  - https://img.itch.zone/aW1hZ2UvNTg4Njk5LzMxNTI1MTUuanBn/original/RTUO9D.jpg
-  - https://img.itch.zone/aW1hZ2UvNTg4Njk5LzMxNTI1MTguanBn/original/hnARnM.jpg
+  - https://img.itch.zone/aW1hZ2UvNTg4Njk5LzgyNjMwNTUucG5n/original/ZfU9%2Bl.png
+  - https://img.itch.zone/aW1hZ2UvNTg4Njk5Lzc3NDQxNjUucG5n/original/mnSWD5.png
+  - https://img.itch.zone/aW1hZ2UvNTg4Njk5Lzc3NDQxNTIucG5n/original/SUjsyU.png
+  - https://img.itch.zone/aW1hZ2UvNTg4Njk5Lzc3NDQxNTQucG5n/original/XuHpqp.png

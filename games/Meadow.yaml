@@ -29,7 +29,7 @@ description: |
   
 description-format: markdown
 
-author:
+authors:
   - name: Might and Delight
     role: [ producer, publisher ]
 
@@ -38,18 +38,7 @@ tags:
     - role-playing
     - adventure
     - casual
-  male:
-    - lynx
-    - bear
-    - deer
-    - bird
-    - badger
-    - fox
-    - wolf
-    - hedgehog
-    - frog
-    - non-anthro
-  female:
+  species:
     - lynx
     - bear
     - deer

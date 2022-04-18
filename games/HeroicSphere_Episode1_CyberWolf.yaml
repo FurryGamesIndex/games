@@ -11,15 +11,18 @@ description: |
   
 description-format: markdown
 
+authors:
+  - name: satyroom
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - satyroom
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - wolf
+  fetish:
     - muscle
     - males-only
     - mind-control

@@ -1,43 +1,23 @@
 name: Packedrat
 
 description: |
-  ##Controls (defaults, can be rebinded):
+  This is the PackedRat "hub" as it were. Each update will still have their own post. Otherwise, this game's stable branch updates nearly monthly. The nightly branch updates nearly every few days to a week or so. Both update with an image uploaded announcing it. The nightly is the most up to date with mostly small incremental changes; New rooms, enemy changes, and bug fixes. However features are experimental and may not even work properly or look right. Bug reports are welcome. Asking me how to get through the game isn't so much. I'm happy to give hints, but not 15 different questions of "What do I do now." Stable is recommended if you need an offline version, have lag issues, or are on a metered connection and don't want to deal with my rather fast updates flooding it.
 
-  Z - Jump  
-  X - Attack  
-  C - Use sub weapon  
-  V - Toggle sub weapon  
-  Enter - Menu  
-  arrows - Move
-
-  NOTICE: Before posting a bug report for broken graphics, check if clearing your cache solves the issue ( control + f5 in the address bar, the page will refresh.) These issues are normally the result of old texture pages being cached by the browser.
-
-  Nightly (web player):  
-  [http://nightly.packedrat.net/](http://nightly.packedrat.net/)
-
-  Stable (windows download, with audio):  
-  [http://stable.packedrat.net/Packedrat.zip](http://stable.packedrat.net/Packedrat.zip)
-
-  Changelog:  
-  [http://packedrat.net/~packedra/Changelog.txt](http://packedrat.net/~packedra/Changelog.txt)
-
-  (These lines below are edited by FGI editors)  
-  It looks like the author has temporarily suspended the game.  
-  More infomation: [https://www.furaffinity.net/journal/9062468/](https://www.furaffinity.net/journal/9062468/)
-
-description-format: markdown
+authors:
+  - name: darklord92
+    role: [ producer ]
 
 tags:
-  author:
-    - darklord92
   type:
     - adventure 
     - action
-  male:
+    - yiff
+  species:
     - mouse
     - bird
     - dragon
     - non-anthro
+  fetish:
     - anal
     - blowjob
     - vore

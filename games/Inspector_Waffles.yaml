@@ -19,15 +19,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Goloso Games
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Goloso Games
   type:
     - adventure
-  male:
-    - cat
-    - dog
-  female:
+  species:
     - cat
     - dog
   misc:

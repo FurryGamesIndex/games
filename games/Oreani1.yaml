@@ -14,12 +14,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Rodori
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Rodori
   type:
     - shooter
-  male:
+  species:
     - pig
     - dragon
     - lung
@@ -27,9 +29,6 @@ tags:
     - lion
     - dog
     - lizard
-  female:
-    - lion
-    - dog
   misc:
     - freeware
     - multiple-series

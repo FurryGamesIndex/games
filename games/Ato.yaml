@@ -25,13 +25,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Tiny Warrior Games
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Tiny Warrior Games'
   type:
     - action
     - adventure
-  male:
+  species:
     - cat
   misc:
     - pixel-art

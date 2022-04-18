@@ -28,13 +28,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Angry Demon Studio
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Angry Demon Studio
   type:
     - action
     - adventure
-  male:
+  species:
     - cat
   misc:
     - 3d

@@ -1,0 +1,75 @@
+name: Lenin - The Lion
+
+brief-description: |
+  Lenin – The Lion is a Puzzle RPG game about overcoming fears. Walk into chaos and find the claws of loneliness or carefully build your path and find the benefits of understanding and acceptance.
+
+description: |
+  ##Synopsis
+  Lenin is an albino lion, the only one of his kind, and because of that he feels insecure and constantly discouraged. Worse, his mother does not understand why his son was born this way, and the whole village despises him and treats him cruelly. At school, he suffers bullying and can’t concentrate on class.
+
+  Now, hopeless about life, certain situations seem to awaken in Lenin something that is not of everyone’s reality, but only of his. Something he will discover to be part of something else.
+  Besides, Lenin will find other animals species , which may help him to understand himself.
+  However, things are getting dangerous and Lenin needs to take care with his actions (your actions).
+
+  Traveling between daily life and a strange place, Lenin will have to face his inner fears and enemies – and often, the outer ones as well.
+
+  ##Gameplay
+  Lenin - The Lion is like a typical aerial-view RPGs of the SNES or Gameboy Color classics. The difference here is given by some criteria:
+
+  - There are no battles or levels: all actions taken by the player are through conversations with NPC's, puzzles and varied options.
+  - There is always more than one choice to proceed: yes, though many games work with "moral choices", in Lenin - The Lion choices don't change the character profile, but how is the unfolding of the main plot. With this in mind, don't expect multiple paths inside of the same part of the story. Your actions change the FUTURE scenes of the game, as well the endings of each area, unlocking new conversations with NPC's and different endings for the game as a whole.
+
+  ##Features
+  - A teenager's world and his struggles.
+  - No battle systems or levels.
+  - Lenin’s backpack is his menu. Losing it means not having access to the menu.
+  - Items and puzzles are crucial in the interactions between Lenin and the others.
+  - Choices determine the different endings of the game.
+  - Original art / soundtrack.
+  - Anthropomorphized characters.
+  - A cute and unique main character ❤
+
+description-format: markdown
+
+authors:
+  - name: Lornyon
+    role: [ producer ]
+
+tags:
+  type:
+    - role-playing
+    - adventure
+  lang:
+    - en
+    - pt
+  publish:
+    - steam
+  platform:
+    - windows
+  sys:
+    - staging
+
+links:
+  - name: .twitter
+    uri: twitter:LeninTheLion
+  - name: .facebook
+    uri: facebook:leninthelion
+  - name: .youtube
+    uri: youtube:leninthelion
+  - name: .steam
+    uri: steam:839850
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256758818/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256758818/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/839850/ss_888d40db3705e8e26b70e8839620c7aa36a52cce.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/839850/ss_889daed3fb2ffb789e83271bcb3a0176ac038907.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/839850/ss_dbafe0a71c984451aff4aef0ac1e961ec2c055ae.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/839850/ss_9d12eaf79d397c0715bd9a679125599a04a22cc4.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/839850/ss_60ebfeb7c62466975f090b8845eb333a99ff369f.1920x1080.jpg

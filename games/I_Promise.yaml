@@ -7,14 +7,16 @@ description:
   
 description-format: markdown
 
+authors:
+  - name: 'HAZUKASHII TEAM'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'HAZUKASHII TEAM'
   type:
     - visual-novel
     - dating-sim
     - bara
-  male:
+  species:
     - dog
     - cat
   misc:

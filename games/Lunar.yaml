@@ -18,24 +18,25 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Foo Fox'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Foo Fox'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - fox
     - wolf
     - bear
     - lynx
     - dog
+  fetish:
     - muscle
     - anal
     - blowjob
-  female:
-    - wolf
   misc:
     - uncensored
     - engine-renpy

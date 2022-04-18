@@ -23,20 +23,18 @@ description: |
   
 description-format: markdown
 
+authors:
+  - name: 'Might and Delight'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Might and Delight'
   type:
     - role-playing
     - adventure
-  male:
+  species:
     - lynx
     - bear
-    - non-anthro    
-  female:
-    - lynx
-    - bear
-    - non-anthro    
+    - non-anthro
   misc:
     - 3d
     - multiple-endings

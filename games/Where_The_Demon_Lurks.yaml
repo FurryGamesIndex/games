@@ -10,8 +10,6 @@ description: |
   
   Find out what it's like to be a reluctant ruler and meet a cast of demons, angels and other magical and not-so-magical misfits. Just what kind of a Demon Lord will you be in the end?
 
-description-format: markdown
-
 authors:
   - name: TeamBoke
     role: [ producer ]
@@ -46,7 +44,7 @@ tags:
     - adventure
     - yiff
     - bara
-  male:
+  species:
     - dog
     - fox
     - lion
@@ -69,10 +67,12 @@ tags:
     - linux
 
 links:
-  - name: .itch.io
-    uri: https://bokedaidu.itch.io/where-the-demon-lurks-demo-version
   - name: .twitter
     uri: twitter:BokeTeam
+  - name: .itch.io
+    uri: https://bokedaidu.itch.io/where-the-demon-lurks-demo-version
+  - name: .patreon
+    uri: patreon:TeamBoke
   - name: .unofficial-patch-zh
     uri: https://twitter.com/ABLocalization/status/1416046070614814723
 
@@ -80,5 +80,5 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvMTA2Mzc0Mi82MjkxNTUyLmpwZw==/original/fcWlpT.jpg
-  - https://img.itch.zone/aW1hZ2UvMTA2Mzc0Mi82MjkxNTUzLmpwZw==/original/dAY4pX.jpg
-  - https://img.itch.zone/aW1hZ2UvMTA2Mzc0Mi82MjkxNTU1LmpwZw==/original/090%2Fbf.jpg
+  - https://img.itch.zone/aW1hZ2UvMTA2Mzc0Mi83MzIwOTIyLmpwZw==/original/Jfc1M2.jpg
+  - https://img.itch.zone/aW1hZ2UvMTA2Mzc0Mi83MzIwOTI0LmpwZw==/original/o6furZ.jpg

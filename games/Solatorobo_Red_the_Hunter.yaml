@@ -17,15 +17,13 @@ tags:
   type:
     - action
     - role-playing
-  male:
+  species:
     - dog
     - cat
     - fox
     - wolf
     - lynx
     - tiger
-  female:
-    - cat
   lang:
     - en
     - ja

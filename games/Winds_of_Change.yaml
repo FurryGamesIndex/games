@@ -54,20 +54,20 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Tall Tail Studios'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Tall Tail Studios'
   type:
     - visual-novel
     - adventure
-  male:
+  species:
     - wolf
     - dog
     - leopard
     - mouse
     - bull
-  female:
-    - dog
   misc:
     - multiple-endings
   lang:

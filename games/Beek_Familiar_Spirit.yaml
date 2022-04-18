@@ -9,16 +9,19 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Studio Klondike
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Studio Klondike'
   type:
     - bara
-  male:
+  species:
     - wolf
     - bear
     - rabbit
     - humankind
+  fetish:
     - muscle
   misc:
     - engine-unity

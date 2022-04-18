@@ -5,9 +5,11 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'GhostieSpectie'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'GhostieSpectie'
   type:
     - visual-novel
     - bara
@@ -16,19 +18,16 @@ tags:
     - gore
     - comedy
     - horror
-  male:
+  species:
     - canine
     - feline
     - dog
+    - dolphin
+    - dragon
     - humankind
+  fetish:
     - muscle
     - human-on-furry
-    - tentacles
-    - dragon
-  female:
-    - canine
-    - humankind
-    - dolphin
     - tentacles
   misc:
     - freeware

@@ -25,15 +25,14 @@ tags:
     - bara
     - yiff
     - gore
-  male:
+  species:
     - wolf
     - humankind
+  fetish:
     - transfur
     - muscle
     - shota
     - guro
-  female:
-    - humankind
   misc:
     - freeware
     - engine-renpy

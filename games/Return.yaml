@@ -1,0 +1,93 @@
+name: Return
+
+brief-description: |
+  《Return回歸》是一款由台灣一人獨立團隊原創製作的獸人文字冒險遊戲。以異世界「二世」為背景，訴說著傷痕累累的少年，在穿越到「二世」的世界後經歷的種種困難、成長，以及與相遇夥伴的冒險愛情故事。豐富的劇情、生動的動作動畫，以及能對故事產生重大影響的選擇系統，將讓你體驗一個充滿悲傷、溫暖以及感動的旅程。
+
+description: |
+  這是一個會因你選擇而改變劇情的文字冒險遊戲。
+
+  在原本的世界，被人擊倒而昏迷後，主角來到另一個截然不同的世界——「二世」。
+  下定決心要回到原本世界的少年，將與能運用魔法的夥伴一同冒險，他將借用夥伴的魔法，以及對二世的知識，找到回家的道路，同時揭露這個世界深處不為人知的秘密。
+  ![昏迷](https://i.imgur.com/iAkqF7o.gif)
+
+  「明明…大家…看到我，拔腿就跑…」
+  「為什麼…你…還願意接近我？」
+  被二世人們厭惡的夥伴——夜，希望能被眾人接納，過著單純幸福的生活，卻始終無法如意。
+  直到意外拯救了擁有相同遭遇的主角——懷特，卻沒想到這看似美好的相遇，背後隱含的黑暗真相...
+  ![夥伴](https://i.imgur.com/punamxF.gif)
+
+  ##運用魔法，解決難關
+  副主角——夜跟一般人不同。
+  可以不需法杖，只靠自己的手，施展各式各樣的魔法，並藉此在危機四伏的異世界中，保護主角，幫助其找到回家之路。
+  ![夜1](https://i.imgur.com/lPmBH1o.gif)
+  ![夜2](https://i.imgur.com/kbWWITR.png)
+
+  ##弱小、卻又強大
+  主角——懷特就只是個普通人。沒有任何特殊能力。
+  但是，即使沒有強大的魔法，懷特還是能以溫暖人心的話語，成為夜與其他夥伴們的心靈支柱。
+  ![懷特](https://i.imgur.com/nCnFQin.png)
+
+  ##與各式各樣的角色互動，蒐集情報
+  冒險旅程中，主角們將遇到各式各樣不同的角色，不論是熱心提供知識的學者、不斷追殺他們的刺客，他們會以各種不同的身分阻擋你，但同時也會成為你的助力。
+  ![角色](https://i.imgur.com/HeHhq5N.png)
+
+  ##了解角色們的過往
+  異世界「二世」，由於「滅村事件」的發生而陷入混亂。人心惶惶、衝突四起，導致角色們都有或多或少的悲傷故事。
+  冒險過程中，將會逐漸發現他們的過往，探尋角色的回憶。
+  ![過往](https://i.imgur.com/hGvMv6t.gif)
+
+  ##旅行於危機四伏的異世界
+  故事中的主要舞台，異世界「二界」，因為滅村事件而陷入恐慌，社會瓦解，爭執不斷。
+  主角們將藉此機會，冒險深入各方勢力、打聽情報，只為拼湊出當年事件的全貌。
+  ![二界](https://i.imgur.com/XpXGOkh.gif)
+
+  ##每個人都能盡情享受的故事
+  Return是一個文字冒險遊戲。
+  全部的遊戲內容以劇情為主，沒有複雜的解謎，也沒有難纏的怪物，全程皆以極輕難度的遊玩為主。只要願意打開遊戲、觀賞劇情，就算不擅長玩遊戲，也可以有良好的遊玩體驗。
+  ![Return](https://i.imgur.com/15RrqFq.png)
+
+description-format: markdown
+
+authors:
+  - name: Eric1001
+    role: [ producer ]
+  - name: Azu RS
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  species:
+    - wolf
+    - tiger
+    - fox
+  misc:
+    - work-in-process
+    - engine-renpy
+  lang:
+    - zh
+  publish:
+    - website
+  platform:
+    - windows
+    - ios
+    - android
+    - macos
+    - linux
+
+links:
+  - name: .demo-version
+    uri: https://eric100001eric.wixsite.com/return
+  - name: .twitter
+    uri: twitter:Return_EricS
+  - name: .facebook
+    uri: facebook:Return.EricStudio
+  - name: Official Plurk
+    uri: https://www.plurk.com/Return_EricStudio
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    id: sPRJcV2-_Tg

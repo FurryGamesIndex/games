@@ -1,0 +1,71 @@
+name: Rift Between Worlds
+
+brief-description: |
+  Rift Between Worlds is a NSFW visual novel divided in chapters with protagonists a human, a feline hybrid and a laharoth, a hybrid race of reptilian-mammalian born after the twinning between the reptilian population of Raktar and the mammalian of Taron.
+
+description: |
+  Rift Between Worlds is a NSFW visual novel divided in chapters with protagonists a human, a feline hybrid and a laharoth, a hybrid race of reptilian-mammalian born after the twinning between the reptilian population of Raktar and the mammalian of Taron.
+
+  The player will be the human, a newly hired of CSS (Central Shield Security), an agency that checks the shield's integrity of the generators on Taron; An ex terraforming starship made of two hemispheres and permanently established around Raktar, a planet devastated by the radiation coming from the pulsar star Ilur. 
+
+  At the beginning, Taron arrived to rescue the planet of Raktar, just before the star Ilur exploded and become a pulsar, thus emitting, mortal radiation for the inhabitants. 
+
+  Taron, as we know now, was closed around Raktar for all the transforming process of Ilur. During that time, all the inhabitants of Raktar moved to Taron, because the endless darkness blocked the growth of any floras, thus missing the necessary nutriment for the population. 
+
+  The adventure begins right after the incident of the starship RAWT caused by a huge shockwave created by the explosion of a distant supernova.
+
+  Or maybe not?
+
+authors:
+  - name: Garoukan
+    role: [ screenwriter ]
+  - name: AlphaLuceatLaetis
+    role: [ programmer, screenwriter, translator ]
+  - name: worecan
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+  lang:
+    - en
+    - it
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .website
+    uri: https://www.garoulaetis.com/
+  - name: .twitter
+    uri: twitter:Garoukan 
+  - name: .discord
+    uri: discord:hjjuRe86Wj
+  - name: .itch.io
+    uri: https://garoukan.itch.io/rift-between-worlds
+  - name: .patreon
+    uri: patreon:garoulaetis
+  - name: Ko-Fi
+    uri: https://ko-fi.com/garoukan
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTI3MTc4Ny84MzI2NTIyLnBuZw==/original/GodqLa.png
+  - https://img.itch.zone/aW1hZ2UvMTI3MTc4Ny84MzI2NTI3LnBuZw==/original/1N%2Fhff.png
+  - https://img.itch.zone/aW1hZ2UvMTI3MTc4Ny83ODQxNTk4LnBuZw==/original/P0m8fn.png
+  - https://img.itch.zone/aW1hZ2UvMTI3MTc4Ny83ODQxNTk1LnBuZw==/original/ee5cp8.png
+  - https://img.itch.zone/aW1hZ2UvMTI3MTc4Ny84MzI2NTQwLnBuZw==/original/DkBf%2FD.png

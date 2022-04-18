@@ -4,26 +4,39 @@ brief-description: |
   This is a point and click adventure where you lead Drok'tar through the town of Gabranth and its surrounding areas while looking for his bounty. You'll meet a slew of characters along with way, and if you play your cards right, you'll find yourself in more... erotic situations with some of them.
 
 description: |
-  Follow an orc  mercenary as he tracks down his next target. Drok'tar is no newbie to his work, but the bounty he's looking for can be elusive.  He'll have to gather information from the townsfolk and hunt for clues in the surrounding area if he wants to rake in the gold from a job well done. Though, he might find more than just his bounty on his quest...
+  Follow an orc mercenary as he tracks down his next target. Drok'tar is no newbie to his work, but the bounty he's looking for can be elusive. He'll have to gather information from the townsfolk and hunt for clues in the surrounding area if he wants to rake in the gold from a job well done. Though, he might find more than just his bounty on his quest...
 
-  Endless Bounty is a point and click adventure where you lead Drok'tar through the town of Gabranth and its surrounding areas while looking for his bounty.  You'll meet a slew of characters along with way, and if you play your cards right, you'll find yourself in more... erotic situations with some of them.
+  This is a point and click adventure where you lead Drok'tar through the town of Gabranth and its surrounding areas while looking for his bounty. You'll meet a slew of characters along with way, and if you play your cards right, you'll find yourself in more... erotic situations with some of them.
 
-  There are multiple endings to be found!  Can you find them all?
+  - Explore a colorful, pixelated environment with only a click of your mouse while on your search.
+  - Meet a fun cast of characters that populate the small village of Gabranth.
+  - Search for clues on how to find your target before you lose him.
+  - Bob around with the wonderfully-charming chiptune soundtrack.
+  - Maybe find romance in one of the five possible endings.
+  - 20+ Achievements!
+  - PET THE DOG!
 
-description-format: markdown
+  Can you find your bounty? Will you lose out to someone else? Or will something more happen?
+
+authors:
+  - name: DyneWulf
+    role: [ screenwriter, programmer ]
+  - name: Gavel
+    role: [ artist ]
+  - name: Civ Valian
+    role: [ musician ]
 
 tags:
-  author:
-    - DyneWulf
   type:
     - adventure
     - bara
     - yiff
-  male:
+  species:
     - dragon
     - wolf
     - fox
     - humankind
+  fetish:
     - human-on-furry
     - males-only
     - anal
@@ -49,13 +62,22 @@ links:
   - name: .steam
     uri: steam:1364730
 
-thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNTE4ODAzLzM3Nzc3MjAuZ2lm/original/ImdG%2Ff.gif
-  - https://img.itch.zone/aW1hZ2UvNTE4ODAzLzM3ODA4MDguZ2lm/original/bLlVmg.gif
-  - https://img.itch.zone/aW1hZ2UvNTE4ODAzLzM3ODA4MDcuZ2lm/original/Ix5kaa.gif
-  - https://img.itch.zone/aW1hZ2UvNTE4ODAzLzM3ODEwNjEuZ2lm/original/asKEQ3.gif
-  - https://img.itch.zone/aW1hZ2UvNTE4ODAzLzM3Nzc2MzkucG5n/original/IfRa84.png
-  - https://img.itch.zone/aW1hZ2UvNTE4ODAzLzM5NTQ2NDYucG5n/original/P2lWCy.png
-  - https://img.itch.zone/aW1hZ2UvNTE4ODAzLzM3Nzc2NDAucG5n/original/nfwDG7.png
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256792181/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256792181/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_ccdbb0f2ac2748578275e7c12b8fdeeee3550e53.1920x1080.jpg
+  - sensitive: true
+    uri: https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_5019b7201ed4eef8017e97fe89098441f47e7815.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_81237afefa0958f5f9ca8c5893f22a09c9790057.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_a6b6213b0d0dbcea0d2be8400dde4bd1b7e0cb35.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_05ac82a6635a370f31de96cab7e6b30f5106ac1d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_199fb7812663cf24964014d0852fcd9c7c8643ab.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_abe7ae7f5cbb22a7e78314ba1360dcaa26b16e65.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_27b29cb32b25eec8934b23afd29494adf3076f60.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1364730/ss_88524f5b81708bbe6cd7d6990cdaa9960d7bef13.1920x1080.jpg

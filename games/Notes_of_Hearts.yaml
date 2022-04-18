@@ -16,24 +16,36 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Kul
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Cait
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Caro
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Mei
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Juza
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Peter·T·W'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Xiongma
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Camon
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Arkalpha
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Nyaosan
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: Pail
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Kul
-    - Cait
-    - Caro
-    - Mei
-    - Juza
-    - 'Peter·T·W'
-    - Xiongma
-    - Camon
-    - Arkalpha
-    - Nyaosan
-    - Pail
   type:
     - visual-novel
     - role-playing
     - yiff
-  male:
+  species:
     - dog
     - wolf
     - dragon
@@ -46,12 +58,8 @@ tags:
     - lion
     - tiger
     - humankind
+  fetish:
     - shota
-    - paizuri
-  female:
-    - dog
-    - wolf
-    - humankind
     - paizuri
   misc:
     - uncensored

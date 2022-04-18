@@ -24,12 +24,14 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: urakata
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - urakata
   type:
     - fighting
-  male:
+  species:
     - dragon
     - wolf
     - shark
@@ -39,9 +41,8 @@ tags:
     - bull
     - mixed
     - humankind
+  fetish:
     - muscle
-  female:
-    - humankind
   misc:
     - 3d
     - died

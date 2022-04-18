@@ -35,10 +35,7 @@ tags:
     - adventure
     - casual
     - role-playing
-  male:
-    - fox
-    - non-anthro
-  female:
+  species:
     - fox
     - non-anthro
   misc:

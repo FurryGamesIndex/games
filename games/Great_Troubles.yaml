@@ -7,14 +7,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'HAZUKASHII TEAM'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'HAZUKASHII TEAM'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - cat
     - wolf
     - hyena
@@ -22,11 +24,10 @@ tags:
     - dog
     - mouse
     - deer
+  fetish:
     - anal
     - handjob
     - frottage
-  female:
-    - cat
   misc:
     - freeware
     - engine-renpy

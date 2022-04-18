@@ -26,13 +26,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Beast of Dreams'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Beast of Dreams'
   type:
     - role-playing
     - puzzle
-  male:
+  species:
     - wolf
     - humankind
   misc:

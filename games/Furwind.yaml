@@ -37,13 +37,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'BoomFire Games'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'BoomFire Games'
   type:
     - action
     - adventure
-  male:
+  species:
     - fox
   lang:
     - en

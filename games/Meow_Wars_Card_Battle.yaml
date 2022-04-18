@@ -26,13 +26,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Taco Truck Games'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Taco Truck Games'
   type:
     - board
     - casual
-  male:
+  species:
     - cat
   misc:
     - online

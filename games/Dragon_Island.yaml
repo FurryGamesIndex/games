@@ -50,14 +50,14 @@ tags:
     - dating-sim
     - bara
     - yiff
-  male:
+  species:
     - dragon
     - lung
     - mixed
-    - muscle
     - shark
     - bull
     - sheep
+  fetish:
     - muscle
   misc:
     - engine-renpy

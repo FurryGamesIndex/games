@@ -22,13 +22,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: MonteBearo
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - MonteBearo
   type:
     - strategy
     - board
-  male:
+  species:
     - dog
     - wolf
     - bear

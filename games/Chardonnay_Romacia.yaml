@@ -1,38 +1,45 @@
 name: Chardonnay Romacia
 
 description: |
-  An adult furry adventure game "Chardonnay Romacia"(Trial version).
+  In an idyllic town frequented by Heroes, there is a small guesthouse called the Grapes Inn that's (in)famous for a particular reason:
 
-  You may change the language settings by accessing the Config menu at any time.
+  "Feel free to find another place to stay if you can't comply with the terms. I'm sure there are many other inns  suited for Heroes like you."
+  "I won't change my mind. Even if my inn will be the only one that will never let Heroes stay in it."
 
-  Languages Available: Japanese, English, and Chinese (Traditional).
+  Its innkeeper, a young man named Rudolf, absolutely detests Heroes! But one day, through some twist of fate, a Hero lands on his doorstep.
+  This stranger, Figaro, explains that he has lost all of his memories. Not only that, one look at Rudolf has made him fall in love at first sight! Rudolf desperately tries to drive the pesky Hero away, but circumstances force him to hire Figaro as his helper instead.
 
-  - This game is intended for adults. Do not play it if you are under the age of 18.
-  - This game was developed for Windows 10 64 bits. It may not work correctly in other OS.
-  - This game is still under development. All content is subject to change without notice.
+  "But I wanna staaay! I can be your helper! Pleeeeease?"
 
-  We hope that you enjoy the first chapter of Chardonnay Romancia.
+  The timing couldn't have been worse as Rudolf already had his hands full with his other guests: Jey, a bibacious merchant, and Kinos, his taciturn bodyguard.To make things even more chaotic, Nazk, a young mage, just moved in to open an apothecary next door.
+  Furthermore, the threat of a notorious syndicate also looms on the horizon. In this story of Heroes, debts, hot springs, festivals, tentacles, family, and an inn that must be protected at all costs, what does destiny have in store for this poor innkeeper?
 
-  Feel free to discuss the contents of this trial version online. We are eager to listen to any feedback or comments you may have.
-
-description-format: markdown
+authors:
+  - name: Cotton
+    role: [ producer, screenwriter, programmer, artist ] 
+  - name: Rossi Tsukigata
+    role: [ character-designer ]
+  - name: Musashi Kazui
+    role: [ character-designer ]
 
 tags:
-  author:
-    - Cotton
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - dog
     - tiger
     - rabbit
     - fox
     - monkey
     - mixed
+  fetish:
     - muscle
     - males-only
+    - anal
+    - blowjob
+    - masturbation
   misc:
     - work-in-process
     - engine-unity
@@ -42,20 +49,40 @@ tags:
     - zh
   publish:
     - booth
+    - steam
   platform:
     - windows
 
 links:
+  - name: .website
+    uri: https://chardonnayromancia.com
+  - name: .twitter
+    uri: twitter:Cotton_nottoC
+  - name: .steam
+    uri: steam:1841640
   - name: .demo-version
     uri: https://cottonmochi.booth.pm/items/1815414
   - name: "Special: Daha♥Bathtime"
     uri: https://cottonmochi.booth.pm/items/2625804
-  - name: .twitter
-    uri: twitter:Cotton_nottoC
+
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://i.imgur.com/yUHwKEc.jpg
-  - https://i.imgur.com/2ZJhivO.jpg
-  - https://i.imgur.com/OU52SsE.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256876990/movie480_vp9.webm
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_3f0050a9494af538cbdca0d83e2657dcbe1629c8.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_eca945a6f103438eb2a547c264a938d37a58f80d.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_0621d78fe8a2585bcb67ff19d31f84c845957d0f.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_7ae7bc06fa981f4488584a5c1b9226d134eabe77.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_09c41bc05bc3a49643590548773a5968077c1879.jpg
+  - sensitive: true
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_a802f7c207abeb6d3ab9a5b546f35a5f620feee0.jpg
+  - sensitive: true
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_4c8dda6996aed075146e19f30d43fee30fd247ec.jpg
+  - sensitive: true
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_0431f2354f05c931dcbb79d0d4e4c6ae26b440a8.jpg
+  - sensitive: true
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/1841640/ss_80e0ebc9be3acc767a67fbdb8e338d7455c7c9f8.jpg

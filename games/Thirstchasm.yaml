@@ -12,20 +12,23 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Carpetwurm
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Carpetwurm
   type:
     - adventure
     - role-playing
     - roguelike
     - bara
     - yiff
-  male:
+  species:
     - cat
     - wolf
     - bird
     - non-anthro
+  fetish:
     - anal
     - rimjob
     - blowjob

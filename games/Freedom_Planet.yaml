@@ -30,9 +30,7 @@ tags:
   type:
     - adventure
     - action
-  male:
-    - funny-animal
-  female:
+  species:
     - dragon
     - cat
     - dog

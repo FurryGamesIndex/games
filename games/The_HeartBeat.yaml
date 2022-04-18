@@ -25,13 +25,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'pomelouncia'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'pomelouncia'
   type:
     - music
     - strategy
-  male:
+  species:
     - cat
     - wolf
   misc:

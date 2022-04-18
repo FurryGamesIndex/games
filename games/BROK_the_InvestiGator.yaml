@@ -1,7 +1,7 @@
 name: BROK the InvestiGator
 
 brief-description: |
-  BROK is a hybrid traditional adventure and side-scrolling beat 'em up with a Saturday morning cartoon style and character-driven storyline. In a grim world where animals have replaced mankind, what kind of detective will you be?
+  BROK is a traditional adventure game mixed with beat 'em up and RPG elements in a character-driven storyline. In a grim world where animals have replaced mankind, what kind of detective will you be?
 
 description: |
   "Brok" is a narrative-driven game that blends action, puzzles and investigation in never-before-seen ways. Will you use your brain... or your brawn?
@@ -13,9 +13,7 @@ description: |
   Will they be able to withstand the threats of this corrupted world and face their own destiny?
 
   ##FEATURES
-
   A deep and emotional narrative-rich experience filled with characters reminiscent of classic 80s/90s cartoons.
-
   The first game to combine a "Classic Adventure" with "Beat'em up" and RPG elements!
 
   - Solve puzzles with your wits... or muscles!
@@ -34,7 +32,7 @@ description-format: markdown
 
 authors:
   - name: COWCAT
-    role: [ producer, screenwriter, artist, programmer ]
+    role: [ producer, publisher ]
   - name: Jymn Magon
     standalone: true
     role: [ others ]
@@ -109,12 +107,11 @@ tags:
   type:
     - role-playing
     - puzzle
-  male:
+  species:
     - crocodile
     - cat
     - kangaroo
     - mouse
-  female:
     - bird
   misc:
     - work-in-process
@@ -145,10 +142,24 @@ tags:
 links:
   - name: .website
     uri: https://www.brokgame.com/
+  - name: .twitter
+    uri: twitter:COWCATGames
+  - name: .facebook
+    uri: facebook:BrokGator
+  - name: .youtube
+    uri: youtube:Cowcatgames
+  - name: .discord
+    uri: discord:WRaJAk5
+  - name: Twitch
+    uri: https://www.twitch.tv/cowcatgames/
   - name: .demo-version-steam
     uri: steam:1318790
   - name: .demo-version-gog.com
     uri: https://www.gog.com/game/brok_the_investigator_prologue
+  - name: .steam
+    uri: steam:1735700
+  - name: .gog.com
+    uri: https://www.gog.com/game/brok_the_investigator
 
 thumbnail: thumbnail.jpg
 
@@ -156,13 +167,23 @@ screenshots:
   - type: video
     src:
       - mime: video/webm
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256809697/movie480_vp9.webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256862429/movie480_vp9.webm
       - mime: video/mp4
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256809697/movie480.mp4
-  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_be97f1e70df9e8ca7a77f9663d30975e1a08c98c.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_856001674c2b9174e4a8260bb25430016557ea8a.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_31aab4446de485253aa918ebe9bd147d8db01f64.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_82ac9b3f06edf12693482c5b2355818bedf09a4d.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_31aab4446de485253aa918ebe9bd147d8db01f64.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_31aab4446de485253aa918ebe9bd147d8db01f64.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1318790/ss_1ae321c841e618f3d390ed0ccd3c652d2f60551e.1920x1080.jpg
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256862429/movie480.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256809702/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256809702/movie480.mp4
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_3b75e601381f41d4320e350ddc9ef396f2a40cc9.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_31aab4446de485253aa918ebe9bd147d8db01f64.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_f5c88f0a0e7f09e780dad35d8b946aec6f616cc0.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_377cf8ee7970d41184fbf4840e270ddc7e307237.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_119a2c218fb87cd683800595db35bb4b1be9c30c.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_72cbf44a42e87d2b3bd9da5e9ae87f0aaf629763.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_1ae321c841e618f3d390ed0ccd3c652d2f60551e.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_856001674c2b9174e4a8260bb25430016557ea8a.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_d1fb400503a517e1c7631b1bea2a076971928a3f.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_44b8c9097eb1c27836e0237f978844ffc5c0f5a1.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/949480/ss_ae3d99ee947d894d5be6678acaa884224e35e8b2.1920x1080.jpg

@@ -30,7 +30,7 @@ tags:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - bear
     - wolf
   misc:
@@ -62,8 +62,8 @@ links:
     icon: twitter
     uri: https://twitter.com/ABLocalization/status/1396757517191966720
   - name: .unofficial-patch-zh
-    icon: weibo
-    uri: https://weibo.com/7429628292/KgYGxFmH6
+    icon: telegram
+    uri: https://t.me/AuroraBorealisCN
 
 thumbnail: thumbnail.jpg
 

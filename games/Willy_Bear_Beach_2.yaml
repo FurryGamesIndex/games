@@ -12,14 +12,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Artdecade Monthly Productions'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Artdecade Monthly Productions'
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - rabbit
     - raccoon
     - bear
@@ -27,6 +29,7 @@ tags:
     - lung
     - lion
     - mouse
+  fetish:
     - anal
     - blowjob
     - males-only

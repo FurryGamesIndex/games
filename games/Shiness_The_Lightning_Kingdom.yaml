@@ -24,19 +24,20 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Enigami
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Focus Home Interactive'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Enigami
-    - 'Focus Home Interactive'
   type:
     - role-playing
     - action
-  male:
+  species:
     - cat
     - bear
     - mixed
-    - humankind
-  female:
     - humankind
   misc:
     - outside-furry-fandom

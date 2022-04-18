@@ -2,11 +2,6 @@
 
 If you want to add new tags, welcome to create issues for discussion.
 
-## Namespace author
-
-Indicate the full name of the author, the official English name of the author is preferred.
-
-
 ## Namespace type
 
 Used to describe the type of game
@@ -40,12 +35,9 @@ Used to describe the type of game
 
 Describe kinds and feature of furries and humans
 
-Unless otherwise specified, the male namespace indicates the furry/human physiological gender is male, and the female namespace indicates the furry/human physiological gender is female
-
-
 ### Automatic tags
 
-The following are automatic tags, they are no different from other tags when you search for games. But if you are a game editor or contributor, you don’t have to manually add automatic tags to the game, Because they will be added automatically when necessary (For example, If you add the `male:cat` tag, the game will automatically inherit the `male:felidae` tag)
+The following are automatic tags, they are no different from other tags when you search for games. But if you are a game editor or contributor, you don’t have to manually add automatic tags to the game, Because they will be added automatically when necessary (For example, If you add the `species:cat` tag, the game will automatically inherit the `species:felidae` tag)
 
 
 - `feline` Main characters include feline furries
@@ -62,6 +54,7 @@ The following are automatic tags, they are no different from other tags when you
     - This tag has these alias(es): `long`, `chinese-dragon`
 - `mouse` Main characters include mouse furries
     - This tag has these alias(es): `misc`, `rat`
+- `opossum` Main characters include opossum furries
 - `monkey` Main characters include monkey furries
 - `bull` Main characters include bull furries (only in namespace male)
 - `cow` Main characters include cow furries (only in namespace female)
@@ -70,6 +63,7 @@ The following are automatic tags, they are no different from other tags when you
 - `rabbit` Main characters include rabbit furries
     - This tag has these alias(es): `hare`, `leporids`
 - `bear` Main characters include bear furries
+- `bat` Main characters include bat furries
 - `pig` Main characters include pig furries
 - `hyena` Main characters include hyena furries
 - `raccoon` Main characters include raccoon furries
@@ -123,6 +117,7 @@ The following are automatic tags, they are no different from other tags when you
 - `weasel` Main characters include weasel furries
     - This tag implicate (depend on) these tags: `mustelidae`
 - `ferret` Main characters include ferret furries
+    - This tag implicate (depend on) these tags: `mustelidae`
 
 ### Biological species: Reptilia
 
@@ -131,6 +126,8 @@ The following are automatic tags, they are no different from other tags when you
 - `crocodile` Main characters include crocodile furries
     - This tag implicate (depend on) these tags: `reptilia`
 - `snake` Main characters include snake furries
+    - This tag implicate (depend on) these tags: `reptilia`
+- `turtle` Main characters include snake furries
     - This tag implicate (depend on) these tags: `reptilia`
 
 ### Biological species: Special
@@ -144,11 +141,11 @@ The following are automatic tags, they are no different from other tags when you
 
 Fetish
 
-- `futanari` Main characters include futanari (usually set into namespace female)
-- `males-only` Main characters are all males (only in namespace male)
-- `females-only` Main characters are all females (only in namespace female)
-- `shota` Main characters include childlike males (only in namespace male)
-- `loli` Main characters include childlike females (only in namespace female)
+- `futanari` Main characters include futanari
+- `males-only` Main characters are all males
+- `females-only` Main characters are all females
+- `shota` Main characters include childlike males
+- `loli` Main characters include childlike females
 - `muscle` Main characters include muscle characters
 - `transform` Main characters may transform
     - This tag has these alias(es): `transformation`

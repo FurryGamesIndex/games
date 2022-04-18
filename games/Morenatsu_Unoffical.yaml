@@ -5,14 +5,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: unknown-placeholder
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - unknown-placeholder
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - bear
     - tiger
     - wolf
@@ -23,6 +25,7 @@ tags:
     - lion
     - raccoon-dog
     - humankind
+  fetish:
     - muscle
     - anal
     - blowjob

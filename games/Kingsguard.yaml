@@ -12,14 +12,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Hiddenwall
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Hiddenwall
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - wolf
     - mouse
     - bear
@@ -27,6 +29,7 @@ tags:
     - lion
     - bull
     - humankind
+  fetish:
     - human-on-furry
     - masturbation
     - blowjob

@@ -28,13 +28,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: SparkyTailGames
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - SparkyTailGames
   type:
     - adventure
     - action
-  male:
+  species:
     - wolf
     - hyena
     - dog

@@ -28,13 +28,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Simpleton
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Simpleton
   type:
     - action
     - adventure
-  male:
+  species:
     - dog
     - bear
     - rabbit

@@ -1,17 +1,15 @@
 name: TianHeHui
 
 description: |
-  The story TianheHui tells about an adventure of an ordinary novelist Tex who comes all the way from Moro and sets foot on this eastern continent, the country of Xi in order to draw materials and expand his horizons.
+  The story Tianhehui tells about an adventure of an ordinary novelist Tex who comes all the way from Moro and sets foot on this eastern continent, the country of Xi in order to draw materials and expand his horizons.
   
-  Later in order to find what is stolen by a thief, very precious treasure, Tex chooses to entrust these two kind-hearted people who have a sense of justice, white Wolf and yellow tiger, Who named Baiyu and Chenhu .
+  Later in order to find what is stolen by a thief, very precious treasure, Tex chooses to entrust these two kind-hearted people who have a sense of justice, white Wolf and yellow tiger, Who named Baiyu and Chenhu.
   
   He then joined Team at their invitation. This is where the story begins The hidden unknown past and riddle over the years on Tex will involve him in a huge dispute which would launch a new era on this eastern continent.
   
-  (Currently only Simplified Chinese)
+  (Currently only Simplified Chinese but we are working on the English version.)
   
-  (If you want, we welcome you to participate in English translation)
-
-description-format: markdown
+  (If you want, we welcome you to participate in English translation.)
 
 authors:
   - name: 戴拉克斯
@@ -20,23 +18,19 @@ authors:
 tags:
   type:
     - visual-novel
-  male:
+  species:
     - fox
     - wolf
     - dog
     - tiger
     - cat
     - lung
-    - sheep
+  fetish:
     - shota
-  female:
-    - dog
-    - pig
-    - fox
+    - muscle
   misc:
     - freeware
     - work-in-process
-    - multiple-endings
   lang:
     - zh
   publish:
@@ -46,12 +40,12 @@ tags:
     - windows
 
 links:
-  - name: .itch.io
-    uri: https://delaxquill.itch.io/tianhehui
   - name: .weibo
     uri: https://weibo.com/u/6041376807
-  - name: .demo-version
-    uri: https://weibo.com/6041376807/KD2k3bhyA
+  - name: Bilibili
+    uri: https://space.bilibili.com/271265188
+  - name: .itch.io
+    uri: https://delaxquill.itch.io/tianhehui
 
 thumbnail: thumbnail.jpg
 

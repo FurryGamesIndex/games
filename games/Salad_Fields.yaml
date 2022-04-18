@@ -35,20 +35,20 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: resnijars
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - resnijars
   type:
     - adventure
     - puzzle
     - bara
-  male:
+  species:
     - wolf
     - dog
     - raccoon
     - bird
-  female:
-    - dog
   misc:
     - pixel-art
   lang:

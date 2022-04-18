@@ -14,13 +14,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: RookFluffy
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - RookFluffy
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - dog
     - wolf
     - deer

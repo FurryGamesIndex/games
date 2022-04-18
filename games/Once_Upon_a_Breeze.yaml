@@ -11,8 +11,6 @@ description: |
 
   《煦风新笺-Once Upon a Breeze》是一款以毛茸茸世界繁华与传统并盛的岛城『风本市』里，一所颇为特立独行的私立学校『风本学院』为主舞台的兽人题材的视觉小说。同时它又不止于小说，包括个人界面、摸摸乐等更多内置小游戏都在不断更新开发中。作为一款偏向群像的游戏，您将以包括小老虎浦昼在内的众多角色的角度来感受毛茸茸世界的学园生活，以及更多丰富绚烂的故事！已有十五位并仍在不断增加的、诸多种族的学生和教师们正在风本学院校门的另一侧等待着迎接你们！从今天开始入学吧！
 
-description-format: markdown
-
 authors:
   - name: 煦风社
     role: [ producer ]
@@ -21,13 +19,14 @@ tags:
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - dog
     - wolf
     - lion
     - tiger
     - bull
     - cat
+  fetish:
     - males-only
   misc:
     - freeware
@@ -35,24 +34,17 @@ tags:
   lang:
     - zh
   publish:
-    - website
     - steam
   platform:
     - windows
     - macos
     - linux
-    - android
 
 links:
-  - name: .demo-version
-    icon: weibo
-    uri: https://weibo.com/5857154820/JkK8D1Z3e
-  - name: .website
-    uri: https://www.xufengxinjian.com/
-  - name: .steam
-    uri: steam:1431900
   - name: .weibo
     uri: https://weibo.com/u/5857154820
+  - name: .steam
+    uri: steam:1431900
 
 thumbnail: thumbnail.jpg
 

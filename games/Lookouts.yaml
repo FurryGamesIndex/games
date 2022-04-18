@@ -7,13 +7,15 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: paranoidhawk
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - paranoidhawk
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - bird
     - wolf
   misc:

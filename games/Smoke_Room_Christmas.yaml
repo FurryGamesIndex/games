@@ -4,49 +4,27 @@ description: |
   Hey folks. George here. Happy Holidays!  Have a surprise build as a holiday gift from us to you!
   
   This is an AU version of the smoke room in the modern day. Hope y'all have as much fun reading it as we did writing it. 
-
-  
   
   And now: a poem from Nick:
-  
   Twas the night before Christmas and all through the house,
-  
   Not a creature was stirring (on account they were soused),
-  
   The stockings were scattered through rooms here and there,
-  
   As our Christmas Eve clients need more hurry than care
-  
   We harlots were nestled all snug in our beds
-  
   As visions of †̷͒˙̶̅´̴͊µ̶̓ danced in our heads
-  
   And Cyn in her bonnet and I in my cap,
-  
   Had settled our heads for a long winter’s nap
-  
   When out on the porch there arose such a clatter
-  
   I fell out of bed, “what the fuck is the matter?”
-  
   To the window I shuffled, feeling like trash,
-  
   If ‘twere drunk Reed again, to give him a smash.
-  
   And the moon on cold dirt, appearing like snow,
-  
   Gave a luster like midday to all things below
-  
   When what into my hungover eyes did then spring,
-  
   But a miniature sleigh and eight tiny ducklings.
-  
   With the brawniest driver, so lively and thick
-  
   I knew in a moment it must be St. Nik! 
-  
   “Now, Donald! Now, Daisy! Now Daffy and Huey!
-  
   Now, Aflac! Now, Launchpad! Now Howard and Louie!”
 
 authors:
@@ -73,12 +51,13 @@ tags:
   type:
     - visual-novel
     - bara
-  male:
+  species:
     - lion
     - dog
     - fox
     - badger
     - weasel
+  fetish:
     - muscle
   misc:
     - freeware
@@ -106,6 +85,9 @@ links:
   - name: .unofficial-version-zh
     icon: twitter
     uri: https://twitter.com/ABLocalization/status/1476838888425484288
+  - name: .unofficial-patch-zh
+    icon: telegram
+    uri: https://t.me/AuroraBorealisCN
 
 thumbnail: thumbnail.jpg
 

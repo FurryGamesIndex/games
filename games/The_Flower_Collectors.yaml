@@ -26,21 +26,21 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Mipumi Games'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Mipumi Games'
   type:
     - adventure
     - puzzle
-  male:
+  species:
     - cat
     - bear
     - dog
     - bull
-    - raccoon
-  female:
     - leopard
-    - dog
+    - raccoon
   misc:
     - 3d
   lang:

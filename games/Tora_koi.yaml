@@ -5,15 +5,18 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: kohaku
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - kohaku
   type:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - tiger
+  fetish:
     - muscle
   misc:
     - work-in-process

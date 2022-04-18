@@ -34,18 +34,18 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: 'Druid Gameworks Studio LLC'
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - 'Druid Gameworks Studio LLC'
   type:
     - role-playing
     - adventure
-  male:
+  species:
     - bear
     - wolf
     - non-anthro
-  female:
-    - bear
   misc:
     - 3d
     - died

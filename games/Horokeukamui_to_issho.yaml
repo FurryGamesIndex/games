@@ -13,13 +13,16 @@ description: |
 
 description-format: markdown
 
+authors:
+  - name: Lifewonders
+    role: [ producer, screenwriter, programmer, artist ]
+
 tags:
-  author:
-    - Lifewonders
   type:
     - casual
-  male:
+  species:
     - wolf
+  fetish:
     - muscle
   misc:
     - 3d

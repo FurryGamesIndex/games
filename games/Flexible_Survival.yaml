@@ -17,7 +17,7 @@ tags:
     - tagme
   type:
     - role-playing
-  male:
+  species:
     - hyena
     - dragon
     - shark
@@ -42,25 +42,6 @@ tags:
     - bull
     - snake
     - lynx
-    - humankind
-  female:
-    - bird
-    - dog
-    - wolf
-    - tiger
-    - lion
-    - sheep
-    - fox
-    - lizard
-    - rabbit
-    - mouse
-    - leopard
-    - cat
-    - dragon
-    - deer
-    - monkey
-    - horse
-    - snake
     - humankind
   misc:
     - freeware
