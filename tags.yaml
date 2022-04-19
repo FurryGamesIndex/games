@@ -374,6 +374,12 @@ panda:
   explanation:
     en: 'Main characters include panda furries'
     zh-cn: '主要角色包括大熊貓兽人'
+    
+eagle:
+  namespaces: [ species ]
+  explanation:
+    en: 'Main characters include eagle furries'
+    zh-cn: '主要角色包括鹰兽人'
 
 ###################################################
 

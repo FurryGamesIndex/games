@@ -1,0 +1,80 @@
+name: Grimoire of Zero / ゼロから始める魔法の書
+
+brief-description: |
+  A naive witch, Zero, and a mercenary of an unnamed beast. The two go on a journey in search of the forbidden book "Zero's Book".
+  "Grimoire of Zero" is now available as a smartphone game!
+  Let's embark on an exhilarating magical journey!
+
+description: |
+  It is the year 526 of the Liturgical calendar. Witches and their sorcery are notorious throughout the land, though knowledge of the existence of magic remains elusive. 
+  
+  A half-man, half-beast mercenary, his kind scorned by the populace, dreams day and night of becoming a human. 
+  
+  However, his fateful encounter one day with a witch by the name of Zero turns his dreams into reality. 
+  
+  She offers to turn him human if he will escort her as her guard on her search for a magical tome, one that possessed powerful knowledge which could wreak havoc in the wrong hands. 
+  
+  With the mercenary serving as Zero's protector, the two begin their travels.
+
+description-format: markdown
+
+authors:
+  - name: kobashirikakeru
+    role: [ screenwriter ]
+  - name: Now_Production
+    role: [ producer ]
+  - name: GREE
+    role: [ publisher ]
+    
+tags:
+  type:
+    - visual-novel
+    - adventure
+    - role-playing
+    - non-indie
+  species:
+    - humankind
+    - tiger
+    - wolf
+    - eagle
+  misc:
+    - expired
+    - freeware
+    - outside-furry-fandom
+    - not-only-furry-topic
+    - online
+    - centralized
+    - full-audio
+  lang:
+    - ja
+  publish:
+    - google-play
+    - apple-appstore 
+  platform:
+    - android
+    - ios
+
+links:
+  - name: .website
+    uri: http://d-game.dengeki.com/zeronosyo
+  - name: .twitter
+    uri: https://twitter.com/zeronosyo_game
+  - name: .play-store
+    uri: https://play.google.com/store/apps/details?id=jp.gree.android.zeronosyo
+  - name: .apple-appstore
+    uri: https://apps.apple.com/app/id1212696414
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://i0.wp.com/news.qoo-app.com/en/wp-content/uploads/sites/3/2017/05/17052306441419.jpeg
+  - https://image.gameapps.hk/images/201705/23/ZE2.jpg
+  - https://image.gameapps.hk/images/201705/23/ZE3.jpg
+  - https://image.gameapps.hk/images/201705/23/ZE4.jpg
+  
+  - type: youtube
+    id: vf1h0Eoay1Q
+  - type: youtube
+    id: V2lRuQ5EDuk
+    
+    
