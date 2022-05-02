@@ -60,7 +60,7 @@ links:
   - name: .twitter
     uri: https://twitter.com/zeronosyo_game
   - name: .play-store
-    uri: https://play.google.com/store/apps/details?id=jp.gree.android.zeronosyo
+    uri: google-play-store:jp.gree.android.zeronosyo
   - name: .apple-appstore
     uri: https://apps.apple.com/app/id1212696414
 
