@@ -71,6 +71,7 @@ The following are automatic tags, they are no different from other tags when you
 - `dolphin` Main characters include dolphin furries
 - `deer` Main characters include deer furries
 - `bird` Main characters include bird furries
+- `eagle` Main characters include eagle furries
 - `red-panda` Main characters include red panda furries
 - `kangaroo` Main characters include kangaroo furries
 - `hedgehog` Main characters include hedgehog furries
