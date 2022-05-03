@@ -34,6 +34,8 @@ description: |
   
   ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1689080/extras/GIF_04_En.gif)
 
+description-format: markdown
+
 authors:
   - name: YiTi Games
     role: [ producer ]
