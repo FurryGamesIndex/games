@@ -62,17 +62,23 @@ tags:
     - zh
   publish:
     - steam
+    - itchio
   platform:
     - windows
 
 links:
-  - name: .website
-    icon: weibo
-    uri: https://weibo.com/u/7508223034
   - name: .steam
     uri: steam:1689080
+  - name: .itch.io
+    uri: https://gamera-game.itch.io/mercury-abbey
   - name: .discord
     uri: https://discord.gg/xtjZuJhts6
+  - name: .weibo
+    uri: https://weibo.com/u/7508223034
+  - name: .twitter
+    uri: twitter:YiTiGames
+  - name: .facebook
+    uri: https://www.facebook.com/Yitigames-109288551451471/
 
 thumbnail: thumbnail.jpg
 
@@ -81,6 +87,8 @@ screenshots:
     src:
       - mime: video/webm
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256853415/movie480_vp9.webm
+  - type: video
+    src:
       - mime: video/mp4
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256853419/movie480.mp4
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1689080/ss_075c1f3ffbe5c171750a4c65a14a045e50163c6a.jpg
