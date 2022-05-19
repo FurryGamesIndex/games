@@ -59,11 +59,7 @@ links:
   - name: .twitter
     uri: twitter:EchoTheVN 
   - name: .unofficial-patch-zh
-    icon: twitter
-    uri: https://twitter.com/ABLocalization/status/1396757517191966720
-  - name: .unofficial-patch-zh
-    icon: telegram
-    uri: https://t.me/AuroraBorealisCN
+    uri: FGI-misc-page:Arches-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

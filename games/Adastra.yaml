@@ -63,11 +63,7 @@ links:
   - name: .twitter
     uri: twitter:EchoTheVN 
   - name: .unofficial-patch-zh
-    icon: twitter
-    uri: https://twitter.com/ABLocalization/status/1272934863977345025
-  - name: .unofficial-patch-zh
-    icon: telegram
-    uri: https://t.me/AuroraBorealisCN
+    uri: FGI-misc-page:Adastra-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

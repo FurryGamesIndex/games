@@ -53,11 +53,7 @@ links:
   - name: .twitter
     uri: twitter:EchoTheVN 
   - name: .unofficial-patch-zh
-    icon: twitter
-    uri: https://twitter.com/ABLocalization/status/1396739006147088388
-  - name: .unofficial-patch-zh
-    icon: telegram
-    uri: https://t.me/AuroraBorealisCN
+    uri: FGI-misc-page:The_smoke_room-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

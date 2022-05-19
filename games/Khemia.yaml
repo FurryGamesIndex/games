@@ -50,10 +50,7 @@ links:
   - name: .twitter
     uri: twitter:EchoTheVN
   - name: .unofficial-patch-zh
-    icon: weibo
-    uri: https://weibo.com/7429628292/JFt8EqKOp
-  - name: .unofficial-patch-zh
-    uri: https://www.plurk.com/p/nxl0t8
+    uri: FGI-misc-page:Khemia-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

@@ -57,8 +57,7 @@ links:
   - name: .twitter
     uri: twitter:EchoTheVN
   - name: .unofficial-patch-zh
-    icon: telegram
-    uri: https://t.me/AuroraBorealisCN
+    uri: FGI-misc-page:Interea-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
