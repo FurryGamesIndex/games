@@ -1,0 +1,56 @@
+name: Ocean Avenue
+
+description: |
+  Ocean Avenue is a "slice of life" visual novel, following the lives of five college students who come together through one common factor: volleyball. Each of them has their own interests beyond the sport, but it is what keeps them connected.
+  The story will have a great focus on their interests, and how it will affect their lives going forward. All of them have expectations from family, mentors, etc. that will leave an impact their choices. However, you can make a difference! You get to play as Evan, a transfer student from the suburbs who recently arrived at the University of San Vicente, a big-city university right along on the ocean. Will the city eat him alive, or will he persevere through the concrete jungle (and beach)?
+
+author:
+  - name: Dirk the Red Panda
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - canine
+    - felidae
+    - raccoon
+    - dog
+    - hyena
+    - lion
+  fetish:
+    - muscle
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://dirk-the-red-panda.itch.io/ocean-avenue
+  - name: .patreon
+    uri: patreon:dirktheredpanda
+  - name: .twitter
+    uri: twitter:OceanAvenueVN
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNzUzMzUzLzU3MTA2NjgucG5n/original/BpJp8%2F.png
+  - https://img.itch.zone/aW1hZ2UvNzUzMzUzLzY5MTA1NDAucG5n/original/K3Phkf.png
+  - https://img.itch.zone/aW1hZ2UvNzUzMzUzLzY5MTA1MzkucG5n/original/6L%2FXp8.png
+  - https://img.itch.zone/aW1hZ2UvNzUzMzUzLzUwNTM2MzUucG5n/original/db8eCm.png
+  - https://img.itch.zone/aW1hZ2UvNzUzMzUzLzY1ODQ4MjgucG5n/original/h2wWi1.png
+  - https://img.itch.zone/aW1hZ2UvNzUzMzUzLzY1ODQ4MjkucG5n/original/GFjT%2Fi.png
