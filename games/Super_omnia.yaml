@@ -1,0 +1,53 @@
+name: Super_omnia
+
+description: |
+  The story tells about a man who found himself on another planet under extraordinary circumstances, the reason for which he will have to solve, while at the same time getting acquainted with a world full of characters.
+
+author:
+  - name: Lysdesign
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - canine
+    - felidae
+    - fox
+    - cat
+  fetish:
+    - anal
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://lysdesign.itch.io/super-omnia
+  - name: .patreon
+    uri: patreon:lysdesign
+  - name: .twitter
+    uri: twitter:LysDesign_
+  - name: .discord
+    uri: https://discord.gg/vguTQztKZf
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTA4MDkyMy82MTk4NDEwLnBuZw==/original/dlrbR7.png
+  - https://img.itch.zone/aW1hZ2UvMTA4MDkyMy82MTk4NDEyLnBuZw==/original/NEA6Ry.png
+  - https://img.itch.zone/aW1hZ2UvMTA4MDkyMy82NzQyNTk3LnBuZw==/original/RcXjev.png
+  - https://img.itch.zone/aW1hZ2UvMTA4MDkyMy83Nzc3MDI4LnBuZw==/original/L0cXtW.png
