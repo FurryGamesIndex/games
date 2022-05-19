@@ -70,7 +70,7 @@ links:
     uri: patreon:EchoGame
   - name: .twitter
     uri: twitter:EchoTheVN 
-  - name: .unofficial-patch-zh (provided by 北极光汉化组)
+  - name: Unoffical Chinese patch (provided by 北极光汉化组)
     uri: FGI-misc-page:Echo-unofficial-l10n-zh-redir
   - name: Unoffical Chinese patch (provided by 回音汉化组)
     icon: itch.io
