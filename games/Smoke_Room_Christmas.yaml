@@ -82,12 +82,8 @@ links:
     uri: twitter:EchoTheVN
   - name: .patreon
     uri: patreon:EchoGame
-  - name: .unofficial-version-zh
-    icon: twitter
-    uri: https://twitter.com/ABLocalization/status/1476838888425484288
   - name: .unofficial-patch-zh
-    icon: telegram
-    uri: https://t.me/AuroraBorealisCN
+    uri: FGI-misc-page:Smoke_Room_Christmas-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
