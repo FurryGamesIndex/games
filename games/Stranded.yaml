@@ -34,7 +34,9 @@ tags:
     - work-in-process
   lang:
     - en
-    - zh-unofficial
+    - zh
+    - pt
+    - ru
   publish:
     - itchio
   platform:
@@ -47,8 +49,8 @@ links:
     uri: https://thestrayproject.itch.io/stranded
   - name: .twitter
     uri: twitter:TheStrayProject
-  - name: .unofficial-version-zh
-    uri: FGI-misc-page:Stranded-unofficial-l10n-zh-redir
+  - name: Chinese Version
+    uri: FGI-misc-page:Stranded-official-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
