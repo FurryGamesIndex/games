@@ -20,6 +20,7 @@
 import re
 import os
 import heapq
+import yaml
 from copy import copy
 
 import PIL.Image
@@ -48,6 +49,7 @@ class Image:
     def __init__(self, uri):
         self.uri = uri
         self.is_remote = regexp.match(uri) is not None
+        self.is_oss = False
         self.path = None
         self.mtime = None
 
@@ -106,7 +108,7 @@ class HTMLImage:
         self.width = width
         self.height = height
 
-    def html(self, node_class=None, use_picture=True, alt=None):
+    def html(self, node_class=None, use_picture=True, alt=None, format_str=""):
         code = None
         node = ""
 
@@ -121,8 +123,8 @@ class HTMLImage:
 
         if self.width > 0:
             node += f"width='{self.width}' height='{self.height}' "
-
-        if use_picture:
+        
+        elif use_picture:
             code = "<picture>"
             for i in self.sources:
                 code += f"<source srcset='{append_query(i.srcset.get_uri(self.rr), self.query)}' type='{i.type}'>"
@@ -160,6 +162,7 @@ class HTMLImage:
     @staticmethod
     def from_image(image):
         hi = HTMLImage()
+
         hi.add_source(image, None, True)
 
         if not image.is_remote \
@@ -169,5 +172,76 @@ class HTMLImage:
         if image.mtime:
             hi.query["hc"] = "uquery"
             hi.query["t"] = int(image.mtime)
+        
+        return hi
 
+class HTMLOSSImage:
+    def __init__(self):
+        self.sources = []
+        self._src = None
+        self.width = 0
+        self.height = 0
+        pass
+
+    @property
+    def src(self):
+        return self._src
+
+    @src.setter
+    def src(self, value):
+        self._src = value
+
+    def with_rr(self, rr):
+        return self
+
+    def set_size(self, width, height):
+        self.width = width
+        self.height = height
+
+    def html(self, format_str, node_class=None, use_picture=True, alt=None):
+        code = None
+        node = ""
+
+        if self.src is None:
+            raise ValueError("Fallback image src required")
+
+        if alt is None:
+            alt = ""
+
+        if node_class is not None:
+            node += f"class='{node_class}' "
+
+        if self.width > 0:
+            node += f"width='{self.width}' height='{self.height}' "
+        
+        code = "<picture>"
+        code += f"<source srcset='{self.src}/{format_str}.webp' type='image/webp'>"
+        code += f"<source srcset='{self.src}/{format_str}.jpg' type='image/jpeg'>"
+        code += f"<img {node}src='{self.src}/{format_str}.jpg' alt='{escape(alt)}' loading='lazy'></picture>"
+
+        return code
+
+    def set_size_by_image_softfail(self, image):
+        try:
+            im = PIL.Image.open(image.path)
+            self.set_size(*im.size)
+        except:
+            print(f"[warning] can not load image '{image.path}' for setting html image size")
+
+    def dict(self):
+        if self.src is None:
+            raise ValueError("Fallback image src required")
+
+        tmp = dict()
+        tmp["src"] = self.src
+        tmp["src_remote"] = True
+        tmp["is_oss"] = True
+
+        return tmp
+
+    @staticmethod
+    def from_image(image):
+        hi = HTMLOSSImage()
+        hi.src = image.uri
+        hi.set_size_by_image_softfail(image)
         return hi

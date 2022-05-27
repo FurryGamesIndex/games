@@ -3,7 +3,7 @@
 	<li>
 	{% set avatar = i.get_avatar() %}
 	{% if avatar %}
-		{{ avatar.with_rr(rr).html(node_class='avatar', alt=i.name) }}
+		{{ avatar.with_rr(rr).html(node_class='avatar', alt=i.name, format_str="w80") }}
 	{% else %}
 		<div class="avatar avatar-alt">{{ ifac.misc_icon("paw") }}</div>
 	{% endif %}

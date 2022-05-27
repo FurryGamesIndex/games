@@ -21,11 +21,19 @@ import os
 import json
 import hashlib
 import base64
+import yaml
 from shutil import copyfile
 
-from fgi.image import HTMLImage, Image
+from fgi.image import HTMLImage, HTMLOSSImage, Image
 from fgi.utils.webutils import dl
 from fgi.utils import webp
+
+oss_manifest_file = open('oss-manifest.yaml', 'r')
+oss_manifest = yaml.safe_load(oss_manifest_file)
+oss_manifest_file.close()
+oss_config_file = open("oss-config.yaml", "r")
+oss_config = yaml.safe_load(oss_config_file)
+oss_config_file.close()
 
 class HTMLBaseMedia:
     def __init__(self):
@@ -116,6 +124,10 @@ class MediaFactory:
             if os.path.exists(image.path):
                 image.mtime = os.path.getmtime(image.path)
             image.uri = path
+            if path in oss_manifest:
+                image.uri = f"{oss_config['domain']}/{oss_manifest[path]}"
+                image.is_remote = True
+                image.is_oss = True
 
         self.fctx.pmgr.invoke_plugins("image_pre_html_image_construct",
             image, origin_uri = imageuri, gameid = gameid)
@@ -137,7 +149,7 @@ class MediaFactory:
                         print(f"[warning] {path} can not be converted to webp")
                 os.remove(path)
 
-        hi = HTMLImage.from_image(image)
+        hi = HTMLOSSImage.from_image(image) if image.is_oss else HTMLImage.from_image(image)
 
         if self.fctx.args.images_candidate_webp \
                 and not image.is_remote \

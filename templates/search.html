@@ -52,7 +52,7 @@ let add = (id, game) => {
 	const _prefix = "{{ res(rr, ['']) }}"
 	const thumb = item.querySelector("._thumbnail");
 
-	make_picture(game.thumbnail, _prefix, thumb);
+	make_picture(game.thumbnail, _prefix, thumb, "w720");
 	thumb.srcNode.classList.add("thumbnail")
 
 	const link = item.querySelector(".name_a");

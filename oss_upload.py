@@ -35,7 +35,19 @@ def upload_file(file_path):
         print("File exists. Skip.")
     except oss2.exceptions.NotFound:
         with open(file_path, 'rb') as f:
-            bucket.put_object(file_key, f)
+            contentType = None
+            if file_path.split(".")[-1] == "jpg":
+                contentType = "image/jpeg"
+            elif file_path.split(".")[-1] == "jpeg":
+                contentType = "image/jpeg"
+            elif file_path.split(".")[-1] == "png":
+                contentType = "image/png"
+            elif file_path.split(".")[-1] == "webp":
+                contentType = "image/webp"
+            headers = dict()
+            if contentType is not None:
+                headers["Content-Type"] = contentType
+            bucket.put_object(file_key, f, headers=headers)
     return file_key
 
 if __name__ == "__main__":

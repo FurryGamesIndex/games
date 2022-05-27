@@ -7,11 +7,11 @@ String.prototype.format = function() {
 	});
 };
 
-window.make_picture = (data, _prefix, picture) => {
+window.make_picture = (data, _prefix, picture, formatStr) => {
 	if (picture == null)
 		picture = document.createElement("picture");
 
-	data.source.forEach(i => {
+	data.source?.forEach(i => {
 		const prefix = (i.remote ? "" : _prefix);
 		const source = document.createElement("source");
 		source.setAttribute("type", i.type);
@@ -19,9 +19,20 @@ window.make_picture = (data, _prefix, picture) => {
 		picture.appendChild(source);
 	});
 
+	if (data.is_oss) {
+		let source = document.createElement("source");
+		source.setAttribute("type", 'image/webp');
+		source.setAttribute("srcset", `${data.src}/${formatStr}.webp`);
+		picture.appendChild(source);
+		source = document.createElement("source");
+		source.setAttribute("type", 'image/jpeg');
+		source.setAttribute("srcset", `${data.src}/${formatStr}.jpg`);
+		picture.appendChild(source);
+	}
+
 	const srcnode = document.createElement("img");
 	const prefix = (data.src_remote ? "" : _prefix);
-	srcnode.src = prefix + data.src;
+	srcnode.src = !data.is_oss ? prefix + data.src : `${data.src}/${formatStr}.jpg`;
 	picture.appendChild(srcnode);
 
 	picture.srcNode = srcnode;
