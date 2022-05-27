@@ -126,9 +126,9 @@ class HTMLImage:
             code = "<picture>"
             for i in self.sources:
                 code += f"<source srcset='{append_query(i.srcset.get_uri(self.rr), self.query)}' type='{i.type}'>"
-            code += f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(alt)}'></picture>"
+            code += f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(alt)}' loading='lazy'></picture>"
         else:
-            code = f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(alt)}'>"
+            code = f"<img {node}src='{append_query(self.src, self.query)}' alt='{escape(alt)}' loading='lazy'>"
 
         return code
 
