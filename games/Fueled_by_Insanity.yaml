@@ -1,15 +1,22 @@
 name: Fueled by Insanity
 
+brief-description: |
+  Fueled by Insanity is a mystery/horror visual novel in which you play as Jeffrey, an anxiety-ridden yet cheerful fox as you encounter a new friend named Ted. The two, seeming to be in a similar life situation, decide to stick together to help each other out.
+
 description: |
-  Fueled by Insanity is a horror visual novel in which you play as Jeffrey, an anxiety-ridden yet cheerful fox as you encounter a new friend named Ted. The two, seeming to be in a similar life situation, decide to stick together to help each other out.
+  Fueled by Insanity is a mystery/horror visual novel in which you play as Jeffrey, an anxiety-ridden yet cheerful fox as you encounter a new friend named Ted. The two, seeming to be in a similar life situation, decide to stick together to help each other out.
 
-  After going back to your hometown, you will encounter old friends and family along the way, and who knows what adventures may await when you return.
+  After going back to your hometown, things are great. You connect with old friends and family as things go back to how they used to be. You may even spark a little romance, if you so choose.
 
-description-format: markdown
+  Of course, things are never that simple, are they?
+
+  One night, you have a dream about a figure, you believe it's called a kitsune, who's here to make an offer. Confronted with the past you've been running from for the past two years, will you trust this dream being and take his offer, or reject it and attempt to solve things for yourself? Your life, and the lives of those around you may be in danger, so choose carefully.
 
 authors:
   - name: Xarishro
     role: [producer]
+  - name: Coza
+    role: [artist]
 
 tags:
   type:
@@ -42,7 +49,8 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvNjQ0ODY4LzM0NTI5NzEucG5n/original/tU9%2BQI.png
-  - https://img.itch.zone/aW1hZ2UvNjQ0ODY4LzM0NTI5NzUucG5n/original/JG6HC0.png
+  - https://img.itch.zone/aW1hZ2UvNjQ0ODY4Lzg0MDUzODUucG5n/original/dCFTgo.png
   - https://img.itch.zone/aW1hZ2UvNjQ0ODY4LzM2Njk1MjAucG5n/original/uyk%2BJF.png
-  - https://img.itch.zone/aW1hZ2UvNjQ0ODY4LzM4ODI1OTcucG5n/original/c%2Fc2YR.png
-  - https://img.itch.zone/aW1hZ2UvNjQ0ODY4LzM4ODI1OTgucG5n/original/IXPVd7.png
+  - https://img.itch.zone/aW1hZ2UvNjQ0ODY4Lzg0MDUzODcucG5n/original/uNIO6A.png
+  - https://img.itch.zone/aW1hZ2UvNjQ0ODY4Lzg0MDUzODYucG5n/original/sStso%2F.png
+  - https://img.itch.zone/aW1hZ2UvNjQ0ODY4Lzg0MDUzODgucG5n/original/8bTOSa.png
