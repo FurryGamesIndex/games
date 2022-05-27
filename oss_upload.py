@@ -38,30 +38,11 @@ def upload_file(file_path):
             bucket.put_object(file_key, f)
     return file_key
 
-def process_local_files(data_type, file_path, keys, base_path=""):
-    if not os.path.isfile(file_path):
-        return
-    file_key = file_path.split("/")[-1].split(".")[0]
-    with open(file_path, 'r') as f:
-        data = yaml.safe_load(f)
-        for key in keys:
-            if not data[key]:
-                continue
-            asset_path = os.path.join(base_path, data[key])
-            if not os.path.isfile(asset_path):
-                continue
-            oss_key = upload_file(asset_path)
-            if data_type not in manifest:
-                manifest[data_type] = dict()
-            if file_key not in manifest[data_type]:
-                manifest[data_type][file_key] = dict()
-            manifest[data_type][file_key][key] = oss_key
-
 if __name__ == "__main__":
 
-    games_dir = os.path.join("./games")
-    authors_dir = os.path.join("./authors")
-    assets_dir = os.path.join("./assets")
+    games_dir = os.path.join("games")
+    authors_dir = os.path.join("authors")
+    assets_dir = os.path.join("assets")
     avatar_dir = os.path.join(assets_dir, "_avatar")
 
     for f in os.listdir(authors_dir):
@@ -78,11 +59,7 @@ if __name__ == "__main__":
             if not os.path.isfile(asset_path):
                 continue
             oss_key = upload_file(asset_path)
-            if "authors" not in manifest:
-                manifest["authors"] = dict()
-            if file_key not in manifest["authors"]:
-                manifest["authors"][file_key] = dict()
-            manifest["authors"][file_key]["avatar"] = oss_key
+            manifest[asset_path] = oss_key
 
     for f in os.listdir(games_dir):
         file_path = os.path.join(games_dir, f)
@@ -98,11 +75,7 @@ if __name__ == "__main__":
             if not os.path.isfile(asset_path):
                 continue
             oss_key = upload_file(asset_path)
-            if "games" not in manifest:
-                manifest["games"] = dict()
-            if file_key not in manifest["games"]:
-                manifest["games"][file_key] = dict()
-            manifest["games"][file_key]["thumbnail"] = oss_key
+            manifest[asset_path] = oss_key
     
     yaml.dump(manifest, manifest_file)
     manifest_file.close()
