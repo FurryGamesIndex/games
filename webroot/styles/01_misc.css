@@ -114,7 +114,8 @@ span.icon>.platform-tooltip {
 	bottom: -36px;
 	left: 50%;
 	transform: translateX(-50%);
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0);
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 	white-space: nowrap;
 	color: #fff;
 	padding: 4px 8px;
@@ -129,7 +130,7 @@ span.icon>.platform-tooltip::before {
 	height: 0;
 	border-style: solid;
 	border-width: 0 4px 4px 4px;
-	border-color: transparent transparent rgba(0, 0, 0, 0.6) transparent;
+	border-color: transparent transparent rgba(0, 0, 0) transparent;
 	position: absolute;
 	top: -4px;
 	left: 50%;
