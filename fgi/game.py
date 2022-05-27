@@ -61,7 +61,7 @@ class GameDescription:
                         "x-FGI-min-header-level": 2
                     },
                     inline_image_uri_filter = lambda uri: mfac.uri_to_html_image(uri, self.game.id).with_rr("../..").src)
-            self.html = markdowner.convert(self.text)
+            self.html = markdowner.convert(self.text).replace('<img', '<img loading="lazy"')
             self.text = BeautifulSoup(self.html, features="html.parser").get_text()
         else:
             raise ValueError(f"description format invaild: {fmt}")
