@@ -124,7 +124,9 @@ class MediaFactory:
             if os.path.exists(image.path):
                 image.mtime = os.path.getmtime(image.path)
             image.uri = path
-            if path in oss_manifest:
+            if path in oss_manifest \
+                    and not self.fctx.args.images_to_webp \
+                    and not self.fctx.args.images_candidate_webp:
                 image.uri = f"{oss_config['domain']}/{oss_manifest[path]}"
                 image.is_remote = True
                 image.is_oss = True
