@@ -102,3 +102,40 @@ picture {
 .hide {
 	display: none !important;
 }
+
+
+span.icon {
+	position: relative;
+}
+
+span.icon>.platform-tooltip {
+	display: none;
+	position: absolute;
+	bottom: -36px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(0, 0, 0, 0.6);
+	white-space: nowrap;
+	color: #fff;
+	padding: 4px 8px;
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+span.icon>.platform-tooltip::before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 4px 4px 4px;
+	border-color: transparent transparent rgba(0, 0, 0, 0.6) transparent;
+	position: absolute;
+	top: -4px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+span.icon:hover>.platform-tooltip {
+	display: block;
+}
