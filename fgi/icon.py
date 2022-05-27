@@ -39,6 +39,10 @@ platform_map = {
 }
 
 platform_text_map = {
+    "web": "Web",
+    "windows": "Microsoft Windows",
+    "macos": "Apple macOS",
+    "linux": "GNU/Linux",
     "playstation2": "PlayStation 2",
     "playstation3": "PlayStation 3",
     "playstation4": "PlayStation 4",
