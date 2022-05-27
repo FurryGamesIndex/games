@@ -38,38 +38,63 @@ platform_map = {
     "xbox-series-s": "xbox",
 }
 
+platform_text_map = {
+    "web": "Web",
+    "windows": "Microsoft Windows",
+    "macos": "Apple macOS",
+    "linux": "GNU/Linux",
+    "playstation2": "PlayStation 2",
+    "playstation3": "PlayStation 3",
+    "playstation4": "PlayStation 4",
+    "playstation5": "PlayStation 5",
+    "psv": "PlayStation Vita",
+    "psp": "PlayStation Portable",
+    "xbox-one": "Xbox One",
+    "xbox-360": "Xbox 360",
+    "xbox-series-x": "Xbox Series X",
+    "xbox-series-s": "Xbox Series S",
+}
+
 class IconFactory:
     def __init__(self, data):
         self.data = data
         self.cache = dict()
 
-    def icon(self, name, fallback="misc-fallback", fallback_html=None):
+    def icon(self, name, disp_name=None, fallback="misc-fallback", fallback_html=None):
         if fallback and name not in self.data:
             name = fallback
         if fallback_html and name not in self.data:
             return fallback_html
 
         if name in self.cache:
-            return self.cache[name]
+            return self.cache[f"{name}{disp_name if disp_name else ''}"]
 
         code = self.data[name]
         data_icon = f"&#{code};"
 
         icon = f'<span class="icon" data-icon="{data_icon}" aria-hidden="true"></span>'
-        self.cache[name] = icon
+        if disp_name is not None:
+            icon = f'<span class="icon" data-icon="{data_icon}" aria-hidden="true"><div class="platform-tooltip">{disp_name}</div></span>'
+
+        self.cache[f"{name}{disp_name if disp_name else ''}"] = icon
         return icon
 
     def misc_icon(self, name):
         return self.icon("misc-" + name, fallback=None)
 
     def os_icon(self, name, fallback_html=None):
+        icon_name = name
+        disp_name = None
         if name in platform_map:
-            name = platform_map[name]
+            icon_name = platform_map[name]
+        if name in platform_text_map:
+            disp_name = platform_text_map[name]
 
-        return self.icon("os-" + name, fallback=None, fallback_html=fallback_html)
+        return self.icon("os-" + icon_name, disp_name=disp_name, fallback=None, fallback_html=fallback_html)
 
     def site_icon(self, name):
+        icon_name = name
         if name in site_map:
-            name = site_map[name]
+            icon_name = site_map[name]
 
-        return self.icon("site-" + name, fallback="site-fallback")
+        return self.icon("site-" + icon_name, fallback="site-fallback")
