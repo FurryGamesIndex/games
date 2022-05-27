@@ -63,7 +63,7 @@ class IconFactory:
             return fallback_html
 
         if name in self.cache:
-            return self.cache[f"{name}{disp_name}"]
+            return self.cache[f"{name}{disp_name if disp_name else ''}"]
 
         code = self.data[name]
         data_icon = f"&#{code};"
@@ -72,7 +72,7 @@ class IconFactory:
         if disp_name is not None:
             icon = f'<span class="icon" data-icon="{data_icon}" aria-hidden="true"><div class="platform-tooltip">{disp_name}</div></span>'
 
-        self.cache[f"{name}{disp_name}"] = icon
+        self.cache[f"{name}{disp_name if disp_name else ''}"] = icon
         return icon
 
     def misc_icon(self, name):
