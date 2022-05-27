@@ -1,15 +1,24 @@
 name: Lookouts
 
+brief-description: |
+  Two lookouts meet in a desert, far from the sight of their gangs. With more in common than they could've expected, they scout out a town with rumours of gold. What will become of this fateful meeting?
+
 description: |
-  Two lookouts meet in a desert, far from the sight of their gangs. What will become of this fateful meeting?
+  Two lookouts meet in a desert, far from the sight of their gangs.
 
-  A short and sweet visual novel about two gay trans masc cowboys finding solace and comfort with each other while on a stakeout. Made for the Gay Western Jam hosted by Robert Yang.
+  With more in common than they could've expected, they scout out a town with rumours of gold.
 
-description-format: markdown
+  What will become of this fateful meeting?
+
+  Lookouts is a romance visual novel about two gay trans masc outlaws in the old west, finding refuge in each other, and a little hope for a better life. With roughly 45,000 words of story and a 5-6 hour reading time, it's a much expanded version of the original jam game we made for the Gay Western Jam.
 
 authors:
-  - name: paranoidhawk
-    role: [ producer, screenwriter, programmer, artist ]
+  - name: Col
+    role: [ character-designer, artist ]
+  - name: Hawky
+    role: [ screenwriter, programmer ]
+  - name: Jamie
+    role: [ musician ]
 
 tags:
   type:
@@ -32,16 +41,14 @@ tags:
 links:
   - name: .itch.io
     uri: https://paranoidhawk.itch.io/lookouts
-  - name: Coder's Twitter
-    icon: twitter
-    uri: twitter:ParanoidHawk
-  - name: Artist's Twitter
-    icon: twitter
-    uri: twitter:Coldoggo
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzI3NzAwNzkucG5n/original/9QiqnD.png
-  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzI3NzAwODAucG5n/original/7%2BSIqG.png
-  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzI3NzAwODEucG5n/original/qbvTVp.png
+  - type: youtube
+    id: Q8vNG8BRY3k
+  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzg2MjM2OTEuZ2lm/original/7fT10T.gif
+  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzg1NDg5OTYucG5n/original/KFrNy5.png
+  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzg1NDg5OTcucG5n/original/Grpasq.png
+  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzg1NDg5OTgucG5n/original/RbOW%2Bj.png
+  - https://img.itch.zone/aW1hZ2UvNTMyODIzLzg2MzA3ODYucG5n/original/5X4CQK.png
