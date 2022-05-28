@@ -1,0 +1,86 @@
+name: The Use of Life
+
+description: |
+  The Use of Life is a “game book”-style multi-ending RPG.
+  
+  Scenarios with changing conclusions in The Use of Life
+  In this game the main character’s various “attachments” fluctuate in accordance with the choices the player makes, changing the character’s way of thinking. The ending you experience changes depending on “the use of life” you choose through your journey.
+  Will the main character uses their “life” for their own good, or for the benefit of others? This all depends on the decisions and choices you make as the player. The game’s ending represents the natural conclusion of the way this life was lived, and there is no “good ending” or “bad ending”.
+  
+  Tense battles based on the theme of “stillness and motion”
+  The battles in this title are characterized by a fusion of "command-style battle strategy" and "QTE action".
+  With both sides acting three times per turn, the player must work out "How will I handle the enemy's powerful attacks?", and "How will I execute a devastating blow?" Victory will be determined by your skills and strategies.
+  This is a game in which even if you aren’t able to defeat an enemy at first, you will learn how to fight them appropriately and win after a few tries. For the boss battles in particular, we aim to create a game where you can overcome the tension of “life or death” and enjoy a sense of accomplishment once you’ve defeated a powerful enemy.
+  
+  ”Game book”-style events
+  In this game, events proceed with a unique game book-style narration, sometimes using TRPG-like dice rolls to decide outcomes as various events unfold.
+  Even contents of the same event can change based on the various actions you take, the decisions you make, and their outcomes.
+  It is up to you as the player to decide whether to play it safe and proceed with caution, or to go full-on and throw yourself into battle with reckless abandon.
+  These actions will also affect the way the main character thinks.
+  
+  Character customization
+  The main character, having acquired power via a certain curse, is able to enhance any skill of his choosing by coming into contact with “death”. The success rate of each event will change depending on which abilities are more honed, which will greatly affect not only battles but also normal events.
+  Additionally, various skills can be learned by increasing his level and upgrading his class.
+  ----------------------------------------------------------------
+  ・The "Fighter" carves up enemies with pure physical attack power and a high number of moves
+  ・The "Samurai" unleashes unabashed power for fierce critical strikes
+  ・The "Mage" specializes in high-risk, high-reward super-firepower using magical chants
+  ・The "Sorcerer" toys with their opponent by utilizing special attacks such as status ailments
+  ----------------------------------------------------------------
+  Myriad fighting styles can be utilized depending on the class you choose to upgrade.
+  
+  A “good new” type of JRPG
+  While this title is technically a JRPG, we are not aiming for a "good old JRPG" style, but rather a "good 'new' JRPG" style, in hopes of showing that this kind of evolution is absolutely possible.
+  
+  ■Early Access Ver. Features
+  ①Play even further through the story than the trial version.
+  ②The Early Access version is for the purpose of making the game more fun to play.
+  In Early Access, developers can experiment by implementing elements they'd like to try out, and then using the feedback received from users to develop/improve the full version.
+  ③Players who have purchased the Early Access version will be able to receive and switch to the full version upon completion and release.
+  ④Since it's cheaper than the full version, it's a better deal than purchasing the game after official release.
+
+authors:
+  - name: Daraneko Games #だらねこげーむず
+    role: [ producer ]
+  - name: PLAYISM
+    role: [ publisher ]
+
+tags:
+  type:
+    - role-playing
+    - strategy
+  species:
+    - rabbit
+    - wolf
+    - dragon
+    - humankind
+  misc:
+    - engine-unity
+    - work-in-process
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1483370
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256810661/movie_max_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256810661/movie_max.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1483370/ss_d548c1f246c20e0f89491e270f49d78b69bf9993.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1483370/ss_3f35a6d1911efc67933102d6fefb1721ab846834.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1483370/ss_1c6f1b65c70c0cd2daacf8374dda2f9fcd68bf8f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1483370/ss_593239a52ec1b5da6735f39bb36da5cde52c87fa.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1483370/ss_0b53c90c29b098d358b5a04eb18bf30a169c945b.1920x1080.jpg
