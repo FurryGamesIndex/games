@@ -39,6 +39,7 @@ jobs:
       env:
         FGI_OFFLINE_WEBP: 1
       run: |
+        mv oss-config.yaml.example oss-config.yaml && \
         python3 --version
         export PATH="./${WEBP_UTIL}/bin/:$PATH"
         cwebp -version

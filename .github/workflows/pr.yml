@@ -41,6 +41,7 @@ jobs:
 
     - name: gen
       run: |
+        mv oss-config.yaml.example oss-config.yaml && \
         python3 --version
         ./generate.py \
             --no-sub-lists \

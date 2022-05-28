@@ -1,5 +1,5 @@
-bucket:
-endpoint:
-domain:
+bucket: furrygamesindex
+endpoint: oss-accelerate.aliyuncs.com
+domain: https://img.kemono.games
 accessKey:
 accessSecret:

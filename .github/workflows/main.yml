@@ -58,6 +58,7 @@ jobs:
 
     - name: build
       run: |
+        mv oss-config.yaml.example oss-config.yaml && \
         ./generate.py \
             --images-candidate-webp \
             --with-rss \
