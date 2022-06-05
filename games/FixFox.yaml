@@ -1,0 +1,80 @@
+name: FixFox
+
+description: |
+  FixFox is a wholesome sci-fi adventure game. Play as Vix, an unlucky space mechanic, who crashlands on a mysterious planet where tools are forbidden. Accompanied by her trusty toolbox Tin, Vix travels across the planet Karamel discovering hidden stashes left by pirates, repairing friendly household appliances, and sampling tasty local delicacies.
+
+  ##EXPLORE AND DISCOVER
+
+  Traverse the planet on a peppy scooter, clear pathways with a hefty power loader, or simply go on a peaceful journey by foot to uncover all the landmarks on Karamel. Hum along to catchy chiptunes while discovering secret locations, testing your noggin on whimsical puzzles, and finally settling down for the night next to a toasty campfire looking up at the starry sky.
+
+  ##FIX AND BUILD
+
+  Repair machines with uplifting personalities such as a passionate lawn mower using unconventional tools like coins, bandages, glowy bananas… anything really. Live out a space mechanic’s dream by constructing and operating giant mechs to help out the local robots with their peculiar problems.  
+
+  ##EAT AND MAKE FRIENDS
+
+  Fixing things can be tough but ending the day with cozy food always makes it better. Enjoy delicious meals the planet dwellers have to offer such as homey soups, warm rice bowls, and totally-not-expired pudding. Making a friend over a meal with hospitable robots may just reveal a vital clue to solving your next quest.
+
+  ##FIX MORE THAN MACHINES
+
+  Starting with an unassuming beacon repair job Vix quickly finds herself mixed up in more than her own tale. An estranged brother looking for his long lost sibling, specialized artificial intelligences working through past traumas, and an ongoing feud between two planet factions are just a few of the tangled mysteries that need to be taken apart and fixed.
+
+  ##A WORLD BEYOND
+
+  In order to survive the global catastrophe of Earth’s cold atmosphere post climate change, mankind has genetically modified themselves to take on animal traits. The fur acquired from the genetic splicing helps humanity cope with the freezing weather and the ability to hibernate allows humans to sleep through long interstellar flights. This furry future is where the story of FixFox takes place.
+
+  ##A DREAM PRIOR
+
+  In the early 90s, my parents brought home our very first computer - the Polish knockoff of the Atari 8-bit. Using an old handbook, I learned how to code in Basic. From that moment, I wanted to dedicate my life to making games.
+
+  Fast forward to 2012, after visiting the Peace Memorial in Hiroshima and witnessing the consequences of violence and hatred, I made a personal vow to never play or make violent games. Instead, I focus on making games that promote kindness and friendship.  
+
+  With experience from game jams and heartwarming support from my friends and family, the dream of making this game has become a reality.
+
+  ##CREDITS
+
+  Fueled by my passion for wholesome stories, sci-fi, and adventure games, FixFox was designed, written, drawn, and programmed by me - Jaroslav Meloun.  
+
+  The music was composed and produced by the exceptionally talented Aleix Ramon.
+
+  The key art of Vix was created by the amazingly talented Jana Kilianová.
+
+  My wish is for YOUR dream to come true, just like mine!
+
+description-format: markdown
+
+authors:
+  - name: Rendlike
+    role: [ producer ]
+
+tags:
+  type:
+    - adventure
+    - casual
+  species:
+    - fox
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1696220
+  - name: .website
+    uri: https://www.fixfoxgame.com
+  - name: .twitter
+    uri: twitter:fixfoxgame
+  - name: .discord
+    uri: http://discord.gg/XWw2Ds2SNa
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1696220/ss_4a3abe5ff053288fefcf388583f741926bfb3c90.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1696220/ss_8e3348c2fc6106dc98ebf1162d79e0fd86309cc1.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1696220/ss_1191320e46aa6464c9500bf302a802322eaa5c86.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1696220/ss_631f2c83b352dd9eadf4da2633efa41d0fdcce91.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1696220/ss_c2a360ed33d64b18be2c3d10b4365d2f9e3d4b8f.1920x1080.jpg
