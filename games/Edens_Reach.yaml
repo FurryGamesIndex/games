@@ -1,11 +1,7 @@
 name: Eden's Reach
 
 description: |
-  **Eden's Reach is an 18+ Visual Novel.**
-  
   Eden's Reach is a sci-fi romance Visual Novel focused on the main character's (Default name: Adrian) adventures in Bayline City, a bustling, futuristic seaside city filled with an equally compelling set of eccentric and intriguing faces. What kind of life awaits anyone who comes to this city? Only time will tell...
-
-description-format: markdown
 
 authors:
   - name: AzzyFord
@@ -28,7 +24,7 @@ tags:
     - visual-novel
     - bara
     - yiff
-  male:
+  species:
     - raccoon
     - kangaroo
     - cat
