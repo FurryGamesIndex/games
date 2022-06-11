@@ -54,34 +54,51 @@ tags:
   species:
     - dog
     - bear
-    - dragon
-    - lion
+    - lung
     - tiger
+    - lion
+    - bull
+    - wolf
   fetish:
     - muscle
     - males-only
   misc:
-    - work-in-process
     - engine-unity
+    - work-in-process
   lang:
     - zh
   publish:
     - steam
+    - website
+    # - taptap #实际上是taptap
   platform:
     - windows
+    - android
 
 links:
+  - name: .weibo
+    uri: https://weibo.com/6343557679
+  - name: .steam
+    uri: steam:1636560
+  - name: Get on Taptap
+    uri: https://www.taptap.com/topic/18140849
   - name: .demo-version
     icon: weibo
     uri: https://weibo.com/6343557679/Kgm9Uknz9
-  - name: .steam
-    uri: steam:1636560
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_fdc59235d73918179ff96a89bd038382a0a1d6d7.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_de5e428fd9c4d81451c51a90c7e41ecf66f09e28.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_e9c492d894833a24cf8c4cd588ea82806ec67414.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_31e2059d56c9661b4bf39d1cd18475a292b0016d.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_9e1bc35933a2152e88ae7ace65f8f8489f2dd817.1920x1080.jpg
+  - https://p.moimg.net/project/2021/05/11/20210511_1620714534_8561.png
+  - https://p.moimg.net/project/2021/05/11/20210511_1620717391_9309.gif
+  - https://p.moimg.net/project/2021/05/11/20210511_1620717780_8906.gif
+  - https://p.moimg.net/project/2021/05/11/20210511_1620717784_5342.gif
+  - https://p.moimg.net/project/2021/05/13/20210513_1620838337_5163.png
+  - https://p.moimg.net/project/2021/05/11/20210511_1620740884_6673.gif
+  
+  # - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_fdc59235d73918179ff96a89bd038382a0a1d6d7.1920x1080.jpg
+  # - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_de5e428fd9c4d81451c51a90c7e41ecf66f09e28.1920x1080.jpg
+  # - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_e9c492d894833a24cf8c4cd588ea82806ec67414.1920x1080.jpg
+  # - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_31e2059d56c9661b4bf39d1cd18475a292b0016d.1920x1080.jpg
+  # - https://cdn.akamai.steamstatic.com/steam/apps/1636560/ss_9e1bc35933a2152e88ae7ace65f8f8489f2dd817.1920x1080.jpg
+  
