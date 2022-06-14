@@ -87,8 +87,12 @@ screenshots:
     src:
       - mime: video/webm
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256853415/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256853415/movie480.mp4
   - type: video
     src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256853419/movie480_vp9.webm
       - mime: video/mp4
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256853419/movie480.mp4
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1689080/ss_075c1f3ffbe5c171750a4c65a14a045e50163c6a.jpg
