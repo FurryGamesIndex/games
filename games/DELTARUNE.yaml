@@ -1,5 +1,8 @@
 name: DELTARUNE
 
+brief-description: |
+  UNDERTALE's parallel story, DELTARUNE. Meet new and old characters in a tale that steps closer to its end, chapter by chapter. Dodge bullets in nonviolent RPG battles as you listen to funky, funky music. Try Chapter 1 and 2 for free... now!!! More chapters in development!!!
+
 description: |
   ## The next adventure in the **UNDERTALE** series has appeared!
   
@@ -84,7 +87,9 @@ screenshots:
   - type: video
     src:
       - mime: video/webm
-        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256849454/movie_max_vp9.webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256849454/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256849454/movie480.mp4
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_b19eda9efcabf0fe27741eb126427048541780f0.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_3fb0a253a8fa2f08a49f982d8c1e93c283e27f6d.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1671210/ss_0d6b9f18eb6af166ae23a2c6b3148865eedb362d.jpg
