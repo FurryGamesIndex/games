@@ -1,5 +1,8 @@
 name: Corruption of Champions II
 
+brief-description: |
+  Corruption of Champions II is an erotic text-based adventure RPG in which you contend with an invasion of perverse demons into your home realm. Romance friends and enemies such as catgirl clerics and kitsune mages, transform your body, and try to defeat the spreading corruption - or surrender to it!
+
 description: |
   Corruption of Champions II (or CoC2 for short) is a text-based adventure game in which you contend with an invasion of perverse demons into your home realm, all the while romancing hot monstergirls (and furries, orcs, elves, demons, and all sorts of other cuties) and transforming yourself into your ideal physical form. CoC2 is a game about customization, letting you play whatever kind of character you want: whether you're a busty bimbo bandit or a chiseled lupine barbarian; a hermaphroditic cowgirl sorceress specialized in milk-magic, or a burly orc warpriest who intimidates his companions back into the fight.
 
@@ -90,7 +93,10 @@ screenshots:
     src:
       - mime: video/webm
         sensitive: true
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256793796/movie_max_vp9.webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256793796/movie480_vp9.webm
+      - mime: video/mp4
+        sensitive: true
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256793796/movie480.mp4
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1292690/ss_8c1cd067f2be9178896992ec79991e88f2c9a176.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1292690/ss_fcfb54c3b67b78bad82757d3f163a6006121c376.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1292690/ss_6f84c99dbe2c0ab7a442ec98cc86576aec025a18.1920x1080.jpg
