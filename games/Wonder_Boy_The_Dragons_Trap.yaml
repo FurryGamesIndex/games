@@ -86,7 +86,9 @@ thumbnail: thumbnail.jpg
 screenshots:
   - type: video
     src:
-      - uri: https://steamcdn-a.akamaihd.net/steam/apps/256685538/movie480.webm
-        mime: video/webm
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256685538/movie480.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256685538/movie480.mp4
   - https://steamcdn-a.akamaihd.net/steam/apps/543260/ss_063dabb1849ea31351ebdfc8ce82e25cea758918.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/543260/ss_6402e7925bb1c8625e28be1a45f6b26dc65b77f8.1920x1080.jpg
