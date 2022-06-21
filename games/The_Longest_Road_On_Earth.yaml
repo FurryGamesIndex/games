@@ -108,11 +108,15 @@ screenshots:
   - type: video
     src: 
       - mime: video/webm
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256834380/movie_max_vp9.webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256834380/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256834380/movie480.mp4
   - type: video
     src: 
       - mime: video/webm
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256827615/movie_max_vp9.webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256827615/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256827615/movie480.mp4
   - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_ad1e3ac7a36d469725f21037e473890d75a444f8.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_88201461db0e1a9447e47156675b3dd0bc866392.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/1295790/ss_4599754154b9cc8d9f39b868d0bdf85c8c6066c5.jpg
