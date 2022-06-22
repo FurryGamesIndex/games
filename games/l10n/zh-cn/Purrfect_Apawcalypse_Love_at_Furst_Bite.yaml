@@ -1,7 +1,4 @@
-name: 完美末日:一咬定情
-
-old-ids:
-  - Purrfect_Apawcalypse__01__Love_at_Furst_Bite
+name: 完美末日:一咬定情 / Purrfect Apawcalypse: Love at Furst Bite
 
 brief-description: |
   狗狗Olive发现自己被困在八公高中的末日中！恶魔一直在屠杀ta的同学们，ta确信自己也会不可避免地收获悲惨的结局...这意味着只剩下那么多狗可以和ta一同度过最后时光！和Olive一起寻找一个特别的ta！是爱吃零食的柯基Brownie、爱运动的哈士奇Sparky还是斑点狗书虫Patches？这一切都取决于你！
@@ -18,56 +15,3 @@ description: |
   完美末日是一部关于狗、猫和世界末日的黑色喜剧互动小说。你去的地方、你遇到的角色和你所做出的选择将导致你走向死亡或幸福，所以请明智地选择！
 
   该游戏由Denny在Andy的编程帮助下，使用Ren'Py创作！在社交媒体上关注我们以保持更新，可以在YouTube上查看OST，在我们的Patreon上获取幕后内容或从我们的Storenvy获取周边商品！感谢参与！
-
-
-authors:
-  - name: Denny Truong
-    role: [ producer ]
-  - name: Andy Schneider
-    role: [ producer, programmer ]
-  - name: 90% Studios
-    role: [ publisher ]
-
-tags:
-  type:
-    - visual-novel
-    - gore
-  species:
-    - cat
-    - dog
-  misc:
-    - multiple-series
-    - multiple-endings
-    - engine-renpy
-  lang:
-    - en
-    - pt
-  publish:
-    - steam
-    - itchio
-  platform:
-    - windows
-    - macos
-    - linux
-
-links:
-  - name: .steam
-    uri: steam:1532510
-  - name: .itch.io
-    uri: https://90percentstudios.itch.io/purrfect-apawcalypse-love-at-furst-bite
-
-thumbnail: thumbnail.jpg
-
-screenshots:
-  - type: video
-    src:
-      - mime: video/webm
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256820442/movie480_vp9.webm
-      - mime: video/mp4
-        uri: https://cdn.akamai.steamstatic.com/steam/apps/256820442/movie480.mp4
-  - sensitive: true
-    uri: https://cdn.akamai.steamstatic.com/steam/apps/1532510/ss_39cfdc2005a66bab05301edf0246d6a8606c29a9.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1532510/ss_c035c5228a056d1cd07046089dc621b899e153ee.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1532510/ss_1e6f28e307ae9bfb76ae80b5b504e4104c23419f.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1532510/ss_cc90abc111f873d9808eb5c2287949052245a73e.1920x1080.jpg
-  - https://cdn.akamai.steamstatic.com/steam/apps/1532510/ss_e41cc83cbece903dcdb725f084a4b2618efd701b.1920x1080.jpg
