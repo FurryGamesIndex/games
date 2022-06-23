@@ -51,6 +51,6 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:u17kM8oSz3k
+    id: u17kM8oSz3k
   - https://steamcdn-a.akamaihd.net/steam/apps/481510/ss_be58beee5186f4b06b828a90a126f47cca55ae0a.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/481510/ss_b76969ea2ad31d4e4271232be5276672cd229d14.1920x1080.jpg

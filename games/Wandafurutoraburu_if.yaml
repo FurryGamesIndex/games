@@ -50,7 +50,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:51c-rec03vg
+    id: 51c-rec03vg
   - https://i.imgur.com/4FMxtsS.jpg
   - https://i.imgur.com/kiMQ8Mv.jpg
   - https://i.imgur.com/0UfAq6s.jpg

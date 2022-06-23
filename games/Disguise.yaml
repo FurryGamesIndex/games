@@ -62,6 +62,6 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:eCf9QDsTZY4
+    id: eCf9QDsTZY4
   - https://i.imgur.com/mifClyw.png
 

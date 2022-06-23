@@ -80,8 +80,8 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    uri: youtube:dSb2LSmDg0Q
+  - ttype: youtube
+    id: dSb2LSmDg0Q
   - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzU4NzIxMjcucG5n/original/ClGiM3.png
   - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzU4NzIxMzAucG5n/original/2S3rbK.png
   - https://img.itch.zone/aW1hZ2UvMjYzMzA3LzU4NzIxNDEucG5n/original/uOl6G5.png

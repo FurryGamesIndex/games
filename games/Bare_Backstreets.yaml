@@ -73,7 +73,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:FGfk5S9KFlw
+    id: FGfk5S9KFlw
   - https://img.itch.zone/aW1hZ2UvNTIyNDAzLzQxOTEzODkuZ2lm/794x1000/tQjp4z.gif
   - https://img.itch.zone/aW1hZ2UvNTIyNDAzLzQxOTEzNzYuZ2lm/794x1000/3PWkyv.gif
   - https://img.itch.zone/aW1hZ2UvNTIyNDAzLzQxOTEzMjkuZ2lm/794x1000/62RLt6.gif
