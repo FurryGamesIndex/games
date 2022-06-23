@@ -75,7 +75,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:2PJF8CMzVUo
+    id: 2PJF8CMzVUo
   - https://cdn.cloudflare.steamstatic.com/steam/apps/926990/ss_f430e20912f4adcb010458bb91d304f71ec772bd.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/926990/ss_5eb0a9ad8a842ea65de24c1357a812b3729f0ce9.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/926990/ss_714e9cd53759f4847b86b59b436fc25114ab29e2.1920x1080.jpg

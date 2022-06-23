@@ -54,6 +54,6 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:kyLZ649mG6I
+    id: kyLZ649mG6I
   - https://i.imgur.com/EWh2AKd.png
   - https://i.imgur.com/WSyDWFU.png

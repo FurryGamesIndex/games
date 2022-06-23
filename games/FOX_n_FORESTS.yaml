@@ -73,7 +73,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:uJBGdozSjJw
+    id: uJBGdozSjJw
   - https://steamcdn-a.akamaihd.net/steam/apps/603400/ss_eca0d3166b64487532e68fe6ef81fc504090a5bb.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/603400/ss_0e6af5bd74cb1072f416713ce3e324bdbc19be44.1920x1080.jpg
   - https://steamcdn-a.akamaihd.net/steam/apps/603400/ss_05ed8ad7ac33317926cfbffd998aff4aa5a3ab91.1920x1080.jpg

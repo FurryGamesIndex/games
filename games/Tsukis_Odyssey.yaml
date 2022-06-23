@@ -46,7 +46,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:Neou_P0jOK0
+    id: Neou_P0jOK0
   - https://i.imgur.com/NXofwfB.png
   - https://i.imgur.com/O3mtjnA.png
   - https://i.imgur.com/SWw6RQv.png
