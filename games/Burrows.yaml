@@ -19,20 +19,26 @@ tags:
     - visual-novel
     - yiff
     - gore
+  species:
+    - opossum
+    - rabbit
+    - wolf
+    - shark
+    - leopard
+    - fox
   misc:
     - freeware
     - engine-renpy
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
     - android
     - windows
     - macos
-  sys:
-    - staging
 
 links:
   - name: .itch.io
@@ -41,11 +47,14 @@ links:
     uri: twitter:Burrows_VN
   - name: .patreon
     uri: patreon:burrowsvn
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Burrows-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83Mjg1OTQxLnBuZw==/original/7YdnAf.png
   - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83NTQyNjY3LnBuZw==/original/rUysrX.png
-  - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83Mjg1OTQzLnBuZw==/original/038SG3.png
+  - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83OTc1MzgzLnBuZw==/original/T7ARq5.png
   - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy83NTQyNjYwLnBuZw==/original/EpKH2l.png
+  - https://img.itch.zone/aW1hZ2UvMTI0NjkwMy85MDg5NjU5LnBuZw==/original/RcEGfC.png
