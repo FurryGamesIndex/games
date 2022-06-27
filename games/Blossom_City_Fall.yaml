@@ -1,0 +1,66 @@
+name: "Blossom City: Fall"
+
+description: |
+  Blossom City is a linear slice of life visual novel about Aiden Hensley and his experience living in Blossom City. 
+
+authors:
+  - name: HypoNova
+    role: [ producer ]
+  - name: Eymon
+    role: [ musician ]
+  - name: Devilizer
+    role: [ screenwriter ]
+  - name: Akuro
+    role: [ programmer ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - wolf
+    - lion
+    - otter
+    - dog
+    - snow-leopard
+  fetish:
+    - muscle
+    - blowjob
+    - masturbation
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://hyponova.itch.io/blossom-city
+  - name: .patreon
+    uri: patreon:BlossomCityVN
+  - name: .twitter
+    uri: twitter:HypoNova 
+  - name: .unofficial-patch-zh
+    uri: FGI-misc-page:Blossom_City_Fall-unofficial-l10n-zh-redir
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNTU2ODA0Lzc1OTkzODEuanBn/original/IYckOz.jpg
+  - https://img.itch.zone/aW1hZ2UvNTU2ODA0Lzc1OTkzOTYucG5n/original/a4Zgyg.png
+  - https://img.itch.zone/aW1hZ2UvNTU2ODA0Lzc1OTkzOTgucG5n/original/0V2o61.png
+  - https://img.itch.zone/aW1hZ2UvNTU2ODA0Lzc1OTk0MDIucG5n/original/PN5C4g.png
+  - https://img.itch.zone/aW1hZ2UvNTU2ODA0Lzc1OTk0MDMucG5n/original/5OUuT7.png
