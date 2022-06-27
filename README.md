@@ -9,7 +9,6 @@ The motive for creating this project was that Lucky Doge gave up his Furry Game 
 Select languages:
 <details>
 <summary>English</summary>
-<a id="English">
 
 ## About This Project
 
@@ -26,9 +25,9 @@ Select languages:
 3. [Note on Submitting](doc/contribute_guide/patches-submitting.en.md)
 4. [FGI Members/Contributors](CONTRIBUTORS.md)
 </details>
+
 <details>
 <summary>简体中文</summary>
-<a id="Simplified_Chinese">
 
 ## 关于本项目
 
@@ -45,9 +44,8 @@ Select languages:
 3. [提交补丁的注意事项](doc/contribute_guide/patches-submitting.zh-cn.md)
 </details>
 
-<details><summary>繁體中文</summary>
-
-<a id="Traditional_Chinese">
+<details>
+<summary>繁體中文</summary>
 
 ## 關於此專案
 
