@@ -10,6 +10,8 @@ FurryGamesIndex (下文中可能简称 FGI) 是一个年轻的开放型社区项
 
 如果您愿意注册 Github 帐号并在本仓库的 [Issues](https://github.com/FurryGamesIndex/games/issues) 打开讨论线程，那就再好不过了，但是我们也十分欢迎通过电子邮件或 Telegram 的报告。具体请转到下方的联系方式区域。
 
+但是贡献之前，请首先确保所引荐游戏未被收录并且未被请求添加。
+
 ### 直接参与 FGI 游戏和作者条目的编辑
 
 FGI 最终呈现给用户的界面是来自对 “FGI 游戏数据库”、“FGI 作者数据库”、”FGI 标签规格说明“ 等数据文件的加工。
