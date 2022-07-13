@@ -49,17 +49,17 @@ tags:
     - android
 
 links:
+  - name: .itch.io
+    uri: https://jerichowo.itch.io/remember-the-flowers
   - name: .twitter
     uri: twitter:RtFVN
   - name: .discord
-    uri: https://discord.com/invite/kssdrgpMgE
-  - name: .itch.io
-    uri: https://jerichowo.itch.io/remember-the-flowers
+    uri: discord:kssdrgpMgE
   - name: .patreon
     uri: patreon:RememberTheFlowers
   - name: .unofficial-version-zh
     icon: telegram
-    uri: https://t.me/Furry_PrPr_T/10877
+    uri: https://t.me/indigo_mount
 
 thumbnail: thumbnail.jpg
 
