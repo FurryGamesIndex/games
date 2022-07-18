@@ -11,42 +11,45 @@ description: |
   
   You will be able to level up by raising your ERP (erotic point) gauge, which will allow you to take things to a naughty level.
 
-description-format: markdown
-
 authors:
   - name: Untendo
-    role: [ producer, screenwriter, programmer, artist ]
+    role: [ producer ]
 
 tags:
   type:
+    - visual-novel
     - shooter
+    - bara
+    - yiff
   species:
     - tiger
     - bear
     - dog
     - lion
+    - rabbit
+  fetish:
+    - muscle
+    - anal
+    - blowjob
+    - masturbation
   misc:
     - engine-rpg-maker
+    - multiple-endings
   lang:
     - ja
     - zh-unofficial
   publish:
+    - website
     - digiket
   platform:
     - windows
     - macos
 
 links:
-  - name: Digiket (Digital ver)
-    uri: https://www.digiket.com/work/show/_data/ID=ITM0170977/
-  - name: Digiket (Digital ver) (macOS)
-    uri: https://www.digiket.com/work/show/_data/ID=ITM0174447/
-  - name: Alice-books (Physical ver)
-    uri: https://alice-books.com/item/show/3288-9
-  - name: Get Demo on booth
-    uri: https://booth.pm/ja/items/828340
   - name: .website
     uri: https://www.untendo.com/
+  - name: .demo-version
+    uri: https://booth.pm/ja/items/828340
   - name: .twitter
     uri: twitter:kajimaru_0507
   - name: Unofficial chinese version for Demo
@@ -57,6 +60,10 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - type: video
+    src:
+      - mime: video/mp4
+        uri: https://video.wixstatic.com/video/b021d9_4ea199c535fc4b909a313fc47e808ec1/720p/mp4/file.mp4
   - https://img.digiket.net/cg/170/ITM0170977_s1.jpg
   - https://img.digiket.net/cg/170/ITM0170977_s2.jpg
   - https://img.digiket.net/cg/170/ITM0170977_s3.jpg

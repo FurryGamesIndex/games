@@ -79,7 +79,7 @@ description-format: markdown
 
 authors:
   - name: 'Draconia Dev Team'
-    role: [ producer, publisher]
+    role: [ producer, publisher ]
    
 tags:
   type:

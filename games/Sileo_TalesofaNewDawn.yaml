@@ -12,8 +12,6 @@ description: |
 
   Sileo: Tales of a New Dawn is a gay furry visual novel that was first unveiled to the world in June 2020 and has since ballooned into something far bigger than any of us could have ever anticipated! We're ecstatic with the progress we've made so far, but really, we've barely even gotten started! Sileo features several novel-length routes already with several more planned for the future! In addition, we have an almost endless supply of ideas on what we'd like to do after those routes are released!
 
-description-format: markdown
-
 authors:
   - name: Xevvy
     role: [ producer ]
@@ -48,6 +46,7 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -66,6 +65,8 @@ links:
     uri: twitter:talesofanewdawn
   - name: .discord
     uri: discord:5EzwVhqXde
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Sileo_TalesofaNewDawn-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

@@ -60,7 +60,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:cFJpQhYUDrk
+    id: cFJpQhYUDrk
   - https://media.st.dl.pinyuncloud.com/steam/apps/1606940/ss_4c53d60b8ad5d156140408a27df74d199200c241.jpg
   - https://media.st.dl.pinyuncloud.com/steam/apps/1606940/ss_f4aa33ec5fabea415e72346f4bd607e01b7115aa.jpg
   - https://media.st.dl.pinyuncloud.com/steam/apps/1606940/ss_28b8e948ade95eb4a1d0473811402dc2b7dac72d.jpg

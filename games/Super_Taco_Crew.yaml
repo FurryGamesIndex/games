@@ -57,7 +57,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:KdxkW8WiXIY
+    id: KdxkW8WiXIY
   - https://img.itch.zone/aW1hZ2UvNzg1NjgyLzQ0MDAyOTYucG5n/original/3PZgGt.png
   - https://img.itch.zone/aW1hZ2UvNzg1NjgyLzQ0MDAyODcucG5n/original/6CKwA1.png
   - https://img.itch.zone/aW1hZ2UvNzg1NjgyLzQ0MDAyODgucG5n/original/8Lp5ZH.png

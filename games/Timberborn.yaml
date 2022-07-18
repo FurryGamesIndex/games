@@ -112,7 +112,7 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - type: youtube
-    uri: youtube:n4UEtIN_VW4
+    id: n4UEtIN_VW4
   - https://media.st.dl.pinyuncloud.com/steam/apps/1062090/ss_cca17a37ad1f7f4397f52a26040ae6dfcb38f7fb.jpg
   - https://media.st.dl.pinyuncloud.com/steam/apps/1062090/ss_f60601477d8d13550638c1df429f85b9b0ae36c0.jpg
   - https://media.st.dl.pinyuncloud.com/steam/apps/1062090/ss_82f5afbbd0fb0ddb4790318891db391e117afa56.jpg

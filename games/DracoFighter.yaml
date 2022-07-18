@@ -1,18 +1,38 @@
 name: DracoFighter
 
 brief-description: |
-  Over the coming weeks, join calico (c)athlete Lucky as she explores Doodle Champion Island: a world filled with seven sport mini-games, legendary opponents, dozens of daring side quests, and a few new (and old ;)) friends. Her ultimate goal? Defeat each sport Champion to collect all seven sacred scrolls—and complete extra hidden challenges across Champion Island in the purrr-ocess.
+  DracoFighter is a solo-developed 2D fighting game with a focus on accessibility and local multiplayer, with movesets that are easy to learn but harder to master. Explore the stories of these hand-animated characters in a futuristic world led by dragons!
 
 description: |
-  WELCOME TO DRACOFIGHTER
+  ## WELCOME TO DRACOFIGHTER
 
-  Draco is the most powerful dragon on Earth, but some challengers have stepped up as contenders... 
+  In a futuristic world led by dragons, Draco stands above everyone else as the most powerful being on Earth, but contenders have risen up to defeat him!
 
-  Play as a dragon and fight others with the incredibly simple control scheme! Experience the complexity of fighting games without the complex inputs! Compatible on Desktop and Android!
+  DracoFighter is a solo-developed 2D fighting game with a focus on accessibility and local multiplayer, with movesets that are easy to learn but harder to master. The game has no complex inputs, no special cancels, a simple juggle system that restricts long combos, and straightforward fighting mechanics, making it perfect for fighting game newcomers! Each character is original and hand-animated from scratch, with unique movesets and personalities explored through both the story and gameplay.
+
+  ![bookmark](https://cdn.cloudflare.steamstatic.com/steam/apps/2027810/extras/bookmark.png)
+
+  ## Game Modes
+  - **Story Mode** - Learn about each of the 4 main characters and put together the mystery of the time machine!
+  - **VS Mode** - Battle a friend or a CPU in a classic 1v1 match
+  - **Survival Mode** - Fight an endless number of enemies on a single health bar!
+  - **Combo Trials** - Challenge yourself with personalized character combo trials
+  - **Practice Mode** - View the frame data of your moves on hit and on block while practicing combos on a dummy
+  - **Divekick Mode** - Use Draco's divekick to reenact one of the greatest fighting games ever created
+
+  ## Gameplay Features
+  - **Easy Controls** - 2 buttons and directions are all you need to access your character's whole moveset
+  - **Unique Movesets** - Every character has a unique personality with different strengths and weaknesses that define them
+  - **Simple Combo System** - Juggle opponents in the air with short, simple combos that can be adapted based on the situation
+  - **Local Multiplayer** - Play against a friend on the same keyboard, with custom keybinding available. Controller support is also included!
+  - **Combat Depth** - Outplay opponents through proper knowledge of mindgames and punishes
+  - **Secret Characters** - ...?
+
+description-format: markdown
 
 authors:
   - name: Vecderg
-    role: [ producer ]
+    role: [ producer, publisher ]
 
 tags:
   type:
@@ -21,31 +41,38 @@ tags:
     - dragon
   misc:
     - multiplayer
-    - work-in-process
   lang:
     - en
   publish:
     - itchio
+    - steam
+    - google-play
   platform:
     - windows
     - macos
     - android
-  sys:
-    - staging
 
 links:
   - name: .website
     uri: https://www.vecderg.com/
   - name: .itch.io
     uri: https://vecderg.itch.io/dracofighter
+  - name: .steam
+    uri: steam:2027810
+  - name: .play-store
+    uri: google-play-store:org.godotengine.dracofighterfull        
   - name: .demo-version
     uri: https://vecderg.itch.io/dracofighter-demo
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: bZyOuhZ6Aqk
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256893139/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256893139/movie480.mp4
   - https://img.itch.zone/aW1hZ2UvOTYzNzIxLzcyMTE3MTUucG5n/original/R%2BCcYO.png
   - https://img.itch.zone/aW1hZ2UvOTYzNzIxLzY5NjExNzkucG5n/original/tzfuPk.png
   - https://img.itch.zone/aW1hZ2UvOTYzNzIxLzcwMDExMTMucG5n/original/DFRJW%2F.png
