@@ -90,7 +90,13 @@ role-playing:
   explanation:
     en: 'This game is a RPG'
     zh-cn: '角色扮演游戏'
-
+    
+massively-multiplayer-online-role-playing:
+  namespaces: [ type ]
+  explanation:
+    en: 'This game is a MMORPG'
+    zh-cn: '大型多人在线角色扮演游戏'
+    
 dating-sim:
   namespaces: [ type ]
   explanation:
