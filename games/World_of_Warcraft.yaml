@@ -1,0 +1,90 @@
+name: World of Warcraft
+
+brief-description: |
+  Welcome to Azeroth, a world of magic and limitless adventure. 
+
+description: |
+  Intent on settling the arid region of Durotar, Thrall's new Horde expanded its ranks, inviting the undead Forsaken to join orcs, tauren, and trolls. 
+  Meanwhile, dwarves, gnomes and the ancient night elves pledged their loyalties to a reinvigorated Alliance, guided by the human kingdom of Stormwind. 
+  After Stormwind's king, Varian Wrynn, mysteriously disappeared, Highlord Bolvar Fordragon served as Regent but his service was marred by the manipulations and mind control of the black dragon Onyxia, who ruled in disguise as a human noblewoman. 
+  As heroes investigated Onyxia's manipulations, ancient foes surfaced in lands throughout the world to menace Horde and Alliance alike.
+
+description-format: markdown
+
+authors:
+  - name: Blizzard
+    role: [ producer ]
+
+tags:
+  type:
+    - role-playing
+    - adventure
+    - non-indie
+  species:
+    - humankind
+    - wolf
+    - panda
+    - bull
+    - fox
+    - dragon
+  fetish:
+    - muscle
+    - transform 
+  misc:
+    - freeware
+    - multiplayer
+    - co-op
+    - pvp
+    - multiple-series
+    - work-in-process
+    - moddable
+    - outside-furry-fandom
+    - outside-furry-fandom
+    - online
+    - centralized
+    - full-audio
+  lang:
+    - en
+    - de
+    - es
+    - fr
+    - it
+    - pt
+    - ru
+    - ko
+    - zh
+  publish:
+    - website
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .website
+    uri: https://worldofwarcraft.com
+  - name: .facebook
+    uri: https://www.facebook.com/Warcraft
+  - name: .twitter
+    uri: https://twitter.com/warcraft
+  - name: .youtube
+    uri: https://www.youtube.com/c/Warcraft
+  - name: Offical Chinese Website
+    uri: https://www.wowchina.com
+  - name: .weibo
+    uri: https://weibo.com/wow
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/p7/P75HIHDEYDZM1657316663910.jpg
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/wb/WB6FF7FUIVYX1657150216800.png
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/nm/NMQRQKOS76CV1650384327594.png
+  - https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/6EQEOSV8WZ6X1657754000159.png
+  - https://bnetcmsus-a.akamaihd.net/cms/content_entry_media/ETKPDMFGE6H71657753998495.png
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/a6/A6R806U7HJTN1650384185893.png
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/dq/DQ6S8YSEWJXP1651769276922.jpg
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/9e/9EQ12KHR96571644978805939.jpg
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/wc/WCNTESGYM60X1621462989791.jpg
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/ze/ZE5YC83V7D121622067139361.jpg
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/dg/DGWW7XO4JPBN1552939004084.jpg
+  - https://bnetcmsus-a.akamaihd.net/cms/blog_header/ka/KACBVIYAK0OJ1607030380736.jpg
