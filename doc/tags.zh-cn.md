@@ -19,6 +19,7 @@
 - `shooter` 射击游戏
 - `puzzle` 解谜/益智游戏
 - `role-playing` 角色扮演游戏
+- `massively-multiplayer-online-role-playingg` 大型多人在线角色扮演游戏
 - `dating-sim` 约会模拟游戏
 - `roguelike` Roguelike 游戏
 - `sports` 体育游戏
@@ -236,7 +237,7 @@ Fetish
 - `multiple-endings` 游戏有多种结局
 - `multiple-series` 游戏包含多个世界观、剧情有联系的系列/版本（提示：如果世界观具有其特殊性且相近，即使剧情无联系，则仍然认为是同一系列（类似于数码宝贝1, 3）；如果世界观是一种常见的、朴实的、一般的世界，如“现代日本”，“中世纪欧洲”，则只有当剧情有联系时，才认为是同一系列。这个标签在使用上有时可能会倾向主观而非客观，如果有更多问题，请打开 issue 讨论）
 - `work-in-process` 游戏尚未完结（但有先行预览版本或 Demo）
-    - 此标签有这些别名：`ongoing`
+- `ongoing` 游戏尚未完结（针对 MMORPG 等）
 - `died` 游戏尚未完成时被作者宣布放弃（此标签存在时，请销毁 misc:work-in-process 标签）
     - 此标签有这些别名：`dead`
 - `suspended` 游戏开发被暂停。当暂停持续超过 2 年后，应考虑添加 `misc:died` 并销毁此标签。

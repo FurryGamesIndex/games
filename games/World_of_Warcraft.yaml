@@ -18,6 +18,7 @@ authors:
 tags:
   type:
     - role-playing
+    - massively-multiplayer-online-role-playing
     - adventure
     - non-indie
   species:
@@ -31,7 +32,6 @@ tags:
     - muscle
     - transform 
   misc:
-    - freeware
     - multiplayer
     - co-op
     - pvp
@@ -39,7 +39,7 @@ tags:
     - work-in-process
     - moddable
     - outside-furry-fandom
-    - outside-furry-fandom
+    - not-only-furry-topic
     - online
     - centralized
     - full-audio
