@@ -1040,11 +1040,16 @@ multiple-series:
 
 work-in-process:
   namespaces: [ misc ]
-  alias: [ ongoing ]
   explanation:
-    en: 'The game is ongoing'
+    en: 'The game is work-in-process'
     zh-cn: '游戏尚未完结（但有先行预览版本或 Demo）'
-
+    
+ongoing:
+  namespaces: [ misc ]
+  explanation:
+    en: 'The game is ongoing (for MMORPG and so on)'
+    zh-cn: '游戏尚未完结（针对 MMORPG 等）'
+    
 died:
   namespaces: [ misc ]
   alias: [ dead ]
