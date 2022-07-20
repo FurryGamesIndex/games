@@ -91,6 +91,14 @@ role-playing:
     en: 'This game is a RPG'
     zh-cn: '角色扮演游戏'
 
+mmorpg:
+  namespaces: [ type ]
+  alias: [ massively-multiplayer-online-role-playing ]
+  implication: [ online, role-playing ]
+  explanation:
+    en: 'This game is a MMORPG'
+    zh-cn: '大型多人在线角色扮演游戏'
+    
 dating-sim:
   namespaces: [ type ]
   explanation:

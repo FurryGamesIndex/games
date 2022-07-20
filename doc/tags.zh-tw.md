@@ -19,6 +19,7 @@
 - `shooter` 射擊遊戲
 - `puzzle` 解謎/益智遊戲
 - `role-playing` 角色扮演遊戲
+- `mmorpg` 大型多人在綫角色扮演遊戲
 - `dating-sim` 約會模擬遊戲
 - `roguelike` Roguelike 遊戲
 - `sports` 體育遊戲

@@ -19,6 +19,7 @@ Used to describe the type of game
 - `shooter` This game is a shooter game
 - `puzzle` This game is a puzzle game
 - `role-playing` This game is a RPG
+- `mmorpg` This game is a MMORPG 
 - `dating-sim` This game is a dating simulator
 - `roguelike` This game is a Roguelike game
 - `sports` This game is a sports game
