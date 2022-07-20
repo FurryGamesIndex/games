@@ -19,7 +19,6 @@ Used to describe the type of game
 - `shooter` This game is a shooter game
 - `puzzle` This game is a puzzle game
 - `role-playing` This game is a RPG
-- `massively-multiplayer-online-role-playingg` This game is a MMORPG
 - `dating-sim` This game is a dating simulator
 - `roguelike` This game is a Roguelike game
 - `sports` This game is a sports game
@@ -237,7 +236,7 @@ Used to describe miscellaneous information related to the game
 - `multiple-endings` There are multiple different endings in the game
 - `multiple-series` The game is included in a series of connected worldviews or plots
 - `work-in-process` The game is ongoing
-- `ongoing` The game is ongoing (for MMORPG and so on) 
+    - This tag has these alias(es): `ongoing`
 - `died` When the game is not finished, the author announced to give up (If this tag exists, please destroy the misc:work-in-process tag)
     - This tag has these alias(es): `dead`
 - `suspended` Game development was suspended. When the suspension lasts more than 2 years, you should consider adding `misc:died` and destroying this tag.
