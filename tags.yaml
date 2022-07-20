@@ -1104,7 +1104,7 @@ online:
 mmorpg:
   namespaces: [ misc ]
   alias: [ massively-multiplayer-online-role-playing ]
-  implication: [ online, role-playing ]
+  implication: [ "misc:online", "type:role-playing" ]
   explanation:
     en: 'This game is a MMORPG'
     zh-cn: '大型多人在线角色扮演游戏'
