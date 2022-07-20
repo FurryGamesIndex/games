@@ -1102,7 +1102,7 @@ online:
     zh-cn: '游戏包括在线功能，如在线付费购买点数、在线排名系统等。'
 
 mmorpg:
-  namespaces: [ type ]
+  namespaces: [ misc ]
   alias: [ massively-multiplayer-online-role-playing ]
   implication: [ online, role-playing ]
   explanation:
