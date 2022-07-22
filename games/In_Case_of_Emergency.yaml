@@ -1,15 +1,15 @@
 name: In Case of Emergency
 
 brief-description: |
-  In Case of Emergency is a fantasy romance visual novel with role-playing elements. Play as Kieran, an almost-college grad who enrolls in summer remedial classes after failing his final semester of school.  When he stumbles upon a mysterious staircase on campus, he discovers a dying world of swords, magic, and prophecy.
+  In Case of Emergency is a fantasy, comedy drama, romance visual novel with role-playing elements. Play as Kieran, an almost-college grad who enrolls in summer remedial classes after failing his final semester of school.  When he stumbles upon a mysterious staircase on campus, he discovers a dying world of swords, magic, and prophecy.
 
 description: |
-  In Case of Emergency is a fantasy romance visual novel with role-playing elements. Play as Kieran, an almost-college grad who enrolls in summer remedial classes after failing his final semester of school.  When he stumbles upon a mysterious staircase on campus, he discovers a dying world of swords, magic, and prophecy.
+  In Case of Emergency is a fantasy, comedy drama, romance visual novel with role-playing elements. Play as Kieran, an almost-college grad who enrolls in summer remedial classes after failing his final semester of school.  When he stumbles upon a mysterious staircase on campus, he discovers a dying world of swords, magic, and prophecy.
 
   ##FEATURES
   Define your own character: Choose dialogue options that define your player character. Accrue points in the archetypes "Alpha Chad," "Male Feminist," or "King of the Nerds" to unlock unique dialogue and choices.
 
-  Multiple love interests: The game contains one central "route" that follows the main plot. Romantic (or otherwise character-unique) plotlines take place alongside it.
+  Multiple love interests: The game contains one central "route" that follows the main plot. Romantic (or otherwise character-unique) plotlines take place alongside it. Non-romantic/sexual relationships are also available.
 
   Mature content: Death, taxes, dick jokes, and other highbrow stuff. Also, sex. (Explicit sexual content can be toggled on or off, but this game is still intended for audiences 18 and up.)
 
@@ -18,10 +18,6 @@ description-format: markdown
 authors:
   - name: Phibbean
     role: [ producer ]
-  - name: Loyalty Freak Music
-    role: [ musician ]
-  - name: Kevin MacLeod
-    role: [ musician ]
 
 tags:
   type:
@@ -29,8 +25,10 @@ tags:
   misc:
     - freeware
     - engine-renpy
+    - multiple-endings
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
@@ -47,12 +45,16 @@ links:
   - name: .discord
     uri: discord:ZK2KapcS5J
   - name: .twitter
-    uri: twitter:phibbean_
+    uri: twitter:icoeVN
+  - name: .unofficial-version-zh
+    icon: itch-io
+    uri: https://phibbean.itch.io/in-case-of-emergency/devlog/406910/translations-now-available-trad-chinese
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvMTA2NDA1OS82MTA1MTA5LnBuZw==/original/%2BVbXs9.png
-  - https://img.itch.zone/aW1hZ2UvMTA2NDA1OS82MTA1MTA4LnBuZw==/original/ZJ1sTh.png
+  - https://img.itch.zone/aW1hZ2UvMTA2NDA1OS84ODQxMDQ3LnBuZw==/original/X71l7d.png
+  - https://img.itch.zone/aW1hZ2UvMTA2NDA1OS84ODQxMDIyLnBuZw==/original/4wEfh8.png
   - https://img.itch.zone/aW1hZ2UvMTA2NDA1OS82MTA1MTE1LnBuZw==/original/cDCbdZ.png
-  - https://img.itch.zone/aW1hZ2UvMTA2NDA1OS82MTA1MTIwLnBuZw==/original/0GfIkp.png
+  - https://img.itch.zone/aW1hZ2UvMTA2NDA1OS84ODQxMDM4LnBuZw==/original/V8nT2%2F.png
+  - https://img.itch.zone/aW1hZ2UvMTA2NDA1OS84ODQxMDIzLnBuZw==/original/Bak4Y%2B.png
