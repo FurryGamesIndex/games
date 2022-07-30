@@ -1,23 +1,9 @@
 name: Heat Source
 
 description: |
-  Hewoo guys!
-  
-  Here's the build 0.5 of my first Visual Novel!
-  
-  This files are supposed to be for **MATURE AUDIENCE!**  n.n'
-  
-  Next Build 0.6 is already available on  https://www.patreon.com/AriHernandez ;D   You can support and check out early the new  build!
-  
-  I'll have been publishing about the last week of each month and I hope to keep up this working rythm!
+  "Hopefully you will adapt to these cold mountains..."
 
-  I hope you like it!! uwu
-  
-  Remember you can contact me faster on twitter! ;D   https://twitter.com/Ari_Guardian
-  
-  here's a Discord Server with tons of Furry VN content!   https://discord.gg/fpvn go check em out! uwu
-
-description-format: markdown
+  You play as an otter among big species, so expect SIZE DIFFERENCE, romance, drama, slice of life and a lot of NSFW!
 
 authors:
   - name: Ari Guardian
@@ -63,7 +49,7 @@ links:
   - name: .twitter
     uri: twitter:Ari_Guardian
   - name: .unofficial-version-zh
-    uri: FGI-misc-page:Heat_Source-unofficial-l10n-zh-redir
+    uri: https://www.gamemale.com/thread-93319-1-1.html
 
 thumbnail: thumbnail.jpg
 
