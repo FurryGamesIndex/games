@@ -6,8 +6,6 @@ old-ids:
 description: |
   It all began in the hustle and bustle of that summer.
 
-description-format: markdown
-
 authors:
   - name: 沉迷卖萌的爪子
     role: [ producer, screenwriter, programmer, artist ]
@@ -23,15 +21,20 @@ tags:
   misc:
     - freeware
     - centralized
+    - multiple-series
   lang:
     - zh
   platform:
     - web
+    - ios
+    - android
 
 links:
   - name: Play on 66rpg.com (expired)
     rel: nofollow
     uri: https://www.66rpg.com/game/uncheck/356881
+  - name: Alternative access method
+    uri: FGI-misc-page:The_Beast_in_the_Wild-alternative-access-method-redir
     
 thumbnail: thumbnail.jpg
 
