@@ -1,0 +1,95 @@
+name: Spyro Reignited Trilogy
+
+brief-description: |
+  The original roast master is back! Same sick burns, same smoldering attitude, now all scaled up in stunning HD. Spyro is bringing the heat like never before in the Spyro™ Reignited Trilogy game collection.
+
+description: |
+  The original roast master is back! Same sick burns, same smoldering attitude, now all scaled up in stunning HD. Spyro is bringing the heat like never before in the Spyro™ Reignited Trilogy game collection.
+  
+  Rekindle the fire with the original three games:
+  Spyro the Dragon
+  Spyro2: Ripto's Rage
+  Spyro: Year of the Dragon
+  
+  Explore the expansive realms, re-encounter the fiery personalities and relive the adventure in fully remastered glory. Because when there’s a realm that needs saving, there’s only one dragon to call.
+  
+authors:
+  - name: Toys for Bob
+    role: [ producer ]
+  - name: Activision
+    role: [ publisher ]
+
+tags:
+  type:
+    - role-playing
+    - casual
+    - adventure
+    - action
+    - non-indie
+  species:
+    - dragon
+    - non-anthro
+  misc:
+    - 3d
+    - engine-ue4
+    - multiple-series
+    - outside-furry-fandom
+    - full-audio
+  lang:
+    - en
+    - fr
+    - it
+    - de
+    - es
+    - ar
+    - da
+    - nl
+    - fi
+    - "no"  # YAML Grammar
+    - pl
+    - pt
+    - sv
+  publish:
+    - steam
+    - microsoft-store
+    - playstation-store
+    # - nintendo-e-shop  # 非推荐写法
+    - e-shop
+  platform:
+    - windows
+    - xbox-one
+    - playstation4
+    - nintendo-switch
+
+links:
+  - name: .website
+    uri: https://www.spyrothedragon.com/
+  - name: .twitter
+    uri: https://twitter.com/spyrothedragon/
+  - name: .facebook
+    uri: https://www.facebook.com/spyro/
+  - name: .youtube
+    uri: https://www.youtube.com/spyrothedragon/
+  - name: Instagram
+    uri: https://www.instagram.com/spyro/
+  - name: .steam
+    uri: https://store.steampowered.com/app/996580/Spyro_Reignited_Trilogy/
+  - name: .microsoft-store
+    uri: https://www.microsoft.com/p/spyro-reignited-trilogy/bwhfznsl0pb5
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-cy/product/EP0002-CUSA12085_00-SPYROTRILOGY0001
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/spyro-reignited-trilogy-switch/
+    
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: youtube
+    id: xM5xUAuPEM8
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/996580/ss_971529dd86fc64c4505e54fabb1847ec47118a5d.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/996580/ss_f375e36dd44de5af930d9c398275370811cdb7b4.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/996580/ss_bcf2c7104b393806c478e7a324630487970ee829.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/996580/ss_5307e50e4025c44ce562c05752da89206bf9c8cf.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/996580/ss_d3398e9f6afc99bcc471bc85c419fe5cfbd8918f.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/996580/ss_08eafc1dfc14b2869cd448e1442d9616e5252e3b.1920x1080.jpg
+

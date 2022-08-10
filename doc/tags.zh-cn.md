@@ -261,19 +261,24 @@ Fetish
 
 - `ar` Arabic supporting provided by offical author
 - `cs` 游戏有官方捷克语版本
+- `da` 游戏有官方丹麦语版本
 - `de` 游戏有官方德语版本
 - `en` 游戏有官方英语版本
 - `en-unofficial` 游戏有非官方英语版本
 - `es` 游戏有官方西班牙语版本
+- `fi` 游戏有官方芬兰语版本
 - `fr` 游戏有官方法语版本
 - `hu` 游戏有官方匈牙利语版本
 - `it` 游戏有官方意大利语版本
 - `ja` 游戏有官方日语版本
 - `ja-unofficial` 游戏有非官方日语版本
 - `ko` 游戏有官方韩语版本
+- `nl` 游戏有官方荷兰语版本
+- `"no"` 游戏有官方挪威语版本
 - `pl` 游戏有官方波兰语版本
 - `pt` 游戏有官方葡萄牙语版本
 - `ru` 游戏有官方俄语版本
+- `sv` 游戏有官方瑞典语版本
 - `tr` 游戏有官方土耳其语版本
 - `zh` 游戏有官方中文版本
 - `zh-unofficial` 游戏有非官方中文版本
@@ -297,6 +302,7 @@ Fetish
 - `gog` 游戏在 GOG.com 上有发布
     - 此标签有这些别名：`gog-com`
 - `microsoft-store` 游戏在 Microsoft Store 上有发布
+- `playstation-store` 游戏在 Playstation Store 上有发布
 
 ## platform 命名空间
 
