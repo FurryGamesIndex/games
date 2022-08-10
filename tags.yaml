@@ -1159,6 +1159,12 @@ cs:
     zh-cn: '游戏有官方捷克语版本'
     en: 'Czech supporting provided by offical author'
 
+da:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Danish supporting provided by offical author'
+    zh-cn: '游戏有官方丹麦语版本'
+
 de:
   namespaces: [ lang ]
   explanation:
@@ -1183,6 +1189,12 @@ es:
     en: 'Spanish supporting provided by offical author'
     zh-cn: '游戏有官方西班牙语版本'
 
+fl:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Finnish supporting provided by offical author'
+    zh-cn: '游戏有官方芬兰语版本'
+    
 fr:
   namespaces: [ lang ]
   explanation:
@@ -1219,6 +1231,19 @@ ko:
   explanation:
     en: 'Korean supporting provided by offical author'
     zh-cn: '游戏有官方韩语版本'
+    
+nl:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Dutch supporting provided by offical author'
+    zh-cn: '游戏有官方荷兰语版本'
+    
+no:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Norwegian supporting provided by offical author'
+    zh-cn: '游戏有官方挪威语版本'
+    
 
 pl:
   namespaces: [ lang ]
@@ -1238,6 +1263,12 @@ ru:
     en: 'Russian supporting provided by offical author'
     zh-cn: '游戏有官方俄语版本'
 
+sv:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Swedish supporting provided by offical author'
+    zh-cn: '游戏有官方瑞典语版本'
+    
 tr:
   namespaces: [ lang ]
   explanation:
@@ -1340,6 +1371,12 @@ microsoft-store:
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 Microsoft Store 上有发布'
+    
+playstation-store:
+  namespaces: [ publish ]
+  explanation:
+    en: 'Self-pleasuring.'
+    zh-cn: '游戏在 Playstation Store 上有发布'
 
 
 ###################################################
