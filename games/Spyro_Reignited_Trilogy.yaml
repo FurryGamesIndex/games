@@ -76,8 +76,6 @@ links:
     uri: https://store.steampowered.com/app/996580/Spyro_Reignited_Trilogy/
   - name: .microsoft-store
     uri: https://www.microsoft.com/p/spyro-reignited-trilogy/bwhfznsl0pb5
-  - name: Xbox Store 
-    uri: https://www.xbox.com/games/store/spyro-reignited-trilogy/bwhfznsl0pb5
   - name: .playstation-store
     uri: https://store.playstation.com/en-cy/product/EP0002-CUSA12085_00-SPYROTRILOGY0001
   - name: .nintendo-e-shop
