@@ -45,16 +45,16 @@ tags:
     - da
     - nl
     - fi
-    - "no"   # yaml 
+    - "no"  # YAML Grammar
     - pl
     - pt
     - sv
   publish:
     - steam
     - microsoft-store
-    # - playstation-store
-    # - nintendo-e-shop
-    - e-shop
+    - playstation-store
+    - nintendo-e-shop
+    # - e-shop
   platform:
     - windows
     - xbox-one
