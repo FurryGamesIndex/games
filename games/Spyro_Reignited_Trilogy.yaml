@@ -52,7 +52,7 @@ tags:
   publish:
     - steam
     - microsoft-store
-    - playstation-store
+    # - playstation-store
     # - nintendo-e-shop
     - e-shop
   platform:
