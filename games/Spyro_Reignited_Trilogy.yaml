@@ -42,13 +42,13 @@ tags:
     - de
     - es
     - ar
-    # - da
-    # - nl
-    # - fi
-    # - "no"
-    # - pl
-    # - pt
-    # - sv
+    - da
+    - nl
+    - fi
+    - "no"   # yaml 
+    - pl
+    - pt
+    - sv
   publish:
     - steam
     - microsoft-store
