@@ -53,8 +53,8 @@ tags:
     - steam
     - microsoft-store
     - playstation-store
-    - nintendo-e-shop
-    # - e-shop
+    # - nintendo-e-shop  # 非推荐写法
+    - e-shop
   platform:
     - windows
     - xbox-one
@@ -80,7 +80,6 @@ links:
     uri: https://store.playstation.com/en-cy/product/EP0002-CUSA12085_00-SPYROTRILOGY0001
   - name: .nintendo-e-shop
     uri: https://www.nintendo.com/store/products/spyro-reignited-trilogy-switch/
-    
     
 thumbnail: thumbnail.jpg
 
