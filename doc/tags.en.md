@@ -274,7 +274,7 @@ The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 - `ja-unofficial` Japanese supporting provided by unoffical source
 - `ko` Korean supporting provided by offical author
 - `nl` Dutch supporting provided by offical author
-- `no` Norwegian supporting provided by offical author
+- `"no"` Norwegian supporting provided by offical author
 - `pl` Polish supporting provided by offical author
 - `pt` Portuguese supporting provided by offical author
 - `ru` Russian supporting provided by offical author
