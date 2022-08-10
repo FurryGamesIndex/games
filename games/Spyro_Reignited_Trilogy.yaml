@@ -42,13 +42,13 @@ tags:
     - de
     - es
     - ar
-    - da
-    - nl
-    - fi
+    # - da
+    # - nl
+    # - fi
     # - no
-    - pl
-    - pt
-    - sv
+    # - pl
+    # - pt
+    # - sv
   publish:
     - steam
     - microsoft-store
@@ -60,8 +60,6 @@ tags:
     - xbox-one
     - playstation4
     - nintendo-switch
-  sys:
-    - tagme
 
 links:
   - name: .website
