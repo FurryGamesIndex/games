@@ -30,7 +30,7 @@ description: |
 
 description-format: markdown
 
-author:
+authors:
   - name: eduweb
     role: [ producer, publisher ]
 
