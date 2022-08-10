@@ -261,19 +261,24 @@ The languages supported by the game (using the ISO 639-1 Alpha-2 code)
 
 - `ar` Arabic supporting provided by offical author
 - `cs` Czech supporting provided by offical author
+- `da` Danish supporting provided by offical author
 - `de` German supporting provided by offical author
 - `en` English supporting provided by offical author
 - `en-unofficial` English supporting provided by unoffical source
 - `es` Spanish supporting provided by offical author
+- `fi` Finnish supporting provided by offical author
 - `fr` French supporting provided by offical author
 - `hu` Hungarian supporting provided by offical author
 - `it` Italian supporting provided by offical author
 - `ja` Japanese supporting provided by offical author
 - `ja-unofficial` Japanese supporting provided by unoffical source
 - `ko` Korean supporting provided by offical author
+- `nl` Dutch supporting provided by offical author
+- `no` Norwegian supporting provided by offical author
 - `pl` Polish supporting provided by offical author
 - `pt` Portuguese supporting provided by offical author
 - `ru` Russian supporting provided by offical author
+- `sv` Swedish supporting provided by offical author
 - `tr` Turkish supporting provided by offical author
 - `zh` Chinese supporting provided by offical author
 - `zh-unofficial` Chinese supporting provided by unoffical source
@@ -297,6 +302,7 @@ Indicate where the game is released
 - `gog` Self-pleasuring.
     - This tag has these alias(es): `gog-com`
 - `microsoft-store` Self-pleasuring.
+- `playstation-store` Self-pleasuring.
 
 ## Namespace platform
 

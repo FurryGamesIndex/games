@@ -1225,7 +1225,6 @@ ja-unofficial:
     en: 'Japanese supporting provided by unoffical source'
     zh-cn: '游戏有非官方日语版本'
 
-
 ko:
   namespaces: [ lang ]
   explanation:
@@ -1243,7 +1242,6 @@ no:
   explanation:
     en: 'Norwegian supporting provided by offical author'
     zh-cn: '游戏有官方挪威语版本'
-    
 
 pl:
   namespaces: [ lang ]
@@ -1286,7 +1284,6 @@ zh-unofficial:
   explanation:
     en: 'Chinese supporting provided by unoffical source'
     zh-cn: '游戏有非官方中文版本'
-
 
 ###################################################
 ###################################################
