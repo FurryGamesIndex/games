@@ -1237,7 +1237,7 @@ nl:
     en: 'Dutch supporting provided by offical author'
     zh-cn: '游戏有官方荷兰语版本'
     
-"no":
+no:
   namespaces: [ lang ]
   explanation:
     en: 'Norwegian supporting provided by offical author'
