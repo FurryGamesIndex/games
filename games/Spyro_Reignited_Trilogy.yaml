@@ -53,8 +53,8 @@ tags:
     - steam
     - microsoft-store
     - playstation-store
-    # - nintendo-e-shop
-    - e-shop
+    - nintendo-e-shop
+    # - e-shop
   platform:
     - windows
     - xbox-one
