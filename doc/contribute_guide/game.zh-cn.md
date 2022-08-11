@@ -486,7 +486,7 @@ screenshots:
     uri: https://images2.imgbox.com/b8/39/pyHagTIF_o.jpg
 ```
 
-- 常规图片，直接填写一个 URI字符串引用图片
+- 常规图片，直接填写一个 URI 字符串引用图片
 - 敏感图片，应设置 `sensitive: true` ，并使用 `uri` 属性引用图片
 
 > 很多图床（如 imgur）不允许上传敏感内容，请勿使用这些图床托管敏感内容图片。
