@@ -92,17 +92,6 @@ preferences_steam_widget_tip: If possible, the Steam Store Widget will be displa
 rss_desc: RSS Feed will push the 50 most recent game entries added to FGI in chronological order.
 
 stock-link-website: Official Website
-stock-link-twitter: Official Twitter
-stock-link-furaffinity: Official FurAffinity
-stock-link-deviantart: Official DeviantART
-stock-link-patreon: Patreon
-stock-link-weibo: Official Weibo
-stock-link-tumblr: Official Tumblr
-stock-link-pixiv: Official Pixiv
-stock-link-discord: Official Discord
-stock-link-youtube: Official YouTube
-stock-link-facebook: Official Facebook
-
 stock-link-release-page: Release page
 stock-link-play-on-web: Play on Web
 stock-link-steam: Get on Steam
@@ -117,7 +106,16 @@ stock-link-nintendo-e-shop: Get on Nintendo eShop
 stock-link-playstation-store: Get on PlayStation Store
 stock-link-gog.com: Get on GOG.com
 stock-link-microsoft-store: Get on Microsoft Store
-
+stock-link-twitter: Official Twitter
+stock-link-furaffinity: Official FurAffinity
+stock-link-deviantart: Official DeviantART
+stock-link-patreon: Patreon
+stock-link-weibo: Official Weibo
+stock-link-tumblr: Official Tumblr
+stock-link-pixiv: Official Pixiv
+stock-link-discord: Official Discord
+stock-link-youtube: Official YouTube
+stock-link-facebook: Official Facebook
 stock-link-unofficial-patch-en: Unofficial English patch
 stock-link-unofficial-version-en: Unofficial English version
 stock-link-unofficial-patch-zh: Unofficial Chinese patch
