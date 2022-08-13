@@ -24,12 +24,10 @@ description: |+
   mostly made up of cats and a handful of humans.
 
 authors:
-- name:
-  - Annapurna Interactive
+- name: Annapurna Interactive
   role:
   - producer
-- name:
-  - BlueTwelve Studio
+- name: BlueTwelve Studio
   role:
   - publisher
 tags:
