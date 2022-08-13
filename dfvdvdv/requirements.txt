@@ -1,0 +1,6 @@
+beautifulsoup4==4.11.1
+html2text==2020.1.16
+langcodes==3.3.0
+PyGithub==1.55
+requests==2.25.1
+ruamel.base==1.0.0
