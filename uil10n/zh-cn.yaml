@@ -91,6 +91,16 @@ preferences_steam_widget_tip: 如果可能的话，将在游戏页面上显示 S
 rss_desc: RSS Feed 将以时间顺序推送最近添加到 FGI 的 50 个游戏条目。
 
 stock-link-website: 官方网站
+stock-link-twitter: 官方 Twitter
+stock-link-furaffinity: 官方 FurAffinity
+stock-link-deviantart: 官方 DeviantART
+stock-link-weibo: 官方微博
+stock-link-tumblr: 官方 Tumblr
+stock-link-pixiv: 官方 Pixiv
+stock-link-discord: 官方 Discord
+stock-link-youtube: 官方 YouTube
+stock-link-facebook: 官方 Facebook
+
 stock-link-release-page: 发布页面
 stock-link-play-on-web: 在 Web 浏览器中游玩
 stock-link-steam: 在 Steam 上获取
@@ -103,16 +113,9 @@ stock-link-play-store: 在 Google Play 上获取
 stock-link-apple-appstore: 在 App Store 上获取
 stock-link-nintendo-e-shop: 在 Nintendo eShop 上获取
 stock-link-gog.com: 在 GOG.com 上获取
+stock-link-playstation-store: 在 PlayStation Store 上获取
 stock-link-microsoft-store: 在 Microsoft Store 上获取
-stock-link-twitter: 官方 Twitter
-stock-link-furaffinity: 官方 FurAffinity
-stock-link-deviantart: 官方 DeviantART
-stock-link-weibo: 官方微博
-stock-link-tumblr: 官方 Tumblr
-stock-link-pixiv: 官方 Pixiv
-stock-link-discord: 官方 Discord
-stock-link-youtube: 官方 YouTube
-stock-link-facebook: 官方 Facebook
+
 stock-link-unofficial-patch-zh: 非官方中文补丁
 stock-link-unofficial-version-zh: 非官方中文版本
 stock-link-demo-version: 获取演示版本
