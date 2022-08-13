@@ -1,7 +1,8 @@
 name: Stray
 brief-description: Lost, alone and separated from family, a stray cat must untangle
   an ancient mystery to escape a long-forgotten cybercity and find their way home.
-description: |+
+description: |
+
   ## About This Game
 
   Lost, alone and separated from family, a stray cat must untangle an ancient
@@ -31,19 +32,10 @@ authors:
   role:
   - publisher
 tags:
-  type:
-    - visual-novel
-    - bara
-  species:
-    - dog
-    - cat
-    - deer
-  fetish:
-    - males-only
-  misc:
-    - freeware
-    - work-in-process
-    - engine-renpy
+  type: null
+  species:null
+  fetish: null
+  misc: null
   lang:
   - ja
   - ru
