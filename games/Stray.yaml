@@ -32,10 +32,10 @@ authors:
   role:
   - publisher
 tags:
-  type: null
-  species: null
-  fetish: null
-  misc: null
+  type: []
+  species: []
+  fetish: []
+  misc: []
   lang:
   - ja
   - ru
