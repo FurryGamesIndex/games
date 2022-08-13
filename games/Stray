@@ -25,33 +25,27 @@ description: |+
 
 authors:
 - name:
-  - BlueTwelve Studio
   - Annapurna Interactive
   role:
   - producer
+- name:
+  - BlueTwelve Studio
+  role:
   - publisher
 tags:
-  tag:
-  - Cats
-  - Adventure
-  - Cyberpunk
-  - Cute
-  - Atmospheric
-  - Exploration
-  - Singleplayer
-  - Robots
-  - Third Person
-  - Beautiful
-  - Horror
-  - Sci-fi
-  - Puzzle
-  - Indie
-  - 'Dystopian '
-  - Mystery
-  - Open World
-  - Colorful
-  - Stealth
-  - Action
+  type:
+    - visual-novel
+    - bara
+  species:
+    - dog
+    - cat
+    - deer
+  fetish:
+    - males-only
+  misc:
+    - freeware
+    - work-in-process
+    - engine-renpy
   lang:
   - ja
   - ru
@@ -70,7 +64,7 @@ tags:
   platform: []
   sys: []
 links: []
-thumbnail: https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/header.jpg
+thumbnail: thumbnail.jpg
 screenshots:
 - type: video
   src:
