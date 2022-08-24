@@ -1,18 +1,16 @@
 name: Gunfire Reborn
 
 brief-description: |
-  Gunfire Reborn is an adventure level-based game featured with FPS, Roguelite and RPG. Players can control heros with various abilities to experience diverse Build gameplay, use randomly dropped weapons to explore random levels. This game can be played by single player, or Co-op up to four.
+  Gunfire Reborn is a level-based adventure game featuring FPS, Roguelite and RPG. Players can control heroes with various abilities to experience diverse Build gameplay, use various weapons to explore procedurally-generated levels. You can play the game alone, or join 4-player coop.
 
 description: |
-  Gunfire Reborn is an adventure level-based game featuring FPS, roguelite, and RPG elements. Players can control unique heroes—each with different abilities—as they adventure through random levels and pick up randomly dropped weapons. You can play Gunfire Reborn alone or cooperatively with up to three other players (4-player co-op).
-  
-  Every level is random; each new restart is a brand-new experience. You will meet different heroes and experience new weapons, items, checkpoints, and unique combat rhythms across the game’s many levels.
-  
-  Gunfire Reborn is still in Early Access. We will gradually fix bugs, add more content, and come up with new gameplay ideas. Thank you for your support! We will try our best to optimize our game to deliver a premium experience you can’t wait to return to.
+  Gunfire Reborn is an adventure level-based game featuring FPS, roguelite, and RPG elements. Players can control unique heroes—each with different abilities—as they adventure through procedurally-generated levels and pick up randomly-dropped weapons. You can play Gunfire Reborn alone or cooperatively with up to three other players (4-player co-op).
 
-  ##Game Features:
+  Every level is random; each new restart is a brand-new experience. You will meet different heroes and experience new weapons, items, checkpoints, and unique combat rhythms throughout the game.
 
-  - FPS+Roguelite+RPG combined gameplay, construct diverse Build through death cycle for differnt experience
+  ## Game Features:
+
+  - FPS+Roguelite+RPG combined gameplay, construct diverse Build through death cycle for different experience
   - Elaborate, yet randomized stage experience
   - Over 100 different items and various weapons
   - Many heroes and multiple game plus with different game mechanism
@@ -31,35 +29,47 @@ tags:
     - roguelike
   species:
     - cat
-    - bear
-    - fox
     - bird
     - tiger
-    - lung
-    - lizard
-    - mixed
-    - non-anthro
-    - humankind
+    - rabbit
+    - hedgehog 
+    - fox
+    - monkey
   misc:
     - 3d
-    - online
-    - multiplayer
-    - work-in-process
+    - co-op
     - outside-furry-fandom
   lang:
     - en
-    - ja
     - zh
+    - ja
+    - es
+    - de
+    - ru
+    - pt
+    - ko
+    - fo
+    - it
+    - tr
+    - pl
   publish:
     - steam
+    - google-play
+    - apple-appstore
   platform:
     - windows
+    - android
+    - ios
 
 links:
   - name: .steam
     uri: steam:1217060
   - name: .twitter
     uri: twitter:GunfireReborn
+  - name: .apple-appstore
+    uri: https://apps.apple.com/app/gunfire-reborn/id1606703078
+  - name: .play-store
+    uri: google-play-store:com.duoyihk.m2m1
   - name: Release page for China
     uri: https://qh.duoyi.com/
 
@@ -71,4 +81,3 @@ screenshots:
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/ss_1d6e5fd145fbd5888af8724f6e44ca929340d1ea.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/ss_4fd4c15626a3987b4079e2e25a6f04bd6c899621.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1217060/ss_5dd1fac4e0055a410bfb166da83b9eab171808c8.1920x1080.jpg
-
