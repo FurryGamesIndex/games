@@ -34,13 +34,11 @@ description: |
 
 description-format: markdown
 
-sys: tagme
-
 authors:
   - name: Carrot
-    role: [ producer, artist, animation, producer, screenwriter, programmer, screenwriter, musician, others ]
+    role: [ producer, artist, animation, screenwriter, programmer, musician, others ]
   - name: Vixel
-    role: [ producer, producer, screenwriter, programmer, screenwriter ]
+    role: [ producer, screenwriter, programmer ]
   - name: Soul of Luca
     standalone: true
     avatar: Luca.png
@@ -86,6 +84,8 @@ tags:
     - windows
     - linux
     - macos
+  sys:
+    - tagme
 
 links:
   - name: .itch.io
