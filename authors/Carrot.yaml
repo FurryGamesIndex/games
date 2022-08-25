@@ -1,0 +1,15 @@
+name: Carrot
+
+type: personal
+
+avatar: Carrot.png
+
+links:
+  - name: .furaffinity
+    uri: furaffinity:carrot
+  - name: .patreon
+    uri: patreon:CarrotsCritters
+  - name: .youtube
+    uri: https://www.youtube.com/carrottalks
+  - name: .twitter
+    uri: twitter:CarrotsCritters

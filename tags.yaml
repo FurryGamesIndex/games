@@ -458,6 +458,12 @@ wolf:
     en: 'Main characters include wolf furries'
     zh-cn: '主要角色包括狼兽人'
 
+coyote:
+  namespaces: [ species ]
+  explanation:
+    en: 'Main characters include coyote furries'
+    zh-cn: '主要角色包括郊狼兽人'
+
 fox:
   namespaces: [ species ]
   explanation:

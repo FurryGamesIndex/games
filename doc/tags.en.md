@@ -105,6 +105,8 @@ The following are automatic tags, they are no different from other tags when you
     - This tag implicate (depend on) these tags: `canine`
 - `wolf` Main characters include wolf furries
     - This tag implicate (depend on) these tags: `canine`
+- `coyote` Main characters include coyote furries
+    - This tag implicate (depend on) these tags: `canine`
 - `fox` Main characters include fox furries
     - This tag implicate (depend on) these tags: `canine`
 - `raccoon-dog` Main characters include raccoon furries
