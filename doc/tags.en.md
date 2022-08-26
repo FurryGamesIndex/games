@@ -27,7 +27,7 @@ Used to describe the type of game
 - `bara` Contains a lot of things of gay
 - `yuri` Contains a lot of things of lesbian
 - `yiff` Contains adult contents. Pages that contain this tag will display a sensitive content warning message.
-- `gore` Contains grotesque contents. Pages that contain this tag will display a sensitive content warning message.
+- `gore` Contains gore contents. Pages that contain this tag will display a sensitive content warning message.
 - `comedy` STUB
 - `tragedy` STUB
 - `horror` STUB
