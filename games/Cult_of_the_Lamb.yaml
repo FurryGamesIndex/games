@@ -2,25 +2,16 @@ name: Cult of the Lamb
 brief-description: "Start your own cult in a land of false prophets, venturing out\
   \ into diverse and mysterious regions to build a loyal community of woodland Followers\
   \ and spread your Word to become the one true cult.\n"
-description: |+
-  ## Reviews
+description: |
+ Cult of the Lamb casts players in the role of a possessed lamb saved from annihilation by an ominous stranger, and must repay their debt by building a loyal following in his name. Start your own cult in a land of false prophets, venturing out into diverse and mysterious regions to build a loyal community of woodland Followers and spread your Word to become the one true cult.
+ ## BUILD YOUR FLOCK
+ Collect and use resources to build new structures, perform dark rituals to appease the gods, and give sermons to reinforce the faith of your flock.
 
-  “Cult of the Lamb sinks its claws into you.”  
-  10/10 – [The
-  Gamer](https://steamcommunity.com/linkfilter/?url=https://www.thegamer.com/cult-
-  of-the-lamb-review/)  
-    
-  “A top-tier example of what a roguelike can be when combined with a colony
-  sim, Cult of the Lamb is pure addiction.”  
-  9/10 –
-  [GamingTrend](https://steamcommunity.com/linkfilter/?url=https://gamingtrend.com/feature/reviews/cult-
-  of-the-lamb-review-cuteness-cullings-and-culty-conversions/)  
-    
-  “A Cult Classic”  
-  9/10 –
-  [GameSpot](https://steamcommunity.com/linkfilter/?url=https://www.gamespot.com/reviews/cult-
-  of-the-lamb-review-a-cult-classic/1900-6417933/)  
+ ## DESTROY THE NON-BELIEVERS
+ Explore a sprawling, randomly generated world, fight off hordes of enemies and defeat rival cult leaders in order to absorb their power and assert your cult's dominance.
 
+ ## SPREAD YOUR WORD
+ Train your flock and embark on a quest to explore and discover the secrets of four mysterious regions. Cleanse the non-believers, spread enlightenment, and perform mystical rituals on the journey to become the mighty lamb god.
 authors:
 - name: Massive Monster
   role:
@@ -34,9 +25,19 @@ tags:
   - action
   - strategy
   - roguelike
-  species: []
-  fetish: []
-  misc: []
+  - gore
+  species:
+  - feline
+  - canine
+  - non-anthro
+  - bull
+  - cow
+  - sheep
+  - deer
+  - bird
+  - beaver
+  misc: 
+  - 3d
   lang:
   - pt
   - es
@@ -47,8 +48,13 @@ tags:
   - ja
   - ru
   - fr
-  publish: []
-  platform: []
+  publish:
+  - steam
+  platform:
+  - windows
+  - macos
+  sys:
+  - staging
 links:
 - name: .steam
   uri: steam:1313140
