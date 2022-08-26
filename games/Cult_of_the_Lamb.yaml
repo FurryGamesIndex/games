@@ -31,14 +31,39 @@ authors:
   - producer
 tags:
   type:
-  - action
-  - roguelike
-  - action
-  - adventure
-  - strategy
-  species: []
-  fetish: []
-  misc: []
+   - action
+   - roguelike
+   - action
+   - adventure
+   - strategy
+  species:
+    - dragon
+    - bull
+    - bear
+    - lion
+    - wolf
+    - lizard
+    - crocodile
+    - lizard
+  fetish:
+    - males-only
+    - muscle
+    - transform
+    - anal
+    - blowjob
+    - masturbation
+    - handjob
+  misc:
+    - freeware
+    - uncensored
+    - work-in-process
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
   lang:
   - en
   - zh
@@ -49,8 +74,6 @@ tags:
   - ru
   - pt
   - de
-  publish: []
-  platform: []
 links:
 - name: .steam
   uri: steam:1313140
