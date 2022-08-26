@@ -1,0 +1,99 @@
+name: Stray
+brief-description: Lost, alone and separated from family, a stray cat must untangle
+  an ancient mystery to escape a long-forgotten cybercity and find their way home.
+description: |+
+  ## Reviews
+
+  “By placing this magnetic yet unknowable creature of nature into a tightly
+  controlled, man-made science-fiction dystopia, Stray highlights something that
+  any cat person already knows: you can never really tame a cat. There’s always
+  something a little wild about them, and they bring that wildness wherever they
+  go.”  
+  10/10 – [The
+  Guardian](https://steamcommunity.com/linkfilter/?url=https://www.theguardian.com/games/2022/jul/18/stray-
+  review-press-paws-for-adorable-life-as-a-post-apocalypse-pussycat)  
+    
+  “A touching tale on the importance of pets, hope, and friendship”  
+  10/10 –
+  [VG247](https://steamcommunity.com/linkfilter/?url=https://www.vg247.com/stray-
+  review)  
+    
+  “It's a consistently satisfying adventure with a charming story about
+  companionship that rarely misses a beat across its well-paced runtime.”  
+  9/10 –
+  [GameSpot](https://steamcommunity.com/linkfilter/?url=https://www.gamespot.com/amp-
+  reviews/stray-review-nine-lives/1900-6417917/)  
+
+authors:
+- name: BlueTwelve Studio
+  role:
+  - publisher
+- name: Annapurna Interactive
+  role:
+  - producer
+tags:
+  type: []
+  species: []
+  fetish: []
+  misc: []
+  lang:
+  - it
+  - es
+  - de
+  - en
+  - pl
+  - pt
+  - nl
+  - ko
+  - tr
+  - zh
+  - fr
+  - ru
+  - ja
+  publish: []
+  platform: []
+  sys:
+  - automatically-generated
+links:
+thumbnail: thumbnail.jpg
+screenshots:
+- type: video
+  src:
+  - mime: video/webm
+    sensitive: false
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256896952/movie480_vp9.webm
+  - mime: video/mp4
+    sensitive: false
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256896952/movie480.mp4
+- type: video
+  src:
+  - mime: video/webm
+    sensitive: false
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256844882/movie480_vp9.webm
+  - mime: video/mp4
+    sensitive: false
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256844882/movie480.mp4
+- type: video
+  src:
+  - mime: video/webm
+    sensitive: false
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256786641/movie480_vp9.webm
+  - mime: video/mp4
+    sensitive: false
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256786641/movie480.mp4
+- type: video
+  src:
+  - mime: video/webm
+    sensitive: false
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256889643/movie480_vp9.webm
+  - mime: video/mp4
+    sensitive: false
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256889643/movie480.mp4
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/ss_88e209a90c2039fa76bca6fa08c641365be38d50.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/ss_e8f0cbd5efdba352e89c4cfcee3fe991a1e1be8a.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/ss_2221af260c64362fdc835a9dca65f6f1d1192b25.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/ss_3fdd04a5418293864bf82d33c75f833121e63804.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/ss_90f8a99d0d1454bc77f46542f00f9ae5043c4268.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/ss_a697971e484b3deef50153a13f2afd0539347d23.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/ss_f6f6ba009971ff21867d5d8f96a3feb503f787b8.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1332010/ss_95ead64e0d31147f47f27ce828e8d5f52939dcf6.1920x1080.jpg
