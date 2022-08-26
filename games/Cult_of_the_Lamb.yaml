@@ -4,14 +4,19 @@ brief-description: "Start your own cult in a land of false prophets, venturing o
   \ and spread your Word to become the one true cult.\n"
 description: |
  Cult of the Lamb casts players in the role of a possessed lamb saved from annihilation by an ominous stranger, and must repay their debt by building a loyal following in his name. Start your own cult in a land of false prophets, venturing out into diverse and mysterious regions to build a loyal community of woodland Followers and spread your Word to become the one true cult.
+ 
  ## BUILD YOUR FLOCK
+ 
  Collect and use resources to build new structures, perform dark rituals to appease the gods, and give sermons to reinforce the faith of your flock.
 
  ## DESTROY THE NON-BELIEVERS
+ 
  Explore a sprawling, randomly generated world, fight off hordes of enemies and defeat rival cult leaders in order to absorb their power and assert your cult's dominance.
 
  ## SPREAD YOUR WORD
+ 
  Train your flock and embark on a quest to explore and discover the secrets of four mysterious regions. Cleanse the non-believers, spread enlightenment, and perform mystical rituals on the journey to become the mighty lamb god.
+description-format: markdown
 authors:
 - name: Massive Monster
   role:
