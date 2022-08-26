@@ -144,8 +144,8 @@ yiff:
 gore:
   namespaces: [ type ]
   explanation:
-    en: 'Contains grotesque contents. Pages that contain this tag will display a sensitive content warning message.'
-    zh-cn: '包含怪诞内容的作品。包含此标签的页面将显示敏感内容警告信息。'
+    en: 'Contains gore contents. Pages that contain this tag will display a sensitive content warning message.'
+    zh-cn: '包含血腥内容的作品。包含此标签的页面将显示敏感内容警告信息。'
 
 comedy:
   namespaces: [ type ]

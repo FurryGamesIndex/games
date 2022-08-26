@@ -57,15 +57,37 @@ tags:
     - fr
   publish:
     - steam
+    - gog
+    - microsoft-store
+    - e-shop
+    - playstation-store
   platform:
     - windows
     - macos
+    - playstation4
+    - playstation5
+    - nintendo-switch
+    - xbox-one
+    - xbox-series-x
+    - xbox-series-s
 
 links:
+  - name: .website
+    uri: https://www.cultofthelamb.com/
   - name: .steam
     uri: steam:1313140
   - name: .twitter
     uri: twitter:devolverdigital
+  - name: .discord
+    uri: https://discord.gg/massivemonster
+  - name: .gog.com
+    uri: https://www.gog.com/en/game/cult_of_the_lamb
+  - name: .microsoft-store
+    uri: https://www.xbox.com/en-US/games/store/cult-of-the-lamb/9PNLPMP1GGH5
+  - name: .playstation-store
+    uri: https://store.playstation.com/product/EP3643-PPSA06465_00-3571249245584917
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/cult-of-the-lamb-switch/
 
 thumbnail: thumbnail.jpg
 
