@@ -1,0 +1,83 @@
+name: Cult of the Lamb
+brief-description: Start your own cult in a land of false prophets, venturing out
+  into diverse and mysterious regions to build a loyal community of woodland Followers
+  and spread your Word to become the one true cult.
+description: |+
+  ## Reviews
+
+  “Cult of the Lamb sinks its claws into you.”  
+  10/10 – [The
+  Gamer](https://steamcommunity.com/linkfilter/?url=https://www.thegamer.com/cult-
+  of-the-lamb-review/)  
+    
+  “A top-tier example of what a roguelike can be when combined with a colony
+  sim, Cult of the Lamb is pure addiction.”  
+  9/10 –
+  [GamingTrend](https://steamcommunity.com/linkfilter/?url=https://gamingtrend.com/feature/reviews/cult-
+  of-the-lamb-review-cuteness-cullings-and-culty-conversions/)  
+    
+  “A Cult Classic”  
+  9/10 –
+  [GameSpot](https://steamcommunity.com/linkfilter/?url=https://www.gamespot.com/reviews/cult-
+  of-the-lamb-review-a-cult-classic/1900-6417933/)  
+
+authors:
+- name: Massive Monster
+  role:
+  - publisher
+- name: Devolver Digital
+  role:
+  - producer
+tags:
+  type: []
+  species: []
+  fetish: []
+  misc: []
+  lang:
+  - pt
+  - ja
+  - ru
+  - en
+  - fr
+  - ko
+  - zh
+  - de
+  - es
+  publish: []
+  platform: []
+  sys:
+  - automatically-generated
+links:
+- name: .steam
+  uri: steam:1313140
+- name: Twitter
+  icon: twitter
+  uri: twitter:devolverdigital
+thumbnail: thumbnail.jpg
+screenshots:
+- type: video
+  src:
+  - mime: video/webm
+    sensitive: true
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256900500/movie480_vp9.webm
+  - mime: video/mp4
+    sensitive: true
+    uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256900500/movie480.mp4
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_4dd6615ae8bb346d2dda0303b84040074194e38c.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_90f238e89ab4c4500d3baee273419bd23f8e5f84.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_f4ca3fd0416c3f41c57bc3809bb45f8f20e684ec.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_1ffa960f90ddf6d19e08e1a1132f1b5d5c3984bd.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_468acea830d216876979ff7cf0443a0a226e79da.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_5b3ceefeff8c3ceb9d7ca08e82af8dd5c3ea57b1.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_5aef64a6c04e9954d6aca7232726a62f60e7736c.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_51a91a5ffeeb78935b455ce53ccf9149a913cec1.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_14a1f4ec7c9e51245f397dd2eee293174410a12b.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_608342d523c1df1f6556ade12dbb003a0af5d6db.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_5091be0f7bb00dbe49499c57535725a397a3db2d.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_214faee099ba02b146b6f5c4acd7fc91454b86dd.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_8fc88da10fb8862f0e9b962552b265652828348f.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_fb882bcb70ed1563f7f2d963786329e0abbde85e.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_bb7f191e7d5c2fb09ad02a1694ee61dfe110dc2f.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_fcf7cb3e2b3c1a7bbc2b57f8a9e628ebc0bac5f5.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_3ace1b2f742ae552ea3b44784ff64c5bad987de5.1920x1080.jpg
+- https://cdn.cloudflare.steamstatic.com/steam/apps/1313140/ss_2490b41f50ccd83642942c0e51e28325d804a4e0.1920x1080.jpg
