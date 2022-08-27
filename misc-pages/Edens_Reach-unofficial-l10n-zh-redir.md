@@ -20,3 +20,7 @@
 GameMale 的「和谐游戏板块」：<https://www.gamemale.com/thread-84341-1-1.html>
 
 _要访问此帖子，您可能需要注册 GameMale 账号，并且需要将您的 GameMale 账号的用户组提升到 Level 2 或者更高_
+
+Telegram 频道： <https://t.me/indigo_mount>
+
+_要访问此频道，您可能需要安装 Telegram_
