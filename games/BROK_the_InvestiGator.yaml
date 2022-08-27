@@ -114,7 +114,6 @@ tags:
     - mouse
     - bird
   misc:
-    - work-in-process
     - full-audio
   lang:
     - de
@@ -142,6 +141,14 @@ tags:
 links:
   - name: .website
     uri: https://www.brokgame.com/
+  - name: .steam
+    uri: steam:949480
+  - name: .gog.com
+    uri: https://www.gog.com/game/brok_the_investigator
+  - name: .demo-version-steam
+    uri: steam:1318790
+  - name: .demo-version-gog.com
+    uri: https://www.gog.com/game/brok_the_investigator_prologue
   - name: .twitter
     uri: twitter:COWCATGames
   - name: .facebook
@@ -152,14 +159,6 @@ links:
     uri: discord:WRaJAk5
   - name: Twitch
     uri: https://www.twitch.tv/cowcatgames/
-  - name: .demo-version-steam
-    uri: steam:1318790
-  - name: .demo-version-gog.com
-    uri: https://www.gog.com/game/brok_the_investigator_prologue
-  - name: .steam
-    uri: steam:1735700
-  - name: .gog.com
-    uri: https://www.gog.com/game/brok_the_investigator
 
 thumbnail: thumbnail.jpg
 
