@@ -1,14 +1,13 @@
 name: Endling - Extinction is Forever
-brief-description: As the last mother fox on Earth, your cubs need all your care to
+brief-description: |
+  As the last mother fox on Earth, your cubs need all your care to
   survive in a merciless world that slowly destroys itself. You have to help them,
   teach them and save them. And you should never forget that extinction is forever.
-description: |+
-  ## About This Game
-
+description: |
   ## Will a mother fox manage to keep its little cubs alive?
 
     
-  ![](https://cdn.akamai.steamstatic.com/steam/apps/898890/extras/Endling_text_description_1.gif?t=1658820680)  
+  ![null](https://cdn.akamai.steamstatic.com/steam/apps/898890/extras/Endling_text_description_1.gif?t=1658820680)  
     
    **Experience** a world ravaged by mankind through the eyes of the last fox on
   Earth in this eco-conscious adventure.  
@@ -21,13 +20,13 @@ description: |+
   feed them, watch them grow up, notice their unique personalities and fears,
   and most importantly, help them to survive.  
     
-  ![](https://cdn.akamai.steamstatic.com/steam/apps/898890/extras/Endling_text_description_2.gif?t=1658820680)  
+  ![null](https://cdn.akamai.steamstatic.com/steam/apps/898890/extras/Endling_text_description_2.gif?t=1658820680)  
     
   Use the cover of night to stealthily guide your litter towards a safer place.
   Spend the day resting in an improvised shelter and plan your next movement
   carefully since it could be the last for you and your pups.  
     
-  ![](https://cdn.akamai.steamstatic.com/steam/apps/898890/extras/Endling_text_description_3.gif?t=1658820680)
+  ![null](https://cdn.akamai.steamstatic.com/steam/apps/898890/extras/Endling_text_description_3.gif?t=1658820680)
 
   ## Features:
 
@@ -44,7 +43,7 @@ description: |+
     * Survive.
 
     
-  ![](https://cdn.akamai.steamstatic.com/steam/apps/898890/extras/Text_description_logo.png?t=1658820680)
+  ![null](https://cdn.akamai.steamstatic.com/steam/apps/898890/extras/Text_description_logo.png?t=1658820680)
 
 authors:
   - name: Herobeat Studios
@@ -56,9 +55,10 @@ authors:
 tags:
   type:
     - adventure
-  species: []
-  fetish: []
-  misc: []
+  species:
+    - fox
+  misc:
+    - 3d
   lang:
     - hu
     - no
@@ -85,8 +85,16 @@ tags:
     - pl
     - zh
     - uk
-  publish: []
-  platform: []
+  publish: 
+    - steam
+    - playstation-store
+  platform: 
+    - windows
+    - playstation4
+    - nintendo-switch
+    - xbox-one
+  sys:
+   - tagme
 links:
   - name: .steam
     uri: steam:898890
@@ -94,6 +102,10 @@ links:
     uri: twitter:HerobeatStudios
   - name: .youtube
     uri: https://www.youtube.com/channel/UCd63SUEsu_EsAzAlM8klYaw/
+  - name: .website
+    uri: https://www.handy-games.com/en/games/endling/
+  - name: .discord
+    uri: discord:handygames
 thumbnail: thumbnail.jpg
 screenshots:
   - type: video
