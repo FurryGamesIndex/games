@@ -1,0 +1,99 @@
+name: Stray
+brief-description: Lost, alone and separated from family, a stray cat must untangle
+  an ancient mystery to escape a long-forgotten cybercity and find their way home.
+description: |+
+  ## About This Game
+
+  Lost, alone and separated from family, a stray cat must untangle an ancient
+  mystery to escape a long-forgotten city.  
+    
+  Stray is a third-person cat adventure game set amidst the detailed, neon-lit
+  alleys of a decaying cybercity and the murky environments of its seedy
+  underbelly. Roam surroundings high and low, defend against unforeseen threats
+  and solve the mysteries of this unwelcoming place inhabited by curious droids
+  and dangerous creatures.  
+    
+  See the world through the eyes of a cat and interact with the environment in
+  playful ways. Be stealthy, nimble, silly, and sometimes as annoying as
+  possible with the strange inhabitants of this mysterious world.  
+    
+  Along the way, the cat befriends a small flying drone, known only as B-12.
+  With the help of this newfound companion, the duo must find a way out.  
+    
+  Stray is developed by BlueTwelve Studio, a small team from the south of France
+  mostly made up of cats and a handful of humans.
+
+authors:
+  - name: BlueTwelve Studio
+    role:
+      - publisher
+  - name: Annapurna Interactive
+    role:
+      - producer
+tags:
+  type:
+    - puzzle
+    - action
+    - adventure
+  species: []
+  fetish: []
+  misc: []
+  lang:
+    - ja
+    - tr
+    - en
+    - ru
+    - ko
+    - zh
+    - pl
+    - fr
+    - pt
+    - de
+    - es
+    - it
+    - nl
+  publish: []
+  platform: []
+links:
+thumbnail: thumbnail.jpg
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        sensitive: false
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256896952/movie480_vp9.webm
+      - mime: video/mp4
+        sensitive: false
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256896952/movie480.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        sensitive: false
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256844882/movie480_vp9.webm
+      - mime: video/mp4
+        sensitive: false
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256844882/movie480.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        sensitive: false
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256786641/movie480_vp9.webm
+      - mime: video/mp4
+        sensitive: false
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256786641/movie480.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        sensitive: false
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256889643/movie480_vp9.webm
+      - mime: video/mp4
+        sensitive: false
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256889643/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1332010/ss_88e209a90c2039fa76bca6fa08c641365be38d50.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1332010/ss_e8f0cbd5efdba352e89c4cfcee3fe991a1e1be8a.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1332010/ss_2221af260c64362fdc835a9dca65f6f1d1192b25.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1332010/ss_3fdd04a5418293864bf82d33c75f833121e63804.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1332010/ss_90f8a99d0d1454bc77f46542f00f9ae5043c4268.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1332010/ss_a697971e484b3deef50153a13f2afd0539347d23.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1332010/ss_f6f6ba009971ff21867d5d8f96a3feb503f787b8.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1332010/ss_95ead64e0d31147f47f27ce828e8d5f52939dcf6.1920x1080.jpg
