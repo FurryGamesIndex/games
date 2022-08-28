@@ -1,9 +1,8 @@
 name: Stray
-brief-description: Lost, alone and separated from family, a stray cat must untangle
+brief-description: |
+  Lost, alone and separated from family, a stray cat must untangle
   an ancient mystery to escape a long-forgotten cybercity and find their way home.
-description: |+
-  ## About This Game
-
+description: |
   Lost, alone and separated from family, a stray cat must untangle an ancient
   mystery to escape a long-forgotten city.  
     
@@ -35,9 +34,13 @@ tags:
     - puzzle
     - action
     - adventure
-  species: []
+  species: 
+    - cat
+    - non-anthro
   fetish: []
-  misc: []
+  misc: 
+    - 3d
+    - outside-furry-fandom
   lang:
     - ja
     - tr
@@ -52,9 +55,18 @@ tags:
     - es
     - it
     - nl
-  publish: []
-  platform: []
+  publish: 
+    - steam
+    - playstation-store
+  platform: 
+    - windows
+    - playstation4
+    - playstation5
 links:
+  - name: .steam
+    uri: steam:1332010
+  - name: .website
+    uri: https://stray.game/
 thumbnail: thumbnail.jpg
 screenshots:
   - type: video
