@@ -67,6 +67,8 @@ links:
     uri: steam:1332010
   - name: .website
     uri: https://stray.game/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP2470-PPSA02100_00-STRAYSIEA0000000
 thumbnail: thumbnail.jpg
 screenshots:
   - type: video
