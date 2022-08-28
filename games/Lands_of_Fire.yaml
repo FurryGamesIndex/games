@@ -8,21 +8,22 @@ description: |
 
   Kubbadang, a Yuin thylacine, is tasked by his elders to bring warriors from Budj Bim in order to fight off the hordes of monsters sent by the Sun Woman, who seeks to devour all of humanity. Along for the ride are his sister Guddity, his childhood friends Winyu (a rakali) and Dhurra (a platypus), the Gamilaraay warrior Bangalaa (a sea eagle), the Arrernte kurdaitcha Perrurle (a kangaroo) and the mysterious medicine woman Bina (a goanna).
 
-description-format: markdown
-
 authors:
   - name: mullerornis
     role: [ producer ]
-  - name: Saintbull
-    role: [ artist ]
-  - name: Jasper
-    role: [ artist ]
   - name: Oriont
     role: [ artist ]
 
 tags:
   type:
     - visual-novel
+    - bara
+    - yiff
+    - gore
+  species: 
+    - eagle
+    - kangaroo
+    - lizard
   misc:
     - freeware
     - engine-renpy
@@ -36,7 +37,7 @@ tags:
     - linux
     - android
   sys:
-    - staging
+    - tagme
 
 links:
   - name: .itch.io
