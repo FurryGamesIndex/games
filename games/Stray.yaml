@@ -22,10 +22,10 @@ description-format: markdown
 authors:
   - name: BlueTwelve Studio
     role:
-      - publisher
+      - producer
   - name: Annapurna Interactive
     role:
-      - producer
+      - publisher
 
 tags:
   type:
