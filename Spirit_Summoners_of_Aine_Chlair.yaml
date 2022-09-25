@@ -48,7 +48,7 @@ links:
   - name: patreon
     uri: patreon:ghostiespectie
 
-thumbnail: thumbnail.png
+thumbnail: https://raw.githubusercontent.com/GhostieSpectie/games/c0f184fa21b39331e456a4225d8cfd0ed5978b35/thumbnail.png
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvMTIzMDE0NS83NzUzMDMwLnBuZw==/original/L2uHKA.png
