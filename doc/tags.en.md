@@ -14,6 +14,7 @@ Used to describe the type of game
 - `adventure` This game is an adventure game
 - `board` This game is a board game
 - `action` This game is a action game
+- `fantasy` This game is a fantasy game
 - `fighting` This game is a fighting game
 - `music` This game is a music game
 - `shooter` This game is a shooter game
@@ -80,6 +81,7 @@ The following are automatic tags, they are no different from other tags when you
 - `beaver` Main characters include beaver furries
 - `rhino` Main characters include rhino furries
 - `panda` Main characters include panda furries
+- `orca` Main characters include orca furries
 
 ### Biological species: Felidae
 

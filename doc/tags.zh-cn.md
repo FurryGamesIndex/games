@@ -14,6 +14,7 @@
 - `adventure` 冒险游戏
 - `board` 棋牌游戏
 - `action` 动作游戏
+- `fantasy` 奇幻游戏
 - `fighting` 格斗游戏
 - `music` 音乐游戏
 - `shooter` 射击游戏
@@ -80,6 +81,7 @@
 - `beaver` 主要角色包括河狸兽人
 - `rhino` 主要角色包括犀牛兽人
 - `panda` 主要角色包括大熊貓兽人
+- `orca` 主要角色包括虎鲸兽人
 
 ### 物种：猫科
 
