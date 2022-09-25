@@ -395,6 +395,12 @@ eagle:
     en: 'Main characters include eagle furries'
     zh-cn: '主要角色包括鹰兽人'
 
+orca:
+  namespaces: [ species ]
+  explanation:
+    en: 'Main characters include orca furries'
+    zh-cn: '主要角色包括虎鲸兽人'
+
 ###################################################
 
 '@class:species/felidae':

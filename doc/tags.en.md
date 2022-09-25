@@ -81,6 +81,7 @@ The following are automatic tags, they are no different from other tags when you
 - `beaver` Main characters include beaver furries
 - `rhino` Main characters include rhino furries
 - `panda` Main characters include panda furries
+- `orca` Main characters include orca furries
 
 ### Biological species: Felidae
 
