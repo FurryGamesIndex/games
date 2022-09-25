@@ -14,6 +14,7 @@
 - `adventure` 冒险游戏
 - `board` 棋牌游戏
 - `action` 动作游戏
+- `fantasy` 奇幻游戏
 - `fighting` 格斗游戏
 - `music` 音乐游戏
 - `shooter` 射击游戏

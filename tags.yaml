@@ -61,6 +61,12 @@ action:
     en: 'This game is a action game'
     zh-cn: '动作游戏'
 
+fantasy:
+  namespaces: [ type ]
+  explanation:
+    en: 'This game is a fantasy game'
+    zh-cn: '奇幻游戏'
+
 fighting:
   namespaces: [ type ]
   explanation:

@@ -14,6 +14,7 @@ Used to describe the type of game
 - `adventure` This game is an adventure game
 - `board` This game is a board game
 - `action` This game is a action game
+- `fantasy` This game is a fantasy game
 - `fighting` This game is a fighting game
 - `music` This game is a music game
 - `shooter` This game is a shooter game
