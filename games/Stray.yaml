@@ -1,6 +1,6 @@
 name: Stray
 
-brief-description: |-
+brief-description: |
   Lost, alone and separated from family, a stray cat must untangle an ancient mystery to escape a long-forgotten cybercity and find their way home.
 
 description: |
@@ -21,11 +21,9 @@ description-format: markdown
 
 authors:
   - name: BlueTwelve Studio
-    role:
-      - producer
+    role: [producer]
   - name: Annapurna Interactive
-    role:
-      - publisher
+    role: [publisher]
 
 tags:
   type:
