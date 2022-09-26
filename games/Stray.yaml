@@ -21,9 +21,9 @@ description-format: markdown
 
 authors:
   - name: BlueTwelve Studio
-    role: [producer]
+    role: [ producer ]
   - name: Annapurna Interactive
-    role: [publisher]
+    role: [ publisher ]
 
 tags:
   type:
