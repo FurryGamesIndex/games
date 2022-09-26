@@ -1,0 +1,85 @@
+name: Beacon Pines
+
+brief-description: |-
+  Beacon Pines is a cute and creepy adventure set within a mysterious book. Sneak out late, make new friends, uncover hidden truths, and collect words that will change the course of fate!
+
+description: |
+  ## About This Game
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/wishlist_follow_anim_banner_4.gif?t=1664054293)  
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/Book_Zoom_Crop.gif?t=1664054293)  
+
+  Beacon Pines is a cute and creepy adventure set within a mysterious book. You play as both the reader of the book and its main character, Luka.   
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/uncover-the-truth.gif?t=1664054293)  
+
+  Something strange is happening at the old warehouse, and Luka and his friends seem to be the only ones taking notice. Sneak out late, make new friends, uncover hidden truths, and collect words that will change the course of fate!   
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/use_charms.png?t=1664054293)  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/Charm_Select_optimized.gif?t=1664054293)  
+
+  While helping Luka investigate the strange goings-on in Beacon Pines, you’ll collect special golden charms, each with a word engraved on it. These charms can be used at certain turning points in the story to fill in a blank word and drastically change everything that follows.  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/discover_different_story_paths.png?t=1664054293)  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/chronicle_optimized.gif?t=1664054293)  
+
+  As the book's reader, you’ll navigate the story’s turning points using The Chronicle: an interactive story tree that branches and grows along with your choices. Exploring one set of events can unlock new charms to use on another branch, leading you to jump back and forth between entirely different versions of the story in order to unravel the mysteries at the heart of Beacon Pines.  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/DIVIDER_BOOK_steam.png?t=1664054293)  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/wishlist_today.gif?t=1664054293)  
+  <https://store.steampowered.com/app/1269640/Beacon_Pines/>  
+
+  [![img](https://cdn.akamai.steamstatic.com/steam/apps/1269640/extras/discord_button_VS_2.png?t=1664054293)](https://steamcommunity.com/linkfilter/?url=https://discord.gg/K4tbFWf)
+
+description-format: markdown
+
+authors:
+  - name: Fellow Traveller
+    role:
+      - publisher
+  - name: Hiding Spot
+    role:
+      - producer
+
+tags:
+  type:
+    - casual
+    - adventure
+  species: []
+  fetish: []
+  misc: []
+  lang:
+    - en
+  publish: []
+  platform: []
+
+links:
+  - name: .steam
+    uri: steam:1269640
+  - name: .twitter
+    uri: twitter:hidingspotgames
+  - name: .youtube
+    uri: https://www.youtube.com/fellowtraveller/
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256907141/movie480_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256907141/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_8b0ec6abfacdf81910434ad550b04b61b3d51e01.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_789a4fe168565d6312d2d549807d89469b9ea3b0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_2b05a5e495446d4ade0cbb77e6218953235863c5.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_9953c22855c6c2c39fcbab1cdd383a3d2376f47f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_ce806d0edf31e0b21c6c33e3591796312be60b99.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_f98fe0d6b22d8cac3cf40119d448b6c2d54ddf6c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_25b8027d41160c59ae47b635921263c14bd6dad9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_766bd5f6797b30064939429f0bdd6cb85ba14d80.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_ece825bfaffdf699a2f72d566a4afae507c4ba3f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1269640/ss_5ca3bd5a2e838c5d94c083ba7d79ff1fa1f4cc57.1920x1080.jpg
