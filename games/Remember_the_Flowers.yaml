@@ -11,7 +11,53 @@ description: |
 
 authors:
   - name: Jericho
-    role: [ producer, screenwriter, programmer, artist, scenographer ]
+    link-uri: twitter:jerichuwu
+    role: [ producer, screenwriter ]
+  - name: Orion
+    link-uri: twitter:AluminemSiren
+    role: [ producer, programmer, artist ]
+  - name: Zhan
+    link-uri: twitter:he_is_animation
+    role: [ animation ]
+  - name: Bork
+    link-uri: twitter:BorkThunder
+    role: [ animation, artist, character-designer ]
+  - name: Wild
+    link-uri: twitter:Wildyena
+    role: [ artist, character-designer ]
+  - name: Gatsby
+    link-uri: twitter:Defiant_Drills
+    role: [ artist ]
+  - name: Pav
+    link-uri: twitter:possumpecker
+    role: [ artist, character-designer ]
+  - name: 'Gumdro Studios'
+    link-uri: twitter:Gumdrop_Studios
+    role: [ artist, scenographer ]
+  - name: Robin
+    link-uri: twitter:BigHufferPuffer
+    role: [ artist, scenographer ]
+  - name: Moos
+    link-uri: twitter:Moosopp
+    role: [ artist, character-designer ]
+  - name: Tohfu
+    link-uri: twitter:Snow_Kun
+    role: [ artist, scenographer ]
+  - name: Scone
+    link-uri: twitter:HaiScone
+    role: [ artist ]
+  - name: Moe
+    link-uri: twitter:Anthemics
+    role: [ musician ]
+  - name: 'Hop-Skip&The Chewtoys'
+    link-uri: twitter:HChewtoys
+    role: [ musician ]
+  - name: 'As Seas Exhale'
+    link-uri: twitter:HYENABLOOD
+    role: [ musician ]
+  - name: Abyuse
+    link-uri: twitter:abyuse
+    role: [ musician ]
   - name: Azzy
     standalone: true
     link-uri: twitter:Azzy_Lionblood
