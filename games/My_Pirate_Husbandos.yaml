@@ -1,0 +1,58 @@
+name: My Pirate Husbandos
+
+description: |
+  Having nearly drowned at sea you find yourself an outsider among the handsome pirate crew who rescued you. They sail by day, do depraved things at night, and you can't keep your mind from thinking about them.
+
+  Set sail into the sexy and dangerous story of My Pirate Husbandos. 
+
+authors:
+  - name: Nonohomo Circle
+    role: [ producer ]
+  - name: Renoky
+    standalone: true
+    link-uri: twitter:red_noky
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  species: 
+    - pig
+    - bear
+    - tiger
+    - shark
+  misc:
+    - freeware
+    - engine-unity
+    - work-in-process
+  lang:
+    - en
+    - zh
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://nonohomocircle.itch.io/pirahus
+  - name: .patreon
+    uri: patreon:nonohomo
+  - name: 爱发电
+    uri: https://afdian.net/a/pirahus
+  - name: .twitter
+    uri: twitter:NonohomoC
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjIyOC5qcGc=/original/U6PwLd.jpg
+  - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA3NDAxOS5qcGc=/original/oOY3pU.jpg
+  - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjI2OS5qcGc=/original/E9afAf.jpg
+  - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjI0NS5qcGc=/original/zc51y0.jpg
+  - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjI3MC5qcGc=/original/mRdNMN.jpg
