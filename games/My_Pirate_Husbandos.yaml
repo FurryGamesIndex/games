@@ -7,9 +7,13 @@ description: |
 
 authors:
   - name: Nonohomo Circle
+    standalone: true
+    avatar: Nonohomo_Circle.png
+    link-uri: twitter:NonohomoC
     role: [ producer ]
   - name: Renoky
     standalone: true
+    avatar: Renoky.jpg
     link-uri: twitter:red_noky
     role: [ artist ]
 
