@@ -57,6 +57,7 @@ thumbnail: thumbnail.jpg
 screenshots:
   - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjIyOC5qcGc=/original/U6PwLd.jpg
   - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA3NDAxOS5qcGc=/original/oOY3pU.jpg
-  - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjI2OS5qcGc=/original/E9afAf.jpg
+  - sensitive: true
+    uri: https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjI2OS5qcGc=/original/E9afAf.jpg
   - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjI0NS5qcGc=/original/zc51y0.jpg
   - https://img.itch.zone/aW1hZ2UvMTcxMDA2Mi8xMDA4NjI3MC5qcGc=/original/mRdNMN.jpg
