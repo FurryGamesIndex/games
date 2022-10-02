@@ -15,25 +15,19 @@ authors:
     role: [ producer, screenwriter ]
   - name: Orion
     link-uri: twitter:AluminemSiren
-    role: [ producer, programmer, artist ]
+    role: [ producer, programmer, artist, character-designer ]
   - name: Zhan
     link-uri: twitter:he_is_animation
     role: [ animation ]
   - name: Bork
     link-uri: twitter:BorkThunder
-    role: [ animation, artist, character-designer ]
-  - name: Wild
-    link-uri: twitter:Wildyena
     role: [ artist, character-designer ]
   - name: Gatsby
     link-uri: twitter:Defiant_Drills
-    role: [ artist ]
+    role: [ artist, character-designer ]
   - name: Pav
     link-uri: twitter:possumpecker
     role: [ artist, character-designer ]
-  - name: 'Gumdro Studios'
-    link-uri: twitter:Gumdrop_Studios
-    role: [ artist, scenographer ]
   - name: Robin
     link-uri: twitter:BigHufferPuffer
     role: [ artist, scenographer ]
@@ -43,9 +37,6 @@ authors:
   - name: Tohfu
     link-uri: twitter:Snow_Kun
     role: [ artist, scenographer ]
-  - name: Scone
-    link-uri: twitter:HaiScone
-    role: [ artist ]
   - name: Moe
     link-uri: twitter:Anthemics
     role: [ musician ]
@@ -62,10 +53,8 @@ authors:
     standalone: true
     link-uri: twitter:Azzy_Lionblood
     role: [ screenwriter ]
-  - name: Hack
-    standalone: true
-    link-uri: twitter:Hackfurs
-    role: [ artist ]
+  - name: '峰青汉化组'
+    role: [ translator ]
 
 tags:
   type:
@@ -84,7 +73,7 @@ tags:
     - work-in-process
   lang:
     - en
-    - zh-unofficial
+    - zh
   publish:
     - itchio
     - patreon
@@ -103,9 +92,10 @@ links:
     uri: discord:kssdrgpMgE
   - name: .patreon
     uri: patreon:RememberTheFlowers
-  - name: .unofficial-version-zh
-    icon: telegram
-    uri: https://t.me/indigo_mount
+  - name: official-version-zh
+    uri: https://afdian.net/a/rtfvn
+  - name: .weibo
+    uri: https://weibo.com/rtfvn
 
 thumbnail: thumbnail.jpg
 
