@@ -1,0 +1,46 @@
+name: Heartbeat Faraway
+
+description: |
+  Heartbeat Faraway融合了节奏与文字冒险玩法，是一款关于选择与救赎的游戏。
+
+  你将扮演一名自杀热线的接线员，面对形形色色的患者，他们或因为职场的压力产生焦虑，或因为生活的变故逐渐失控，你要做的，就是通过选择合适的对话解开他们的心结，让他们完成心灵的救赎，与自己和解。
+
+authors:
+  - name: Pomitty Studio
+    role: [ producer ]
+
+tags:
+  type:
+    - music
+    - strategy
+  species: 
+    - cat
+    - wolf
+  misc:
+    - freeware
+    - multiple-endings
+    - engine-unity
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .itch.io
+    uri: https://heichuanbao.itch.io/furry-university-rebirth
+  - name: GAMECORES
+    uri: https://www.gcores.com/games/81228
+  - name: .weibo
+    uri: https://weibo.com/u/7049345915
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://image.gcores.com/902b3d59-db1a-4087-a8b9-fb8bbb324026.gif
+  - https://image.gcores.com/558fdefa-0254-4234-b895-879c44254db1.png
+  - https://image.gcores.com/1da3fb1b-c1f6-4a6e-a8aa-c0d14e122bac.gif
+  - https://image.gcores.com/ec6c8e23-810a-4de1-a9a1-2f4a6d560dda.png
