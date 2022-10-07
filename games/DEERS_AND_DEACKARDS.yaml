@@ -3,7 +3,7 @@ name：DEERS_AND_DEACKARDS
 description: |
   You have a long-standing crush on your muscular best friend and receive an invitation to spend the night with him on holiday, but you accidentally find out that his old man is even more of a human beauty, how exactly will the story develop...?
   
-  brief-description: |
+brief-description: |
   You goes to visit your best friend for a fun weekend of games. There you also get to meet his dad, making the stay more eventful then expected...
   
 description-format: markdown
@@ -21,11 +21,11 @@ tags:
     - dragon
     - leopard
     - horse
-    misc:
+  misc:
     - uncensored
     - engine-renpy
     - work-in-process
- lang:
+  lang:
     - en
     - zh
   publish:
