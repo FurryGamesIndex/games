@@ -43,10 +43,13 @@ links:
   - name: .itch.io
     uri: https://kulplant.itch.io/deers-and-deckards
   - name: .patreon
-    uri: https://www.patreon.com/KulPlant
+    uri: patreon:KulPlant
   - name: .twitter
-    uri: https://twitter.com/kulplant
+    uri: twitter:kulplant
 
 screenshots:
-  - https://s2.loli.net/2022/10/08/Zv465PQSRtqFnb3.png
-  - https://s2.loli.net/2022/10/08/NnDCAIK2flFRLcU.png
+  - sensitive: true
+    uri: https://img.itch.zone/aW1hZ2UvMTY0NDI3OC85NjcyMDg3LnBuZw==/original/4Ci1rV.png
+  - https://img.itch.zone/aW1hZ2UvMTY0NDI3OC85NjcyMDkwLnBuZw==/original/tZ9qQ4.png
+  - https://img.itch.zone/aW1hZ2UvMTY0NDI3OC85NjcyMDg4LnBuZw==/original/Jq1KvO.png
+  - https://img.itch.zone/aW1hZ2UvMTY0NDI3OC85NjcyMDg5LnBuZw==/original/Z1prJE.png
