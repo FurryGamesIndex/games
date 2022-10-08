@@ -20,11 +20,9 @@ description: |
 
   Travel through the island, help the villagers and discover the hidden secret of the island. Can you beat all the challenges and save your tribe?
 
-description-format: markdown
-
 authors:
   - name: Melonsoda Soft
-    role: [ producer ]
+    role: [ producer, publisher ]
 
 tags:
   type:
@@ -52,12 +50,15 @@ tags:
     - parasite
   misc:
     - pixel-art
-    - freeware
-    - work-in-process
   lang:
+    - cs
+    - de
     - en
+    - es
     - zh
     - ja
+    - ko
+    - ru
   publish:
     - steam
     - itchio
