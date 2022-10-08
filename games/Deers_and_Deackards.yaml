@@ -1,0 +1,55 @@
+name: Deers and Deackards
+
+brief-description: |
+  You goes to visit your best friend for a fun weekend of games. There you also get to meet his dad, making the stay more eventful then expected...
+
+description: |
+  You have a long-standing crush on your muscular best friend and receive an invitation to spend the night with him on holiday, but you accidentally find out that his old man is even more of a human beauty, how exactly will the story develop...?
+
+description-format: markdown
+
+authors:
+  - name: Kulplant
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+    - yiff
+  species:
+    - deer
+    - dragon
+    - leopard
+    - horse
+  misc:
+    - uncensored
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+    - zh
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+thumbnail: thumbnail.jpg
+
+links:
+  - name: .itch.io
+    uri: https://kulplant.itch.io/deers-and-deckards
+  - name: .patreon
+    uri: patreon:KulPlant
+  - name: .twitter
+    uri: twitter:kulplant
+
+screenshots:
+  - sensitive: true
+    uri: https://img.itch.zone/aW1hZ2UvMTY0NDI3OC85NjcyMDg3LnBuZw==/original/4Ci1rV.png
+  - https://img.itch.zone/aW1hZ2UvMTY0NDI3OC85NjcyMDkwLnBuZw==/original/tZ9qQ4.png
+  - https://img.itch.zone/aW1hZ2UvMTY0NDI3OC85NjcyMDg4LnBuZw==/original/Jq1KvO.png
+  - https://img.itch.zone/aW1hZ2UvMTY0NDI3OC85NjcyMDg5LnBuZw==/original/Z1prJE.png
