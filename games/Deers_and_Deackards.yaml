@@ -36,20 +36,17 @@ tags:
     - macos
     - linux
     - android
-    
+
+thumbnail: thumbnail.jpg
+
 links:
   - name: .itch.io
     uri: https://kulplant.itch.io/deers-and-deckards
   - name: .patreon
     uri: https://www.patreon.com/KulPlant
   - name: .twitter
-    -uri: https://twitter.com/kulplant
-    
-thumbnail: https://s2.loli.net/2022/10/08/KG36MtkvuJwzaHi.png
+    uri: https://twitter.com/kulplant
 
-   
 screenshots:
   - https://s2.loli.net/2022/10/08/Zv465PQSRtqFnb3.png
   - https://s2.loli.net/2022/10/08/NnDCAIK2flFRLcU.png
-    
-    
