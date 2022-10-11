@@ -4,16 +4,28 @@
 
 在学习本指南的同时，可以查看 [`games`](https://github.com/FurryGamesIndex/games/tree/master/games) 目录下已有的数据文件加深理解，或在修改、新增数据文件的时候参考。
 
+## 收集游戏相关信息
 
-## 游戏 ID
+你需要在互联网上搜索或亲自体验，获取游戏相关信息。
 
-游戏 ID 是用于引用游戏的字符串，并具有以下要求：
+请注意，除非在合理使用的前提下（如复制游戏说明、公开图片和有限截图），不要使用受版权保护的材料。
+
+- 游戏名称
+- 游戏描述
+- 游戏作者
+- 游戏缩略图（通常是Logo）和截图
+- 游戏发布的网址
+- 游戏作者的相关网站，社交网站或 Patreon 等
+
+## 	确定游戏 ID
+
+游戏 ID 是用于引用游戏的字符串，有以下要求：
 
 - 每个游戏都有一个唯一的 ID 进行标识，ID 不可重复，且一旦 ID 确定，通常不再允许修改。
-- 游戏 ID 只能包含 ASCII 字符集中的英文（大小写均可）、数字和下划线。
+- **游戏 ID 只能包含 ASCII 字符集中的英文（大小写均可）、数字和下划线。**
 - 游戏 ID 不可以以一个 `_` 开头，但可以以两个或更多的 `_` 开头。其他位置的下划线数量没有要求。
 
-以下是定义游戏 ID 的一般思路：
+以下是确定游戏 ID 的一般思路：
 
 - 例如，你找到了一个叫 `Adastra` 的游戏，这是英文，我们直接使用 `Adastra` 作为 ID。
 - 例如，你找到了一个叫 `バカ部` 的游戏，这是日文，首先确定是否存在官方英文名，如果不存在，应使用其罗马字母表示。因此我们使用 `Bakabu` 作为 ID。
@@ -24,8 +36,7 @@
 
 - 你找到了一个由 Might and Delight 制作的 `Shelter 2` 游戏，但这并不是FGI游戏库中由 rausmutt 制作的 `Shelter` 续作，因此前者的游戏ID为 `Shelter_2__Might_and_Delight` 。
 
-
-## 游戏数据文件
+## 编写游戏数据文件
 
 FGI 网站上显示的每个游戏都是由来自 FGI 游戏数据库中的数据文件进行加工制成的。FGI 游戏数据文件存放的位置是 [`games`](https://github.com/FurryGamesIndex/games/tree/master/games) 子目录。
 
@@ -89,6 +100,7 @@ FGI 游戏数据库中不同语言的数据文件都以英语的数据文件作�
 下面将介绍游戏数据文件的各个部分。**以下内容若未作特别说明，则默认以英语编写内容。游戏信息的本地化见「[游戏本地化数据文件](#anchor_localization)」。**
 
 
+
 ### 游戏名称等
 
 #### 游戏名称
@@ -114,9 +126,7 @@ name: 游戏名称
 
 #### 隐藏游戏页面（可选）
 
-有些游戏还未发布；或曾经发布然后又被删除，同时作者表示将在未来发布（等情况）。
-
-这时需要使用“软删除”，隐藏该游戏（待到重新发布后取消隐藏）。
+有些游戏还未发布；或曾经发布然后又被删除，同时作者表示将在未来发布（等情况）。这时需要使用“软删除”，隐藏该游戏（待到重新发布后取消隐藏）。
 
 “软删除”属性，会隐藏该游戏，游戏页面上将显示警告提示条。在游戏列表、站内搜索结果和通用 Web 搜索引擎中，都无法搜索到该游戏。但不会删除游戏页面，不会从作者页面、该作者的“更多游戏“小部件中被删除该游戏。
 
@@ -133,18 +143,18 @@ expunge: true
 
 #### 替换旧版游戏页面（可选）
 
-有些作者可能会放弃开发旧版游戏，（更换游戏类型，）从头开发新版游戏。如 `Bare Backstreets`、`履云录` 等。这时需**在旧版游戏的数据文件里，使用“被取代”并指向新版游戏。**
+有些作者可能会放弃开发旧版游戏，（更换游戏类型，）从头开发新版游戏。如 `Bare Backstreets`、`履云录` 等。这时需**在旧版游戏的数据文件里，使用“被取代”属性指向新版游戏。**
 
-“被取代”属性，会从游戏列表中删除该游戏，旧版游戏页面上将显示“被取代”信息条，同时指向 `replaced-by:` 所指定的新版游戏的链接；但不会从删除站内搜索和通用 Web 搜索引擎中删除旧版游戏。
+使用“被取代”属性后，会从游戏列表中隐藏旧版游戏。当你打开旧版游戏页面后，页面上方的信息条上将显示“被（新游戏）所取代”的信息，同时提供一个指向 `replaced-by:` 后的新游戏的链接；但不会在站内搜索和通用 Web 搜索引擎的搜索结果中删除旧版游戏。
 
 
-- 要表示游戏被另一个游戏取代，请使用：
+- 要表示旧游戏被新游戏取代，请使用：
 
 ```
-replaced-by: 游戏ID
+replaced-by: 新游戏ID
 ```
 
-> 这是可选属性，如果不打算取代游戏，请**不要**添加这个属性。`游戏ID` 对应的游戏数据文件必须已经存在。
+> 这是可选属性，如果不打算取代旧游戏，请**不要**添加这个属性。此外，`新游戏ID` 对应的游戏数据文件必须已经存在，方可使用 `replaced-by:` 属性。
 
 例如，在旧版的 `lvyunlu.yaml` 中，使用 `replaced-by:` ，指向 `Elysium_Above` ，也就是新版的履云录。
 
@@ -152,6 +162,7 @@ replaced-by: 游戏ID
 name: 履云录 （AVD 版）
 replaced-by: Elysium_Above
 ```
+
 
 
 ### 游戏描述
@@ -176,15 +187,17 @@ description-format: markdown
 ```
 
 > 在 FGI 游戏页面中，markdown 的 `#` 将生成 `<h2>` 而不是 `<h1>`，`##` 将生成 `<h3>`，以此类推。这是因为 `<h1>` 在游戏页面上是游戏名称，避免让 markdown 描述导致页面出现多个 `<h1>` 影响 SEO。
-
+> 
 > 注意，**即使使用其他格式，仍然需要使描述的每一行以两个空格开头。**
-
+> 
 > 我们不建议（但不是不允许）在 markdown 中插入图片。
 
 描述文本的内容应符合以下要求：
 - 优先取用官方原文。
 - 不涉及关键情节或选择分支后剧情的剧透。
 - 不包含敏感信息或违反目标语言当地法律法律的字词、文段。
+
+  
 
 
 #### 简化描述（可选）
@@ -203,6 +216,7 @@ brief-description: |
 这是一个可选的部分。对于不包含此部分的游戏，FGI 将使用标准描述进行自动裁剪。
 
 简化描述中允许使用换行符，但不支持 markdown 等富文本。
+
 
 
 ### 作者信息
@@ -265,9 +279,57 @@ authors:
 > 对于非独立作者，avatar 为关联的作者数据文件中指定的头像，超链接指向 FGI 为其创建的作者页面。
 
 
+
 ### 游戏标签
 
+标签是描述游戏的特性。在 FGI 中，标签由“命名空间”和“值”组成。并且必须使用标准化的标签。
+
 有关目前所有标准标签，详见 **[全部标签](../tags.zh-cn.md)**。
+
+```
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - wolf
+    - cat
+    - humankind
+  fetish:
+    - muscle
+    - anal
+    - human-on-furry
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+```
+
+
+如 `type:visual-novel` 中，命名空间是冒号前面的 `type`，后面的是值 `visual-novel`。这个标签表示该游戏的「类型」是「视觉小说」。同样， `species:wolf` 表示该游戏存在主要角色是「狼兽人」，`misc:work-in-process` 表示该游戏「未完成」，正在开发中（但发布了先行体验/Demo版本），`platform:android` 表示该游戏可以在「Android」「平台」上运行。
+
+> 最终呈现在页面上的标签列表可能会进一步增加，因为 FGI 使用一种叫 “标签蕴含” 的机制添加自动标签。如 “狼” 存在时系统将添加 “犬科”。
+#### 标签规范
+
+除`author` 命名空间下的标签外，其他标签都不会有空格。 `author` 命名空间表示作品的作者（开发者、发布者等）。 如果`author` 命名空间的标签包含空格，则需要用单引号`'`包裹。
+
+标签列表的**第一行是固定的`tags:`**，然后是多个命名空间。 每个命名空间都**以两个空格开头，以英文冒号结尾。**
+
+在每个命名空间下的每一行都**以3个空格为开头，紧接着是连字符/减号，再接1个空格后，接标签的值。**如：<code>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;value</code>
 
 ```
 tags:
@@ -281,12 +343,11 @@ tags:
   ...
 ```
 
-标签是描述游戏的特性。在 FGI 中，标签由“命名空间”和“值”组成。并且必须使用标准化的标签。如 `type:visual-novel` 中，命名空间是冒号前面的 `type`，后面的是值 `visual-novel`。这个标签表示该游戏的「类型」是「视觉小说」。同样， `species:wolf` 表示该游戏存在主要角色是「狼兽人」，`misc:work-in-process` 表示该游戏「未完成」，正在开发中（但发布了先行体验/Demo版本），`platform:android` 表示该游戏可以在「Android」「平台」上运行。
-
-> 最终呈现在页面上的标签列表可能会进一步增加，因为 FGI 使用一种叫 “标签蕴含” 的机制添加自动标签。如 “狼” 存在时系统将添加 “犬科”。
 
 
 ### 游戏链接
+
+链接为 FGI 最终的游戏页面上创建超链接，我们通常将游戏的各个发布地址、网站等等作为链接以便让玩家可以快速找到需要的游戏。也可能添加作者的社交平台、作者的 Patreon，特别是对于在作者信息中添加的作者没有创建相应的作者数据文件时。
 
 ```
 links:
@@ -298,84 +359,52 @@ links:
   - ...
 ```
 
-链接为 FGI 最终的游戏页面上创建超链接，我们通常将游戏的各个发布地址、网站等等作为链接以便让玩家可以快速找到需要的游戏。也可能添加作者的社交平台、作者的 Patreon，特别是对于在作者信息中添加的作者没有创建相应的作者数据文件时。
-
-名称为链接的名称，URI 通俗地说是该链接的“网址”，如果你不清楚 URI 的意思，也无需在意。
-
+> 请注意，除`links:`所在行外，每行行首均有2个或4个空格。
 
 #### 链接名称
 
-FGI 设计了一种叫 “库存链接”（Stock Link）的东西，以减少翻译的工作量。库存链接名称以 `.` 开头。它们是固定的，需要在 [`uil10n`](https://github.com/FurryGamesIndex/games/tree/master/uil10n) 文件中定义。当你使用库存链接时，你就无需写这么一段长字，而且无需为每种语言写一份翻译。因为库存链接是固定的，每种语言都可以自动处理。
+`名称`为链接的名称，`URI `通俗地说是该链接的“网址”。如果你不清楚 URI 的意思，也无需在意。
 
-**存在符合要求的库存链接时，请务必使用库存链接。建议把社交网站放在上方，游戏的发布页面放在下方。**
+FGI 设计了一种叫 “库存链接”（Stock Link）的东西，以减少翻译的工作量。库存链接名称以 `.` 开头。它们是固定的，需要在 [`uil10n`](https://github.com/FurryGamesIndex/games/tree/master/uil10n) 文件中定义。
+
+当你使用库存链接时，你就无需写这么一段长字，而且无需为每种语言写一份翻译。因为库存链接是固定的，每种语言都可以自动处理。
+
+**存在符合要求的库存链接时，请务必使用库存链接。此外，建议把社交网站放在上方，游戏的发布页面放在下方。**
 
 下面是FGI 支持的库存链接：
 
 - `.website`: 官方网站
-
 - `.twitter`: 官方 Twitter
-
 - `.furaffinity`: 官方 FurAffinity
-
-- `.deviantart`: 官方 DeviantART
-
-- `.patreon`: 官方 Patreon
-
-- `.weibo`: 官方微博
-
-- `.tumblr`: 官方 Tumblr
-
-- `.pixiv`: 官方 Pixiv
-
 - `.discord`: 官方 Discord
-
 - `.youtube`: 官方 Youtube
-
 - `.facebook`: 官方 Facebook
 
-  
 
 - `.release-page`: 发布页面
-
 - `.steam`: 在 Steam 上获取
-
 - `.epic`: 在 Epic Games Store 上获取
-
 - `.itch.io`: 在 itch.io 上获取
-
 - `.booth`: 在 BOOTH 上获取
-
 - `.digiket`: 在 DiGiket 上获取
-
 - `.play-store`: 在 Google Play 上获取
-
 - `.apple-appstore`: 在 App Store 上获取
-
 - `.nintendo-e-shop`: 在 Nintendo eShop 上获取
-
 - `.playstation-store`: 在 PlayStation Store 上获取
-
 - `.gog.com`: 在 GOG.com 上获取
-
 - `.microsoft-store`: 在 Microsoft Store 上获取
 
-- `.unofficial-patch-en`: 非官方英文补丁
-
-- `.unofficial-version-en`: 非官方英文版本
-
-- `.unofficial-patch-zh`: 非官方中文补丁
-
-- `.unofficial-version-zh`: 非官方中文版本
 
 - `.demo-version`: 获取演示版本
-
 - `.demo-version-steam`: 从 Steam 获取演示版本
-
 - `.demo-version-gog.com`: 从 GOG.com 获取演示版本
 
-- `.unofficial-archived-download`: 下载（非官方存档）
 
-  
+- `.unofficial-archived-download`: 下载（非官方存档）
+- `.unofficial-version-en`: 非官方英文版本
+- `.unofficial-patch-en`: 非官方英文补丁
+- `.unofficial-version-zh`: 非官方中文版本
+- `.unofficial-patch-zh`: 非官方中文补丁
 
 如果确实需要非库存链接，则名称部分直接写就可以了，**注意这里我们要使用英文**。例如：
 
@@ -384,7 +413,6 @@ links:
   - name: R-18 Patch
     uri: https://example.com/balabala
 ```
-
 
 #### URI
 
@@ -408,12 +436,11 @@ links:
 - Google Play Store: `google-play-store:package_id` 相当于 `https://play.google.com/store/apps/details?id=package_id`
 - FGI misc page: `FGI-misc-page:name` 相当于 `<相对路径引用网站根目录>/misc/name.html`，这些页面是由 FGI 仓库中的 [`misc-pages`](https://github.com/FurryGamesIndex/games/tree/master/misc-pages) 子目录下的文件生成的。
 
+#### 链接图标（可选）
 
-#### 链接图标
+库存链接会自动获得一个相关的“图标”，比如 `.steam` 链接前将会有一个 steam 的机械 logo。
 
-图标属性是可选的，库存链接会自动获得一个相关的“图标”，比如 `.steam` 链接前将会有一个 steam 的机械 logo。但是所有的非库存链接都默认是一种图标，如果因美观等原因确实需要在自定义链接上使用非默认图标，则可以使用 `icon` 属性，该属性可以为非库存链接设置图标，亦可覆盖库存链接缺省的图标。
-
-所有受支持的图标见 <https://github.com/FurryGamesIndex/icons/tree/master/src/site>，这里的文件名去除 `.svg` 后辍后，即为图标名称。
+但是所有的非库存链接都默认是一种图标，如果因美观等原因确实需要在自定义链接上使用非默认图标，则可以使用 `icon` 属性，该属性可以为非库存链接设置图标，亦可覆盖库存链接缺省的图标。
 
 ```
   - name: Author's weibo (DragonSnow)
@@ -421,23 +448,26 @@ links:
     uri: https://weibo.com/u/2594829495
 ```
 
+所有受支持的图标见 <https://github.com/FurryGamesIndex/icons/tree/master/src/site>，这里的文件名去除 `.svg` 后辍后，即为图标名称。
+
 
 
 <a id="anchor_thumbnail">
 
 ### 游戏缩略图
 
-#### 缩略图文件规范
+#### 大小规范
 
 > FGI 曾经未制定此严格的标准，因此旧游戏的缩略图可能不符合此规范。
 >
 > **对于新添加游戏的缩略图、以及更新旧游戏的缩略图，需要符合此规范。**
 
-在规格上，**缩略图的宽高比固定为 15:7，宽度最大不得超过 360px，高度最大不得超过 168px。**   尽量制作或选用最大宽高规格的缩略图，但不得强制放大原始规格的缩略图。
+在规格上，**缩略图的宽高比固定为 15:7，宽度最大不得超过 360px，高度最大不得超过 168px。** 尽量制作或选用最大宽高规格的缩略图，但不得强制放大原始规格的缩略图。
 
 出于性能考虑，在与100%质量原图比较未有明显失真的条件下，**文件大小不得超过 100KiB**，且在与原图视觉效果相近的情况下优先上传更小的文件。
 > 这里指的图像失真包括但不限于：振铃效应、方块效应、色调分离、噪点。
 
+#### 内容规范
 
 在内容上，缩略图应满足以下要求：
 
@@ -459,8 +489,7 @@ links:
 
 > 对于来自 Steam 的缩略图，已自动符合该比例，通常只需要按比例缩放到 360x168 px 即可。对于来自其他地方的缩略图，通常情况下都将导致丢失信息。应尽量保证主要内容不被裁剪掉。
 
-
-#### 缩略图存放目录
+#### 存放目录
 
 将需要引用的图片放置于 `assets/游戏ID/` 目录下，然后在资源引用处直接填写`thumbnail.jpg`。
 
@@ -472,9 +501,10 @@ thumbnail: thumbnail.jpg
 ```
 
 
+
 ### 游戏截图和视频
 
-#### 添加游戏截图
+#### 游戏截图
 
 ```
 screenshots:
@@ -494,10 +524,9 @@ screenshots:
 - URI 中引用的文件需要包含可被识别的后辍，如 `.png`, `.jpg`, `.jpeg` 等等。FGI 可能需要根据此后辍设置 MIME。
 - **FGI不接受查询字符串**，例如 `https://example.com/show_image.cgi?filename=some_picture.png` 可能导致未定义行为。
 
+#### 游戏视频
 
-#### 添加游戏视频
-
-在游戏截图部分，可以插入游戏相关的其他媒体，如 Youtube 视频和 HTML 视频嵌入元素
+在游戏截图部分，可以插入游戏相关的其他媒体，如 Youtube 视频和 HTML 视频嵌入元素。
 
 - 嵌入 Youtube 视频
 
@@ -512,7 +541,6 @@ ID 为视频 ID，可以从视频链接中获得：`https://www.youtube.com/watc
 
 
 - 嵌入 HTML 视频嵌入元素
-
 HTML 视频嵌入元素可以提供多种类型以兼顾兼容性和性能
 
 ```
@@ -525,6 +553,10 @@ screenshots:
         uri: https://example.com/1.mp4
   - ...
 ```
+
+### 提交 Pull Request
+
+#todo？
 
 
 

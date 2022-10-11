@@ -2,11 +2,13 @@
 
 This is a guide that describes how to add games to FurryGamesIndex (hereinafter may be referred to as FGI), and if you want to maintain an existing game, you can also learn how to do it in this guide.
 
-Adding and maintaining games on FurryGamesIndex is really easy, it only takes a few minutes to learn.
+Adding and maintaining [games](https://github.com/FurryGamesIndex/games/tree/master/games)  on FurryGamesIndex is really easy, it only takes a few minutes to learn.
 
 ## Step 1: Collect game information
 
-You need to search the Internet or play games to find these informations. Note that you should not use copyrighted materials, except under the premise of fair use (such as copying game descriptions, public pictures, and limited screenshots).
+You need to search the Internet or play games to find these informations. 
+
+Note that you should not use copyrighted materials, except under the premise of fair use (such as copying game descriptions, public pictures, and limited screenshots).
 
 - The name of the game
 - Description of the game (official public description or write your own)
@@ -19,7 +21,9 @@ You need to search the Internet or play games to find these informations. Note t
 
 > If you want to maintain existing game instead of adding one, you can skip this section
 
-We already have the name of the game, why do we need to define an ID? This is because this project requires each games to be identified by a unique ID. The game ID can only contain English, numbers, and underscores.
+We already have the name of the game, why do we need to define an ID? This is because this project requires each games to be identified by a unique ID. 
+
+**The game ID can only contain English, numbers, and underscores.**
 
 - For example, you found a game called `Adastra`, which is in English, we directly use `Adastra` as the ID
 - For example, if you find a game called `バカ部`, which is in Japanese, first determine whether there is an official English name. If it does not exist, use its Romanization alphabet. So we use `Bakabu` as the ID
@@ -112,31 +116,39 @@ The name part is `name: game name`. If the game has official English, the Englis
 
 If the game does not have an official English name, the name is recommended to be written as `Game ID / Original Name`. For example, `バカ部` can be set to `Bakabu / バカ部`.
 
-### Description
+### Descriptions
+
+#### Description
 
 ```
 description: |
   First line description
   Second line description
   ...
-
 ```
 
-The format of the description section is as above. The first line is a fixed `description: |`. Write a new line to start the description. Each line of the description must start with two spaces.
+The format of the description section is as above. The first line is a fixed `description: |`. Write a new line to start the description. **Each line of the description must start with two spaces.**
 
-English description should be written here. We will introduce the internationalization mechanism later, where to enter other languages.
+Use `description-format` to use rich text descriptions in special formats. Currently, `plain`(default) and `markdown` are supported. 
 
-> However, one exception is that if it is in the early stage of editing the entry, other languages be temporarily used, but the `sys:staging` tag must be marked.
-
-> Use `description-format` to use rich text descriptions in special formats. Currently, `markdown` is supported. However, the function of modifying the font size will not be applicable.
+```
+description-format: markdown
+```
+> Note: **Even if you use other formats, you still need to start each line of the description with two spaces.**
 >
-> ```
-> description-format: markdown
-> ```
->
-> Note: Even if you use other formats, you still need to start each line of the description with two spaces.
+> We do not recommend (but do not allow) inserting images in markdown.
 
-### Brief Description (optional)
+The content of the description text should comply with the following requirements.
+
+- Priority is given to taking the official original text.
+- No spoilers about key plot points or the plot after the chosen branch.
+- No words or passages that contain sensitive information or violate local laws and regulations in the target language.
+
+
+
+#### Brief Description (optional)
+
+Brief Description is used to insert summary description in standard view and metadata.
 
 ```
 brief-description: |
@@ -144,8 +156,6 @@ brief-description: |
   The second line brief description
   ...
 ```
-
-Brief Description is used to insert summary description in standard view and metadata.
 
 In usual, the brief description should be shorter than full description, but for the full description itself is short is an exception. The length of the brief description should not exceed 400 English characters (including numbers, spaces, and underscores), and we recommend its length is 200 to 400 English characters. 1 Chinese character is equivalent to 2 English characters.
 
@@ -155,10 +165,17 @@ You can insert newline in brief description, but the rich text such as Markdown 
 
 ### Authors
 
+#### General Information
+
 ```
 authors:
-  - name: The Echo Project
-    role: [ producer ]
+  - name: name of author1
+    role: [ role ]
+  - name: name of author2
+    role: [ role1, role2, role3 ]
+  - name: name of author3
+    standalone: true
+    role: [ role1, role2 ]
 ```
 The author name using is from author description file, alias(es) is not allowed.
 
@@ -183,6 +200,8 @@ The role is an array, each author occupied at least one role or multiple roles, 
 
 Each item may include other metadata.
 
+#### Standalone Author (Optional)
+
 `standalone: true` shows the author is defined to be standalone author. Independent author will not be linked to any author description file. And no FGI author page created for it.
 
 In general, if an author is not the core member of game, and only shown once in the whole database of FGI. Then it should be defined as standalone author.
@@ -200,9 +219,11 @@ When `standalone: true` exists, the following attribute is available
 
 > For non-standalone author, the avatar is from an avatar defined in author description file, and the hyperlink point to its author page created by FGI
 
-> You may have found some game description file have no author information, or used in tags describe. This is an old syntax which shouldn't be used in new game and new edited description file.
-
 ### Tags
+
+The tags describe the characteristics of the game. In FGI, every tags consists of "namespace" and "value". And (unless otherwise indicated) you must use standardized tags. 
+
+For all current standard tags, see [all the tags](../tags.en.md).
 
 ```
 tags:
@@ -237,9 +258,11 @@ tags:
     - android
 ```
 
-The tags describe the characteristics of the game. In FGI, every tags consists of "namespace" and "value". And (unless otherwise indicated) you must use standardized tags. For example, in `type:visual-novel`, the namespace is `type` before the colon, and the value `visual-novel` follows. This label indicates that the "type" of the game is "visual novel". Similarly, `species:wolf` means that the main "species" character of the game is "wolf furry", and `misc:work-in-process` means that the game is unfinished and is under development (but the first experience/Demo is released) Version), `platform:android` means that the game can run on "Android" "platform". For all current standard tags, see [tags](../tags.en.md).
+For example, in `type:visual-novel`, the namespace is `type` before the colon, and the value `visual-novel` follows. This label indicates that the "type" of the game is "visual novel". Similarly, `species:wolf` means that the main "species" character of the game is "wolf furry", and `misc:work-in-process` means that the game is unfinished and is under development (but the first experience/Demo is released) Version), `platform:android` means that the game can run on "Android" "platform". 
 
 > The final list of tags presented on the webpage may be increased. Because FGI uses a mechanism called "tag dependency" to add automatic tags. For example, if "male:wolf" exists, the system will add "male:canine"
+
+#### Specifications
 
 Tags have no spaces, with one exception: the tags under the `author` namespace. The `author` namespace indicates the author of the work (developer, publisher, etc.). If it contains spaces, it needs to be wrapped with single quotes `'`.
 
@@ -266,7 +289,11 @@ tags:
   ...
 ```
 
+
+
 ### Link
+
+The links section is to create hyperlinks on the final game page of FGI. We usually use the game's publishing address, author's website, author's SNS, author's Patreon, etc. as links so that players can quickly find the games they need.
 
 ```
 links:
@@ -280,50 +307,83 @@ links:
     uri: https://weibo.com/7429628292/J16RMawmi
 ```
 
-The links section is to create hyperlinks on the final game page of FGI. We usually use the game's publishing address, author's website, author's SNS, author's Patreon, etc. as links so that players can quickly find the games they need.
-
 The first line of links is fixed `links:`, and then contains multiple blocks.
 
 ```
-  - name: name
+links:
+  - name: Name
     uri: URI
 ```
 
 > Please note the space before each line
 
-The name is the name of the link, and the URI is colloquially the “URL” of the link. If you don’t know what the URI means, don’t worry.
+#### Name
+
+The `Name`is the name of the link, and the `URI ` is colloquially the “URL” of the link. If you don’t know what the URI means, don’t worry.
 
 However, it should be noted that FGI has designed something called "Stock Link" to reduce the workload of translation. The stock link name starts with `.`. They are fixed. (if you feel that new ones should be added, you can issue an issue/PR to discuss)
+
+When you use the stock link, you don’t need to write such a long word, and you don’t need to write a copy for each language, because the stock link is fixed, and each language can be processed automatically.
+
+**Please use stock links when they exist that meet the requirements. Besides, it's recommended to put the social networking site on top and the game's release page on the bottom.**
 
 FGI supported stock links include the following
 
 - `.website`: Official Website
+- `.twitter`: Official Twitter
+- `.furaffinity`: Official FurAffinity
+- `.deviantart`: Official DeviantART
+- `.patreon`:  Official Patreon
+- `.weibo`: Official Weibo
+- `.tumblr`: Official Tumblr
+- `.pixiv`: Official Pixiv
+- `.discord`: Official Discord
+- `.youtube`: Official Youtube
+- `.facebook`: Official Facebook
+
+
 - `.release-page`: Release page
 - `.steam`: Get on Steam
 - `.epic`: Get on Epic
 - `.itch.io`: Get on itch.io
 - `.booth`: Get on booth
+- `.digiket`:  Get on DiGiket
 - `.play-store`: Get on Google Play
 - `.apple-appstore`: Get on Apple Appstore
 - `.nintendo-e-shop`: Get on Nintendo E-Shop
+- `.playstation-store`:  Get on PlayStation Store
 - `.gog.com`: Get on gog.com
 - `.microsoft-store`: Get on Microsoft Store
-- `.twitter`: Official Twitter
-- `.furaffinity`: Official FurAffinity
-- `.deviantart`: Official DeviantART
-- `.patreon`: Patreon
-- `.weibo`: Official Weibo
-- `.tumblr`: Official Tumblr
-- `.pixiv`: Official Pixiv
-- `.discord`: Official Discord
-- `.unofficial-patch-zh`: Unofficial Chinese patch
+
+
+- `.demo-version`: Get demo version
+- `.demo-version-steam`: Get demo version from Steam
+- `.demo-version-gog.com`: Get demo version from GOG.com
+
+
+- `.unofficial-archived-download`: get from unofficial-archived
+- `.unofficial-version-en`: Unofficial English version
+- `.unofficial-patch-en`:  Unofficial English patch
 - `.unofficial-version-zh`: Unofficial Chinese version
+- `.unofficial-patch-zh`: Unofficial Chinese patch
 
-When you use the stock link, you don’t need to write such a long word, and you don’t need to write a copy for each language, because the stock link is fixed, and each language can be processed automatically.
+If you really need a non-stock link, you can just write the name part directly. Note that we will use English.
 
-If you really need a non-stock link, you can just write the name part directly. Note that we will use English (and then you may need to write another name in another language) such as <code>&nbsp;&nbsp;- name: Unoffical chinese patch</code> is to create a link to an unofficial Chinese patch. (Now Adastra has used the `.unofficial-patch-zh` stock link instead of this custom link, but this document still uses the old custom link to help you understand and explain how to translate the custom link)
+```
+links:
+  - name: R-18 Patch
+    uri: https://example.com/balabala
+```
+
+#### URI
 
 The URI part may be a web address or URL, such as the "Get on itch.io platform" link above, we should jump to open the game's itch.io webpage, so we fill in `https://echoproject.itch.io /adastra`
+
+```
+links:
+  - name: .itch.io
+    uri: https://echoproject.itch.io/adastra
+```
 
 At the same time, some links can be abbreviated to the URI form we defined, recommended but not mandatory
 
@@ -336,49 +396,86 @@ At the same time, some links can be abbreviated to the URI form we defined, reco
 - DeviantART: `deviantart:user name`, equivalent to `https://www.deviantart.com/<username>`
 - Google Play store: `google-play-store:package name` such as `google-play-store:com.danfornace.loversofaether`, equivalent to `https://play.google.com/store/apps/details?id=com.danfornace.loversofaether`
 
-icon
+#### Icon (Optional)
 
-The stock link will automatically get a related "icon", for example, there will be a steam mechanical logo before the `.steam` link. However, all non-stock links are an icon by default. If you really need to use a non-default icon on a custom link for aesthetic reasons, such as in Changed
+The stock link will automatically get a related "icon", for example, there will be a steam mechanical logo before the `.steam` link. 
 
+However, all non-stock links are an icon by default. If you really need to use a non-default icon on a custom link for aesthetic reasons, such as in Changed. Use an optional option `icon` property to set icons for non-stock links. 
 ```
   - name: Author's weibo (DragonSnow)
     icon: weibo
     uri: https://weibo.com/u/2594829495
 ```
 
-Use an optional option `icon` property to set icons for non-stock links. Currently supported icons are `website`, `steam`, `itch.io`, `twitter`, `furaffinity`, `patreon`, `weibo `, `tumblr`, `discord`, `play-store`, `apple-appstore`, `microsoft-store`
+Currently supported icons are Here <https://github.com/FurryGamesIndex/icons/tree/master/src/site>
+
+
+
+<a id="anchor_thumbnail">
 
 ### Thumbnail
+The thumbnail is the brand icon of the game. 
 
-The thumbnail is the brand icon of the game. Thumbnails have a fixed ratio of 15:7 and is not recommended to exceed 360x168 pixels. Prepare a jpeg or png picture. We use `thumbnail: file name` to indicate the thumbnail.
+#### Size specification
+
+**Thumbnails have a fixed ratio of 15:7 and is not recommended to exceed 360x168 pixels.** Try to make or use the largest width and height thumbnails, but do not force the thumbnails to be enlarged to the original size.
 
 For performance, under the condition that no significant distortion comparing with the 100% quality original image, the size of file can not exceed 100KiB. And priority upload less sized file if its quality is similar to the original image.
 
-Place the picture need be referred into the directory of assets/game ID/, then type the filename on the referring.
+> The image distortion referred to here includes but is not limited to: ringing effect, block effect, color separation, noise.
 
-For example, if the game ID is Adastra, place thumbnail.jpg into assets/Adastra/, Then referring this picture in Adastra.yaml, such as:
+#### Content specification
+
+In terms of content, thumbnails should meet the following requirements.
+
+- Priority is given to the pictures officially announced by the game to the public.
+- Reduce the image material in equal proportion. The image can be enlarged while maintaining the same clarity.
+- No additional borders are included.
+- The transparency of any pixel is either completely opaque or completely transparent for images with transparent channels. No "translucency" is allowed.
+- When cropping images with caption text, the text must not be cut off. (Either leave the text intact or crop out the entire block of text entirely)
+- **Does not contain sensitive information.**
+
+It is desirable that the thumbnails selected or created also
+
+- Have a clear image without mosaic or blur caused by linear filtering.
+- Show the overall tone and style of the game.
+- Try not to use images with transparent channels. A common exception is the official logo used by the game, which is a transparent image.
+
+The relative position of the elements in the image can be changed by image editing techniques without causing obvious traces of processing.
+
+> For thumbnails from Steam, the scale is automatically conformed to and usually just scaled to 360x168 px. Thumbnails from elsewhere will usually result in missing information. Try to make sure that the main content is not cropped out.
+
+#### Storage directory
+
+Place the picture need be referred into the directory of ` assets/game ID/ `, then type the filename,`thumbnail.jpg` on the referring.
+
+For example, if the game ID is Adastra, place thumbnail.jpg into  `assets/Adastra/` , Then referring this picture in ` Adastra.yaml `, such as:
 
 ```
 thumbnail: thumbnail.jpg
 ```
 
+
+
 ### Game screenshots
+
+#### Screenshots
 
 The last part is the screenshots of the game. The first line is the fixed `screenshots:`, then each line starts with <code>&nbsp;&nbsp;-&nbsp;</code> (two spaces + one `-` + one space), Then there is the external straight chain or file name of the picture.
 
-We strongly recommend using an external image service or directly pasting the CDN address of the original picture in Steam, etc. If you must host it in FGI, you can write only a file name, such as <code>&nbsp;&nbsp;-&nbsp;1.webp</code>
+We strongly recommend using an external image service or directly pasting the CDN address of the original picture in Steam, etc.
 
 ```
 screenshots:
   - https://i.imgur.com/mue7WCx.png
   - https://i.imgur.com/syIeL3g.png
+  - sensitive: true
+    uri: https://images2.imgbox.com/b8/39/pyHagTIF_o.jpg
 ```
-
-Embed special screenshots
 
 - Screenshots of sensitive content
 
-	If you want to add screenshots with sensitive content (R-18, NSFW, Yiff) in the game screenshots, first set `sensitive_media: true`, and use the following format on the sensitive screenshot items
+	If you want to add screenshots with sensitive content (R-18, NSFW, Yiff) in the game screenshots, use the following format on the sensitive screenshot items
 
 	```
 	  - sensitive: true
@@ -388,33 +485,40 @@ Embed special screenshots
 	The final effect is as follows
 
 	```
-	sensitive_media: true
-
 	screenshots:
-	  - https://i.imgur.com/...
-	  - https://i.imgur.com/...
+	  - https://i.imgur.com/mue7WCx.png
+	  - https://i.imgur.com/syIeL3g.png
 	  - sensitive: true
 	    uri: https://images2.imgbox.com/b8/39/pyHagTIF_o.jpg
 	```
-
+	
 	> Many image services (such as imgur) are not allowed to upload sensitive content, please do not use these services to host sensitive content pictures.
 
-In the screenshot section of the game, you can insert other media related to the game, such as Youtube video and HTML video embedded elements
+When referencing external resources via URIs care needs to be taken.
+
+- The file referenced in the URI needs to contain a recognizable filename extension, such as `.png`, `.jpg`, `.jpeg`, etc. FGI may need to set the MIME based on this filename extension.
+- **FGI does not accept query strings**, e.g. `https://example.com/show_image.cgi?filename=some_picture.png` may result in undefined behavior.
+
+
+
+#### Videos
+
+In the screenshot section of the game, you can insert other media related to the game, such as Youtube video and HTML video embedded elements.
 
 - Embed YouTube videos
 
-	```
-	  - type: youtube
-	    id: <ID>
-	```
+  ```
+  screenshots:
+    - type: youtube
+      id: <ID>
+    - ...
+  ```
 
-	The ID is the video ID, which can be obtained from the video link: `https://www.youtube.com/watch?v=<ID>` or `https://youtu.be/<ID>`
+  The ID is the video ID, which can be obtained from the video link: `https://www.youtube.com/watch?v=<ID>` or `https://youtu.be/<ID>`
 
-  > You may have seen some description files using `uri: youtube:<ID>` as formatting, this is an old syntax which shouldn't be used in new edited description file.
 
 - Embed HTML video embedded elements
-
-	HTML video embedded elements can provide multiple types to balance compatibility and performance
+HTML video embedded elements can provide multiple types to balance compatibility and performance
 
 ```
 screenshots:
@@ -425,10 +529,13 @@ screenshots:
       - mime: video/mp4
         uri: https://example.com/1.mp4
   - ...
-  - ...
 ```
 
-## Step 5: Translate key information
+
+
+<a id="anchor_localization">
+
+## Step 5: Translate key information (Optional)
 
 Now that we have a file describing game information, we are not far from success! Next (an optional step) we need to prepare translation files for non-English users. If your native language is not English, it is recommended to provide a translation file for your native language. If your native language is Chinese, you can prepare another `Game ID.yaml` file (same name as the file in the previous step), you can Put it in the `l10n/zh-cn/` directory.
 

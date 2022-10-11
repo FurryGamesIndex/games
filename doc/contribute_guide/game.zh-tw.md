@@ -4,16 +4,28 @@
 
 在學習本指南的同時，可以檢視 [`games`](https://github.com/FurryGamesIndex/games/tree/master/games) 目錄下已有的資料檔案加深理解，或在修改、新增資料檔案的時候參考。
 
+## 收集遊戲相關資訊
 
-## 遊戲 ID
+你需要在網際網路上搜索或親自體驗，獲取遊戲相關資訊。
 
-遊戲 ID 是用於引用遊戲的字串，並具有以下要求：
+請注意，除非在合理使用的前提下（如複製遊戲說明、公開圖片和有限截圖），不要使用受版權保護的材料。
+
+- 遊戲名稱
+- 遊戲描述
+- 遊戲作者
+- 遊戲縮圖（通常是Logo）和截圖
+- 遊戲釋出的網址
+- 遊戲作者的相關網站，社交網站或 Patreon 等
+
+## 	確定遊戲 ID
+
+遊戲 ID 是用於引用遊戲的字串，有以下要求：
 
 - 每個遊戲都有一個唯一的 ID 進行標識，ID 不可重複，且一旦 ID 確定，通常不再允許修改。
-- 遊戲 ID 只能包含 ASCII 字符集中的英文（大小寫均可）、數字和下劃線。
+- **遊戲 ID 只能包含 ASCII 字符集中的英文（大小寫均可）、數字和下劃線。**
 - 遊戲 ID 不可以以一個 `_` 開頭，但可以以兩個或更多的 `_` 開頭。其他位置的下劃線數量沒有要求。
 
-以下是定義遊戲 ID 的一般思路：
+以下是確定遊戲 ID 的一般思路：
 
 - 例如，你找到了一個叫 `Adastra` 的遊戲，這是英文，我們直接使用 `Adastra` 作為 ID。
 - 例如，你找到了一個叫 `バカ部` 的遊戲，這是日文，首先確定是否存在官方英文名，如果不存在，應使用其羅馬字母表示。因此我們使用 `Bakabu` 作為 ID。
@@ -24,8 +36,7 @@
 
 - 你找到了一個由 Might and Delight 製作的 `Shelter 2` 遊戲，但這並不是FGI遊戲庫中由 rausmutt 製作的 `Shelter` 續作，因此前者的遊戲ID為 `Shelter_2__Might_and_Delight` 。
 
-
-## 遊戲資料檔案
+## 編寫遊戲資料檔案
 
 FGI 網站上顯示的每個遊戲都是由來自 FGI 遊戲資料庫中的資料檔案進行加工製成的。FGI 遊戲資料檔案存放的位置是 [`games`](https://github.com/FurryGamesIndex/games/tree/master/games) 子目錄。
 
@@ -89,6 +100,7 @@ FGI 遊戲資料庫中不同語言的資料檔案都以英語的資料檔案作�
 下面將介紹遊戲資料檔案的各個部分。**以下內容若未作特別說明，則預設以英語編寫內容。遊戲資訊的本地化見「[遊戲本地化資料檔案](#anchor_localization)」。**
 
 
+
 ### 遊戲名稱等
 
 #### 遊戲名稱
@@ -114,9 +126,7 @@ name: 遊戲名稱
 
 #### 隱藏遊戲頁面（可選）
 
-有些遊戲還未釋出；或曾經發布然後又被刪除，同時作者表示將在未來發布（等情況）。
-
-這時需要使用「軟刪除」，隱藏該遊戲（待到重新發布後取消隱藏）。
+有些遊戲還未釋出；或曾經發布然後又被刪除，同時作者表示將在未來發布（等情況）。這時需要使用「軟刪除」，隱藏該遊戲（待到重新發布後取消隱藏）。
 
 「軟刪除」屬性，會隱藏該遊戲，遊戲頁面上將顯示警告提示條。在遊戲列表、站內搜尋結果和通用 Web 搜尋引擎中，都無法搜尋到該遊戲。但不會刪除遊戲頁面，不會從作者頁面、該作者的「更多遊戲「小部件中被刪除該遊戲。
 
@@ -133,18 +143,18 @@ expunge: true
 
 #### 替換舊版遊戲頁面（可選）
 
-有些作者可能會放棄開發舊版遊戲，（更換遊戲型別，）從頭開發新版遊戲。如 `Bare Backstreets`、`履雲錄` 等。這時需**在舊版遊戲的資料檔案裡，使用「被取代」並指向新版遊戲。**
+有些作者可能會放棄開發舊版遊戲，（更換遊戲型別，）從頭開發新版遊戲。如 `Bare Backstreets`、`履雲錄` 等。這時需**在舊版遊戲的資料檔案裡，使用「被取代」屬性指向新版遊戲。**
 
-「被取代」屬性，會從遊戲列表中刪除該遊戲，舊版遊戲頁面上將顯示「被取代」資訊條，同時指向 `replaced-by:` 所指定的新版遊戲的連結；但不會從刪除站內搜尋和通用 Web 搜尋引擎中刪除舊版遊戲。
+使用「被取代」屬性後，會從遊戲列表中隱藏舊版遊戲。當你開啟舊版遊戲頁面後，頁面上方的資訊條上將顯示「被（新遊戲）所取代」的資訊，同時提供一個指向 `replaced-by:` 後的新遊戲的連結；但不會在站內搜尋和通用 Web 搜尋引擎的搜尋結果中刪除舊版遊戲。
 
 
-- 要表示遊戲被另一個遊戲取代，請使用：
+- 要表示舊遊戲被新遊戲取代，請使用：
 
 ```
-replaced-by: 遊戲ID
+replaced-by: 新遊戲ID
 ```
 
-> 這是可選屬性，如果不打算取代遊戲，請**不要**新增這個屬性。`遊戲ID` 對應的遊戲資料檔案必須已經存在。
+> 這是可選屬性，如果不打算取代舊遊戲，請**不要**新增這個屬性。此外，`新遊戲ID` 對應的遊戲資料檔案必須已經存在，方可使用 `replaced-by:` 屬性。
 
 例如，在舊版的 `lvyunlu.yaml` 中，使用 `replaced-by:` ，指向 `Elysium_Above` ，也就是新版的履雲錄。
 
@@ -152,6 +162,7 @@ replaced-by: 遊戲ID
 name: 履雲錄 （AVD 版）
 replaced-by: Elysium_Above
 ```
+
 
 
 ### 遊戲描述
@@ -176,15 +187,17 @@ description-format: markdown
 ```
 
 > 在 FGI 遊戲頁面中，markdown 的 `#` 將生成 `<h2>` 而不是 `<h1>`，`##` 將生成 `<h3>`，以此類推。這是因為 `<h1>` 在遊戲頁面上是遊戲名稱，避免讓 markdown 描述導致頁面出現多個 `<h1>` 影響 SEO。
-
+> 
 > 注意，**即使使用其他格式，仍然需要使描述的每一行以兩個空格開頭。**
-
+> 
 > 我們不建議（但不是不允許）在 markdown 中插入圖片。
 
 描述文字的內容應符合以下要求：
 - 優先取用官方原文。
 - 不涉及關鍵情節或選擇分支後劇情的劇透。
 - 不包含敏感資訊或違反目標語言當地法律法律的字詞、文段。
+
+  
 
 
 #### 簡化描述（可選）
@@ -203,6 +216,7 @@ brief-description: |
 這是一個可選的部分。對於不包含此部分的遊戲，FGI 將使用標準描述進行自動裁剪。
 
 簡化描述中允許使用換行符，但不支援 markdown 等富文字。
+
 
 
 ### 作者資訊
@@ -265,9 +279,57 @@ authors:
 > 對於非獨立作者，avatar 為關聯的作者資料檔案中指定的頭像，超連結指向 FGI 為其建立的作者頁面。
 
 
+
 ### 遊戲標籤
 
+標籤是描述遊戲的特性。在 FGI 中，標籤由「名稱空間」和「值」組成。並且必須使用標準化的標籤。
+
 有關目前所有標準標籤，詳見 **[全部標籤](../tags.zh-cn.md)**。
+
+```
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - wolf
+    - cat
+    - humankind
+  fetish:
+    - muscle
+    - anal
+    - human-on-furry
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+```
+
+
+如 `type:visual-novel` 中，名稱空間是冒號前面的 `type`，後面的是值 `visual-novel`。這個標籤表示該遊戲的「型別」是「視覺小說」。同樣， `species:wolf` 表示該遊戲存在主要角色是「狼獸人」，`misc:work-in-process` 表示該遊戲「未完成」，正在開發中（但釋出了先行體驗/Demo版本），`platform:android` 表示該遊戲可以在「Android」「平臺」上執行。
+
+> 最終呈現在頁面上的標籤列表可能會進一步增加，因為 FGI 使用一種叫 「標籤蘊含」 的機制新增自動標籤。如 「狼」 存在時系統將新增 「犬科」。
+#### 標籤規範
+
+除`author` 名稱空間下的標籤外，其他標籤都不會有空格。 `author` 名稱空間表示作品的作者（開發者、釋出者等）。 如果`author` 名稱空間的標籤包含空格，則需要用單引號`'`包裹。
+
+標籤列表的**第一行是固定的`tags:`**，然後是多個名稱空間。 每個名稱空間都**以兩個空格開頭，以英文冒號結尾。**
+
+在每個名稱空間下的每一行都**以3個空格為開頭，緊接著是連字元/減號，再接1個空格後，接標籤的值。**如：<code>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;value</code>
 
 ```
 tags:
@@ -281,12 +343,11 @@ tags:
   ...
 ```
 
-標籤是描述遊戲的特性。在 FGI 中，標籤由「名稱空間」和「值」組成。並且必須使用標準化的標籤。如 `type:visual-novel` 中，名稱空間是冒號前面的 `type`，後面的是值 `visual-novel`。這個標籤表示該遊戲的「型別」是「視覺小說」。同樣， `species:wolf` 表示該遊戲存在主要角色是「狼獸人」，`misc:work-in-process` 表示該遊戲「未完成」，正在開發中（但釋出了先行體驗/Demo版本），`platform:android` 表示該遊戲可以在「Android」「平臺」上執行。
-
-> 最終呈現在頁面上的標籤列表可能會進一步增加，因為 FGI 使用一種叫 「標籤蘊含」 的機制新增自動標籤。如 「狼」 存在時系統將新增 「犬科」。
 
 
 ### 遊戲連結
+
+連結為 FGI 最終的遊戲頁面上建立超連結，我們通常將遊戲的各個釋出地址、網站等等作為連結以便讓玩家可以快速找到需要的遊戲。也可能新增作者的社交平臺、作者的 Patreon，特別是對於在作者資訊中新增的作者沒有建立相應的作者資料檔案時。
 
 ```
 links:
@@ -298,84 +359,52 @@ links:
   - ...
 ```
 
-連結為 FGI 最終的遊戲頁面上建立超連結，我們通常將遊戲的各個釋出地址、網站等等作為連結以便讓玩家可以快速找到需要的遊戲。也可能新增作者的社交平臺、作者的 Patreon，特別是對於在作者資訊中新增的作者沒有建立相應的作者資料檔案時。
-
-名稱為連結的名稱，URI 通俗地說是該連結的「網址」，如果你不清楚 URI 的意思，也無需在意。
-
+> 請注意，除`links:`所在行外，每行行首均有2個或4個空格。
 
 #### 連結名稱
 
-FGI 設計了一種叫 「庫存連結」（Stock Link）的東西，以減少翻譯的工作量。庫存連結名稱以 `.` 開頭。它們是固定的，需要在 [`uil10n`](https://github.com/FurryGamesIndex/games/tree/master/uil10n) 檔案中定義。當你使用庫存連結時，你就無需寫這麼一段長字，而且無需為每種語言寫一份翻譯。因為庫存連結是固定的，每種語言都可以自動處理。
+`名稱`為連結的名稱，`URI `通俗地說是該連結的「網址」。如果你不清楚 URI 的意思，也無需在意。
 
-**存在符合要求的庫存連結時，請務必使用庫存連結。建議把社交網站放在上方，遊戲的釋出頁面放在下方。**
+FGI 設計了一種叫 「庫存連結」（Stock Link）的東西，以減少翻譯的工作量。庫存連結名稱以 `.` 開頭。它們是固定的，需要在 [`uil10n`](https://github.com/FurryGamesIndex/games/tree/master/uil10n) 檔案中定義。
+
+當你使用庫存連結時，你就無需寫這麼一段長字，而且無需為每種語言寫一份翻譯。因為庫存連結是固定的，每種語言都可以自動處理。
+
+**存在符合要求的庫存連結時，請務必使用庫存連結。此外，建議把社交網站放在上方，遊戲的釋出頁面放在下方。**
 
 下面是FGI 支援的庫存連結：
 
 - `.website`: 官方網站
-
 - `.twitter`: 官方 Twitter
-
 - `.furaffinity`: 官方 FurAffinity
-
-- `.deviantart`: 官方 DeviantART
-
-- `.patreon`: 官方 Patreon
-
-- `.weibo`: 官方微博
-
-- `.tumblr`: 官方 Tumblr
-
-- `.pixiv`: 官方 Pixiv
-
 - `.discord`: 官方 Discord
-
 - `.youtube`: 官方 Youtube
-
 - `.facebook`: 官方 Facebook
 
-  
 
 - `.release-page`: 釋出頁面
-
 - `.steam`: 在 Steam 上獲取
-
 - `.epic`: 在 Epic Games Store 上獲取
-
 - `.itch.io`: 在 itch.io 上獲取
-
 - `.booth`: 在 BOOTH 上獲取
-
 - `.digiket`: 在 DiGiket 上獲取
-
 - `.play-store`: 在 Google Play 上獲取
-
 - `.apple-appstore`: 在 App Store 上獲取
-
 - `.nintendo-e-shop`: 在 Nintendo eShop 上獲取
-
 - `.playstation-store`: 在 PlayStation Store 上獲取
-
 - `.gog.com`: 在 GOG.com 上獲取
-
 - `.microsoft-store`: 在 Microsoft Store 上獲取
 
-- `.unofficial-patch-en`: 非官方英文補丁
-
-- `.unofficial-version-en`: 非官方英文版本
-
-- `.unofficial-patch-zh`: 非官方中文補丁
-
-- `.unofficial-version-zh`: 非官方中文版本
 
 - `.demo-version`: 獲取演示版本
-
 - `.demo-version-steam`: 從 Steam 獲取演示版本
-
 - `.demo-version-gog.com`: 從 GOG.com 獲取演示版本
 
-- `.unofficial-archived-download`: 下載（非官方存檔）
 
-  
+- `.unofficial-archived-download`: 下載（非官方存檔）
+- `.unofficial-version-en`: 非官方英文版本
+- `.unofficial-patch-en`: 非官方英文補丁
+- `.unofficial-version-zh`: 非官方中文版本
+- `.unofficial-patch-zh`: 非官方中文補丁
 
 如果確實需要非庫存連結，則名稱部分直接寫就可以了，**注意這裡我們要使用英文**。例如：
 
@@ -384,7 +413,6 @@ links:
   - name: R-18 Patch
     uri: https://example.com/balabala
 ```
-
 
 #### URI
 
@@ -408,12 +436,11 @@ links:
 - Google Play Store: `google-play-store:package_id` 相當於 `https://play.google.com/store/apps/details?id=package_id`
 - FGI misc page: `FGI-misc-page:name` 相當於 `<相對路徑引用網站根目錄>/misc/name.html`，這些頁面是由 FGI 倉庫中的 [`misc-pages`](https://github.com/FurryGamesIndex/games/tree/master/misc-pages) 子目錄下的檔案生成的。
 
+#### 連結圖示（可選）
 
-#### 連結圖示
+庫存連結會自動獲得一個相關的「圖示」，比如 `.steam` 連結前將會有一個 steam 的機械 logo。
 
-圖示屬性是可選的，庫存連結會自動獲得一個相關的「圖示」，比如 `.steam` 連結前將會有一個 steam 的機械 logo。但是所有的非庫存連結都預設是一種圖示，如果因美觀等原因確實需要在自定義連結上使用非預設圖示，則可以使用 `icon` 屬性，該屬性可以為非庫存連結設定圖示，亦可覆蓋庫存連結預設的圖示。
-
-所有受支援的圖示見 <https://github.com/FurryGamesIndex/icons/tree/master/src/site>，這裡的檔名去除 `.svg` 後輟後，即為圖示名稱。
+但是所有的非庫存連結都預設是一種圖示，如果因美觀等原因確實需要在自定義連結上使用非預設圖示，則可以使用 `icon` 屬性，該屬性可以為非庫存連結設定圖示，亦可覆蓋庫存連結預設的圖示。
 
 ```
   - name: Author's weibo (DragonSnow)
@@ -421,23 +448,26 @@ links:
     uri: https://weibo.com/u/2594829495
 ```
 
+所有受支援的圖示見 <https://github.com/FurryGamesIndex/icons/tree/master/src/site>，這裡的檔名去除 `.svg` 後輟後，即為圖示名稱。
+
 
 
 <a id="anchor_thumbnail">
 
 ### 遊戲縮圖
 
-#### 縮圖檔案規範
+#### 大小規範
 
 > FGI 曾經未制定此嚴格的標準，因此舊遊戲的縮圖可能不符合此規範。
 >
 > **對於新新增遊戲的縮圖、以及更新舊遊戲的縮圖，需要符合此規範。**
 
-在規格上，**縮圖的寬高比固定為 15:7，寬度最大不得超過 360px，高度最大不得超過 168px。**   儘量製作或選用最大寬高規格的縮圖，但不得強制放大原始規格的縮圖。
+在規格上，**縮圖的寬高比固定為 15:7，寬度最大不得超過 360px，高度最大不得超過 168px。** 儘量製作或選用最大寬高規格的縮圖，但不得強制放大原始規格的縮圖。
 
 出於效能考慮，在與100%質量原圖比較未有明顯失真的條件下，**檔案大小不得超過 100KiB**，且在與原圖視覺效果相近的情況下優先上傳更小的檔案。
 > 這裡指的影象失真包括但不限於：振鈴效應、方塊效應、色調分離、噪點。
 
+#### 內容規範
 
 在內容上，縮圖應滿足以下要求：
 
@@ -459,8 +489,7 @@ links:
 
 > 對於來自 Steam 的縮圖，已自動符合該比例，通常只需要按比例縮放到 360x168 px 即可。對於來自其他地方的縮圖，通常情況下都將導致丟失資訊。應儘量保證主要內容不被裁剪掉。
 
-
-#### 縮圖存放目錄
+#### 存放目錄
 
 將需要引用的圖片放置於 `assets/遊戲ID/` 目錄下，然後在資源引用處直接填寫`thumbnail.jpg`。
 
@@ -472,9 +501,10 @@ thumbnail: thumbnail.jpg
 ```
 
 
+
 ### 遊戲截圖和影片
 
-#### 新增遊戲截圖
+#### 遊戲截圖
 
 ```
 screenshots:
@@ -494,10 +524,9 @@ screenshots:
 - URI 中引用的檔案需要包含可被識別的後輟，如 `.png`, `.jpg`, `.jpeg` 等等。FGI 可能需要根據此後輟設定 MIME。
 - **FGI不接受查詢字串**，例如 `https://example.com/show_image.cgi?filename=some_picture.png` 可能導致未定義行為。
 
+#### 遊戲影片
 
-#### 新增遊戲影片
-
-在遊戲截圖部分，可以插入遊戲相關的其他媒體，如 Youtube 影片和 HTML 影片嵌入元素
+在遊戲截圖部分，可以插入遊戲相關的其他媒體，如 Youtube 影片和 HTML 影片嵌入元素。
 
 - 嵌入 Youtube 影片
 
@@ -512,7 +541,6 @@ ID 為影片 ID，可以從影片連結中獲得：`https://www.youtube.com/watc
 
 
 - 嵌入 HTML 影片嵌入元素
-
 HTML 影片嵌入元素可以提供多種型別以兼顧相容性和效能
 
 ```
@@ -525,6 +553,10 @@ screenshots:
         uri: https://example.com/1.mp4
   - ...
 ```
+
+### 提交 Pull Request
+
+#todo？
 
 
 
