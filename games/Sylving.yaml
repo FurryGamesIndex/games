@@ -4,8 +4,8 @@ description: |
   Sylving is a furry visual novel with romance, adventure, drama, action and comedy. Travel to another world where different anthropomorphic people live, where a long history of conflict has been going between the Dyr, Udyr and Eldor races for centuries, but not without reasons. You'll meet many different characters and learn more about this world, but not everyone is what they seem to be at first glance. 
 
 authors:
-  name: 'Drakita Project'
-  role: [ producer ]
+  - name: 'Drakita Project'
+    role: [ producer ]
 
 tags:
   type:
