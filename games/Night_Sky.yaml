@@ -1,0 +1,79 @@
+name: 'Night Sky'
+
+brief-description: |
+  The Night Sky is a visual novel about a human boy who was born in a world of furry. Follow the adventure of the main protagonist to a place where various consequences will happen by deciding the choices to be made
+
+description: |
+  A boy with weird dreams, wondering why it always happens every night. No family except his big brother though they are both unrelated by blood. One day, the world had a pandemic where everyone was affected. Due to that, school interruption happened. The boy now struggles with his mysterious dreams, brother problems, new friends and best friends, and the pandemic.
+  
+  The Night Sky is a visual novel about a human boy who was born in a world of furry. Follow the adventure of the main protagonist to a place where various consequences will happen by deciding the choices to be made
+
+authors:
+  - name: 'Fort Man'
+    role: [ producer ]
+  - name: Bwen
+    standalone: true
+    link-uri: twitter:Fci_Bwen
+    role: [ artist, character-designer ]
+  - name: Aki
+    standalone: true
+    link-uri: twitter:Loving_Akira
+    role: [ artist, character-designer ]
+  - name: jm._draws
+    standalone: true
+    link-uri: https://www.instagram.com/jm._draws/
+    role: [ artist, character-designer ]
+  - name: Camazule
+    standalone: true
+    link-uri: twitter:Camazule
+    role: [ musician ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  species:
+    - tiger
+    - wolf
+    - bull
+    - bear
+    - humankind
+  fetish:
+    - males-only
+  misc:
+    - freeware
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://fort-man.itch.io/night-sky
+  - name: .twitter
+    uri: twitter:FortMan93917240
+  - name: .discord
+    uri: discord:AY3Zy3kNge
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Night_Sky-unofficial-l10n-zh-redir
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTU1OTE1My85NzAxODg2LmpwZw==/original/0Q5YCz.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU1OTE1My85NzAxODg3LmpwZw==/original/Y612Fq.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU1OTE1My85NzAxODg4LmpwZw==/original/2C%2B9tl.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU1OTE1My85NzAxODg5LmpwZw==/original/nJnqZ%2B.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU1OTE1My85NzAyMjQ1LmpwZw==/original/aGsNut.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU1OTE1My85NzAxODkwLmpwZw==/original/D69p1p.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU1OTE1My85NzAxODkyLmpwZw==/original/%2BJUNug.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU1OTE1My85NzAxODkxLmpwZw==/original/rouhxJ.jpg
