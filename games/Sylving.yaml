@@ -31,7 +31,7 @@ tags:
     - en
     - zh-unofficial
   publish:
-    - itch
+    - itchio
   platform:
     - windows
     - macos
