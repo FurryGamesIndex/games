@@ -1,0 +1,76 @@
+name: 'Labios Salvajes / Wild Lips'
+
+brief-description: |
+  Labios Salvajes (Wild Lips) it's a visual novel +18 set in the history of Tigre Boxeador from Wattpad.
+
+description: |
+  A tiger saves you from being killed by a dark and strange figure. You want to meet him, but all he's trying to do is push you away. During your adventure to meet your savior, you will meet several boys who will catch your eye and change your life.
+  
+  Which path will you choose? And what does the future hold for you?
+
+authors:
+  - name: PedroLibros
+    role: [ producer ]
+  - name: raytig12
+    standalone: true
+    link-uri: twitter:raytig12
+    role: [ artist ]
+  - name: Vitaly
+    standalone: true
+    link-uri: twitter:vitaly4321
+    role: [ artist ]
+  - name: 'Crysta D.M'
+    standalone: true
+    link-uri: twitter:DelCrysta
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - dragon
+    - tiger
+    - mouse
+    - dog
+    - wolf
+    - humankind
+  fetish:
+    - males-only
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - es
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://pedrolibros.itch.io/labios-salvajes
+  - name: .patreon
+    uri: patreon:pedrolibros
+  - name: .twitter
+    uri: twitter:PJLibros20
+  - name: .discord
+    uri: discord:mGFcg6j
+  - name: .unofficial-version-zh
+    uri: FGI-misc-page:Wild_Lips-unofficial-l10n-zh-redir
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjU1Nzg2Lzc2NTYzOTIucG5n/original/%2F%2Bk%2FDe.png
+  - https://img.itch.zone/aW1hZ2UvNjU1Nzg2Lzc2NTYzOTMucG5n/original/Gn66Zi.png
