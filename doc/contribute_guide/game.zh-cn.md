@@ -427,6 +427,7 @@ links:
 部分链接可以简写成我们定义的 URI 形式，推荐使用但并非强制
 
 - Steam: `steam:ID` 比如 `steam:570840`，相当于 `https://store.steampowered.com/app/570840`
+- Discord: `discord:ID` 比如 `discord:xbox`，相当于 ` https://discord.gg/xbox`
 - Twitter: `twitter:推主` 比如 `twitter:EchoTheVN`，相当于 `https://twitter.com/EchoTheVN/`
 - Patreon: `patreon:用户名` 比如 `patreon:EchoGame`，相当于 `https://www.patreon.com/EchoGame`
 - Tumblr: `tumblr:用户名` 比如 `tumblr:xxx`，相当于 `https://xxx.tumblr.com/`

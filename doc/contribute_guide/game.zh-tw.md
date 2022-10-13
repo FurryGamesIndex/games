@@ -427,6 +427,7 @@ links:
 部分連結可以簡寫成我們定義的 URI 形式，推薦使用但並非強制
 
 - Steam: `steam:ID` 比如 `steam:570840`，相當於 `https://store.steampowered.com/app/570840`
+- Discord: `discord:ID` 比如 `discord:xbox`，相當於  ` https://discord.gg/xbox`
 - Twitter: `twitter:推主` 比如 `twitter:EchoTheVN`，相當於 `https://twitter.com/EchoTheVN/`
 - Patreon: `patreon:使用者名稱` 比如 `patreon:EchoGame`，相當於 `https://www.patreon.com/EchoGame`
 - Tumblr: `tumblr:使用者名稱` 比如 `tumblr:xxx`，相當於 `https://xxx.tumblr.com/`
