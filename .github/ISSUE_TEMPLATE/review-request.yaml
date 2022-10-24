@@ -1,5 +1,5 @@
 name: Review request / 游戏信息补充或更正
-description: Point out omissions or errors in the game entries. / 指出游戏条目的疏漏、错误。
+description: Point out omissions or errors in a game entry. / 指出游戏条目的疏漏或错误。
 title: "[Review request] (Game name / 游戏名称)"
 labels: ["games-need-update"]
 body:
