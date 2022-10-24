@@ -5,8 +5,6 @@ description: |
 
   Take on the role of this shy introvert as his small world begins to unravel with each new day.  Can any of the various beefcakes help  Julian to come out of his shell, and see the big sexy picture?  You are armed with your trusty camera, and there are many experiences waiting for you at the House of Beef!
 
-description-format: markdown
-
 authors:
   - name: Braford
     role: [ producer, screenwriter, artist ]
@@ -42,6 +40,7 @@ tags:
     - windows
     - macos
     - linux
+    - android
 
 links:
   - name: .itch.io
