@@ -1,0 +1,31 @@
+name: Game request / 游戏收入申请
+description: Suggest an new game for FGI. / 向 FGI 引荐新游戏。
+title: "[Game request] (Game name / 游戏名称)"
+labels: ["new-games"]
+body:
+- type: textarea
+  attributes:
+    label: Game name(s) / 游戏名称
+    placeholder: Fill in the official name of the game's native language, and then list the official or folk translations. / 列出游戏源语言的官方名称、官方译名或民间译名。
+  validations:
+    required: true
+- type: dropdown
+  attributes:
+    label: Development Status / 开发状态
+    options:
+      - Released / 已完成
+      - Work in process / 制作中
+      - Private / 未公开
+      - Dead / Suspended / 已终止 / 已暂停
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Related Links / 相关链接
+    placeholder: Fill in the official source of access to the game, release pages, social platform accounts, localization resources, etc. / 填写该游戏的官方获取渠道、游戏官方的社交平台账号、本地化资源等链接。
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Additional Context / 其他说明
+    placeholder: Add any other context about the game request here. / 填写其他想要补充的信息。

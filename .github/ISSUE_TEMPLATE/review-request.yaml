@@ -1,0 +1,17 @@
+name: Review request / 游戏信息补充或更正
+description: Point out omissions or errors in the game entries. / 指出游戏条目的疏漏、错误。
+title: "[Review request] (Game name / 游戏名称)"
+labels: ["games-need-update"]
+body:
+- type: input
+  attributes:
+    label: Game name(s) / 游戏名称
+    placeholder: Fill in the official name of the game. / 填写游戏的官方名称。
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Notes on Revisions / 补充或更正内容说明
+    placeholder: Fill in the specific revision request, reason, reference and other information. / 填写具体的修改请求、理由、参考资料等信息。
+  validations:
+    required: true
