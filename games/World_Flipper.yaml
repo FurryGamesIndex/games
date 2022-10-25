@@ -1,0 +1,101 @@
+name: World Flipper
+
+brief-description: |
+  World Flipper, a pinball-themed action mobile game with pixel graphics and a retro feel. Don't miss out on this EPIC pinball adventure!
+
+description: |
+  Don't miss out on this EPIC pinball adventure!
+  
+  ◆ PINBALL MEETS ACTION RPG!
+  Everything you love about pinball packed into an action RPG! Experience pinball like you never have before!
+  
+  ◆ FAST-PACED COMBAT!
+  Ready, aim, fire! Time your attacks right and crush your foes before they know what hit 'em. Activate skills to maximize damage!
+  
+  ◆ EXPLORE FANTASY WORLDS!
+  Travel across several worlds, each with its own friends to meet and mysteries to unravel!
+  
+  ◆ STRATEGIZE AND BUILD YOUR TEAM!
+  In World Flipper, units can pair up and combine their abilities.
+  Find the perfect duo, and unlock game-breaking combo skills.
+  
+  ◆ TAKE ON CO-OP BOSS BATTLES!
+  Team up with friends, link together skill chains, and bring down nightmarish foes!
+  
+  ◆ DIVE INTO THE STORY BEHIND EACH CHARACTER!
+  Every character is beautifully illustrated, with episodic story arcs to unlock!
+  
+  ◆ NOSTALGIC PIXEL ART!
+  Watch the story unfold in adorable pixel animation. It's a whole epic in your pocket.
+
+
+description-format: markdown
+
+authors:
+  - name: Cygames
+    role: [ producer ]
+  - name: Citail
+    role: [ producer ]
+  - name: PLAY KAKAO GAMES
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+    - adventure
+    - shooter
+  species:
+    - wolf
+    - dog
+    - lion
+    - leopard
+    - cheetah
+    - mouse
+    - cat
+    - dragon
+    - humankind
+    - non-anthro
+  misc:
+    - pixel-art
+    - freeware
+    - multiplayer
+    - co-op
+    - multiple-series
+    - outside-furry-fandom
+    - not-only-furry-topic
+    - online
+    - centralized
+  lang:
+    - en
+    - jp
+    - zh
+  publish:
+    - google-play
+    - apple-appstore
+  platform:
+    - android
+    - ios
+  sys:
+    - staging
+    - tagme
+
+links:
+  - name: .website
+    uri: https://worldflipper.playkakaogames.com
+  - twitter: Worldflipper_kg
+  - name: .youtube
+    uri: https://youtube.com/channel/UCr01QtZk8qDWAMfomyWFIOw
+  - google-play-store: com.kakaogames.wdfp
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/world-flipper/id1551598341
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://akamai-webcdn.kgstatic.net/web_static/wf/live/images/pc/img_en_feature1.jpg
+  - https://akamai-webcdn.kgstatic.net/web_static/wf/live/images/pc/img_en_feature2.jpg
+  - https://akamai-webcdn.kgstatic.net/web_static/wf/live/images/pc/img_en_feature3.jpg
+  - https://akamai-webcdn.kgstatic.net/web_static/wf/live/images/pc/img_en_feature4.jpg
+  - https://akamai-webcdn.kgstatic.net/web_static/wf/live/images/pc/img_en_feature5.jpg
+  - type: youtube
+    id: Wp_ww9Zjcgg
