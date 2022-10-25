@@ -76,7 +76,9 @@ tags:
 links:
   - name: .website
     uri: https://worldflipper.playkakaogames.com
-  - twitter: Worldflipper_kg
+  - name: Twitter
+    icon: twitter
+    uri: twitter:Worldflipper_kg
   - name: .youtube
     uri: https://youtube.com/channel/UCr01QtZk8qDWAMfomyWFIOw
   - google-play-store: com.kakaogames.wdfp
