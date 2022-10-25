@@ -8,8 +8,6 @@ description: |
 
   There are currently 3 dateable characters in-game, each with their own complex backstory and mystery to unravel. All are heavily WIP, with Sissel's route being closest to completion. Despite its in-progress state, Repeat (Visual Novel) currently contains over 100+ illustrated scenes!
 
-description-format: markdown
-
 authors:
   - name: shirokoi
     role: [ producer, screenwriter, artist, programmer ]
@@ -36,7 +34,6 @@ tags:
     - uncensored
     - engine-renpy
     - multiple-endings
-    - suspended
   lang:
     - en
     - zh-unofficial
@@ -54,13 +51,19 @@ links:
     uri: https://shirokoi.itch.io/repeat-visual-novel
   - name: .patreon
     uri: patreon:shirokoi
+  - name: .twitter
+    uri: twitter:shirokoi
+  - name: .furaffinity
+    uri: furaffinity:shirokoi
   - name: .unofficial-version-zh
     uri: https://simone-parker.itch.io/repeatzh
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvNDgzMzk4LzI0OTMyMzcucG5n/original/GninCg.png
-  - https://img.itch.zone/aW1hZ2UvNDgzMzk4LzI0OTMyMDkucG5n/original/PuPFma.png
+  - https://img.itch.zone/aW1hZ2UvNDgzMzk4LzEwMzM3MzYyLnBuZw==/original/6S6%2FMx.png
+  - https://img.itch.zone/aW1hZ2UvNDgzMzk4LzEwMzM3MzYzLnBuZw==/original/08uxg6.png
   - https://img.itch.zone/aW1hZ2UvNDgzMzk4LzI0OTMyMzEucG5n/original/WdRBQo.png
+  - https://img.itch.zone/aW1hZ2UvNDgzMzk4LzEwMzM3MzYwLnBuZw==/original/7Tt%2BVX.png
+  - https://img.itch.zone/aW1hZ2UvNDgzMzk4LzEwMzM3MzU0LnBuZw==/original/v3mvoM.png
   - https://img.itch.zone/aW1hZ2UvNDgzMzk4LzI0OTMyMTAucG5n/original/hkRUtl.png
