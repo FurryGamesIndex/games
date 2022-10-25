@@ -81,7 +81,8 @@ links:
     uri: twitter:Worldflipper_kg
   - name: .youtube
     uri: https://youtube.com/channel/UCr01QtZk8qDWAMfomyWFIOw
-  - google-play-store: com.kakaogames.wdfp
+  - name: .play-store
+    uri: google-play-store:com.kakaogames.wdfp
   - name: .apple-appstore
     uri: https://apps.apple.com/us/app/world-flipper/id1551598341
 
