@@ -72,9 +72,6 @@ tags:
   platform:
     - android
     - ios
-  sys:
-    - staging
-    - tagme
 
 links:
   - name: .website
