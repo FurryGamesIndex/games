@@ -3,7 +3,7 @@
 [打开 World Flipper 的 FGI 页面](https://furrygames.top/zh-cn/games/World_Flipper.html)
 
 ## 说明
-    全球服请直接于 World Flippern 的原始 FGI 页面获取有关信息
+    全球服请直接于 World Flipper 的原始 FGI 页面获取有关信息
     此处不提供任何非官方链接（如 Wiki、论坛等，官网提及的除外）
 
 ## 国服（世界弹射物语）
