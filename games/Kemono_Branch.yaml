@@ -19,6 +19,7 @@ tags:
     - muscle
   misc:
     - died
+    - expired
     - grayscale
     - multiple-endings
   lang:
@@ -29,9 +30,12 @@ tags:
 links:
   - name: .website
     uri: https://zoharwolf.weebly.com
-  - name: .unofficial-archived-download
-    uri: https://www.gamemale.com/thread-92145-1-1.html
 
 screenshots:
   - https://img.gamemale.com/forum/202206/27/223619s4nen4ne467s6enz.png
   - https://img.gamemale.com/forum/202206/27/214348drwiwqarpylmvdqh.png
+
+# 避免我忘了评论
+#  - name: .unofficial-archived-download
+#    uri: https://www.gamemale.com/thread-92145-1-1.html
+#
