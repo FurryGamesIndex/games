@@ -30,10 +30,12 @@ description: |
 
 authors:
   - name: Cygames
-    role: [ producer ]
+    role: [ producer, publisher ]
   - name: Citail
     role: [ producer ]
   - name: PLAY KAKAO GAMES
+    role: [ publisher ]
+  - name: 雷霆游戏
     role: [ publisher ]
 
 tags:
