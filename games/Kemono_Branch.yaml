@@ -22,6 +22,8 @@ tags:
     - expired
     - grayscale
     - multiple-endings
+  publish:
+    - website
   lang:
     - zh
   platform:
