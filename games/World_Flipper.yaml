@@ -63,6 +63,7 @@ tags:
     - not-only-furry-topic
     - online
     - centralized
+    - geographical
   lang:
     - en
     - ja
@@ -70,9 +71,11 @@ tags:
   publish:
     - google-play
     - apple-appstore
+    - website
   platform:
     - android
     - ios
+    - web
 
 links:
   - name: .website
