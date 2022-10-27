@@ -94,7 +94,7 @@ links:
   - name: .itch.io
     uri: https://f1shsticker.itch.io/outland-wanderer
   - name: .patreon
-    uri: patron:OutlandWanderer
+    uri: patreon:OutlandWanderer
   - name: .twitter
     uri: twitter:OutlandWanderer
   - name: .discord
