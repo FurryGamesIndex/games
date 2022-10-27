@@ -1,0 +1,110 @@
+name: Outland Wanderer
+
+description: |
+  Player is an outsider stumbling upon the continent of Mokken. 
+  In his attempt to travel back to his own Tribe, he bonds and form different relationship with the locals, tackles on unknown forces, and discovers his own destiny.
+
+authors:
+  - name: f1shsticker
+    role: [ producer,screenwriter,programmer,artist ]
+
+  - name: lonelytree
+    role: [ screenwriter ]
+    standalone: true
+    link-uri: https://discordapp.com/users/273928084388839425
+
+  - name: Magnolia
+    role: [ screenwriter ]
+    standalone: true
+
+  - name: Nyarlothotep
+    role: [ screenwriter ]
+    standalone: true
+    link-uri: https://twitter.com/LoveCountry45
+
+  - name: Pinewood Jerry
+    role: [ musician ]
+    standalone: true
+    link-uri: https://twitter.com/Pinewood_Jerry
+
+  - name: Will o Wisp
+    role: [ musician ]
+    standalone: true
+    link-uri: https://soundcloud.com/willowispproductions
+
+  - name: Sannom Paul
+    role: [ translator ]
+    standalone: true
+    link-uri: https://twitter.com/SannomTigris
+
+  - name: Fabio
+    role: [ translator ]
+    standalone: true
+    link-uri: https://twitter.com/Fabio120938
+
+  - name: Frasty
+    role: [ translator ]
+    standalone: true
+    link-uri: https://discordapp.com/users/863871634758959144
+    
+tags:
+  type:
+    - adventure
+    - role-playing
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - lion
+    - wolf
+    - lizard
+    - bull
+    - dragon
+  fetish:
+    - males-only
+    - blowjob
+    - exhibitionism
+    - anal
+    - handjob
+    - mind-control 
+    - corruption
+    - vore
+    - bondage
+    - group
+    - muscle
+    - stomach-deformation
+  misc:
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - fr
+    - pt
+  publish:
+    - itchio
+  platform:
+    - macos
+    - windows
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://f1shsticker.itch.io/outland-wanderer
+  - name: .patreon
+    uri: patron:OutlandWanderer
+  - name: .twitter
+    uri: twitter:OutlandWanderer
+  - name: .discord
+    uri: https://discord.gg/QnbJMGhZhV
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NzQ1ODM3LnBuZw==/347x500/t7vyEm.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85MDA0NTA0LmpwZw==/347x500/%2B8%2FQo8.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NTYxMDE4LnBuZw==/347x500/wJthEV.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NzY4NjE2LnBuZw==/original/yTsusk.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NTg3OTUyLnBuZw==/347x500/qcBvNp.png
