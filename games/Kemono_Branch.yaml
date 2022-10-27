@@ -1,0 +1,45 @@
+name: Kemono Branch
+
+description: |
+  You and your foster dad went travel and were involved into something strange.
+  The game includes multiple endings and they all based on your choices.
+  However, it's still a light-hearted game.
+
+authors:
+  - name: Zoharwolf
+    role: [ producer, screenwriter, programmer, artist ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - wolf
+  fetish:
+    - shota
+    - muscle
+  misc:
+    - died
+    - expired
+    - grayscale
+    - multiple-endings
+  publish:
+    - website
+  lang:
+    - zh
+  platform:
+    - windows
+
+links:
+  - name: .website
+    uri: https://zoharwolf.weebly.com
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.gamemale.com/forum/202206/27/223619s4nen4ne467s6enz.png
+  - https://img.gamemale.com/forum/202206/27/214348drwiwqarpylmvdqh.png
+
+# 避免我忘了评论
+#  - name: .unofficial-archived-download
+#    uri: https://www.gamemale.com/thread-92145-1-1.html
+#
