@@ -46,7 +46,7 @@ authors:
     role: [ translator ]
     standalone: true
     link-uri: https://discordapp.com/users/863871634758959144
-    
+
 tags:
   type:
     - adventure
@@ -100,7 +100,7 @@ links:
   - name: .discord
     uri: https://discord.gg/QnbJMGhZhV
 
-thumbnail: thumbnail.jpg
+thumbnail: thumbnail.png
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NzQ1ODM3LnBuZw==/347x500/t7vyEm.png
