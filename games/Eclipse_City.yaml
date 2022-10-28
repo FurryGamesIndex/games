@@ -1,0 +1,89 @@
+name: Eclipse City
+
+description: |
+  Eclipse City is a visual novel with action, sci-fi, and romance themes. 
+  The story follows a human Texas Ranger (Default name: Jack) who ended up in a futuristic world populated by anthropomorphic canines and felines. 
+  As he tries to maintain his new life in Eclipse City, the Texas Ranger will meet allies and enemies. Will he survive Eclipse City or will Eclipse City consume him?
+
+authors:
+  - name: DarkWolfRanger
+    role: [ producer,screenwriter ]
+    standalone: true
+    link-uri: https://twitter.com/DarkWolfRanger1
+
+  - name: Lex1Art
+    role: [ artist ]
+    standalone: true
+    link-uri: https://twitter.com/Lex1Art
+
+  - name: lu_waro
+    role: [ artist ]    
+    standalone: true
+    link-uri: https://twitter.com/lu_waro
+
+  - name: Saruzilla
+    role: [ artist ]
+    standalone: true
+    link-uri: https://twitter.com/Saruzilla
+
+  - name: GarenTheFox
+    role: [ musician ]
+    standalone: true
+    link-uri: https://twitter.com/GarenTheFox
+
+  - name: gatortotsmusik
+    role: [ musician ]
+    standalone: true
+    link-uri: https://twitter.com/gatortotsmusik
+
+  - name: ParvosProphet
+    role: [ programmer ]
+    standalone: true
+    link-uri: https://twitter.com/ParvosProphet
+
+  - name: BenceCan'tDraw
+    role: [ screenwriter ]
+    standalone: true
+    link-uri:  BenceCan'tDraw
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - dog
+    - wolf
+    - humankind
+  fetish:
+    - muscle
+  misc:
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - macos
+    - windows
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://darkwolfranger.itch.io/eclipsecity
+  - name: .twitter
+    uri: twitter:eclpisecity_vn
+  - name: .discord
+    uri: https://discord.gg/8ZGMdFw7kf
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTQ2MTU0MC85MzYyNjgyLmpwZw==/original/FgGHkh.jpg
+  - https://img.itch.zone/aW1hZ2UvMTQ2MTU0MC85MzYyNjY3LnBuZw==/original/kq3Mve.png
+  - https://img.itch.zone/aW1hZ2UvMTQ2MTU0MC85MzYyNjYyLnBuZw==/original/1f6L2p.png
+  - https://img.itch.zone/aW1hZ2UvMTQ2MTU0MC85MzYyNjQ0LnBuZw==/original/I6V1OQ.png
