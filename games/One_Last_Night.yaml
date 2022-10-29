@@ -1,0 +1,79 @@
+name: One Last Night
+
+description: |
+  One Last Night is an 18+ furry visual novel where you play as Dorian, our main character, 
+  as he navigates the world around him and the trials he'll face for the sake of his true love, Marshall. 
+
+authors:
+  - name: Mashed Potitties
+    role: [ producer,screenwriter ]
+    standalone: true
+    link-uri: https://twitter.com/MashPotitties
+
+  - name: Toroi
+    role: [ artist ]
+    standalone: true
+    link-uri: https://twitter.com/T0roii
+
+  - name: Houndvaillx
+    role: [ artist ]    
+    standalone: true
+    link-uri: https://twitter.com/houndvaillx
+
+  - name: TheBlindOri
+    role: [ artist ]
+    standalone: true
+    link-uri: https://twitter.com/TheblindOri
+
+  - name: GreysonVulf
+    role: [ musician ]
+    standalone: true
+    link-uri: https://twitter.com/GreysonVulf
+
+  - name: MarcyDragonWolf
+    role: [ programmer ]
+    standalone: true
+    link-uri: https://twitter.com/MarcyDragonWolf
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+    - horror
+  species:
+    - wolf
+    - humankind
+  fetish:
+    - muscle
+  misc:
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - macos
+    - windows
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://mashedp.itch.io/one-last-night
+  - name: .twitter
+    uri: twitter:OneLastNightVN
+  - name: .discord
+    uri: https://discord.gg/hCVTtraYWr
+  - name: .patreon
+    uri: patreon:mashedpotitties
+  - name: Ko-Fi
+    uri: https://ko-fi.com/mashpotitties
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTQ0NTg5Mi84NjM3NTcwLnBuZw==/original/p%2BgygO.png
+  - https://img.itch.zone/aW1hZ2UvMTQ0NTg5Mi84NjM3NTcxLnBuZw==/original/fWbn%2Fe.png
+  - https://img.itch.zone/aW1hZ2UvMTQ0NTg5Mi84NjM3NTcyLnBuZw==/original/yOfVED.png
