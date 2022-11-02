@@ -121,27 +121,27 @@ jobs:
 #       rm -rf output-cn
 #       mv _git .git
 
-    - name: next-build
-      run: |
-        ./scripts/build-next.sh init origin
-        ./scripts/build-next.sh build output-next --btime-file .cache/btime.json --mtime-has-fixed --with-rss && echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}" || true
-
-    - name: next-deploy
-      if: ${{ env.FGI_NEXT_DONE == '1' }}
-      run: |
-        mv .git _git
-        echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
-        git config --global user.email "noreply@example.com"
-        git config --global user.name "deploy-bot"
-        cd output-next
-        git init
-        git remote add origin git@github.com:FurryGamesIndex/FurryGamesIndex.github.io
-        git add .
-        git commit -m 'deploy FGI-next website'
-        git push -f origin master:next
-        cd ..
-        rm -rf output-next
-        mv _git .git
+#    - name: next-build
+#      run: |
+#        ./scripts/build-next.sh init origin
+#        ./scripts/build-next.sh build output-next --btime-file .cache/btime.json --mtime-has-fixed --with-rss && echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}" || true
+#
+#    - name: next-deploy
+#      if: ${{ env.FGI_NEXT_DONE == '1' }}
+#      run: |
+#        mv .git _git
+#        echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
+#        git config --global user.email "noreply@example.com"
+#        git config --global user.name "deploy-bot"
+#        cd output-next
+#        git init
+#        git remote add origin git@github.com:FurryGamesIndex/FurryGamesIndex.github.io
+#        git add .
+#        git commit -m 'deploy FGI-next website'
+#        git push -f origin master:next
+#        cd ..
+#        rm -rf output-next
+#        mv _git .git
 
     - name: sync-mirror
       run: |
