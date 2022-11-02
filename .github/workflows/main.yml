@@ -68,7 +68,7 @@ jobs:
             output
         mkdir -p output/_internal
         cp .cache/btime.json output/_internal/btime.json
-        cp -r .github/.ghpages_lower_dir/. output/
+	cp -r .github/.ghpages_lower_dir/. output/
 
     - name: ssh-key
       uses: shimataro/ssh-key-action@v2
