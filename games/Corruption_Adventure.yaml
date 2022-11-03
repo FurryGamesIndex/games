@@ -1,0 +1,53 @@
+name: Corruption Adventure
+
+description: |
+  Corruption Adventure is a NSFW RPG adventure game!
+  You will embark on a journey as the legendary Lord of the Valley of the North Wind, and face the fate of the evil Lord Midnight!
+  In the journey will be filled with all kinds of dangers and tribulations, once you miss, waiting for you will be the punishment of corruption...
+  But as a legendary Lord, even the most dangerous difficulties will not stop you from moving forward, start your journey!
+
+authors:
+  - name: Mashed Potitties
+    role: [ producer,screenwriter,artist,programmer ]
+    standalone: true
+    link-uri: https://twitter.com/DragonBingling
+
+tags:
+  type:
+    - adventure
+    - role-playing
+    - bara
+    - yiff
+  species:
+    - dragon
+  fetish:
+    - males-only
+    - muscle
+    - corruption
+    - mind-control
+  misc:
+    - engine-rpg-maker
+    - multiple-endings
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - itchio
+  platform:
+    - windows
+
+links:
+  - name: .itch.io
+    uri: https://dragonbingling.itch.io/corruption-adventure
+  - name: Telegram
+    icon: telegram
+    uri: https://t.me/DragonBingling
+  - name: .furaffinity
+    uri: furaffinity:bingling-op
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTYxNjQ1OS8xMDM2OTA5Mi5wbmc=/original/MYVvVq.png
+  - https://img.itch.zone/aW1hZ2UvMTYxNjQ1OS8xMDM2OTA5My5wbmc=/original/NSgiZv.png
+  - https://img.itch.zone/aW1hZ2UvMTYxNjQ1OS8xMDM2OTA5NS5wbmc=/original/8Rxyuj.png
