@@ -40,6 +40,7 @@ links:
   - name: .itch.io
     uri: https://dragonbingling.itch.io/corruption-adventure
   - name: Telegram
+    icon: telegram
     uri: https://t.me/DragonBingling
   - name: .furaffinity
     uri: furaffinity:bingling-op
