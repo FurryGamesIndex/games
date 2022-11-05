@@ -17,7 +17,7 @@ nav_faq: 常見問題
 nav_contributors: 貢獻者
 nav_languages: 語言
 
-copying_area_tip: 發現缺少了東西或錯誤？希望新增遊戲？或者想幫助改進 FurryGamesIndex？立即<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.zh-tw.md">參與其中</a>！
+copying_area_tip: 發現缺少了東西或錯誤？希望新增遊戲？或者想幫助改進 FurryGamesIndex？立即<a href="https://github.com/FurryGamesIndex/games/tree/master/.github/CONTRIBUTING.zh-tw.md">參與其中</a>！
 copying_area_copyright: 版權所有 The FurryGamesIndex project，本站點的資料按照 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">創作共用署名-非商業性使用-相同方式共享(CC-BY-NC-SA) 4.0</a> 許可。部分資料（如遊戲截圖）版權歸原始權利人所有。我們僅在<a href="https://en.wikipedia.org/wiki/Fair_use">合理使用</a>的前提下發布它們。
 copying_preferences: 站點首選項
 copying_privacy_policy: 隱私權政策
@@ -31,7 +31,7 @@ index_v2_header: >
 index_v2_content: >
   <p>FGI (FurryGamesIndex 的縮寫) 是一個致力於收集、組織、分類、標籤“獸人遊戲”或包含 furry、kemono 內容的遊戲的專案。同時也收集這些遊戲的第三方本地化資源連結。</p>
   <p>建立該專案的動機是狗哥（LuckyDoge）放棄了他的<a href="https://doge.im/recommend/kemono-games.html">獸人控遊戲合集</a>專案，Utopic Panther 曾經受益於狗哥的專案，試圖在網際網路上重建一個遊戲合集。<a href="https://github.com/FurryGamesIndex/games/blob/master/luckydoge.txt">狗哥慷慨地提供了他曾經付出大量努力取得的成果</a>，使這個專案快速發展為實用的列表成為了可能。</p>
-  <p>我們希望你也能來參與這個專案中，<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.zh-tw.md">立即參與其中</a>。</p>
+  <p>我們希望你也能來參與這個專案中，<a href="https://github.com/FurryGamesIndex/games/tree/master/.github/CONTRIBUTING.zh-tw.md">立即參與其中</a>。</p>
 
 index_link_games: 顯示所有遊戲
 search_found_n_item: 共找到 {0} 項
@@ -70,10 +70,10 @@ game_share_twitter_text: 在獸人控遊戲索引上檢視遊戲「{name}」
 game_contact_us: 透過以下方式聯絡“獸人控遊戲索引”專案
 game_sensitive_warning: 當前頁面可能包含敏感媒體，它們已被隱藏。 <a href="%s/%s/sensitive.html">管理敏感內容設定</a>
 
-warnbox_staging: 此頁面被標記為尚未完成。這意味著維護者或貢獻者沒有收集到足夠的資訊，或者此頁面是由自動化程式生成的。此頁面可能對您有幫助，但其中的資訊可能不夠準確。我們已經禁止 Web 搜尋引擎索引此頁面。<br><a href="https://github.com/FurryGamesIndex/games/issues/new?title=[Game+{game_id}]+Subject+of+the+problem&body=Describe+the+problem&labels=games">報告問題</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.en.md">參與我們</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{game_id}.yaml">編輯此頁面</a>
+warnbox_staging: 此頁面被標記為尚未完成。這意味著維護者或貢獻者沒有收集到足夠的資訊，或者此頁面是由自動化程式生成的。此頁面可能對您有幫助，但其中的資訊可能不夠準確。我們已經禁止 Web 搜尋引擎索引此頁面。<br><a href="https://github.com/FurryGamesIndex/games/issues/new?title=[Game+{game_id}]+Subject+of+the+problem&body=Describe+the+problem&labels=games">報告問題</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/tree/master/.github/CONTRIBUTING.zh-tw.md">參與我們</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/edit/master/games/{game_id}.yaml">編輯此頁面</a>
 warnbox_expunge: 此頁面已從列表頁面和搜尋結果中移除
 noticebox_replacedby: 這個遊戲已被 <a href="%s">%s</a> 取代。因此不會顯示在列表頁面。
-noticebox_wip_game_over_90d: 這個遊戲被標記為未完成/已暫停。然而，這個頁面已經超過 90 天沒有被任何維護者編輯過了，其中的部分內容可能已經過時。<br><a href="https://github.com/FurryGamesIndex/games/issues/new?title=[Game%20{game_id}]%20%E5%9C%A8%E8%BF%99%E9%87%8C%E5%A1%AB%E5%86%99%E9%97%AE%E9%A2%98%E7%9A%84%E6%91%98%E8%A6%81&body=%E6%8F%8F%E8%BF%B0%E9%97%AE%E9%A2%98&labels=games">報告問題</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/blob/master/doc/Get-Involved.zh-tw.md">參與我們</a>
+noticebox_wip_game_over_90d: 這個遊戲被標記為未完成/已暫停。然而，這個頁面已經超過 90 天沒有被任何維護者編輯過了，其中的部分內容可能已經過時。<br><a href="https://github.com/FurryGamesIndex/games/issues/new?title=[Game%20{game_id}]%20%E5%9C%A8%E8%BF%99%E9%87%8C%E5%A1%AB%E5%86%99%E9%97%AE%E9%A2%98%E7%9A%84%E6%91%98%E8%A6%81&body=%E6%8F%8F%E8%BF%B0%E9%97%AE%E9%A2%98&labels=games">報告問題</a>&nbsp;&nbsp;<a href="https://github.com/FurryGamesIndex/games/tree/master/.github/CONTRIBUTING.zh-tw.md">參與我們</a>
 
 sensitive_page_tip: |
   這將在所有 FGI 頁面上啟用顯示敏感內容。<br>
