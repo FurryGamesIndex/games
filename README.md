@@ -11,7 +11,7 @@
 </p>
 
 <h1 align="center">
-  <img src="/assets/_README/logo.png width="150">
+  <img src="/assets/_README/logo.png" width="150">
   <br>Furry Games Index<br>
 </h1>
 
