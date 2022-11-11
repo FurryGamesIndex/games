@@ -1,6 +1,37 @@
-[English](README.md) | [简体中文](README.zh-cn.md) | 正體中文
+<p align="right">
+  <a href="README.md">
+  English
+  </a>
+  <span> | </span>
+  <a href="README.zh-cn.md">
+  简体中文
+  </a>
+  <span> | <span>
+  <strong>繁體中文<strong>
+  </a>
+</p>
 
-# 獸人控遊戲索引
+<h1 align="center">
+  <img src="/assets/_README/logo.png" width="150">
+  <br>獸人控遊戲索引<br>
+</h1>
+
+<p align="center">
+  <a href="LICENSE.GPL3">
+    <img alt="LICENSE" src="https://img.shields.io/badge/license-GPL--3.0-orange">
+  </a>
+  <a href="LICENSE.CC-BY-NC-SA4">
+    <img alt="LICENSE" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-0089a6">
+  </a>
+  <a href="https://github.com/FurryGamesIndex/games/network">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/FurryGamesIndex/games?color=brightgreen">
+  </a>
+  <a href="https://github.com/FurryGamesIndex/games/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/FurryGamesIndex/games?color=purple">
+  </a>
+  <a href="https://github.com/FurryGamesIndex/games/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/FurryGamesIndex/games">
+  </a>
 
 歡迎來到來到獸人控遊戲索引（Furry Games Index）專案。本專案致力於收集、組織、分類、標籤“獸人遊戲”，並收集這些遊戲的本地化資源連結，為我們自己及獸迷社群提供便捷的資訊檢索服務。
 

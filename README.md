@@ -1,6 +1,37 @@
-English | [简体中文](README.zh-cn.md) | [正體中文](README.zh-tw.md)
+<p align="right">
+  <strong>English<strong>
+  <span> | </span>
+  <a href="README.zh-cn.md">
+  简体中文
+  </a>
+  <span> | <span>
+  <a href="README.zh-tw.md">
+  繁體中文
+  </a>
+</p>
 
-# Furry Games Index
+<h1 align="center">
+  <img src="/assets/_README/logo.png width="150">
+  <br>Furry Games Index<br>
+</h1>
+
+<p align="center">
+  <a href="LICENSE.GPL3">
+    <img alt="LICENSE" src="https://img.shields.io/badge/license-GPL--3.0-orange">
+  </a>
+  <a href="LICENSE.CC-BY-NC-SA4">
+    <img alt="LICENSE" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-0089a6">
+  </a>
+  <a href="https://github.com/FurryGamesIndex/games/network">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/FurryGamesIndex/games?color=brightgreen">
+  </a>
+  <a href="https://github.com/FurryGamesIndex/games/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/FurryGamesIndex/games?color=purple">
+  </a>
+  <a href="https://github.com/FurryGamesIndex/games/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/FurryGamesIndex/games">
+  </a>
+
 
 Welcome to Furry Games Index. A project devoted to collecting, organizing, categorizing, and labeling ***furry games***, as well as collecting links to their localization resources. Providing a convenient information retrieval service for ourselves and furry fandom.
 
