@@ -6,14 +6,14 @@
   <a href="README.zh-cn.md">
   简体中文
   </a>
-  <span> | <span>
-  <strong>繁體中文<strong>
+  <span> | </span>
+  <strong>繁體中文</strong>
   </a>
 </p>
 
 <h1 align="center">
-  <img src="/assets/_README/logo.png" width="150">
-  <br>獸人控遊戲索引<br>
+  <img src="/assets/_README/logo.png" width="25%">
+  <br>獸人控遊戲索引
 </h1>
 
 <p align="center">
@@ -32,6 +32,7 @@
   <a href="https://github.com/FurryGamesIndex/games/issues">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/FurryGamesIndex/games">
   </a>
+</p>
 
 歡迎來到來到獸人控遊戲索引（Furry Games Index）專案。本專案致力於收集、組織、分類、標籤“獸人遊戲”，並收集這些遊戲的本地化資源連結，為我們自己及獸迷社群提供便捷的資訊檢索服務。
 

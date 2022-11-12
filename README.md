@@ -1,18 +1,18 @@
 <p align="right">
-  <strong>English<strong>
+  <strong>English</strong>
   <span> | </span>
   <a href="README.zh-cn.md">
   简体中文
   </a>
-  <span> | <span>
+  <span> | </span>
   <a href="README.zh-tw.md">
   繁體中文
   </a>
 </p>
 
 <h1 align="center">
-  <img src="/assets/_README/logo.png" width="150">
-  <br>Furry Games Index<br>
+  <img src="/assets/_README/logo.png" width="25%">
+  <br>Furry Games Index
 </h1>
 
 <p align="center">
@@ -31,7 +31,7 @@
   <a href="https://github.com/FurryGamesIndex/games/issues">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues/FurryGamesIndex/games">
   </a>
-
+</p>
 
 Welcome to Furry Games Index. A project devoted to collecting, organizing, categorizing, and labeling ***furry games***, as well as collecting links to their localization resources. Providing a convenient information retrieval service for ourselves and furry fandom.
 
