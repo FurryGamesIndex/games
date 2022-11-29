@@ -2,11 +2,12 @@ name: Outland Wanderer
 
 description: |
   Player is an outsider stumbling upon the continent of Mokken. 
+
   In his attempt to travel back to his own Tribe, he bonds and form different relationship with the locals, tackles on unknown forces, and discovers his own destiny.
 
 authors:
   - name: f1shsticker
-    role: [ producer,screenwriter,programmer,artist ]
+    role: [ producer, screenwriter, programmer, artist ]
 
   - name: lonelytree
     role: [ screenwriter ]
@@ -82,8 +83,10 @@ tags:
     - en
     - fr
     - pt
+    - zh-unofficial
   publish:
     - itchio
+    - patreon
   platform:
     - macos
     - windows
@@ -99,12 +102,18 @@ links:
     uri: twitter:OutlandWanderer
   - name: .discord
     uri: https://discord.gg/QnbJMGhZhV
+  - name: .unofficial-patch-zh
+    uri: https://www.gamemale.com/thread-97995-1-1.html
 
-thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NzQ1ODM3LnBuZw==/347x500/t7vyEm.png
-  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85MDA0NTA0LmpwZw==/347x500/%2B8%2FQo8.jpg
-  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NTYxMDE4LnBuZw==/347x500/wJthEV.png
-  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NzY4NjE2LnBuZw==/original/yTsusk.png
-  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NTg3OTUyLnBuZw==/347x500/qcBvNp.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NzQ1ODM3LnBuZw==/original/lIV5Et.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85MDA0NTA0LmpwZw==/original/dM0LH8.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDM0MDQ1MC5wbmc=/original/HzasSC.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85ODI1NDcwLmpwZw==/original/ceDIFz.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDA2OTUwMi5wbmc=/original/VvYP2k.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC84OTg1MjI5LnBuZw==/original/zaiN8B.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NTYxMDE4LnBuZw==/original/If17bF.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDQ1NjIxNy5wbmc=/original/G3wnp9.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDU5NDg2Ny5wbmc=/original/8LYYiR.png
