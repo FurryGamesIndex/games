@@ -1,21 +1,22 @@
 name: A Hellish Journey
 
 brief-description: |
-  With his newfound power, both Aki and the demon pulled off a stunt that was completely out of the line, attracting the attention of some other demons. Who could they be? Are they here to help him on his journey? Could you possibly build a relationship with one of them? Or maybe one of them is here for Aki's head... The story shall progress. 
+  With his newfound power, both Aki and the demon pulled off a stunt that was completely out of the line, attracting the attention of some other demons. Who could they be? Are they here to help him on his journey? Could you possibly build a relationship with one of them? Or maybe one of them is here for Aki's head... The story shall progress.
 
 description: |
-  The story is about Aki(Name can be changed), a lowlife mercenary wolf who got paid to do every job, either good or bad. Growing up in an unnamed kingdom, he lived there as a street wolf after being abandoned by his mother and father. Until one day he met someone, someone that has a heart of gold, who helped him on getting back up again, but the stranger would leave him one day on an important mission... 
+  The story is about Aki(Name can be changed), a lowlife mercenary wolf who got paid to do every job, either good or bad. Growing up in an unnamed kingdom, he lived there as a street wolf after being abandoned by his mother and father. Until one day he met someone, someone that has a heart of gold, who helped him on getting back up again, but the stranger would leave him one day on an important mission...
 
-  Then, he was all alone again, remembering and following every teaching the stranger had taught him and used those skills as an opportunity to become a mercenary. But his ways were too much and soon went out of line, agitating the king as a job went horribly wrong. Given the choice to step down as a mercenary or be exiled, he chose the latter but he was ultimately hunted down and killed by the kingdom's knights. 
+  Then, he was all alone again, remembering and following every teaching the stranger had taught him and used those skills as an opportunity to become a mercenary. But his ways were too much and soon went out of line, agitating the king as a job went horribly wrong. Given the choice to step down as a mercenary or be exiled, he chose the latter but he was ultimately hunted down and killed by the kingdom's knights.
 
-  But in a sudden twist of events before he was completely dead, an infamous demon took an interest in him and made a pact with him to become his vessel and to live with unimaginable powers and immortality. 
+  But in a sudden twist of events before he was completely dead, an infamous demon took an interest in him and made a pact with him to become his vessel and to live with unimaginable powers and immortality.
 
   With his newfound power, both Aki and the demon pulled off a stunt that was completely out of the line, attracting the attention of some other demons. Who could they be? Are they here to help him on his journey? Could you possibly build a relationship with one of them? Or maybe one of them is here for Aki's head... The story shall progress.
 
-description-format: markdown
-
 authors:
-  - name: BigBuffDemonBoi
+  - name: Red Doombringer
+    standalone: true
+    avatar: Red_Doombringer.jpg
+    link-uri: twitter:BigBuffDemonBoi
     role: [ producer ]
 
 tags:
@@ -46,6 +47,7 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
@@ -63,11 +65,13 @@ links:
     uri: discord:VwSFwA2Cbc
   - name: .patreon
     uri: patreon:bigbuffdemonboi
+  - name: .unofficial-patch-zh
+    uri: https://www.gamemale.com/thread-99599-1-1.html
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvODg4NzU3LzYzMzE5MzAuanBn/original/mQwjU5.jpg
-  - https://img.itch.zone/aW1hZ2UvODg4NzU3LzU5MDAyNDYucG5n/original/%2BoR1lA.png
-  - https://img.itch.zone/aW1hZ2UvODg4NzU3LzYzMzE5MjkuanBn/original/ZDCyd8.jpg
-  - https://img.itch.zone/aW1hZ2UvODg4NzU3LzU5MDAyMjMucG5n/original/wYcHrA.png
+  - https://img.itch.zone/aW1hZ2UvODg4NzU3LzEwNTY4ODc0LnBuZw==/original/PLwGIP.png
+  - https://img.itch.zone/aW1hZ2UvODg4NzU3LzEwNTY4ODc1LnBuZw==/original/QurcD7.png
+  - https://img.itch.zone/aW1hZ2UvODg4NzU3LzEwNTY4ODc2LnBuZw==/original/7c8Qwa.png
+  - https://img.itch.zone/aW1hZ2UvODg4NzU3LzEwNTY4ODc3LnBuZw==/original/%2F4eTZA.png
