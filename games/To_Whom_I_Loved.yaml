@@ -1,0 +1,56 @@
+name: To Whom I Loved
+
+description: |
+  To Whom I Loved is an 18+ fantasy furry visual novel where you travel as our protagonist (Default name: Asted) to deliver a mysterious letter, only to find yourself stumbling upon a series of unforeseeable events. 
+
+authors:
+  - name: SimonRatfilled
+    role: [ screenwriter, programmer ]
+  - name: Mash
+    role: [ screenwriter ]
+  - name: Greyson
+    role: [ musician ]
+  - name: KUROOO
+    role: [ artist ]
+  - name: Oree
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  misc:
+    - freeware
+    - uncensored
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://simonratfilled.itch.io/to-whom-i-loved
+  - name: .discord
+    uri: discord:943PBXNH3R
+  - name: .twitter
+    uri: twitter:SimonRatfilled
+  - name: Ko-Fi
+    uri: https://ko-fi.com/simonratfilled
+  - name: .unofficial-patch-zh
+    uri: https://www.gamemale.com/thread-99685-1-1.html
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTgwNjU2MC8xMDYwODYzOC5wbmc=/original/kQbQcr.png
+  - https://img.itch.zone/aW1hZ2UvMTgwNjU2MC8xMDYwODYzOS5wbmc=/original/zj%2FZ9U.png
