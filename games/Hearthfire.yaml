@@ -1,0 +1,62 @@
+name: Hearthfire
+
+brief-description: |
+  Hearthfire is linear romance furry visual novel where you play as Chris, the lost and snow-bound otter. Follow his frost-filled adventure as he comes to terms with the leftover pieces of his life while picking up feelings for his imposing savior.
+
+description: |
+  Taking time off from college and failing grades, Chris decides to get away from everything by getting into his blue sedan and pointing it North. However, violent snow storms ensure that he never makes it to his destination.
+
+  Ending in a violent car crash, Chris finds himself stranded out in the Yukon mountains with no way home. He ends up being dragged from the snow and nursed back to health by an imposing and emotionally closed off polar bear named Tonraq. 
+
+  Over time, he'll learn to crack that frigid exterior and see what's within as his savior helps him escape the unnatural snowstorms that threaten the polar bear's home. Along the way, Chris meets others in the small village of Iskut, making unlikely friends as they band together to help the lost otter find his way home.
+
+authors:
+  - name: Rolibar
+    role: [ screenwriter ]
+  - name: Noel
+    role: [ programmer ]
+  - name: arcwuff
+    role: [ artist ]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  misc:
+    - freeware
+    - uncensored
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - staging
+
+links:
+  - name: .itch.io
+    uri: https://rolibar.itch.io/hearthfire
+  - name: .twitter
+    uri: twitter:HearthfireVN
+  - name: .patreon
+    uri: patreon:HearthfireVN
+  - name: .unofficial-patch-zh
+    uri: https://www.gamemale.com/thread-98132-1-1.html
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTcyNzMxMy8xMDE3MjIyNC5wbmc=/original/zUOlue.png
+  - https://img.itch.zone/aW1hZ2UvMTcyNzMxMy8xMDE3MjIyNy5wbmc=/original/IL4SUe.png
+  - https://img.itch.zone/aW1hZ2UvMTcyNzMxMy8xMDE3MjIyOC5wbmc=/original/TnAcB0.png
+  - https://img.itch.zone/aW1hZ2UvMTcyNzMxMy8xMDE3Mzk2MS5wbmc=/original/U9o5FG.png
+  - https://img.itch.zone/aW1hZ2UvMTcyNzMxMy8xMDY2NjU5OS5wbmc=/original/gUg7GX.png
+  - https://img.itch.zone/aW1hZ2UvMTcyNzMxMy8xMDE3MjU2OS5wbmc=/original/Xkr%2Bqu.png
