@@ -170,6 +170,12 @@ class MediaFactory:
         else:
             if "type" in media:
                 mtype = media["type"]
+            elif "youtube" in media:
+                mtype = "youtube"
+            elif "video" in media:
+                mtype = "video"
+            elif "hbox" in media:
+                mtype = "hbox"
 
             if "sensitive" in media:
                 sensitive = media["sensitive"]
@@ -178,7 +184,9 @@ class MediaFactory:
             return self._create_image_media(media["uri"], gameid, sensitive=sensitive)
 
         elif mtype == "youtube":
-            if "id" in media:
+            if "youtube" in media:
+                videoid = media["youtube"]
+            elif "id" in media:
                 videoid = media["id"]
             else:
                 videoid = media["uri"].split(":")[1]
@@ -186,7 +194,8 @@ class MediaFactory:
 
         elif mtype == "video":
             elm = '<video controls width="100%">'
-            for i in media["src"]:
+            vec = media.get("src", media.get("video"))
+            for i in vec:
                 elm += '<source src="%s" type="%s">' % (i["uri"], i["mime"])
             return HTMLMiscellaneousMedia(elm + "</video>", sensitive)
 
@@ -194,7 +203,8 @@ class MediaFactory:
             return HTMLSteamWidgetMedia(media["id"])
 
         elif mtype == "hbox":
-            return FGIHBoxMedia(self.create_multiple_media(media["content"], gameid))
+            content = media.get("content", media.get("hbox"))
+            return FGIHBoxMedia(self.create_multiple_media(content, gameid))
 
         else:
             raise ValueError(f"Unknown media type '{mtype}'")

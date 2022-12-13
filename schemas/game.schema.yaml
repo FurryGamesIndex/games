@@ -161,11 +161,6 @@ properties:
           description:
             An image. Sensitive or non-sensitive.
           properties:
-            type:
-              type: string
-              const: image
-              description: |
-                Must be `image`. But you can make a object without `type` property, the object will have default type property `image`.
             sensitive:
               type: boolean
               description: |
@@ -179,6 +174,17 @@ properties:
           title: ScreenshotBasicImage
           description:
             A non-sensitive image. The path or the URI of the image.
+
+        - type: object
+          title: ScreenshotYoutubeEmbeddedVideoRS
+          description: |
+            A embedded youtube video. (frt-rs standard)
+          properties:
+            youtube:
+              type: string
+              description: |
+                Video ID of the youtube video, Required when you do not specify `uri`.
+          required: [ youtube ]
         - type: object
           title: ScreenshotYoutubeEmbeddedVideo
           description: |
@@ -196,7 +202,7 @@ properties:
             sensitive:
               type: boolean
               description: |
-                `true` if the media is sensitive
+                `true` if the media is sensitive (Due to frt-rs standard, This property is depracted.)
             uri:
               type: string
               description: |
@@ -206,6 +212,32 @@ properties:
                 But FGI also supports it due to backward compatible.
                 It should not be used in newly edited game entries.
           required: [ type ]
+
+        - type: object
+          title: ScreenshotHTMLEmbeddedVideoRS
+          description: |
+            A HTML embedded video. (frt-rs standard)
+          properties:
+            sensitive:
+              type: boolean
+              description: |
+                `true` if the media is sensitive
+            video:
+              type: array
+              items:
+                type: object
+                title: HTMLVideoSource
+                properties:
+                  mime:
+                    type: string
+                    description: |
+                      The MIME type of the video source
+                  uri:
+                    type: string
+                    description: |
+                      The URI of the video
+                required: [ mime, uri ]
+          required: [ video ]
         - type: object
           title: ScreenshotHTMLEmbeddedVideo
           description: |
@@ -236,6 +268,7 @@ properties:
                       The URI of the video
                 required: [ mime, uri ]
           required: [ type, src ]
+
         - type: object
           title: ScreenshotSteamStoreWidget
           description: |
@@ -251,6 +284,23 @@ properties:
               description: |
                 The ID of the game in Steam.
           required: [ type, id ]
+
+        - type: object
+          title: ScreenshotFGIHBoxRS
+          description: |
+            Horizontal box container. (frt-rs standard)
+          properties:
+            sensitive:
+              type: boolean
+              description: |
+                `true` if the media is sensitive
+            hbox:
+              type: array
+              items:
+                type: string
+              description: |
+                Any type of ScreenshotBasicImage objects (strings).
+          required: [ hbox ]
         - type: object
           title: ScreenshotFGIHBox
           description: |
