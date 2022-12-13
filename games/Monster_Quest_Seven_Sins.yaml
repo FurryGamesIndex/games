@@ -84,9 +84,6 @@ screenshots:
   - https://o.qoo-img.com/storage.qoo-static.com/game/8774/HSfhIEq5pRZ9sFGPhotCKcH0a6wPoO12.jpg
   - https://o.qoo-img.com/storage.qoo-static.com/game/8774/4jgNWoCvBxjpSz6mP4pKFYjAhB6r7mpK.jpg
 
-  - type: youtube
-    id: ke-1q7LxhDo
-  - type: youtube
-    id: FuAN6Mu12gE
-  - type: youtube
-    id: CZ7cTRIEtQc
+  - youtube: ke-1q7LxhDo
+  - youtube: FuAN6Mu12gE
+  - youtube: CZ7cTRIEtQc

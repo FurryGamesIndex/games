@@ -86,8 +86,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: Xu4JHmcfrtw
+  - youtube: Xu4JHmcfrtw
   - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1NzgucG5n/original/K3HQZx.png
   - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1NzkuanBn/original/XkkmW1.jpg
   - https://img.itch.zone/aW1hZ2UvNzMyMzEyLzQwNzI1ODAucG5n/original/WV5Z73.png

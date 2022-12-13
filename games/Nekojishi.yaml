@@ -67,14 +67,12 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256700252/movie480.webm
       - mime: video/mp4
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256700252/movie480.mp4
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256700253/movie480.webm
       - mime: video/mp4

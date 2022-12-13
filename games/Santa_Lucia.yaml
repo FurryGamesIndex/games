@@ -90,8 +90,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: Qbsw4U24k4Q
+  - youtube: Qbsw4U24k4Q
   - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzUzMjcyMDAuanBn/original/25dzU%2F.jpg
   - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzUzMjcyMDEuanBn/original/9bLrAT.jpg
   - https://img.itch.zone/aW1hZ2UvNDg4ODU1LzUzMjcyMDMuanBn/original/tqu8e9.jpg

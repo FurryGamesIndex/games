@@ -50,8 +50,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: oriZSZDPpi8
+  - youtube: oriZSZDPpi8
   - https://i.imgur.com/I188j5j.png
   - https://i.imgur.com/b9A1mRH.png
   - https://i.imgur.com/GDOyk8p.png

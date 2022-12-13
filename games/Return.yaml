@@ -89,5 +89,4 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: sPRJcV2-_Tg
+  - youtube: sPRJcV2-_Tg

@@ -62,15 +62,14 @@ links:
   - name: .website
     uri: https://playspiritofthenorth.com/
   - name: .twitter
-    uri: https://twitter.com/PlaySOTN
+    uri: twitter:PlaySOTN
   - name: .youtube
     uri: https://www.youtube.com/mergegames/
 
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://media.st.dl.pinyuncloud.com/steam/apps/256783649/movie480_vp9.webm
       - mime: video/mp4

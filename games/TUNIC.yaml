@@ -113,8 +113,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: HJUWoCopVaQ
+  - youtube: HJUWoCopVaQ
   - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_9c0184ba83022786f74f4a70ebae5c47d2a3c35c.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_5fc49d3c5fa34b0d0e6b6a5621f9062bec7ac4d7.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/553420/ss_04ac7db623d3e88751134eb87f5c465c392fa108.jpg

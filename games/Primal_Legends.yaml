@@ -75,13 +75,10 @@ links:
 thumbnail: thumbnail.png
 
 screenshots:
-  - type: youtube
-    id: CciH-kg-kxM
-  - type: hbox
-    content:
+  - youtube: CciH-kg-kxM
+  - hbox:
       - https://i.imgur.com/04UYaJa.png
       - https://i.imgur.com/xso6Tn1.png
-  - type: hbox
-    content:
+  - hbox:
       - https://i.imgur.com/Z7zFpgH.png
       - https://i.imgur.com/RqO8bq3.png

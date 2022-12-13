@@ -60,8 +60,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
       - mime: video/mp4
         uri: https://video.wixstatic.com/video/b021d9_4ea199c535fc4b909a313fc47e808ec1/720p/mp4/file.mp4
   - https://img.digiket.net/cg/170/ITM0170977_s1.jpg

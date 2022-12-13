@@ -44,8 +44,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: afaofvvYG54
+  - youtube: afaofvvYG54
   - https://images.plurk.com/HtqyCzmkIWAYp647LhU1b.jpg
   - https://images.plurk.com/5z3HAv6xJFRSVmiRcoGW2Y.jpg
   - https://images.plurk.com/439WOB1gp1neuRmGgYNslc.jpg

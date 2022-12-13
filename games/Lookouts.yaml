@@ -45,8 +45,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: Q8vNG8BRY3k
+  - youtube: Q8vNG8BRY3k
   - https://img.itch.zone/aW1hZ2UvNTMyODIzLzg2MjM2OTEuZ2lm/original/7fT10T.gif
   - https://img.itch.zone/aW1hZ2UvNTMyODIzLzg1NDg5OTYucG5n/original/KFrNy5.png
   - https://img.itch.zone/aW1hZ2UvNTMyODIzLzg1NDg5OTcucG5n/original/Grpasq.png

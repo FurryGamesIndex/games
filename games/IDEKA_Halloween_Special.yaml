@@ -78,7 +78,7 @@ links:
   - name: .twitter
     uri: twitter:dynewul
   - name: .furaffinity
-    uri: https://www.furaffinity.net/user/dynewulf/
+    uri: furaffinity:dynewulf
   - name: .website
     uri: https://www.wolfbiteinteractive.com/
 

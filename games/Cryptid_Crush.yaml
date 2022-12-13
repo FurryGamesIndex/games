@@ -54,8 +54,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: zJ44uQcjuA0
+  - youtube: zJ44uQcjuA0
   - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyODgucG5n/original/Sv8I4w.png
   - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyODcucG5n/original/C6%2B16o.png
   - https://img.itch.zone/aW1hZ2UvODE1NTkwLzc3ODEyOTIucG5n/original/aXDc36.png

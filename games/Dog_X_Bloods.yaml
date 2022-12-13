@@ -48,8 +48,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: U33F_81hU40
+  - youtube: U33F_81hU40
   - https://i.imgur.com/4EImokd.png
   - https://i.imgur.com/YX8CLuJ.png
   - https://i.imgur.com/BFLOTIW.png

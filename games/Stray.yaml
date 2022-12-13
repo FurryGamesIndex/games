@@ -69,26 +69,22 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256896952/movie480_vp9.webm
       - mime: video/mp4
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256896952/movie480.mp4
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256844882/movie480_vp9.webm
       - mime: video/mp4
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256844882/movie480.mp4
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256786641/movie480_vp9.webm
       - mime: video/mp4
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256786641/movie480.mp4
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256889643/movie480_vp9.webm
       - mime: video/mp4

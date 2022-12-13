@@ -62,5 +62,4 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: J7Vsv_nLL_E
+  - youtube: J7Vsv_nLL_E

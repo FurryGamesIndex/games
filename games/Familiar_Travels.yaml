@@ -82,8 +82,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: mgpYnAZZils
+  - youtube: mgpYnAZZils
   - https://img.itch.zone/aW1hZ2UvNjAwOTAxLzMyMTk5MjYuZ2lm/original/aZ2W55.gif
   - https://img.itch.zone/aW1hZ2UvNjAwOTAxLzMyMTk5NzAucG5n/original/5cXefO.png
   - https://img.itch.zone/aW1hZ2UvNjAwOTAxLzMyMTk5NDcucG5n/original/GuT8ML.png

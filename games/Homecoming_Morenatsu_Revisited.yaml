@@ -79,8 +79,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: 6LzGlWgeHr4
+  - youtube: 6LzGlWgeHr4
   - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzcyMTg5MzUuanBn/original/4q8vDL.jpg
   - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzcyMTg5MzcuanBn/original/XuxWR1.jpg
   - https://img.itch.zone/aW1hZ2UvMzU2OTI1LzcyMTkwMzUuanBn/original/v3G58A.jpg

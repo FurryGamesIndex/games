@@ -68,7 +68,7 @@ links:
   - name: .facebook
     uri: https://www.facebook.com/pawpawpawgame/
   - name: .twitter
-    uri: https://twitter.com/simpletongame
+    uri: twitter:simpletongame
   - name: .youtube
     uri: https://www.youtube.com/channel/UCBn6mtcceygnp0u_hWYvXNw/
 

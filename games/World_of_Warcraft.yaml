@@ -64,7 +64,7 @@ links:
   - name: .facebook
     uri: https://www.facebook.com/Warcraft
   - name: .twitter
-    uri: https://twitter.com/warcraft
+    uri: twitter:warcraft
   - name: .youtube
     uri: https://www.youtube.com/c/Warcraft
   - name: Offical Chinese Website

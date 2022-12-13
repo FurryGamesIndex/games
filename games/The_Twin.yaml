@@ -40,7 +40,7 @@ links:
     uri: https://weibo.com/zoharwolf
   - name: .twitter
     icon: twitter
-    uri: https://twitter.com/zohar_wolf
+    uri: twitter:zohar_wolf
     
 thumbnail: thumbnail.jpg
 

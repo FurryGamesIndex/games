@@ -83,8 +83,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: kVLoibSwhCQ
+  - youtube: kVLoibSwhCQ
   - https://cdn.cloudflare.steamstatic.com/steam/apps/486310/ss_7ad2d54fe7d2ec5ce9463601b5b6daab8b65eebe.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/486310/ss_396cf84667b52ba2d68e301ed58184788c1e1bc1.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/486310/ss_9af78ee02f6c1eb0e949c2279a9260fd63a4efc9.1920x1080.jpg

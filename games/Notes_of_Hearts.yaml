@@ -88,8 +88,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: HuBFKC4lp5Q
+  - youtube: HuBFKC4lp5Q
   - https://i.imgur.com/njZcSg9.jpg
   - https://i.imgur.com/eYwj4lu.jpg
   - https://i.imgur.com/9tflZDh.jpg

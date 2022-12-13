@@ -75,7 +75,7 @@ links:
   - name: .website
     uri: https://dragalialost.com
   - name: .twitter
-    uri: https://twitter.com/dragalialostapp
+    uri: twitter:dragalialostapp
   - name: .youtube
     uri: https://www.youtube.com/channel/UC5eGagNBgJYiH2DCVbxTSIA/videos
   - name: .play-store
@@ -92,9 +92,6 @@ screenshots:
   - https://image.winudf.com/v2/image1/Y29tLm5pbnRlbmRvLnphZ2Ffc2NyZWVuXzVfMTYwMjQ4Nzg1NF8wOTE/screen-6.jpg?fakeurl=1&type=.jpg
   - https://dragalialost.com/app/wp-content/uploads/2021/06/9fbe7b1b46b044ebb5461879a83be2a6.jpg
   
-  - type: youtube
-    id: 9Cc2ol9m2wg
-  - type: youtube
-    id: F4l7kUmCcMA
-  - type: youtube
-    id: _UYbVnKX4Kg
+  - youtube: 9Cc2ol9m2wg
+  - youtube: F4l7kUmCcMA
+  - youtube: _UYbVnKX4Kg

@@ -95,8 +95,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: 1Hojv0m3TqA
+  - youtube: 1Hojv0m3TqA
   - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_b9018c41cea2bdfb150609bedfca99b16a5af02a.1920x1080.jpg
   - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_b9ec4c53a8ed37f764649c970757c0a1f4948ec1.1920x1080.jpg
   - https://media.st.dl.pinyuncloud.com/steam/apps/391540/ss_edab41f7c9fa287b0d90ebfa3b9219fec6e1b3ed.1920x1080.jpg

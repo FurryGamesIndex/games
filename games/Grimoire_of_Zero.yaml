@@ -58,7 +58,7 @@ links:
   - name: .website
     uri: http://d-game.dengeki.com/zeronosyo
   - name: .twitter
-    uri: https://twitter.com/zeronosyo_game
+    uri: twitter:zeronosyo_game
   - name: .play-store
     uri: google-play-store:jp.gree.android.zeronosyo
   - name: .apple-appstore
@@ -72,9 +72,7 @@ screenshots:
   - https://image.gameapps.hk/images/201705/23/ZE3.jpg
   - https://image.gameapps.hk/images/201705/23/ZE4.jpg
   
-  - type: youtube
-    id: vf1h0Eoay1Q
-  - type: youtube
-    id: V2lRuQ5EDuk
+  - youtube: vf1h0Eoay1Q
+  - youtube: V2lRuQ5EDuk
     
     

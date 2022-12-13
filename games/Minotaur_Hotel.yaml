@@ -55,8 +55,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: iIWwcsleGec
+  - youtube: iIWwcsleGec
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzY2OTE5NzAucG5n/original/4BURq%2B.png
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzgwOTQ4NzUucG5n/original/u%2FL80I.png
   - https://img.itch.zone/aW1hZ2UvNDc5MTAzLzgxODUzNDQucG5n/original/mXofow.png

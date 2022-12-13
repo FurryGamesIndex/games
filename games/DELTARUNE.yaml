@@ -84,8 +84,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256849454/movie480_vp9.webm
       - mime: video/mp4

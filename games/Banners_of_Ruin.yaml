@@ -57,7 +57,7 @@ links:
   - name: .website
     uri: https://www.montebearo.co.uk/banners-of-ruin
   - name: .twitter
-    uri: https://twitter.com/montebearo
+    uri: twitter:montebearo
   - name: .youtube
     uri: https://www.youtube.com/goblinzstudiotv
   - name: .discord
@@ -66,8 +66,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256844736/movie480_vp9.webm
       - mime: video/mp4

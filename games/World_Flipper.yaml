@@ -99,5 +99,4 @@ screenshots:
   - https://akamai-webcdn.kgstatic.net/web_static/wf/live/images/pc/img_en_feature3.jpg
   - https://akamai-webcdn.kgstatic.net/web_static/wf/live/images/pc/img_en_feature4.jpg
   - https://akamai-webcdn.kgstatic.net/web_static/wf/live/images/pc/img_en_feature5.jpg
-  - type: youtube
-    id: Wp_ww9Zjcgg
+  - youtube: Wp_ww9Zjcgg

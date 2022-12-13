@@ -63,7 +63,7 @@ links:
   - name: .twitter
     uri: twitter:dynewulf
   - name: .furaffinity
-    uri: https://www.furaffinity.net/user/dynewulf/
+    uri: furaffinity:dynewulf
   - name: .unofficial-version-zh
     uri: https://t.me/Furry_PrPr_T/683
   - name: .website

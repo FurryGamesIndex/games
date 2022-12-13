@@ -45,7 +45,7 @@ links:
   - name: .website
     uri: http://www.rewindgames.ca
   - name: .twitter
-    uri: https://twitter.com/RewindGamesCA
+    uri: twitter:RewindGamesCA
 
 thumbnail: thumbnail.jpg
 

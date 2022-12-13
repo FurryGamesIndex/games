@@ -64,8 +64,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
       - uri: https://steamcdn-a.akamaihd.net/steam/apps/256782069/movie480_vp9.webm
         mime: video/webm
       - uri: https://steamcdn-a.akamaihd.net/steam/apps/256782069/movie480.mp4

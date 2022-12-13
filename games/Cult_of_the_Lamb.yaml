@@ -92,8 +92,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
     - mime: video/webm
       sensitive: true
       uri: https://cdn.akamai.steamstatic.com/steam/apps/256900500/movie480_vp9.webm

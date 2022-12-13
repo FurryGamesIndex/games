@@ -57,8 +57,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: Tk-1M1wNVDY
+  - youtube: Tk-1M1wNVDY
   - https://cdn.cloudflare.steamstatic.com/steam/apps/275100/ss_0c5b0a731a12b5cb993fd3efff4a872ab6cb568e.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/275100/ss_1d95283f5f4d8bb978a7cfe9af74bff42daf87be.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/275100/ss_88036cac8547c61e3c94e172c9fd871efa2d3a2a.1920x1080.jpg

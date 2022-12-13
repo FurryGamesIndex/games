@@ -51,7 +51,7 @@ links:
   - name: .website
     uri: https://www.mane6.com
   - name: .twitter
-    uri: https://twitter.com/mane6dev
+    uri: twitter:mane6dev
   - name: .steam
     uri: steam:574980
   - name: Get on Humble Bundle
@@ -60,14 +60,12 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256783834/movie480_vp9.webm
       - mime: video/mp4
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256783834/movie480.mp4
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256773690/movie480.webm
       - mime: video/mp4

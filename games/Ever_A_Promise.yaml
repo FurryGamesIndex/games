@@ -43,7 +43,7 @@ tags:
 links:
   - name: .release-page
     icon: twitter
-    uri: https://twitter.com/xingmahaov/status/580460109492539392
+    uri: twitter:xingmahaov/status/580460109492539392
   - name: .twitter
     uri: twitter:xingmahaov
   - name: .weibo

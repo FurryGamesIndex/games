@@ -66,8 +66,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - type: youtube
-    id: 4aQZ8G8eS9c
+  - youtube: 4aQZ8G8eS9c
   - https://cdn.cloudflare.steamstatic.com/steam/apps/434000/ss_ffc018e5c75156e8f95a27d43032d2f409c6a270.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/434000/ss_91b163d00b122a8fa3050fab82c7e6df5964c452.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/434000/ss_8a12b86875ce897e2d1ede3e402487a87e70521b.1920x1080.jpg
