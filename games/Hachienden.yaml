@@ -1,7 +1,19 @@
 name: Hachienden
 
 description: |
+  ##Eroticism system
 
+  You can increase the eroticism of villages you visit. Make various suggestions to make erotic villages.
+
+  ##Sex battle
+
+  You can conciliate enemies with temptation. You can sex with every normal enemy after the battle
+
+  ##Transformation system
+
+  You can change various parameters of your body, such as height, weight, body type, and penis size.
+
+description-format: markdown
 
 authors:
   - name: Tsukumon
@@ -42,16 +54,12 @@ tags:
   platform:
     - windows
     - macos
-  sys:
-    - staging
 
 links:
   - name: .itch.io
     uri: https://tsukumon.itch.io/hachienden
   - name: .patreon
     uri: patreon:tsukumon
-  - name: .patreon
-    uri: patreon:gorounaoki
   - name: .twitter
     uri: twitter:TTsukumon
 
