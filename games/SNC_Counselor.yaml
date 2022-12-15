@@ -1,6 +1,13 @@
 name: SNC Counselor
 
 description: |
+  這是一款類SCP基金會,有關於收容各種奇妙生物的遊戲,我們扮演主角擔當SNC輔導員,SNC就是超自然生物的縮寫,輔導員則是負責將這些生物處理到,能夠融入人類生活的工作~
+
+  過程中,會跟這些獸人生物生活,聊天,還有出勤國家任務!!~~
+
+  每個選項都會影響好感度,還有劇情的走向.
+
+  腦洞大開!幽默風趣,又危險刺激的生活,正等著你一起來展開!!~~
   
 authors:
   - name: 熊八
@@ -26,20 +33,19 @@ tags:
   lang:
     - zh
   publish:
-    - steam
     - website
   platform:
     - windows
-  sys:
-    - staging
 
 links:
   - name: .demo-version
     uri: https://www.plurk.com/p/ok9xkb
+  - name: Official Plurk
+    uri: https://www.plurk.com/painterbear
   - name: .twitter
     uri: twitter:oCUiThu3mCcQfMm
   - name: .facebook
-    uri: https://www.facebook.com/sncgame/
+    uri: facebook:sncgame
 
 thumbnail: thumbnail.jpg
 
