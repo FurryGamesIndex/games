@@ -2,7 +2,9 @@ name: Eclipse City
 
 description: |
   Eclipse City is a visual novel with action, sci-fi, and romance themes. 
+
   The story follows a human Texas Ranger (Default name: Jack) who ended up in a futuristic world populated by anthropomorphic canines and felines. 
+
   As he tries to maintain his new life in Eclipse City, the Texas Ranger will meet allies and enemies. Will he survive Eclipse City or will Eclipse City consume him?
 
 authors:
@@ -61,9 +63,10 @@ tags:
     - uncensored
     - engine-renpy
     - multiple-endings
-    - work-in-process
+    - died
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
   platform:
@@ -79,6 +82,8 @@ links:
     uri: twitter:eclpisecity_vn
   - name: .discord
     uri: https://discord.gg/8ZGMdFw7kf
+  - name: .unofficial-version-zh
+    uri: https://t.me/BestiaGroup/120
 
 thumbnail: thumbnail.png
 
