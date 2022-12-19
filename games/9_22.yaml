@@ -38,9 +38,7 @@ links:
   - name: .itch.io
     uri: https://cockhole.itch.io/9-22
   - name: .patreon
-    uri: patreon:922vn
-  - name: .twitter
-    uri: twitter:its_cockhole
+    uri: patreon:vn922
 
 thumbnail: thumbnail.jpg
 
