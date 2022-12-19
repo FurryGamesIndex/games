@@ -56,13 +56,12 @@ links:
     uri: google-play-store:com.studioQuare.WP
   - name: .apple-appstore
     uri: https://apps.apple.com/us/app/wonder-parade/id1272469707
-  - name: .twitter
-    uri: twitter:studioQuare
+  - name: .steam
+    uri: steam:1138980
+  - name: .facebook
+    uri: facebook:WonderParade
   - name: .weibo
     uri: https://weibo.com/wonderparade
-  - name: Steam (Not released)
-    icon: steam
-    uri: steam:1138980
 
 thumbnail: thumbnail.jpg
 
