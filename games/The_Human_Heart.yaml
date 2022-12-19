@@ -6,10 +6,6 @@ description: |
   There are seven lads to choose from; Cade, Dylan, Rorik, Ace, Tyler, Sidney, and Lars!
   
   Which one can help you solve the struggles of your human heart?
-  
-  This game is a *SAFE FOR WORK*, furry visual novel.
-
-description-format: markdown
 
 authors:
   - name: Leo
@@ -38,6 +34,7 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh-unofficial
   publish:
     - itchio
     - patreon
@@ -49,13 +46,15 @@ tags:
 
 links:
   - name: .itch.io
-    uri: https://leonthelionel.itch.io/thehumanheart
+    uri: https://leothelionel.itch.io/thehumanheart
   - name: .patreon
-    uri: patreon:leonthelionel
+    uri: patreon:leothelionel
   - name: .twitter
-    uri: twitter:@leonthelionel
+    uri: twitter:@LeoTheLionel
   - name: .discord
     uri: https://discord.gg/GUA32HnaUt
+  - name: .unofficial-version-zh
+    uri: https://www.gamemale.com/forum.php?mod=viewthread&tid=85763
 
 thumbnail: thumbnail.jpg
 
