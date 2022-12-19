@@ -45,11 +45,9 @@ links:
   - name: .itch.io
     uri: https://gigasaddle.itch.io/pervader
   - name: .patreon
-    uri: patreon:GigaSaddle
+    uri: patreon:pervader
   - name: .twitter
     uri: twitter:GigaSaddle
-  - name: .unofficial-version-zh
-    uri: FGI-misc-page:Pervader-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 
