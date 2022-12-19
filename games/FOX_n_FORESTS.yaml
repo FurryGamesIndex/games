@@ -67,7 +67,7 @@ links:
   - name: .nintendo-e-shop
     uri: https://www.nintendo.com/games/detail/fox-n-forests-switch/
   - name: .twitter
-    uri: twitter:FOXnFORESTS
+    uri: twitter:BonusLevelEnter
 
 thumbnail: thumbnail.jpg
 
