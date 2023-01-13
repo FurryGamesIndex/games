@@ -27,12 +27,12 @@ tags:
     - goat
     - hedgehog
   misc:
-    - website
+    - freeware
+    - engine-rpg-maker
   lang:
     - ja
   publish:
-    - freem
-    - freegame-mugen
+    - website
   platform:
     - windows
 
