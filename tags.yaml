@@ -1399,19 +1399,6 @@ playstation-store:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 PlayStation Store 上有发布'
 
-freegame-mugen:
-  namespaces: [ publish ]
-  explanation:
-    en: 'Self-pleasuring.'
-    zh-cn: '游戏在 Freegame-mugen 上有发布'
-    
-freem:
-  namespaces: [ publish ]
-  explanation:
-    en: 'Self-pleasuring.'
-    zh-cn: '游戏在 Freem 上有发布'
-
-
 ###################################################
 ###################################################
 
