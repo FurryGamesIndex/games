@@ -1,0 +1,58 @@
+name: アルカンシエルの魔獣
+
+brief-description: |
+  虹を求めるケモノたちのRPG
+
+description: |
+  そこはケモノと魔法の世界。
+  かって華やいだ彼の地はマモノと瘴気に蝕まれゆるやかに終わりを迎えようとしていた。
+  皆が諦めを抱く中、ある日ライオンの少年は記憶喪失のイヌ科の少年に出会う。
+  彼が持っていたのは集めたモノの願いを叶えるとされる七色のカギの１本。
+  かくして、少年達の世界を救う冒険が幕を開けた―
+
+authors:
+  - name: 海野ひつじ
+    role: [ producer ]
+
+
+tags:
+  type:
+    - role-playing
+  species:
+    - dog
+    - wolf
+    - lion
+    - bear
+    - pig
+    - goat
+    - hedgehog
+  misc:
+    - freeware
+    - engine-rpg-maker
+  lang:
+    - ja
+  publish:
+    - website
+  platform:
+    - windows
+
+links:
+  - name: .website
+    uri: http://nestork.main.jp/arukemo/index.html
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://nestork.main.jp/arukemo/ss1.png
+  - https://nestork.main.jp/arukemo/ss2.png
+  - https://nestork.main.jp/arukemo/ss3.png
+  - https://nestork.main.jp/arukemo/ss4.png
+  - https://nestork.main.jp/arukemo/ss5.png
+  - https://nestork.main.jp/arukemo/ss6.png
+  - https://nestork.main.jp/arukemo/ss_extra1.png
+  - https://nestork.main.jp/arukemo/ss_extra2.png
+  - https://nestork.main.jp/arukemo/ss_extra3.png
+  - https://nestork.main.jp/arukemo/ss_extra4.png
+  - https://nestork.main.jp/arukemo/ss_extra5.png
+  - https://nestork.main.jp/arukemo/ss_extra6.png
+  - https://nestork.main.jp/arukemo/ss_extra7.png

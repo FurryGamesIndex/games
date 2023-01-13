@@ -401,6 +401,12 @@ orca:
     en: 'Main characters include orca furries'
     zh-cn: '主要角色包括虎鲸兽人'
 
+goat:
+  namespaces: [ species ]
+  explanation:
+    en: 'Main characters include goat furries'
+    zh-cn: '主要角色包括山羊兽人'
+
 ###################################################
 
 '@class:species/felidae':
@@ -1392,7 +1398,6 @@ playstation-store:
   explanation:
     en: 'Self-pleasuring.'
     zh-cn: '游戏在 PlayStation Store 上有发布'
-
 
 ###################################################
 ###################################################
