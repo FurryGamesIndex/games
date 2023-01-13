@@ -40,10 +40,6 @@ tags:
 links:
   - name: .website
     uri: http://nestork.main.jp/arukemo/index.html
-  - name: .freem
-    uri: https://www.freem.ne.jp/win/game/23440
-  - name: .freegame-mugen
-    uri: https://freegame-mugen.jp/roleplaying/game_8923.html
 
 thumbnail: thumbnail.jpg
 
