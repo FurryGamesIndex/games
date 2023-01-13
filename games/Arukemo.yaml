@@ -1,8 +1,5 @@
 name: アルカンシエルの魔獣
 
-brief-description: |
-  虹を求めるケモノたちのRPG
-
 description: |
   そこはケモノと魔法の世界。
   かって華やいだ彼の地はマモノと瘴気に蝕まれゆるやかに終わりを迎えようとしていた。
@@ -13,7 +10,6 @@ description: |
 authors:
   - name: 海野ひつじ
     role: [ producer ]
-
 
 tags:
   type:
