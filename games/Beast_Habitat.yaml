@@ -1,0 +1,46 @@
+name: Beast Habitat
+
+description: |
+  你作为偷渡客在充满野兽的「无限兽城」中艰难生活着，随着你记忆不断回归，你终会发现自己所经历的、所遇到的野兽都与你有着千丝万缕的联系。你需要尽可能理顺整个事件，才能知道自己身上所发生的事情究竟为何。
+
+authors:
+  - name: Promethues
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - wolf
+    - cheetah
+    - tiger
+    - cattle
+    - humankind
+  fetish:
+    - muscle
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - zh
+  publish:
+    - itchio
+  platform:
+    - windows
+    - linux
+
+links:
+  - name: .itch.io
+    uri: https://promethues.itch.io/beast-habitat
+  - name: QQ Channel
+    uri: https://pd.qq.com/s/awt5yphqr
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTgzNDcxNi8xMTA0ODMwMy5qcGc=/original/1cK05D.jpg
+  - https://img.itch.zone/aW1hZ2UvMTgzNDcxNi8xMTA0ODMwNi5qcGc=/original/FwI4iv.jpg
+  - https://img.itch.zone/aW1hZ2UvMTgzNDcxNi8xMTA0ODMwOC5qcGc=/original/f6CCZw.jpg
+  - https://img.itch.zone/aW1hZ2UvMTgzNDcxNi8xMTA0ODMxMi5qcGc=/original/LzldAK.jpg
+  - https://img.itch.zone/aW1hZ2UvMTgzNDcxNi8xMDc3MzMwMy5wbmc=/original/W3xUn0.png
+  - https://img.itch.zone/aW1hZ2UvMTgzNDcxNi8xMDc3MzMwNC5wbmc=/original/5ypXWG.png
