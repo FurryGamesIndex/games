@@ -262,18 +262,6 @@ monkey:
     en: 'Main characters include monkey furries'
     zh-cn: '主要角色包括猴子兽人'
 
-bull:
-  namespaces: [ species ]
-  explanation:
-    en: 'Main characters include bull furries (only in namespace male)'
-    zh-cn: '主要角色包括牛兽人（只出现在 male 命名空间）'
-
-cow:
-  namespaces: [ species ]
-  explanation:
-    en: 'Main characters include cow furries (only in namespace female)'
-    zh-cn: '主要角色包括牛兽人（只出现在 female 命名空间）'
-
 sheep:
   namespaces: [ species ]
   explanation:
@@ -406,6 +394,12 @@ goat:
   explanation:
     en: 'Main characters include goat furries'
     zh-cn: '主要角色包括山羊兽人'
+
+cattle:
+  namespaces: [ species ]
+  explanation:
+    en: 'Main characters include cattle furries'
+    zh-cn: '主要角色包括牛兽人'
 
 ###################################################
 
