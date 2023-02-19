@@ -1,52 +1,54 @@
 name: Outland Wanderer
 
 description: |
-  Player is an outsider stumbling upon the continent of Mokken. 
-
-  In his attempt to travel back to his own Tribe, he bonds and form different relationship with the locals, tackles on unknown forces, and discovers his own destiny.
+  Player is an outsider stumbling upon the continent of Mokken. In his attempt to travel back to his own Tribe, he bonds and form different relationship with the locals, tackles on unknown forces, and discovers his own destiny.
 
 authors:
   - name: f1shsticker
     role: [ producer, screenwriter, programmer, artist ]
-
   - name: lonelytree
     role: [ screenwriter ]
     standalone: true
+    avatar: lonelytree.jpg
     link-uri: https://discordapp.com/users/273928084388839425
-
   - name: Magnolia
     role: [ screenwriter ]
     standalone: true
-
   - name: Nyarlothotep
     role: [ screenwriter ]
     standalone: true
+    avatar: Nyarlothotep.jpg
     link-uri: https://twitter.com/LoveCountry45
-
-  - name: Pinewood Jerry
-    role: [ musician ]
-    standalone: true
-    link-uri: https://twitter.com/Pinewood_Jerry
-
   - name: Will o Wisp
     role: [ musician ]
     standalone: true
+    avatar: Will_o_Wisp.jpg
     link-uri: https://soundcloud.com/willowispproductions
-
+  - name: Pinewood Jerry
+    role: [ musician ]
+    standalone: true
+    avatar: Pinewood_Jerry.jpg
+    link-uri: https://twitter.com/Pinewood_Jerry
   - name: Sannom Paul
     role: [ translator ]
     standalone: true
+    avatar: Sannom.jpg
     link-uri: https://twitter.com/SannomTigris
-
   - name: Fabio
     role: [ translator ]
     standalone: true
+    avatar: Fabio.jpg
     link-uri: https://twitter.com/Fabio120938
-
   - name: Frasty
     role: [ translator ]
     standalone: true
+    avatar: Frasty.jpg
     link-uri: https://discordapp.com/users/863871634758959144
+  - name: 逆戟鲸
+    role: [ translator ]
+    standalone: true
+    avatar: COPtimer.jpg
+    link-uri: https://twitter.com/COPtimer_1974
 
 tags:
   type:
@@ -57,10 +59,15 @@ tags:
     - yiff
   species:
     - lion
+    - dog
     - wolf
     - lizard
     - cattle
-    - dragon
+    - lung
+    - bat
+    - goat
+    - hyena
+    - bear
   fetish:
     - males-only
     - blowjob
@@ -83,7 +90,7 @@ tags:
     - en
     - fr
     - pt
-    - zh-unofficial
+    - zh
   publish:
     - itchio
     - patreon
@@ -102,18 +109,16 @@ links:
     uri: twitter:OutlandWanderer
   - name: .discord
     uri: https://discord.gg/QnbJMGhZhV
-  - name: .unofficial-patch-zh
-    uri: https://www.gamemale.com/thread-97995-1-1.html
 
 thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NzQ1ODM3LnBuZw==/original/lIV5Et.png
-  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85MDA0NTA0LmpwZw==/original/dM0LH8.jpg
   - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDM0MDQ1MC5wbmc=/original/HzasSC.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMTMxNzU2OS5wbmc=/original/n%2FCOrG.png
   - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85ODI1NDcwLmpwZw==/original/ceDIFz.jpg
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMTM2MzE2Ny5wbmc=/original/yEkvDZ.png
   - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDA2OTUwMi5wbmc=/original/VvYP2k.png
-  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC84OTg1MjI5LnBuZw==/original/zaiN8B.png
+  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDU5NDg2Ny5wbmc=/original/8LYYiR.png
   - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC85NTYxMDE4LnBuZw==/original/If17bF.png
   - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDQ1NjIxNy5wbmc=/original/G3wnp9.png
-  - https://img.itch.zone/aW1hZ2UvMTU0MDMxMC8xMDU5NDg2Ny5wbmc=/original/8LYYiR.png
