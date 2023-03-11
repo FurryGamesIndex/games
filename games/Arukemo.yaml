@@ -13,7 +13,9 @@ description: |
 
 authors:
   - name: Hitsuji Umino
-    role: [ producer ]
+    role: [ producer, programmer ]
+  - name: Isora Ya
+    role: [ programmer ]
 
 tags:
   type:
