@@ -1,15 +1,27 @@
-name: アルカンシエルの魔獣
+name: Alcánciel's magical beast
 
 description: |
-  そこはケモノと魔法の世界。
-  かって華やいだ彼の地はマモノと瘴気に蝕まれゆるやかに終わりを迎えようとしていた。
-  皆が諦めを抱く中、ある日ライオンの少年は記憶喪失のイヌ科の少年に出会う。
-  彼が持っていたのは集めたモノの願いを叶えるとされる七色のカギの１本。
-  かくして、少年達の世界を救う冒険が幕を開けた―
+  It is a world of beasts and magic.
+  The once glorious land is slowly coming to an end as it is being consumed by mamono and miasma.
+  One day, a lion boy meets a canine boy who has amnesia.
+  He was carrying one of the seven colored keys, which are said to grant the wishes of those who collect them.
+  Thus, the boys' adventure to save the world begins.
+  
+  *For players with non-Japanese systems,
+  it may not be possible to decompress and run directly,
+  and you need to use WinRAR or Peazip to adjust the text encoding to Shift-JIS (932) and decompress it to playing normally.
 
 authors:
-  - name: 海野ひつじ
-    role: [ producer ]
+  - name: Hitsuji Umino
+    standalone: true
+    avatar: hitsujiumino.jpg
+    link-uri: http://shirohitsuji365.blog.fc2.com/
+    role: [ producer, programmer ]
+  - name: Isora Ya
+    standalone: true
+    avatar: IsoraYa.jpg
+    link-uri: twitter:nestork_i
+    role: [ programmer ]
 
 tags:
   type:
@@ -35,10 +47,21 @@ tags:
 links:
   - name: .website
     uri: https://nestork.main.jp/arukemo/index.html
+  - name: Freem!
+    uri: https://www.freem.ne.jp/win/game/23440
+  - name: Freegame-mugen
+    uri: https://freegame-mugen.jp/roleplaying/game_8923.html
+  - name: Developer Homepage
+    uri: https://nestork.main.jp/side-u.html
+  - name: Developer's blog
+    uri: http://shirohitsuji365.blog.fc2.com/
+  - name: Developers' Contact
+    uri: https://ssl.form-mailer.jp/fms/8eec4a0b218003
 
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - youtube: h61TBriKCBs
   - https://nestork.main.jp/arukemo/ss1.png
   - https://nestork.main.jp/arukemo/ss2.png
   - https://nestork.main.jp/arukemo/ss3.png
