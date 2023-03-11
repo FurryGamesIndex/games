@@ -35,10 +35,16 @@ tags:
 links:
   - name: .website
     uri: https://nestork.main.jp/arukemo/index.html
+  - name: Freem!
+    uri: https://www.freem.ne.jp/win/game/23440
+  - name: Freegame-mugen
+    uri: https://www.freem.ne.jp/win/game/23440
   - name: Developer Homepage
     uri: https://nestork.main.jp/side-u.html
   - name: Developer's blog
     uri: http://shirohitsuji365.blog.fc2.com/
+  - name: Developer's Contact
+    uri: https://ssl.form-mailer.jp/fms/8eec4a0b218003
 
 thumbnail: thumbnail.jpg
 
