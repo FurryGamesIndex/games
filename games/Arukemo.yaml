@@ -6,6 +6,10 @@ description: |
   皆が諦めを抱く中、ある日ライオンの少年は記憶喪失のイヌ科の少年に出会う。
   彼が持っていたのは集めたモノの願いを叶えるとされる七色のカギの１本。
   かくして、少年達の世界を救う冒険が幕を開けた―
+  
+  *For players with non-Japanese systems,
+  it may not be possible to decompress and run directly,
+  and you need to use WinRAR or Peazip to adjust the text encoding to Shift-JIS (932) and decompress it to playing normally.
 
 authors:
   - name: Hitsuji Umino
