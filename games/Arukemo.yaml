@@ -35,6 +35,10 @@ tags:
 links:
   - name: .website
     uri: https://nestork.main.jp/arukemo/index.html
+  - name: Developer Homepage
+    uri: https://nestork.main.jp/side-u.html
+  - name: Developer's blog
+    uri: http://shirohitsuji365.blog.fc2.com/
 
 thumbnail: thumbnail.jpg
 
