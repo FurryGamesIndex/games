@@ -13,8 +13,14 @@ description: |
 
 authors:
   - name: Hitsuji Umino
+    standalone: true
+    avatar: HitsujiUmino.jpg
+    link-uri: http://shirohitsuji365.blog.fc2.com/
     role: [ producer, programmer ]
   - name: Isora Ya
+    standalone: true
+    avatar: IsoraYa.jpg
+    link-uri: twitter:nestork_i
     role: [ programmer ]
 
 tags:
