@@ -11,7 +11,14 @@ description: |
 
 authors:
   - name: Sombreve
-    role: [producer]
+    role: [ producer ]
+    standalone: true
+    avatar: Sombreve.jpg
+    link-uri: twitter:Sombreve_DoC
+  - name: project_red
+    role: [ translator ]
+    standalone: true
+    link-uri: https://github.com/WeiYenWu/Dawn-of-Corruption-Site-CN
 
 tags:
   type:
@@ -43,6 +50,7 @@ tags:
     - work-in-process
   lang:
     - en
+    - zh
   publish:
     - steam
     - itchio
@@ -62,6 +70,8 @@ links:
     uri: https://dawnofcorruption.net/
   - name: .patreon
     uri: patreon:sombreve
+  - name: .twitter
+    uri: twitter:Sombreve_DoC
   - name: .steam
     uri: steam:1608730
 
@@ -73,4 +83,3 @@ screenshots:
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1608730/ss_9dbda8dcc6ecffc287763308e4efca230c5a6b05.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1608730/ss_daf2f24dff91faa7221ab6bef754a257e831d4f2.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/1608730/ss_4170d33497a46c0e49ae99a0e476cb2764f7028f.1920x1080.jpg
-  
