@@ -37,6 +37,8 @@ tags:
     - macos
     - linux
     - xbox-one
+    - xbox-series-x
+    - xbox-series-s
     - nintendo-switch
   publish:
     - steam
