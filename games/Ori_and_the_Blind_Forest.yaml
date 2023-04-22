@@ -13,7 +13,7 @@ authors:
   - name: Moon Studios GmbH
     role: [ programmer, artist, animation, musician ]
   - name: Xbox Game Studios
-    role: publisher
+    role: [ publisher ]
 
 tags:
   type:
