@@ -21,6 +21,7 @@ tags:
     - adventure
     - puzzle
     - role-playing
+    - fantasy
   lang:
     - fr
     - de
@@ -37,13 +38,22 @@ tags:
     - linux
   publish:
     - steam
+    - e-shop
+    - xbox
   misc:
     - multiple-endings
+    - engine-unity
+    - multiple-series
+  species:
+    - eagle
+    - non-anthro
+    - mixed
 
 links:
   - name: .steam
     uri: steam:261570
-
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/ori-and-the-will-of-the-wisps-switch/
 thumbnail: thumbnail.png
 
 screenshots:
