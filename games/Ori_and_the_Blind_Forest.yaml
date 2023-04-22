@@ -11,7 +11,7 @@ description-format: markdown
 
 authors:
   - name: Moon Studios GmbH
-    role: developer
+    role: [ programmer, artist, animation, musician ]
   - name: Xbox Game Studios
     role: publisher
 
