@@ -36,10 +36,11 @@ tags:
     - windows
     - macos
     - linux
+    - xbox-one
+    - nintendo-switch
   publish:
     - steam
     - e-shop
-    - xbox-one
   misc:
     - multiple-endings
     - engine-unity
