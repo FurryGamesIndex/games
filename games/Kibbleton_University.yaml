@@ -1,0 +1,96 @@
+name: Kibbleton University
+
+brief-description: |
+  Here you are, the new transfer to Kibbleton University (KU), and you just joined a brand-new club. Everything and everyone are new to you, but you might get this strange sense of familiarity about these people.
+
+description: |
+
+  Here you are, the new transfer to Kibbleton University (KU), and you just joined a brand-new club. Everything and everyone are new to you, but you might get this strange sense of familiarity about these people. 
+
+  Spend some time and build up an education in this new university, meet new students and faculty members on this journey of building your club up! 
+  
+  KU is a choice-based, comedy, romance, slice of life, NSFW visual novel.  You got to be of the legal age in your country to play this. This game is built to explore ideas that would not be able to exist in the main story of WTDL. 
+
+authors:
+  - name: TeamBoke
+    role: [ producer ]
+  - name: Mako Wolf
+    standalone: true
+    avatar: Mako.jpg
+    link-uri: twitter:Mako__OwO
+    role: [ artist ]
+  - name: TiggonTG
+    standalone: true
+    avatar: TiggonTG.jpg
+    link-uri: twitter:TiggonTheGreat
+    role: [ artist ]
+  - name: Wattson
+    standalone: true
+    avatar: Wattson.jpg
+    link-uri: twitter:XT9Kzle
+    role: [ programmer ]
+  - name: RabidRabbit
+    standalone: true
+    avatar: RabidRabbit.jpg
+    link-uri: twitter:RabidRbbit
+    role: [ screenwriter ]
+  - name: Compymono
+    standalone: true
+    avatar: Compymono.jpg
+    link-uri: twitter:compymono
+    role: [ screenwriter ]
+  - name: Nawah
+    standalone: true
+    link-uri: twitter:NawahArts
+    avatar: Nawah.jpg
+    role: [ screenwriter ]
+  - name: Civ Valian
+    standalone: true
+    link-uri: twitter:CivicVariance4
+    avatar: CivicVariance4.jpg
+    role: [ musician ]
+
+tags:
+  type:
+    - visual-novel
+    - adventure
+    - yiff
+    - bara
+  species:
+    - dog
+    - fox
+    - lion
+    - lynx
+    - cattle
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - multiple-endings
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .twitter
+    uri: twitter:kibbletonuni
+  - name: .itch.io
+    uri: https://bokedaidu.itch.io/kibbleton-university
+  - name: .patreon
+    uri: patreon:TeamBoke
+  - name: .unofficial-patch-zh
+    uri: FGI-misc-page:Kibbleton_University-unofficial-l10n-zh-redir
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjA0NTUwMy8xMjAzNTYxNy5wbmc=/original/Xv1kwi.png
+  - https://img.itch.zone/aW1hZ2UvMjA0NTUwMy8xMjAzMDU5OS5wbmc=/original/wFzGbb.png
+  - https://img.itch.zone/aW1hZ2UvMjA0NTUwMy8xMjAzMDYwMC5wbmc=/original/i3lZKY.png
