@@ -1,0 +1,110 @@
+name: Ori and the Blind Forest
+
+brief-description: |
+  “Ori and the Blind Forest” tells the tale of a young orphan destined for heroics, through a visually stunning action-platformer crafted by Moon Studios for PC.
+
+description: |-
+  The forest of Nibel is dying. After a powerful storm sets a series of devastating events in motion, an unlikely hero must journey to find his courage and confront a dark nemesis to save his home. “Ori and the Blind Forest” tells the tale of a young orphan destined for heroics, through a visually stunning action-platformer crafted by Moon Studios for PC. Featuring hand-painted artwork, meticulously animated character performance, and a fully orchestrated score, “Ori and the Blind Forest” explores a deeply emotional story about love and sacrifice, and the hope that exists in us all.
+
+
+description-format: markdown
+
+authors:
+  - name: Moon Studios GmbH
+    role: [ programmer, artist, animation, musician ]
+  - name: Xbox Game Studios
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+    - adventure
+    - puzzle
+    - role-playing
+    - fantasy
+  lang:
+    - fr
+    - de
+    - it
+    - ja
+    - zh
+    - es
+    - en
+    - ru
+    - pt
+  platform:
+    - windows
+    - macos
+    - linux
+    - xbox-one
+    - xbox-series-x
+    - xbox-series-s
+    - nintendo-switch
+  publish:
+    - steam
+    - e-shop
+  misc:
+    - multiple-endings
+    - engine-unity
+    - multiple-series
+  species:
+    - eagle
+    - non-anthro
+    - mixed
+
+links:
+  - name: .steam
+    uri: steam:261570
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/ori-and-the-will-of-the-wisps-switch/
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_c617379b9d195eed0342f3ecf86898513e702b96.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_a4dbe240c363fe04e39a13c9bd78c88c026f3c50.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_38552fb1001c03b5ccce2e3979270b2ecfd944c2.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_85f66e8586a70b4fea5602a9d82ef2bf42c633b6.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_3b56520665b8fe3bba8df7e4cd239273c7156ab1.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_9b1e2d00b8582547070a8aab136372f75ffb4024.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_2cbce95c5a43044c75ef738b342601e58358a484.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_3f2a983bcdf986d535017c674cc9c1c179a35e9d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_664ec024cc880884e66f9ce61fbbf64b3d73edf3.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_0c7aaa2abf7394db16cb00fa336c2a07343ab01f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_2b9906b55eea920d7faa610dc652b4766227e349.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_873b3e4d8f96ea29c91aebe871af5e3915db3fe2.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_ffc15fac608d1e2c9f576bd81480e3d4a9f91e20.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_fa7b7c8cf8ab40f314c9a6c5fab382a7245daef9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_a0f942bffe1e33485c1b96c4e717c0bcc9797976.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_675a52a7a6c738acccc44e5b93e286e5c40fa0e1.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_3ed9c721b5ee032f45bbc95d2c2ba0d8bd06269e.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_2d8a25f1cd27d054022ddc1ec7b37cdde55a96c8.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_0063145dccd0cb165aa7d47d9ac6623445c7ad4c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_ed9fc79a76f8a55651e5bbd34b89457c263ac092.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_9d1c65e7ae503a48c55b002cb56cfdfedcd30bda.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_8c6bb342117fc21c2c2735bc1a94f118d96ae708.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_2d16ffc2ece133f898883714288e28bf0c99d91c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_6848cfc295d16452eefc71520b4c824bff8f0fe5.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_0ec31d07eb32469e3dfcef8f0ce58ecf75508726.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_29c95535846e6575bbea155f835075433381e5bf.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_a8be2510c3209d2a948908c486ed12b70dd023f9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_bcc055d95261e3c1450b031c02d92bbd32f0ecf6.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_6661b437afe4b6f8acb4d6c4b46f18fdb315f357.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_82c785e437e33b8a7126ece24a3fd02ed9269586.1920x1080.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/2037716/movie_max.webm
+      - mime: video/mp4
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/2037716/movie_max.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/2037576/movie_max.webm
+      - mime: video/mp4
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/2037576/movie_max.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/2037600/movie_max.webm
+      - mime: video/mp4
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/2037600/movie_max.mp4
