@@ -36,7 +36,7 @@ authors:
     role: [ screenwriter ]
   - name: Compymono
     standalone: true
-    avatar: Compymono.jpg
+    avatar: compymono.jpg
     link-uri: twitter:compymono
     role: [ screenwriter ]
   - name: Nawah
