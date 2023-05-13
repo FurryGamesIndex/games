@@ -34,8 +34,6 @@ tags:
     - pt
   platform:
     - windows
-    - macos
-    - linux
     - xbox-one
     - xbox-series-x
     - xbox-series-s
@@ -56,7 +54,7 @@ links:
   - name: .steam
     uri: steam:261570
   - name: .nintendo-e-shop
-    uri: https://www.nintendo.com/store/products/ori-and-the-will-of-the-wisps-switch/
+    uri: https://www.nintendo.com/store/products/ori-and-the-blind-forest-definitive-edition-switch/
 thumbnail: thumbnail.png
 
 screenshots:
