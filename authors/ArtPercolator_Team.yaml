@@ -1,0 +1,11 @@
+name: ArtPercolator Team
+
+type: small-team
+
+avatar: ArtPercolator_Team.png
+
+links:
+  - name: .website
+    uri: https://sites.google.com/view/artpercolator
+  - name: .twitter
+    uri: twitter:ArtPercolator
