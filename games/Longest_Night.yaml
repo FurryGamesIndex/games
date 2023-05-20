@@ -1,7 +1,15 @@
 name: Longest Night
 
+brief-description: |
+  "Longest Night": A Night In The Woods story where you trace constellations, featuring new dialogue and a cozy campfire setting. Stargaze and immerse yourself in the world of Night In The Woods.
+
 description: |
-  Longest Night is a Night In The Woods story. Gather round the campfire and trace the constellations in Longest Night- now with lots of new and different dialogue!
+    Longest Night is a Night In The Woods story. Gather round the campfire and trace the constellations in Longest Night- now with lots of new and different dialogue!
+
+    Made in one week in December 2013 as a first project, a mere month after the successful kickstarter when the team were learning how to make things together and first building the world of Night In The Woods. For Longest Night 2015 we are rereleasing it with lots of new (canon) writing ahead of Night In The Woods' 2016 release.  
+
+
+    Happy stargazing!
 
 description-format: markdown
 
@@ -22,8 +30,6 @@ tags:
     - windows
     - linux
     - macos
-  sys:
-    - staging
 
 links:
   - name: .itch.io

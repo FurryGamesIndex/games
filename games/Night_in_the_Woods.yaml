@@ -21,6 +21,7 @@ authors:
 tags:
   type:
     - adventure
+    - horror
   species:
     - bird
     - cat
@@ -38,6 +39,8 @@ tags:
     - windows
     - macos
     - linux
+  misc:
+    - multiple-endings
 
 links:
   - name: .steam
