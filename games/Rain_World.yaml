@@ -4,8 +4,6 @@ brief-description: |
   You are a nomadic slugcat, both predator and prey in a broken ecosystem. Grab your spear and brave the industrial wastes, hunting enough food to survive, but be wary— other, bigger creatures have the same plan... and slugcats look delicious.
 
 description: |
-  # About the Game
-
   ![img](https://cdn.akamai.steamstatic.com/steam/apps/312520/extras/RW_SteamGIF_02.jpg)  
 
   You are a slugcat. The world around you is full of danger, and you must face it – alone. Separated from your family in a devastating flood, you will need to find food and shelter between terrifying torrential downpours which threaten to drown all life. Climb through the ruins of an ancient civilization, evade the jaws of vicious predators, and discover new lands teeming with strange creatures and buried mysteries. Find your family before something makes a meal of you!  
@@ -57,9 +55,6 @@ tags:
     - mixed
     - non-anthro
 
-
-
-
 links:
   - name: .steam
     uri: steam:312520
@@ -68,7 +63,6 @@ links:
   - name: .playstation-store
     uri: https://store.playstation.com/en-us/product/UP0151-CUSA04196_00-RAINWORLD0000000
   
-
 thumbnail: thumbnail.png
 
 screenshots:
