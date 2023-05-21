@@ -62,4 +62,12 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - youtube: J7Vsv_nLL_E
+  - type: video:local
+    sensitive: true
+    src:
+      - mime: video/mp4
+        path: main/480.mp4
+        size: 480
+      - mime: video/mp4
+        path: main/1080.mp4
+        size: 1080
