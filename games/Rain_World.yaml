@@ -1,0 +1,90 @@
+name: Rain World
+
+brief-description: |
+  You are a nomadic slugcat, both predator and prey in a broken ecosystem. Grab your spear and brave the industrial wastes, hunting enough food to survive, but be wary— other, bigger creatures have the same plan... and slugcats look delicious.
+
+description: |
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/312520/extras/RW_SteamGIF_02.jpg)  
+
+  You are a slugcat. The world around you is full of danger, and you must face it – alone. Separated from your family in a devastating flood, you will need to find food and shelter between terrifying torrential downpours which threaten to drown all life. Climb through the ruins of an ancient civilization, evade the jaws of vicious predators, and discover new lands teeming with strange creatures and buried mysteries. Find your family before something makes a meal of you!  
+
+  Inspired by the simplicity and aesthetics of 16-bit classics, this survival platformer requires clever decision-making, both to catch your own prey and to avoid the jaws of hungry predators. Each ravenous foe in your path will be cunning, vicious and always on the hunt – eager to sink their teeth into you, or even each other. As a small, soft slugcat you must rely on stealth and wit rather than force: learn the ecosystem and turn their strengths to your advantage. Maybe then you can survive… Rain World!
+
+
+description-format: markdown
+
+authors:
+  - name: Videocult
+    role: [ producer ]
+  - name: Akupara Games
+    role: [ publisher ]
+  - name: Adult Swim Games
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+    - horror
+    - adventure
+    - role-playing
+    - puzzle 
+  lang:
+    - ja
+    - pt
+    - de
+    - ko
+    - en
+    - fr
+    - it
+    - ru
+    - zh
+    - es
+  platform:
+    - windows
+    - nintendo-switch
+  publish:
+    - steam
+    - playstation-store
+    - e-shop
+  misc:
+    - pixel-art
+    - engine-unity
+    - multiple-series
+  species:
+    - feline
+    - mixed
+    - non-anthro
+
+links:
+  - name: .steam
+    uri: steam:312520
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/rain-world-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP0151-CUSA04196_00-RAINWORLD0000000
+  
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_cbd4e647d6b3bb3b311cb68fdf0cd8835d5919d7.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_628274c84b196e270733f540139062f2787c4423.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_d551eee41e60ba8f5f2005b3de41c5f2c27cb444.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_5c8c0413e98f3521e3df370d4ad7018b771ce353.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_467f33ca196cdc545d5ae7aeb0c5d55c1aa8e134.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_becb0959f6479d07e05f2c14f48980a15b5e5192.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_519831951a674f56ca80fd7e14884a7291d71e50.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_4dd9382b280de17b21bdff758200c32250078d80.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_732dcfeade41f17e5404bc528bd9f44b53a51d5f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_ac9c5296916330c54c69302963d151ad261d6c14.1920x1080.jpg
+  - type: video
+    src:
+      - mime: video/webm
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/256925909/movie_max_vp9.webm
+      - mime: video/mp4
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/256925909/movie_max.mp4
+  - type: video
+    src:
+      - mime: video/webm
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/256680866/movie_max.webm
+      - mime: video/mp4
+        uri: http://cdn.akamai.steamstatic.com/steam/apps/256680866/movie_max.mp4
