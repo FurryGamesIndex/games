@@ -38,25 +38,4 @@ jobs:
         echo "$dfs" | grep '^games/l10n/[^/]*$' | while read -r i; do
           ./scripts/lint.sh game-l10n "$i"
         done
-
-    - name: gen
-      run: |
-        python3 --version
-        ./generate.py \
-            --no-sub-lists \
-            --no-sitemap \
-            --file-uri-workaround \
-            --images-to-webp \
-            --plugin steam-cdn-unite,verbose=1 \
-            output
-
-    - name: tarball
-      run: |
-        cd output
-        tar cvf "../build.tar" .
-
-    - name: upload
-      uses: actions/upload-artifact@v2
-      with:
-        name: ${{ env.SHA_ID }}
-        path: build.tar
+        

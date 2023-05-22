@@ -1,0 +1,106 @@
+name: Breeze in the Clouds
+
+brief-description: |
+  Become a force of nature in a stylish, combo-fueled 2D action-adventure! Jump, brawl, and command the powers of weather as Breeze, a scrappy and courageous corgi swept away from his regular life to fight pollution in a fantastic world in the clouds where animal forces control the weather.
+
+description: |
+  ## Become a force of nature
+  Before the storm hit, Breeze was just a regular dog living a regular life alongside his best friend Diana. But all that changes one night when freak winds ravage the town, awakening long-dormant powers within the unassuming pup.
+  
+
+  Suddenly Breeze finds himself whisked away to Tropolis—a strange world in disarray, where weather is controlled and maintained by a squabbling bureaucracy of natural forces from across the animal kingdom. If he wants to find his way back to Diana, Breeze will need to use his newfound powers to assume an array of weather-based forms, fight the forces of pollution poisoning the world, and become an unstoppable force of nature.
+  
+
+  ## Breezy brawling adventure
+  Take control of a clever, scrappy, and courageous corgi, and embark on a fast and fluid 2D action-packed quest.
+
+  
+  ## A storm in canine form
+  Learn to command the forms of Wind, Cloud, and more weather conditions to suit your situation. Fight with paws of fury using lightning-fast combos and fun finishers.
+  
+
+  ## Befriend and battle natural forces
+  Journey to a wide array of weather domains, controlled and managed by ice-cold wolves, rain-summoning platypuses, sulfur-spewing hyenas, and more animal incarnations of climate and pollution.
+
+  
+  ## Puzzles in the forecast
+  Discover how weather interacts to solve puzzles and give you a fighting chance. Entomb foes in ice by summoning rain in low temperatures, and whip up a storm by calling in clouds during the right conditions.
+  
+
+  ## A cartoon come to life
+  Discover an eye-poppingly cute and vibrant hand-drawn world filled with cute characters and animations from the Saturday morning cartoon of your dreams—crafted with an environmental conscience.
+
+  
+  ## Who’s a good boy?
+  Shake up the status quo, root out the true cause of Tropolis' misfortune, help people understand that it's always better when you're working together…and ultimately save the planet from a Total Weather Collapse.
+  
+
+  ## Hip, smooth, breezy groove
+  Explore the clouds to the tune of a soundtrack filled with jazz, new jack, swing, samba, and more nostalgic sounds—crafted by musicians with a love for classic genres and the world of video game music.
+  
+
+  ## More Game Features
+  * Summon support characters to help you in combat and change the weather in your favor.
+  * Converse with a big, colorful cast to gather knowledge, solve problems, and earn items.
+  * Over a dozen boss battles with multiple phases that will challenge your creativity and skill.
+  * Multiple difficulty settings for players looking to push themselves to the limit or simply enjoy the story.
+  * Did we mention Breeze is a corgi? Cuz Breeze is a corgi.
+  
+  ## Created by Stormy Nights
+  Breeze in the Clouds is crafted by a team of animation-loving, video-game-enamored artists, designers, and developers from around the world who share a passion for making entertainment that makes a positive impact on players everywhere—and maybe even teach them a little something along the way. (In bringing Breeze to life, the team worked with a meteorologist to bring elements of real-world weather into the gameplay). Breeze in the Clouds is one of the first games to receive funding from the Black Game Developer Fund.
+  
+description-format: markdown
+
+authors:
+  - name: Stormy Nights Interactive LLC
+    role: [ producer ]
+  - name: Humble Games
+    role: [ publisher ]
+
+tags:
+  type:
+    - puzzle
+    - role-playing
+    - action
+  species:
+    - dog
+  misc:
+    - unpublished
+  lang:
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:1823210
+  - name: .website
+    uri: https://www.breezethegame.com/
+  - name: .twitter
+    uri: twitter:BreezeGame
+  - name: .discord
+    uri: discord:EETqXYQ
+  - name: .patreon
+    uri: patreon:srbilyon
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256947107/movie480_vp9.webm
+  - type: video
+    src:
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256860590/movie480_vp9.webm
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1823210/ss_fe84627e7c8c43eb97c3fc01922d9032298d4a2f.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1823210/ss_49868c42d91c6d379905d4d4a3327cf75871a590.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1823210/ss_4e73b5606048b0293947bccbc44809b416c11f7c.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1823210/ss_e9efccb605bf9ba2fb495f77cac73838b0aa1135.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1823210/ss_9b012fd415e5cadd49b3c115277eb15236c9c7cd.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1823210/ss_491c72d7800056acf4ec64255efb664316226554.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1823210/ss_41cf126f9aa36e9cc0cb589c17648b7bdcaf581c.1920x1080.jpg
+

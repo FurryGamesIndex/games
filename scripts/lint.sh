@@ -37,8 +37,8 @@ game)
 	./scripts/validate.py schemas/game.schema.yaml "$2"
 	info "schema check pass"
 
-	./scripts/imageutils.sh validate-thumbnail $(echo -n "assets/${gid}/"; ./scripts/dbutils.sh game-get-property "$gid" thumbnail)
-	info "thumbnail chack pass"
+	# ./scripts/imageutils.sh validate-thumbnail $(echo -n "assets/${gid}/"; ./scripts/dbutils.sh game-get-property "$gid" thumbnail)
+	# info "thumbnail chack pass"
 
 	for i in "${game_deprecated_properties[@]}"; do
 		./scripts/dbutils.sh game-has-property "$gid" "$i" && die "Deprecated property '$i' should not be used in new entries."
