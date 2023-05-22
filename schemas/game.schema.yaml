@@ -82,6 +82,7 @@ properties:
               - scenographer
               - translator
               - publisher
+              - technical-support
               - others
       required: [ name, role ]
   tags:
@@ -156,6 +157,20 @@ properties:
       The screenshots or other related medias of the game.
     items:
       oneOf:
+        - type: object
+          title: LocalScreenshotImage
+          description:
+            An image. Sensitive or non-sensitive.
+          properties:
+            sensitive:
+              type: boolean
+              description: |
+                `true` if the image is sensitive
+            path:
+              type: string
+              description: |
+                The path or the image.
+          required: [ path ]
         - type: object
           title: ScreenshotImage
           description:

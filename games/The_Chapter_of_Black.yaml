@@ -1,0 +1,67 @@
+name: 黑之章
+
+brief-description: |
+  经历了两年历练的新人警察,在偶然的情况下得到了能看穿事物运转的流动之魔眼,持有这种 力量的他又一次被卷进那个昏黑的泥潭。两年前出现的剥皮者,自称杀人犯的少年、癫狂的邪教祭祀、搜集着灵魂的诡异咒术。当接踵而至的怪异事件和冲突降临到身边时,那熟悉的日常早已不复存在......
+
+description: |
+  ## 剧情介绍
+
+  故事描述主人公萨摩耶警官安迪在多年前的意外中，获得了得到了能看穿事物运转的流动之魔眼。由于对自己的新能力的恐惧和与之伴随的悲惨回忆，在这之后他一直封印了自己的能力。之后的数年安迪成为了一名刑警。在平凡的日子过后，因为职位的调离，他与警校的前辈格雷共同调查一起恶性连续杀人案——剥皮案。就在生活突然发生巨大改变之时，安迪的魔眼渐渐觉醒。剥皮者，邪教仪式，异形，招魂咒术，接踵而至的怪异事件促使他不得不面对那已然忘却的过往。
+
+  ## 关于游戏
+
+  《黑之章》属于典型的文字冒险游戏，玩家只需对特定选项作出选择即可推动剧情发展（即电子小说）。
+
+  玩家将以主人公“我”的第一人称视角进行游戏。
+
+  全篇共有三条线，分别对应三个可攻略对象。
+
+  预计全6个章节，部分章节为共通线，章节时长在1小时以上。
+
+description-format: markdown
+
+authors:
+  - name: 星火社游戏制作组
+    role: [publisher]
+  - name: 氷牙
+    role: [producer, screenwriter]
+  - name: 石月月bb
+    role: [artist]
+  - name: 泉邃
+    role: [scenographer]
+  - name: 魔王卜
+    role: [programmer]
+  - name: 偏钛酸钡
+    role: [technical-support]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  species:
+    - dog
+    - bear
+  fetish:
+    - muscle
+  misc:
+    - work-in-process
+  lang:
+    - zh
+  platform:
+    - windows
+  publish:
+    - itchio
+
+links:
+  - name: .website
+    uri: http://ac.yngudu.cn/
+  - name: .itch.io
+    uri: https://blackchapter.itch.io/blackchapter
+  - name: AFDIAN
+    uri: http://afdian.net/a/hyouga
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: 1.png
