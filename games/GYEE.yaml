@@ -1,0 +1,97 @@
+name: GYEE
+
+brief-description: |
+  GYEE是款3D角色扮演回合制卡牌游戏。支持iOS、安卓和STEAM，在全球发布。
+description: |
+  ## 游戏介绍
+  游戏中，盖伊(GYEE)是人类社会的少数群体。
+
+  他们的血液中蕴含着野兽的力量，眼眸发出金色的光芒。
+
+  他们寻找相投的灵魂、建立连接，激发着彼此，也牵绊着彼此。
+
+  他们随机存在于普通人之中，被人们一些误解，被一些人歧视。
+
+  但他们勇敢、自爱。在充满敌意的环境裡，隐藏着、坚守着，努力争取着平等生存的权利。
+
+  你通过神奇的骰子来到拉克斯姆，遇见形态各异的盖伊，与他们建立灵魂连接，并渐渐地改变着他们的命运。
+  
+description-format: markdown
+
+authors:
+  - name: KIWIFRUIT STUDIO
+    role: [producer]
+
+tags:
+  type:
+    - role-playing
+    - board
+  species:
+    - wolf
+    - dog
+    - lion
+    - bear
+    - dragon
+    - tiger
+    - humankind
+  fetish:
+    - muscle
+  misc:
+    - freeware
+    - 3d
+    - online
+    - not-only-furry-topic
+  lang:
+    - zh
+    - en
+  publish:
+    - website
+    - google-play
+    - apple-appstore
+  platform:
+    - ios
+    - android
+  sys:
+    - tagme
+  
+
+links:
+  - name: .website
+    uri: https://www.thegyee.com/
+  - name: .play-store
+    uri: google-play-store:com.thegyee.www
+  - name: .apple-appstore
+    uri: https://apps.apple.com/us/app/gyee/id1461442122
+  - name: .weibo
+    uri: https://weibo.com/thegyee
+  - name: .twitter
+    uri: twitter:THEGYEE_COM
+  - name: .facebook
+    uri: facebook:thegyees
+
+    
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: 1.jpg
+  - type: image:local
+    path: 2.jpg
+  - type: image:local
+    path: 3.jpg
+  - type: image:local
+    path: 4.jpg
+  - type: image:local
+    path: 5.jpg
+  - type: image:local
+    path: 6.jpg
+  - type: image:local
+    path: 7.jpg
+  - type: image:local
+    path: 8.jpg
+  - type: image:local
+    path: 9.jpg
+  - type: image:local
+    path: 10.jpg
+  
