@@ -66,15 +66,11 @@ screenshots:
   - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256949077/movie_max_vp9.webm?t=1685043362
-      - mime: video/mp4
-        path: 0_1080.mp4
-        size: 1080
+
   - video: 
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256940834/movie_max_vp9.webm?t=1681315075
-      - mime: video/mp4
-        path: 1_1080.mp4
-        size: 1080
+
   - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_5797c40743734f37fea21efd71bb223353a4a6cc.jpg?t=1685043391
   - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_94cd515b1e26fa640aec6ef26d3896138c991c4a.jpg?t=1685043391
   - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_210047dd65f51fc7b205c70e939fa43f46751f94.jpg?t=1685043391
