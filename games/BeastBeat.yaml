@@ -1,0 +1,66 @@
+name: Beast Beat
+
+brief-description: |
+  Beast Beat是一款R18兽兽节奏游戏，你将跟随激动人心的节拍体验来自不同世界的不同故事，并在与你的角色的性爱中达到高潮。
+description: |
+  ## 游戏特点
+  超过 7 套 CG 动画和歌曲- 一些由不同艺术家创作的原创歌曲。
+  3 种不同的难度- 简单、普通和地狱（需要多根手指！）你准备好接受挑战了吗？
+  就像任何经典节奏游戏一样玩- 根据节拍在 4 条通道上演奏音符！
+  交互式动画画廊模式- 使用鼠标玩你喜欢的角色！  （Patreon独家）
+  角色CG背景故事视频- 了解更多你喜欢的角色。  （Patreon独家）
+  移动版- 随时随地玩！  （Patreon独家）
+  ## 游戏内功能
+  可调滚动速度
+  自定义分配键绑定
+  SFW/NSFW模式
+  
+description-format: markdown
+
+authors:
+  - name: C-BoneGames
+    role: [publisher]
+
+tags:
+  type:
+    - music
+    - bara
+    - yiff
+  species:
+    - dragon
+    - cow
+    - panther
+    - tiger
+  fetish:
+    - muscle
+  misc:
+    - work-in-process
+  lang:
+    - en
+  platform:
+    - windows
+    - android
+  publish:
+    - itchio
+
+links:
+  - name: .itch.io
+    uri: https://c-bonegame.itch.io/beastbeat
+  - name: .patreon.com
+    uri: https://www.patreon.com/MagicMania
+  - name: .twitter
+    uri: https://twitter.com/Magic_mania72
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: 1.gif
+  - type: image:local
+    path: 2.gif
+  - type: image:local
+    path: 3.png
+  - type: image:local
+    path: 4.png
+  - type: image:local
+    path: 5.png
