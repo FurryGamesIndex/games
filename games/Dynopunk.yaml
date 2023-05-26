@@ -80,7 +80,7 @@ links:
   - name: .steam
     uri: steam:1596730
 
-thumbnail: https://cdn.akamai.steamstatic.com/steam/apps/1596730/header.jpg?t=1685043391
+thumbnail: thumbnail.png
 
 screenshots:
   - video:
