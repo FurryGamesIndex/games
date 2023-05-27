@@ -18,6 +18,8 @@ authors:
     role: [ producer, screenwriter, programmer, artist ]
   - name: 'Studio Klondike'
     role: [ producer, screenwriter, programmer, artist ]
+  - name: Nviek5
+    role: [ animator ]
 
 tags:
   type:
