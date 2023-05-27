@@ -1,0 +1,102 @@
+name: Dynopunk
+
+brief-description: |
+  在融合赛博朋克美学的世界中经历一段怪诞滑稽的冒险，这个世界中没有人类，只有恐龙。经营修理店，成为一名一流的机修工。修理设备、与顾客谈心、为顾客提供饮料，这一切都是为了实现你最终的梦想。
+
+description: |
+  Dynopunk将为大家带来一段怪诞滑稽的冒险，故事将以赛博朋克世界为背景展开，这个世界中没有人类，只有恐龙。你需要经营一家修理店，修理各种损坏的设备。为了向每位顾客提供个性化的修理方案，你需要以提供饮料为契机，与他们展开深入交谈。所有的努力都是为了让自己的生活变得更好，当然还有追求最终的梦想！
+  
+  想象一下，如果小行星没有撞击地球，那么恐龙就不会灭绝，而是不断发展进化。数百万年后的今天，他们居住在高科技大都会中。克里斯就是其中的一员，他是一家修理店的店主，一直梦想着造一台时光机回到过去，找寻真爱，因为他是地球上仅存的霸王龙！
+  
+  ### 结识赛博风格恐龙
+  为致敬上世纪90年代的复古风游戏，游戏画面将以像素风格呈现，希望大家乐在其中。前往未来平行世界，结识多个令人难忘的游戏角色，在这里食肉恐龙将代表强权。伴随低保真音轨的悠扬旋律，尽情享受惬意的游戏时光。随着故事的发展，玩家做出的选择会将剧情导向不同结局。
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1596730/extras/positive_emotions.gif)
+  
+  ### 修理设备
+  向顾客询问相关信息，找到问题的根源并顺利修好设备。务必熟练完成修理工作，不可马虎大意，因为这将是你全部的收入来源。
+  
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1596730/extras/FICHA_2.gif)
+
+  ### 与顾客谈心
+  与顾客坦诚交谈，并根据他们的喜好为他们提供饮料。有时只需要一杯凉爽的汽水或一杯热咖啡，就能让你有机会拿到更多小费。
+  
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1596730/extras/FICHA_3.gif)
+
+  ### 追逐梦想
+  你将在游戏中扮演地球上最后一只霸王龙，踏上建造时光机的旅途，努力回到过去、寻找真爱。这个梦想会如期实现吗？
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1596730/extras/FICHA_4.gif)
+
+  ## 特色
+  在为期7天的游戏时光中，经营属于你的修理店，并通过维修设备来学习修理行当中的门道。切割所需的芯片大小，拆卸并更换受损零件。你甚至可以跟顾客来个恶作剧……或者搞点小动作。至于后果如何，那只能由你自己承担！
+  
+  这将是你与奇怪助理，也就是那台会说话的打印机互相打趣的好机会，它很喜欢嘲笑你的短小手臂，同时也会给你提供各种维修建议，不过这些建议大多都有问题，记得仔细甄别。
+  
+  模拟饮料供应服务，这不仅会影响顾客的心情，还会决定小费的多少。
+  
+  原创低保真原声音轨，让你梦回20世纪80年代！倒一杯热茶，舒坐放松，沉浸于精彩的游戏剧情中。
+  
+  各种有趣的角色会来造访你的修理店。每个角色不仅性格各异，而且拥有各自的梦想和专属剧情，你的选择将影响最终剧情的走向。
+  
+  角色间对话暗藏讽刺、笑话和俗语，游戏内更有复活节彩蛋等你来发现，欢乐多多，让你开怀一笑！
+  
+  像素风游戏画面，灵感源自于20世纪90年代的复古游戏。
+  
+  分支剧情设计，你和顾客的对话以及维修质量将引导剧情走向不同结局。
+
+description-format: markdown
+
+authors:
+  - name: Tomato Fantasy Games
+    role: [producer]
+  - name: 101XP
+    role: [producer]
+
+tags:
+  type:
+    - visual-novel
+    - business-sim
+  species:
+    - dragon
+  misc:
+    - pixel-art
+    - multiple-endings
+  lang:
+    - zh
+    - en
+    - ru
+  publish:
+    - website
+    - steam
+  platform:
+    - windows
+  sys:
+    - tagme
+
+links:
+  - name: .website
+    uri: https://store.101xp.com/en/games/dynopunk
+  - name: .steam
+    uri: steam:1596730
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256949077/movie_max_vp9.webm?t=1685043362
+
+  - video: 
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256940834/movie_max_vp9.webm?t=1681315075
+
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_5797c40743734f37fea21efd71bb223353a4a6cc.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_94cd515b1e26fa640aec6ef26d3896138c991c4a.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_210047dd65f51fc7b205c70e939fa43f46751f94.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_275430b49536f74c45b6504527040413f0f21ce0.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_0f1189bb12736b8d9609d104876bbe59b58a54a9.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_31a68d708e86091e7e74b9d5efebbacc554ed120.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_02b24f3f78e36cc3da56446e960264d8a6c2603a.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_debb6c0950ea641d8f2936ffc812fb6398d1e9a3.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1596730/ss_2459aea188fcab0b273fb41413bfb69b5e105457.jpg
