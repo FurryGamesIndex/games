@@ -1,0 +1,71 @@
+name: Mad Rat Dead
+
+brief-description: |
+  Join Mad Rat and his talking heart companion, Heart, in an extraordinary tale of revenge, sacrifice, and redemption. Rewind time, overcome deadly obstacles, and unravel the mysteries of the Rat God in this heartwarming and heart-wrenching adventure.
+
+description: |
+  Wreak Havoc to the Rhythm!
+  A rat's dream has been left unfulfilled before his death...that is, until he gets a second chance at life! Granted the opportunity to redo his last day on Earth, you must utilize the rat's newfound power to pump his heart in time with the music, lest his own time runs out.
+
+  You’ve got one day to live and a huge score to settle.
+  Time to put the "beat" in beatdown! Jump, dash, and smash to the rhythm in this music-based action platformer!
+
+description-format: markdown
+
+
+authors:
+  - name: Nippon Ichi Software
+    role: [ producer, publisher ]
+  - name: NIS America
+    role: [ publisher ]
+
+tags:
+  type:
+    - adventure
+    - action
+    - music
+    - non-indie
+  species:
+    - mouse
+  misc:
+    - outside-furry-fandom
+  lang:
+    - en
+    - fr
+    - pl
+    - it
+    - de
+    - ru
+  publish:
+    - e-shop
+  platform:
+    - nintendo-switch
+    - playstation4
+
+links:
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/mad-rat-dead-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP1063-CUSA20305_00-MADRATDEAD000000
+  - name: .website
+    uri: https://nisamerica.com/mad-rat-dead/
+  - name: .twitter
+    uri: twitter:nisamerica
+  - name: .facebook
+    uri: facebook:NISAmericaInc
+  - name: Instagram
+    uri: https://www.instagram.com/nisamerica/
+  - name: .youtube
+    uri: https://www.youtube.com/user/NISAmerica
+  - name: Twitch
+    uri: https://www.twitch.tv/nisamerica
+  - name: .discord
+    uri: discord:nisa
+    
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://assets.nintendo.com/image/upload/ncom/en_US/games/switch/m/mad-rat-dead-switch/hero
+  - https://assets.nintendo.com/image/upload/ncom/en_US/games/switch/m/mad-rat-dead-switch/screenshot-gallery/screenshot01
+  - https://assets.nintendo.com/image/upload/ncom/en_US/games/switch/m/mad-rat-dead-switch/screenshot-gallery/screenshot02
