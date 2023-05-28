@@ -1,7 +1,7 @@
 name: 灰舟
 
 brief-description: |
-  灰舟，献给好奇者。（这个是我们的宣传口号）
+  灰舟，献给好奇者。
 
   灰舟是一款有阅读门槛的视觉小说。它是献给其作者本身和对它好奇的人的。它同时也是一个公益素材库，其内所有原创素材的版权都以 CC 许可部分公开。
   
@@ -79,7 +79,7 @@ tags:
     - android
 
 links:
-    - name: itch.io
+    - name: .itch.io
       uri: https://klke.itch.io/gray
 
 thumbnail: thumbnail.jpg
