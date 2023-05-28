@@ -4,19 +4,19 @@ type: personal
 
 links:
   - name: .twitter
-    uri: https://twitter.com/nviek5
+    uri: twitter:nviek5
   - name: .facebook
-    uri: https://www.facebook.com/nviek5/?locale=zh_TW
+    uri: facebook:nviek5
   - name: .furaffinity
-    uri: https://www.furaffinity.net/user/nviek5/
+    uri: furaffinity:nviek5/
   - name: .youtube
-    uri: https://www.youtube.com/@nviek5
+    uri: youtube:@nviek5
   - name: .patreon
-    uri: https://www.patreon.com/Nviek5
+    uri: patreon:Nviek5
   - name: .tumblr
-    uri: https://nviek5.tumblr.com/
+    uri: thumlr:nviek5
   - name: .pixiv
-    uri: https://www.pixiv.net/users/2809505
+    uri: pixiv:2809505
   - name: Kofi
     uri: https://ko-fi.com/nviek5
   - name: Plurk
