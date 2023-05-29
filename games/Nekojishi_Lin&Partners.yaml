@@ -1,0 +1,118 @@
+name: 'Nekojishi: Lin & Partners'
+
+brief-description: |
+  Nekojishi: Lin & Partners is an adventure-RPG that combines adventure game gameplay with real-time debate combat!
+
+  Explore a wide game world, talk to characters, and help them out in quests— solving puzzles and learning more about local history and traditions. When things come to a head, you'll need to prove the truth and face-off against spirits in real-time RPG debate battles. Make smart use of the information you've acquired to face every rebuttal of your opponents!
+
+description: |
+  Liao, having been awakened to the ability to see the gods and spirits in this world, came into contact with three feline spirits who each wanted a say in his life and his future. 
+
+  ![](https://ksr-ugc.imgix.net/assets/028/320/334/3c2f64b390588aa8a790b9e722ee47ac_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1583341533&gif-q=50&lossless=true&s=ed04afd29fca907a957f8cc298997ab7)
+
+  Three years after the story of Nekojishi, Liao is out of college and strapped for cash and those closest to him, the spirits Lin Hu, Likulau, and Yan Shu-Chi are desperate to help Liao get a job. 
+
+  Take the reins at Lin & Partners Architects LLP, an architecture firm specialising in the restoration of haunted locations, and solving the problems of the beast-man spirits dwelling within them.
+
+  As Lin & Partners grows, a larger company looms near. Liao and the others must uncover their motives and ideals for tradition in modern society.
+
+  ![](https://ksr-ugc.imgix.net/assets/028/320/353/e7397a81968b874768f4be30781dda45_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1583341634&gif-q=50&lossless=true&s=c248565a5bc22ce7f034205cbc7d73e7)
+
+  The story of Lin & Partners takes place as Liao and the others start up their new business venture. Connect with both old and new faces as Liao finds himself deep within the world of gods and spirits once more!
+
+  ![](https://ksr-ugc.imgix.net/assets/028/320/374/8884db53b7694f1a884a718cccc7886d_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1583341710&gif-q=50&lossless=true&s=42d77bcf1370a2131c53d361c5d980ee)
+
+  ## Adventure Mode
+
+  An adventure set in Taiwan, filled with culture, folklore, and the spirits that cause Liao so much trouble. In Lin & Partners you can explore the world, talk to characters, solve puzzles, undertake quests, and more! 
+
+  ![](https://ksr-ugc.imgix.net/assets/028/189/496/9a6b78bd584d4439c85f5b4499201607_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1582427936&gif-q=50&lossless=true&s=b5d43d3752f9f4c16b065f9a3c9ff584)
+
+  You'll also be able to get to know the spirits you meet in the world by undertaking side quests along your main adventure. The bonds you make with the various spirits that accompany Liao on your journey will make their arguments more powerful in debates!
+
+  ![](https://ksr-ugc.imgix.net/assets/028/182/461/eeec91db0483c9535ef83d26dadf32ad_original.gif?ixlib=rb-4.0.2&w=680&fit=max&v=1582360637&gif-q=50&q=92&s=a1340360fb4ae180a69ee8040fe4a6ca)
+
+  ## Debate Battles
+
+  When the time comes for Liao to convince a spirit, a debate begins! Debates are real-time RPG battles where the player uses Argument Cards to damage their opponent's credibility (HP). Using cards makes use of Inspiration Points (IP) which are replenished every turn.
+
+  In some scenarios, you may even need to use specific clues gathered in the adventure to disprove statements made by your opponent! Choose correctly and you'll leave them wide open!
+
+  ![](https://ksr-ugc.imgix.net/assets/028/071/616/6672dc510eeeff96b12ee9ffb1f7ec6c_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1581550960&gif-q=50&lossless=true&s=536f992278e5dd553b4573c8dd804ce3)
+
+  Make smart use of Argument Cards and their effects to show your opponents your way of thinking! The cards you have access to will change depending on your progress in the adventure, what characters are by your side, side quests completed, and other secrets hidden in the world. 
+
+  ![](https://ksr-ugc.imgix.net/assets/028/351/427/04039ba3f343af8d545d80b172176cc3_original.jpg?ixlib=rb-4.0.2&w=680&fit=max&v=1583551597&gif-q=50&q=92&s=255aa2f1604558f476d3fcb35e74291b)
+
+  Every version of the game will contain every language. If you're backing for a Nintendo Switch copy, you'll be able to play in any language regardless of Nintendo eShop region. 
+
+description-format: markdown
+
+authors:
+  - name: 'Studio Klondike'
+    role: [ producer, screenwriter, programmer, artist ]
+  - name: 'Dylan Wunsch'
+    role: [ producer, programmer, artist ]
+  - name: 'Drancis Nguyen'
+    role: [ programmer, others ]
+  - name: Mamaduo
+    role: [ screenwriter, artist ]
+  - name: Fruitz
+    role: [ artist ]
+  - name: 'Tao Gongsun'
+    role: [ screenwriter, translator ]
+  - name: 'George Squares'
+    role: [ screenwriter ]
+  - name: 'Esteban Tamashiro'
+    role: [ musician ]
+
+tags:
+  type:
+    - adventure
+    - role-playing
+  species:
+    - tiger
+    - dog
+    - cattle
+    - lung
+  misc:
+    - multiple-endings
+    - multiple-series
+    - unpublished
+  lang:
+    - zh
+    - en
+    - ja
+  publish:
+    - website
+    - patreon
+    - e-shop
+  platform:
+    - windows
+    - macos
+    - nintendo-switch
+  sys:
+    - tagme
+links:
+  - name: .website
+    uri: https://www.klondike.studio/
+  - name: .patreon
+    uri: patreon:StudioKlondike
+  - name: .twitter
+    uri: twitter:NekojishiTW
+  - name: .facebook
+    uri: facebook:nekojishi
+  - name: .discord
+    uri: discord:nekojishi
+  - name: .youtube
+    uri: youtube:@StudioKlondike
+  
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - youtube: a0ht2Bmorjk
+  - youtube: EDiXJnlxkW8
+    
+  - https://ksr-ugc.imgix.net/assets/027/902/508/48e572509327b03f4e36a28bd4a6db75_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1580323573&gif-q=50&lossless=true&s=44e46b06f0c3085cacf0d391efd69203
+  - https://ksr-ugc.imgix.net/assets/028/181/931/06b37917b83f1e618004ed3526576f3c_original.gif?ixlib=rb-4.0.2&w=680&fit=max&v=1582352947&gif-q=50&q=92&s=2b1cc4087aa5792461373384856cb11f
+  - https://ksr-ugc.imgix.net/assets/028/320/374/8884db53b7694f1a884a718cccc7886d_original.png?ixlib=rb-4.0.2&w=680&fit=max&v=1583341710&gif-q=50&lossless=true&s=42d77bcf1370a2131c53d361c5d980ee
