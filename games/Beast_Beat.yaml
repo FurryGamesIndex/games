@@ -114,8 +114,10 @@ thumbnail: thumbnail.jpg
 screenshots:
   - type: image:local
     path: PlayingGif-533x300Max3M.gif
+    sensitive: true
   - type: image:local
     path: GallaryGif-533x300Max3M.gif
+    sensitive: true
   - type: image:local
     path: AdvPic01.png
   - type: image:local
