@@ -1,0 +1,135 @@
+name: 'Beast Beat'
+
+brief-description: |
+  Beast Beat is an R18 furry rhythm Game, in which you will experience different stories from various worlds following the exciting beats, and reach climax in sex with your character.
+
+description: |
+  ## Join Us on...
+  Discord https://discord.gg/yESMAaRbfh
+  Patreon https://www.patreon.com/MagicMania
+  Twitter https://twitter.com/Magic_mania72
+
+  If you are interested to include your song in the game, please submit your song through our discord server.
+
+  Please note that the game is still in development, please report any bugs or comments through the Community session or the Discord server! 
+
+  ## Features
+
+  More than 7 sets of CG animation and songs - With some original songs composed by various artists.
+  
+  3 different difficulties - Easy, Normal and Hell (multi-fingers required!) Are you ready to accept the challenge?
+  
+  Play just like any classic rhythm game - Hit the notes on 4 lanes according to the beat!
+  
+  Interactive animation gallery mode - Play with the character you like using your mouse!  (Patreon exclusive)
+  
+  Character CG backstory video - Know more about the character you love.  (Patreon exclusive)
+  
+  Mobile version - Play anywhere you go!  (Patreon exclusive)
+
+  ## In-Game Features
+  Adjustable scroll speed
+  Custom assigning key binds
+  SFW/NSFW mode
+
+  Mobile version is only available through a Patreon subscription. Please refer to our Patreon for more details.
+  Recording of any gameplay from our gameplay should not be published on any public video-sharing platform, such as YouTube.
+  Selling or redistributing copies of the game is prohibited.
+
+description-format: markdown
+
+authors:
+  - name: C-BoneGames
+    role: [ producer ]
+  - name: Ardolf
+    role: [ producer, musician ]
+  - name: Bedmon
+    role: [ producer ]
+  - name: BlidBear
+    role: [ voice-actor, musician ]
+  - name: Serphie
+    role: [ artist ]
+  - name: Kainu
+    role: [ screenwriter ]
+  - name: blossomingRuin
+    role: [ musician ]
+  - name: KURORAK
+    role: [ musician ]
+
+tags:
+  type:
+    - music
+    - bara
+    - yiff
+  species:
+    - leopard
+    - lion
+    - tiger
+    - dog
+    - wolf
+    - bird
+    - mixed
+    - dragon
+  fetish:
+    - males-only
+    - muscle
+    - anal
+    - rape
+    - frottage
+    - face-fucking
+    - masturbation
+    - handjob
+    - blowjob
+    - rape
+    - animal-on-furry
+    - transform
+    - bondage
+    - dominance-submission
+    - tentacles
+    - master-slave
+    - transfur
+    - mind-break
+    - mind-control
+    - corruption
+  misc:
+    - work-in-process
+    - uncensored
+    - engine-unity
+  lang:
+    - en
+  platform:
+    - windows
+    - android
+  publish:
+    - itchio
+    - discord
+    - patreon
+    - twitter
+  
+links:
+  - name: .itch.io
+    uri: https://c-bonegame.itch.io/beastbeat
+  - name: .discord
+    uri: discord:yESMAaRbfh
+  - name: .patreon
+    uri: patreon:MagicMania
+  - name: .twitter
+    uri: twitter:Magic_mania72
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: PlayingGif-533x300Max3M.gif
+  - type: image:local
+    path: GallaryGif-533x300Max3M.gif
+  - type: image:local
+    path: AdvPic01.png
+  - type: image:local
+    path: AdvPic02.png
+  - type: image:local
+    path: AdvPic06.png
+  - type: image:local
+    path: AdvPic07.png
+  - type: image:local
+    path: AdvPic08.png
