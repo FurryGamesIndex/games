@@ -97,9 +97,7 @@ tags:
     - android
   publish:
     - itchio
-    - discord
     - patreon
-    - twitter
   
 links:
   - name: .itch.io
