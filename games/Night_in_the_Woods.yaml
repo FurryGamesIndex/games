@@ -39,8 +39,6 @@ tags:
     - windows
     - macos
     - linux
-  misc:
-    - multiple-endings
 
 links:
   - name: .steam
