@@ -53,6 +53,7 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://img.itch.zone/aW1hZ2UvMTMwODQ0OC85Mzc5NjU5LnBuZw==/original/Te%2B2J4.png
+  - sensitive: true
+    uri: https://img.itch.zone/aW1hZ2UvMTMwODQ0OC85Mzc5NjU5LnBuZw==/original/Te%2B2J4.png
   - https://img.itch.zone/aW1hZ2UvMTMwODQ0OC83NjExMTAzLnBuZw==/original/8SaSkR.png
   - https://img.itch.zone/aW1hZ2UvMTMwODQ0OC83NjExMTA0LnBuZw==/original/gc0UY4.png
