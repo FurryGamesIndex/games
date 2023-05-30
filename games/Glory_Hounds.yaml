@@ -1,0 +1,78 @@
+name: 'Glory Hounds'
+
+brief-description: |
+  Glory Hounds is a lighthearted action/romance visual novel set in Schippersburg, the futuristic capital of Batavia. 
+
+description: |
+  Alex de Rooij, your regular everyday dalmatian working a dead end job, has his boring life suddenly upended when he discovers his boss's secret identity as the masked vigilante known as the Dawn Hound.
+
+  ![](https://img.itch.zone/aW1nLzk2NDgxNzcuZ2lm/original/tHE7Xz.gif)
+
+  Thrust into a new position as his sidekick, he soon finds it comes with some rather unusual workplace hazards - from invisible fashionistas to fish mobsters from the depths of the local canals.
+  
+  ![](https://img.itch.zone/aW1nLzk2NDgxNzguZ2lm/original/0bC%2FEU.gif)
+
+  As threats continue to mount, Alex will have to step up to the plate to fight for the fate of his hometown - as well as decide his own.
+  
+  ## The Details
+
+  Glory Hounds is an episodic visual novel with releases planned every two to three months (keep in mind that early releases might take longer than this as we build our library of assets and illustrations - we will try to keep communication as clear as possible). Each release features an additional story set in the city of Schippersburg. No cliffhangers here - these stories will remain mostly self-contained, similar to the cartoons and comics that inspired us.
+   
+  
+description-format: markdown
+
+authors:
+  - name: The_Echo_Project
+    role: [ producer ]
+  - name: Captain_Nikko
+    role: [ artist ]
+tags:
+  type:
+    - comedy
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - cat
+    - dog
+    - wolf
+    - orca
+    - bird
+    - eagle
+    - bat
+    - beaver
+    - lizard
+  fetish:
+    - muscle
+  misc:
+    - freeware
+    - uncensored
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  
+links:
+  - name: .itch.io
+    uri: https://echoproject.itch.io/glory-hounds
+  - name: .patreon
+    uri: patreon:EchoGame
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTYzNDA3Ni85NjQ4MTYyLnBuZw==/original/f1Qen5.png
+  - https://img.itch.zone/aW1hZ2UvMTYzNDA3Ni85NjQ4MTYzLnBuZw==/original/gMO4Qd.png
+  - https://img.itch.zone/aW1hZ2UvMTYzNDA3Ni85NjQ4MTY0LnBuZw==/original/sl9riy.png
+  - https://img.itch.zone/aW1hZ2UvMTYzNDA3Ni85NjU1MzE1LnBuZw==/original/qDzqv4.png
+  - https://img.itch.zone/aW1hZ2UvMTYzNDA3Ni8xMTU2MDM4MC5wbmc=/original/3ThpGz.png
+  - https://img.itch.zone/aW1hZ2UvMTYzNDA3Ni8xMTU2MDM3OS5wbmc=/original/ef0TVv.png
+  - https://img.itch.zone/aW1hZ2UvMTYzNDA3Ni8xMTU2MDM3OC5wbmc=/original/cfm7Mb.png

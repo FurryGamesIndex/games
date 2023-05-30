@@ -1,0 +1,13 @@
+name: 'Captain Nikko'
+
+type: personal
+
+links:
+  - name: .website
+    role: https://nikkonator.gumroad.com/
+  - name: .twitter
+    uri: twitter:nikkonator5000
+  - name: .patreon
+    uri: patreon:Nikkonator
+  - name: .furaffinity
+    uri: furaffinity:captainnikko
