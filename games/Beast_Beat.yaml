@@ -42,14 +42,14 @@ authors:
     role: [ producer ]
   - name: BlidBear
     role: [ voice-actor, musician ]
-  - name: Serphie
-    role: [ artist ]
   - name: Kainu
     role: [ screenwriter ]
   - name: blossomingRuin
     role: [ musician ]
   - name: KURORAK
     role: [ musician ]
+  - name: SilentWuffer
+    role: [ others ]
 
 tags:
   type:
