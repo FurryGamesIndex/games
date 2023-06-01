@@ -1,0 +1,67 @@
+name: Journal
+
+brief-description: |
+  Journal is a semi-linear, romance, fantasy visual novel with a major focus on character growth and daily life struggles. You’ll follow the life of Lucas as he ventures into his last year of school before graduating high school. The game features 3 dateable characters, all of which are fellow classmates.
+
+description: |
+  Journal is a semi-linear, romance, fantasy visual novel with a major focus on character growth and daily life struggles. You’ll follow the life of Lucas Noire, an 18-year old trying to forget the past and move on from painful experiences.
+
+  At first, it all appears better with the protagonist adapting to his new school and living his teen life, making new friends and coming out of his shell, but when a certain event takes place, things that shouldn’t be possible occur yet again, shaking our reality as it is.
+
+  The game features a total of 3 dateable characters. All three of them are classmates of our protagonist, where they'll all be attending for their last year before graduating highschool.
+
+  Indulge in this story full of unique characters, joyful personalities, and a universe that will make you question reality and the morality of things.
+
+  And just a heads up, try to not make the same mistakes twice, Lucas. 
+
+description-format: markdown
+
+authors:
+  - name: Salixs
+    role: [ producer ]
+
+tags:
+  type:
+   - action
+   - adventure
+   - comedy
+   - dating-sim
+   - visual-novel
+   - bara
+  species:
+   - cat
+   - dog
+   - fox
+   - wolf
+  misc:
+   - multiple-endings
+   - engine-renpy
+  lang:
+   - en
+  publish: 
+   - itchio
+   - patreon
+  platform:
+   - windows
+   - linux
+   - macos
+   - android
+
+links:
+  - name: .itch.io
+    uri: https://salixs.itch.io/journal
+  - name: .twitter
+    uri: twitter:Aless_Dreem
+  - name: .discord
+    uri: discord:Bt4QawXZKH
+  - name: .patreon
+    uri: patreon:JournalVN
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTM0NTUyOS8xMDQ4MTU2Ni5wbmc=/original/zGkwKW.png
+  - https://img.itch.zone/aW1hZ2UvMTM0NTUyOS85NjU5MTE2LnBuZw==/347x500/Lj7pcm.png
+  - https://img.itch.zone/aW1hZ2UvMTM0NTUyOS8xMDQ4MTU2OS5wbmc=/original/G5Vc1x.png
+  - https://img.itch.zone/aW1hZ2UvMTM0NTUyOS85NjYwNzc0LnBuZw==/original/wyqLr1.pngz
+
