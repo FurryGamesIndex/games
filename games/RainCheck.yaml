@@ -1,0 +1,89 @@
+name: RainCheck
+
+brief-description: |
+  Rain Check is a mystery thriller visual novel set in a coastal city with unusual weather patterns where nothing seems quite right.
+
+  Follow Theodore, a golden tiger who recently graduated from college, as he's given an opportunity to travel across the country to attend one of the largest tech conventions for the week and befriends a large, mysterious wolf along the way.
+
+
+description: |
+  "Rain Check" transports players into a riveting world of intrigue, suspense, and unexpected weather phenomena. This mystery thriller visual novel is set in a unique coastal city where the atmosphere teems with an uncanny sense of unease and the weather patterns are as unpredictable as the unfolding narrative.
+
+  Our protagonist is Theodore, a golden tiger freshly out of college, who embarks on a cross-country journey to attend one of the largest tech conventions. An ordinary trip soon turns into an extraordinary adventure when he crosses paths with a mysterious wolf with an air of enigma that is hard to overlook.
+
+  But this adventure quickly spirals into a chilling nightmare as Theodore finds himself entangled in a web of mystery and danger. A supposed leisure vacation transitions into a struggle for survival as he inadvertently becomes embroiled in an escalating investigation. With his safety hanging by a thread, Theodore has no choice but to rely on the enigmatic wolf and a group of investigators, whose personalities clash as often as they cooperate.
+
+  As players, you will step into Theodore's shoes, navigating through the turbulent tides of conspiracy and danger. Help Theodore and his team peel back the layers of this coastal city's secret, and confront the unknown threats lurking in the shadows. This visual novel presents a compelling narrative that deftly combines mystery, action, and thriller elements to create an immersive experience that will keep players on the edge of their seats.
+
+description-format: markdown
+
+authors:
+  - name: Radcanine
+    role: [ producer, screenwriter, artist, programmer ]
+  - name: kkpandatime
+    role: [ programmer ]
+  - name: Kodo
+    role: [ programmer ]
+  - name: GeorgeSquares
+    role: [ screenwriter ]
+  - name: Logan
+    role: [ screenwriter ]
+  - name: Civ
+    role: [ musician ]
+  - name: Anthemics
+    role: [ musician ]
+  - name: ABISU
+    role: [ musician ]
+  - name: Leowo
+    role: [ others ]
+  - name: Siggy
+    role: [ others ]
+
+tags:
+  type:
+   - visual-novel
+   - horror
+   - bara
+   - yiff
+  species:
+   - dog
+   - wolf
+   - tiger
+   - bear
+   - cat
+  misc:
+   - freeware
+   - uncensored
+   - multiple-endings
+   - engine-renpy
+   - work-in-process
+  lang:
+   - en
+  publish:
+   - patreon
+   - itchio
+  platform:
+   - windows
+   - macos
+   - linux
+   - android
+
+links:
+  - name: .twitter
+    uri: twitter:RAINCHECKVN
+  - name: .patreon
+    uri: patreon:RainCheckVN
+  - name: .itch.io
+    uri: https://raincheck.itch.io/raincheck
+  - name: .discord
+    uri: discord:7xuWm4cGT7
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: promo_1.png
+  - type: image:local
+    path: promo_2.png
+  - type: image:local
+    path: promo_3.png
