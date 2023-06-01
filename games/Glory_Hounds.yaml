@@ -14,36 +14,26 @@ description: |
 
   As threats continue to mount, Alex will have to step up to the plate to fight for the fate of his hometown - as well as decide his own.
   
-  ## The Details
-
-  Glory Hounds is an episodic visual novel with releases planned every two to three months (keep in mind that early releases might take longer than this as we build our library of assets and illustrations - we will try to keep communication as clear as possible). Each release features an additional story set in the city of Schippersburg. No cliffhangers here - these stories will remain mostly self-contained, similar to the cartoons and comics that inspired us.
-   
-  
 description-format: markdown
 
 authors:
   - name: The_Echo_Project
     role: [ producer ]
+  - name: Redd
+    role: [ producer ]
+  - name: Sabrewulf
+    role: [ producer ]
   - name: Captain_Nikko
     role: [ artist ]
 tags:
   type:
-    - comedy
     - visual-novel
-    - bara
-    - yiff
   species:
     - cat
     - dog
-    - wolf
-    - orca
-    - bird
-    - eagle
-    - bat
-    - beaver
     - lizard
-  fetish:
-    - muscle
+    - bat
+    - bird
   misc:
     - freeware
     - uncensored
