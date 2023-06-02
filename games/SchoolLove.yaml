@@ -53,14 +53,11 @@ tags:
    - es
   publish:
     - itchio
-    - twitter
   platform:
     - windows
     - linux
     - macos
     - android
-  sys:
-    - tagme
 
 links:
   - name: .itch.io
