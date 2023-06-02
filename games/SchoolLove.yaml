@@ -1,0 +1,78 @@
+name: SchoolLove
+
+brief-description: |
+  It is a linear adult content novel about the daily life of a small family.
+
+  In this game you explore the relationship between the protagonist feeling nervous about not having the company of his younger brother. and how to cope with the difficulties of life together, Suzuki will try to adapt to his new environment and face unforeseen challenges. 
+
+description: |
+  It is a linear adult content novel about the daily life of a small family.
+
+  Here you play the role of protagonist, Suzuki Tsukimine.
+
+  ![](https://img.itch.zone/aW1nLzExOTc5OTAyLnBuZw==/original/luvdqE.png)
+
+  A 19-year-old wolf who faces his first day at a prestigious high school
+
+  ## - The Fujimi Institute -
+
+  In this game you explore the relationship between the protagonist feeling nervous about not having the company of his younger brother. and how to cope with the difficulties of life together, Suzuki will try to adapt to his new environment and face unforeseen challenges. 
+
+  ![](https://img.itch.zone/aW1nLzExOTc5ODMxLnBuZw==/original/Xt90ic.png)
+
+  Wondering if something can go wrong on your first day of school?
+
+
+description-format: markdown
+
+author:
+  - name: Hachiko
+    role: [ producer ]
+  - name: Smaug_fur
+    role: [ artist ]
+  - name: Furaku_uwu
+    role: [ artist ]
+  - name: HaoranTheRacc2
+    role: [ translator ]
+
+tags:
+  type:
+   - visual-novel
+   - advanture
+  species:
+   - wolf
+   - lion
+   - cat
+  misc:
+   - freeware
+   - multiple-endings
+   - engine-renpy
+   - work-in-process
+   - en
+   - es
+  publish:
+    - itchio
+    - twitter
+  platform:
+    - windows
+    - linux
+    - macos
+    - android
+  sys:
+    - tagme
+
+links:
+  - name: .itch.io
+    uri: https://hachidoggo.itch.io/school-love
+  - name: .twitter
+    uri: twitter:SchoolLoveVn
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTg5MDI0NS8xMTk5OTUxMS5wbmc=/original/ad0Tdq.png
+  - https://img.itch.zone/aW1hZ2UvMTg5MDI0NS8xMTk5OTUyMi5wbmc=/347x500/evkhfj.png
+  - https://img.itch.zone/aW1hZ2UvMTg5MDI0NS8xMTk5OTUzNC5wbmc=/original/xRNmOX.png
+  - https://img.itch.zone/aW1hZ2UvMTg5MDI0NS8xMTk5OTU0Ni5wbmc=/original/%2BA1%2Fks.png
+  - https://img.itch.zone/aW1hZ2UvMTg5MDI0NS8xMTk5OTUzNy5wbmc=/347x500/KhROmT.png
+  - https://img.itch.zone/aW1hZ2UvMTg5MDI0NS8xMTk5OTUzOS5wbmc=/347x500/CLeRTy.png
