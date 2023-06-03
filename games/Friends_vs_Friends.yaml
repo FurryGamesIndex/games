@@ -1,4 +1,4 @@
-name: Friends_vs_Friends
+name: Friends vs Friends
 
 brief-description: |
   A frantic, online PvP shooter that combines combat and deck building. Choose a character, customize your card-based loadout, and get ready for the fights of your life!
@@ -65,8 +65,12 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - https://media.st.dl.eccdnx.com/steam/apps/256949824/movie_max_vp9.webm?t=1685454959
-  - https://media.st.dl.eccdnx.com/steam/apps/256949844/movie_max_vp9.webm?t=1685546420
+  - video:
+      - mime: video/webm
+        uri: https://media.st.dl.eccdnx.com/steam/apps/256949824/movie_max_vp9.webm?t=1685454959
+  - video:
+      - mime: video/webm
+        uri: https://media.st.dl.eccdnx.com/steam/apps/256949844/movie_max_vp9.webm?t=1685546420
   - https://media.st.dl.eccdnx.com/steam/apps/1785150/ss_b4862d9ad34cd7a4de2cd2f6bd53b5587f8457a1.1920x1080.jpg
   - https://media.st.dl.eccdnx.com/steam/apps/1785150/ss_b43fd0bdc29098e7e23410f59fff0b3c32fd194b.1920x1080.jpg
   - https://media.st.dl.eccdnx.com/steam/apps/1785150/ss_a8e5900acc923eb869dbb4d888d3689f8a837c84.1920x1080.jpg
