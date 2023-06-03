@@ -1,0 +1,74 @@
+name: Friends_vs_Friends
+
+brief-description: |
+  A frantic, online PvP shooter that combines combat and deck building. Choose a character, customize your card-based loadout, and get ready for the fights of your life!
+
+description: |
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/extras/ABOUTTHISGAME_STEAM.gif)
+
+  Play 1v1 or 2v2 in online, fast-paced, chaotic combat! Gain player levels, get new cards, improve the ones you already have, and get to know an array of eclectic characters with their own unique passive skills. The best part? At this price, you can invite all of your friends to get wrecked, guilt-free!
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/1785150/extras/FEATURES_STEAM.gif)
+
+  Friends vs Friends: Matchmake with players worldwide in 1v1 or 2v2 combat, or host private matches with your friends. Need Support? Invite your friends to spectate!
+  A Game with Character: Choose from a stylish cast of characters, each with their own abilities that improve the synergies of your deck.
+  Low Price + High Quality = How?!: In order to keep the crew together, we made sure to level the playing field on cost so jumping in is a big-brain move.
+  Progress to Impress: Level up and get new cards through matched bouts and timed challenges.
+  Stack Your Deck: Collect weapon, trap, and curse cards, then level them up to increase their power.
+  Updates and Seasonal Content: Expect post-launch content including new unique characters, cards, maps, and upgrades to your home base.
+  Play Dress-up: Unlock cool cosmetics like skins and card design variants for bragging rights!
+  Practice, Practice, Practice: Go up against bots to try out new card combos and improve your skills for when it counts.
+
+description-format: markdown
+
+authors:
+  - name: Brainwash Gang
+    role: [ producer ]
+  - name: Raw Fury
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+    - shooter
+    - board
+  species:
+    - dog
+    - bird
+    - cat
+    - tiger
+    - crocodile
+  misc:
+    - 3d
+    - multiplayer
+    - co-op
+    - pvp
+    - online
+  lang:
+    - zh
+    - en
+    - fr
+    - it
+    - de
+  steam:
+    - website
+    - steam
+  platform:
+    - windows
+  
+links:
+  - name: .website
+    uri: https://rawfury.com/
+  - name: .steam
+    uri: steam:1785150
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://media.st.dl.eccdnx.com/steam/apps/256949824/movie_max_vp9.webm?t=1685454959
+  - https://media.st.dl.eccdnx.com/steam/apps/256949844/movie_max_vp9.webm?t=1685546420
+  - https://media.st.dl.eccdnx.com/steam/apps/1785150/ss_b4862d9ad34cd7a4de2cd2f6bd53b5587f8457a1.1920x1080.jpg
+  - https://media.st.dl.eccdnx.com/steam/apps/1785150/ss_b43fd0bdc29098e7e23410f59fff0b3c32fd194b.1920x1080.jpg
+  - https://media.st.dl.eccdnx.com/steam/apps/1785150/ss_a8e5900acc923eb869dbb4d888d3689f8a837c84.1920x1080.jpg
+  - https://media.st.dl.eccdnx.com/steam/apps/1785150/ss_ef16d9c1f33c89a776e0fb31c496a6fae7afcd0a.1920x1080.jpg
+  - https://media.st.dl.eccdnx.com/steam/apps/1785150/ss_f65c089ed8ad719272c90a24586a96ed433fbb98.1920x1080.jpg
