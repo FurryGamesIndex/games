@@ -1,0 +1,72 @@
+name: WayFinder
+
+brief-description: |
+  WayFinder is a gay, furry, modern fantasy visual novel that takes place in a fictionalized city along the eastern United States. The main character Fynn is a human who learns that he is what is known as a 'finder' and can see through glamour magic as well as feel the intentions of those around him.
+
+description: |
+  Fynn is a mid-twenties college sophomore who arrives home after a pretty crappy day.  As he goes about unwinding and studying as usual, he meets the first of three wolf giants who will challenge his view on the world around him— and introduce him to a world beyond his imagination.
+
+  Fynn— a 'finder'— soon finds himself at a crossroads between continuing to maintain his "regular-old mortal" life and breaking free from the monotonous cycle to help the wolf giants of the Iron Wood find their way. There, in the world of giants, Jotunheim, Fynn and his new companions will face dark forces that threaten the very threads of fate themselves.
+
+  However, the world of man is not without its own dark forces...
+
+  For sneak peeks of upcoming chapters, follow on Instagram
+
+description-format: markdown
+
+authors:
+  - name: Lavan
+    role: [ screenwriter, programmer, publisher, character-designer ]
+  - name: Tehngo
+    role: [ artist, character-designer ]
+  - name: Alv
+    role: [ character-designer ]
+
+tags:
+  type:
+   - visual-novel
+   - bara
+   - yiff
+  species:
+   - wolf
+   - mixed
+  fetish:
+   - males-only
+   - human-on-furry
+  misc:
+   - freeware
+   - homophobia
+   - engine-renpy
+   - work-in-process
+  lang:
+   - en
+  publish:
+   - itchio
+   - patreon
+  platform:
+   - windows
+   - android
+   - macos
+   - linux
+
+links:
+  - name: .itch.io
+    uri: https://wayfindervn.itch.io/wayfinder
+  - name: .patreon
+    uri: patreon:wayfindervn
+  - name: Instagram
+    uri: https://www.instagram.com/wayfindervn/
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: Gallery1.png
+  - type: image:local
+    path: Gallery2.png
+  - type: image:local
+    path: Gallery3.png
+  - type: image:local
+    path: Gallery4.png
+  - type: image:local
+    path: Gallery5.png
