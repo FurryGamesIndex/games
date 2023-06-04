@@ -144,7 +144,7 @@ jobs:
     - name: next-build-frt-rs
       run: |
         pushd frt-rs/demo
-        ../../frt -P profiles/next/profile.toml build && echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}" || true
+        ../../frt -P profiles/next/profile.toml build && echo "FGI_NEXT_DONE=1" >> "${GITHUB_ENV}"
         popd
 
     - name: next-deploy
