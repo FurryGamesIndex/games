@@ -53,7 +53,7 @@ links:
     uri: steam:261570
   - name: .nintendo-e-shop
     uri: https://www.nintendo.com/store/products/ori-and-the-blind-forest-definitive-edition-switch/
-thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 
 screenshots:
   - https://cdn.akamai.steamstatic.com/steam/apps/261570/ss_c617379b9d195eed0342f3ecf86898513e702b96.1920x1080.jpg

@@ -64,7 +64,7 @@ links:
   - name: .steam
     uri: steam:1057090
 
-thumbnail: thumbnail.png
+thumbnail: thumbnail.jpg
 
 screenshots:
   - https://cdn.akamai.steamstatic.com/steam/apps/1057090/ss_0cf0ec6681ae5771173790dbc99ddb3bf3b886ad.1920x1080.jpg
