@@ -76,14 +76,12 @@ screenshots:
   - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_4dd9382b280de17b21bdff758200c32250078d80.1920x1080.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_732dcfeade41f17e5404bc528bd9f44b53a51d5f.1920x1080.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/312520/ss_ac9c5296916330c54c69302963d151ad261d6c14.1920x1080.jpg
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: http://cdn.akamai.steamstatic.com/steam/apps/256925909/movie_max_vp9.webm
       - mime: video/mp4
         uri: http://cdn.akamai.steamstatic.com/steam/apps/256925909/movie_max.mp4
-  - type: video
-    src:
+  - video:
       - mime: video/webm
         uri: http://cdn.akamai.steamstatic.com/steam/apps/256680866/movie_max.webm
       - mime: video/mp4
