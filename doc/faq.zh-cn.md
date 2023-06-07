@@ -4,7 +4,7 @@
 
 ### 我发现了页面错误、链接失效
 
-欢迎[参与 FGI 贡献](https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.zh-cn.md)
+欢迎[参与 FGI 贡献](https://github.com/FurryGamesIndex/games/wiki/%E8%B4%A1%E7%8C%AE%E6%96%B9%E5%BC%8F)
 
 ### 你们接受直男向游戏吗？
 
