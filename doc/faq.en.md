@@ -4,7 +4,7 @@
 
 ### I found problem in pages or link failure
 
-Welcome [participate in FGI contributions](https://github.com/FurryGamesIndex/games/blob/master/doc/Contribute.en.md)
+Welcome [participate in FGI contributions](https://github.com/FurryGamesIndex/games/wiki/Ways-of-Contributing)
 
 ### Do you accept straight games?
 
