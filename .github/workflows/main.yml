@@ -3,6 +3,9 @@ name: deploy-website
 on:
   push:
     branches: [ master ]
+    paths-ignore:
+      - 'doc/**'
+      - '**.md'
 
 jobs:
   build:
