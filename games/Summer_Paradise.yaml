@@ -6,6 +6,7 @@ description: |
 authors:
   - name: WATERWANG
     role: [ producer ]
+    standalone: true
     avatar: WATERWANG.jpg
     link-uri: twitter:drops_sweat
 
