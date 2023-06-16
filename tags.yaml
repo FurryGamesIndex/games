@@ -1284,7 +1284,13 @@ sv:
   explanation:
     en: 'Swedish supporting provided by offical author'
     zh-cn: '游戏有官方瑞典语版本'
-    
+
+th:
+  namespaces: [ lang ]
+  explanation:
+    en: 'Thai supporting provided by offical author'
+    zh-cn: '游戏有官方泰语版本'
+
 tr:
   namespaces: [ lang ]
   explanation:
