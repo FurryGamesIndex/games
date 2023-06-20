@@ -1,10 +1,11 @@
 name: Beasts of the Thorns
 
 description: |
-  One morning, you woke up and your head was missing. As you had awakened as a Dullahan, people banished you and your monster friends to Frontier, the monster shelter. You and your friends will give it your all to graduate from Frontier College, but an unpredictable storm approaches Frontier.
+  One morning you woke up and found your head went missing. As you'd awakened as a Dullahan, people banished you and your monster friends to The Frontier, a shelter for monsters. You and your friends will give your all to graduate from Frontier College, but an unpredictable storm approaches...
 
 authors:
   - name: Wolfsregen
+    standalone: true
     avatar: Wolfsregen.jpg
     role: [ producer, artist, programmer, screenwriter ]
 
@@ -40,7 +41,7 @@ links:
   - name: .itch.io
     uri: https://wolfsregen.itch.io/beasts-of-the-thorns
   - name: .twitter
-    uri: twitter:wolfsregen
+    uri: twitter:aveuglecat
   - name: .website
     uri: https://portaly.cc/wolfsregen
 
