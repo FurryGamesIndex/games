@@ -1,0 +1,53 @@
+name: Beasts of the Thorns
+
+description: |
+  One morning, you woke up and your head was missing. As you had awakened as a Dullahan, people banished you and your monster friends to Frontier, the monster shelter. You and your friends will give it your all to graduate from Frontier College, but an unpredictable storm approaches Frontier.
+
+authors:
+  - name: Wolfsregen
+    avatar: Wolfsregen.jpg
+    role: [ producer, artist, programmer, screenwriter ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - humankind
+    - wolf
+    - fox
+    - dog
+    - bear
+    - hyena
+    - bat
+  fetish:
+    - males-only
+    - transfur
+  misc:
+    - freeware
+    - engine-renpy
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - itchio
+  platform:
+    - android
+    - macos
+    - windows
+    - linux
+
+links:
+  - name: .itch.io
+    uri: https://wolfsregen.itch.io/beasts-of-the-thorns
+  - name: .twitter
+    uri: twitter:wolfsregen
+  - name: .website
+    uri: https://portaly.cc/wolfsregen
+
+  thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjA3ODQ4NC8xMjUxNTk5MS5wbmc=/original/avl83p.png
+  - https://img.itch.zone/aW1hZ2UvMjA3ODQ4NC8xMjUxNTk5OC5wbmc=/original/uXaa3%2B.png
+  - https://img.itch.zone/aW1hZ2UvMjA3ODQ4NC8xMjUxNjAwNS5wbmc=/original/MbCqiw.png
+  - https://img.itch.zone/aW1hZ2UvMjA3ODQ4NC8xMjUxNjAxOC5wbmc=/original/JWnFZj.png
