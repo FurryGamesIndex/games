@@ -5,8 +5,6 @@ description: |
 
 authors:
   - name: Wolfsregen
-    standalone: true
-    avatar: Wolfsregen.jpg
     role: [ producer, artist, programmer, screenwriter ]
 
 tags:
@@ -38,12 +36,12 @@ tags:
     - linux
 
 links:
+  - name: .website
+    uri: https://portaly.cc/wolfsregen
   - name: .itch.io
     uri: https://wolfsregen.itch.io/beasts-of-the-thorns
   - name: .twitter
     uri: twitter:aveuglecat
-  - name: .website
-    uri: https://portaly.cc/wolfsregen
 
 thumbnail: thumbnail.jpg
 
