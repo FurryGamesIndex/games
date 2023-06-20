@@ -44,7 +44,7 @@ links:
   - name: .website
     uri: https://portaly.cc/wolfsregen
 
-  thumbnail: thumbnail.jpg
+thumbnail: thumbnail.jpg
 
 screenshots:
   - https://img.itch.zone/aW1hZ2UvMjA3ODQ4NC8xMjUxNTk5MS5wbmc=/original/avl83p.png
