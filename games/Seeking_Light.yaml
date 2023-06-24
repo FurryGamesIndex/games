@@ -14,7 +14,7 @@ description: |
 
   ### 【玩法介绍】
   
-  这是一个轻松可爱的剧情向rpg游戏，玩家将与勇者莱特一起在温馨小镇进行愉快生活！
+  这是一个轻松可爱的剧情向rpg游戏，玩家将与勇者莱特一起在温馨小镇进行愉快生活！  
   * 你可以与小镇的朋友聊天，探索发现新风景~  
   * 帮助居民们完成他们的请求，这是勇者该做的事！  
   * 在粉红沙滩钓鱼享受悠闲时光。  
@@ -109,10 +109,15 @@ thumbnail: thumbnail.jpg
 
 screenshots:
   - video:
+    - mime: video/webm
+      uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256936589/movie_max_vp9.webm
     - mime: video/mp4
       uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256936589/movie_max.mp4
+  - video:
     - mime: video/mp4
       uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256928185/movie_max.mp4
+    - mime: video/webm
+      uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256928185/movie_max_vp9.webm
   - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_877340548e7763b9c6938a7c255fb80761a3d05a.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_4a09008344da849d0df92e681ba7fb43c7a84ae4.1920x1080.jpg
   - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_5f1f7e3d99ab9b32a07f3ada0fd358ea8f978729.1920x1080.jpg
