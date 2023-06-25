@@ -1,0 +1,130 @@
+name: Seeking Light
+
+brief-description: 在和平的葡葡果蜜花园小镇，有一个热心的勇者叫做莱特，他帮助朋友们完成委托以及一起野餐，每天在这个可爱的小镇愉快地生活。
+
+description: |
+  ## 关于这款游戏
+
+  ![库主页-背景](https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/extras/%E5%BA%93%E4%B8%BB%E9%A1%B5-%E8%83%8C%E6%99%AF.png)
+
+  ### 【故事介绍】
+  
+  在和平的葡葡果蜜花园小镇，有一个热心的勇者叫做莱特。他十分喜欢帮助别人，在小镇中过着快乐而自在的生活。直到某天，他的朋友向他道出一个秘密……  
+  “莱特，你一定要……”
+
+  ### 【玩法介绍】
+
+  这是一个轻松可爱的剧情向rpg游戏，玩家将与勇者莱特一起在温馨小镇进行愉快生活！  
+
+  - 你可以与小镇的朋友聊天，探索发现新风景~  
+  - 帮助居民们完成他们的请求，这是勇者该做的事！  
+  - 在粉红沙滩钓鱼享受悠闲时光。  
+  - 烹饪美味食物来送给居民吧。  
+  - 不过在那之前得先种植作物哦。  
+  - 对了，再帮镇长做一件新衣服吧！  
+
+  ### 【游戏特色】
+
+  - 独特的世界观与可爱剧情，内含furry与GB元素，调查发现更多惊喜！
+  ![剧情](https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/extras/%E5%89%A7%E6%83%852.gif)
+  - 丰富的小游戏和轻松互动，你可以在这里自由探索，完成各种有趣的任务！
+  ![玩法展示4](https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/extras/%E7%8E%A9%E6%B3%95%E5%B1%95%E7%A4%BA4.gif)
+  - 清新优美的美术风格，游戏中涵盖大量动画，CG与美丽地图场景哦！
+  ![场景展示1](https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/extras/%E5%9C%BA%E6%99%AF%E5%B1%95%E7%A4%BA1.gif)
+
+  ### 【关于游玩】
+
+  「游戏时长」  
+  2小时
+
+  「结局数量」  
+  2个结局  
+  解锁特殊回忆剧情且在游戏内达成2个结局将自动进入附赠房间
+
+  「操作方式」  
+  方向键/鼠标：移动  
+  Shift+方向键： 跑步  
+  空格/鼠标：对话/调查物品（长按空格跳过对话）  
+  ESC/鼠标右键：取消/打开菜单
+  
+  ### 【staff】
+
+  制作人、剧本：lidogegg  
+  美术：lidogegg、伊柚  
+  发行：梦结界工作室  
+
+  特别感谢：  
+  音乐感谢Alexander Nakarada，更多引用素材来源详见游戏内ED  
+  本游戏使用[GameCreator](https://store.steampowered.com/app/1570130/GameCreator/)开发
+
+description-format: markdown
+
+authors:
+  - name: 莓莓动物园
+    role: [ producer ]
+  - name: lidogegg
+    role: [ producer, screenwriter, artist ]
+  - name: 伊柚
+    role: [ artist ]
+  - name: Alexander Nakarada
+    role: [ musician ]
+  - name: 梦结界工作室
+    role: [ publisher ]
+
+tags:
+  type:
+    - role-playing
+    - casual
+  species:
+    - cat
+    - fox
+    - mixed
+    - dragon
+    - rabbit
+    - goat
+  fetish:
+    - shota
+    - loli
+  misc:
+    - freeware
+    - multiple-endings
+    - engine-unity
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - steam
+    - itchio
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:2305480
+  - name: .itch.io
+    uri: https://lidogegg.itch.io/seeklight
+  - name: .website
+    uri: https://space.bilibili.com/1995649
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - video:
+    - mime: video/webm
+      uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256936589/movie_max_vp9.webm
+    - mime: video/mp4
+      uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256936589/movie_max.mp4
+  - video:
+    - mime: video/mp4
+      uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256928185/movie_max.mp4
+    - mime: video/webm
+      uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256928185/movie_max_vp9.webm
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_877340548e7763b9c6938a7c255fb80761a3d05a.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_4a09008344da849d0df92e681ba7fb43c7a84ae4.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_5f1f7e3d99ab9b32a07f3ada0fd358ea8f978729.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_460c9efc0c9f84da090b263887074e97d98ae7a2.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_949897f6faac01f0ec4d28ff42c09e61a70b49e2.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_5c736db869220e66feeb21aa3d20ae35c3bfbac6.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_c1812898f9c335b3dc9d6c1cfecdb96b8c66d9a3.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_b0c5ac1e0c972775dec218f4adfd1945bbe2eb3e.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2305480/ss_16a59639ce1173d335faeb085e4ab8c8137a6b35.1920x1080.jpg
