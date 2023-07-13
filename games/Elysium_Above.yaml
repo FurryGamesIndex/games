@@ -4,33 +4,46 @@ brief-description: |
   In SRPG Elysium Above, you will be a Commander of state Bo to direct the heroes to fight against enemies, and defend the newly restored land that has been annexed for 11 years! Wit the era of chaos and excitement with eight heroes!
 
 description: |
-  Elysium Above is a Wargame developed using Unity 3D.
-  
-  ##Game Feature
+  ## An Era of Chaos
 
-  In the game, the player acts as a low-level counsellor of Bo, the small state by the East Sea, defending this newly recovered state against the onslaughts from enemies by your excellent deployment and strategy, looking into the needs of every party and lead the story to different finales by your select.
+  ![Gif Image](https://cdn.akamai.steamstatic.com/steam/apps/1509450/extras/git-01.gif?t=1689254426)
+  The enfeoffed nation “Wan Yan” has enjoyed thousands of years of peace but is now on the brink of disintegration, with the flames of war devastating the land over several decades. The northern military powerhouse - Lu, has continuously absorbed neighboring countries in the past century, becoming an unrivaled force within Wan Yan. The newly-formed Seven-States Union in the south, under the leadership of Hong, opposes Lu and is trying to rally more countries to join the alliance. The primary setting of the game - the Kingdom of Bo, is caught between these two major powers.
   
-  - This is a half-real-time game. Before using up the strategy points, a unit may move and use skills as your wish. But the more points you consume, the later next act will come. Keep your eyes on the Order of Action, and use your strategy to defeat all enemies.
-  - If you arrange a character’s active skills and passive skills differently, he will join the battle in different roles.
-  - By gaining Complete Victory, joining the activities between battles, finishing side quests, recruiting new teammates and gaining cohesiveness, you may acquire all kinds of benefits.
-  - By travelling through Bo and collecting treasures(there are tens of treasures available), you may strengthen your teammates. Besides, some important items may affect the finale!
+  Eleven years ago, Bo was attacked and destroyed by Lu. The old territory of Bo was occupied by Lu. Eleven years later, the crown prince Huangzhu led the allied forces from the Union in a surprise attack on the former capital of Bo and successfully reclaimed the country. However, this war of restoration might just be the beginning of a series of chaos…
   
-  ##About Wanyan World
+  In *Elysium Above*, players will assume the role of a mid-level commander in Bo, helping the newly restored nation to fend off the encroachment of powerful enemies through clever troop deployment and superb command. As the story progresses, you will become aware and in control of the ambitions and purposes behind various factions. What will be your next move?
   
-  This is the Continent of Wanyan.
-  Wanyan, an enfeoffment kingdom lasted for thousands of years, though having enjoyed a long time of peace, is now at the brink of division. Its authority as a suzerain is declining, and its vassals are fighting against each other. Thousands of war is crushing numerous states and killing countless people.
+  - 3D Turn-based Tactical Game
+  - An epic story that Early Access offers over 20 hours of gameplay while the full version features over 40 hours
+  - Eight teammates with diverse personalities and combat styles
+  - (40% implemented) **Forty-five skill trees with over two hundred different skills** for you to mix and match
+  ![Gif Image](https://cdn.akamai.steamstatic.com/steam/apps/1509450/extras/git-05.gif?t=1689254426)
+  - **Over thirty characters with fully animated portraits**, more than forty hand-drawn scene graphics, and a plethora of story CGs
+  - Aiming to portray a complex network of interpersonal relationships and power dynamics, building a logical, robust, and persuasive worldview, and telling this story with dedication and attention to detail
   
-  Lu, a traditional military state, has developed into a first-tier power by annexing surrounding states.
+  ## To Balk the Enemy's Plans
+  
+  ![Gif Image](https://cdn.akamai.steamstatic.com/steam/apps/1509450/extras/git-03.gif?t=1689254426)
+  - *Elysium Above* adopts a unique **"Strategy Value"** system. Characters can move and use skills **freely** until their strategy points are depleted; however, the more strategy points consumed, the longer it will take for the character’s next turn to arrive
+  - Carefully controlling the turn order bar is the key to victory! Create opportunities for consecutive actions through clever calculations and troop deployment, and eventually emerge victorious
+  - You can hinder the enemy's movements by setting fires or freezing the ground. Take advantage of the terrain to thwart the advancing enemy
+  - A complex and varied marking system. There are standard marks that passively enhance attributes, and strategic marks that can be manually activated. Skillful use of these marks will make “impossible” a word not in your vocabulary on the battlefield
+  
+  ## Strategize Behind the Scenes
+  
+  ![Gif Image](https://cdn.akamai.steamstatic.com/steam/apps/1509450/extras/git-02.gif?t=1689254426)
+  - Change the effects of active skills by unlocking different points on the skill tree! Skills on the same skill tree may have completely different effects
+  - (To be implemented) Pair appropriate active skills with suitable passive skills, adapting your team to complex battle situations in countless ways
+  - Dozens of divine weapons or even everyday items (?) for you to collect and strengthen your team
+  
+  ## Build Bonds Through the Heart
+  
+  ![Gif Image](https://cdn.akamai.steamstatic.com/steam/apps/1509450/extras/git-04.gif?t=1689254426)
+  - There is free time between main storylines where you can go on dates with teammates, explore their exclusive side stories, or simply practice drills on the training grounds
+  - Increase your teammates’ affection and unlock more hidden storylines through dates during free time and outstanding command in battles
+  - The affection levels with key teammates will determine whether critical storylines can be triggered, and may even affect the ending. If affection is too low, teammates may leave you in various ways
+  - Treat your teammates sincerely: they will not naturally be interested in you, nor will they proactively seek to please you. Friendships are built on give and take
 
-  The newly born Seven State Alliance under State Hong's leading is at the confrontation against Lu. Meanwhile, it is appealing to more states to join it.
-
-  Between the two superpowers, there is the main stage of our story - Bo.
-  Bo was crushed by Lu's sudden attack eleven years ago. Facing the irretrievable fate, King Kui chose to be a martyr for the fallen state, and the older prince Huang Zhu escaped to Hong in the south with the third prince. Since then, Bo's land is under the control of Lu.
-
-  Eleven years later, to restore the state, Huang Zhu led an army to fight back by the chance when Lu garrison was not aware.
-  But since then, the threat of war and death is hanging over the coast of the East Sea.
-
-  This battle attracted all sorts of factions with each one's purpose. Maybe this war of restoration is simply the beginning of a series of chaos...
 
 description-format: markdown
 
@@ -72,14 +85,16 @@ links:
   - name: .website
     uri: https://www.lvyunlu.com/
 
-thumbnail: thumbnail.jpg
+thumbnail: thumbnail.png
 
 screenshots:
   - video:
       - mime: video/webm
-        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822288/movie480_vp9.webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256822292/movie480_vp9.webm
       - mime: video/mp4
-        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822288/movie480.mp4
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1509450/ss_26d96a2e849ebef289f9aa03e409324389b11979.1920x1080.jpg
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1509450/ss_8a615e89a04709ff89e439ef7e82a473db02ad1a.1920x1080.jpg
-  - https://cdn.cloudflare.steamstatic.com/steam/apps/1509450/ss_bfcd7d1aa3968479a959e19e54234eea40f397b2.1920x1080.jpg
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822292/movie480.mp4
+  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_10a1a509ce68cf4d9a0e03bcd0466b188903c130.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_82e9ce5ee505085775840cf7ecc94a249bc69560.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_4844dfe651f1c32463d1e4dcc8fd68bf5c36acc9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_7f497854e22e963d4ddbca94b2e9bd7a49a2d11d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_24f39244f39050e55d8b00fbc252c1031789ae12.1920x1080.jpg
