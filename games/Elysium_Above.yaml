@@ -48,10 +48,42 @@ description: |
 description-format: markdown
 
 authors:
-  - name: Sweet Potato Studio
-    role: [ producer ]
+  - name: sweet-potato-studio
+    role: [ publisher ]
   - name: Ainro
-    role: [ producer ]
+    role: [ producer, screenwriter, art-director ]
+  - name: QiShan
+    role: [ programmer ]
+  # - name: XiaoHuXuYe
+  #   role: [ planner ]
+  # - name: NanGongYiFeng
+  #   role: [ programmer ]
+  # - name: XiaoMi
+  #   role: [ 3d-modeler ]
+  # - name: XingHuAXia
+  #   role: [ 3d-modeler ]
+  # - name: XiaoQiu
+  #   role: [ 3d-animator ]
+  # - name: Hyin
+  #   role: [ technical-artist ]
+  # - name: Jerry
+  #   role: [ rigger ]
+  # - name: DiChaDX
+  #   role: [ ui-designer ]
+  # - name: Zedol-Tri
+  #   role: [ scriptwriter, director ]
+  - name: YuZhiMuYa
+    role: [ illustrator ]
+  - name: CandyBox
+    role: [ musician ]
+  - name: TaQiYang
+    role: [ sound-designer ]
+  # - name: ChiChai
+  #   role: [ voice-director ]
+  - name: BuLingBao
+    role: [ localization:en, proofreader:en ]
+  - name: MuZiMao
+    role: [ marketing ]
 
 tags:
   type:
