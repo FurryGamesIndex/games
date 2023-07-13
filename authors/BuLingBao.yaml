@@ -2,6 +2,8 @@ name: 不灵豹
 
 avatar: 不灵豹.jpg
 
+type: personal
+
 links:
   - name: .twitter
     uri: twitter:Citanger
