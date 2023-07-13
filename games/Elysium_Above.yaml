@@ -120,12 +120,12 @@ links:
 thumbnail: thumbnail.png
 
 screenshots:
+  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_10a1a509ce68cf4d9a0e03bcd0466b188903c130.1920x1080.jpg
   - video:
       - mime: video/webm
         uri: https://cdn.akamai.steamstatic.com/steam/apps/256822292/movie480_vp9.webm
       - mime: video/mp4
         uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256822292/movie480.mp4
-  - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_10a1a509ce68cf4d9a0e03bcd0466b188903c130.1920x1080.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_82e9ce5ee505085775840cf7ecc94a249bc69560.1920x1080.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_4844dfe651f1c32463d1e4dcc8fd68bf5c36acc9.1920x1080.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/1509450/ss_7f497854e22e963d4ddbca94b2e9bd7a49a2d11d.1920x1080.jpg
