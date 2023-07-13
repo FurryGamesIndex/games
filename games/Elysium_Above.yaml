@@ -54,8 +54,8 @@ authors:
     role: [ producer, screenwriter, art-director ]
   - name: QiShan
     role: [ programmer ]
-  # - name: XiaoHuXuYe
-  #   role: [ planner ]
+  - name: XiaoHuXuYe
+    role: [ planner ]
   # - name: NanGongYiFeng
   #   role: [ programmer ]
   # - name: XiaoMi
@@ -82,8 +82,8 @@ authors:
   #   role: [ voice-director ]
   - name: BuLingBao
     role: [ localization:en, proofreader:en ]
-  - name: MuZiMao
-    role: [ marketing ]
+  # - name: MuZiMao
+  #   role: [ marketing ]
 
 tags:
   type:
