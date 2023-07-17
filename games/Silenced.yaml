@@ -57,7 +57,7 @@ description-format: markdown
 
 authors:
   - name: 'DragonSnow'
-     role: [ producer, screenwriter, programmer, artist ]
+    role: [ producer, screenwriter, programmer, artist ]
 
 
 tags:
