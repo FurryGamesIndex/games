@@ -86,7 +86,7 @@ links:
     uri: twitter:DragonSnow4
   - name: .youtube
     uri: youtube:UC2kW9aoYPx8h69i2WeOx57w
-  - name: .steam
+  - name: .demo-version-steam
     uri: steam:988960
   - name: Author's weibo (DragonSnow)
     icon: weibo
