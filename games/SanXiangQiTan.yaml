@@ -1,0 +1,65 @@
+name: San Xiang Qi Tan
+
+brief-description: |
+  In a world where humans and monsters live together, three protagonists and three different fates are intertwined, and the adventure begins! Explore this wonderful country and hear different stories with Three Wonders.
+
+description: |
+  > *The game is still under development, which does not represent the final outcome.*
+
+  ### Horizontal panel hand drawn style
+  
+  The game as a whole is hand-drawn, with characters animated frame by frame.
+  
+  ### Multi-protagonist and multi-perspective
+  
+  The story starts from multiple perspectives of multiple protagonists and listens to the wonderful story of this country from different ways.
+  
+  ### Rich plot exploration
+  
+  Exploring different scenarios and discovering their secrets may also lead the story to different developments.
+  
+
+description-format: markdown
+
+authors:
+ - name: BuLu
+   role: [ producer, screenwriter, level-designer, scriptwriter ]
+ - name: Zoharwolf
+   role: [ director, screenwriter, level-designer, programmer, scriptwriter ]
+ - name: Wolfsoul
+   role: [ character-designer, animation, scenographer, illustrator ]
+
+tags:
+  type:
+   - role-playing
+   - puzzle
+  species:
+   - wolf
+   - fox
+   - snake
+   - tiger
+  lang:
+   - zh
+  platform:
+   - windows
+  publish:
+   - steam
+   
+links:
+  - name: .weibo
+    uri: https://weibo.com/u/7849933759
+  - name: Bilibili
+    uri: https://space.bilibili.com/3494371735373895
+    
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: 开发版截图1.png 
+  - type: image:local
+    path: 开发版截图2.png 
+  - type: image:local
+    path: 开发版截图3.png 
+  - type: image:local
+    path: GameImage1080P.png 
+  

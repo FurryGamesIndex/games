@@ -83,6 +83,15 @@ properties:
               - translator
               - publisher
               - technical-support
+              - level-designer
+              - scriptwriter
+              - director
+              - art-director
+              - planner
+              - illustrator
+              - sound-designer
+              - localization:en
+              - proofreader:en
               - others
       required: [ name, role ]
   tags:
