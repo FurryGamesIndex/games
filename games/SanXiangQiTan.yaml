@@ -22,12 +22,12 @@ description: |
 description-format: markdown
 
 authors:
- - name: BuLu
-   role: [ producer, screenwriter, level-designer, scriptwriter ]
  - name: Zoharwolf
    role: [ director, screenwriter, level-designer, programmer, scriptwriter ]
  - name: Wolfsoul
    role: [ character-designer, animation, scenographer, illustrator ]
+ - name: BuLu
+   role: [ producer, screenwriter, level-designer, scriptwriter ]
 
 tags:
   type:
