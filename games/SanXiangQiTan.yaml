@@ -31,19 +31,21 @@ authors:
 
 tags:
   type:
-   - role-playing
-   - puzzle
+    - role-playing
+    - puzzle
   species:
-   - wolf
-   - fox
-   - snake
-   - tiger
+    - wolf
+    - fox
+    - snake
+    - tiger
   lang:
-   - zh
+    - zh
   platform:
-   - windows
+    - windows
   publish:
-   - steam
+    - steam
+  misc:
+    - work-in-process
    
 links:
   - name: .weibo
