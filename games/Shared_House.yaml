@@ -1,0 +1,87 @@
+name: Shared House
+
+brief-description: |
+  This is a youth love group drama woven by cats and dogs as bamboo horses and bamboo horses, and all kinds of people around them. "Let's share a house!" ——Starting with this sentence, the cat orc "Akashi Yoshito", who was shaken by the words of the canine orc "Daichi Akagi", his childhood friend and best friend, began to live in a college share with his crush's heartbeat college after half pushing and half pushing. 
+
+description: |
+  This is a youth love group drama woven by cats and dogs as bamboo horses and bamboo horses, and all kinds of people around them. "Let's share a house!" ——Starting with this sentence, the cat orc "Akashi Yoshito", who was shaken by the words of the canine orc "Daichi Akagi", his childhood friend and best friend, began to live in a college share with his crush's heartbeat college after half pushing and half pushing. 
+
+  The main content of this public version is the re-signing of the first phase of the plot (prologue ~ 18 episodes), and the second and third phases of the plot (10 episodes ~ 50 episodes) have not been completely reset, but the text part of the plot has been fully inserted. Please choose whether or not to continue watching according to your preference.
+
+  If you like this work, you can share it with other friends, thanks to Shigong!
+
+  Note:
+  1. This visual novel is a fan-made non-formula fanwork only, and its production has obtained the consent of the author Hinaga and the translator's stupid gull, and since neither the author nor the translator has made any supervision during the production process, they will not be responsible for any content of the visual novel
+  2. The visual novel is free and public, please do not pay to obtain it through any channel, please do not spread it for payment, and be vigilant against illegal profit-making behavior
+  3. The non-original images, music, and fonts used in the visual novel have been authorized by the original author, and their sources will be indicated in the visual novel
+  4. All the content of the visual novel is fictional, please do not disturb the original author and related persons due to the content of the novel
+  5. The visual novel has not yet been fully produced, and the content of the current version does not represent its final form
+  6. If the user uses the software to cause illegal acts, it has nothing to do with the game maker and related persons
+
+description-format: markdown
+
+authors:
+ - name: HeiYiCheng
+   role: [producer]
+ - name: hi_na_ga
+   role: [screenwriter, artist]
+ - name: tukae_nai
+   role: [charater-designer, artist]
+ - name: shi_ha_chi
+   role: [artist]
+ - name: LuShiFu
+   role: [artist]
+ - name: HeiGu
+   role: [artist]
+ - name: XiaoYe
+   role: [artist]
+ - name: takayumi_ponzu
+   role: [musician]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  species:
+    - cat
+    - dog
+    - leopard
+    - tiger
+    - horse
+    - wolf
+  misc:
+    - freeware
+    - unofficial
+    - engine-renpy
+    - work-in-process
+  lang:
+    - zh
+  platforn:
+    - windows
+    - android
+
+links:
+  - name: .pixiv
+    uri: https://www.pixiv.net/novel/series/697988
+  - name: .bilibili
+    uri: https://www.bilibili.com/read/readlist/rl477943
+
+thumbnail: thumbnail.png
+
+screenshots: 
+  - type: image:local
+    path: screenshots-1.png
+  - type: image:local
+    path: screenshots-2.png
+  - type: image:local
+    path: screenshots-3.png
+  - type: image:local
+    path: screenshots-4.png
+  - type: image:local
+    path: posters-1.png
+  - type: image:local
+    path: posters-2.png
+  - type: image:local
+    path: posters-3.png
+  - type: image:local
+    path: posters-4.png
