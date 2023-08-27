@@ -1,6 +1,6 @@
 # 和那家伙合租房下载链接合集
 
-[和那家伙合租房](gameSlug:Shared-House)
+[和那家伙合租房](gameSlug://Shared-House)
 
 ## 网盘下载
 
