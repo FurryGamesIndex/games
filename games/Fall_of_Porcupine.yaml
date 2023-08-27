@@ -1,0 +1,113 @@
+name: Fall of Porcupine
+
+brief-description: |
+  Fall of Porcupine is a unique story adventure. The collision of work and daily life – an exciting reflection of an unhealthy healthcare-system. Experience the exciting story of Finley and his friends in a lovingly illustrated world and uncover the darkest secrets of Porcupine and its residents.
+
+description: |
+  # About the Game
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1710540/extras/fopintro2.png)  
+
+  Step into the town of Porcupine and take to the well-loved scrubs of Finley, the newest fledgling doctor to join the ranks of St. Ursula's hospital. As the seasons in the small-town change and life starts to stir, you'll soon realize that things aren't always what they seem: Not everyone is honest with themselves and others, the healthcare industry is not as illustrious as it seemed in medical school, and the work/life balance Finley strives toward might be impossible to achieve.
+
+  ## Check out the "Save the World" Edition
+
+  [![img](https://cdn.akamai.steamstatic.com/steam/apps/1710540/extras/FOP_OST_ARTBOOK_BANNER.jpg)](https://store.steampowered.com/bundle/33020/)
+
+  ## Explore A Beautiful, Diverse World
+
+  Not only is there a lot to discover in the old hospital, but also in the small town of Porcupine itself. Take the time to meet the villagers and have a beer with them in the local pub, take a trip to the nearby forest, or spend quality time with your friends.  
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1710540/extras/FoP_World.gif)
+
+  ## Hardened Professionals, Sweet Friends
+
+  The blunt head doctor, the selfless nurse, Finley's smart friends, and many other residents populate the small town of Porcupine. Engage in funny, profound, and sometimes serious dialogues, in which you'll be able to choose your answers and influence your relationships.
+
+  ## Demonstrate Your Skills and Empathy
+
+  You don't even have time to look at the clock because your patients are waiting! Investigate what's wrong with them through your conversations and treat them in different minigames that challenge you in logic, speed, and skill.
+
+  ## Expose Social Injustice And Structural Problems
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/1710540/extras/FoP_Secrets.gif)  
+  At first glance, the small town is a warm, friendly place where everyone knows and greets each other. But if you live there for any length of time, you'll suspect that not everyone is as honest as they pretend to be – especially in an unhealthy healthcare-system.   
+
+  <https://store.steampowered.com/app/1710540/Fall_of_Porcupine/>
+
+
+description-format: markdown
+
+authors:
+  - name: Critical Rabbit
+    role: [ producer ]
+  - name: Assemble Entertainment
+    role: [ publisher ]
+
+tags:
+  type:
+    - adventure
+    - puzzle
+  lang:
+    - de
+    - en
+    - fr
+  platform:
+    - windows
+    - playstation4
+    - playstation5
+    - nintendo-switch
+    - xbox-one
+    - xbox-series-x
+    - xbox-series-s
+  publish:
+    - steam
+  misc:
+    - multiple-endings
+
+links:
+  - name: .steam
+    uri: steam:1710540
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/fall-of-porcupine-switch/
+  - name: .playstation-store
+    uri: https://store.playstation.com/ja-jp/product/EP5470-CUSA32180_00-2214524429922058
+  - name: .microsoft-store
+    uri: https://www.xbox.com/en-us/games/store/fall-of-porcupine/9p5xkgcdcpww
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_8e10efd47d78629f0de1a335306fd2c308b39552.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_539483acf9b071e211c59a0e3b53e90fa64b5ae4.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_07fa47711ff2ffac2f9b4a41c038aca3a50c6282.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_f4e6bd6764cf2118736f342d4505da3ee8f8e0d3.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_d9b305e6ef49845b362a0b9960bd4f8f43349971.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_68c272ee9f087c6a0827f8d887e37750e24337fa.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_5926224de86aada351edb664de48441cec01b17b.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_853899a010093160462a1dfa1f46919696eec9b0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_75b512eacd1b303d6f157001884937a29cf5b9f0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_08cb07c3424dc924ff5ebf18c0acf86a5ad66fe9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_dd3247287b7d5183bac28e6c62e3db95619a22bc.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_4df7383bd97164ff935ebef0176ab7db28af57c6.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_366271bbab93f69d69a74bbe3be6b91eeef85519.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_50472bd876ff8f077c4b21d4d4e2ed9920e98ae4.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1710540/ss_dfcf9f9e4e2fc65899067412cc2419ab71e2198c.1920x1080.jpg
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256953088/movie_max_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256953088/movie_max.mp4
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256952381/movie_max_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256952381/movie_max.mp4
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256945138/movie_max_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256945138/movie_max.mp4
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256901615/movie_max_vp9.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256901615/movie_max.mp4
