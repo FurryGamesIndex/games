@@ -69,7 +69,7 @@ links:
     uri: https://www.pixiv.net/novel/series/697988
   - name: .bilibili
     uri: https://www.bilibili.com/read/readlist/rl477943
-  - name: 网盘下载
+  - name: .official-version-zh
     uri: FGI-misc-page:Shared_House_releases
 
 thumbnail: thumbnail.png
