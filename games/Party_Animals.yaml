@@ -1,0 +1,100 @@
+name: Party Animals
+
+brief-description: |
+  Fight your friends as puppies, kittens and other fuzzy creatures in PARTY ANIMALS! Paw it out with your friends both online and offline. Interact with the world under our realistic physics engine. Did I mention PUPPIES?
+
+description: |
+  ## ABOUT THIS GAME
+  
+  Make Painfully Great Memories with Your Friends in Party Animals.
+
+  Mess With Your Friend in 100 Different Ways
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1260320/extras/001.gif)
+
+  Or Together You Could Eliminate Others
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1260320/extras/002.gif)
+
+  Teamwork Is Also Highly Appreciated Here
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1260320/extras/003.gif)
+
+  Especially When Fighting For Gummy Bear
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/1260320/extras/2222.gif)
+
+description-format: markdown
+
+authors:
+  - name: Recreate Games
+    role: [producer]
+  - name: Source Technology
+    role: [producer]
+
+tags: 
+  type: 
+    - action
+    - fighting
+  species:
+    - cat
+    - tiger
+    - dog
+    - crocodile
+    - otter
+    - bird
+    - cattle
+    - dragon
+    - monkey
+    - pig
+    - rabbit
+  misc:
+    - 3d
+    - full-audio
+    - multiplayer
+    - co-op
+    - pvp
+    - online
+    - unpublished
+    - centralized
+  lang:
+    - en
+    - zh
+  publish:
+    - website
+    - steam
+  platform:
+    - windows
+    - xbox
+
+links:
+  - name: .websit
+    uri: https://partyanimals.com/
+  - name: .steam
+    uri: steam:1260320
+  - name: .twitter
+    uri: twitter:party_animals
+  - name: .discord
+    uri: https://discord.com/invite/NKA3UEs3eR
+  - name: .facebook
+    uri: https://www.facebook.com/PartyAnimalsGame
+  - name: .youtube
+    uri: youtube:PartyAnimalsGame
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://cdn.akamai.steamstatic.com/steam/apps/256964676/movie_max_vp9.webm
+  - https://cdn.akamai.steamstatic.com/steam/apps/256919914/movie_max_vp9.webm
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_18fa4ea184c84befeef65bc4518aa26f4084c6c0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_3654155c149e7afed026e2fafc4af5059a80eb6e.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_9301cd94cdc15a1246ae64eb80ecaedf46f6a573.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_18979ca60376090aa14e22e8e4ecbff0ed997a21.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_dca037aa8ca4b2c8c546772aa48c71c7cfa944d1.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_57a4fd1a85950a7b40ad6dc0f49692ed4bbd574d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_5f6217d8357904f376e171a1ac46db4fd9f8000c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_85a75e4ef8249e0bfeb65666419ce310cbf45ed0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_36866bbf0baaa9bcf6bb1272998c2c85ff3e5bd9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_18603224379eee117707b568f18aa788cfca13a9.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_6488ff12e41142b5bd4fb36dc5b421be2c27620f.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/1260320/ss_306176c9867da3f7d2b82a39d1489cc7cf068b1e.1920x1080.jpg
