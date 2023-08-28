@@ -1,0 +1,93 @@
+name: The Awaited ReCollection
+
+brief-description: |
+  A story about fatherly love, about family affection. A gift for children who lack father's love in their lives.
+
+description: |
+  ## About This Game
+
+  **『The Awaited ReCollection - 失与寻 -』**
+
+  A story about fatherly love, about family affection.
+  A gift for children who lack father's love in their lives.
+  "It's just that you don't have it before you say you don't need it."
+
+  + **Synopsis of the story**
+  My long-lost father contacted me, but when I saw him, he turned out to be a tiger man.
+  What happened before this, can I still accept such a father to live with?
+
+  + **Game features**
+  + A number of beautiful CGs, combined with rich performance, bring you an immersive story experience.
+  + Special worldview, what kind of world would orcs and humans be if they existed at the same time?
+  + According to different choices, it determines the direction and ending of the story, can you still accept such a father.
+
+  + **Main characters**
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/extras/3.png)
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/extras/4.png)
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/extras/5.png)
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/extras/6.png)
+
+  ![](https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/extras/7.png)
+
+description-format: markdown
+
+authors:
+  - name: YanWuDaHu
+    role: [producer]
+  - name: NiuNaiQinRan
+    role: [character-designer]
+  - name: ZiXiong
+    role: [artist]
+  - name: LangXiaoHun
+    role: [artist]
+  - name: projectlights
+    role: [musician]
+  - name: MiLuMusic_
+    role: [musician]
+  - name: PuLan
+    role: [others]
+  - name: EKaBi
+    role: [others]
+  - name: BuLu
+    role: [others]
+
+tags:
+  type:
+    - role-playing
+    - visual-novel
+  species:
+    - tiger
+    - humankind
+    - hyena
+  lang:
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+  sys:
+    - tagme
+
+links:
+  - name: .steam
+    uri: steam:2311320
+  - name: .weibo
+    uri: https://weibo.com/u/7726512027
+  - name: .bilibili
+    uri: https://space.bilibili.com/1760527171
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - video:
+    - mime: video/webm
+      uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256928966/movie_max_vp9.webm
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/ss_f40ced12ca87b857b256569efb66754fe739c152.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/ss_9cc34a3780900028a7dbfac3918aa43144502a7b.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/ss_3bf250d0caf7dd3c51d8db711c42150a42c16b11.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/ss_4f9375401f8a7db3bdff7825629ab6107e4f318d.1920x1080.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/2311320/ss_9b97fb295eec28da1b85ee3b33411e5517a99b2d.1920x1080.jpg
