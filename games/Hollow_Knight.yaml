@@ -79,9 +79,7 @@ description-format: markdown
 
 authors:
   - name: Team Cherry
-    role: [ producer ]
-  - name: Team Cherry
-    role: [ publisher ]
+    role: [ producer, publisher ]
 
 tags:
   type:
