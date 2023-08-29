@@ -1,0 +1,59 @@
+name: Thunder Rangers
+
+description: |
+  ![](https://img.itch.zone/aW1nLzEyMjkwNjQyLnBuZw==/original/i0F%2Bgk.png)
+
+  In the enthralling visual novel "Thunder Ranger" , readers are plunged into a gripping narrative alongside the courageous protagonist, Walker. Set in a transformed America where advanced AI reigns supreme, Walker and his devoted partner and lover, Ofnir, rise as the newest recruits of the renowned Thunder Rangers, a prestigious Law Enforcement Agency.
+
+  As Thunder Rangers, Walker and Ofnir embark on a captivating journey through a society profoundly shaped by artificial intelligence. Together, they navigate a world where the existence of mortals is intricately intertwined with the wonders and complexities of AI technology.
+
+  Within this visually stunning adventure, readers bear witness to Walker's encounters with cyber-criminals exploiting advanced technologies, face off against supernatural phenomena, and grapple with the challenges of upholding law and order in a society forever altered by AI.
+
+  As the narrative unfolds, readers will unravel a mesmerizing tale that seamlessly merges the past, present, and future, unveiling the enigmas lurking beneath the surface of this bold new America. The story's emotional depth, accentuated by captivating artwork and mesmerizing characters, ensures readers become fully immersed in the realm of "Thunder Ranger."
+
+  Prepare to be enthralled by the dilemmas and poignant moments that define Walker's odyssey as a Thunder Ranger. you will experience the profound bond between Walker and Ofnir, explore the delicate equilibrium between mortals and AI, and ultimately determine the destiny of a nation teetering on the brink of a technological revolution.
+
+description-format: markdown
+
+authors:
+  - name: 'Archer Magnum'
+    role: [producer]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - wolf
+  fetish:
+    - muscle
+  misc:
+    - work-in-process
+  lang:
+    - en
+    - zh
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+
+thumbnail: thumbnail.jpg
+  
+links:
+  - name: .itch.io
+    uri: https://thunderrangers.itch.io/thunderrangers
+  - name: .twitter
+    uri: twitter:Thunder_Rangers
+  - name: .patreon
+    uri: patreon:ThunderRangers
+  - name: .facebook
+    uri: facebook:ThunderRangersFL
+  - name: .telegram
+    uri: https://t.me/+N2XZleON-6U3OTE1
+
+screenshots:
+  - type: image:local
+    path: Promo.jpg
+  - https://img.itch.zone/aW1hZ2UvMjA4OTM2MC8xMjMwNDA1MS5qcGc=/347x500/TK%2BnYw.jpg
