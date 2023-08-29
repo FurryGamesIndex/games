@@ -1,0 +1,17 @@
+name: projectlights
+
+type: small-team
+
+avatar: projectlights.jpg
+
+links:
+  - name: .website
+    uri: https://www.project-lights.jp/
+  - name: .bilibili
+    uri: https://space.bilibili.com/8766497
+  - name: .youtube
+    uri: youtube:projectlights
+  - name: .twitter
+    uri: twitter:project_lights
+  - name: .weibo
+    uri: https://weibo.com/u/5340118702
