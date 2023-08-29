@@ -1,0 +1,171 @@
+name: Hollow Knight
+
+brief-description: |
+  Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.
+
+description: |
+  ## Hollow Knight Expands with Free Content
+
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_gg.png)  
+   **Godmaster** \- Take your place amongst the Gods. New Characters and Quest. New Boss Fights. Available Now!  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_lifeblood.png)  
+   **Lifeblood** \- A Kingdom Upgraded! New Boss. Upgraded Bosses. Tweaks and Refinements across the whole game.  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_grimm.png)  
+   **The Grimm Troupe** \- Light the Nightmare Lantern. Summon the Troupe. New Major Quest. New Boss Fights. New Charms. New Enemies. New Friends.  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_hidden_dreams.png)  
+   **Hidden Dreams** \- Mighty new foes emerge! New Boss fights. New Upgrades. New Music.
+
+  ## Brave the Depths of a Forgotten Kingdom
+
+  Beneath the fading town of Dirtmouth sleeps an ancient, ruined kingdom. Many are drawn below the surface, searching for riches, or glory, or answers to old secrets.  
+
+
+  Hollow Knight is a classically styled 2D action adventure across a vast interconnected world. Explore twisting caverns, ancient cities and deadly wastes; battle tainted creatures and befriend bizarre bugs; and solve ancient mysteries at the kingdom's heart.  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_pics_0002_4.jpg)
+
+  ## Game Features
+
+    * Classic side-scrolling action, with all the modern trimmings.  
+
+    * Tightly tuned 2D controls. Dodge, dash and slash your way through even the most deadly adversaries.  
+
+    * Explore a vast interconnected world of forgotten highways, overgrown wilds and ruined cities.  
+
+    * Forge your own path! The world of Hallownest is expansive and open. Choose which paths you take, which enemies you face and find your own way forward.  
+
+    * Evolve with powerful new skills and abilities! Gain spells, strength and speed. Leap to new heights on ethereal wings. Dash forward in a blazing flash. Blast foes with fiery Soul!  
+
+    * Equip Charms! Ancient relics that offer bizarre new powers and abilities. Choose your favourites and make your journey unique!  
+
+    * An enormous cast of cute and creepy characters all brought to life with traditional 2D frame-by-frame animation.  
+
+    * Over 130 enemies! 30 epic bosses! Face ferocious beasts and vanquish ancient knights on your quest through the kingdom. Track down every last twisted foe and add them to your Hunter's Journal!  
+
+    * Leap into minds with the Dream Nail. Uncover a whole other side to the characters you meet and the enemies you face.  
+
+    * Beautiful painted landscapes, with extravagant parallax, give a unique sense of depth to a side-on world.  
+
+    * Chart your journey with extensive mapping tools. Buy compasses, quills, maps and pins to enhance your understanding of Hollow Knight’s many twisting landscapes.  
+
+    * A haunting, intimate score accompanies the player on their journey, composed by Christopher Larkin. The score echoes the majesty and sadness of a civilisation brought to ruin.  
+
+    * Complete Hollow Knight to unlock Steel Soul Mode, the ultimate challenge!
+
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_pics_0003_3.jpg)  
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_pics_0001_5.jpg)  
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/fleur_divider.png)
+
+  ## An Evocative Hand-Crafted World
+
+  The world of Hollow Knight is brought to life in vivid, moody detail, its caverns alive with bizarre and terrifying creatures, each animated by hand in a traditional 2D style.  
+
+
+  Every new area you’ll discover is beautifully unique and strange, teeming with new creatures and characters. Take in the sights and uncover new wonders hidden off of the beaten path.  
+
+  If you like classic gameplay, cute but creepy characters, epic adventure and beautiful, gothic worlds, then Hollow Knight awaits!  
+
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_pics_0000_62.jpg)  
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_pics_0004_2.jpg)  
+  ![img](https://cdn.akamai.steamstatic.com/steam/apps/367520/extras/banner_pics_0005_1.jpg)
+
+
+description-format: markdown
+
+authors:
+  - name: Team Cherry
+    role: [ producer ]
+  - name: Team Cherry
+    role: [ publisher ]
+
+tags:
+  type:
+    - adventure
+    - action
+    - fantasy
+  lang:
+    - zh
+    - ja
+    - es
+    - fr
+    - en
+    - it
+    - ru
+    - ko
+    - de
+    - pt
+  platform:
+    - windows
+    - macos
+    - linux
+    - playstation4
+    - nintendo-switch
+    - xbox-one
+  publish:
+    - steam
+  misc:
+    - multiple-endings
+
+links:
+  - name: .facebook
+    uri: facebook:teamcherrygames
+  - name: .youtube
+    uri: https://www.youtube.com/teamcherrygames
+  - name: .twitter
+    uri: twitter:TeamCherryGames
+  - name: .steam
+    uri: steam:367520
+  - name: .playstation-store
+    uri: https://store.playstation.com/en-us/product/UP1822-CUSA13632_00-HOLLOWKNIGHT18US
+  - name: .nintendo-e-shop
+    uri: https://www.nintendo.com/store/products/hollow-knight-switch/
+  
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_a81e4231cc8d55f58b51a4a938898af46503cae5.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_62e10cf506d461e11e050457b08aa0e2a1c078d0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_bd76bd88bc5334ee56ae3d5f0d8dec4455e8e3b8.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_33a645903d6dd9beec39f272a3daf57174a6cc26.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_47f3523dbea462aff2ca4bc9f605faaf80a792b2.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_92c7e8f34c00bdb455070ecdd5b746f0d2f6d808.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_946e83ea924eff46a93e14e841bdbb1accd1654c.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_b17396ebcbef87cd016c433927bb2dd7edb17660.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_f1f594e1057a124d289a5905b53b5a0f820982c0.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_2329fe632e788efd9ece9dcfc98c0ea723ac0d04.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_fbe692d154a3d9dd627966d5445c4647ae0f71ce.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_1552562bd322fb94fd8c5a6595e75f1e6808db41.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/367520/ss_5478c9192023a3b3e438c030caa0809b62523587.1920x1080.jpg
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256679401/movie_max.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256679401/movie_max.mp4
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256695695/movie_max.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256695695/movie_max.mp4
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256686950/movie_max.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256686950/movie_max.mp4
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256674838/movie_max.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256674838/movie_max.mp4
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256674834/movie_max.webm
+      - mime: video/mp4
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256674834/movie_max.mp4
