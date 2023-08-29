@@ -103,11 +103,11 @@ tags:
     - windows
     - macos
     - linux
-  publish:
-    - steam
     - playstation4
     - nintendo-switch
     - xbox-one
+  publish:
+    - steam
   misc:
     - multiple-endings
 
