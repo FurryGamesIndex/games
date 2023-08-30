@@ -18,7 +18,13 @@ visual-novel:
   explanation:
     en: 'This game is a visual novel'
     zh-cn: '视觉小说'
-
+    
+fuck:
+  namespaces: [ type ]
+  explanation:
+    en: 'This game is a visual novel'
+    zh-cn: '视觉小说'
+    
 strategy:
   namespaces: [ type ]
   explanation:
