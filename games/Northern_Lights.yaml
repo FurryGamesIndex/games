@@ -1,0 +1,84 @@
+name: Northern Lights
+
+description: |
+  You'll be leaving your life and best friends in New Orleans behind, as you make your own way forward, travelling to Montana for then only college with an arts program you can afford, defiant of your father's intransigent intentions, no longer willing to be his walking trophy rack. 
+
+  In a climate of friendship, budding romance, self-acceptance, folklore and mystery, you'll confront your repressed feelings with the support of new friends, and face challenges even greater than navigating life as a college freshman.
+
+  Northern Lights is a slowly built, grounded, slice-of-life story, where you embark on a journey of discovery, alongside an array of interesting characters who are just as oblivious about the secrets of their town and neck of the woods as you are, growing together, bonding through shared experiences. 
+
+  Explore the story with your new friends, rather than through them. It's up to y'all to focus and pay attention to the world around you, pull on threads, and dig deep to find answers. What secrets will you unearth about the past of Aspen Hollow? Will you have the strength to embrace an uncertain future, and thrive? Will you accept your true self at at long last?
+
+description-format: markdown
+
+authors:
+  - name: Truffle_Otter
+    role: [producer, screenwriter]
+  - name: ChiefAkela
+    role: [producer, screenwriter]
+  - name: Anthemics
+    role: [musician]
+  - name: HAPS
+    role: [art-director]
+  - name: Blazar
+    role: [artist]
+  - name: Ytsurem
+    role: [screenwriter]
+  - name: Drewzy
+    role: [artist]
+  - name: HyenaBlood
+    role: [musician, scenographer]
+  - name: Wattson
+    role: [programmer]
+  - name: Creeeples
+    role: [technical-support]
+  - name: scruffmutts
+    role: [others]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+    - yiff
+  species:
+    - dog
+    - wolf
+    - crocodile
+    - otter
+  misc:
+    - freeware
+    - engine-renpy
+    - work-in-process
+  lang:
+    - en
+    - zh-unofficial
+  publish:
+    - itchio
+    - patreon
+  platform:
+    - windows
+    - linux
+    - macos
+    - android
+
+
+thumbnail: thumbnail.jpg
+
+links:
+  - name: .itch.io
+    uri: https://splitpeakstudio.itch.io/northern-lights
+  - name: .twitter
+    uri: twitter:NorthernLightVN
+  - name: .patreon
+    uri: patreon76596690
+  - name: .discord
+    uri: https://discord.com/invite/pUKCKxnBGJ
+  
+
+screenshots:
+  - type: image:local
+    path: Northern_Lights_Screenshot_One.png
+  - type: image:local
+    path: Northern_Lights_Screenshot_Two.png
+  - type: image:local
+    path: Northern_Lights_Screenshot_Three.png

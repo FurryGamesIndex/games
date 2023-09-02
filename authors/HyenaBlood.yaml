@@ -1,0 +1,14 @@
+name: HyenaBlood
+
+aliases:
+  - HyenaBloodMedia
+
+type: personal
+
+avatar: HyenaBlood.jpg
+
+links:
+  - name: .twitter
+    uri: twitter:HYENAWOUND
+  - name: .twitter
+    uri: twitter:HYENABLOODMEDIA
