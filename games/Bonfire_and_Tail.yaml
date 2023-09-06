@@ -1,0 +1,102 @@
+name: Bonfire and Tail
+
+brief-description: |
+  Bonfire and Tail is a multiplayer action party game developed by avidya studio. Through the gameplay, we want to bring players back to childhood and have simple fun together. Draw a torch from the bonfire and ignite other players' tails! If your tail is on fire, wiggle it to put the fire out!
+
+description: |
+  Bonfire and Tail is a multiplayer action party game developed by avidya studio.
+  
+  The original idea of the game is to get back to childhood together with our players, leaving behind troubles and worries, and try to embrace the pure fun we had when we were children.
+  
+  The game features a light rhythm, a simple and bright style. Cute little furies accompanied by a warm campfire to illuminate the young hearts of every player.
+  
+  Bonfire and tail includes a dozen mini games. All of them are easy, fun and thrilling, have at it and enjoy!
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/GamPlayGIF2.gif)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/GamPlayGIF4.gif)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/GamPlayGIF6.gif)
+
+  In order to secure victory, you need to ignite the opposing player's tail to gain points. Players with an ignited tail would have to keep wiggling their tails to extinguish the flame.
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/GamPlayGIF1.gif)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/GamPlayGIF5.gif)
+
+  Characters and map designs will be added in upcoming patches.
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/GamPlayGIF3.gif)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/%E5%9C%B0%E5%9B%BE%E5%B1%95%E7%A4%BA55.gif)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/%E5%9C%B0%E5%9B%BE%E5%B1%95%E7%A4%BA66.gif)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/%E5%9C%B0%E5%9B%BE%E5%B1%95%E7%A4%BA77.gif)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/%E5%9C%B0%E5%9B%BE%E5%B1%95%E7%A4%BA88.gif)
+
+  Items and skills will make the game more fun and unpredictable.
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/%E9%A5%B0%E5%93%81%E5%B1%95%E7%A4%BA11.gif)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2249700/extras/%E9%A5%B0%E5%93%81%E5%B1%95%E7%A4%BA22.gif)
+
+  Various accessories will allow you to customize your unique character!
+
+  We will keep adding new features to the game. There will be more game modes, characters, maps and accessories!
+
+  Please add Bonfire and Tail to your wishlist to keep up to our latest news and updates!
+
+description-format: markdown
+
+authors:
+  - name: Avidya_Studio
+    role: [producer]
+
+tags:
+  type:
+    - action
+    - adventure
+    - casual
+  species:
+    - cat
+    - tiger
+    - wolf
+    - fox
+    - rabbit
+    - cow
+  misc:
+    - 3d
+    - multiplayer
+    - co-op
+    - pvp
+    - online
+    - centralized
+    - full-audio
+  lang:
+    - zh
+    - en
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: steam
+    uri: steam:2249700
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - video:
+    - mime: video/webm
+      uri: https://cdn.akamai.steamstatic.com/steam/apps/256960059/movie_max_vp9.webm
+  - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_7dbb572f6c1f75c6cac7e3a8fb328ccecb42389d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_330d15c38894eadf00dd6461e80e06ad21938077.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_337686b8dcccb8a5db2d5e291f0618faa8196b15.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_a1811d4bed999324f3543b0d5888f7c21f8c3f64.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_019df5e9bfa45a372c55f9a0eba5dddd9112b6fe.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_ce143769ddeed338ca9f31bd92c4f7170b46774d.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_fec82fc3c63f896bed8085870816a993dfc486b5.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_d9f9cf0f8f383d2d2351498bc510f7f0a1738fc4.1920x1080.jpg
