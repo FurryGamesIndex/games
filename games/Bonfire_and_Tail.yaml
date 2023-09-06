@@ -83,7 +83,7 @@ tags:
     - windows
 
 links:
-  - name: steam
+  - name: .steam
     uri: steam:2249700
 
 thumbnail: thumbnail.png
