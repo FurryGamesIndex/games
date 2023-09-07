@@ -100,3 +100,15 @@ screenshots:
   - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_ce143769ddeed338ca9f31bd92c4f7170b46774d.1920x1080.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_fec82fc3c63f896bed8085870816a993dfc486b5.1920x1080.jpg
   - https://cdn.akamai.steamstatic.com/steam/apps/2249700/ss_d9f9cf0f8f383d2d2351498bc510f7f0a1738fc4.1920x1080.jpg
+  - type: image:local
+    path: 1.jpg
+  - type: image:local
+    path: 2.jpg
+  - type: image:local
+    path: 3.jpg
+  - type: image:local
+    path: 4.jpg
+  - type: image:local
+    path: 5.jpg
+  - type: image:local
+    path: 6.jpg
