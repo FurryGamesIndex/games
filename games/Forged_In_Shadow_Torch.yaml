@@ -78,11 +78,20 @@ thumbnail: thumbnail.jpg
 screenshots:
   - video:
       - mime: video/webm
-        uri: https://media.st.dl.pinyuncloud.com/steam/apps/256853301/movie480_vp9.webm
-      - mime: video/mp4
-        uri: https://media.st.dl.pinyuncloud.com/steam/apps/256853301/movie480.mp4
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_7df6a4834d21faef268c54e82b228c4442c33ea8.jpg
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_d859bc7d1eeb92ba0b863820a3f5b8d2aeaa626b.jpg
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_e1d32451f4ad62c603c2778ad4075fd11d0dbc16.jpg
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_5c9aeb1bf6210a6798289fbb1c7aa2fa5c28a117.jpg
-  - https://media.st.dl.pinyuncloud.com/steam/apps/1330470/ss_4c547ce08bb7a08fd4167b18219f58d5667abe85.jpg
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256920874/movie480_vp9.webm
+      - mime: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256880575/movie480_vp9.webm
+      - mine: video/webm
+        uri: https://cdn.cloudflare.steamstatic.com/steam/apps/256853299/movie480_vp9.webm
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_7df6a4834d21faef268c54e82b228c4442c33ea8.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_d859bc7d1eeb92ba0b863820a3f5b8d2aeaa626b.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_e1d32451f4ad62c603c2778ad4075fd11d0dbc16.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_5c9aeb1bf6210a6798289fbb1c7aa2fa5c28a117.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_4c547ce08bb7a08fd4167b18219f58d5667abe85.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_d3133e508265bc969124e5f1c614de260d27240c.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_b6955bb1a34990d6f73a97e3cf4dd70a62da601c.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_7ce55287374247ce6e9d70e9dd30e35312812ac0.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_47fd34012a9c795bd66e41d6f39a969ac7d25bac.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_3a42f4a3bb928b78eeceb4f82d4b4ba2307d96ad.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_376baec8b827f517b367ce89965b356769e7ea90.jpg
+  - https://cdn.cloudflare.steamstatic.com/steam/apps/1330470/ss_8e2696afb22e4091fe5c444f2ef64e27875db986.jpg
