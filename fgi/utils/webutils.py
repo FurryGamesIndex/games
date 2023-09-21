@@ -25,7 +25,7 @@ req_headers = {
 
 
 def dl(uri, path):
-    data = requests.get(uri, headers=req_headers).content
+    data = requests.get(patch_unavailable_cdn(uri), headers=req_headers).content
     with open(path, "wb") as f:
         f.write(data)
 
