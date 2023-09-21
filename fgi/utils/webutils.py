@@ -18,16 +18,24 @@
 # 
 
 import requests
-
+from urlparse import urlparse
 req_headers = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:77.0) Gecko/20100101 Firefox/77.0"
 }
+
 
 def dl(uri, path):
     data = requests.get(uri, headers=req_headers).content
     with open(path, "wb") as f:
         f.write(data)
 
+
+def patch_unavailable_cdn(url: str):
+    if 'media.st.dl.pinyuncloud.com' in url:
+        return url.replace('media.st.dl.pinyuncloud.com', "cdn.cloudflare.steamstatic.com")
+    return url
+
 if __name__ == "__main__":
     from sys import argv
+
     dl(argv[1], "/var/tmp/test")
