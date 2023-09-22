@@ -90,10 +90,13 @@ properties:
               - planner
               - illustrator
               - sound-designer
+              - localization
               - localization:en
               - proofreader:en
+              - ui-designer
+              - sponsor
               - others
-      required: [ name, role ]
+      required: [name, role]
   tags:
     oneOf:
       - type: array
@@ -143,7 +146,7 @@ properties:
           type: string
           description: |
             The "rel" html element attribute.
-      required: [ name, uri ]
+      required: [name, uri]
   thumbnail:
     type: string
     description: |
@@ -168,8 +171,7 @@ properties:
       oneOf:
         - type: object
           title: LocalScreenshotImage
-          description:
-            An image. Sensitive or non-sensitive.
+          description: An image. Sensitive or non-sensitive.
           properties:
             sensitive:
               type: boolean
@@ -179,11 +181,10 @@ properties:
               type: string
               description: |
                 The path or the image.
-          required: [ path ]
+          required: [path]
         - type: object
           title: ScreenshotImage
-          description:
-            An image. Sensitive or non-sensitive.
+          description: An image. Sensitive or non-sensitive.
           properties:
             sensitive:
               type: boolean
@@ -193,11 +194,10 @@ properties:
               type: string
               description: |
                 The path or the URI of the image.
-          required: [ sensitive, uri ]
+          required: [sensitive, uri]
         - type: string
           title: ScreenshotBasicImage
-          description:
-            A non-sensitive image. The path or the URI of the image.
+          description: A non-sensitive image. The path or the URI of the image.
 
         - type: object
           title: ScreenshotYoutubeEmbeddedVideoRS
@@ -208,7 +208,7 @@ properties:
               type: string
               description: |
                 Video ID of the youtube video, Required when you do not specify `uri`.
-          required: [ youtube ]
+          required: [youtube]
         - type: object
           title: ScreenshotYoutubeEmbeddedVideo
           description: |
@@ -235,7 +235,7 @@ properties:
                 WARNNING: This is a **deprecated** property.
                 But FGI also supports it due to backward compatible.
                 It should not be used in newly edited game entries.
-          required: [ type ]
+          required: [type]
 
         - type: object
           title: ScreenshotHTMLEmbeddedVideoRS
@@ -260,8 +260,8 @@ properties:
                     type: string
                     description: |
                       The URI of the video
-                required: [ mime, uri ]
-          required: [ video ]
+                required: [mime, uri]
+          required: [video]
         - type: object
           title: ScreenshotHTMLEmbeddedVideo
           description: |
@@ -290,8 +290,8 @@ properties:
                     type: string
                     description: |
                       The URI of the video
-                required: [ mime, uri ]
-          required: [ type, src ]
+                required: [mime, uri]
+          required: [type, src]
 
         - type: object
           title: ScreenshotSteamStoreWidget
@@ -307,7 +307,7 @@ properties:
               type: string
               description: |
                 The ID of the game in Steam.
-          required: [ type, id ]
+          required: [type, id]
 
         - type: object
           title: ScreenshotFGIHBoxRS
@@ -324,7 +324,7 @@ properties:
                 type: string
               description: |
                 Any type of ScreenshotBasicImage objects (strings).
-          required: [ hbox ]
+          required: [hbox]
         - type: object
           title: ScreenshotFGIHBox
           description: |
@@ -339,7 +339,7 @@ properties:
               type: array
               description: |
                 Any type of screenshot objects
-          required: [ type, content ]
+          required: [type, content]
   X-Created-by:
     type: string
     description: |
@@ -362,4 +362,4 @@ properties:
       Allow `name` or `name <email address>`
     contains:
       type: string
-required: [ name, description, tags, links, screenshots ]
+required: [name, description, tags, links, screenshots]

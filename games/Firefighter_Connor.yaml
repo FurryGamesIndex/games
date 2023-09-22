@@ -1,0 +1,92 @@
+name: "Firefighter Connor"
+
+brief-description: |
+  Firefighter Connor is a linear narrative visual novel that tells a story in a modern world where humans and furries coexist. The player will play the role of Luo Geng, who is 22 year-old, eligible for marriage registration, and somehow ends up with a marriage with a furry firefighter named Connor.
+
+description: |
+  Firefighter Connor is a linear narrative visual novel that I created, inspired by the episode The One in Weird City. The game tells a story in a modern world where humans and furries coexist. The player will play the role of Luo Geng, who is 22 year-old, eligible for marriage registration, and somehow ends up with a marriage with a furry firefighter named Connor.
+  The demo on Steam is the free trial of the game's first and sixth chapter!
+
+  Firefighter Connor's discord channel: discord.gg/8SD3aeyGQV
+
+  The full game will include approximately 10 chapters, including at least 15 CG, 15 scenes, 14 original soundtracks, 22k words of dialogues, and 40+ chibi character expressions as stickers.
+  Please add our game to your wishlist to receive the latest news of our game!
+
+  Main Character Introduction:
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2384920/extras/Steam%E5%95%86%E5%9F%8E%E6%8F%8F%E8%BF%B0-%E8%80%BF%E6%B4%9B-%E4%B8%AD%E8%8B%B1.jpg)
+
+  ![](https://cdn.akamai.steamstatic.com/steam/apps/2384920/extras/Steam%E5%95%86%E5%9F%8E%E6%8F%8F%E8%BF%B0-%E5%BA%B7%E7%BA%B3-%E4%B8%AD%E8%8B%B1.jpg)
+
+description-format: markdown
+
+authors:
+  - name: XSSPACE
+    role: [producer, programmer, screenwriter]
+  - name: YeMaoZiXiaoKai
+    role: [sponsor, director]
+  - name: QingSongShi
+    role: [artist, scenographer]
+  - name: WangYueLinYu
+    role: [scenographer]
+  - name: NaiBuQiNuo
+    role: [artist]
+  - name: WanYu
+    role: [artist]
+  - name: YangCheng
+    role: [artist]
+  - name: APTFeiGuo
+    role: [musician]
+  - name: XiaoXia
+    role: [musician]
+  - name: TaQiYang
+    role: [sound-designer]
+  - name: AYouEX
+    role: [ui-designer]
+  - name: PuErCha
+    role: [localization]
+  - name: HuangXiaoSan
+    role: [localization]
+  - name: IgorGao
+    role: [localization]
+
+tags:
+  type:
+    - role-playing
+    - visual-novel
+  species:
+    - cat
+    - dog
+    - wolf
+    - humankind
+  misc:
+    - work-in-process
+    - engine-unity
+  lang:
+    - en
+    - ja
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: steam:2384920
+  - name: .bilibili
+    uri: https://space.bilibili.com/9957799
+  - name: .discord
+    uri: discord:8SD3aeyGQV
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256966075/movie_max_vp9.webm
+  - https://cdn.akamai.steamstatic.com/steam/apps/2384920/ss_8ed0ec4b2987b46c6926f08bf9196d709d680886.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2384920/ss_7af998a76288ffa55459687bdd0bb9dd5cd2b6c8.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2384920/ss_0233f7e6b3015549ec577ec5eb095a6f1fbe36ae.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2384920/ss_c04de86bd321d3daea0a99c494a33464977cda36.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2384920/ss_d06cae3e101c27273fdf221ece00f1c8ccb7c6ff.1920x1080.jpg
+  - https://cdn.akamai.steamstatic.com/steam/apps/2384920/ss_9d0d8a0da0462dd73b098a65a4b6202edbf58cba.1920x1080.jpg
