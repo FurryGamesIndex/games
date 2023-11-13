@@ -1,11 +1,11 @@
 name: Shared House
 
 brief-description: |
-  This is a youth love group drama woven by cats and dogs as bamboo horses and bamboo horses, and all kinds of people around them. "Let's share a house!" ——Starting with this sentence, the cat orc "Akashi Yoshito", who was shaken by the words of the canine orc "Daichi Akagi", his childhood friend and best friend, began to live in a college share with his crush's heartbeat college after half pushing and half pushing. 
+  This is a youth love group drama woven by cats and dogs as bamboo horses and bamboo horses, and all kinds of people around them. "Let's share a house!" ——Starting with this sentence, the cat orc "Akashi Yoshito", who was shaken by the words of the canine orc "Daichi Akagi", his childhood friend and best friend, began to live in a college share with his crush's heartbeat college after half pushing and half pushing.
 
 description: |
   Overall Structure of "Shared House": Excluding side stories and SS, the entire text consists of 51 chapters (prologue + 50 chapters, totaling 600,000 words in Japanese) + special chapter.
-  
+
   It is divided as follows: Phase One, chapters 0-18 (mainly focusing on the story of Shanren and Dazhi, from Shanren's perspective); Phase Two, chapters 19-30 (mainly focusing on the story of Taili and Wu); Phase Three, chapters 31-50 (returning to the story of Shanren and Dazhi, from Dazhi's perspective); Special chapter (mainly centered around the story of Aima).
 
   This publicly released version primarily features a re-edition of Phase One's plot (prologue to chapter 18). Although the plots of Phase Two and Phase Three (chapters 10 to 50) have not been completely reset, the textual components of the plots have all been incorporated. Please feel free to continue reading according to your preferences.
@@ -22,25 +22,36 @@ description: |
 
   If you enjoy this work, feel free to share it with fellow enthusiasts. Thank you very much!
 
+  Update description:
+  * Updated the standing art performance of the second issue of the Chinese version (19~30 episodes).
+  * The performance effect of the first phase (Prologue ~ Chapter 18) has been strengthened
+  * Added new paintings of Satoru, Akika, Aoi, Mushu, and Yuxing
+  * Added the text of the first issue of the Japanese version (prologue ~ 18 chapters), the first side story, and the short story collection (the public part of the P station).
+  * Updated the way the main screen is performed
+
 description-format: markdown
 
 authors:
- - name: HeiZeCheng
-   role: [producer]
- - name: hi_na_ga
-   role: [screenwriter, artist]
- - name: tukae_nai
-   role: [character-designer, artist]
- - name: shi_ha_chi
-   role: [artist]
- - name: LuShiFu
-   role: [artist]
- - name: HeiGu
-   role: [artist]
- - name: XiaoYe
-   role: [artist]
- - name: ponzu_tas
-   role: [musician]
+  - name: HeiZeCheng
+    role: [producer]
+  - name: hi_na_ga
+    role: [screenwriter, artist]
+  - name: tukae_nai
+    role: [character-designer, artist]
+  - name: shi_ha_chi
+    role: [artist]
+  - name: LuShiFu
+    role: [artist]
+  - name: HeiGu
+    role: [artist]
+  - name: XiaoYe
+    role: [artist]
+  - name: ponzu_tas
+    role: [musician]
+  - name: SeagullLarus
+    role: [translator]
+  - name: yanjiuxingyu
+    role: [artist]
 
 tags:
   type:
@@ -74,7 +85,12 @@ links:
 
 thumbnail: thumbnail.png
 
-screenshots: 
+screenshots:
+  - type: video:local
+    src:
+      - mime: video/mp4
+        path: Mainmenu.mp4
+        size: 720
   - type: image:local
     path: screenshots-1.png
     sensitive: false
@@ -88,14 +104,14 @@ screenshots:
     path: screenshots-4.png
     sensitive: false
   - type: image:local
-    path: posters-1.png
+    path: screenshots-5.png
     sensitive: false
   - type: image:local
-    path: posters-2.png
+    path: screenshots-6.png
     sensitive: false
   - type: image:local
-    path: posters-3.png
+    path: screenshots-7.png
     sensitive: false
   - type: image:local
-    path: posters-4.png
+    path: screenshots-8.png
     sensitive: false
