@@ -5,3 +5,4 @@ extraui
 .*.swp
 .cache
 .DS_Store
+.idea

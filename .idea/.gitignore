@@ -6,3 +6,6 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# 无用的文件
+/fgi.iml
+/.gitignore
