@@ -25,6 +25,8 @@ authors:
     role: [ producer ]
   - name: Captain_Nikko
     role: [ artist ]
+  - name: Compymono
+    role: [ artist ]
 tags:
   type:
     - visual-novel

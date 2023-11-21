@@ -30,9 +30,7 @@ authors:
     avatar: Rairou.jpg
     role: [ programmer ]
   - name: Compymono
-    standalone: true
-    avatar: Compymono.jpg
-    role: [ screenwriter ]
+    role: [ screenwriter, artist ]
   - name: Nawah
     standalone: true
     avatar: Nawah.jpg

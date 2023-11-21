@@ -35,9 +35,6 @@ authors:
     link-uri: twitter:RabidRbbit
     role: [ screenwriter ]
   - name: Compymono
-    standalone: true
-    avatar: compymono.jpg
-    link-uri: twitter:compymono
     role: [ screenwriter ]
   - name: Nawah
     standalone: true
