@@ -1,0 +1,51 @@
+name: 'IGNITER'
+
+description: |
+  《IGNITER》是一款冒險RPG的視覺小說。主角衝太和他的同事面對名為“故障者”的神秘生物，隨著他們加深彼此的羈絆，他們解開了由龍統治的島嶼的謎團。
+
+authors:
+  - name: shin
+    role: [ screenwriter, artist, programmer ]
+    avatar: shin.jpg
+    link-uri: https://twitter.com/bl_s21
+  - name: sho
+    role: [ musician ]  
+    avatar: sho.jpg
+
+tags:
+  type:
+    - visual-novel
+    - adventure
+    - role-playing
+    - yiff
+  species:
+    - dog
+    - cat
+    - tiger
+    - dragon
+  fetish:
+    - males-only
+  lang:
+    - en
+    - zh
+    - ja
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://bl-s21.itch.io/igniter
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjEzOTEwNS8xMzQ4MzMxNC5wbmc=/original/lJ8H38.png
+  - https://img.itch.zone/aW1hZ2UvMjEzOTEwNS8xMzQ4MzMxNS5wbmc=/794x1000/eZS3uk.png
+  - https://img.itch.zone/aW1hZ2UvMjEzOTEwNS8xMzQ4MzMxNy5wbmc=/794x1000/%2Fnq%2B%2F2.png
+  - https://img.itch.zone/aW1hZ2UvMjEzOTEwNS8xMzQ4MzMxOC5wbmc=/794x1000/JOhDiz.png
+  - https://img.itch.zone/aW1hZ2UvMjEzOTEwNS8xMzQ4MzMxOS5wbmc=/794x1000/hcRMpX.png
