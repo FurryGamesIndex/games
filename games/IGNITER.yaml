@@ -1,16 +1,13 @@
-name: 'IGNITER'
+name: "IGNITER"
 
 description: |
   IGNITER is a visual novel with adventure RPG. Main character, Toka, and his colleague confront mysterious creatures called "Faulties," and as they strengthen their bond, they unravel the mysteries of an island ruled by dragons.
 
 authors:
   - name: shin
-    role: [ screenwriter, artist, programmer ]
-    avatar: shin.jpg
-    link-uri: https://twitter.com/bl_s21
+    role: [screenwriter, artist, programmer]
   - name: sho
-    role: [ musician ]  
-    avatar: sho.jpg
+    role: [musician]
 
 tags:
   type:
