@@ -1,15 +1,15 @@
-name: 'IGNITER'
+name: "IGNITER"
 
 description: |
-  《IGNITER》是一款冒险RPG的视觉小说。主角冲太和他的同事面对名为“故障者”的神秘生物，随着他们加深彼此的羁绊，他们解开了由龙统治的岛屿的谜团。
-  
+  《IGNITER》是一款冒险RPG的视觉小说。主角托克和他的同事面对名为“故障者”的神秘生物，随着他们加深彼此的羁绊，他们解开了由龙统治的岛屿的谜团。
+
 authors:
   - name: shin
-    role: [ screenwriter, artist, programmer ]
+    role: [screenwriter, artist, programmer]
     avatar: shin.jpg
     link-uri: https://twitter.com/bl_s21
   - name: sho
-    role: [ musician ]  
+    role: [musician]
     avatar: sho.jpg
 
 tags:
