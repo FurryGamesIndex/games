@@ -31,6 +31,8 @@ description-format: markdown
 authors:
   - name: Studio Klondike
     role: [ producer ]
+  - name: Compymono
+    role: [ producer, programmer, artist ]
 
 tags:
   type:

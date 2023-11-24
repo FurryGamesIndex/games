@@ -13,6 +13,8 @@ description-format: markdown
 authors:
   - name: 'The Echo Project'
     role: [ producer, screenwriter, programmer, artist ]
+  - name: Compymono
+    role: [ artist ]
 
 tags:
   type:
