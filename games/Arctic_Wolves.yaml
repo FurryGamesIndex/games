@@ -1,0 +1,69 @@
+name: Arctic Wolves
+
+brief-description: |
+
+  Arctic Wolves is an open world action game that combines the cuteness of wolves with action loaded combat scenarios in a fantasy winter world. As the player, you explore the world, get to know other character's stories and go on quests for them.
+
+description: |
+
+  Arctic Wolves is an open world action game that combines the cuteness of wolves with action loaded combat scenarios in a fantasy winter world. As the player, you explore the world, get to know other character's stories and go on quests for them. The quest design is motivated by other famous open world action games, and takes a big focus in a good, but not all too serious storytelling. Doing quests brings you money which you can spend on weapons, apartments and vehicles.
+
+  The thorough crafted world is full of locations to explore, either on foot or on a quad bike. Customization is an important part, so you have full control over your player's appearance, and you can also create custom NPCs which you can take on explorations. Just like a lot of other furry games, Arctic Wolves has optional NSFW features which will be available in future versions.
+
+  Although the game is still in Alpha state, most game mechanics are already added and just have to be extended, for example with new missions and characters. The open Alpha is planned to be released to the public at the start of 2024.
+
+description-format: markdown
+
+authors:
+  - name: pup_blake
+    role: [producer]
+
+tags:
+  type:
+    - action
+    - adventure
+    - shooter
+    - bara
+    - yiff
+  species:
+    - wolf
+  fetish:
+    - males-only
+  misc:
+    - 3d
+    - uncensored
+    - full-audio
+    - engine-unity
+    - work-in-process
+  lang:
+    - en
+  publish:
+    - website
+  platform:
+    - windows
+    - macos
+
+links:
+  - name: .website
+    uri: https://arctic-wolves.net/
+  - name: .discord
+    uri: discord:QpAN7mvMyV
+  - name: .telegram
+    uri: https://t.me/+An0yUhJ9bvBmYmY6
+  
+thumbnail: thumbnail.png
+
+screenshots:
+  - video:
+      - mime: video/mp4
+        uri: https://arctic-wolves.net/media/gameplay_video.74fd73b0.mp4
+  - type: image:local
+    path: 1.jpg
+  - type: image:local
+    path: 2.jpg
+  - type: image:local
+    path: 3.jpg
+  - type: image:local
+    path: 4.jpg
+  - type: image:local
+    path: 5.jpg
