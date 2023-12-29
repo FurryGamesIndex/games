@@ -1,0 +1,52 @@
+﻿name: Bruder
+
+brief-description:
+  This is the story of the sons of a reconstituted family of two single dads.
+
+description: |
+  This is a story about the son of a reconstituted family of two single fathers.
+
+description-format: markdown
+
+authors:
+  - name: guoshu233
+    role: [producer]
+  - name: Yellow_Chocobo
+    role: [translator]
+    
+tags:
+  type:
+    - visual-novel
+    - bara
+  species:
+    - tiger
+    - coyote
+    - humankind
+  fetish:
+    - males-only
+    - muscle
+  misc:
+    - freeware
+    - multiple-endings
+    - engine-renpy
+  lang:
+    - zh
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - android
+    - macos
+
+links:
+  - name: .itch.io
+    uri: https://guoshu.itch.io/bruder
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjEzMjc0Mi8xMjYwMjM3MS5qcGc=/original/iEFzpA.jpg
+  - https://img.itch.zone/aW1hZ2UvMjEzMjc0Mi8xMjU2ODc4NS5wbmc=/original/zgkPgW.png
+  - https://img.itch.zone/aW1hZ2UvMjEzMjc0Mi8xMjU2ODc4NC5wbmc=/original/3IG0x2.png
+  - https://img.itch.zone/aW1hZ2UvMjEzMjc0Mi8xMjU2ODc4My5wbmc=/original/%2B%2F37ys.png
