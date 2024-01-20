@@ -38,7 +38,7 @@ tags:
     - android
     - macos
   publish:
-    - .itchio
+    - itchio
   misc: []
 
 links:
