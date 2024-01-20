@@ -1,0 +1,64 @@
+name: MEMORY LEAK
+
+brief-description: |
+  An 18+ Cyberpunk Visual Novel Game.
+
+description: |
+  WARNING - VIEWER DISCRETION IS ADVISED. THIS STORY FEATURES SEX, VIOLENCE, ABUSE, AND OTHER ADULT CONTENT, AS WELL AS FLASHING LIGHTS AND COLORS.   
+  _When a two bit hacker gets blackmailed by a computer virus, he is forced to navigate a dangerous path in order to escape its clutches. The player guides him on his adventure, and experiences many 'bad ends' along the way..._
+
+  From the Makers of Willy Bear Beach and Notes from the Cape comes **MEMORY LEAK** , a visual novel game that features branching paths based on skill checks and player choices. The game is played in runs, with the player experiencing many bad ends along the way to victory, all of which are collected in a gallery to be viewed later. 
+
+
+description-format: markdown
+
+authors:
+  - name: Artdecade Monthly Productions
+    role:
+      - producer
+
+tags:
+  type:
+    - visual-novel
+    - yiff
+  species:
+    - rabbit
+    - bear
+    - dragon
+    - dog
+    - wolf
+  fetish:
+    - males-only
+    - mind-control
+  lang:
+    - en
+  platform:
+    - linux
+    - windows
+    - android
+    - macos
+  publish:
+    - .itchio
+  misc: []
+
+links:
+  - name: .discord
+    uri: discord:Rn3j4ZDKMu
+  - name: .patreon
+    uri: patreon:WillyBearBeach
+  - name: .website
+    uri: https://artdecade.itch.io/memory-leak-demo
+  - name: .itchio
+    uri: https://artdecade.itch.io/memory-leak
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTYwOTE1Ni85NDE4MTE4LmpwZw==/original/G8rfju.jpg
+  - https://img.itch.zone/aW1hZ2UvMTYwOTE1Ni85NDE4NDAyLmpwZw==/original/x0eFCd.jpg
+  - https://img.itch.zone/aW1hZ2UvMTYwOTE1Ni85NDE4NDA0LmpwZw==/original/y%2BTNKL.jpg
+  - https://img.itch.zone/aW1hZ2UvMTYwOTE1Ni85NDE4NDA1LmpwZw==/original/%2FfOp52.jpg
+  - https://img.itch.zone/aW1hZ2UvMTYwOTE1Ni85NDE4NDA4LmpwZw==/original/nx3S%2Fy.jpg
+  - https://img.itch.zone/aW1hZ2UvMTYwOTE1Ni85NDE4NDA2LmpwZw==/original/YQ0zSE.jpg
+  - https://img.itch.zone/aW1hZ2UvMTYwOTE1Ni85NDE4NDA3LmpwZw==/original/BL%2FVQR.jpg
+  - https://img.itch.zone/aW1hZ2UvMTYwOTE1Ni85NDE4NDAzLmpwZw==/original/I7xANM.jpg
