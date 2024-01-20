@@ -14,8 +14,7 @@ description-format: markdown
 
 authors:
   - name: Artdecade Monthly Productions
-    role:
-      - producer
+    role: [producer]
 
 tags:
   type:
@@ -39,7 +38,6 @@ tags:
     - macos
   publish:
     - itchio
-  misc: []
 
 links:
   - name: .discord
