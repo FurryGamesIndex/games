@@ -14,7 +14,7 @@ description-format: markdown
 
 authors:
   - name: Artdecade Monthly Productions
-    role: [producer]
+    role: [ producer ]
 
 tags:
   type:
@@ -44,9 +44,9 @@ links:
     uri: discord:Rn3j4ZDKMu
   - name: .patreon
     uri: patreon:WillyBearBeach
-  - name: .website
+  - name: .demo-version
     uri: https://artdecade.itch.io/memory-leak-demo
-  - name: .itchio
+  - name: .itch.io
     uri: https://artdecade.itch.io/memory-leak
 
 thumbnail: thumbnail.jpg
