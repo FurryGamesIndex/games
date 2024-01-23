@@ -1355,6 +1355,12 @@ digiket:
     en: 'Published on DiGiket'
     zh-cn: '游戏在 DiGiket 上有发布'
 
+dlsite:
+  namespaces: [ publish ]
+  explanation:
+    en: 'Published on DLsite'
+    zh-cn: '游戏在 DLsite 上有发布'
+
 website:
   namespaces: [ publish ]
   explanation:
