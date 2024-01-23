@@ -1321,82 +1321,88 @@ zh-unofficial:
 steam:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on Steam'
     zh-cn: '游戏在 Steam 上有发布'
 
 epic:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on Epic Games Store'
     zh-cn: '游戏在 Epic Games Store 上有发布'
 
 itchio:
   namespaces: [ publish ]
   alias: [ itch-io, itch ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on itch.io'
     zh-cn: '游戏在 itch.io 上有发布'
 
 patreon:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on Patreon'
     zh-cn: '游戏在 Patreon 上有发布'
 
 booth:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on BOOTH'
     zh-cn: '游戏在 BOOTH 上有发布'
 
 digiket:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on DiGiket'
     zh-cn: '游戏在 DiGiket 上有发布'
+
+dlsite:
+  namespaces: [ publish ]
+  explanation:
+    en: 'Published on DLsite'
+    zh-cn: '游戏在 DLsite 上有发布'
 
 website:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on its offical website'
     zh-cn: '游戏在其网站上有发布'
 
 google-play:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on Google Play'
     zh-cn: '游戏在 Google Play 上有发布'
 
 apple-appstore:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on App Store'
     zh-cn: '游戏在 App Store 上有发布'
 
 e-shop:
   namespaces: [ publish ]
   alias: [ nintendo-e-shop ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on Nintendo eShop'
     zh-cn: '游戏在 Nintendo eShop 上有发布'
 
 gog:
   namespaces: [ publish ]
   alias: [ gog-com ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on GOG.com'
     zh-cn: '游戏在 GOG.com 上有发布'
 
 microsoft-store:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on Microsoft Store'
     zh-cn: '游戏在 Microsoft Store 上有发布'
     
 playstation-store:
   namespaces: [ publish ]
   explanation:
-    en: 'Self-pleasuring.'
+    en: 'Published on PlayStation Store'
     zh-cn: '游戏在 PlayStation Store 上有发布'
 
 ###################################################
