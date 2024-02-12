@@ -8,17 +8,17 @@ description: |
 description-format: markdown
 
 authors:
-  - name: WetDogs
-    role: [ producer ]
-  - name: LuShifu
-    role: [ screenwriter, artist]
+  - name: wetdogs
+    role: [producer]
+  - name: LuShiFu
+    role: [screenwriter, artist]
   - name: BuYecailela
-    role: [ programmer ]
+    role: [programmer]
   - name: CandyBox
-    role: [ musician ]
+    role: [musician]
   - name: ShuYao
-    role: [ screenwriter ]
-    
+    role: [screenwriter]
+
 tags:
   type:
     - casual
@@ -41,8 +41,8 @@ tags:
     - windows
 
 links:
-   - name: .official-version-zh
-     uri: FGI-misc-page:Diary_of_summer_travel
+  - name: .official-version-zh
+    uri: FGI-misc-page:Diary_of_summer_travel
 
 thumbnail: thumbnail.jpg
 

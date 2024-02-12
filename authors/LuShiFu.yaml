@@ -4,6 +4,8 @@ type: personal
 
 avatar: LuShiFu.jpg
 
-links: 
+links:
+  - name: .twitter
+    uri: twitter:uken_l
   - name: .weibo
     uri: https://weibo.com/u/1881432013
