@@ -1,0 +1,63 @@
+name: Diary of summer travel
+
+description: |
+  On a hot summer night, the protagonist is caught up in a peculiar event and embarks on a summer journey in a small town called Jinquan City.
+
+  In the game, players will encounter orc characters with different personalities, experience the local customs, participate in various activities, and may enjoy an unforgettable relationship with their beloved one.
+
+description-format: markdown
+
+authors:
+  - name: WetDogs
+    role: [ producer ]
+  - name: LuShifu
+    role: [ screenwriter, artist]
+  - name: BuYecailela
+    role: [ programmer ]
+  - name: CandyBox
+    role: [ musician ]
+  - name: ShuYao
+    role: [ screenwriter ]
+    
+tags:
+  type:
+    - casual
+    - visual-novel
+    - bara
+  species:
+    - tiger
+    - mouse
+    - cattle
+  fetish:
+    - muscle
+    - males-only
+  misc:
+    - freeware
+    - engine-unity
+    - work-in-process
+  lang:
+    - zh
+  platform:
+    - windows
+
+links:
+   - name: .official-version-zh
+     uri: FGI-misc-page:Diary_of_summer_travel
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - type: video:local
+    src:
+      - mime: video/webm
+        path: Diary_of_summer_travel_480.webm
+        size: 480
+      - mime: video/mp4
+        path: Diary_of_summer_travel_480.mp4
+        size: 480
+      - mime: video/webm
+        path: Diary_of_summer_travel_1080.webm
+        size: 1080
+      - mime: video/mp4
+        path: Diary_of_summer_travel_1080.mp4
+        size: 1080
