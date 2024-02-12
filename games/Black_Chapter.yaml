@@ -11,48 +11,48 @@ description: |
   ## 关于游戏
 
   《黑之章》属于典型的文字冒险游戏，玩家只需对特定选项作出选择即可推动剧情发展（即电子小说）。
-  
+
   玩家将以主人公“安迪”的视角进行游戏。
-  
+
   全篇共有三条线，分别对应三个可攻略对象。
-  
+
   预计全6个章节，部分章节为共通线，章节时长在1小时以上。
 
 description-format: markdown
 
 authors:
-  - name: 星火社游戏制作组
-    role: [ publisher ]
-  - name: BingYa
-    role: [ producer, screenwriter ]
+  - name: XingHuoShe
+    role: [publisher]
+  - name: Hyouga
+    role: [producer, screenwriter]
   - name: ShiYueYueBB
-    role: [ artist ]
+    role: [artist]
   - name: QuanSui
-    role: [ scenographer ]
-  - name: 魔王卜
-    role: [ programmer ]
-  - name: 偏钛酸钡
-    role: [ technical-support ]
+    role: [scenographer]
+  - name: MoWangBo
+    role: [programmer]
+  - name: PianTaiSuanBei
+    role: [technical-support]
   - name: BuMengDeLongLong
-    role: [ programmer ]
+    role: [programmer]
   - name: RuiLuoMu
-    role: [ musician ]
+    role: [musician]
   - name: GaiAoKa
-    role: [ musician ]
+    role: [musician]
   - name: FeiErFeiSi
-    role: [ musician ]
+    role: [musician]
   - name: XingMiElory
-    role: [ musician ]
+    role: [musician]
   - name: AYouEX
-    role: [ others ]
+    role: [others]
   - name: LuanHuo
-    role: [ others ]
+    role: [others]
   - name: ZhongMaoZhongZhongMao
-    role: [ others ]
+    role: [others]
   - name: YeMaoZiXiaoKai
-    role: [ musician ]
+    role: [musician]
   - name: MuSanYu
-    role: [ musician ]
+    role: [musician]
 
 tags:
   type:
