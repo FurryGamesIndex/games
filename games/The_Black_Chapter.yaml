@@ -23,6 +23,8 @@ description: |
 
   It is expected that the whole 6 chapters, some chapters for the common line, chapter length in more than 1 hour.
 
+description-format: markdown
+
 authors:
   - name: 星火社游戏制作组
     role: [ publisher ]
@@ -99,6 +101,7 @@ tags:
   publish:
     - website
     - itchio
+    - afdian
   platform:
     - windows
 
@@ -107,8 +110,8 @@ links:
     uri: http://ac.yngudu.cn/
   - name: .itch.io
     uri: https://blackchapter.itch.io/blackchapter
-  - name: Aifadian
-    uri: https://afdian.net/a/hyouga
+  - name: .afdian
+    uri: afdian:hyouga
 
 thumbnail: thumbnail.jpg
 
