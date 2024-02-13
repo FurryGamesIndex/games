@@ -29,10 +29,6 @@ authors:
     role: [artist]
   - name: QuanSui
     role: [scenographer]
-  - name: MoWangBo
-    role: [programmer]
-  - name: PianTaiSuanBei
-    role: [technical-support]
   - name: BuMengDeLongLong
     role: [programmer]
   - name: RuiLuoMu
@@ -48,9 +44,9 @@ authors:
   - name: LuanHuo
     role: [others]
   - name: ZhongMaoZhongZhongMao
-    role: [others]
-  - name: YeMaoZiXiaoKai
     role: [musician]
+  - name: YeMaoZiXiaoKai
+    role: [others]
   - name: MuSanYu
     role: [musician]
 
