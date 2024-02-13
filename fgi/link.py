@@ -33,6 +33,7 @@ simple_uri_scheme_map = {
     "youtube": "https://www.youtube.com/%s",
     "facebook": "https://www.facebook.com/%s",
     "discord": "https://discord.gg/%s",
+    "afdian": "https://afdian.net/a/%s"
     "FGI-misc-page": "/misc/%s.html",
 }
 
