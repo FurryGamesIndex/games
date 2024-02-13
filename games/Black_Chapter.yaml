@@ -27,12 +27,16 @@ authors:
     role: [producer, screenwriter]
   - name: ShiYueYueBB
     role: [artist]
-  - name: QuanSui
-    role: [scenographer]
   - name: BuMengDeLongLong
     role: [programmer]
+  - name: ZhongMaoZhongZhongMao
+    role: [musician]
+  - name: MuSanYu
+    role: [musician]
   - name: RuiLuoMu
     role: [musician]
+  - name: QuanSui
+    role: [scenographer]
   - name: GaiAoKa
     role: [musician]
   - name: FeiErFeiSi
@@ -42,13 +46,9 @@ authors:
   - name: AYouEX
     role: [ui-designer]
   - name: LuanHuo
-    role: [others]
-  - name: ZhongMaoZhongZhongMao
-    role: [musician]
+    role: [technical-support]
   - name: YeMaoZiXiaoKai
     role: [others]
-  - name: MuSanYu
-    role: [musician]
 
 tags:
   type:
