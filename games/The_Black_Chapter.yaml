@@ -113,4 +113,20 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
-  - http://ac.yngudu.cn/cg.png
+  - video:
+    - mime: video/mp4
+      uri: https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/Black_Chapter_480.mp4
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0001.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0002.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0003.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0004.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0005.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0006.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0007.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0008.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0009.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0010.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0011.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0012.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0013.png
+  - https://raw.githubusercontent.com/kemono-games/fgi/master/assets/Black_Chapter/screenshot0014.png
