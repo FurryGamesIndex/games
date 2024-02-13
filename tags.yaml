@@ -1337,6 +1337,12 @@ itchio:
     en: 'Published on itch.io'
     zh-cn: '游戏在 itch.io 上有发布'
 
+afdian:
+  namespaces: [ publish ]
+  explanation:
+    en: 'Published on AFDIAN'
+    zh-cn: '游戏在爱发电上有发布'
+
 patreon:
   namespaces: [ publish ]
   explanation:
