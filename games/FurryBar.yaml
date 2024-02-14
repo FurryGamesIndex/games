@@ -1,0 +1,91 @@
+﻿name: FurryBar
+
+brief-description: |
+  FurryBar is an AI based interactive chat game where you will face vivid and anthropomorphic orc characters and communicate with AI characters that are comparable to real humans.
+  
+description: |
+  *Vivid and adorable characters with their own preferences and careers. You can embark on a magnificent dating journey with your favorite characters, or embark on thrilling castle adventures. The story is full of unexpected ups and downs, and each encounter is a brand new experience.
+  *Dynamic stand up painting with diverse expressions, Furrybar adopts dynamic stand up painting, where characters change their expressions according to the story plot, making the story interaction more immersive and interesting.
+  *Each character will engage in fugue learning and deep memory while playing with the player, becoming more familiar with the player. They will also develop feelings based on their interactions with the player, breaking down the emotional connections of the fourth wall.
+  *Custom characters, official characters still haven't touched on personal preferences? Free customization function, create your own exclusive orc character, any race, personality, or background, combined with FurryBar's original AI syntax, to create the perfect match for the one you belong to.
+  
+description-format: markdown
+
+authors:
+  - name: FurryBar
+    role: [ publisher ]
+  - name: AoLiAoLiAo
+    role: [ localization ]
+  - name: FanQiuHu
+    role: [ localization ]
+  - name: YuZiJiang
+    role: [ localization ]
+  - name: XiangGua
+    role: [ localization ]
+  - name: ManXianSheng
+    role: [ localization ]
+  - name: ChiPing
+    role: [ localization ]
+
+tags:
+  type:
+    - dating-sim
+    - role-playing
+  species:
+    - wolf
+    - dog
+    - tiger
+    - dragon
+    - bear
+    - lion
+    - mixed
+    - cat
+    - crocodile
+    - panda
+    - fox
+    - leopard
+  fetish:
+    - muscle
+    - animal-on-furry
+  misc:
+    - freeware
+    - online
+  lang:
+    - zh
+    - en
+    - ja
+  publish:
+    - website
+  platform:
+    - windows
+    - macos
+    - android
+    - ios
+    - web
+links:
+  - name: .website
+    uri: https://www.furrybar.com
+  - name: .weibo
+    uri: https://m.weibo.cn/u/7856472567
+  - name: .bilibili
+    uri: https://space.bilibili.com/3537108245416346
+  - name: .discord
+    uri: discord:XVFAsmJV
+  - name: .qqqun
+    uri: http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Wc2qmEW8rOxmn-wfL1a3yxaWtKi2uHfy&authKey=OoTlQnceA5RSV%2BmY5IXUAYrHyEg4deUVuJnXKrnMv3uTTegEEXLRKGNpeW2ApVSP&noverify=0&group_code=481327746
+      
+thumbnail: thumbnail.png
+  
+screenshots:
+  - type: image:local
+    path: screenshot01.png
+  - type: image:local
+    path: screenshot02.png
+  - type: image:local
+    path: screenshot03.png
+  - type: image:local
+    path: screenshot04.png
+  - type: image:local
+    path: screenshot05.png
+  - type: image:local
+    path: screenshot06.png
