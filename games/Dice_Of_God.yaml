@@ -1,0 +1,59 @@
+﻿name: Dice Of God
+
+brief-description: |
+  Roll the dice, will the outcome be a blessing or a punishment?
+description: |
+  Dice of God a short, turn-based adventure game with dice-rolling.
+  
+  The fox warrior, bestowed with the Dice of God, is about to face unknown dangers. Let the battle begin with a roll of the dice.
+  
+  Features
+
+  - Engage in battle using dice, whether for attacking or defending. The number rolled on the dice will determine your attack or defense values.
+  - Choose a unique artifact as loot to gain a special upgrade.
+  - Craft your own dice. Cut out paper dice from cards filled with numbers based on specific shapes, turning them into your makeshift weapons.
+description-format: markdown
+
+authors:
+  - name: FPDG
+    role: [ producer ]
+  
+tags:
+  type:
+    - adventure
+    - puzzle
+  species:
+    - fox
+    - shark
+    - bear
+  misc:
+    - pixel-art
+  lang:
+    - zh
+    - en
+    - ja
+  publish:
+    - steam
+  platform:
+    - windows
+
+links:
+  - name: .steam
+    uri: https://store.steampowered.com/app/2725320
+      
+thumbnail: thumbnail.png
+
+screenshots:
+  - video:
+      - mime: video/webm
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/256993087/movie_max_vp9.webm
+  - type: image:local
+    path: screenshot1.png
+  - type: image:local
+    path: screenshot2.png
+  - type: image:local
+    path: screenshot3.png
+  - type: image:local
+    path: screenshot4.png
+  - type: image:local
+    path: screenshot5.png

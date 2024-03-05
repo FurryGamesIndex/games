@@ -1,0 +1,19 @@
+﻿name: FPDG
+
+aliases:
+  - Flappydog
+  - 飞丸
+  - Kui (兽圈以外)
+
+type:
+  - personal
+
+avatar: FPDG.png
+
+links:
+  - name: .weibo
+    uri: https://weibo.com/p/1005053792796635
+  - name: .twitter
+    uri: twitter:flappydoggy
+  - name: .pixiv
+    uri: pixiv:11187353
