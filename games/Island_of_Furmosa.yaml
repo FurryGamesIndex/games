@@ -1,0 +1,85 @@
+name: '伏魔獸國 幻想冒險譚'
+
+description: |
+  《伏魔獸國》是一款結合 R18 戀愛養成元素的 2.5D 橫向卷軸遊戲，玩家將在其中扮演失憶的石虎獸人──廖天碇，在伏魔獸國經歷一場又一場的考驗，和各具魅力的夥伴們發展戀情或友情，找回丟失的記憶並挖掘在自己身份背後的真相。
+
+authors:
+  - name: 阿品
+    role: [ producer, artist, animation, character-designer, scenographer ]
+    avatar: 阿品.jpg
+  - name: 奶酪
+    role: [ screenwriter ]
+    avatar: 奶酪.jpg
+  - name: 小強 DakaWolf
+    role: [ programmer ]
+    avatar: 小強.jpg
+  - name: 嵐飛
+    role: [ programmer ]
+    avatar: 嵐飛.jpg
+  - name: 5+
+    role: [ translator ]
+    avatar: 5+.jpg
+  - name: ㄉㄉ
+    role: [ others ]
+    avatar: ㄉㄉ.jpg
+  - name: 小卡
+    role: [ translator ]
+    avatar: 小卡.jpg
+  - name: 卓克薩里
+    role: [ translator ]
+    avatar: 卓克薩里.jpg
+  - name: 貓編
+    role: [ others ]
+    avatar: 貓編.jpg
+  - name: 星圖
+    role: [ others ]
+    avatar: 星圖.jpg
+
+tags:
+  type:
+    - visual-novel
+    - action
+    - bara
+    - yiff
+  species:
+    - cat
+    - tiger
+    - dragon
+  lang:
+    - en
+    - zh
+  publish:
+    - steam
+  platform:
+    - windows
+  misc:
+    - work-in-progress
+    - multiple-endings
+    - staging
+
+links:
+  - name: .demo-version
+    uri: https://drive.google.com/file/d/1TIAu2b-N6pAjebbxlqaIlJjAuG2fc-OB/view?usp=sharing
+  - name: .discord
+    uri: https://discord.gg/DEGN8Mn89M
+  - name: .patreon
+    uri: https://www.patreon.com/APin59/posts
+  - name: .twitter
+    uri: https://twitter.com/islandoffurmosa
+  - name: .facebook
+    uri: https://www.facebook.com/islandoffurmosa
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - youtube: TNqrKc-H6Ss
+  - type: image:local
+    path: 208307125568732.jpg
+  - type: image:local
+    path: 208315948901183.jpg
+  - type: image:local
+    path: asset_661370_image_big.jpg
+  - type: image:local
+    path: asset_661372_image_big.jpg
+  - type: image:local
+    path: asset_662454_image_big.jpg
