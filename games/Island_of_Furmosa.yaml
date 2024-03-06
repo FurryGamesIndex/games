@@ -1,39 +1,49 @@
-name: '伏魔獸國 幻想冒險譚'
+name: "伏魔獸國 幻想冒險譚"
 
 description: |
   《伏魔獸國》是一款結合 R18 戀愛養成元素的 2.5D 橫向卷軸遊戲，玩家將在其中扮演失憶的石虎獸人──廖天碇，在伏魔獸國經歷一場又一場的考驗，和各具魅力的夥伴們發展戀情或友情，找回丟失的記憶並挖掘在自己身份背後的真相。
 
 authors:
   - name: 阿品
-    role: [ producer, artist, animation, character-designer, scenographer ]
+    role: [producer, artist, animation, character-designer, scenographer]
     avatar: 阿品.jpg
+    type: personal
   - name: 奶酪
-    role: [ screenwriter ]
+    role: [screenwriter]
     avatar: 奶酪.jpg
+    type: personal
   - name: 小強 DakaWolf
-    role: [ programmer ]
+    role: [programmer]
     avatar: 小強.jpg
+    type: personal
   - name: 嵐飛
-    role: [ programmer ]
+    role: [programmer]
     avatar: 嵐飛.jpg
+    type: personal
   - name: 5+
-    role: [ translator ]
+    role: [translator]
     avatar: 5+.jpg
+    type: personal
   - name: ㄉㄉ
-    role: [ others ]
+    role: [others]
     avatar: ㄉㄉ.jpg
+    type: personal
   - name: 小卡
-    role: [ translator ]
+    role: [translator]
     avatar: 小卡.jpg
+    type: personal
   - name: 卓克薩里
-    role: [ translator ]
+    role: [translator]
     avatar: 卓克薩里.jpg
+    type: personal
   - name: 貓編
-    role: [ others ]
+    role: [others]
     avatar: 貓編.jpg
+    type: personal
   - name: 星圖
-    role: [ others ]
+    role: [others]
     avatar: 星圖.jpg
+    type: personal
 
 tags:
   type:
