@@ -1,15 +1,65 @@
 name: "Island of Furmosa"
 
 description: |
-  "Island of Furmosa" is a 2.5D side-scrolling game that combines R18 romantic development elements. Players will play as the amnesiac stone tiger beastman, Liao Tianding, and experience one challenge after another in the Island of Furmosa. They will develop romantic or friendly relationships with charming companions, retrieve lost memories, and uncover the truth behind their own identity.
+  Island of Furmosa is a 2.5D horizontal scrolling game combined with R18 romance elements. Players will take on the role of the amnesiac stone tiger orc - Liao Tian Anchor, experiencing a variety of trials and tribulations in Island of Furmosa, and in the adventure of life and death, meeting various charming partners, facing the demons in the process of developing romance or friendship, retrieving lost memories and digging out the truth behind them, and your choices will completely affect the ending of the development.
+
+  Your choices will affect the outcome of the game. [](https://i.imgur.com/fMviWnT.jpg)
+
+  Retaining the classic gameplay and exploration mechanism of horizontal scrolling games, with smooth action and quick striking sensation.
+
+  Create a visual interplay between reality and reality, using animation style and 3D rendering to outline the fantasy world of Vermillion Beasts!
+
+  ! [](https://i.imgur.com/u6gNGwS.jpg)
+
+  ! [](https://i.imgur.com/m8YlCAU.jpg)
+
+  ! [](https://i.imgur.com/IVYK4hF.jpg)
+
+  Replace your character at any time to destroy the attacking monsters!
+
+  ### The nimble little stone tiger, Sky Anchor, who is familiar with gun combos!
+
+  ! [](https://i.imgur.com/jCULZke.jpg)
+
+  ! [](https://i.imgur.com/WraW8fk.gif)
+
+  ### Jung Rui, the sword lion who can punch and shield monsters and compress space with ease!
+
+  ! [](https://i.imgur.com/Z2ay8v6.jpg)
+
+  ! [](https://i.imgur.com/rcGECxX.gif)
+
+  ### Makulu, the clouded leopard who flows through time at my command!
+
+  Makulu! [](https://i.imgur.com/OjhMaIk.jpg)
+
+  ! [](https://i.imgur.com/FA5rtKE.gif)
+
+  ### The beast awakens! The moment the bloodstain goes to zero, the will to survive causes the flesh to recover, at the cost of exploding clothes!
+
+  ! [](https://i.imgur.com/aSKq71u.jpg)
+
+  A love story that grows out of the adventure, with 100,000 words of plot and at least 5 endings!
+
+  Your choice will determine the direction of your partner: simple friendship, young love or carnal love!
+
+description-format: markdown
 
 authors:
   - name: 阿品
-    role: [producer, artist, animation, character-designer, scenographer]
+    role:
+      [
+        producer,
+        artist,
+        animation,
+        character-designer,
+        scenographer,
+        scriptwriter,
+      ]
     avatar: 阿品.jpg
     type: personal
   - name: 奶酪
-    role: [screenwriter]
+    role: [scriptwriter]
     avatar: 奶酪.jpg
     type: personal
   - name: 小強 DakaWolf
@@ -25,7 +75,7 @@ authors:
     avatar: 5+.jpg
     type: personal
   - name: ㄉㄉ
-    role: [others]
+    role: [scenographer]
     avatar: ㄉㄉ.jpg
     type: personal
   - name: 小卡
