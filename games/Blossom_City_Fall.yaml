@@ -1,17 +1,17 @@
 name: "Blossom City: Fall"
 
 description: |
-  Blossom City is a linear slice of life visual novel about Aiden Hensley and his experience living in Blossom City. 
+  Blossom City is a linear slice of life visual novel about Aiden Hensley and his experience living in Blossom City.
 
 authors:
   - name: HypoNova
-    role: [ producer ]
+    role: [producer]
   - name: Eymon
-    role: [ musician ]
+    role: [musician]
   - name: Devilizer
-    role: [ screenwriter ]
+    role: [screenwriter]
   - name: Akuro
-    role: [ programmer ]
+    role: [programmer]
 
 tags:
   type:
@@ -51,9 +51,7 @@ links:
   - name: .patreon
     uri: patreon:BlossomCityVN
   - name: .twitter
-    uri: twitter:HypoNova 
-  - name: .unofficial-patch-zh
-    uri: FGI-misc-page:Blossom_City_Fall-unofficial-l10n-zh-redir
+    uri: twitter:HypoNova
 
 thumbnail: thumbnail.jpg
 

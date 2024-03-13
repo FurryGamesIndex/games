@@ -5,34 +5,34 @@ brief-description: |
 
 description: |
   ![1](https://img.itch.zone/aW1nLzY2NjE3NjEucG5n/original/HQCXTS.png)
-  
+
   **Dawn Chorus** is a wholesome, non-linear romance furry visual novel set in the cold and snow-clad Norway. 
-  
+
   Moving to another country for studies is a huge step, but also a chance for a new beginning. Two months into the first semester, you are about to take part in a science camp in a remote guesthouse above the Arctic Circle. There, you will meet a wide cast of characters, each with their own story. Will you choose to rekindle old friendships, deepen the bond with your acquaintances, or meet someone new? Will you uncover what secrets your friends might be hiding? And will those friendships blossom into something more?
-  
+
   The game contains adult content and it meant to be played by adults only.
-  
+
   ---
-  
+
   The game is currently in development, with updates released monthly, near the end of the month, with each update first being available on Patreon and released publicly here a month later.
-  
+
   If you would like to support the development of Dawn Chorus and gain access to the new updates on release, together with other benefits like sneak peeks or concept arts, check out our Patreon [here](https://www.patreon.com/DawnChorusVN).
 
 description-format: markdown
 
 authors:
   - name: Keo
-    role: [ screenwriter, musician ]
+    role: [screenwriter, musician]
   - name: hq
-    role: [ artist, character-designer ]
+    role: [artist, character-designer]
   - name: Roborak
-    role: [ artist ]
+    role: [artist]
   - name: Bakemonoy
-    role: [ artist ]
+    role: [artist]
   - name: Tintiai
-    role: [ artist ]
+    role: [artist]
   - name: White Leonard
-    role: [ artist ]
+    role: [artist]
 
 tags:
   type:
@@ -63,19 +63,17 @@ tags:
     - macos
     - linux
     - android
-    
+
 links:
   - name: .itch.io
     uri: https://dawn-chorus.itch.io/dawn-chorus
   - name: .twitter
-    uri: twitter:DawnChorusVN 
+    uri: twitter:DawnChorusVN
   - name: Official Telegram channel
     icon: telegram
     uri: https://t.me/dawnchorusvn
   - name: .patreon
     uri: patreon:DawnChorusVN
-  - name: .unofficial-version-zh
-    uri: FGI-misc-page:Dawn_Chorus-unofficial-l10n-zh-redir
 
 thumbnail: thumbnail.jpg
 

@@ -9,42 +9,42 @@ description: |
 
 authors:
   - name: DarkWolfRanger
-    role: [ producer,screenwriter ]
+    role: [producer, screenwriter]
     standalone: true
     link-uri: https://twitter.com/DarkWolfRanger1
 
   - name: Lex1Art
-    role: [ artist ]
+    role: [artist]
     standalone: true
     link-uri: https://twitter.com/Lex1Art
 
   - name: lu_waro
-    role: [ artist ]    
+    role: [artist]
     standalone: true
     link-uri: https://twitter.com/lu_waro
 
   - name: Saruzilla
-    role: [ artist ]
+    role: [artist]
     standalone: true
     link-uri: https://twitter.com/Saruzilla
 
   - name: GarenTheFox
-    role: [ musician ]
+    role: [musician]
     standalone: true
     link-uri: https://twitter.com/GarenTheFox
 
   - name: gatortotsmusik
-    role: [ musician ]
+    role: [musician]
     standalone: true
     link-uri: https://twitter.com/gatortotsmusik
 
   - name: ParvosProphet
-    role: [ programmer ]
+    role: [programmer]
     standalone: true
     link-uri: https://twitter.com/ParvosProphet
 
   - name: BenceCan'tDraw
-    role: [ screenwriter ]
+    role: [screenwriter]
     standalone: true
     link-uri: https://twitter.com/BenceCantDraw
 
@@ -82,8 +82,6 @@ links:
     uri: twitter:eclpisecity_vn
   - name: .discord
     uri: https://discord.gg/8ZGMdFw7kf
-  - name: .unofficial-version-zh
-    uri: https://t.me/BestiaGroup/120
 
 thumbnail: thumbnail.png
 
