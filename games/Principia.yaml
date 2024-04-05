@@ -1,1 +1,45 @@
+name: PRINCIPIA - 第１章 -
 
+description: |
+  “ 越えられない壁...それがいたるところにそびえ立っているのだと思い知った瞬間だった。
+  そしてボクはあの頃から変わることができないでいる... “
+
+  - アルフレッド＝ホワイト 
+
+authors:
+  - name: Nymn / KSK.N
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - cat
+  fetish:
+    - loli
+  misc:
+    - engine-renpy
+    - died
+  lang:
+    - en
+    - ja
+  publish:
+    - website
+  platform:
+    - windows
+
+links:
+  - name: .website
+    uri: https://freegame-mugen.jp/adventure/game_8377.html
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://freegame-mugen.jp/images/item-20191205005701.png
+  - https://freegame-mugen.jp/images/2019/12/item-20191205005701_1-thumb-320xauto-51984.png
+  - https://freegame-mugen.jp/images/2019/12/item-20191205005702-thumb-320xauto-51985.png
+  - https://freegame-mugen.jp/images/2019/12/item-20191205005702_1-thumb-320xauto-51986.png
+  - https://freegame-mugen.jp/images/2019/12/item-20191205005702_2-thumb-320xauto-51987.png
+  - https://freegame-mugen.jp/images/2019/12/item-20191205005703-thumb-320xauto-51988.png
+  - https://freegame-mugen.jp/images/2019/12/item-20191205005703_1-thumb-320xauto-51989.png
+  - https://freegame-mugen.jp/images/2019/12/item-20191205005704-thumb-320xauto-51990.png
