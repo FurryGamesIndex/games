@@ -40,6 +40,7 @@ tags:
     - engine-rpg-maker
   lang:
     - ja
+    - zh-unofficial
   publish:
     - website
   platform:
@@ -48,6 +49,8 @@ tags:
 links:
   - name: .website
     uri: https://nestork.main.jp/arukemo/index.html
+  - name: .unofficial-version-zh
+    uri: https://www.bilibili.com/video/BV1rr421H7MH/
   - name: Freem!
     uri: https://www.freem.ne.jp/win/game/23440
   - name: Freegame-mugen
