@@ -58,10 +58,10 @@ tags:
     - cattle
     - sheep
   fetish:
+    - males-only
     - muscle
   misc:
     - engine-renpy
-    - work-in-process
     - multiple-endings
   lang:
     - en
@@ -69,16 +69,18 @@ tags:
   publish:
     - steam
     - itchio
+    - afdian
   platform:
     - windows
-  sys:
-    - staging
+    - macos
     
 links:
   - name: .steam
     uri: steam:1554470
   - name: .itch.io
     uri: https://kulplant.itch.io/dragon-island
+  - name: .afdian
+    uri: afdian:apoto5
   - name: .weibo
     uri: https://www.weibo.com/ROMANSCHRISTMAS
   - name: .weibo
