@@ -1,0 +1,87 @@
+name: A.W.A.R.E
+
+description: |
+  A.W.A.R.E (Aware Forces) is a furry visual novel developed by The Neurasthenia Studio, utilizing Unity 3D for its creation! The game is fully animated, film-style storytelling and supports both Chinese and English languages.
+  
+  ## Plot Summary
+  A young man, driven by necessity to take up a part-time job as a courier, finds himself tempted by the promise of a substantial reward to deliver a mysterious package that "cannot find its address." Unexpectedly, after glimpsing that the package's contents include a 'body', he's thrust into a conflict among various powers. Should he trust the strong, silent lone wolf who is the intended recipient of the package; align with the organization he has long admired; or heed the call of a mysterious criminal? The choice is his to make.
+  
+  ## Developer
+  ![Neurasthenia Studio](https://hackmd.io/_uploads/S1iLnSig0.gif)
+
+  ### The Neurasthenia Studio
+  A patchwork team of odds and ends, each member more neurasthenia than the last.
+
+description-format: markdown
+
+authors:
+  - name: Neurasthenia_Studio
+    role: [producer]
+
+tags:
+  type:
+    - visual-novel
+    - bara
+  species:
+    - dog
+    - canine
+    - tiger
+    - feline
+  misc:
+    - freeware
+    - work-in-process
+  publish:
+    - itchio
+  lang:
+    - zh
+    - en
+  platform:
+    - windows
+
+links:
+  - name: .itch.io
+    uri: https://neurasthenia-studio.itch.io/awareforces
+  - name: .twitter
+    uri: twitter:aware_forces
+  - name: .weibo
+    uri: https://weibo.com/7911980855
+  - name: .bilbili
+    uri: https://space.bilibili.com/3546588507015232/
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: screenshot.png
+    sensitive: false
+  - youtube: HkBq-wbMAoI
+  - type: video:local
+    src:
+      - mime: video/mp4
+        path: 01.mp4
+        size: 720
+  - type: video:local
+    src:
+      - mime: video/mp4
+        path: 02.mp4
+        size: 480
+  - type: video:local
+    src:
+      - mime: video/mp4
+        path: 03.mp4
+        size: 480
+  - type: video:local
+    src:
+      - mime: video/mp4
+        path: 04.mp4
+        size: 720
+  - type: video:local
+    src:
+      - mime: video/mp4
+        path: 05.mp4
+        size: 480
+  - type: video:local
+    src:
+      - mime: video/mp4
+        path: 06.mp4
+        size: 480
