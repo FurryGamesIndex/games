@@ -60,17 +60,17 @@ screenshots:
     src:
       - mime: video/mp4
         path: 01.mp4
-        size: 720
+        size: 1080
   - type: video:local
     src:
       - mime: video/mp4
         path: 02.mp4
-        size: 480
+        size: 1080
   - type: video:local
     src:
       - mime: video/mp4
         path: 03.mp4
-        size: 480
+        size: 1080
   - type: video:local
     src:
       - mime: video/mp4
@@ -80,9 +80,9 @@ screenshots:
     src:
       - mime: video/mp4
         path: 05.mp4
-        size: 480
+        size: 720
   - type: video:local
     src:
       - mime: video/mp4
         path: 06.mp4
-        size: 480
+        size: 720
