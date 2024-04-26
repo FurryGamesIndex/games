@@ -1,0 +1,50 @@
+name: 'Pokémon Mystery Dungeon: Explorers of Sky'
+
+brief-description: |
+  A Pokémon dungeon crawler/roguelike spinoff in which the player wakes up as Pokémon with amnesia. An enhanced version of Pokémon Mystery Dungeon: Explorers of Time and Explorer of Darkness.
+
+description: |
+  A Pokémon dungeon crawler/roguelike spinoff in which the player wakes up as human-turned-Pokémon with amnesia. It is an enhanced version of Pokémon Mystery  Dungeon: Explorers of Time and Explorer of Darkness. It is based off the [Mystery Dungeon](https://en.wikipedia.org/wiki/Mystery_Dungeon) series. The player engages in turn-based combat versus other hostile Pokémon while exploring Mystery Dungeons. They start off with a partner Pokémon that is chosen in the beginning of the game as their teammate, but they can add more members later, with a max of four Pokémon on a team.
+
+description-format: markdown
+
+authors:
+- name: Chunsoft
+  role: [ developer ]
+- name: 'The Pokémon Company'
+  role: [ developer, publisher ]
+- name: Nintendo
+  role: [ publisher ]
+
+tags:
+  type:
+    - role-playing
+    - roguelike
+  content:
+    - multiple-series
+    - outside-furry-fandom
+  experience:
+    - pixel-art
+  lang:
+    - en
+    - ja
+    - fr
+    - it
+    - es
+    - de
+  publish:
+    - e-shop
+  platform:
+    - nds
+
+links:
+  - name: .e-shop
+    uri: https://www.nintendo.com/en-gb/Games/Nintendo-DS/Pokemon-Mystery-Dungeon-Explorers-of-Sky-272409.html
+
+thumbnail: thumbnail.jpg
+
+screenshots:
+  - https://miro.medium.com/v2/resize:fit:1400/format:webp/1*jUFY9IhMFQDDLZJ_zZ1Org.jpeg
+  - https://archives.bulbagarden.net/media/upload/a/a2/Giratina_PMD3.png
+  - https://www.serebii.net/dungeonsky/croagunk.png
+
