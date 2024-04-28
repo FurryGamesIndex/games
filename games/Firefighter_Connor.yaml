@@ -50,6 +50,8 @@ authors:
     role: [localization]
   - name: IgorGao
     role: [localization]
+  - name: DrHuYan
+    role: [screenwriter]
 
 tags:
   type:
@@ -59,9 +61,10 @@ tags:
     - cat
     - dog
     - wolf
+    - fox
     - humankind
   misc:
-    - work-in-process
+    - release
     - engine-unity
   lang:
     - en
