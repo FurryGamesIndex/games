@@ -1,19 +1,17 @@
 name: RainyTower
 
 description: |
-  【作品概要】
-  クリック一つの単純操作。指先一つで宙を飛ぶ！
-  アクションゲームが苦手な方でも、プレイを重ねることで様々な性能を強化していくことができます。
-
-  【ストーリー】
-  未知の惑星へと墜落した宇宙探検隊の一行。
-  彼らは脱出の鍵となる資源を手に入れるため、
-  天を臨む樹の頂を目指すのだった......
-
-  【おまけ】
-  おまけ要素として謎解き要素を用意しております。
-  難易度は高めですが、解けた方にはささやかなお礼をさせていただく予定です。
-  詳細は作品中のイベントをご覧ください。 
+  [Summary of work]
+  Simple one-click operation. Fly through the air with a single fingertip!
+  Even if you are not good at action games, you can strengthen various performances through repeated play.
+  [Story]
+  A group of space explorers crash on an unknown planet.
+  They are to obtain the key resource for their escape,
+  They set their sights on the top of a tree overlooking the heavens in order to obtain the key resource to their escape. ......
+  [Extra]
+  A riddle-solving element is provided as an extra element.
+  The difficulty level is high, but we plan to offer a small reward to those who solve it.
+  For details, please see the event in the work. 
 
 authors:
   - name: 標準誤差StR
