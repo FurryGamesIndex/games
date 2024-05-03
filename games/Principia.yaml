@@ -57,7 +57,7 @@ links:
   - name: .website
     uri: https://web.archive.org/web/20201111224702/https://nymn-wales.itch.io/principia
   - name: .demo-version
-  - uri: https://freegame-mugen.jp/adventure/game_8377.html
+    uri: https://freegame-mugen.jp/adventure/game_8377.html
 
 thumbnail: thumbnail.jpg
 
