@@ -33,7 +33,6 @@ description: |
 authors:
   - name: Nymn / KSK.N
     role: [ producer ]
-    uri: deviantart:nymnwales
 
 tags:
   type:
@@ -61,6 +60,12 @@ links:
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjMuanBn/original/P6YpYn.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjIuanBn/original/fwkl5y.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjQuanBn/original/hKh3KZ.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjYuanBn/original/H2b8N%2B.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjguanBn/original/z1likn.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjcuanBn/original/e42i5v.jpg
   - https://freegame-mugen.jp/images/item-20191205005701.png
   - https://freegame-mugen.jp/images/item-20191205005701_1.png
   - https://freegame-mugen.jp/images/item-20191205005702.png
