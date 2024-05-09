@@ -1,0 +1,64 @@
+name: EW - Sunset Myth
+
+brief-description: |
+  In the year 21XX, the world is thoroughly dominated by gigantic corporations. Cyborgs and beast-transformed humans are no longer a rarity, and virtual spaces along with enhanced prosthetics are within easy reach. In cities overflowing with material desires, "middlemen" who connect various people have become signposts for those seeking answers. The story of these middlemen, who control information from all sides to profit from it, is about to change the future of this city known as East Wall.
+
+description: |
+  "EW - Sunset Myth" is a text adventure game where players manage a secret commission agency alongside the protagonist. Developed based on Renpy, its currently released "Demo Chapter" includes approximately 60,000 words of prequel content and an increasingly unlocked database as the story progresses.
+  
+  In East Wall city, a massive vertical metropolis in a cyberpunk world, players will take on the role of a temporary middleman dispatched to an intermediary agency. They will liaise with various forces to obtain commissions and strategically arrange manpower to complete them and thereby advance the story.
+  
+  In this city filled with robots, cyborgs, and beast-transformed humans, you will meet all sorts of extraordinary characters. Through multiple routes interwoven with different outcomes for each commission undertaken reveal dark secrets hidden within the city.
+  
+  In the demo chapter, you'll control Xincheng Xue, a mercenary character from main chapters forced into action by an unexpected visitor, to fulfill her unique request,and hand over this intermediary office to protagonist of main chapters.
+
+description-format: markdown
+
+authors:
+  - name: QiuZhiYinShuChuan
+    role: [producer, scriptwriter]
+  - name: linpicio
+    role: [programmer]
+  - name: ShanMing
+    role: [artist]
+  - name: DTrreuaem
+    role: [artist]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - dog
+    - dragon
+  fetish:
+    - muscle
+  misc:
+    - work-in-process
+  lang:
+    - zh
+  platform:
+    - windows
+    - macos
+    - linux
+  publish:
+    - itchio
+
+links:
+  - name: .baidupan
+    uri: https://pan.baidu.com/s/1zx3p1b4McYcg8eWRZFaxDw?pwd=swzj
+  - name: .itch.io
+    uri: https://autumn1729.itch.io/sunsetmyth-demo
+  - name: .weibo
+    uri: https://weibo.com/u/3026074635
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - type: image:local
+    path: screenshot-1.png
+  - type: image:local
+    path: screenshot-2.png
+  - type: image:local
+    path: screenshot-3.png
+  - type: image:local
+    path: screenshot-4.png
