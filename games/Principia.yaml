@@ -1,13 +1,34 @@
-name: PRINCIPIA - 第１章 -
+name: PRINCIPIA
 
 brief-description: |
-  越えられない壁...それがいたるところにそびえ立っているのだと思い知った瞬間だった...
+  Visual novel featuing Anthro, with strange-real touch
 
 description: |
-  “ 越えられない壁...それがいたるところにそびえ立っているのだと思い知った瞬間だった。
-  そしてボクはあの頃から変わることができないでいる... “
+  PRINCIPIA is a Visual novel game featuring anthro races called BeastChild.
 
-  - アルフレッド＝ホワイト 
+  Main characters:
+  Nicolas :  A low-paid kombinat worker. Often smokes  cigars.
+
+  Alfred :  An honored student of Nordburg University .
+
+  Hal:  A pious believer, and sister of the Church .
+
+  Thales:  A youth with intellectual disability, working at the same factory with Nicolas.
+
+  Feature:
+
+  Oddly as a novel with furry characters, the story begins with Nicolas smoking a cigar and complaining about his company. Then Hal notes on his behavior based on her religious belief.
+
+  The subject of this game is Nicolas's romantic feeling for Hal, and the gap between reality and the ideal world referred to as "The world of harmony" by Hal.
+
+  Staffs:
+
+  The development of PRINCIPIA is based on strong support from my friends, and reassuring help by the contributors. Please take a look at their original contents as well.
+
+  Creator / Developer - Nymn Wales
+  Proofwrite Contributor - Ziwz
+  Plot Adviser - Eucetonia
+  General Adviser - Fizzie,  Ave Capra
 
 authors:
   - name: Nymn / KSK.N
@@ -34,11 +55,19 @@ tags:
 
 links:
   - name: .website
+    uri: https://web.archive.org/web/20201111224702/https://nymn-wales.itch.io/principia
+  - name: .demo-version
     uri: https://freegame-mugen.jp/adventure/game_8377.html
 
 thumbnail: thumbnail.jpg
 
 screenshots:
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjMuanBn/original/P6YpYn.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjIuanBn/original/fwkl5y.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjQuanBn/original/hKh3KZ.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjYuanBn/original/H2b8N%2B.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjguanBn/original/z1likn.jpg
+  - https://img.itch.zone/aW1hZ2UvNjg4NjY5LzM3OTM0NjcuanBn/original/e42i5v.jpg
   - https://freegame-mugen.jp/images/item-20191205005701.png
   - https://freegame-mugen.jp/images/item-20191205005701_1.png
   - https://freegame-mugen.jp/images/item-20191205005702.png
