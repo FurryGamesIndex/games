@@ -1,0 +1,72 @@
+name: 东墙日落奇谭
+
+description: |
+  在《东墙日落奇谭》之中，你将与主角一同经营一家赛博朋克都市中的委托中介处：“日落密室”。
+
+  在这家开设于咖啡店之后的委托中介处里，您需要用前台的咖啡招待客人，获取信息；为烦恼的委托人解析任务、牵线合适的人手，来完成他们的委托，以此经营这家中介处。以此方式，您可以端坐在委托室之中，了解这个城市背后的秘密、在各方势力之间周旋、揭晓城市之中的阴谋——阻止他们，或者成为其中一员。
+
+  在那之前，在《试玩章节》中玩家将会与见习佣兵、兼咖啡店员的龙型青年“薛新成”一同，面对一位麻烦的不速之客，完成她的委托，揭晓正章故事中阴谋的前奏。
+
+  语言支持：简体中文
+
+  [薛新成](https://img.itch.zone/aW1nLzE1OTI0NjUxLnBuZw==/original/pN0NZT.png)
+
+  [恩图萨](https://img.itch.zone/aW1nLzE1OTI0NjU1LnBuZw==/original/RfJqKk.png)
+
+  [哈瑞](https://img.itch.zone/aW1nLzE1OTI0NjU3LnBuZw==/original/qnfXbu.png)
+
+  [“蕊德”](https://img.itch.zone/aW1nLzE1OTI0NjYzLnBuZw==/original/dxBQzw.png)
+
+  关于游戏的后续计划：
+
+  在试玩章节之后，我们将全速制作《东墙日落奇谭》的本章内容，并尝试展开众筹以及其他语种的本地化工作。
+
+  在正章之中，我们预计将会进一步丰富游玩内容，并添加更多的可玩系统：包括但不限于“佣兵扭蛋”，“情报系统”等等。同时，正章的文本量、登场角色预计将是《试玩章节》数倍，作为一个新人团队，请给予我们一段时间仔细地打磨，为您呈现一款更好的赛博朋克文字冒险游戏。
+
+  须知：
+
+  本游戏《试玩章节》完全免费；
+
+  本游戏不包含恋爱要素；
+
+  本游戏仅提供PC端游玩；
+
+  本游戏《试玩章节》作为独立于正章的“前传故事”，《试玩章节》的主角“薛新成”将在正式章节作为佣兵登场； 
+
+description-format: markdown
+
+authors:
+  - name: autumn1729
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - dragon
+    - dog
+    - humankind
+  misc:
+    - work-in-process
+  lang:
+    - zh
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+  sys:
+    - tagme
+
+links:
+  - name: .itch.io
+    uri: https://autumn1729.itch.io/sunsetmyth-demo
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjY1MjA2Ni8xNTg5NTYxMC5wbmc=/original/DkJfk9.png
+  - https://img.itch.zone/aW1hZ2UvMjY1MjA2Ni8xNTg5NTYwOC5wbmc=/original/rVnSba.png
+  - https://img.itch.zone/aW1hZ2UvMjY1MjA2Ni8xNTg5NTYwNy5wbmc=/original/TZgQ%2FQ.png
+  - https://img.itch.zone/aW1hZ2UvMjY1MjA2Ni8xNTg5NTYwOS5wbmc=/original/ADw4tY.png
