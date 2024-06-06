@@ -1,0 +1,115 @@
+name: Nine Sols
+
+brief-description: |
+  Nine Sols is a lore rich, hand-drawn 2D action-platformer featuring Sekiro-inspired deflection focused combat. Embark on a journey of eastern fantasy, explore the land once home to an ancient alien race, and follow a vengeful hero’s quest to slay the 9 Sols, formidable rulers of this forsaken realm.
+
+description: |
+  Nine Sols is a lore rich, hand-drawn 2D action-platformer featuring Sekiro-inspired deflection focused combat. Embark on a journey of Asian fantasy, explore the land once home to an ancient alien race, and follow a vengeful hero’s quest to slay the 9 Sols, formidable rulers of this forsaken realm.
+
+  ## Story
+
+
+  In New Kunlun, hero Yi has awakened the 9 rulers of this forsaken realm. To defeat the 9 Sols in the deserted city.  
+
+  “Becomes one with the way of Tao…”  
+
+  New Kunlun, the Solarian’s last sanctuary, has remained quiet for centuries. Inside this vast realm, the ancient gods left mortals with a promised land that is forever protected by the sacred rituals, yet the truth of this world remains unknown to most. Everything changes when Yi, a long forgotten hero from the past, is awoken by a human child.  
+
+  Follow Yi on his vengeful quest against the 9 Sols, formidable rulers of this forsaken realm, and obliterate any obstacles blocking your way in Sekiro-lite style combat. Explore in unique “Taopunk” setting that blends cyberpunk elements with Taoism and far eastern mythology. Unravel the mysteries of an ancient alien race and learn about the fate of mankind.  
+
+  ![img](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/extras/story.png)
+
+  ## Features
+
+
+  **2D Sekiro-lite Combat:** Slash, deflect, charge into enemies and blow them up with the Taoist talisman! Each fight combines fast, brutal action sequences with classic platforming mechanics.  
+
+  ![img](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/extras/deflection.gif)  
+
+  ![img](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/extras/chargingattack.gif)  
+
+  **Intriguing Boss Fight:** Ready yourself to fight the vicious ancient guardians and gruesome creatures. Be patient and utilize every move in your arsenal, mix up with Yi’s godly bow to defeat these larger than life figures.  
+
+  ![img](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/extras/enemies_boss.png)  
+
+  **Taopunk Setting:** When cyberpunk clashes with Taoism, melding sci-fi elements with eastern mythology/fantasy, the experimental genre of Taopunk was born.  
+
+  **Exploration:** Traverse in the interconnected regions of New Kunlun. Discover secrets, piece together the story behind Yi’s revenge.  
+
+  ![img](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/extras/newkunlunmap.png)  
+
+  **Aids from inhabitants:** Meet interesting NPCs of this world and interact with them to receive upgrades, gain new abilities, and discover useful technology.  
+
+  **Hand-drawn Environments/Animations and Manga:** Nine Sols is filled with meticulous hand-crafted, anime style landscapes, sprite based hand-drawn animations, blending with Japanese manga inspired cutscenes.  
+
+  ![img](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/extras/hand-crafted-art.gif)
+
+  ## Red Candle Games
+
+
+  From the creators of award-winning psychological horror games Detention and Devotion, comes Red Candle Game’s latest title Nine Sols. The studio aims to deliver a stylized action platformer that’s cohesive and complementary to its lore-rich narrative. It’s an ongoing, most ambitious project from this indie studio.
+
+
+description-format: markdown
+
+authors:
+  - name: RedCandleGames
+    role: [ producer ]
+  - name: RedCandleGames
+    role: [ publisher ]
+
+tags:
+  type:
+    - action
+    - adventure
+    - fantasy
+    - gore
+    - puzzle
+  species:
+    - cat
+    - mixed
+    - non-anthro
+  lang:
+    - zh
+    - ja
+    - ko
+    - en
+  platform:
+    - windows
+    - macos
+  publish:
+    - steam
+  misc:
+    - multiple-endings
+    - engine-unity
+    - not-only-furry-topic
+
+links:
+  - name: .steam
+    uri: steam:1809540
+  - name: .website
+    uri: https://redcandlegames.com/
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_514e766f27fcfccf375c85a842099d53e9542258.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_a48f85ae073148d13332b1a7741a764a046f83be.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_75017574e6cac5233b32492509fe47825dc530bf.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_bf5096e3682d7d2fb1d3fa7cccb5398fb934144a.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_4be552cc9f6b03f0918e55b17145d3f5cbd36065.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_628bc8052f48cd68ae42e4b54c3a9af97f560c06.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_82027cbc20c7c1ba76898fa07e2c9657870b8b13.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_571ce7dd4593bd89c85eecbe5a86b10ebab19a51.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_051fd4e92774329574f24d095afa8c897baa63fd.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_8558e713bd95e0d4c92c762ced8d25fa10ac5ea9.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_7424ada762e3ca382aec85e6c0c44e1fcddc623b.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_f745405ca0842d6ad02a37c841dc005326fcbada.1920x1080.jpg
+  - https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1809540/ss_8a3f088d3403dc460d4a35669df71839426bb018.1920x1080.jpg
+  - video:
+      - mime: video/webm
+        sensitive: true
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/257026674/movie_max_vp9.webm
+      - mime: video/mp4
+        sensitive: true
+        uri: https://cdn.akamai.steamstatic.com/steam/apps/257026674/movie_max.mp4
