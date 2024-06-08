@@ -54,9 +54,7 @@ description-format: markdown
 
 authors:
   - name: RedCandleGames
-    role: [ producer ]
-  - name: RedCandleGames
-    role: [ publisher ]
+    role: [ producer, publisher ]
 
 tags:
   type:
