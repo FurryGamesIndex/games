@@ -1,0 +1,54 @@
+name: Ash Boat
+
+description: |
+  ALL THE ORIGINAL GAME FILES (GRAPHICS, AUDIOS, TEXT) WILL BE FREELY AVAILABLE UNDER CC BY-SA-NC LICENSE WHEN THIS GAME IS RELEASED. PLEASE CHECK OUT THE ABOUT PAGE IN GAME TO FIND OUT MORE.
+
+  In Ash Boat, you will spectate on the journey a twin from Erkajɤŋ, and uncover the secrets beneath your spectating point of view.
+
+  Some understanding on contemporary literature may be required to read certain sections. Skipping is also plausible and would barely interfere with reading. Note that some sections are of limited legibility and can barely be translated.
+
+  The game text is relatively short, so we'll have to ask you to slow down, for if you do not, the estimated game time could be less than ten minutes per chapter. We will try our best to make this game a worthy one for you to slow down.
+
+  If you read at a normal speed, the time it takes to finish a chapter in a line is roughly half an hour.
+
+  This game is founded by the director only and accepts no donations. This game is permanently free, so please report below if you paid for a download. It is permitted to distribute the game, but according to our CC license no commercial revenues can be collected.
+
+authors:
+  - name: 克勒卡尔
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - wolf
+  misc:
+    - engine-renpy
+    - work-in-process
+  lang:
+    - zh
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+  sys:
+    - tagme
+
+links:
+  - name: .itch.io
+    uri: https://klke.itch.io/boat
+  - name: .website
+    uri: https://klke.itch.io/ash
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMTYxMjQ0My8xMjI5NzI1OS5wbmc=/original/FHVzhQ.png
+  - https://img.itch.zone/aW1hZ2UvMTYxMjQ0My8xMjI5NzI1OC5wbmc=/original/ZZ9Xwe.png
+  - https://img.itch.zone/aW1hZ2UvMTYxMjQ0My8xMjI5NzI3Mi5wbmc=/original/Lna4Fw.png
+  - https://img.itch.zone/aW1hZ2UvMTYxMjQ0My8xMjI5NzMzNi5wbmc=/original/2W9GMm.png
+  - https://img.itch.zone/aW1hZ2UvMTYxMjQ0My8xMjI5NzMzNy5wbmc=/original/hBIGzw.png

@@ -1,0 +1,87 @@
+name: 獣の神さま
+
+description: |
+  Beasts of the Five Elements RPG
+  Four beasts are invited to an island.
+  Their mission is to defeat the five demons that avenge the living.
+  The four beasts have the power to do so. Because.
+  Blue Dragon, Suzaku, White Tiger and Genbu.
+  They were the descendants of the five gods who govern the five elements.
+  This is an RPG in which the beasts descended from the five gods are the main characters.
+  The play time is around 4-8 hours and there are two endings.
+  Video submissions and live broadcasts: please feel free to do so!
+
+  7/7 Ver. 1.03 was released.
+  The escape probability has been adjusted.
+  The map, dialogue, etc. have been slightly modified.
+  If you have save data from previous versions, you can transfer to Ver. 1.03.
+  Please transfer all the following files in the folder of the previous version to the Ver. 1.03 folder:
+  Save1-10.rxdata
+  Save1-10_sub.rxdata
+  Master.rxdata
+
+  3/3 Ver. 1.02 was released.
+  The five-element diagram is now displayed during combat after advancing a little further in the adventure.
+  Adventure records can now be viewed.
+
+  2/5 Ver. 1.01 released.
+  Adjustments have been made to the techniques, encounters and movement.
+  The ‘Inheritance’ command has been added to the title from the second week onwards.
+  -Levels and opened treasure chests can be inherited.
+  -Encounter-preventing ornaments will be in your possession from the beginning. 
+
+  *This game requires RPG Maker XP RTP (Runtime Package).
+
+authors:
+  - name: Hitsuji Umino
+    link-uri: pixiv:46755009
+    role: [ producer, programmer ]
+  - name: Isora Ya
+    link-uri: twitter:nestork_i
+    role: [ programmer ]
+
+tags:
+  type:
+    - role-playing
+  species:
+    - lung
+    - bird
+    - tiger
+    - turtle
+    - snake
+    - mixed
+    - non-anthro
+    - humankind
+  misc:
+    - freeware
+    - engine-rpg-maker
+  lang:
+    - ja
+  publish:
+    - website
+  platform:
+    - windows
+
+links:
+  - name: .website
+    uri: https://nestork.main.jp/kemokami/index.html
+  - name: Freem!
+    uri: https://www.freem.ne.jp/win/game/4475
+  - name: Vector
+    uri: https://www.vector.co.jp/soft/winnt/game/se500785.html
+  - name: Developer Homepage
+    uri: https://nestork.main.jp/side-u.html
+  - name: Developer's blog
+    uri: http://shirohitsuji365.blog.fc2.com/
+  - name: Developers' Contact
+    uri: https://ssl.form-mailer.jp/fms/8eec4a0b218003
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://nestork.main.jp/kemokami/images/ss1.png
+  - https://nestork.main.jp/kemokami/images/ss2.png
+  - https://nestork.main.jp/kemokami/images/ss3.png
+  - https://nestork.main.jp/kemokami/images/ss4.png
+  - https://nestork.main.jp/kemokami/images/ss5.png
+  - https://nestork.main.jp/kemokami/images/ss6.png
