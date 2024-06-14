@@ -22,6 +22,7 @@ tags:
     - engine-rpg-maker
   lang:
     - zh
+    - en-unofficial
   platform:
     - windows
 
@@ -30,6 +31,8 @@ links:
     uri: https://tieba.baidu.com/p/5548778877
   - name: .weibo
     uri: https://weibo.com/u/6357108215
+  - name: .unofficial-version-en
+    uri: https://waterg.itch.io/furry-ritualvampire-nightenglish-ai-automatic-translation
 
 thumbnail: thumbnail.jpg
 
