@@ -1,0 +1,62 @@
+name: 'Before You Depart'
+
+description: |
+  Canines are often companions for life. Some can even be companions in death...
+
+  This is a SFW visual novel, but player discretion is advised. Our story deals with heavy topics such as:
+
+  Terminal Illness
+  Mental Health
+  Death & Grief
+
+  This project was made for the May Wolf Visual Novel Game Jam. Please go check out the submission made by the other developers!
+
+  This visual novel is a 100% complete experience. Any updates made in the future will be for bug fixes, quality-of-life improvements, or implementing features we didn't have time to create.
+
+  Love our story? Check out the Before You Depart, Asset Pack! You can download high quality images and our original soundtrack.
+
+authors:
+  - name: Team Lycoris
+    role: [ producer ]
+  - name: Camazule
+    role: [ producer ]
+  - name: Bowser Puma
+    role: [ producer ]
+  - name: Arcadia Adair
+    role: [ producer ]
+  - name: CetusOtter
+    role: [ producer ]
+  - name: Rackoon
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+  species:
+    - dog
+    - humankind
+  fetish:
+    - males-only
+  misc:
+    - freeware
+    - engine-renpy
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+    - android
+
+links:
+  - name: .itch.io
+    uri: https://teamlycoris.itch.io/before-you-depart
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjA5MjIzMS8xMjMzNDc0MS5wbmc=/original/sspOt2.png
+  - https://img.itch.zone/aW1hZ2UvMjA5MjIzMS8xMjMzNDcyMy5wbmc=/original/O3Jm2X.png
+  - https://img.itch.zone/aW1hZ2UvMjA5MjIzMS8xMjMzNDcyMi5wbmc=/original/zf7HXk.png
