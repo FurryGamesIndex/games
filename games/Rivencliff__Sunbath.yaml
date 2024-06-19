@@ -4,18 +4,6 @@ brief-description: |
   A short gay, furry visual novel about Buru, the Bull getting to know better Lunjy, the Lizard in the forest! Available for Windows, macOS, Linux
 
 description: |
-  **_Disclaimer:_** _**Rivencliff contains themes of an adult nature - you must be 18 or older to play!  
-
-  **_ ** _I_** _ **f you would like to support the creation of more projects, please consider donating here on itch.io or following me on social media! You can find me on these pages:**_ _ ****_ _ ****_ _ ****_ _ ****_ _ ****_
-
-  _**
-
-  Twitter - [@BuruTheBull](https://twitter.com/BuruTheBull)   
-  FurAffinity - [BuruTheBull ](https://www.furaffinity.net/user/buruthebull)  
-  **_****_  
-  __  
-  _
-
   Rivencliff is gay furry romance visual novel. The story is about Buru, a compassionate bull with healing powers, who has found his place in the peaceful village nestled within a lush valley. 
 
   The village, a melting pot of cultures and customs, is where he honed his abilities and forged his deep connections with the community. However, the end of his relationship with Taro, his first boyfriend, has left Buru heartbroken and questioning the true nature of love.   
@@ -24,75 +12,34 @@ description: |
 
   The game offers multiple dialogue choices from time to time and is estimated to take 15-20 minutes to complete.  
 
-  ### Controls
-
-  **Enter** \- Advances dialogue and activates the interface
-
-  **Space** \- Advances dialogue without selecting choices.
-
-  **Numbers 1-9** \- Makes a selection when a dialogue choice appears. **(Numpad is unfortunately not supported)  
-  **
-
-  **Arrow Keys -** Navigate the Interface **  
-  **
-
-  **Escape -** Accesses the game menu. **  
-  **
-
-  **Ctrl** \- Skips dialogue while held down.
-
-  **Tab** \- Toggles dialogue skipping.
-
-  **Page Up / Mousewheel Up** \- Rolls back to earlier dialogue.
-
-  **Page Down / Mousewheel Down** \- Rolls forward to later dialogue.
-
-  **S** \- Takes a screenshot.
-
-  **V** \- Toggles assistive [self-voicing](https://www.renpy.org/doc/html/self_voicing.html).
-
-  **Shift + A** \- Opens the accessibility menu.  
-
-  ### Credits **  
-  **
-
-  **Amethyst** **Mare -** _Lead Writer_  
-  **Maxwell** **Shiba** \- _3D Character Modeller, 3D Character Rigging Artist  
-  _
-
-  **Elise** **Gordon** \- _3D Character Modeller  
-  _
-
-  **Amalia** **Martinez** \- _3D Character Rigging Artist_ **  
-  **
-
-  **Téo Frantz** \- _3D Character Rigging Artist_ **  
-  **
-
-  **Francisco** **José** **Navarro** \- _2D Concept Artist_   
-
-  **Laura** **Sharp** \- _Associate Producer  
-  _
-
-  **Blayne Norrick** _ **** \- Music_   
-  **Buru, The Bull** \- _Creative Director, Engineer, Level Design, Shading, Character Posing  
-  _
-
-  _  
-  _
-
-  **This game has been created by real people only. No AI was used to create Rivencliff.**
-
 
 description-format: markdown
 
 authors:
-  - name: Buru
+  - name: BuruTheBull
     role:
       - producer
-  - name: The Bull
+  - name: Amethyst Mare
+    role:
+      - artist
+  - name: Maxwell Shiba
+    role:
+      - artist
+  - name: Elise Gordon
+    role:
+      - artist
+  - name: Amalia Martinez
+    role:
+      - artist
+  - name: Teo Frantz
+    role:
+      - artist
+  - name: Laura Sharp
     role:
       - producer
+  - name: Blayne Norrick
+    role:
+      - artist
 
 tags:
   type:
