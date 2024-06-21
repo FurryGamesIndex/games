@@ -17,29 +17,7 @@ description-format: markdown
 
 authors:
   - name: BuruTheBull
-    role:
-      - producer
-  - name: Amethyst Mare
-    role:
-      - artist
-  - name: Maxwell Shiba
-    role:
-      - artist
-  - name: Elise Gordon
-    role:
-      - artist
-  - name: Amalia Martinez
-    role:
-      - artist
-  - name: Teo Frantz
-    role:
-      - artist
-  - name: Laura Sharp
-    role:
-      - producer
-  - name: Blayne Norrick
-    role:
-      - artist
+    role: [ producer ]
 
 tags:
   type:
