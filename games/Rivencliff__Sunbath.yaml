@@ -18,7 +18,21 @@ description-format: markdown
 authors:
   - name: BuruTheBull
     role: [ producer ]
-
+  - name: Amethyst Mare
+    role: [ artist ]
+  - name: Maxwell Shiba
+    role: [ artist ]
+  - name: Elise Gordon
+    role: [ artist ]
+  - name: Amalia Martinez
+    role: [ artist ]
+  - name: Teo Frantz
+    role: [ artist ]
+  - name: Laura Sharp
+    role: [ producer ]
+  - name: Blayne Norrick
+    role: [ artist ]
+    
 tags:
   type:
     - visual-novel
@@ -36,13 +50,13 @@ tags:
 
 links:
   - name: .twitter
-    uri: twitter:BuruTheBull
+    uri: [ twitter:BuruTheBull ]
   - name: .website
-    uri: https://www.renpy.org/doc/html/self_voicing.html
+    uri: [ https://www.renpy.org/doc/html/self_voicing.html ]
   - name: .website
-    uri: https://www.furaffinity.net/user/buruthebull
+    uri: [ https://www.furaffinity.net/user/buruthebull ]
   - name: .itchio
-    uri: https://buruthebull.itch.io/rivencliff-sunbath
+    uri: [ https://buruthebull.itch.io/rivencliff-sunbath ]
 
 thumbnail: thumbnail.png
 
