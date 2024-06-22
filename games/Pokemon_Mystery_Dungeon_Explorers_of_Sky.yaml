@@ -20,10 +20,9 @@ tags:
   type:
     - role-playing
     - roguelike
-  content:
+  misc:
     - multiple-series
     - outside-furry-fandom
-  experience:
     - pixel-art
   lang:
     - en
@@ -36,6 +35,9 @@ tags:
     - e-shop
   platform:
     - nds
+  sys:
+    - tagme
+    
 
 links:
   - name: .e-shop
@@ -47,4 +49,3 @@ screenshots:
   - https://i.imgur.com/Re1azeR.png
   - https://archives.bulbagarden.net/media/upload/a/a2/Giratina_PMD3.png
   - https://www.serebii.net/dungeonsky/croagunk.png
-
