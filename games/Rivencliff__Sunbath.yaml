@@ -1,0 +1,68 @@
+name: 'Rivencliff: Sunbath'
+
+brief-description: |
+  A short gay, furry visual novel about Buru, the Bull getting to know better Lunjy, the Lizard in the forest! Available for Windows, macOS, Linux
+
+description: |
+  Rivencliff is gay furry romance visual novel. The story is about Buru, a compassionate bull with healing powers, who has found his place in the peaceful village nestled within a lush valley. 
+
+  The village, a melting pot of cultures and customs, is where he honed his abilities and forged his deep connections with the community. However, the end of his relationship with Taro, his first boyfriend, has left Buru heartbroken and questioning the true nature of love.   
+
+  In this short story "Sunbath", Buru meets Lunjy, one of the barkeepers of the tavern, after he invited Buru to meet him at a secret spot he has in the forest, where Buru and Lunjy get to know each other better and explore all "secret spots" Lunjy has to offer.
+
+  The game offers multiple dialogue choices from time to time and is estimated to take 15-20 minutes to complete.  
+
+
+description-format: markdown
+
+authors:
+  - name: BuruTheBull
+    role: [ producer ]
+  - name: Amethyst Mare
+    role: [ artist ]
+  - name: Maxwell Shiba
+    role: [ artist ]
+  - name: Elise Gordon
+    role: [ artist ]
+  - name: Amalia Martinez
+    role: [ artist ]
+  - name: Teo Frantz
+    role: [ artist ]
+  - name: Laura Sharp
+    role: [ producer ]
+  - name: Blayne Norrick
+    role: [ artist ]
+    
+tags:
+  type:
+    - visual-novel
+  lang:
+    - en
+  platform:
+    - windows
+    - macos
+    - linux
+  publish:
+    - .itchio
+  misc:
+    - engine-renpy
+    - 3d
+
+links:
+  - name: .twitter
+    uri: [ twitter:BuruTheBull ]
+  - name: .website
+    uri: [ https://www.renpy.org/doc/html/self_voicing.html ]
+  - name: .website
+    uri: [ https://www.furaffinity.net/user/buruthebull ]
+  - name: .itchio
+    uri: [ https://buruthebull.itch.io/rivencliff-sunbath ]
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMjc3MTUyNi8xNjU1NTA0MS5qcGc=/original/gj8Fd%2B.jpg
+  - https://img.itch.zone/aW1hZ2UvMjc3MTUyNi8xNjU1NTA0Mi5qcGc=/original/0exc%2B%2B.jpg
+  - https://img.itch.zone/aW1hZ2UvMjc3MTUyNi8xNjU1NTA3Ny5qcGc=/original/lQGw6O.jpg
+  - https://img.itch.zone/aW1hZ2UvMjc3MTUyNi8xNjU1NTE4OC5qcGc=/original/dVlIiH.jpg
+  - https://img.itch.zone/aW1hZ2UvMjc3MTUyNi8xNjU1NTA1MS5qcGc=/original/LVuZO9.jpg
