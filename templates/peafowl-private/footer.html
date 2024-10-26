@@ -15,7 +15,7 @@
 		<a href="https://github.com/FurryGamesIndex/games" title="{{ ui.index_link_github }}">
 			{{ ifac.site_icon("github") }}
 		</a>
-		<a href="mailto:list@furrygames.top" title="list@furrygames.top">
+		<a id="email-link" href="javascript:void(0)" title="Contact us">
 			{{ ifac.misc_icon("email") }}
 		</a>
 		<a href="https://t.me/FurryGamesIndex" title="{{ ui.index_link_tg }}">
@@ -30,3 +30,9 @@
 </section>
 </footer>
 <script src="{{ res(rr, [ 'scripts', 'base.js' ]) }}"></script>
+<script>
+  const user = "list";
+  const domain = "furrygames.top";
+  document.getElementById("email-link").href = `mailto:${user}@${domain}`;
+  document.getElementById("email-link").title = `${user}@${domain}`;
+</script>
