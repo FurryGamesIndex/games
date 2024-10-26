@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
         submodules: true
@@ -38,7 +38,7 @@ jobs:
         mkdir -p .cache
 
     - name: cache
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           .cache
@@ -73,14 +73,14 @@ jobs:
         cp .cache/btime.json output/_internal/btime.json
 
     - name: ssh-key
-      uses: shimataro/ssh-key-action@v2
+      uses: shimataro/ssh-key-action@v4
       with:
          key: ${{ secrets.SSH_PRIVATE_KEY_RSA }}
          name: id_rsa
          known_hosts: ${{ secrets.KNOWN_HOSTS }}
 
     - name: deploy
-      run: | 
+      run: |
         mv .git _git
         echo -e "Host github.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
         git config --global user.email "noreply@example.com"
@@ -109,7 +109,7 @@ jobs:
 #           output-cn
 #
 #   - name: cn-deploy
-#     run: | 
+#     run: |
 #       mv .git _git
 #       echo -e "Host gitlab.com\n\tStrictHostKeyChecking no\n" > ~/.ssh/config
 #       git config --global user.email "noreply@example.com"
