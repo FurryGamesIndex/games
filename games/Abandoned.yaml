@@ -50,7 +50,7 @@ tags:
   platform:
     - windows
   publish:
-    - .website
+    - website
   misc:
     - pixel-art
     - freeware
