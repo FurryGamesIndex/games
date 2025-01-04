@@ -73,7 +73,7 @@ jobs:
         cp .cache/btime.json output/_internal/btime.json
 
     - name: ssh-key
-      uses: shimataro/ssh-key-action@v2
+      uses: shimataro/ssh-key-action@v4
       with:
          key: ${{ secrets.SSH_PRIVATE_KEY_RSA }}
          name: id_rsa

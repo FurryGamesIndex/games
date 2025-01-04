@@ -1,0 +1,71 @@
+name: Abandoned / 废物：当祂回到乐园
+
+brief-description: |
+  破碎乐园的忒修斯之船。
+
+description: |
+  只需要鼠标的脱线解谜。
+  你是由废物组成的谜之生物，要拯救这个由废物组成的乐园。
+  Change your body,not your soul.
+
+  游戏类型：点触解谜
+  操作方式：鼠标点击、拖动
+  开发团队：超级野菜
+
+  《废物：当祂回到乐园》是一款以鼠标点击为主的点触解谜小游戏~讲述了一个无厘头的小童话，主角要把自己身上的废物部件变废为宝，最终拯救乐园。解谜也更接近于脑筋急转弯，非常的脱线和有趣！
+  大家可以在评论区讨论留下游玩感想！
+
+  下载链接：https://share.feijipan.com/s/5hCMmxLs?code=FEI5
+  [如下载后运行游戏出现系统提示，请点击运行]
+
+
+description-format: markdown
+
+authors:
+  - name: Robbyrommy
+    role: [ producer , screenwriter ]
+  - name: 猫猫头术士
+    role: [ screenwriter ]
+  - name: Carbontea
+    role: [ producer ]
+  - name: 拌拌饭
+    role: [ animation ]
+  - name: 火鸡头
+    role: [ artist ]
+  - name: 提尔纳诺
+    role: [ artist ]
+  - name: 扶薪捏
+    role: [ artist ]
+  - name: 劉捌樂
+    role: [ artist ]
+  - name: 超级野菜
+    role: [ producer ]
+
+tags:
+  type:
+    - puzzle
+    - fantasy
+  lang:
+    - zh
+  platform:
+    - windows
+  publish:
+    - website
+  misc:
+    - pixel-art
+    - freeware
+  species:
+    - mixed
+
+links:
+  - name: .demo-version
+    uri: https://share.feijipan.com/s/61CFywZk?code=FEI5
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://image.gcores.com/7c1219dcb019b604b2a8b7e197edc13e-1896-1066.jpg
+  - https://image.gcores.com/f2d09973728897cda71d5edb7db3989d-1896-1066.jpg
+  - https://image.gcores.com/49731288a36994720bb0dcf7875b63ad-1896-1066.jpg
+  - https://image.gcores.com/b5a2f392adca9d4ec1b9922f03dc3c56-1896-1066.jpg
+  - https://image.gcores.com/88c98d843cae930144bfa187595ab74e-1896-1066.jpg
