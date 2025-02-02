@@ -48,7 +48,7 @@ jobs:
         zip -r output-webp.zip FGI-nightly-webp
 
     - name: upload-release-webp
-      uses: svenstaro/upload-release-action@v1-release
+      uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: output-webp.zip
@@ -57,7 +57,7 @@ jobs:
         overwrite: true
 
     - name: upload-release
-      uses: svenstaro/upload-release-action@v1-release
+      uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: output.zip
