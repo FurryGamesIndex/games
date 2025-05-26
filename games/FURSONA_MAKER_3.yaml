@@ -1,0 +1,67 @@
+name: FURSONA MAKER 3
+
+brief-description: |
+  "Aren't fursonas great?! Why don't you create your own in FURSONA MAKER 3?! 				
+
+description: |
+  "Aren't fursonas great?! Why don't you create your own in FURSONA MAKER 3?!
+
+  -Variety of colors
+
+  -4 different tails
+
+  -Story mode!
+
+  Delve into this fantastic world!"
+
+  Sonuna ulaşanlar gerçeği bilecekler. 
+
+# description-format: plain | markdown
+
+authors:
+  - name: mDOS79
+    standalone: true
+    avatar: mDOS79.jpg
+    link-uri: https://itch.io/profile/mdos79
+    role: [ producer ]
+
+tags:
+  type:
+    - visual-novel
+    - horror
+    - gore
+  species:
+    - mixed
+    - humankind
+    - non-anthro
+  fetish:
+    - transform
+    - corruption
+    - guro
+    - body-modification
+  misc:
+    - freeware
+    - engine-renpy
+    - multiple-endings
+    - not-only-furry-topic
+  lang:
+    - en
+  publish:
+    - itchio
+  platform:
+    - windows
+    - macos
+    - linux
+
+links:
+  - name: .itchio
+    uri: https://mdos79.itch.io/not-fursona-maker-3
+
+thumbnail: thumbnail.png
+
+screenshots:
+  - https://img.itch.zone/aW1hZ2UvMzM4OTYzOC8yMDIzNTkyMC5wbmc=/original/YMVpGM.png
+  - https://img.itch.zone/aW1hZ2UvMzM4OTYzOC8yMDIzNTkxOS5wbmc=/original/PSnTLf.png
+  - https://img.itch.zone/aW1hZ2UvMzM4OTYzOC8yMDIzNTkyMS5wbmc=/original/4qdjU5.png
+  - https://img.itch.zone/aW1hZ2UvMzM4OTYzOC8yMDIzNTkyMi5wbmc=/original/LYidiZ.png
+  - https://img.itch.zone/aW1hZ2UvMzM4OTYzOC8yMDIzNTkxOC5wbmc=/original/3y2qqD.png
