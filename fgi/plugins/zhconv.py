@@ -1,27 +1,29 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2021 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
 import os
-import yaml
+from ruamel.yaml import YAML
+from importlib.metadata import version
 
+yaml = YAML(typ="safe")
 from fgi.plugin import Plugin
-from fgi.game import GameL10n
+
 
 class ChineseConvertorPlugin(Plugin):
     def __init__(self, options):
@@ -35,10 +37,11 @@ class ChineseConvertorPlugin(Plugin):
         try:
             import opencc
 
-            self.s2tw = opencc.OpenCC('s2twp.json')
-            self.tw2s = opencc.OpenCC('tw2sp.json')
+            self.s2tw = opencc.OpenCC("s2twp.json")
+            self.tw2s = opencc.OpenCC("tw2sp.json")
 
-            self.opencc_version = opencc.__version__
+            self.opencc_version = version("opencc")
+
         except Exception as e:
             if self.critical:
                 raise e
@@ -49,13 +52,13 @@ class ChineseConvertorPlugin(Plugin):
 
     def i18n_post_ll_done(self, ll, *args, **kwargs):
         if self.drop_zh:
-            return [ l for l in ll if l != "zh-cn" and l != "zh-tw" ]
+            return [l for l in ll if l != "zh-cn" and l != "zh-tw"]
         else:
             return ll
 
     def _conv(self, gctx, game, f, t, cc):
         with open(os.path.join(gctx.dbdir, "l10n", f, game.id + ".yaml")) as stream:
-            data = yaml.safe_load(cc.convert(stream.read()))
+            data = yaml.load(cc.convert(stream.read()))
 
         game.add_l10n_data(t, data, game.tr[f].mtime)
 
@@ -70,5 +73,6 @@ class ChineseConvertorPlugin(Plugin):
 
     def post_build(self, buildinfo_file, *args, **kwargs):
         buildinfo_file.write(f"zhconv: OpenCC version: {self.opencc_version}\n")
+
 
 impl = ChineseConvertorPlugin

@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2020 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
 import re
 import os
@@ -37,12 +37,8 @@ mimemap = {
     ".webp": "image/webp",
 }
 
-mimenice = {
-    "image/webp": 10,
-    "image/jpeg": 20,
-    "image/png": 30,
-    "image/gif": 20
-}
+mimenice = {"image/webp": 10, "image/jpeg": 20, "image/png": 30, "image/gif": 20}
+
 
 class Image:
     def __init__(self, uri):
@@ -57,6 +53,7 @@ class Image:
         else:
             return rr + "/" + self.uri
 
+
 class HTMLPictureSource:
     def __init__(self, srcset, mime):
         self.srcset = srcset
@@ -64,6 +61,7 @@ class HTMLPictureSource:
 
     def __lt__(self, other):
         return mimenice[self.type] < mimenice[other.type]
+
 
 class HTMLImage:
     def __init__(self):
@@ -88,7 +86,7 @@ class HTMLImage:
         tmp.rr = rr
         return tmp
 
-    def add_source(self, source, mime, as_src = False):
+    def add_source(self, source, mime, as_src=False):
         if mime is None:
             sfx = os.path.splitext(source.uri)[1]
             if sfx in mimemap:
@@ -137,7 +135,9 @@ class HTMLImage:
             im = PIL.Image.open(image.path)
             self.set_size(*im.size)
         except:
-            print(f"[warning] can not load image '{image.path}' for setting html image size")
+            print(
+                f"[warning] can not load image '{image.path}' for setting html image size"
+            )
 
     def dict(self):
         if self.src is None:
@@ -162,8 +162,7 @@ class HTMLImage:
         hi = HTMLImage()
         hi.add_source(image, None, True)
 
-        if not image.is_remote \
-                and os.path.exists(image.path):
+        if not image.is_remote and os.path.exists(image.path):
             hi.set_size_by_image_softfail(image)
 
         if image.mtime:

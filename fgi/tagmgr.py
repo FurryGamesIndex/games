@@ -1,29 +1,29 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2020 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
 """
 FIXME: refactor this file please!
        there are too many fucking things for backward compat!!!!!
 """
 
-import sys
 from itertools import islice
+
 
 class TagManager:
     def __init__(self):
@@ -51,7 +51,7 @@ class TagManager:
     # FIXME; loaddep and tag-dependencies are deprecated.
     def loaddep(self, data):
         for ns, v in data.items():
-            if ns[0] == '_':
+            if ns[0] == "_":
                 continue
             for tag, implications in v.items():
                 self.set_tag_implication(tag, ns, implications)
@@ -67,7 +67,7 @@ class TagManager:
                 self.tagdep[ns][value] = self.closure(ns, s)
 
     def load(self, data):
-        tmp = { k: v for k, v in data.items() if k[0] != '@' }
+        tmp = {k: v for k, v in data.items() if k[0] != "@"}
 
         for k, v in tmp.items():
             for ns in v["namespaces"]:
@@ -147,14 +147,16 @@ class TagManager:
 
             def sort_tag(i):
                 if i not in self.tags[ns]:
-                    raise ValueError(f"The tag '{ns}:{i}' is not standardized. "
-                            "Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file.")
+                    raise ValueError(
+                        f"The tag '{ns}:{i}' is not standardized. "
+                        "Is it a spelling mistake? If you wish to add tags, please edit the tags.yaml file."
+                    )
                 return self.tags[ns][i]
 
             v = sorted(v, key=sort_tag)
             tags[ns] = v
 
-        for i in [ "type", "lang", "platform" ]:
+        for i in ["type", "lang", "platform"]:
             if i not in tags:
                 print("[warning] missing %s namespace for game '%s'" % (i, game_id))
 

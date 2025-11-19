@@ -1,27 +1,28 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2021 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
 from html import escape
 from bs4 import BeautifulSoup
 from markdown2 import Markdown
 
 from fgi.link import Link, uri_to_ua_uri
+
 
 class Tag:
     def __init__(self, ns, value):
@@ -32,6 +33,7 @@ class Tag:
     def from_string(string):
         tmp = string.split(":", 1)
         return Tag(tmp[0], tmp[1])
+
 
 class GameDescription:
     def __init__(self, game, data):
@@ -55,12 +57,18 @@ class GameDescription:
             # FIXME: hardcode `../..` is not good
             #        we should embed a HTMLImage object into markdown
             # FIXME: should not use the src property, webp condation will be dropped.
-            markdowner = Markdown(extras={
-                        "strike": None,
-                        "target-blank-links": None,
-                        "x-FGI-min-header-level": 2
-                    },
-                    inline_image_uri_filter = lambda uri: mfac.uri_to_html_image(uri, self.game.id).with_rr("../..").src)
+            markdowner = Markdown(
+                extras={
+                    "strike": None,
+                    "target-blank-links": None,
+                    "x-FGI-min-header-level": 2,
+                },
+                inline_image_uri_filter=lambda uri: mfac.uri_to_html_image(
+                    uri, self.game.id
+                )
+                .with_rr("../..")
+                .src,
+            )
             self.html = markdowner.convert(self.text)
             self.text = BeautifulSoup(self.html, features="html.parser").get_text()
         else:
@@ -75,6 +83,7 @@ class GameDescription:
 
         self.brief_sl = self.brief.replace("\n", " ")
         self.brief_html = escape(self.brief).replace("\n", "<br />")
+
 
 class GameL10n:
     def __init__(self, game, data, mtime):
@@ -94,8 +103,9 @@ class GameL10n:
         if "links-tr" in data:
             self.links_tr = data["links-tr"]
 
+
 class GameAuthor:
-    def __init__(self, stub = False, data = None):
+    def __init__(self, stub=False, data=None):
         self.name = None
         self.standalone = False
         self.roles = list()
@@ -122,7 +132,7 @@ class GameAuthor:
 
     @staticmethod
     def make_stub_gameauthor(name):
-        ga = GameAuthor(stub = True)
+        ga = GameAuthor(stub=True)
         ga.name = name
         return ga
 
@@ -136,7 +146,9 @@ class GameAuthor:
 
         if not self.standalone:
             if self.name not in authors:
-                print(f"[warning] non-stub author '{self.name}' referenced without defined.")
+                print(
+                    f"[warning] non-stub author '{self.name}' referenced without defined."
+                )
             else:
                 self.author = authors[self.name]
 
@@ -148,6 +160,7 @@ class GameAuthor:
             return self.author.avatar
 
         return None
+
 
 class Game:
     def __init__(self, data, gid, mtime):
@@ -164,7 +177,6 @@ class Game:
         self.name = data["name"]
         self.description = GameDescription(self, data)
 
-
         self.expunge = False
         if "expunge" in data and data["expunge"]:
             self.expunge = True
@@ -179,7 +191,7 @@ class Game:
             self.old_ids = data["old-ids"]
 
         for i in data.get("authors", []):
-            author = GameAuthor(data = i)
+            author = GameAuthor(data=i)
             self.authors.append(author)
 
         self.links_prepare = list()
@@ -199,7 +211,9 @@ class Game:
             self.thumbnail_uri = data["thumbnail"]
 
         if "sensitive_media" in data:
-            print(f"[warning] game '{self.id}' is using deprecated property 'sensitive_media'. This property will be ignored.")
+            print(
+                f"[warning] game '{self.id}' is using deprecated property 'sensitive_media'. This property will be ignored."
+            )
 
         self.sensitive_media = False
         self.auto_steam_widget = data.get("auto-steam-widget", True)
@@ -214,7 +228,9 @@ class Game:
         if self.old_ids:
             for i in self.old_ids:
                 if i in games:
-                    raise ValueError(f"Old id '{i}' of game {self.id} conflict exist game")
+                    raise ValueError(
+                        f"Old id '{i}' of game {self.id} conflict exist game"
+                    )
 
     def realize(self, tagmgr, mfac, ifac, authors, btime_data):
         self.tags = tagmgr.check_and_patch(self.orig_tags, self.id)
@@ -235,7 +251,7 @@ class Game:
             for i in self.tags.get("author", {}):
                 self.authors.append(GameAuthor.make_stub_gameauthor(i))
 
-        self.tags = dict(sorted(self.tags.items(), key=lambda x : x[0]))
+        self.tags = dict(sorted(self.tags.items(), key=lambda x: x[0]))
 
         self.description.realize(mfac)
         for ln, gl10n in self.tr.items():
@@ -265,13 +281,20 @@ class Game:
             for i in self.links:
                 if i.stock and i.name == "steam":
                     if i.uri.startswith("steam:"):
-                        swid = i.uri.split(':', 1)[1]
-                        self.media.append(mfac.create_media({
-                            "type": "steam-widget",
-                            "id": swid,
-                        }, self.id))
+                        swid = i.uri.split(":", 1)[1]
+                        self.media.append(
+                            mfac.create_media(
+                                {
+                                    "type": "steam-widget",
+                                    "id": swid,
+                                },
+                                self.id,
+                            )
+                        )
                     else:
-                        print("[warning] steam widget can not be added while not using the steam: URI.")
+                        print(
+                            "[warning] steam widget can not be added while not using the steam: URI."
+                        )
 
         for i in self.screenshots:
             media = mfac.create_media(i, self.id)
@@ -281,7 +304,9 @@ class Game:
 
         if btime_data:
             if self.id not in btime_data:
-                raise ValueError(f"Birth time of {self.id} is missing, consider rebuilding")
+                raise ValueError(
+                    f"Birth time of {self.id} is missing, consider rebuilding"
+                )
 
             self.btime = btime_data[self.id]
 
@@ -306,8 +331,7 @@ class Game:
             return self.mtime
 
     def check_tag(self, ns: str, value: str) -> bool:
-        return ns in self.tags and \
-                value in self.tags[ns]
+        return ns in self.tags and value in self.tags[ns]
 
     def has_tag(self, tag: Tag) -> bool:
         return self.check_tag(tag.ns, tag.value)

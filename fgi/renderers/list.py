@@ -1,40 +1,44 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2020 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
-import os
-import json
 from itertools import islice
 from datetime import datetime, timezone
 import email.utils
 
 from fgi.renderer import Renderer
-from fgi.base import games_g, sorted_games_by_bmtime_g, strip_games_expunge_g, sorted_games_by_btime_g, make_wrapper
+from fgi.base import (
+    games_g,
+    sorted_games_by_bmtime_g,
+    strip_games_expunge_g,
+    sorted_games_by_btime_g,
+)
 from fgi.game import Tag
+
 
 def ts_to_rfc5322(ts):
     dt = datetime.fromtimestamp(ts, tz=timezone.utc)
     return email.utils.format_datetime(dt)
 
+
 def list_games(games, chain, lowlevel_gen):
     for gid, game in lowlevel_gen(games.items()):
-        if game.expunge or \
-                game.replaced_by:
+        if game.expunge or game.replaced_by:
             continue
 
         ignored_by_filter = False
@@ -47,6 +51,7 @@ def list_games(games, chain, lowlevel_gen):
             continue
 
         yield gid, game
+
 
 class ListKlass:
     def __init__(self, nameid):
@@ -61,8 +66,9 @@ class ListKlass:
         filteR.set_klass(self)
         self.filters.append(filteR)
 
+
 class ListFilter:
-    def __init__(self, magic, nameid, template = None, sort = None):
+    def __init__(self, magic, nameid, template=None, sort=None):
         self.magic = magic
         self.nameid = nameid
         self.template = template
@@ -74,8 +80,9 @@ class ListFilter:
     def set_klass(self, klass):
         self.klass = klass
 
+
 class ListFilterTag(ListFilter):
-    def __init__(self, *args, tags = None, **kwargs):
+    def __init__(self, *args, tags=None, **kwargs):
         super().__init__(*args, **kwargs)
         self.tags = tags
 
@@ -86,8 +93,9 @@ class ListFilterTag(ListFilter):
 
         return False
 
+
 class ListFilterAllNot(ListFilter):
-    def __init__(self, *args, inputs = None, **kwargs):
+    def __init__(self, *args, inputs=None, **kwargs):
         super().__init__(*args, **kwargs)
         self.inputs = inputs
 
@@ -98,13 +106,15 @@ class ListFilterAllNot(ListFilter):
 
         return True
 
+
 def sorted_magic(magic):
-    magic = ''.join(sorted(magic))
+    magic = "".join(sorted(magic))
 
     if magic != "":
         magic = "-" + magic
 
     return magic
+
 
 class RendererList(Renderer):
     def __init__(self, *args, **kwargs):
@@ -125,32 +135,72 @@ class RendererList(Renderer):
 
         if sub_lists:
             klass_genre = ListKlass("genre")
-            klass_genre.add(ListFilter('', "genre-all"))
-            klass_genre.add(ListFilterTag('v', "genre-vn-ds", tags=[
-                Tag("type", "visual-novel"),
-                Tag("type", "dating-sim"),
-            ]))
-            klass_genre.add(ListFilterTag('a', "genre-action", tags=[
-                Tag("type", "action"),
-            ]))
-            klass_genre.add(ListFilterTag('r', "genre-rpg", tags=[
-                Tag("type", "role-playing"),
-            ]))
-            klass_genre.add(ListFilterTag('d', "genre-adventure", tags=[
-                Tag("type", "adventure"),
-            ]))
-            klass_genre.add(ListFilterTag('f', "genre-fighting", tags=[
-                Tag("type", "fighting"),
-            ]))
-            klass_genre.add(ListFilterTag('s', "genre-shooter", tags=[
-                Tag("type", "shooter"),
-            ]))
+            klass_genre.add(ListFilter("", "genre-all"))
+            klass_genre.add(
+                ListFilterTag(
+                    "v",
+                    "genre-vn-ds",
+                    tags=[
+                        Tag("type", "visual-novel"),
+                        Tag("type", "dating-sim"),
+                    ],
+                )
+            )
+            klass_genre.add(
+                ListFilterTag(
+                    "a",
+                    "genre-action",
+                    tags=[
+                        Tag("type", "action"),
+                    ],
+                )
+            )
+            klass_genre.add(
+                ListFilterTag(
+                    "r",
+                    "genre-rpg",
+                    tags=[
+                        Tag("type", "role-playing"),
+                    ],
+                )
+            )
+            klass_genre.add(
+                ListFilterTag(
+                    "d",
+                    "genre-adventure",
+                    tags=[
+                        Tag("type", "adventure"),
+                    ],
+                )
+            )
+            klass_genre.add(
+                ListFilterTag(
+                    "f",
+                    "genre-fighting",
+                    tags=[
+                        Tag("type", "fighting"),
+                    ],
+                )
+            )
+            klass_genre.add(
+                ListFilterTag(
+                    "s",
+                    "genre-shooter",
+                    tags=[
+                        Tag("type", "shooter"),
+                    ],
+                )
+            )
             """
             klass_genre.add(ListFilterTag('p', "genre-puzzle", tags=[
                 Tag("type", "puzzle"),
             ]))
             """
-            klass_genre.add(ListFilterAllNot('o', "genre-others", inputs=klass_genre.filters[1:].copy()))
+            klass_genre.add(
+                ListFilterAllNot(
+                    "o", "genre-others", inputs=klass_genre.filters[1:].copy()
+                )
+            )
 
             self.klasses.append(klass_genre)
 
@@ -206,7 +256,7 @@ class RendererList(Renderer):
             """
 
             klass_status = ListKlass("status")
-            klass_status.add(ListFilter('', "status-all"))
+            klass_status.add(ListFilter("", "status-all"))
             """
             klass_status.add(ListFilterTag('F', "status-others", tags=[
                 Tag("misc", "work-in-process"),
@@ -215,28 +265,40 @@ class RendererList(Renderer):
             ]))
             klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=klass_status.filters[1:].copy()))
             """
-            klass_status.insert(1, ListFilterAllNot('R', "status-released", inputs=[
-                ListFilterTag('F', "status-others", tags=[
-                    Tag("misc", "work-in-process"),
-                    Tag("misc", "died"),
-                    Tag("misc", "suspended"),
-                ])
-            ]))
+            klass_status.insert(
+                1,
+                ListFilterAllNot(
+                    "R",
+                    "status-released",
+                    inputs=[
+                        ListFilterTag(
+                            "F",
+                            "status-others",
+                            tags=[
+                                Tag("misc", "work-in-process"),
+                                Tag("misc", "died"),
+                                Tag("misc", "suspended"),
+                            ],
+                        )
+                    ],
+                ),
+            )
 
             self.klasses.append(klass_status)
 
         klass_order = ListKlass("order")
-        klass_order.add(ListFilter('', "order-alpha"))
+        klass_order.add(ListFilter("", "order-alpha"))
         if self.fctx.args.btime_file:
-            klass_order.add(ListFilter('b', "order-btime", sort=sorted_games_by_btime_g))
+            klass_order.add(
+                ListFilter("b", "order-btime", sort=sorted_games_by_btime_g)
+            )
         self.klasses.append(klass_order)
 
         klass_view = ListKlass("view")
-        klass_view.add(ListFilter('', "view-standard", template="list.html"))
-        klass_view.add(ListFilter('c', "view-complex", template="list-complex.html"))
+        klass_view.add(ListFilter("", "view-standard", template="list.html"))
+        klass_view.add(ListFilter("c", "view-complex", template="list-complex.html"))
 
         self.klasses.append(klass_view)
-
 
     def render(self):
         context = self.new_context()
@@ -271,7 +333,7 @@ class RendererList(Renderer):
                 magic = magic + f.magic
 
             magic = sorted_magic(magic)
-            #print(f"  => list{magic}")
+            # print(f"  => list{magic}")
 
             klassmagics = dict()
             for klass in self.klasses:
@@ -280,28 +342,37 @@ class RendererList(Renderer):
                     if f.klass is not klass:
                         klassmagics[klass] += f.magic
 
-            noindex = (magic != "")
+            noindex = magic != ""
 
             context["noindex"] = noindex
-            context['klassmagics'] = klassmagics
+            context["klassmagics"] = klassmagics
             context["chain"] = chain
             context["chain_set"] = set(chain)
             context["games"] = list_games(self.games, chain, sort)
-            with self.sm_openw(f"list{magic}.html", sm = not noindex, priority="0.6") as f:
+            with self.sm_openw(
+                f"list{magic}.html", sm=not noindex, priority="0.6"
+            ) as f:
                 f.write(self.env.get_template(template).render(context))
 
         context = self.new_context()
         if self.fctx.args.with_rss:
-            if not self.fctx.args.btime_file and \
-                    not self.fctx.args.mtime_has_fixed:
+            if not self.fctx.args.btime_file and not self.fctx.args.mtime_has_fixed:
                 raise ValueError("--with-rss need --btime-file or --mtime-has-fixed")
 
             use_btime = False
             if self.fctx.args.btime_file:
                 use_btime = True
 
-            context["games"] = islice(strip_games_expunge_g(sorted_games_by_bmtime_g(self.games.items() ,use_btime, self.language)), 50)
+            context["games"] = islice(
+                strip_games_expunge_g(
+                    sorted_games_by_bmtime_g(
+                        self.games.items(), use_btime, self.language
+                    )
+                ),
+                50,
+            )
             with open(self.getpath("feed.xml"), "w") as f:
                 f.write(self.env.get_template("rss_feed.xml").render(context))
+
 
 impl = RendererList

@@ -4,3 +4,5 @@ output-*
 extraui
 .*.swp
 .cache
+.idea
+.venv
