@@ -72,7 +72,7 @@ def __convgamesl10n(cn, tw, f, fn):
             elif data["prefer"] == "ignored":
                 pass
             else:
-                raise ValueError("unsupported cchint prefer %s" % prefer)
+                raise ValueError("unsupported cchint prefer %s" % data["prefer"])
     else:
         conv(cnf, twf)
 

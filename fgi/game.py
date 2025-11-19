@@ -64,7 +64,7 @@ class GameDescription:
             self.html = markdowner.convert(self.text)
             self.text = BeautifulSoup(self.html, features="html.parser").get_text()
         else:
-            raise ValueError(f"description format invaild: {fmt}")
+            raise ValueError(f"description format invaild: {self.fmt}")
 
         if not self.brief:
             # FIXME: split by words, not characters.

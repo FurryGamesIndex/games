@@ -110,7 +110,7 @@ def local_res_src(gctx, rr, path,
             elif mod["query_mode"] == "managed":
                 query = mod["query"]
             else:
-                raise ValueError(f"unkown query_mode: {mode['query_mode']}")
+                raise ValueError(f"unkown query_mode: {mod['query_mode']}")
 
     src = append_query(src, query)
     return src
