@@ -345,7 +345,7 @@ class Generator:
                 f"base revision: {run_cmd(['git', 'rev-parse', 'HEAD'], failback='unknown')}\n"
             )
             f.write(f"options: {' '.join(self.argv[:-1])}\n")
-            f.write(f"build datetime: {datetime.utcnow()}\n")
+            f.write(f"build datetime: {datetime.now()}\n")
             f.write(f"builder: {getpass.getuser()}@{platform.uname()[1]}\n")
             f.write("interpreter: ")
             f.write(sys.version.replace("\n", " "))
