@@ -1,30 +1,28 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2020 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
-import os
-import re
 import time
 from html import escape
 
-from fgi.base import make_wrapper
 from fgi.renderer import Renderer
 from fgi.seo import keywords
+
 
 class RendererGame(Renderer):
     def __init__(self, *args, **kwargs):
@@ -86,10 +84,13 @@ class RendererGame(Renderer):
         if self.fctx.args.mtime_has_fixed:
             td = int(time.time()) - game.get_mtime(self.language)
             if td < 0:
-                raise RuntimeError("The time difference is negative, is the system time correct?")
-            elif td >= 7776000: # 90 days * 24 * 60 * 60
-                if game.check_tag("misc", "work-in-process") or \
-                        game.check_tag("misc", "suspended"):
+                raise RuntimeError(
+                    "The time difference is negative, is the system time correct?"
+                )
+            elif td >= 7776000:  # 90 days * 24 * 60 * 60
+                if game.check_tag("misc", "work-in-process") or game.check_tag(
+                    "misc", "suspended"
+                ):
                     context["ongoing_game_edited_over_90days"] = True
 
         return self.env.get_template("game.html").render(context)
@@ -101,8 +102,14 @@ class RendererGame(Renderer):
                     with open(self.getpath("games", i + ".html"), "w") as f:
                         f.write(self.render_csr_page(f"games/{gid}.html"))
 
-            with self.sm_openw("games", gid + ".html", sm = not game.expunge,
-                    priority="0.7", lastmod_ts=game.get_mtime(self.language)) as f:
+            with self.sm_openw(
+                "games",
+                gid + ".html",
+                sm=not game.expunge,
+                priority="0.7",
+                lastmod_ts=game.get_mtime(self.language),
+            ) as f:
                 f.write(self.render_game(gid, game))
+
 
 impl = RendererGame

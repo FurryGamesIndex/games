@@ -1,25 +1,25 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2020 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
 from fgi.icon import IconFactory
 
-ua_wellknown_uri_set = { "http", "https", "ftp", "mailto" }
+ua_wellknown_uri_set = {"http", "https", "ftp", "mailto"}
 
 simple_uri_scheme_map = {
     "steam": "https://store.steampowered.com/app/%s",
@@ -37,11 +37,12 @@ simple_uri_scheme_map = {
     "FGI-misc-page": "/misc/%s.html",
 }
 
+
 def uri_to_ua_uri(uri):
-    if uri[0] == '/':
+    if uri[0] == "/":
         return uri
 
-    res = uri.split(':', 1)
+    res = uri.split(":", 1)
     if len(res) < 2:
         raise ValueError(f"Invalid URI '{uri}': missing scheme part")
 
@@ -51,9 +52,12 @@ def uri_to_ua_uri(uri):
         return uri
 
     if scheme not in simple_uri_scheme_map:
-        raise ValueError(f"URI with scheme '{scheme}' is neither UA-wellknown URI nor FGI's simple URI")
+        raise ValueError(
+            f"URI with scheme '{scheme}' is neither UA-wellknown URI nor FGI's simple URI"
+        )
 
     return simple_uri_scheme_map[scheme] % res[1]
+
 
 class Link:
     def __init__(self, data, ifac: IconFactory):
@@ -62,7 +66,7 @@ class Link:
         self.l10n_names = dict()
 
         name = data["name"]
-        if name[0] == '.':
+        if name[0] == ".":
             name = name[1:]
             self.stock = True
 
@@ -102,7 +106,7 @@ class Link:
         content = self.icon + "<span>" + name + "</span>"
 
         href = self.href
-        if href.startswith('/'):
+        if href.startswith("/"):
             if not rr:
                 raise ValueError("rr is required for in-site links")
 

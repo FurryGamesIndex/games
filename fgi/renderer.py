@@ -1,26 +1,27 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2020 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
 import os
 
+
 class Renderer:
-    def __init__(self, fctx, lctx, nonl10n = False):
+    def __init__(self, fctx, lctx, nonl10n=False):
         self.fctx = fctx
         self.nonl10n = nonl10n
 
@@ -31,7 +32,7 @@ class Renderer:
             self.basectx["lang"] = "en"
         else:
             self.language = lctx["lang"]
-            langtag = self.language.split('-')
+            langtag = self.language.split("-")
 
             self.lang_without_region = langtag[0]
             self.basectx["lang_without_region"] = self.lang_without_region
@@ -64,7 +65,7 @@ class Renderer:
 
         return path
 
-    def sm_openw(self, *fn, sm = True, **kwargs):
+    def sm_openw(self, *fn, sm=True, **kwargs):
         if sm:
             self.fctx.sitemap.add_entry(self.getpath_sm(*fn), **kwargs)
         return open(self.getpath(*fn), "w")

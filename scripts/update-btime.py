@@ -15,15 +15,17 @@ freezed_fixes = {
     "Once_Upon_a_Breeze": 1592026205,
 }
 
+
 def get_btime_from_git(fn):
-    cmd = [ "git", "log", "--diff-filter=A", "--follow", "--format=%ct", "-1", "--", fn ]
-    btime_str = subprocess.check_output(cmd).decode('utf-8').rstrip()
+    cmd = ["git", "log", "--diff-filter=A", "--follow", "--format=%ct", "-1", "--", fn]
+    btime_str = subprocess.check_output(cmd).decode("utf-8").rstrip()
     btime = int(btime_str)
 
     if btime == 0:
         raise ValueError("birth time is zero!")
 
     return btime
+
 
 if len(sys.argv) < 3:
     print(f"usage: {sys.argv[0]} <games dir> <output filename>")

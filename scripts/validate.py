@@ -4,13 +4,15 @@
 # usage: <schema file> <yaml file to validate>
 
 from jsonschema import validate
-import yaml
+from ruamel.yaml import YAML
+
+yaml = YAML(typ="safe")
 import sys
 
 with open(sys.argv[1]) as f:
-    schema = yaml.safe_load(f)
+    schema = yaml.load(f)
 
 with open(sys.argv[2]) as f:
-    instance = yaml.safe_load(f)
+    instance = yaml.load(f)
 
 validate(instance, schema)

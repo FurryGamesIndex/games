@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2020 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
 import os
 import json
@@ -27,9 +27,11 @@ from fgi.image import HTMLImage, Image
 from fgi.utils.webutils import dl
 from fgi.utils import webp
 
+
 class HTMLBaseMedia:
     def __init__(self):
         self.sensitive = False
+
 
 class HTMLMiscellaneousMedia(HTMLBaseMedia):
     def __init__(self, outerHTML, sensitive):
@@ -39,10 +41,11 @@ class HTMLMiscellaneousMedia(HTMLBaseMedia):
 
     def dom(self, rr, **kwargs):
         if self.sensitive:
-            data = base64.b64encode(self.outerHTML.encode('utf-8')).decode()
+            data = base64.b64encode(self.outerHTML.encode("utf-8")).decode()
             return f'<script type="text/x-FGI-sensitive-media-misc">{data}</script>'
         else:
             return self.outerHTML
+
 
 class HTMLImageMedia(HTMLBaseMedia):
     def __init__(self, hi, sensitive):
@@ -52,13 +55,16 @@ class HTMLImageMedia(HTMLBaseMedia):
 
     def dom(self, rr, alt=None, **kwargs):
         if self.sensitive:
-            data = base64.b64encode(json.dumps({
-                "type": "image",
-                "data": self.hi.with_rr(rr).dict()
-            }, separators=(',', ':')).encode('utf-8')).decode()
+            data = base64.b64encode(
+                json.dumps(
+                    {"type": "image", "data": self.hi.with_rr(rr).dict()},
+                    separators=(",", ":"),
+                ).encode("utf-8")
+            ).decode()
             return f'<script type="text/x-FGI-sensitive-media">{data}</script>'
         else:
             return self.hi.with_rr(rr).html(alt=alt)
+
 
 class HTMLSteamWidgetMedia(HTMLBaseMedia):
     def __init__(self, swid):
@@ -67,8 +73,9 @@ class HTMLSteamWidgetMedia(HTMLBaseMedia):
 
     def dom(self, rr, **kwargs):
         html = f'<iframe sandbox="allow-popups allow-popups-to-escape-sandbox allow-scripts allow-forms allow-same-origin" src="https://store.steampowered.com/widget/{self.id}/" frameborder="0" width="100%" height="190"></iframe>'
-        data = base64.b64encode(html.encode('utf-8')).decode()
+        data = base64.b64encode(html.encode("utf-8")).decode()
         return f'<script type="text/x-FGI-steam-widget">{data}</script>'
+
 
 class FGIHBoxMedia(HTMLBaseMedia):
     def __init__(self, tree):
@@ -79,13 +86,16 @@ class FGIHBoxMedia(HTMLBaseMedia):
         data = '<div class="hbox">'
         for i in self.tree:
             data += i.dom(rr, **kwargs)
-        return data + '</div>'
+        return data + "</div>"
+
 
 class MediaFactory:
     def __init__(self, fctx):
         self.fctx = fctx
 
-        self.hi_fallback_thumbnail = self.uri_to_html_image("thumbnail-fallback.png", "_prelude")
+        self.hi_fallback_thumbnail = self.uri_to_html_image(
+            "thumbnail-fallback.png", "_prelude"
+        )
 
     def uri_to_html_image(self, imageuri, gameid):
         image = Image(imageuri)
@@ -98,7 +108,9 @@ class MediaFactory:
 
                 if not os.path.isfile(image.path):
                     if self.fctx.args.use_external_images_cache is not None:
-                        cached_image = os.path.join(self.fctx.args.use_external_images_cache, path)
+                        cached_image = os.path.join(
+                            self.fctx.args.use_external_images_cache, path
+                        )
                         if os.path.isfile(cached_image):
                             copyfile(cached_image, image.path)
                         else:
@@ -117,15 +129,17 @@ class MediaFactory:
                 image.mtime = os.path.getmtime(image.path)
             image.uri = path
 
-        self.fctx.pmgr.invoke_plugins("image_pre_html_image_construct",
-            image, origin_uri = imageuri, gameid = gameid)
+        self.fctx.pmgr.invoke_plugins(
+            "image_pre_html_image_construct", image, origin_uri=imageuri, gameid=gameid
+        )
 
         path = image.path
 
-        if self.fctx.args.images_to_webp \
-                and not image.is_remote \
-                and webp.can_convert(path):
-
+        if (
+            self.fctx.args.images_to_webp
+            and not image.is_remote
+            and webp.can_convert(path)
+        ):
             image.uri += ".webp"
             image.path += ".webp"
 
@@ -139,10 +153,12 @@ class MediaFactory:
 
         hi = HTMLImage.from_image(image)
 
-        if self.fctx.args.images_candidate_webp \
-                and not image.is_remote \
-                and webp.can_convert(path) \
-                and os.path.exists(path):
+        if (
+            self.fctx.args.images_candidate_webp
+            and not image.is_remote
+            and webp.can_convert(path)
+            and os.path.exists(path)
+        ):
             webpfn = image.path + ".webp"
 
             if not os.path.exists(webpfn):
@@ -152,12 +168,12 @@ class MediaFactory:
             wpi.path = webpfn
             hi.add_source(wpi, "image/webp", False)
 
-        self.fctx.pmgr.invoke_plugins("image_post_html_image_done",
-            hi, origin_uri = imageuri, gameid = gameid)
+        self.fctx.pmgr.invoke_plugins(
+            "image_post_html_image_done", hi, origin_uri=imageuri, gameid=gameid
+        )
         return hi
 
-
-    def _create_image_media(self, uri, gameid, sensitive = False):
+    def _create_image_media(self, uri, gameid, sensitive=False):
         hi = self.uri_to_html_image(uri, gameid)
         return HTMLImageMedia(hi, sensitive)
 
@@ -190,7 +206,10 @@ class MediaFactory:
                 videoid = media["id"]
             else:
                 videoid = media["uri"].split(":")[1]
-            return HTMLMiscellaneousMedia(f'<iframe width="100%%" height="342" src="https://www.youtube.com/embed/{videoid}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', sensitive)
+            return HTMLMiscellaneousMedia(
+                f'<iframe width="100%%" height="342" src="https://www.youtube.com/embed/{videoid}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
+                sensitive,
+            )
 
         elif mtype == "video":
             elm = '<video controls width="100%">'

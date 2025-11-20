@@ -1,21 +1,21 @@
 # -*- coding: utf-8 -*-
 
-# 
+#
 # Copyright (C) 2020 Utopic Panther
-# 
+#
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-# 
+#
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 # GNU General Public License for more details.
-# 
+#
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# 
+#
 
 import os
 import re
@@ -23,8 +23,10 @@ import shutil
 from urllib.parse import quote
 from fgi.plugin import Plugin
 
+
 def remove_path_rr_parents(path):
-    return re.sub(r'^[./]*', '', path)
+    return re.sub(r"^[./]*", "", path)
+
 
 class ChinaOptimizePlugin(Plugin):
     def __init__(self, options):
@@ -76,11 +78,15 @@ Recommend build arguments:
             f.write("[build.processing]\n")
             f.write("  skip_processing = true\n")
         with open(os.path.join(output, "zh-cn", "sensitive.html"), "w") as f:
-            f.write("<html><head><meta charset='utf-8'></head><body>我们非常抱歉，但是此镜像已启用审查，以避免产生法律问题。如果要修改此页面上的首选项，请使用我们的<a href='https://furrygames.top'>主站点（https://furrygames.top）</a>。</body></html>\n")
+            f.write(
+                "<html><head><meta charset='utf-8'></head><body>我们非常抱歉，但是此镜像已启用审查，以避免产生法律问题。如果要修改此页面上的首选项，请使用我们的<a href='https://furrygames.top'>主站点（https://furrygames.top）</a>。</body></html>\n"
+            )
 
         buildinfo_file.write(f"cn-optimize: gh pages repo hash is {self.rev}\n")
 
-    def html_local_res_src(self, mod, rr = None, src = None, path = None, query = None, *args, **kwargs):
+    def html_local_res_src(
+        self, mod, rr=None, src=None, path=None, query=None, *args, **kwargs
+    ):
         if not mod:
             src = "/" + remove_path_rr_parents(src)
 
@@ -93,12 +99,15 @@ Recommend build arguments:
             # We must specify git rev in the jsdelivr URI. Because jsdelivr
             # may have cache timeliness issues. If it is cached by the
             # service worker when the jsdelivr is not refreshed, it is a fatal.
-            if src == "/scripts/searchdb.json" or \
-                    src == "/scripts/searchdb_offline.js":
+            if src == "/scripts/searchdb.json" or src == "/scripts/searchdb_offline.js":
                 return mod
 
             mod = dict()
-            mod["src"] = "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@" + self.rev + src
+            mod["src"] = (
+                "https://cdn.jsdelivr.net/gh/FurryGamesIndex/FurryGamesIndex.github.io@"
+                + self.rev
+                + src
+            )
             mod["query_mode"] = "managed"
 
             mquery = dict()
@@ -125,5 +134,6 @@ Recommend build arguments:
 
         if modified:
             hi.query["cors"] = "1"
+
 
 impl = ChinaOptimizePlugin
