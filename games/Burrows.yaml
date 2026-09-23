@@ -49,6 +49,8 @@ links:
     uri: patreon:burrowsvn
   - name: .unofficial-version-zh
     uri: FGI-misc-page:Burrows-unofficial-l10n-zh-redir
+  - name: .unofficial-patch-zh
+    uri: FGI-misc-page:Burrows-unofficial-l10n-zh-redir-New_Bit
 
 thumbnail: thumbnail.jpg
 
