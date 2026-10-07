@@ -22,11 +22,18 @@ tags:
     - visual-novel
     - bara
     - yiff
-  species: 
+  species:
+    - tiger
     - pig
     - bear
-    - tiger
     - shark
+    - cattle
+    - dragon
+    - hyena
+    - rhino
+    - lion
+    - wolf
+    - goat
   fetish:
     - males-only
     - muscle
@@ -46,16 +53,21 @@ tags:
     - windows
     - macos
     - android
+    - web
 
 links:
+  - name: .website
+    uri: https://pirahus.com/
   - name: .itch.io
     uri: https://nonohomocircle.itch.io/pirahus
   - name: .patreon
     uri: patreon:nonohomo
   - name: 爱发电
-    uri: https://afdian.net/a/pirahus
+    uri: https://afdian.com/a/pirahus
   - name: .twitter
     uri: twitter:NonohomoC
+  - name: .discord
+    uri: https://discord.gg/Vu46jmQn3D
 
 thumbnail: thumbnail.jpg
 
